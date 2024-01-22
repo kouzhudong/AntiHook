@@ -1,0 +1,6 @@
+C:\Users\Administrator>C:\Users\Administrator\Desktop\bin\AntiHook.exe EnumThreadNotifyRoutine
+index:1, address:FFFFF8032684DE00, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys.
+index:2, address:FFFFF8032686C660, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys.
+index:3, address:FFFFF80339981010, FullPathName:\SystemRoot\system32\drivers\mmcss.sys.
+
+C:\Users\Administrator>

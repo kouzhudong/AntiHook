@@ -1,0 +1,5 @@
+C:\Users\Administrator>C:\Users\Administrator\Desktop\bin\AntiHook.exe EnumLoadImageNotifyRoutine
+index:1, address:FFFFF80326893370, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys.
+index:2, address:FFFFF8032A39E550, FullPathName:\SystemRoot\system32\DRIVERS\ahcache.sys.
+
+C:\Users\Administrator>

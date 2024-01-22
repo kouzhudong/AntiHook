@@ -1,0 +1,226 @@
+C:\Users\Administrator>C:\Users\Administrator\Desktop\bin\AntiHook.exe EnumTypeObject
+numbers:36
+
+Index:1
+Name:Desktop
+OpenProcedure       :FFFFF803213394A0, ProcedureName:ExpWin32OpenProcedure, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+CloseProcedure      :FFFFF8032133B020, ProcedureName:ExpWin32CloseProcedure, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+DeleteProcedure     :FFFFF8032134E450, ProcedureName:ExpWin32DeleteProcedure, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+SecurityProcedure   :FFFFF803213929A0, ProcedureName:SeDefaultObjectMethod, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+OkayToCloseProcedure:FFFFF8032133A8E0, ProcedureName:ExpWin32OkayToCloseProcedure, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+
+Index:2
+Name:EnergyTracker
+CloseProcedure      :FFFFF80321599D50, ProcedureName:PopEtEnergyTrackerClose, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+DeleteProcedure     :FFFFF80321599D90, ProcedureName:PopEtEnergyTrackerDelete, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+SecurityProcedure   :FFFFF803213929A0, ProcedureName:SeDefaultObjectMethod, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+
+Index:3
+Name:VRegConfigurationContext
+DeleteProcedure     :FFFFF803213F3F00, ProcedureName:VrpJobContextDelete, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+SecurityProcedure   :FFFFF803213929A0, ProcedureName:SeDefaultObjectMethod, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+
+Index:4
+Name:Adapter
+SecurityProcedure   :FFFFF803213929A0, ProcedureName:SeDefaultObjectMethod, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+
+Index:5
+Name:NdisCmState
+DeleteProcedure     :FFFFF80326BF8EB0, ProcedureName:ndisCmDeleteStateObject, FullPathName:\SystemRoot\system32\drivers\ndis.sys
+SecurityProcedure   :FFFFF803213929A0, ProcedureName:SeDefaultObjectMethod, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+
+Index:6
+Name:PcwObject
+OpenProcedure       :FFFFF80326309410, FullPathName:\SystemRoot\System32\drivers\pcw.sys
+CloseProcedure      :FFFFF80326309360, FullPathName:\SystemRoot\System32\drivers\pcw.sys
+DeleteProcedure     :FFFFF803263093D0, FullPathName:\SystemRoot\System32\drivers\pcw.sys
+SecurityProcedure   :FFFFF803213929A0, ProcedureName:SeDefaultObjectMethod, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+
+Index:7
+Name:DmaAdapter
+DeleteProcedure     :FFFFF803211123A0, ProcedureName:HalpDmaFreeChildAdapter, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+SecurityProcedure   :FFFFF803213929A0, ProcedureName:SeDefaultObjectMethod, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+
+Index:8
+Name:DxgkSharedBundleObject
+OpenProcedure       :FFFFF8032AE88900, FullPathName:\SystemRoot\System32\drivers\dxgkrnl.sys
+DeleteProcedure     :FFFFF8032AFBB940, FullPathName:\SystemRoot\System32\drivers\dxgkrnl.sys
+SecurityProcedure   :FFFFF803213929A0, ProcedureName:SeDefaultObjectMethod, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+
+Index:9
+Name:Session
+DeleteProcedure     :FFFFF8032156D6D0, ProcedureName:MiSessionObjectDelete, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+SecurityProcedure   :FFFFF803213929A0, ProcedureName:SeDefaultObjectMethod, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+
+Index:10
+Name:RawInputManager
+OpenProcedure       :FFFFF803213394A0, ProcedureName:ExpWin32OpenProcedure, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+CloseProcedure      :FFFFF8032133B020, ProcedureName:ExpWin32CloseProcedure, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+DeleteProcedure     :FFFFF8032134E450, ProcedureName:ExpWin32DeleteProcedure, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+SecurityProcedure   :FFFFF803213929A0, ProcedureName:SeDefaultObjectMethod, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+OkayToCloseProcedure:FFFFF8032133A8E0, ProcedureName:ExpWin32OkayToCloseProcedure, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+
+Index:11
+Name:DxgkSharedProtectedSessionObject
+OpenProcedure       :FFFFF8032AE88900, FullPathName:\SystemRoot\System32\drivers\dxgkrnl.sys
+DeleteProcedure     :FFFFF8032AFBBAB0, FullPathName:\SystemRoot\System32\drivers\dxgkrnl.sys
+SecurityProcedure   :FFFFF803213929A0, ProcedureName:SeDefaultObjectMethod, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+
+Index:12
+Name:DxgkSharedSyncObject
+OpenProcedure       :FFFFF8032AE88900, FullPathName:\SystemRoot\System32\drivers\dxgkrnl.sys
+DeleteProcedure     :FFFFF8032AE87E90, FullPathName:\SystemRoot\System32\drivers\dxgkrnl.sys
+SecurityProcedure   :FFFFF803213929A0, ProcedureName:SeDefaultObjectMethod, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+
+Index:13
+Name:WindowStation
+OpenProcedure       :FFFFF803213394A0, ProcedureName:ExpWin32OpenProcedure, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+CloseProcedure      :FFFFF8032133B020, ProcedureName:ExpWin32CloseProcedure, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+DeleteProcedure     :FFFFF8032134E450, ProcedureName:ExpWin32DeleteProcedure, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+ParseProcedure      :FFFFF80321346CB0, ProcedureName:ExpWin32ParseProcedure, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+SecurityProcedure   :FFFFF803213929A0, ProcedureName:SeDefaultObjectMethod, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+OkayToCloseProcedure:FFFFF8032133A8E0, ProcedureName:ExpWin32OkayToCloseProcedure, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+
+Index:14
+Name:IoRing
+CloseProcedure      :FFFFF80321256BA0, ProcedureName:IopCloseIoRing, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+DeleteProcedure     :FFFFF80321537AD0, ProcedureName:IopDeleteIoRing, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+SecurityProcedure   :FFFFF803213929A0, ProcedureName:SeDefaultObjectMethod, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+
+Index:15
+Name:DxgkSharedKeyedMutexObject
+OpenProcedure       :FFFFF8032AE88900, FullPathName:\SystemRoot\System32\drivers\dxgkrnl.sys
+DeleteProcedure     :FFFFF8032AFBBA10, FullPathName:\SystemRoot\System32\drivers\dxgkrnl.sys
+SecurityProcedure   :FFFFF803213929A0, ProcedureName:SeDefaultObjectMethod, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+
+Index:16
+Name:ActivationObject
+OpenProcedure       :FFFFF803213394A0, ProcedureName:ExpWin32OpenProcedure, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+CloseProcedure      :FFFFF8032133B020, ProcedureName:ExpWin32CloseProcedure, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+DeleteProcedure     :FFFFF8032134E450, ProcedureName:ExpWin32DeleteProcedure, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+SecurityProcedure   :FFFFF803213929A0, ProcedureName:SeDefaultObjectMethod, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+OkayToCloseProcedure:FFFFF8032133A8E0, ProcedureName:ExpWin32OkayToCloseProcedure, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+
+Index:17
+Name:EtwConsumer
+OpenProcedure       :FFFFF8032133C2C0, ProcedureName:EtwpOpenRealTimeConnectionObject, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+CloseProcedure      :FFFFF803212E9760, ProcedureName:EtwpCloseRealTimeConnectionObject, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+DeleteProcedure     :FFFFF80321365020, ProcedureName:EtwpDeleteRealTimeConnectionObject, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+SecurityProcedure   :FFFFF803213929A0, ProcedureName:SeDefaultObjectMethod, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+
+Index:18
+Name:CoverageSampler
+CloseProcedure      :FFFFF803215F2140, ProcedureName:EtwpCoverageSamplerClose, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+DeleteProcedure     :FFFFF803215F2210, ProcedureName:EtwpCoverageSamplerDelete, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+SecurityProcedure   :FFFFF803213929A0, ProcedureName:SeDefaultObjectMethod, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+
+Index:19
+Name:EtwSessionDemuxEntry
+OpenProcedure       :FFFFF8032133C2C0, ProcedureName:EtwpOpenRealTimeConnectionObject, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+DeleteProcedure     :FFFFF803215EB300, ProcedureName:EtwpDeleteSessionDemuxObject, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+SecurityProcedure   :FFFFF803213929A0, ProcedureName:SeDefaultObjectMethod, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+
+Index:20
+Name:TmTx
+CloseProcedure      :FFFFF803205C6AE0, FullPathName:\SystemRoot\System32\drivers\tm.sys
+DeleteProcedure     :FFFFF803205C6B10, FullPathName:\SystemRoot\System32\drivers\tm.sys
+SecurityProcedure   :FFFFF803213929A0, ProcedureName:SeDefaultObjectMethod, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+
+Index:21
+Name:FilterConnectionPort
+CloseProcedure      :FFFFF80325BE9FC0, FullPathName:\SystemRoot\System32\drivers\FLTMGR.SYS
+DeleteProcedure     :FFFFF80325BEA050, FullPathName:\SystemRoot\System32\drivers\FLTMGR.SYS
+SecurityProcedure   :FFFFF803213929A0, ProcedureName:SeDefaultObjectMethod, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+
+Index:22
+Name:Key
+CloseProcedure      :FFFFF8032126E7E0, ProcedureName:CmpCloseKeyObject, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+DeleteProcedure     :FFFFF8032127CDA0, ProcedureName:CmpDeleteKeyObject, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+ParseProcedure      :FFFFF8032128CC10, ProcedureName:CmpParseKey, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+SecurityProcedure   :FFFFF80321279540, ProcedureName:CmpSecurityMethod, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+QueryNameProcedure  :FFFFF8032127AA80, ProcedureName:CmpQueryKeyName, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+
+Index:23
+Name:KeyedEvent
+SecurityProcedure   :FFFFF803213929A0, ProcedureName:SeDefaultObjectMethod, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+
+Index:24
+Name:WaitCompletionPacket
+CloseProcedure      :FFFFF80320EDB8C0, ProcedureName:IopCloseWaitCompletionPacket, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+SecurityProcedure   :FFFFF803213929A0, ProcedureName:SeDefaultObjectMethod, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+
+Index:25
+Name:UserApcReserve
+SecurityProcedure   :FFFFF803213929A0, ProcedureName:SeDefaultObjectMethod, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+
+Index:26
+Name:DxgkDisplayManagerObject
+OpenProcedure       :FFFFF8032AE88900, FullPathName:\SystemRoot\System32\drivers\dxgkrnl.sys
+DeleteProcedure     :FFFFF8032AE7E620, FullPathName:\SystemRoot\System32\drivers\dxgkrnl.sys
+SecurityProcedure   :FFFFF803213929A0, ProcedureName:SeDefaultObjectMethod, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+
+Index:27
+Name:DxgkSharedSwapChainObject
+OpenProcedure       :FFFFF8032AE88900, FullPathName:\SystemRoot\System32\drivers\dxgkrnl.sys
+CloseProcedure      :FFFFF8032AFECCE0, FullPathName:\SystemRoot\System32\drivers\dxgkrnl.sys
+DeleteProcedure     :FFFFF8032AFECD30, FullPathName:\SystemRoot\System32\drivers\dxgkrnl.sys
+SecurityProcedure   :FFFFF803213929A0, ProcedureName:SeDefaultObjectMethod, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+
+Index:28
+Name:Controller
+SecurityProcedure   :FFFFF803213929A0, ProcedureName:SeDefaultObjectMethod, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+
+Index:29
+Name:Device
+DeleteProcedure     :FFFFF80321373420, ProcedureName:IopDeleteDevice, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+ParseProcedure      :FFFFF8032129A940, ProcedureName:IopParseDevice, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+SecurityProcedure   :FFFFF80321274910, ProcedureName:IopGetSetSecurityObject, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+
+Index:30
+Name:ThreadStateChange
+DeleteProcedure     :FFFFF803215AF080, ProcedureName:PspDeleteThreadStateChange, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+SecurityProcedure   :FFFFF803213929A0, ProcedureName:SeDefaultObjectMethod, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+
+Index:31
+Name:Section
+OpenProcedure       :FFFFF803213BEA00, ProcedureName:MiSectionOpen, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+CloseProcedure      :FFFFF803213BE110, ProcedureName:MiSectionClose, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+DeleteProcedure     :FFFFF803213BDEF0, ProcedureName:MiSectionDelete, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+SecurityProcedure   :FFFFF803213929A0, ProcedureName:SeDefaultObjectMethod, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+
+Index:32
+Name:TmEn
+CloseProcedure      :FFFFF803205C4D40, FullPathName:\SystemRoot\System32\drivers\tm.sys
+DeleteProcedure     :FFFFF803205C4E90, FullPathName:\SystemRoot\System32\drivers\tm.sys
+SecurityProcedure   :FFFFF803213929A0, ProcedureName:SeDefaultObjectMethod, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+
+Index:33
+Name:DxgkCompositionObject
+OpenProcedure       :FFFFF8032ACB7FB0, FullPathName:\SystemRoot\System32\drivers\dxgkrnl.sys
+CloseProcedure      :FFFFF8032ACB8DE0, FullPathName:\SystemRoot\System32\drivers\dxgkrnl.sys
+DeleteProcedure     :FFFFF8032ACBC630, FullPathName:\SystemRoot\System32\drivers\dxgkrnl.sys
+SecurityProcedure   :FFFFF803213929A0, ProcedureName:SeDefaultObjectMethod, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+OkayToCloseProcedure:FFFFF8032ACB8440, FullPathName:\SystemRoot\System32\drivers\dxgkrnl.sys
+
+Index:34
+Name:FilterCommunicationPort
+CloseProcedure      :FFFFF80325BD61A0, FullPathName:\SystemRoot\System32\drivers\FLTMGR.SYS
+DeleteProcedure     :FFFFF80325BD6390, FullPathName:\SystemRoot\System32\drivers\FLTMGR.SYS
+SecurityProcedure   :FFFFF803213929A0, ProcedureName:SeDefaultObjectMethod, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+
+Index:35
+Name:TmRm
+OpenProcedure       :FFFFF803205BF890, FullPathName:\SystemRoot\System32\drivers\tm.sys
+CloseProcedure      :FFFFF803205BF5D0, FullPathName:\SystemRoot\System32\drivers\tm.sys
+DeleteProcedure     :FFFFF803205BF760, FullPathName:\SystemRoot\System32\drivers\tm.sys
+SecurityProcedure   :FFFFF803213929A0, ProcedureName:SeDefaultObjectMethod, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+
+Index:36
+Name:ALPC Port
+OpenProcedure       :FFFFF80321335A00, ProcedureName:AlpcpOpenPort, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+CloseProcedure      :FFFFF803212DA6E0, ProcedureName:AlpcpClosePort, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+DeleteProcedure     :FFFFF803212DA450, ProcedureName:AlpcpDeletePort, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+SecurityProcedure   :FFFFF803213929A0, ProcedureName:SeDefaultObjectMethod, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+
+
+C:\Users\Administrator>

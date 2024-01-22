@@ -1,0 +1,12 @@
+C:\Users\Administrator>C:\Users\Administrator\Desktop\bin\AntiHook.exe EnumIoTimer
+index:1.
+Timer:FFFFF80321847148.
+Type:0.
+TimerFlag:0.
+TimerRoutine:FFFFF80321847160.
+Context:FFFFF80321847160.
+DeviceObject:0000000000000000.
+DeviceName:.
+
+
+C:\Users\Administrator>

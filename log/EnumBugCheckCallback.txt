@@ -1,0 +1,1784 @@
+C:\Users\Administrator>C:\Users\Administrator\Desktop\bin\AntiHook.exe EnumBugCheckCallback
+numbers:254
+
+Index:1
+CallbackRoutine:FFFFF8032725CA10, FullPathName:\SystemRoot\System32\DRIVERS\fvevol.sys
+Buffer:FFFF958F27909010
+Length:10008
+Component:FFFFF80327274160
+Checksum:ffff859575ddc298
+State:1
+
+Index:2
+CallbackRoutine:FFFFF80325F30EC0, FullPathName:\SystemRoot\system32\drivers\Wdf01000.sys
+Reason:2
+Component:FFFF958F29A67F80
+Checksum:ffff8d924f998e42
+State:1
+
+Index:3
+CallbackRoutine:FFFFF80325F30EC0, FullPathName:\SystemRoot\system32\drivers\Wdf01000.sys
+Reason:2
+Component:FFFF958F2840D8B0
+Checksum:ffff8d924e33e772
+State:1
+
+Index:4
+CallbackRoutine:FFFFF80325F30EC0, FullPathName:\SystemRoot\system32\drivers\Wdf01000.sys
+Reason:2
+Component:FFFF958F283F0460
+Checksum:ffff8d924e321322
+State:1
+
+Index:5
+CallbackRoutine:FFFFF80325FE3350, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F296B5298
+Checksum:ffff8d924f6985ea
+State:1
+
+Index:6
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F296B5298
+Checksum:ffff8d924f69863a
+State:1
+
+Index:7
+CallbackRoutine:FFFFF80325FE3350, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F296B4798
+Checksum:ffff8d924f697aea
+State:1
+
+Index:8
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F296B4798
+Checksum:ffff8d924f697b3a
+State:1
+
+Index:9
+CallbackRoutine:FFFFF80327EEAFD0, FullPathName:\SystemRoot\System32\Drivers\crashdmp.sys
+Reason:2
+Component:FFFFF80327EF30D0
+Checksum:fffff0064fdde0a2
+State:1
+
+Index:10
+CallbackRoutine:FFFFF80327EE51C0, FullPathName:\SystemRoot\System32\Drivers\crashdmp.sys
+Reason:2
+Component:FFFFF80327EF30E0
+Checksum:fffff0064fdd82a2
+State:1
+
+Index:11
+CallbackRoutine:FFFFF80327EE5350, FullPathName:\SystemRoot\System32\Drivers\crashdmp.sys
+Reason:2
+Component:FFFFF80327EF30D0
+Checksum:fffff0064fdd8422
+State:1
+
+Index:12
+CallbackRoutine:FFFFF80325FE3350, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF80B8
+Checksum:ffff8d924dddb40a
+State:1
+
+Index:13
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF80B8
+Checksum:ffff8d924dddb45a
+State:1
+
+Index:14
+CallbackRoutine:FFFFF80325FE3350, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF9EF8
+Checksum:ffff8d924dddd24a
+State:1
+
+Index:15
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF9EF8
+Checksum:ffff8d924dddd29a
+State:1
+
+Index:16
+CallbackRoutine:FFFFF80325F30EC0, FullPathName:\SystemRoot\system32\drivers\Wdf01000.sys
+Reason:2
+Component:FFFF958F281EC460
+Checksum:ffff8d924e11d322
+State:1
+
+Index:17
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF88F8
+Checksum:ffff8d924dddbc9a
+State:1
+
+Index:18
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF88F8
+Checksum:ffff8d924dddbc9a
+State:1
+
+Index:19
+CallbackRoutine:FFFFF80325FE3350, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF88F8
+Checksum:ffff8d924dddbc4a
+State:1
+
+Index:20
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF93F8
+Checksum:ffff8d924dddc79a
+State:1
+
+Index:21
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF93F8
+Checksum:ffff8d924dddc79a
+State:1
+
+Index:22
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF93F8
+Checksum:ffff8d924dddc79a
+State:1
+
+Index:23
+CallbackRoutine:FFFFF80325FE3350, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF93F8
+Checksum:ffff8d924dddc74a
+State:1
+
+Index:24
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF9818
+Checksum:ffff8d924dddcbba
+State:1
+
+Index:25
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF9818
+Checksum:ffff8d924dddcbba
+State:1
+
+Index:26
+CallbackRoutine:FFFFF80325FE3350, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF9818
+Checksum:ffff8d924dddcb6a
+State:1
+
+Index:27
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF8798
+Checksum:ffff8d924dddbb3a
+State:1
+
+Index:28
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF8798
+Checksum:ffff8d924dddbb3a
+State:1
+
+Index:29
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF8798
+Checksum:ffff8d924dddbb3a
+State:1
+
+Index:30
+CallbackRoutine:FFFFF80325FE3350, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF8798
+Checksum:ffff8d924dddbaea
+State:1
+
+Index:31
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF84D8
+Checksum:ffff8d924dddb87a
+State:1
+
+Index:32
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF84D8
+Checksum:ffff8d924dddb87a
+State:1
+
+Index:33
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF84D8
+Checksum:ffff8d924dddb87a
+State:1
+
+Index:34
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF84D8
+Checksum:ffff8d924dddb87a
+State:1
+
+Index:35
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF8378
+Checksum:ffff8d924dddb71a
+State:1
+
+Index:36
+CallbackRoutine:FFFFF80325F30EC0, FullPathName:\SystemRoot\system32\drivers\Wdf01000.sys
+Reason:2
+Component:FFFF958F27DC8F80
+Checksum:ffff8d924dcf9e42
+State:1
+
+Index:37
+CallbackRoutine:FFFFF80325FE3350, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF8378
+Checksum:ffff8d924dddb6ca
+State:1
+
+Index:38
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF8378
+Checksum:ffff8d924dddb71a
+State:1
+
+Index:39
+CallbackRoutine:FFFFF80325F30EC0, FullPathName:\SystemRoot\system32\drivers\Wdf01000.sys
+Reason:2
+Component:FFFF958F27DC7F80
+Checksum:ffff8d924dcf8e42
+State:1
+
+Index:40
+CallbackRoutine:FFFFF80325FE3350, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF84D8
+Checksum:ffff8d924dddb82a
+State:1
+
+Index:41
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF84D8
+Checksum:ffff8d924dddb87a
+State:1
+
+Index:42
+CallbackRoutine:FFFFF80325FE3350, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF96B8
+Checksum:ffff8d924dddca0a
+State:1
+
+Index:43
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF96B8
+Checksum:ffff8d924dddca5a
+State:1
+
+Index:44
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF9AD8
+Checksum:ffff8d924dddce7a
+State:1
+
+Index:45
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF9AD8
+Checksum:ffff8d924dddce7a
+State:1
+
+Index:46
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF9AD8
+Checksum:ffff8d924dddce7a
+State:1
+
+Index:47
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF9AD8
+Checksum:ffff8d924dddce7a
+State:1
+
+Index:48
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF9AD8
+Checksum:ffff8d924dddce7a
+State:1
+
+Index:49
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF9AD8
+Checksum:ffff8d924dddce7a
+State:1
+
+Index:50
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF9AD8
+Checksum:ffff8d924dddce7a
+State:1
+
+Index:51
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF9AD8
+Checksum:ffff8d924dddce7a
+State:1
+
+Index:52
+CallbackRoutine:FFFFF80325FE3350, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF9AD8
+Checksum:ffff8d924dddce2a
+State:1
+
+Index:53
+CallbackRoutine:FFFFF80325FE3350, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF8BB8
+Checksum:ffff8d924dddbf0a
+State:1
+
+Index:54
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF8BB8
+Checksum:ffff8d924dddbf5a
+State:1
+
+Index:55
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D68638
+Checksum:ffff8d924bd4b9da
+State:1
+
+Index:56
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D68638
+Checksum:ffff8d924bd4b9da
+State:1
+
+Index:57
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF9C38
+Checksum:ffff8d924dddcfda
+State:1
+
+Index:58
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF9C38
+Checksum:ffff8d924dddcfda
+State:1
+
+Index:59
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF9C38
+Checksum:ffff8d924dddcfda
+State:1
+
+Index:60
+CallbackRoutine:FFFFF80325FE3350, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F27DF9C38
+Checksum:ffff8d924dddcf8a
+State:1
+
+Index:61
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D68638
+Checksum:ffff8d924bd4b9da
+State:1
+
+Index:62
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D69AD8
+Checksum:ffff8d924bd4ce7a
+State:1
+
+Index:63
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D69AD8
+Checksum:ffff8d924bd4ce7a
+State:1
+
+Index:64
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D69AD8
+Checksum:ffff8d924bd4ce7a
+State:1
+
+Index:65
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D69AD8
+Checksum:ffff8d924bd4ce7a
+State:1
+
+Index:66
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D69AD8
+Checksum:ffff8d924bd4ce7a
+State:1
+
+Index:67
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D69AD8
+Checksum:ffff8d924bd4ce7a
+State:1
+
+Index:68
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D69AD8
+Checksum:ffff8d924bd4ce7a
+State:1
+
+Index:69
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D69AD8
+Checksum:ffff8d924bd4ce7a
+State:1
+
+Index:70
+CallbackRoutine:FFFFF80325FE3350, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F257F1D18
+Checksum:ffff8d924b7d506a
+State:1
+
+Index:71
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F257F1D18
+Checksum:ffff8d924b7d50ba
+State:1
+
+Index:72
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D69AD8
+Checksum:ffff8d924bd4ce7a
+State:1
+
+Index:73
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D69AD8
+Checksum:ffff8d924bd4ce7a
+State:1
+
+Index:74
+CallbackRoutine:FFFFF80325F30EC0, FullPathName:\SystemRoot\system32\drivers\Wdf01000.sys
+Reason:2
+Component:FFFF958F27CEDCE0
+Checksum:ffff8d924dc1eba2
+State:1
+
+Index:75
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D69AD8
+Checksum:ffff8d924bd4ce7a
+State:1
+
+Index:76
+CallbackRoutine:FFFFF80325FE3350, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D69AD8
+Checksum:ffff8d924bd4ce2a
+State:1
+
+Index:77
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D68638
+Checksum:ffff8d924bd4b9da
+State:1
+
+Index:78
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D68638
+Checksum:ffff8d924bd4b9da
+State:1
+
+Index:79
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D68638
+Checksum:ffff8d924bd4b9da
+State:1
+
+Index:80
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D68638
+Checksum:ffff8d924bd4b9da
+State:1
+
+Index:81
+CallbackRoutine:FFFFF8032AA11240, FullPathName:\SystemRoot\System32\drivers\usbhub.sys
+Reason:2
+Component:FFFFF8032AA31350
+Checksum:fffff00655442592
+State:1
+
+Index:82
+CallbackRoutine:FFFFF8032AA112A0, FullPathName:\SystemRoot\System32\drivers\usbhub.sys
+Reason:2
+Component:FFFFF8032AA31350
+Checksum:fffff006554425f2
+State:1
+
+Index:83
+CallbackRoutine:FFFFF80325FE3350, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D693F8
+Checksum:ffff8d924bd4c74a
+State:1
+
+Index:84
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D693F8
+Checksum:ffff8d924bd4c79a
+State:1
+
+Index:85
+CallbackRoutine:FFFFF80325F30EC0, FullPathName:\SystemRoot\system32\drivers\Wdf01000.sys
+Reason:2
+Component:FFFF958F25D78C90
+Checksum:ffff8d924bca9b52
+State:1
+
+Index:86
+CallbackRoutine:FFFFF80325F30EC0, FullPathName:\SystemRoot\system32\drivers\Wdf01000.sys
+Reason:2
+Component:FFFF958F25D78EB0
+Checksum:ffff8d924bca9d72
+State:1
+
+Index:87
+CallbackRoutine:FFFFF80325FE3350, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D69298
+Checksum:ffff8d924bd4c5ea
+State:1
+
+Index:88
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D69298
+Checksum:ffff8d924bd4c63a
+State:1
+
+Index:89
+CallbackRoutine:FFFFF80325F30EC0, FullPathName:\SystemRoot\system32\drivers\Wdf01000.sys
+Reason:2
+Component:FFFF958F25D5AA70
+Checksum:ffff8d924bc8b932
+State:1
+
+Index:90
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D68638
+Checksum:ffff8d924bd4b9da
+State:1
+
+Index:91
+CallbackRoutine:FFFFF80325F30EC0, FullPathName:\SystemRoot\system32\drivers\Wdf01000.sys
+Reason:2
+Component:FFFF958F25D5AEB0
+Checksum:ffff8d924bc8bd72
+State:1
+
+Index:92
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D68638
+Checksum:ffff8d924bd4b9da
+State:1
+
+Index:93
+CallbackRoutine:FFFFF80325FE3350, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D68638
+Checksum:ffff8d924bd4b98a
+State:1
+
+Index:94
+CallbackRoutine:FFFFF80325F30EC0, FullPathName:\SystemRoot\system32\drivers\Wdf01000.sys
+Reason:2
+Component:FFFF958F25D5AC90
+Checksum:ffff8d924bc8bb52
+State:1
+
+Index:95
+CallbackRoutine:FFFFF80325FE3350, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D68218
+Checksum:ffff8d924bd4b56a
+State:1
+
+Index:96
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D68218
+Checksum:ffff8d924bd4b5ba
+State:1
+
+Index:97
+CallbackRoutine:FFFFF80325FE3350, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D69978
+Checksum:ffff8d924bd4ccca
+State:1
+
+Index:98
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D69978
+Checksum:ffff8d924bd4cd1a
+State:1
+
+Index:99
+CallbackRoutine:FFFFF80325F30EC0, FullPathName:\SystemRoot\system32\drivers\Wdf01000.sys
+Reason:2
+Component:FFFF958F25D7A200
+Checksum:ffff8d924bcab0c2
+State:1
+
+Index:100
+CallbackRoutine:FFFFF80325FE3350, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D68E78
+Checksum:ffff8d924bd4c1ca
+State:1
+
+Index:101
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D68E78
+Checksum:ffff8d924bd4c21a
+State:1
+
+Index:102
+CallbackRoutine:FFFFF80325FE3350, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D69D98
+Checksum:ffff8d924bd4d0ea
+State:1
+
+Index:103
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D69D98
+Checksum:ffff8d924bd4d13a
+State:1
+
+Index:104
+CallbackRoutine:FFFFF80325FE3350, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D688F8
+Checksum:ffff8d924bd4bc4a
+State:1
+
+Index:105
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D688F8
+Checksum:ffff8d924bd4bc9a
+State:1
+
+Index:106
+CallbackRoutine:FFFFF8032A573BC0, FullPathName:\SystemRoot\System32\drivers\USBPORT.SYS
+Reason:2
+Component:FFFFF8032A5855B0
+Checksum:fffff00654af9172
+State:1
+
+Index:107
+CallbackRoutine:FFFFF8032A573B40, FullPathName:\SystemRoot\System32\drivers\USBPORT.SYS
+Reason:2
+Component:FFFFF8032A5855B0
+Checksum:fffff00654af90f2
+State:1
+
+Index:108
+CallbackRoutine:FFFFF8032A573C30, FullPathName:\SystemRoot\System32\drivers\USBPORT.SYS
+Reason:2
+Component:FFFFF8032A5855B0
+Checksum:fffff00654af91e2
+State:1
+
+Index:109
+CallbackRoutine:FFFFF80325FE3350, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D68378
+Checksum:ffff8d924bd4b6ca
+State:1
+
+Index:110
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D68378
+Checksum:ffff8d924bd4b71a
+State:1
+
+Index:111
+CallbackRoutine:FFFFF80325FE3350, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D69C38
+Checksum:ffff8d924bd4cf8a
+State:1
+
+Index:112
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D69C38
+Checksum:ffff8d924bd4cfda
+State:1
+
+Index:113
+CallbackRoutine:FFFFF80325FE3350, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D68D18
+Checksum:ffff8d924bd4c06a
+State:1
+
+Index:114
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F25D68D18
+Checksum:ffff8d924bd4c0ba
+State:1
+
+Index:115
+CallbackRoutine:FFFFF80325F30EC0, FullPathName:\SystemRoot\system32\drivers\Wdf01000.sys
+Reason:2
+Component:FFFF958F25D7A420
+Checksum:ffff8d924bcab2e2
+State:1
+
+Index:116
+CallbackRoutine:FFFFF80325F30EC0, FullPathName:\SystemRoot\system32\drivers\Wdf01000.sys
+Reason:2
+Component:FFFF958F25D7A860
+Checksum:ffff8d924bcab722
+State:1
+
+Index:117
+CallbackRoutine:FFFFF8032A2644A0, FullPathName:\SystemRoot\System32\drivers\mssmbios.sys
+Reason:5
+Component:FFFFF8032A265660
+Checksum:fffff006544c9b05
+State:1
+
+Index:118
+CallbackRoutine:FFFFF8032A264450, FullPathName:\SystemRoot\System32\drivers\mssmbios.sys
+Reason:5
+Component:FFFFF8032A265670
+Checksum:fffff006544c9ac5
+State:1
+
+Index:119
+CallbackRoutine:FFFFF8032A2643F0, FullPathName:\SystemRoot\System32\drivers\mssmbios.sys
+Reason:5
+Component:FFFFF8032A265680
+Checksum:fffff006544c9a75
+State:1
+
+Index:120
+CallbackRoutine:FFFFF8032A2643A0, FullPathName:\SystemRoot\System32\drivers\mssmbios.sys
+Reason:5
+Component:FFFFF8032A265690
+Checksum:fffff006544c9a35
+State:1
+
+Index:121
+CallbackRoutine:FFFFF80325F30EC0, FullPathName:\SystemRoot\system32\drivers\Wdf01000.sys
+Reason:2
+Component:FFFF958F25D7ACA0
+Checksum:ffff8d924bcabb62
+State:1
+
+Index:122
+CallbackRoutine:FFFFF8032ACEC9E0, FullPathName:\SystemRoot\System32\drivers\dxgkrnl.sys
+Reason:2
+Component:FFFFF8032ADD0B80
+Checksum:fffff00655abd562
+State:1
+
+Index:123
+CallbackRoutine:FFFFF80325F30EC0, FullPathName:\SystemRoot\system32\drivers\Wdf01000.sys
+Reason:2
+Component:FFFF958F2789AA70
+Checksum:ffff8d924d7cb932
+State:1
+
+Index:124
+CallbackRoutine:FFFFF80325FE3350, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CD3F8
+Checksum:ffff8d924b8b074a
+State:1
+
+Index:125
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CD3F8
+Checksum:ffff8d924b8b079a
+State:1
+
+Index:126
+CallbackRoutine:FFFFF80321016220, RoutineName:IoBugCheckDriverDataCallback, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+Reason:2
+Component:FFFFF80321462C00
+Checksum:fffff00642478e22
+State:1
+
+Index:127
+CallbackRoutine:FFFFF803266B4BA0, FullPathName:\SystemRoot\System32\drivers\storport.sys
+Reason:2
+Component:FFFFF803266C23A0
+Checksum:fffff0064cd76f42
+State:1
+
+Index:128
+CallbackRoutine:FFFFF803274DD850, FullPathName:\SystemRoot\System32\drivers\CLASSPNP.SYS
+Reason:2
+Component:FFFFF803274E1668
+Checksum:fffff0064e9beeba
+State:1
+
+Index:129
+CallbackRoutine:FFFFF80325FE3350, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDEF8
+Checksum:ffff8d924b8b124a
+State:1
+
+Index:130
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDEF8
+Checksum:ffff8d924b8b129a
+State:1
+
+Index:131
+CallbackRoutine:FFFFF80325F30EC0, FullPathName:\SystemRoot\system32\drivers\Wdf01000.sys
+Reason:2
+Component:FFFF958F25EB1ED0
+Checksum:ffff8d924bde2d92
+State:1
+
+Index:132
+CallbackRoutine:FFFFF80325F30EC0, FullPathName:\SystemRoot\system32\drivers\Wdf01000.sys
+Reason:2
+Component:FFFF958F25E57ED0
+Checksum:ffff8d924bd88d92
+State:1
+
+Index:133
+CallbackRoutine:FFFFF803265DAD20, FullPathName:\SystemRoot\System32\drivers\ataport.SYS
+Reason:2
+Component:FFFFF803265EAE00
+Checksum:fffff0064cbc5b22
+State:1
+
+Index:134
+CallbackRoutine:FFFFF803265DAB80, FullPathName:\SystemRoot\System32\drivers\ataport.SYS
+Reason:2
+Component:FFFFF803265EADF8
+Checksum:fffff0064cbc597a
+State:1
+
+Index:135
+CallbackRoutine:FFFFF80325F30EC0, FullPathName:\SystemRoot\system32\drivers\Wdf01000.sys
+Reason:2
+Component:FFFF958F25E4BED0
+Checksum:ffff8d924bd7cd92
+State:1
+
+Index:136
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:137
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:138
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:139
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:140
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:141
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:142
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:143
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:144
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:145
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:146
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:147
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:148
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:149
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:150
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:151
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:152
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:153
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:154
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:155
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:156
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:157
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:158
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:159
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:160
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:161
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:162
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:163
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:164
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:165
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:166
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:167
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:168
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:169
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:170
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:171
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:172
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:173
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:174
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:175
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:176
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:177
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:178
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:179
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:180
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:181
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:182
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:183
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:184
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:185
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:186
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:187
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:188
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:189
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:190
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:191
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:192
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:193
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:194
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:195
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:196
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:197
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:198
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:199
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:200
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:201
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:202
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:203
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:204
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:205
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:206
+CallbackRoutine:FFFFF8032613DD40, FullPathName:\SystemRoot\System32\drivers\pci.sys
+Reason:5
+Component:FFFFF8032614DAB0
+Checksum:fffff0064c28b7f5
+State:1
+
+Index:207
+CallbackRoutine:FFFFF80325FE3350, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e2a
+State:1
+
+Index:208
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CDAD8
+Checksum:ffff8d924b8b0e7a
+State:1
+
+Index:209
+CallbackRoutine:FFFFF80325F30EC0, FullPathName:\SystemRoot\system32\drivers\Wdf01000.sys
+Reason:2
+Component:FFFF958F25693900
+Checksum:ffff8d924b5c47c2
+State:1
+
+Index:210
+CallbackRoutine:FFFFF80325FE3350, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CC798
+Checksum:ffff8d924b8afaea
+State:1
+
+Index:211
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CC798
+Checksum:ffff8d924b8afb3a
+State:1
+
+Index:212
+CallbackRoutine:FFFFF80325F30EC0, FullPathName:\SystemRoot\system32\drivers\Wdf01000.sys
+Reason:2
+Component:FFFF958F25786C80
+Checksum:ffff8d924b6b7b42
+State:1
+
+Index:213
+CallbackRoutine:FFFFF80325F30EC0, FullPathName:\SystemRoot\system32\drivers\Wdf01000.sys
+Reason:2
+Component:FFFF958F2582FD80
+Checksum:ffff8d924b760c42
+State:1
+
+Index:214
+CallbackRoutine:FFFFF80325F30EC0, FullPathName:\SystemRoot\system32\drivers\Wdf01000.sys
+Reason:2
+Component:FFFF958F2567AAB0
+Checksum:ffff8d924b5ab972
+State:1
+
+Index:215
+CallbackRoutine:FFFFF80325FE3350, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CCBB8
+Checksum:ffff8d924b8aff0a
+State:1
+
+Index:216
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CCBB8
+Checksum:ffff8d924b8aff5a
+State:1
+
+Index:217
+CallbackRoutine:FFFFF80325F30EC0, FullPathName:\SystemRoot\system32\drivers\Wdf01000.sys
+Reason:2
+Component:FFFF958F2567AFA0
+Checksum:ffff8d924b5abe62
+State:1
+
+Index:218
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CD978
+Checksum:ffff8d924b8b0d1a
+State:1
+
+Index:219
+CallbackRoutine:FFFFF80325F30EC0, FullPathName:\SystemRoot\system32\drivers\Wdf01000.sys
+Reason:2
+Component:FFFF958F25784EB0
+Checksum:ffff8d924b6b5d72
+State:1
+
+Index:220
+CallbackRoutine:FFFFF80325FE3350, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CD978
+Checksum:ffff8d924b8b0cca
+State:1
+
+Index:221
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CD978
+Checksum:ffff8d924b8b0d1a
+State:1
+
+Index:222
+CallbackRoutine:FFFFF80325F30EC0, FullPathName:\SystemRoot\system32\drivers\Wdf01000.sys
+Reason:2
+Component:FFFF958F25780C80
+Checksum:ffff8d924b6b1b42
+State:1
+
+Index:223
+CallbackRoutine:FFFFF80325F31030, FullPathName:\SystemRoot\system32\drivers\Wdf01000.sys
+Reason:2
+Component:FFFFF80325F38D88
+Checksum:fffff0064be69dba
+State:1
+
+Index:224
+CallbackRoutine:FFFFF80325FE33A0, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CC4D8
+Checksum:ffff8d924b8af87a
+State:1
+
+Index:225
+CallbackRoutine:FFFFF80325FE3350, FullPathName:\SystemRoot\System32\Drivers\WppRecorder.sys
+Reason:2
+Component:FFFF958F258CC4D8
+Checksum:ffff8d924b8af82a
+State:1
+
+Index:226
+CallbackRoutine:FFFFF80321230D20, RoutineName:EtwpBugCheckMultiPartCallback, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+Reason:5
+Component:FFFFF80320C36EC8
+Checksum:fffff00641e67bed
+State:1
+
+Index:227
+CallbackRoutine:FFFFF803211D7A10, RoutineName:PopBlackBoxBugcheckCallback, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+Reason:2
+Component:FFFFF80320C1EB88
+Checksum:fffff00641df659a
+State:1
+
+Index:228
+CallbackRoutine:FFFFF803211D7A10, RoutineName:PopBlackBoxBugcheckCallback, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+Reason:2
+Component:FFFFF80320C1EB98
+Checksum:fffff00641df65aa
+State:1
+
+Index:229
+CallbackRoutine:FFFFF803211D7A10, RoutineName:PopBlackBoxBugcheckCallback, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+Reason:2
+Component:FFFFF80320C1EBC8
+Checksum:fffff00641df65da
+State:1
+
+Index:230
+CallbackRoutine:FFFFF803211D7A10, RoutineName:PopBlackBoxBugcheckCallback, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+Reason:2
+Component:FFFFF80320C1EBF0
+Checksum:fffff00641df6602
+State:1
+
+Index:231
+CallbackRoutine:FFFFF803211D7A10, RoutineName:PopBlackBoxBugcheckCallback, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+Reason:2
+Component:FFFFF80320C1EB38
+Checksum:fffff00641df654a
+State:1
+
+Index:232
+CallbackRoutine:FFFFF803211D7A10, RoutineName:PopBlackBoxBugcheckCallback, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+Reason:2
+Component:FFFFF80320C1EB50
+Checksum:fffff00641df6562
+State:1
+
+Index:233
+CallbackRoutine:FFFFF803211D7A10, RoutineName:PopBlackBoxBugcheckCallback, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+Reason:2
+Component:FFFFF80320C1EB60
+Checksum:fffff00641df6572
+State:1
+
+Index:234
+CallbackRoutine:FFFFF803211D7A10, RoutineName:PopBlackBoxBugcheckCallback, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+Reason:2
+Component:FFFFF80320C1EB70
+Checksum:fffff00641df6582
+State:1
+
+Index:235
+CallbackRoutine:FFFFF803211D7A10, RoutineName:PopBlackBoxBugcheckCallback, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+Reason:2
+Component:FFFFF80320C1EAB0
+Checksum:fffff00641df64c2
+State:1
+
+Index:236
+CallbackRoutine:FFFFF803211D7A10, RoutineName:PopBlackBoxBugcheckCallback, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+Reason:2
+Component:FFFFF80320C1EAD0
+Checksum:fffff00641df64e2
+State:1
+
+Index:237
+CallbackRoutine:FFFFF803211D7A10, RoutineName:PopBlackBoxBugcheckCallback, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+Reason:2
+Component:FFFFF80320C1EAE8
+Checksum:fffff00641df64fa
+State:1
+
+Index:238
+CallbackRoutine:FFFFF803211D7A10, RoutineName:PopBlackBoxBugcheckCallback, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+Reason:2
+Component:FFFFF80320C1EB10
+Checksum:fffff00641df6522
+State:1
+
+Index:239
+CallbackRoutine:FFFFF803211D7A10, RoutineName:PopBlackBoxBugcheckCallback, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+Reason:2
+Component:FFFFF80320C1EA40
+Checksum:fffff00641df6452
+State:1
+
+Index:240
+CallbackRoutine:FFFFF803211D7A10, RoutineName:PopBlackBoxBugcheckCallback, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+Reason:2
+Component:FFFFF80320C1EA60
+Checksum:fffff00641df6472
+State:1
+
+Index:241
+CallbackRoutine:FFFFF803211D7A10, RoutineName:PopBlackBoxBugcheckCallback, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+Reason:2
+Component:FFFFF80320C1EA80
+Checksum:fffff00641df6492
+State:1
+
+Index:242
+CallbackRoutine:FFFFF803211D7A10, RoutineName:PopBlackBoxBugcheckCallback, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+Reason:2
+Component:FFFFF80320C1EA98
+Checksum:fffff00641df64aa
+State:1
+
+Index:243
+CallbackRoutine:FFFFF803211D7A10, RoutineName:PopBlackBoxBugcheckCallback, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+Reason:2
+Component:FFFFF80320C1E9E8
+Checksum:fffff00641df63fa
+State:1
+
+Index:244
+CallbackRoutine:FFFFF803211D7A10, RoutineName:PopBlackBoxBugcheckCallback, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+Reason:2
+Component:FFFFF80320C1EA08
+Checksum:fffff00641df641a
+State:1
+
+Index:245
+CallbackRoutine:FFFFF803211D7A10, RoutineName:PopBlackBoxBugcheckCallback, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+Reason:2
+Component:FFFFF80320C1EA20
+Checksum:fffff00641df6432
+State:1
+
+Index:246
+CallbackRoutine:FFFFF803211D7A10, RoutineName:PopBlackBoxBugcheckCallback, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+Reason:2
+Component:FFFFF80320C1EA30
+Checksum:fffff00641df6442
+State:1
+
+Index:247
+CallbackRoutine:FFFFF803211D7A10, RoutineName:PopBlackBoxBugcheckCallback, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+Reason:2
+Component:FFFFF80320C1E9C8
+Checksum:fffff00641df63da
+State:1
+
+Index:248
+CallbackRoutine:FFFFF803211D7A10, RoutineName:PopBlackBoxBugcheckCallback, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+Reason:2
+Component:FFFFF80320C1E9D8
+Checksum:fffff00641df63ea
+State:1
+
+Index:249
+CallbackRoutine:FFFFF80321142440, RoutineName:HvlpHvIdentityInfoCallback, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+Reason:2
+Component:FFFFF8032190540C
+Checksum:fffff00642a4784e
+State:1
+
+Index:250
+CallbackRoutine:FFFFF80320F71CA0, RoutineName:HalpMiscBugCheckCallback, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+Reason:8
+Component:FFFFF80320C12F94
+Checksum:fffff00641b84c3c
+State:1
+
+Index:251
+CallbackRoutine:FFFFF80321150870, RoutineName:IoBugCheckTriageDumpDataCallback, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+Reason:7
+Component:FFFFF80321462C20
+Checksum:fffff006425b3497
+State:1
+
+Index:252
+CallbackRoutine:FFFFF80327AC1100, FullPathName:\SystemRoot\System32\drivers\BTHport.sys
+Reason:7
+Component:FFFFF80327BE3220
+Checksum:fffff0064f6a4327
+State:1
+
+Index:253
+CallbackRoutine:FFFFF80327EE60D0, FullPathName:\SystemRoot\System32\Drivers\crashdmp.sys
+Reason:6
+Component:FFFFF80327EF30F0
+Checksum:fffff0064fdd91c6
+State:1
+
+Index:254
+CallbackRoutine:FFFFF8032110F020, RoutineName:HalpEfiBugCheckAddPagesCallback, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+Reason:4
+Component:FFFFF80320C3A1B0
+Checksum:fffff00641d491d4
+State:1
+
+
+C:\Users\Administrator>

@@ -1,0 +1,193 @@
+C:\Users\Administrator>C:\Users\Administrator\Desktop\bin\AntiHook.exe EnumProtocolDriver
+Number:10
+
+Type:3
+Size:906
+Name:WANARPV6
+NdisVersion:6-85
+DriverVersion:0-0
+Flags:0
+IsIPv4:0
+IsIPv6:0
+IsNdisTest6:0
+BindAdapterHandlerEx             :FFFFF803396031F0, FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
+UnbindAdapterHandlerEx           :FFFFF80339617530, FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
+OpenAdapterCompleteHandlerEx     :FFFFF80339617390, FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
+CloseAdapterCompleteHandlerEx    :FFFFF803396172D0, FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
+StatusHandler/StatusHandlerEx    :FFFFF80339601C80, FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
+ReceiveNetBufferListsHandler     :FFFFF80339601010, FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
+SendNetBufferListsCompleteHandler:FFFFF80339601780, FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
+OidRequestCompleteHandler        :FFFFF80339603370, FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
+
+Type:3
+Size:902
+Name:WANARP
+NdisVersion:6-85
+DriverVersion:0-0
+Flags:0
+IsIPv4:0
+IsIPv6:0
+IsNdisTest6:0
+BindAdapterHandlerEx             :FFFFF803396031F0, FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
+UnbindAdapterHandlerEx           :FFFFF80339617530, FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
+OpenAdapterCompleteHandlerEx     :FFFFF80339617390, FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
+CloseAdapterCompleteHandlerEx    :FFFFF803396172D0, FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
+StatusHandler/StatusHandlerEx    :FFFFF80339601C80, FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
+ReceiveNetBufferListsHandler     :FFFFF80339601010, FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
+SendNetBufferListsCompleteHandler:FFFFF80339601780, FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
+OidRequestCompleteHandler        :FFFFF80339603370, FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
+
+Type:3
+Size:902
+Name:RSPNDR
+RootDeviceName:\DEVICE\{369292E4-DD92-46B9-B680-A71531F1B46E}
+NdisVersion:6-30
+DriverVersion:0-0
+Flags:0
+IsIPv4:0
+IsIPv6:0
+IsNdisTest6:0
+BindAdapterHandlerEx             :FFFFF8033A3E1260, FullPathName:\SystemRoot\system32\drivers\rspndr.sys
+UnbindAdapterHandlerEx           :FFFFF8033A3E4A40, FullPathName:\SystemRoot\system32\drivers\rspndr.sys
+OpenAdapterCompleteHandlerEx     :FFFFF8033A3E44A0, FullPathName:\SystemRoot\system32\drivers\rspndr.sys
+CloseAdapterCompleteHandlerEx    :FFFFF8033A3E4460, FullPathName:\SystemRoot\system32\drivers\rspndr.sys
+StatusHandler/StatusHandlerEx    :FFFFF8033A3E1010, FullPathName:\SystemRoot\system32\drivers\rspndr.sys
+ReceiveNetBufferListsHandler     :FFFFF8033A3E44D0, FullPathName:\SystemRoot\system32\drivers\rspndr.sys
+SendNetBufferListsCompleteHandler:FFFFF8033A3E49C0, FullPathName:\SystemRoot\system32\drivers\rspndr.sys
+OidRequestCompleteHandler        :FFFFF8033A3E2140, FullPathName:\SystemRoot\system32\drivers\rspndr.sys
+
+Type:3
+Size:902
+Name:MSLLDP
+BindDeviceName:\DEVICE\{369292E4-DD92-46B9-B680-A71531F1B46E}
+RootDeviceName:\DEVICE\{369292E4-DD92-46B9-B680-A71531F1B46E}
+NdisVersion:6-30
+DriverVersion:10-0
+Flags:0
+IsIPv4:0
+IsIPv6:0
+IsNdisTest6:0
+BindAdapterHandlerEx             :FFFFF8033A3CCA70, FullPathName:\SystemRoot\system32\drivers\mslldp.sys
+UnbindAdapterHandlerEx           :FFFFF8033A3CD170, FullPathName:\SystemRoot\system32\drivers\mslldp.sys
+OpenAdapterCompleteHandlerEx     :FFFFF8033A3CCF80, FullPathName:\SystemRoot\system32\drivers\mslldp.sys
+CloseAdapterCompleteHandlerEx    :FFFFF8033A3CCC20, FullPathName:\SystemRoot\system32\drivers\mslldp.sys
+StatusHandler/StatusHandlerEx    :FFFFF8033A3C2A90, FullPathName:\SystemRoot\system32\drivers\mslldp.sys
+ReceiveNetBufferListsHandler     :FFFFF8033A3C1010, FullPathName:\SystemRoot\system32\drivers\mslldp.sys
+SendNetBufferListsCompleteHandler:FFFFF8033A3C2A50, FullPathName:\SystemRoot\system32\drivers\mslldp.sys
+OidRequestCompleteHandler        :FFFFF8033A3C2A20, FullPathName:\SystemRoot\system32\drivers\mslldp.sys
+
+Type:3
+Size:902
+Name:LLTDIO
+RootDeviceName:\DEVICE\{369292E4-DD92-46B9-B680-A71531F1B46E}
+NdisVersion:6-30
+DriverVersion:0-0
+Flags:0
+IsIPv4:0
+IsIPv6:0
+IsNdisTest6:0
+BindAdapterHandlerEx             :FFFFF8033A3A14D0, FullPathName:\SystemRoot\system32\drivers\lltdio.sys
+UnbindAdapterHandlerEx           :FFFFF8033A3A3C90, FullPathName:\SystemRoot\system32\drivers\lltdio.sys
+OpenAdapterCompleteHandlerEx     :FFFFF8033A3A36D0, FullPathName:\SystemRoot\system32\drivers\lltdio.sys
+CloseAdapterCompleteHandlerEx    :FFFFF8033A3A3680, FullPathName:\SystemRoot\system32\drivers\lltdio.sys
+StatusHandler/StatusHandlerEx    :FFFFF8033A3A1E00, FullPathName:\SystemRoot\system32\drivers\lltdio.sys
+ReceiveNetBufferListsHandler     :FFFFF8033A3A3700, FullPathName:\SystemRoot\system32\drivers\lltdio.sys
+SendNetBufferListsCompleteHandler:FFFFF8033A3A3BD0, FullPathName:\SystemRoot\system32\drivers\lltdio.sys
+OidRequestCompleteHandler        :FFFFF8033A3A1E90, FullPathName:\SystemRoot\system32\drivers\lltdio.sys
+
+Type:3
+Size:904
+Name:RDMANDK
+BindDeviceName:\DEVICE\{369292E4-DD92-46B9-B680-A71531F1B46E}
+RootDeviceName:\DEVICE\{369292E4-DD92-46B9-B680-A71531F1B46E}
+NdisVersion:6-40
+DriverVersion:0-0
+Flags:0
+IsIPv4:0
+IsIPv6:0
+IsNdisTest6:0
+BindAdapterHandlerEx             :FFFFF80326F07F80, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+UnbindAdapterHandlerEx           :FFFFF8032701B690, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+OpenAdapterCompleteHandlerEx     :FFFFF80327011D30, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+CloseAdapterCompleteHandlerEx    :FFFFF80326EF0420, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+StatusHandler/StatusHandlerEx    :FFFFF80326EEB520, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+ReceiveNetBufferListsHandler     :FFFFF80326EEB520, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+SendNetBufferListsCompleteHandler:FFFFF80326EEB520, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+OidRequestCompleteHandler        :FFFFF80326EE6DC0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+
+Type:3
+Size:914
+Name:TCPIP6TUNNEL
+NdisVersion:6-40
+DriverVersion:0-0
+Flags:0
+IsIPv4:0
+IsIPv6:0
+IsNdisTest6:0
+BindAdapterHandlerEx             :FFFFF80326EFFF70, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+UnbindAdapterHandlerEx           :FFFFF80326EEE5D0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+OpenAdapterCompleteHandlerEx     :FFFFF80327011D30, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+CloseAdapterCompleteHandlerEx    :FFFFF80326EF0420, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+StatusHandler/StatusHandlerEx    :FFFFF80326F01FE0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+ReceiveNetBufferListsHandler     :FFFFF80326ED6D80, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+SendNetBufferListsCompleteHandler:FFFFF80326ED86D0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+OidRequestCompleteHandler        :FFFFF80326EE6DC0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+
+Type:3
+Size:912
+Name:TCPIPTUNNEL
+NdisVersion:6-40
+DriverVersion:0-0
+Flags:0
+IsIPv4:0
+IsIPv6:0
+IsNdisTest6:0
+BindAdapterHandlerEx             :FFFFF80326EFFF70, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+UnbindAdapterHandlerEx           :FFFFF80326EEE5D0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+OpenAdapterCompleteHandlerEx     :FFFFF80327011D30, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+CloseAdapterCompleteHandlerEx    :FFFFF80326EF0420, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+StatusHandler/StatusHandlerEx    :FFFFF80326F01FE0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+ReceiveNetBufferListsHandler     :FFFFF80326ED6D80, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+SendNetBufferListsCompleteHandler:FFFFF80326ED86D0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+OidRequestCompleteHandler        :FFFFF80326EE6DC0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+
+Type:3
+Size:902
+Name:TCPIP6
+RootDeviceName:\DEVICE\{369292E4-DD92-46B9-B680-A71531F1B46E}
+NdisVersion:6-40
+DriverVersion:0-0
+Flags:0
+IsIPv4:0
+IsIPv6:1
+IsNdisTest6:0
+BindAdapterHandlerEx             :FFFFF80326EFFF70, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+UnbindAdapterHandlerEx           :FFFFF80326EEE5D0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+OpenAdapterCompleteHandlerEx     :FFFFF80327011D30, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+CloseAdapterCompleteHandlerEx    :FFFFF80326EF0420, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+StatusHandler/StatusHandlerEx    :FFFFF80326F01FE0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+ReceiveNetBufferListsHandler     :FFFFF80326ED6D80, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+SendNetBufferListsCompleteHandler:FFFFF80326ED86D0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+OidRequestCompleteHandler        :FFFFF80326EE6DC0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+
+Type:3
+Size:900
+Name:TCPIP
+RootDeviceName:\DEVICE\{369292E4-DD92-46B9-B680-A71531F1B46E}
+NdisVersion:6-40
+DriverVersion:0-0
+Flags:0
+IsIPv4:1
+IsIPv6:0
+IsNdisTest6:0
+BindAdapterHandlerEx             :FFFFF80326EFFF70, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+UnbindAdapterHandlerEx           :FFFFF80326EEE5D0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+OpenAdapterCompleteHandlerEx     :FFFFF80327011D30, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+CloseAdapterCompleteHandlerEx    :FFFFF80326EF0420, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+StatusHandler/StatusHandlerEx    :FFFFF80326F01FE0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+ReceiveNetBufferListsHandler     :FFFFF80326ED6D80, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+SendNetBufferListsCompleteHandler:FFFFF80326ED86D0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+OidRequestCompleteHandler        :FFFFF80326EE6DC0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+
+
+C:\Users\Administrator>

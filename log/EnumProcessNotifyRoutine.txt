@@ -1,0 +1,12 @@
+C:\Users\Administrator>C:\Users\Administrator\Desktop\bin\AntiHook.exe EnumProcessNotifyRoutine
+index:1, address:FFFFF80325DE6640, FullPathName:\SystemRoot\System32\drivers\cng.sys.
+index:2, address:FFFFF8032686DFA0, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys.
+index:3, address:FFFFF80325C2B4B0, FullPathName:\SystemRoot\System32\drivers\ksecdd.sys.
+index:4, address:FFFFF80326E904E0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys.
+index:5, address:FFFFF8032744D990, FullPathName:\SystemRoot\system32\drivers\iorate.sys.
+index:6, address:FFFFF80325D6B940, FullPathName:\SystemRoot\system32\CI.dll.
+index:7, address:FFFFF8032ACAE490, FullPathName:\SystemRoot\System32\drivers\dxgkrnl.sys.
+index:8, address:FFFFF8032A4D0E40, FullPathName:\SystemRoot\system32\DRIVERS\vm3dmp.sys.
+index:9, address:FFFFF80339B4ACF0, FullPathName:\SystemRoot\system32\drivers\peauth.sys.
+
+C:\Users\Administrator>

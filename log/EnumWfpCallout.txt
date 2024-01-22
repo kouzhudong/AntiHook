@@ -1,0 +1,931 @@
+C:\Users\Administrator>C:\Users\Administrator\Desktop\bin\AntiHook.exe EnumWfpCallout
+CalloutKey:{6C3FB801-DAFF-40E9-91E6-F7FF7E52F7D9}.
+DisplayData.name:WFP 内置接受重定向代理标记 ALE 连接 v6 层标注.
+DisplayData.description:从接受重定向代理应用标记传出连接，以防止无限重定向。.
+Flags:0x40300.
+ApplicableLayer:FWPM_LAYER_ALE_AUTH_CONNECT_V6({4A72393B-319F-44BC-84C3-BA54DCB3B6B4}).
+CalloutId:48.
+Callout:FFFF958F271A4080
+classifyFn:FFFFF80326FC4510, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326EEB5E0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+flags:FWP_CALLOUT_FLAG_ALLOW_USO;FWP_CALLOUT_FLAG_ALLOW_URO;(768)
+
+
+CalloutKey:{49D3AC92-2A6C-4DCF-955F-1C3BE009DD99}.
+DisplayData.name:WFP 内置 IPsec 入站传输 v6 层标注.
+DisplayData.description:验证假定通过传输模式安全关联到达的每个已接收数据包安全到达。.
+Flags:0x40260.
+ApplicableLayer:FWPM_LAYER_INBOUND_TRANSPORT_V6({634A869F-FC23-4B90-B0C1-BF620A36AE6F}).
+CalloutId:2.
+Callout:FFFF958F271A30B0
+classifyFn:FFFFF803270B7240, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326FFAF50, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+flags:FWP_CALLOUT_FLAG_RESERVED1;FWP_CALLOUT_FLAG_ALLOW_RSC;FWP_CALLOUT_FLAG_ALLOW_URO;(608)
+
+
+CalloutKey:{38D87722-AD83-4F11-A91F-DF0FB077225B}.
+DisplayData.name:WFP 内置 IPsec 出站传输 v6 层标注.
+DisplayData.description:表明必须通过传输模式安全关联保证安全的 IPSec 出站流量。.
+Flags:0x40260.
+ApplicableLayer:FWPM_LAYER_OUTBOUND_TRANSPORT_V6({E1735BDE-013F-4655-B351-A49E15762DF0}).
+CalloutId:4.
+Callout:FFFF958F271A3160
+classifyFn:FFFFF803270B8340, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326FFAF50, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+flags:FWP_CALLOUT_FLAG_RESERVED1;FWP_CALLOUT_FLAG_ALLOW_RSC;FWP_CALLOUT_FLAG_ALLOW_URO;(608)
+
+
+CalloutKey:{8E449839-F477-11DF-85CE-78E7D1810190}.
+DisplayData.name:NDU Outbound Mac Frame Native Callout.
+DisplayData.description:NDU Outbound Mac Frame Native Callout.
+Flags:0x403e2.
+ProviderKey:{8E44982A-F477-11DF-85CE-78E7D1810190}.
+ApplicableLayer:FWPM_LAYER_OUTBOUND_MAC_FRAME_NATIVE_FAST({470DF946-C962-486F-9446-8293CBC75EB8}).
+CalloutId:267.
+Callout:FFFF958F271A8BC8
+notifyFn:FFFFF80339A1B8A0, FullPathName:\SystemRoot\system32\drivers\Ndu.sys
+flowDeleteFn:FFFF02126D1A832F, FullPathName:
+classifyFnFast:FFFFF80339A13670, FullPathName:\SystemRoot\system32\drivers\Ndu.sys
+flags:FWP_CALLOUT_FLAG_ALLOW_OFFLOAD;FWP_CALLOUT_FLAG_RESERVED1;FWP_CALLOUT_FLAG_ALLOW_RSC;FWP_CALLOUT_FLAG_ALLOW_L2_BATCH_CLASSIFY;FWP_CALLOUT_FLAG_ALLOW_USO;FWP_CALLOUT_FLAG_ALLOW_URO;(994)
+
+
+CalloutKey:{8E44982D-F477-11DF-85CE-78E7D1810190}.
+DisplayData.name:NDU Flow Established V6 Callout.
+DisplayData.description:NDU Flow Established V6 Callout.
+Flags:0x40362.
+ProviderKey:{8E44982A-F477-11DF-85CE-78E7D1810190}.
+ApplicableLayer:FWPM_LAYER_ALE_FLOW_ESTABLISHED_V6({7021D2B3-DFA4-406E-AFEB-6AFAF7E70EFD}).
+CalloutId:263.
+Callout:FFFF958F271A8A68
+classifyFn:FFFFF80339A11690, FullPathName:\SystemRoot\system32\drivers\Ndu.sys
+notifyFn:FFFFF80339A1B850, FullPathName:\SystemRoot\system32\drivers\Ndu.sys
+flags:FWP_CALLOUT_FLAG_ALLOW_OFFLOAD;FWP_CALLOUT_FLAG_RESERVED1;FWP_CALLOUT_FLAG_ALLOW_RSC;FWP_CALLOUT_FLAG_ALLOW_USO;FWP_CALLOUT_FLAG_ALLOW_URO;(866)
+deviceObject:FFFF958F29C8ED20
+
+
+CalloutKey:{BC582280-1677-41E9-94AB-C2FCB15C2EEB}.
+DisplayData.name:WFP 内置设置选项 ALE 连接 v4 层标注.
+DisplayData.description:在出站流上设置分类选项。.
+Flags:0x60300.
+ApplicableLayer:FWPM_LAYER_ALE_AUTH_CONNECT_V4({C38D57D1-05A7-4C33-904F-7FBCEEE60E82}).
+CalloutId:23.
+Callout:FFFF958F271A37E8
+classifyFn:FFFFF80326FC4990, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326EEB5E0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+flags:FWP_CALLOUT_FLAG_ALLOW_USO;FWP_CALLOUT_FLAG_ALLOW_URO;(768)
+
+
+CalloutKey:{A1E392D3-72AC-47BB-87A7-0122C69434AB}.
+DisplayData.name:WFP 内置 IPsec 入站隧道 ALE 接收/接受 v6 层标注.
+DisplayData.description:当 IPSec 隧道模式 IP-in-IP 数据包在 ALE 接收/接受层上进行分类时，允许使用这些数据包。.
+Flags:0x40000.
+ApplicableLayer:FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V6({A3B42C97-9F04-4672-B87E-CEE9C483257F}).
+CalloutId:26.
+Callout:FFFF958F271A38F0
+classifyFn:FFFFF803270B7390, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326FFAF50, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+
+
+CalloutKey:{80C342E3-1E53-4D6F-9B44-03DF5AEEE154}.
+DisplayData.name:WFP 内置 IPsec 入站隧道 v6 层标注.
+DisplayData.description:验证假定通过隧道模式安全关联到达的每个已接收数据包安全到达。.
+Flags:0x60020.
+ApplicableLayer:FWPM_LAYER_INBOUND_TRANSPORT_V6({634A869F-FC23-4B90-B0C1-BF620A36AE6F}).
+CalloutId:6.
+Callout:FFFF958F271A3210
+classifyFn:FFFFF803270B7980, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326FFAF50, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+flags:FWP_CALLOUT_FLAG_RESERVED1;(32)
+
+
+CalloutKey:{A3A94DC3-BF3C-47D1-8239-617E31A9D10B}.
+DisplayData.name:AntiAttack.
+DisplayData.description:Callout that forward AntiAttack .
+Flags:0x10000.
+ApplicableLayer:FWPM_LAYER_STREAM_V4({3B89653C-C170-49E4-B1CD-E0EEEEE19A3E}).
+CalloutId:307.
+
+CalloutKey:{8E44982F-F477-11DF-85CE-78E7D1810190}.
+DisplayData.name:NDU Inbound Transport Callout.
+DisplayData.description:NDU Inbound Transport Callout.
+Flags:0x40362.
+ProviderKey:{8E44982A-F477-11DF-85CE-78E7D1810190}.
+ApplicableLayer:FWPM_LAYER_INBOUND_TRANSPORT_FAST({E41D2719-05C7-40F0-8983-EA8D17BBC2F6}).
+CalloutId:264.
+Callout:FFFF958F271A8AC0
+notifyFn:FFFFF80339A1B8A0, FullPathName:\SystemRoot\system32\drivers\Ndu.sys
+flowDeleteFn:FFFF02126D1A832F, FullPathName:
+classifyFnFast:FFFFF80339A16A60, FullPathName:\SystemRoot\system32\drivers\Ndu.sys
+flags:FWP_CALLOUT_FLAG_ALLOW_OFFLOAD;FWP_CALLOUT_FLAG_RESERVED1;FWP_CALLOUT_FLAG_ALLOW_RSC;FWP_CALLOUT_FLAG_ALLOW_USO;FWP_CALLOUT_FLAG_ALLOW_URO;(866)
+
+
+CalloutKey:{AF50BEC2-C686-429A-884D-B74443E7B0B4}.
+DisplayData.name:WFP 内置 IPsec 转发入站隧道 v6 层标注.
+DisplayData.description:验证假定通过隧道模式安全关联到达的每个已接收数据包安全到达。.
+Flags:0x60020.
+ApplicableLayer:FWPM_LAYER_IPFORWARD_V6({7B964818-19C7-493A-B71F-832C3684D28C}).
+CalloutId:10.
+Callout:FFFF958F271A3370
+classifyFn:FFFFF803270B66E0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326FFB1A0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+flags:FWP_CALLOUT_FLAG_RESERVED1;(32)
+
+
+CalloutKey:{EF9661B6-7C5E-48FD-A130-96678CEACC41}.
+DisplayData.name:WFP 内置代理连接 ALE 接受重定向 v6 层标注.
+DisplayData.description:将入站连接重定向到提供程序上下文中的地址。.
+Flags:0x60300.
+ApplicableLayer:Not found({C9809347-218F-4B7F-A742-B281A3F631B4}).
+CalloutId:46.
+Callout:FFFF958F271A3FD0
+classifyFn:FFFFF80326FC4560, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326EEB5E0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+flags:FWP_CALLOUT_FLAG_ALLOW_USO;FWP_CALLOUT_FLAG_ALLOW_URO;(768)
+
+
+CalloutKey:{2F23F5D0-40C4-4C41-A254-46D8DBA8957C}.
+DisplayData.name:WFP 内置 TCP 模板 ALE 接收/接受 v4 层标注.
+DisplayData.description:对每个传入的连接应用 TCP 模板。.
+Flags:0x40000.
+ApplicableLayer:FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V4({E1CD9FE7-F4B5-4273-96C0-592E487B8650}).
+CalloutId:35.
+Callout:FFFF958F271A3C08
+classifyFn:FFFFF80326FA4CC0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326EEB5E0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+
+
+CalloutKey:{4B46BF0A-4523-4E57-AA38-A87987C910D9}.
+DisplayData.name:WFP 内置 IPsec 出站传输 v4 层标注.
+DisplayData.description:表明必须通过传输模式安全关联保证安全的 IPSec 出站流量。.
+Flags:0x40260.
+ApplicableLayer:FWPM_LAYER_OUTBOUND_TRANSPORT_V4({09E61AEA-D214-46E2-9B21-B26B0B2F28C8}).
+CalloutId:3.
+Callout:FFFF958F271A3108
+classifyFn:FFFFF803270B8200, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326FFAF50, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+flags:FWP_CALLOUT_FLAG_RESERVED1;FWP_CALLOUT_FLAG_ALLOW_RSC;FWP_CALLOUT_FLAG_ALLOW_URO;(608)
+
+
+CalloutKey:{31B95392-066E-42A2-B7DB-92F8ACDD56F9}.
+DisplayData.name:WFP 内置边缘遍历 ALE 资源分配 v6 层标注.
+DisplayData.description:当应用程序尝试绑定到某个接口并已明确加入以便进行边缘遍历流量时会向 Windows 发信号。.
+Flags:0x40014.
+ApplicableLayer:FWPM_LAYER_ALE_RESOURCE_ASSIGNMENT_V6({55A650E1-5F0A-4ECA-A653-88F53B26AA8C}).
+CalloutId:28.
+Callout:FFFF958F271A39A0
+classifyFn:FFFFF80326EFC620, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326EFCA50, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+flags:FWP_CALLOUT_FLAG_ENABLE_COMMIT_ADD_NOTIFY;FWP_CALLOUT_FLAG_ALLOW_RECLASSIFY;(20)
+
+
+CalloutKey:{8693CC74-A075-4156-B476-9286EECE814E}.
+DisplayData.name:WFP 内置无提示断开传输 v6 丢弃层标注.
+DisplayData.description:通过无提示丢弃 TCP 没有用于其的侦听终结点的所有传入数据包来执行隐藏模式筛选。.
+Flags:0x40242.
+ApplicableLayer:FWPM_LAYER_INBOUND_TRANSPORT_V6_DISCARD({2A6FF955-3B2B-49D2-9848-AD9D72DCAAB7}).
+CalloutId:18.
+Callout:FFFF958F271A3630
+classifyFn:FFFFF80326EDE9C0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326EEB5E0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+flags:FWP_CALLOUT_FLAG_ALLOW_OFFLOAD;FWP_CALLOUT_FLAG_ALLOW_RSC;FWP_CALLOUT_FLAG_ALLOW_URO;(578)
+
+
+CalloutKey:{81A434E7-F60C-4378-BAB8-C625A30F0197}.
+DisplayData.name:WFP 内置边缘遍历 ALE 侦听 v6 层标注.
+DisplayData.description:当应用程序尝试侦听某个接口并已明确加入以便进行边缘遍历流量时会向 Windows 发信号。.
+Flags:0x40014.
+ApplicableLayer:FWPM_LAYER_ALE_AUTH_LISTEN_V6({7AC9DE24-17DD-4814-B4BD-A9FBC95A321B}).
+CalloutId:30.
+Callout:FFFF958F271A3A50
+classifyFn:FFFFF80326EFC620, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326EFCA50, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+flags:FWP_CALLOUT_FLAG_ENABLE_COMMIT_ADD_NOTIFY;FWP_CALLOUT_FLAG_ALLOW_RECLASSIFY;(20)
+
+
+CalloutKey:{8E44982B-F477-11DF-85CE-78E7D1810190}.
+DisplayData.name:NDU Flow Established V4 Callout.
+DisplayData.description:NDU Flow Established V4 Callout.
+Flags:0x40362.
+ProviderKey:{8E44982A-F477-11DF-85CE-78E7D1810190}.
+ApplicableLayer:FWPM_LAYER_ALE_FLOW_ESTABLISHED_V4({AF80470A-5596-4C13-9992-539E6FE57967}).
+CalloutId:262.
+Callout:FFFF958F271A8A10
+classifyFn:FFFFF80339A11690, FullPathName:\SystemRoot\system32\drivers\Ndu.sys
+notifyFn:FFFFF80339A1B850, FullPathName:\SystemRoot\system32\drivers\Ndu.sys
+flags:FWP_CALLOUT_FLAG_ALLOW_OFFLOAD;FWP_CALLOUT_FLAG_RESERVED1;FWP_CALLOUT_FLAG_ALLOW_RSC;FWP_CALLOUT_FLAG_ALLOW_USO;FWP_CALLOUT_FLAG_ALLOW_URO;(866)
+deviceObject:FFFF958F29C8ED20
+
+
+CalloutKey:{C3DBED20-0BB6-4BF3-828D-96732E1E011F}.
+DisplayData.name:Windows Firewall: callout.
+DisplayData.description:Performs logging..
+Flags:0x40200.
+ProviderKey:{DECC16CA-3F33-4346-BE1E-8FB4AE0F3D62}.
+ApplicableLayer:FWPM_LAYER_INBOUND_ICMP_ERROR_V6_DISCARD({A6E7CCC0-08FB-468D-A472-9771D5595E09}).
+CalloutId:277.
+Callout:FFFF958F271A8F38
+classifyFn:FFFFF80339877A30, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+notifyFn:FFFFF803398727E0, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+flags:FWP_CALLOUT_FLAG_ALLOW_URO;(512)
+
+
+CalloutKey:{C3DBED20-0BB6-4BF3-828D-96732E1E011D}.
+DisplayData.name:Windows Firewall: callout.
+DisplayData.description:Performs logging..
+Flags:0x40200.
+ProviderKey:{DECC16CA-3F33-4346-BE1E-8FB4AE0F3D62}.
+ApplicableLayer:FWPM_LAYER_INBOUND_ICMP_ERROR_V4_DISCARD({A6B17075-EBAF-4053-A4E7-213C8121EDE5}).
+CalloutId:276.
+Callout:FFFF958F271A8EE0
+classifyFn:FFFFF80339877A30, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+notifyFn:FFFFF803398727E0, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+flags:FWP_CALLOUT_FLAG_ALLOW_URO;(512)
+
+
+CalloutKey:{C3DBED20-0BB6-4BF3-828D-96732E1E0416}.
+DisplayData.name:Windows Firewall: callout.
+DisplayData.description:Connection-oriented protocol packet inspection..
+Flags:0x40001.
+ProviderKey:{DECC16CA-3F33-4346-BE1E-8FB4AE0F3D62}.
+ApplicableLayer:FWPM_LAYER_STREAM_V6({47C9137A-7EC4-46B3-B6E4-48E926B1EDA4}).
+CalloutId:289.
+Callout:FFFF958F271A9358
+classifyFn:FFFFF803398780D0, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+notifyFn:FFFFF803398727E0, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+flowDeleteFn:FFFFF80339877660, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+flags:FWP_CALLOUT_FLAG_CONDITIONAL_ON_FLOW;(1)
+
+
+CalloutKey:{C3DBED20-0BB6-4BF3-828D-96732E1E0414}.
+DisplayData.name:Windows Firewall: callout.
+DisplayData.description:Connection-oriented protocol packet inspection..
+Flags:0x40001.
+ProviderKey:{DECC16CA-3F33-4346-BE1E-8FB4AE0F3D62}.
+ApplicableLayer:FWPM_LAYER_STREAM_V4({3B89653C-C170-49E4-B1CD-E0EEEEE19A3E}).
+CalloutId:288.
+Callout:FFFF958F271A9300
+classifyFn:FFFFF803398780D0, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+notifyFn:FFFFF803398727E0, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+flowDeleteFn:FFFFF80339877660, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+flags:FWP_CALLOUT_FLAG_CONDITIONAL_ON_FLOW;(1)
+
+
+CalloutKey:{C3DBED20-0BB6-4BF3-828D-96732E1E002A}.
+DisplayData.name:Windows Firewall: callout.
+DisplayData.description:Notifies the user..
+Flags:0x40000.
+ProviderKey:{DECC16CA-3F33-4346-BE1E-8FB4AE0F3D62}.
+ApplicableLayer:FWPM_LAYER_ALE_AUTH_LISTEN_V6({7AC9DE24-17DD-4814-B4BD-A9FBC95A321B}).
+CalloutId:271.
+Callout:FFFF958F271A8D28
+classifyFn:FFFFF80339871040, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+notifyFn:FFFFF803398727E0, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+
+
+CalloutKey:{C3DBED20-0BB6-4BF3-828D-96732E1E0028}.
+DisplayData.name:Windows Firewall: callout.
+DisplayData.description:Notifies the user..
+Flags:0x40000.
+ProviderKey:{DECC16CA-3F33-4346-BE1E-8FB4AE0F3D62}.
+ApplicableLayer:FWPM_LAYER_ALE_AUTH_LISTEN_V4({88BB5DAD-76D7-4227-9C71-DF0A3ED7BE7E}).
+CalloutId:270.
+Callout:FFFF958F271A8CD0
+classifyFn:FFFFF80339871040, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+notifyFn:FFFFF803398727E0, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+
+
+CalloutKey:{C3DBED20-0BB6-4BF3-828D-96732E1E012F}.
+DisplayData.name:Windows Firewall: callout.
+DisplayData.description:Performs logging..
+Flags:0x40200.
+ProviderKey:{DECC16CA-3F33-4346-BE1E-8FB4AE0F3D62}.
+ApplicableLayer:FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V6_DISCARD({89455B97-DBE1-453F-A224-13DA895AF396}).
+CalloutId:279.
+Callout:FFFF958F271A8FE8
+classifyFn:FFFFF80339877A30, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+notifyFn:FFFFF803398727E0, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+flags:FWP_CALLOUT_FLAG_ALLOW_URO;(512)
+
+
+CalloutKey:{C3DBED20-0BB6-4BF3-828D-96732E1E022E}.
+DisplayData.name:Windows Firewall: callout.
+DisplayData.description:Allows secondary connections..
+Flags:0x40300.
+ProviderKey:{DECC16CA-3F33-4346-BE1E-8FB4AE0F3D62}.
+ApplicableLayer:FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V6({A3B42C97-9F04-4672-B87E-CEE9C483257F}).
+CalloutId:285.
+Callout:FFFF958F271A91F8
+classifyFn:FFFFF80339871470, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+notifyFn:FFFFF803398727E0, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+flags:FWP_CALLOUT_FLAG_ALLOW_USO;FWP_CALLOUT_FLAG_ALLOW_URO;(768)
+
+
+CalloutKey:{C3DBED20-0BB6-4BF3-828D-96732E1E012D}.
+DisplayData.name:Windows Firewall: callout.
+DisplayData.description:Performs logging..
+Flags:0x40200.
+ProviderKey:{DECC16CA-3F33-4346-BE1E-8FB4AE0F3D62}.
+ApplicableLayer:FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V4_DISCARD({9EEAA99B-BD22-4227-919F-0073C63357B1}).
+CalloutId:278.
+Callout:FFFF958F271A8F90
+classifyFn:FFFFF80339877A30, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+notifyFn:FFFFF803398727E0, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+flags:FWP_CALLOUT_FLAG_ALLOW_URO;(512)
+
+
+CalloutKey:{C3DBED20-0BB6-4BF3-828D-96732E1E022C}.
+DisplayData.name:Windows Firewall: callout.
+DisplayData.description:Allows secondary connections..
+Flags:0x40300.
+ProviderKey:{DECC16CA-3F33-4346-BE1E-8FB4AE0F3D62}.
+ApplicableLayer:FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V4({E1CD9FE7-F4B5-4273-96C0-592E487B8650}).
+CalloutId:284.
+Callout:FFFF958F271A91A0
+classifyFn:FFFFF80339871470, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+notifyFn:FFFFF803398727E0, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+flags:FWP_CALLOUT_FLAG_ALLOW_USO;FWP_CALLOUT_FLAG_ALLOW_URO;(768)
+
+
+CalloutKey:{C3DBED20-0BB6-4BF3-828D-96732E1E0123}.
+DisplayData.name:Windows Firewall: callout.
+DisplayData.description:Performs logging..
+Flags:0x40200.
+ProviderKey:{DECC16CA-3F33-4346-BE1E-8FB4AE0F3D62}.
+ApplicableLayer:FWPM_LAYER_OUTBOUND_ICMP_ERROR_V6_DISCARD({65F2E647-8D0C-4F47-B19B-33A4D3F1357C}).
+CalloutId:273.
+Callout:FFFF958F271A8DD8
+classifyFn:FFFFF80339877A30, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+notifyFn:FFFFF803398727E0, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+flags:FWP_CALLOUT_FLAG_ALLOW_URO;(512)
+
+
+CalloutKey:{C3DBED20-0BB6-4BF3-828D-96732E1E0121}.
+DisplayData.name:Windows Firewall: callout.
+DisplayData.description:Performs logging..
+Flags:0x40200.
+ProviderKey:{DECC16CA-3F33-4346-BE1E-8FB4AE0F3D62}.
+ApplicableLayer:FWPM_LAYER_OUTBOUND_ICMP_ERROR_V4_DISCARD({B3598D36-0561-4588-A6BF-E955E3F6264B}).
+CalloutId:272.
+Callout:FFFF958F271A8D80
+classifyFn:FFFFF80339877A30, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+notifyFn:FFFFF803398727E0, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+flags:FWP_CALLOUT_FLAG_ALLOW_URO;(512)
+
+
+CalloutKey:{C3DBED20-0BB6-4BF3-828D-96732E1E0026}.
+DisplayData.name:Windows Firewall: callout.
+DisplayData.description:Notifies the user..
+Flags:0x40000.
+ProviderKey:{DECC16CA-3F33-4346-BE1E-8FB4AE0F3D62}.
+ApplicableLayer:FWPM_LAYER_ALE_RESOURCE_ASSIGNMENT_V6({55A650E1-5F0A-4ECA-A653-88F53B26AA8C}).
+CalloutId:269.
+Callout:FFFF958F271A8C78
+classifyFn:FFFFF80339871040, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+notifyFn:FFFFF803398727E0, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+
+
+CalloutKey:{C3DBED20-0BB6-4BF3-828D-96732E1E0024}.
+DisplayData.name:Windows Firewall: callout.
+DisplayData.description:Notifies the user..
+Flags:0x40000.
+ProviderKey:{DECC16CA-3F33-4346-BE1E-8FB4AE0F3D62}.
+ApplicableLayer:FWPM_LAYER_ALE_RESOURCE_ASSIGNMENT_V4({1247D66D-0B60-4A15-8D44-7155D0F53A0C}).
+CalloutId:268.
+Callout:FFFF958F271A8C20
+classifyFn:FFFFF80339871040, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+notifyFn:FFFFF803398727E0, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+
+
+CalloutKey:{C3DBED20-0BB6-4BF3-828D-96732E1E0133}.
+DisplayData.name:Windows Firewall: callout.
+DisplayData.description:Performs logging..
+Flags:0x40200.
+ProviderKey:{DECC16CA-3F33-4346-BE1E-8FB4AE0F3D62}.
+ApplicableLayer:FWPM_LAYER_ALE_AUTH_CONNECT_V6_DISCARD({C97BC3B8-C9A3-4E33-8695-8E17AAD4DE09}).
+CalloutId:275.
+Callout:FFFF958F271A8E88
+classifyFn:FFFFF80339877A30, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+notifyFn:FFFFF803398727E0, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+flags:FWP_CALLOUT_FLAG_ALLOW_URO;(512)
+
+
+CalloutKey:{C3DBED20-0BB6-4BF3-828D-96732E1E0232}.
+DisplayData.name:Windows Firewall: callout.
+DisplayData.description:Allows secondary connections..
+Flags:0x40300.
+ProviderKey:{DECC16CA-3F33-4346-BE1E-8FB4AE0F3D62}.
+ApplicableLayer:FWPM_LAYER_ALE_AUTH_CONNECT_V6({4A72393B-319F-44BC-84C3-BA54DCB3B6B4}).
+CalloutId:283.
+Callout:FFFF958F271A9148
+classifyFn:FFFFF80339871470, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+notifyFn:FFFFF803398727E0, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+flags:FWP_CALLOUT_FLAG_ALLOW_USO;FWP_CALLOUT_FLAG_ALLOW_URO;(768)
+
+
+CalloutKey:{C3DBED20-0BB6-4BF3-828D-96732E1E0131}.
+DisplayData.name:Windows Firewall: callout.
+DisplayData.description:Performs logging..
+Flags:0x40200.
+ProviderKey:{DECC16CA-3F33-4346-BE1E-8FB4AE0F3D62}.
+ApplicableLayer:FWPM_LAYER_ALE_AUTH_CONNECT_V4_DISCARD({D632A801-F5BA-4AD6-96E3-607017D9836A}).
+CalloutId:274.
+Callout:FFFF958F271A8E30
+classifyFn:FFFFF80339877A30, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+notifyFn:FFFFF803398727E0, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+flags:FWP_CALLOUT_FLAG_ALLOW_URO;(512)
+
+
+CalloutKey:{C3DBED20-0BB6-4BF3-828D-96732E1E0230}.
+DisplayData.name:Windows Firewall: callout.
+DisplayData.description:Allows secondary connections..
+Flags:0x40300.
+ProviderKey:{DECC16CA-3F33-4346-BE1E-8FB4AE0F3D62}.
+ApplicableLayer:FWPM_LAYER_ALE_AUTH_CONNECT_V4({C38D57D1-05A7-4C33-904F-7FBCEEE60E82}).
+CalloutId:282.
+Callout:FFFF958F271A90F0
+classifyFn:FFFFF80339871470, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+notifyFn:FFFFF803398727E0, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+flags:FWP_CALLOUT_FLAG_ALLOW_USO;FWP_CALLOUT_FLAG_ALLOW_URO;(768)
+
+
+CalloutKey:{C3DBED20-0BB6-4BF3-828D-96732E1E0336}.
+DisplayData.name:Windows Firewall: callout.
+DisplayData.description:Initiates deep protocol inspection on the flow..
+Flags:0x40300.
+ProviderKey:{DECC16CA-3F33-4346-BE1E-8FB4AE0F3D62}.
+ApplicableLayer:FWPM_LAYER_ALE_FLOW_ESTABLISHED_V6({7021D2B3-DFA4-406E-AFEB-6AFAF7E70EFD}).
+CalloutId:287.
+Callout:FFFF958F271A92A8
+classifyFn:FFFFF803398776B0, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+notifyFn:FFFFF803398727E0, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+flags:FWP_CALLOUT_FLAG_ALLOW_USO;FWP_CALLOUT_FLAG_ALLOW_URO;(768)
+
+
+CalloutKey:{C3DBED20-0BB6-4BF3-828D-96732E1E0136}.
+DisplayData.name:Windows Firewall: callout.
+DisplayData.description:Performs logging..
+Flags:0x40200.
+ProviderKey:{DECC16CA-3F33-4346-BE1E-8FB4AE0F3D62}.
+ApplicableLayer:FWPM_LAYER_ALE_FLOW_ESTABLISHED_V6({7021D2B3-DFA4-406E-AFEB-6AFAF7E70EFD}).
+CalloutId:281.
+Callout:FFFF958F271A9098
+classifyFn:FFFFF80339877A30, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+notifyFn:FFFFF803398727E0, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+flags:FWP_CALLOUT_FLAG_ALLOW_URO;(512)
+
+
+CalloutKey:{C3DBED20-0BB6-4BF3-828D-96732E1E0334}.
+DisplayData.name:Windows Firewall: callout.
+DisplayData.description:Initiates deep protocol inspection on the flow..
+Flags:0x40300.
+ProviderKey:{DECC16CA-3F33-4346-BE1E-8FB4AE0F3D62}.
+ApplicableLayer:FWPM_LAYER_ALE_FLOW_ESTABLISHED_V4({AF80470A-5596-4C13-9992-539E6FE57967}).
+CalloutId:286.
+Callout:FFFF958F271A9250
+classifyFn:FFFFF803398776B0, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+notifyFn:FFFFF803398727E0, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+flags:FWP_CALLOUT_FLAG_ALLOW_USO;FWP_CALLOUT_FLAG_ALLOW_URO;(768)
+
+
+CalloutKey:{C3DBED20-0BB6-4BF3-828D-96732E1E0134}.
+DisplayData.name:Windows Firewall: callout.
+DisplayData.description:Performs logging..
+Flags:0x40200.
+ProviderKey:{DECC16CA-3F33-4346-BE1E-8FB4AE0F3D62}.
+ApplicableLayer:FWPM_LAYER_ALE_FLOW_ESTABLISHED_V4({AF80470A-5596-4C13-9992-539E6FE57967}).
+CalloutId:280.
+Callout:FFFF958F271A9040
+classifyFn:FFFFF80339877A30, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+notifyFn:FFFFF803398727E0, FullPathName:\SystemRoot\System32\drivers\mpsdrv.sys
+flags:FWP_CALLOUT_FLAG_ALLOW_URO;(512)
+
+
+CalloutKey:{215A0B39-4B7E-4EDA-8CE4-179679DF6224}.
+DisplayData.name:WFP 内置 TCP 模板 ALE 连接 v4 层标注.
+DisplayData.description:对每个传出的连接应用 TCP 模板。.
+Flags:0x40000.
+ApplicableLayer:FWPM_LAYER_ALE_AUTH_CONNECT_V4({C38D57D1-05A7-4C33-904F-7FBCEEE60E82}).
+CalloutId:33.
+Callout:FFFF958F271A3B58
+classifyFn:FFFFF80326FA4CC0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326EEB5E0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+
+
+CalloutKey:{5FBFC31D-A51C-44DC-ACB6-0624A030A700}.
+DisplayData.name:WFP 内置策略静默模式 ALE 连接 v4 层标注.
+DisplayData.description:传出连接的审核和日志策略。.
+Flags:0x40300.
+ApplicableLayer:FWPM_LAYER_ALE_AUTH_CONNECT_V4({C38D57D1-05A7-4C33-904F-7FBCEEE60E82}).
+CalloutId:41.
+Callout:FFFF958F271A3E18
+classifyFn:FFFFF80326FC46E0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326EEB5E0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+flags:FWP_CALLOUT_FLAG_ALLOW_USO;FWP_CALLOUT_FLAG_ALLOW_URO;(768)
+
+
+CalloutKey:{5FBFC31D-A51C-44DC-ACB6-0624A030A701}.
+DisplayData.name:WFP 内置策略静默模式 ALE 连接 v6 层标注.
+DisplayData.description:传出连接的审核和日志策略。.
+Flags:0x40300.
+ApplicableLayer:FWPM_LAYER_ALE_AUTH_CONNECT_V6({4A72393B-319F-44BC-84C3-BA54DCB3B6B4}).
+CalloutId:42.
+Callout:FFFF958F271A3E70
+classifyFn:FFFFF80326FC46E0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326EEB5E0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+flags:FWP_CALLOUT_FLAG_ALLOW_USO;FWP_CALLOUT_FLAG_ALLOW_URO;(768)
+
+
+CalloutKey:{5FBFC31D-A51C-44DC-ACB6-0624A030A702}.
+DisplayData.name:WFP 内置策略静默模式 ALE 接收/接受 v4 层标注.
+DisplayData.description:传入连接的审核和日志策略。.
+Flags:0x40300.
+ApplicableLayer:FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V4({E1CD9FE7-F4B5-4273-96C0-592E487B8650}).
+CalloutId:43.
+Callout:FFFF958F271A3EC8
+classifyFn:FFFFF80326FC46E0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326EEB5E0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+flags:FWP_CALLOUT_FLAG_ALLOW_USO;FWP_CALLOUT_FLAG_ALLOW_URO;(768)
+
+
+CalloutKey:{5FBFC31D-A51C-44DC-ACB6-0624A030A703}.
+DisplayData.name:WFP 内置策略静默模式 ALE 接收/接受 v6 层标注.
+DisplayData.description:传入连接的审核和日志策略。.
+Flags:0x40300.
+ApplicableLayer:FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V6({A3B42C97-9F04-4672-B87E-CEE9C483257F}).
+CalloutId:44.
+Callout:FFFF958F271A3F20
+classifyFn:FFFFF80326FC46E0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326EEB5E0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+flags:FWP_CALLOUT_FLAG_ALLOW_USO;FWP_CALLOUT_FLAG_ALLOW_URO;(768)
+
+
+CalloutKey:{838B37A1-5C12-4D34-8B38-078728B2D25C}.
+DisplayData.name:WFP 内置 TCP 模板 ALE 连接 v6 层标注.
+DisplayData.description:对每个传出的连接应用 TCP 模板。.
+Flags:0x40000.
+ApplicableLayer:FWPM_LAYER_ALE_AUTH_CONNECT_V6({4A72393B-319F-44BC-84C3-BA54DCB3B6B4}).
+CalloutId:34.
+Callout:FFFF958F271A3BB0
+classifyFn:FFFFF80326FA4CC0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326EEB5E0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+
+
+CalloutKey:{288B524D-0566-4E19-B612-8F441A2E5949}.
+DisplayData.name:WFP 内置保留标注.
+DisplayData.description:WFP 内置保留标注.
+Flags:0x40300.
+ApplicableLayer:FWPM_LAYER_ALE_AUTH_CONNECT_V4({C38D57D1-05A7-4C33-904F-7FBCEEE60E82}).
+CalloutId:37.
+Callout:FFFF958F271A3CB8
+classifyFn:FFFFF80326F2BE60, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326EEB5E0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+flags:FWP_CALLOUT_FLAG_ALLOW_USO;FWP_CALLOUT_FLAG_ALLOW_URO;(768)
+
+
+CalloutKey:{70A4196C-835B-4FB0-98E8-075F4D977D46}.
+DisplayData.name:WFP 内置 IPsec 出站隧道 v4 层标注.
+DisplayData.description:表明必须通过隧道模式安全关联保证安全的 IPSec 出站流量。.
+Flags:0x60020.
+ApplicableLayer:FWPM_LAYER_OUTBOUND_TRANSPORT_V4({09E61AEA-D214-46E2-9B21-B26B0B2F28C8}).
+CalloutId:7.
+Callout:FFFF958F271A3268
+classifyFn:FFFFF803270B8920, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326FFAF50, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+flags:FWP_CALLOUT_FLAG_RESERVED1;(32)
+
+
+CalloutKey:{33486AB5-6D5E-4E65-A00B-A7AFED0BA9A1}.
+DisplayData.name:WFP 内置边缘遍历 ALE 侦听 v4 层标注.
+DisplayData.description:当应用程序尝试侦听某个接口并已明确加入以便进行边缘遍历流量时会向 Windows 发信号。.
+Flags:0x40014.
+ApplicableLayer:FWPM_LAYER_ALE_AUTH_LISTEN_V4({88BB5DAD-76D7-4227-9C71-DF0A3ED7BE7E}).
+CalloutId:29.
+Callout:FFFF958F271A39F8
+classifyFn:FFFFF80326EFC620, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326EFCA50, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+flags:FWP_CALLOUT_FLAG_ENABLE_COMMIT_ADD_NOTIFY;FWP_CALLOUT_FLAG_ALLOW_RECLASSIFY;(20)
+
+
+CalloutKey:{6AC141FC-F75D-4203-B9C8-48E6149C2712}.
+DisplayData.name:WFP 内置 IPsec ALE 连接 v4 层标注.
+DisplayData.description:将 IPSec 策略修改程序应用到客户端应用程序。.
+Flags:0x60000.
+ApplicableLayer:FWPM_LAYER_ALE_AUTH_CONNECT_V4({C38D57D1-05A7-4C33-904F-7FBCEEE60E82}).
+CalloutId:15.
+Callout:FFFF958F271A3528
+classifyFn:FFFFF803270B6240, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326FFAF50, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+
+
+CalloutKey:{FB532136-15CB-440B-937C-1717CA320C40}.
+DisplayData.name:WFP 内置 IPsec 转发出站隧道 v4 层标注.
+DisplayData.description:表明必须通过隧道模式安全关联保证安全的 IPSec 出站流量。.
+Flags:0x60020.
+ApplicableLayer:FWPM_LAYER_IPFORWARD_V4({A82ACC24-4EE1-4EE1-B465-FD1D25CB10A4}).
+CalloutId:11.
+Callout:FFFF958F271A33C8
+classifyFn:FFFFF803270B6850, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326FFB200, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+flags:FWP_CALLOUT_FLAG_RESERVED1;(32)
+
+
+CalloutKey:{18729C7A-2F62-4BE0-966F-974B21B86DF1}.
+DisplayData.name:WFP 内置接受重定向代理标记 ALE 连接 v4 层标注.
+DisplayData.description:从接受重定向代理应用标记传出连接，以防止无限重定向。.
+Flags:0x40300.
+ApplicableLayer:FWPM_LAYER_ALE_AUTH_CONNECT_V4({C38D57D1-05A7-4C33-904F-7FBCEEE60E82}).
+CalloutId:47.
+Callout:FFFF958F271A4028
+classifyFn:FFFFF80326FC4510, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326EEB5E0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+flags:FWP_CALLOUT_FLAG_ALLOW_USO;FWP_CALLOUT_FLAG_ALLOW_URO;(768)
+
+
+CalloutKey:{28829633-C4F0-4E66-873F-844DB2A899C7}.
+DisplayData.name:WFP 内置 IPsec 转发入站隧道 v4 层标注.
+DisplayData.description:验证假定通过隧道模式安全关联到达的每个已接收数据包安全到达。.
+Flags:0x60020.
+ApplicableLayer:FWPM_LAYER_IPFORWARD_V4({A82ACC24-4EE1-4EE1-B465-FD1D25CB10A4}).
+CalloutId:9.
+Callout:FFFF958F271A3318
+classifyFn:FFFFF803270B6570, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326FFB140, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+flags:FWP_CALLOUT_FLAG_RESERVED1;(32)
+
+
+CalloutKey:{98E5373C-B884-490F-B65F-2F6A4A575195}.
+DisplayData.name:WFP 内置设置选项 ALE 连接 v6 层标注.
+DisplayData.description:在出站流上设置分类选项。.
+Flags:0x60300.
+ApplicableLayer:FWPM_LAYER_ALE_AUTH_CONNECT_V6({4A72393B-319F-44BC-84C3-BA54DCB3B6B4}).
+CalloutId:24.
+Callout:FFFF958F271A3840
+classifyFn:FFFFF80326FC4990, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326EEB5E0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+flags:FWP_CALLOUT_FLAG_ALLOW_USO;FWP_CALLOUT_FLAG_ALLOW_URO;(768)
+
+
+CalloutKey:{EDA08606-2494-4D78-89BC-67837C03B969}.
+DisplayData.name:WFP 内置无提示断开传输 v4 丢弃层标注.
+DisplayData.description:通过无提示丢弃 TCP 没有用于其的侦听终结点的所有传入数据包来执行隐藏模式筛选。.
+Flags:0x40242.
+ApplicableLayer:FWPM_LAYER_INBOUND_TRANSPORT_V4_DISCARD({AC4A9833-F69D-4648-B261-6DC84835EF39}).
+CalloutId:17.
+Callout:FFFF958F271A35D8
+classifyFn:FFFFF80326EDE9C0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326EEB5E0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+flags:FWP_CALLOUT_FLAG_ALLOW_OFFLOAD;FWP_CALLOUT_FLAG_ALLOW_RSC;FWP_CALLOUT_FLAG_ALLOW_URO;(578)
+
+
+CalloutKey:{8E449837-F477-11DF-85CE-78E7D1810190}.
+DisplayData.name:NDU Inbound Mac Frame Native Callout.
+DisplayData.description:NDU Inbound Mac Frame Native Callout.
+Flags:0x403e2.
+ProviderKey:{8E44982A-F477-11DF-85CE-78E7D1810190}.
+ApplicableLayer:FWPM_LAYER_INBOUND_MAC_FRAME_NATIVE_FAST({853AAA8E-2B78-4D24-A804-36DB08B29711}).
+CalloutId:266.
+Callout:FFFF958F271A8B70
+notifyFn:FFFFF80339A1B8A0, FullPathName:\SystemRoot\system32\drivers\Ndu.sys
+flowDeleteFn:FFFF02126D1A832F, FullPathName:
+classifyFnFast:FFFFF80339A14B60, FullPathName:\SystemRoot\system32\drivers\Ndu.sys
+flags:FWP_CALLOUT_FLAG_ALLOW_OFFLOAD;FWP_CALLOUT_FLAG_RESERVED1;FWP_CALLOUT_FLAG_ALLOW_RSC;FWP_CALLOUT_FLAG_ALLOW_L2_BATCH_CLASSIFY;FWP_CALLOUT_FLAG_ALLOW_USO;FWP_CALLOUT_FLAG_ALLOW_URO;(994)
+
+
+CalloutKey:{079B1010-F1C5-4FCD-AE05-DA41107ABD0B}.
+DisplayData.name:WFP 内置边缘遍历 ALE 资源分配 v4 层标注.
+DisplayData.description:当应用程序尝试绑定到某个接口并已明确加入以便进行边缘遍历流量时会向 Windows 发信号。.
+Flags:0x40014.
+ApplicableLayer:FWPM_LAYER_ALE_RESOURCE_ASSIGNMENT_V4({1247D66D-0B60-4A15-8D44-7155D0F53A0C}).
+CalloutId:27.
+Callout:FFFF958F271A3948
+classifyFn:FFFFF80326EFC620, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326EFCA50, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+flags:FWP_CALLOUT_FLAG_ENABLE_COMMIT_ADD_NOTIFY;FWP_CALLOUT_FLAG_ALLOW_RECLASSIFY;(20)
+
+
+CalloutKey:{4C0DDA05-E31F-4666-90B0-B3DFAD34129A}.
+DisplayData.name:WFP 内置 IPsec ALE 连接 v6 层标注.
+DisplayData.description:将 IPSec 策略修改程序应用到客户端应用程序。.
+Flags:0x60000.
+ApplicableLayer:FWPM_LAYER_ALE_AUTH_CONNECT_V6({4A72393B-319F-44BC-84C3-BA54DCB3B6B4}).
+CalloutId:16.
+Callout:FFFF958F271A3580
+classifyFn:FFFFF803270B6240, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326FFAF50, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+
+
+CalloutKey:{3D029FB1-DCDA-4674-8D91-2AEF368F2C87}.
+DisplayData.name:AntiAttack.
+DisplayData.description:Callout that forward AntiAttack .
+Flags:0x10000.
+ApplicableLayer:FWPM_LAYER_ALE_FLOW_ESTABLISHED_V4({AF80470A-5596-4C13-9992-539E6FE57967}).
+CalloutId:308.
+
+CalloutKey:{2D55F008-0C01-4F92-B26E-A08A94569B8D}.
+DisplayData.name:WFP 内置设置选项 ALE 接收/接受 v4 层标注.
+DisplayData.description:在入站流上设置分类选项。.
+Flags:0x60300.
+ApplicableLayer:FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V4({E1CD9FE7-F4B5-4273-96C0-592E487B8650}).
+CalloutId:39.
+Callout:FFFF958F271A3D68
+classifyFn:FFFFF80326FC4990, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326EEB5E0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+flags:FWP_CALLOUT_FLAG_ALLOW_USO;FWP_CALLOUT_FLAG_ALLOW_URO;(768)
+
+
+CalloutKey:{B25152F0-991C-4F53-BBE7-D24B45FE632C}.
+DisplayData.name:WFP 内置 TCP 模板 ALE 接收/接受 v6 层标注.
+DisplayData.description:对每个传入的连接应用 TCP 模板。.
+Flags:0x40000.
+ApplicableLayer:FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V6({A3B42C97-9F04-4672-B87E-CEE9C483257F}).
+CalloutId:36.
+Callout:FFFF958F271A3C60
+classifyFn:FFFFF80326FA4CC0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326EEB5E0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+
+
+CalloutKey:{39E22085-A341-42FC-A279-AEC94E689C56}.
+DisplayData.name:WFP 内置 TCP 烟囱卸载 ALE 连接 V6 层标注.
+DisplayData.description:为每个传出连接启用或禁用 TCP 烟囱卸载。.
+Flags:0x0.
+ApplicableLayer:FWPM_LAYER_ALE_AUTH_CONNECT_V6({4A72393B-319F-44BC-84C3-BA54DCB3B6B4}).
+CalloutId:20.
+
+CalloutKey:{F3E10AB3-2C25-4279-AC36-C30FC181BEC4}.
+DisplayData.name:WFP 内置 TCP 烟囱卸载 ALE 连接 V4 层标注.
+DisplayData.description:为每个传出连接启用或禁用 TCP 烟囱卸载。.
+Flags:0x0.
+ApplicableLayer:FWPM_LAYER_ALE_AUTH_CONNECT_V4({C38D57D1-05A7-4C33-904F-7FBCEEE60E82}).
+CalloutId:19.
+
+CalloutKey:{8BC14E84-4287-4C9E-81DA-532335532058}.
+DisplayData.name:Interface Binding Callout.
+Flags:0x60300.
+ProviderKey:{4B153735-1049-4480-AAB4-D1B9BDC03710}.
+ApplicableLayer:FWPM_LAYER_ALE_BIND_REDIRECT_V4({66978CAD-C704-42AC-86AC-7C1A231BD253}).
+CalloutId:258.
+Callout:FFFF958F271A88B0
+classifyFn:FFFFF80326FC4810, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326EEB5E0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+flags:FWP_CALLOUT_FLAG_ALLOW_USO;FWP_CALLOUT_FLAG_ALLOW_URO;(768)
+
+
+CalloutKey:{8BC14E84-4287-4C9E-81DA-532335532059}.
+DisplayData.name:Interface Binding Callout.
+Flags:0x60300.
+ProviderKey:{4B153735-1049-4480-AAB4-D1B9BDC03710}.
+ApplicableLayer:FWPM_LAYER_ALE_BIND_REDIRECT_V6({BEF02C9C-606B-4536-8C26-1C2FC7B631D4}).
+CalloutId:259.
+Callout:FFFF958F271A8908
+classifyFn:FFFFF80326FC4810, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326EEB5E0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+flags:FWP_CALLOUT_FLAG_ALLOW_USO;FWP_CALLOUT_FLAG_ALLOW_URO;(768)
+
+
+CalloutKey:{8E449833-F477-11DF-85CE-78E7D1810190}.
+DisplayData.name:NDU Outbound Transport Callout.
+DisplayData.description:NDU Outbound Transport Callout.
+Flags:0x40362.
+ProviderKey:{8E44982A-F477-11DF-85CE-78E7D1810190}.
+ApplicableLayer:FWPM_LAYER_OUTBOUND_TRANSPORT_FAST({13ED4388-A070-4815-9935-7A9BE6408B78}).
+CalloutId:265.
+Callout:FFFF958F271A8B18
+notifyFn:FFFFF80339A1B8A0, FullPathName:\SystemRoot\system32\drivers\Ndu.sys
+flowDeleteFn:FFFF02126D1A832F, FullPathName:
+classifyFnFast:FFFFF80339A139F0, FullPathName:\SystemRoot\system32\drivers\Ndu.sys
+flags:FWP_CALLOUT_FLAG_ALLOW_OFFLOAD;FWP_CALLOUT_FLAG_RESERVED1;FWP_CALLOUT_FLAG_ALLOW_RSC;FWP_CALLOUT_FLAG_ALLOW_USO;FWP_CALLOUT_FLAG_ALLOW_URO;(866)
+
+
+CalloutKey:{63018537-F281-4DC4-83D3-8DEC18B7ADE2}.
+DisplayData.name:WFP 内置设置选项 ALE 接收/接受 v6 层标注.
+DisplayData.description:在入站流上设置分类选项。.
+Flags:0x60300.
+ApplicableLayer:FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V6({A3B42C97-9F04-4672-B87E-CEE9C483257F}).
+CalloutId:40.
+Callout:FFFF958F271A3DC0
+classifyFn:FFFFF80326FC4990, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326EEB5E0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+flags:FWP_CALLOUT_FLAG_ALLOW_USO;FWP_CALLOUT_FLAG_ALLOW_URO;(768)
+
+
+CalloutKey:{0378CF41-BF98-4603-81F2-7F12586079F6}.
+DisplayData.name:WFP 内置 TCP 烟囱卸载 ALE 接收/接受 V6 层标注.
+DisplayData.description:为每个传入连接启用或禁用 TCP 烟囱卸载。.
+Flags:0x0.
+ApplicableLayer:FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V6({A3B42C97-9F04-4672-B87E-CEE9C483257F}).
+CalloutId:22.
+
+CalloutKey:{A9A0D6D9-C58C-474E-8AEB-3CFE99D6D53D}.
+DisplayData.name:WFP 内置 IPsec 入站启动安全 v6 层标注.
+DisplayData.description:验证假定安全到达的每个传入连接安全到达。.
+Flags:0x60000.
+ApplicableLayer:FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V6({A3B42C97-9F04-4672-B87E-CEE9C483257F}).
+CalloutId:14.
+Callout:FFFF958F271A34D0
+classifyFn:FFFFF803270B6B50, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326FFAF50, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+
+
+CalloutKey:{7DFF309B-BA7D-4ABA-91AA-AE5C6640C944}.
+DisplayData.name:WFP 内置 IPsec 入站启动安全 v4 层标注.
+DisplayData.description:验证假定安全到达的每个传入连接安全到达。.
+Flags:0x60000.
+ApplicableLayer:FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V4({E1CD9FE7-F4B5-4273-96C0-592E487B8650}).
+CalloutId:13.
+Callout:FFFF958F271A3478
+classifyFn:FFFFF803270B6B50, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326FFAF50, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+
+
+CalloutKey:{779719A4-E695-47B6-A199-7999FEC9163B}.
+DisplayData.name:WFP 内置代理连接 ALE 接受重定向 v4 层标注.
+DisplayData.description:将入站连接重定向到提供程序上下文中的地址。.
+Flags:0x60300.
+ApplicableLayer:Not found({29243AF8-ECAF-4436-A44E-F9FB7070AA04}).
+CalloutId:45.
+Callout:FFFF958F271A3F78
+classifyFn:FFFFF80326FC4560, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326EEB5E0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+flags:FWP_CALLOUT_FLAG_ALLOW_USO;FWP_CALLOUT_FLAG_ALLOW_URO;(768)
+
+
+CalloutKey:{E183ECB2-3A7F-4B54-8AD9-76050ED880CA}.
+DisplayData.name:WFP 内置 TCP 烟囱卸载 ALE 接收/接受 V4 层标注.
+DisplayData.description:为每个传入连接启用或禁用 TCP 烟囱卸载。.
+Flags:0x0.
+ApplicableLayer:FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V4({E1CD9FE7-F4B5-4273-96C0-592E487B8650}).
+CalloutId:21.
+
+CalloutKey:{3DF6E7DE-FD20-48F2-9F26-F854444CBA79}.
+DisplayData.name:WFP 内置 IPsec 入站隧道 ALE 接收/接受 v4 层标注.
+DisplayData.description:当 IPSec 隧道模式 IP-in-IP 数据包在 ALE 接收/接受层上进行分类时，允许使用这些数据包。.
+Flags:0x40000.
+ApplicableLayer:FWPM_LAYER_ALE_AUTH_RECV_ACCEPT_V4({E1CD9FE7-F4B5-4273-96C0-592E487B8650}).
+CalloutId:25.
+Callout:FFFF958F271A3898
+classifyFn:FFFFF803270B7390, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326FFAF50, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+
+
+CalloutKey:{F1835363-A6A5-4E62-B180-23DB789D8DA6}.
+DisplayData.name:WFP 内置 IPsec 出站隧道 v6 层标注.
+DisplayData.description:表明必须通过隧道模式安全关联保证安全的 IPSec 出站流量。.
+Flags:0x60020.
+ApplicableLayer:FWPM_LAYER_OUTBOUND_TRANSPORT_V6({E1735BDE-013F-4655-B351-A49E15762DF0}).
+CalloutId:8.
+Callout:FFFF958F271A32C0
+classifyFn:FFFFF803270B89F0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326FFAF50, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+flags:FWP_CALLOUT_FLAG_RESERVED1;(32)
+
+
+CalloutKey:{00B84B92-2B5E-4B71-AB0E-AACA43E387E6}.
+DisplayData.name:WFP 内置保留标注.
+DisplayData.description:WFP 内置保留标注.
+Flags:0x40300.
+ApplicableLayer:FWPM_LAYER_ALE_AUTH_CONNECT_V6({4A72393B-319F-44BC-84C3-BA54DCB3B6B4}).
+CalloutId:38.
+Callout:FFFF958F271A3D10
+classifyFn:FFFFF80326F2BE60, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326EEB5E0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+flags:FWP_CALLOUT_FLAG_ALLOW_USO;FWP_CALLOUT_FLAG_ALLOW_URO;(768)
+
+
+CalloutKey:{191A8A46-0BF8-46CF-B045-4B45DFA6A324}.
+DisplayData.name:WFP 内置 IPsec 入站隧道 v4 层标注.
+DisplayData.description:验证假定通过隧道模式安全关联到达的每个已接收数据包安全到达。.
+Flags:0x60020.
+ApplicableLayer:FWPM_LAYER_INBOUND_TRANSPORT_V4({5926DFC8-E3CF-4426-A283-DC393F5D0F9D}).
+CalloutId:5.
+Callout:FFFF958F271A31B8
+classifyFn:FFFFF803270B78A0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326FFAF50, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+flags:FWP_CALLOUT_FLAG_RESERVED1;(32)
+
+
+CalloutKey:{5132900D-5E84-4B5F-80E4-01741E81FF10}.
+DisplayData.name:WFP 内置 IPsec 入站传输 v4 层标注.
+DisplayData.description:验证假定通过传输模式安全关联到达的每个已接收数据包安全到达。.
+Flags:0x40260.
+ApplicableLayer:FWPM_LAYER_INBOUND_TRANSPORT_V4({5926DFC8-E3CF-4426-A283-DC393F5D0F9D}).
+CalloutId:1.
+Callout:FFFF958F271A3058
+classifyFn:FFFFF803270B70E0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326FFAF50, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+flags:FWP_CALLOUT_FLAG_RESERVED1;FWP_CALLOUT_FLAG_ALLOW_RSC;FWP_CALLOUT_FLAG_ALLOW_URO;(608)
+
+
+CalloutKey:{DAE640CC-E021-4BEE-9EB6-A48B275C8C1D}.
+DisplayData.name:WFP 内置 IPsec 转发出站隧道 v6 层标注.
+DisplayData.description:表明必须通过隧道模式安全关联保证安全的 IPSec 出站流量。.
+Flags:0x60020.
+ApplicableLayer:FWPM_LAYER_IPFORWARD_V6({7B964818-19C7-493A-B71F-832C3684D28C}).
+CalloutId:12.
+Callout:FFFF958F271A3420
+classifyFn:FFFFF803270B69C0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+notifyFn:FFFFF80326FFB2A0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+flags:FWP_CALLOUT_FLAG_RESERVED1;(32)
+
+
+
+C:\Users\Administrator>

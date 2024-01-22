@@ -1,0 +1,131 @@
+C:\Users\Administrator>C:\Users\Administrator\Desktop\bin\AntiHook.exe EnumFilterDriver
+Number:5
+
+Type:4
+Size:488
+DriverObject:FFFF958F25D7B770
+Flags:0
+Type:139
+Size:224
+MajorNdisVersion:6
+MinorNdisVersion:30
+MajorDriverVersion:1
+MinorDriverVersion:0
+Flags:0
+FriendlyName:QoS Packet Scheduler
+UniqueName:{B5F4D659-7DAA-4565-8E41-BE220ED60542}
+ServiceName:Psched
+SetOptionsHandler                :FFFFF80329FB7090, FullPathName:\SystemRoot\System32\drivers\pacer.sys
+SetFilterModuleOptionsHandler    :FFFFF80329FB2750, FullPathName:\SystemRoot\System32\drivers\pacer.sys
+AttachHandler                    :FFFFF80329FB10C0, FullPathName:\SystemRoot\System32\drivers\pacer.sys
+DetachHandler                    :FFFFF80329FB15C0, FullPathName:\SystemRoot\System32\drivers\pacer.sys
+RestartHandler                   :FFFFF80329FC8010, FullPathName:\SystemRoot\System32\drivers\pacer.sys
+PauseHandler                     :FFFFF80329FB2640, FullPathName:\SystemRoot\System32\drivers\pacer.sys
+OidRequestCompleteHandler        :FFFFF80329FB27F0, FullPathName:\SystemRoot\System32\drivers\pacer.sys
+DevicePnPEventNotifyHandler      :FFFFF80329FC9AC0, FullPathName:\SystemRoot\System32\drivers\pacer.sys
+NetPnPEventHandler               :FFFFF80329FC8A30, FullPathName:\SystemRoot\System32\drivers\pacer.sys
+StatusHandler                    :FFFFF80329FB1010, FullPathName:\SystemRoot\System32\drivers\pacer.sys
+
+Type:4
+Size:504
+DriverObject:FFFF958F25D74D10
+Flags:2
+Type:139
+Size:224
+MajorNdisVersion:6
+MinorNdisVersion:50
+MajorDriverVersion:1
+MinorDriverVersion:0
+Flags:2
+FriendlyName:Virtual WiFi Filter Driver
+UniqueName:{5CBF81BF-5055-47CD-9055-A76B2B4E3698}
+ServiceName:vwififlt
+AttachHandler                    :FFFFF80329F92920, FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
+DetachHandler                    :FFFFF80329F93630, FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
+RestartHandler                   :FFFFF80329F95FF0, FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
+PauseHandler                     :FFFFF80329F952C0, FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
+SendNetBufferListsHandler        :FFFFF80329F964C0, FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
+SendNetBufferListsCompleteHandler:FFFFF80329F96540, FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
+CancelSendNetBufferListsHandler  :FFFFF80329F930D0, FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
+ReceiveNetBufferListsHandler     :FFFFF80329F95AF0, FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
+ReturnNetBufferListsHandler      :FFFFF80329F96270, FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
+OidRequestCompleteHandler        :FFFFF80329F94EA0, FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
+CancelOidRequestHandler          :FFFFF80329F93030, FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
+DevicePnPEventNotifyHandler      :FFFFF80329F93810, FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
+NetPnPEventHandler               :FFFFF80329F948E0, FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
+StatusHandler                    :FFFFF80329F97600, FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
+
+Type:4
+Size:524
+DriverObject:FFFF958F278BBE30
+Flags:0
+Type:139
+Size:224
+MajorNdisVersion:6
+MinorNdisVersion:50
+MajorDriverVersion:1
+MinorDriverVersion:0
+Flags:0
+FriendlyName:WFP vSwitch Layers LightWeight Filter
+UniqueName:{E7C3B2F0-F3C5-48DF-AF2B-10FED6D72E7A}
+ServiceName:wfplwfs
+SetFilterModuleOptionsHandler    :FFFFF80327223ED0, FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+AttachHandler                    :FFFFF80327221F20, FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+DetachHandler                    :FFFFF80327222630, FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+RestartHandler                   :FFFFF80327223880, FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+PauseHandler                     :FFFFF80327212370, FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+OidRequestCompleteHandler        :FFFFF80327223270, FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+CancelOidRequestHandler          :FFFFF80327215CB0, FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+NetPnPEventHandler               :FFFFF803272230A0, FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+StatusHandler                    :FFFFF80327224020, FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+
+Type:4
+Size:528
+DriverObject:FFFF958F278BBE30
+Flags:2
+Type:139
+Size:224
+MajorNdisVersion:6
+MinorNdisVersion:50
+MajorDriverVersion:1
+MinorDriverVersion:0
+Flags:2
+FriendlyName:WFP Native MAC Layer LightWeight Filter
+UniqueName:{3BFD7820-D65C-4C1B-9FEA-983A019639EA}
+ServiceName:wfplwfs
+SetFilterModuleOptionsHandler    :FFFFF803272121B0, FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+AttachHandler                    :FFFFF80327211AE0, FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+DetachHandler                    :FFFFF80327211FC0, FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+RestartHandler                   :FFFFF80327212320, FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+PauseHandler                     :FFFFF80327212370, FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+SendNetBufferListsHandler        :FFFFF80327211010, FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+SendNetBufferListsCompleteHandler:FFFFF80327211710, FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+ReceiveNetBufferListsHandler     :FFFFF80327211190, FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+ReturnNetBufferListsHandler      :FFFFF803272115F0, FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+OidRequestCompleteHandler        :FFFFF80327211830, FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+CancelOidRequestHandler          :FFFFF80327215CB0, FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+StatusHandler                    :FFFFF803272122F0, FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+
+Type:4
+Size:526
+DriverObject:FFFF958F278BBE30
+Flags:2
+Type:139
+Size:224
+MajorNdisVersion:6
+MinorNdisVersion:50
+MajorDriverVersion:1
+MinorDriverVersion:0
+Flags:2
+FriendlyName:WFP 802.3 MAC Layer LightWeight Filter
+UniqueName:{B70D6460-3635-4D42-B866-B8AB1A24454C}
+ServiceName:wfplwfs
+SetFilterModuleOptionsHandler    :FFFFF80327212250, FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+AttachHandler                    :FFFFF80327211CC0, FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+DetachHandler                    :FFFFF803272120D0, FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+RestartHandler                   :FFFFF803272123F0, FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+PauseHandler                     :FFFFF80327212370, FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+StatusHandler                    :FFFFF803272122F0, FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+
+
+C:\Users\Administrator>

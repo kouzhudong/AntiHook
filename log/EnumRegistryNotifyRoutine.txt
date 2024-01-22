@@ -1,0 +1,5 @@
+C:\Users\Administrator>C:\Users\Administrator\Desktop\bin\AntiHook.exe EnumRegistryNotifyRoutine
+index:1, Cookie:1DA4BB970D9455C, address:FFFFF80326888DF0, Context:0000000000000000, Altitude:425000, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys.
+index:2, Cookie:1DA4BB970D9455D, address:FFFFF8032137F450, Context:0000000000000000, Altitude:189900, FullPathName:\SystemRoot\system32\ntoskrnl.exe.
+
+C:\Users\Administrator>

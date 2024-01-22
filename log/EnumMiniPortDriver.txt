@@ -1,0 +1,34 @@
+C:\Users\Administrator>C:\Users\Administrator\Desktop\bin\AntiHook.exe EnumMiniPortDriver
+Mini Port Driver Number:2
+
+Type:2
+Size:1184
+MajorNdisVersion:6
+MinorNdisVersion:50
+Flags:0
+DriverObject:FFFF958F27B8CE20
+Type:138
+Size:152
+MajorNdisVersion:6
+MinorNdisVersion:50
+MajorDriverVersion:12
+MinorDriverVersion:18
+Flags:0
+SetOptionsHandler                :FFFFF8032A771F70, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
+InitializeHandlerEx              :FFFFF8032A753000, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
+HaltHandlerEx                    :FFFFF8032A7541D0, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
+UnloadHandler                    :FFFFF8032A754CD0, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
+PauseHandler                     :FFFFF8032A754520, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
+RestartHandler                   :FFFFF8032A754880, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
+OidRequestHandler                :FFFFF8032A75EC80, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
+SendNetBufferListsHandler        :FFFFF8032A7647A0, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
+ReturnNetBufferListsHandler      :FFFFF8032A7690C0, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
+CancelSendHandler                :FFFFF8032A75EC70, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
+CheckForHangHandlerEx            :FFFFF8032A755160, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
+ResetHandlerEx                   :FFFFF8032A755C00, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
+DevicePnPEventNotifyHandler      :FFFFF8032A756DA0, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
+ShutdownHandlerEx                :FFFFF8032A7549F0, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
+CancelOidRequestHandler          :FFFFF8032A75EC70, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
+
+
+C:\Users\Administrator>

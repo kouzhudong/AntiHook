@@ -1,0 +1,11 @@
+C:\Users\Administrator>C:\Users\Administrator\Desktop\bin\AntiHook.exe EnumFilterDevice \Device\nsi
+DeviceObject:FFFF958F2A29BBD0
+DriverObject:FFFF958F2AF02E30
+DriverName:\Driver\360AntiHacker
+
+DeviceObject:FFFF958F2AF08D50
+DriverObject:FFFF958F2A3E8E50
+DriverName:\Driver\HidePort
+
+
+C:\Users\Administrator>
