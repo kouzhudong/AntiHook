@@ -1,10 +1,10 @@
 C:\Users\Administrator>C:\Users\Administrator\Desktop\bin\AntiHook.exe EnumIoTimer
 index:1.
-Timer:FFFFF80321847148.
+Timer:FFFFF80436647148.
 Type:0.
 TimerFlag:0.
-TimerRoutine:FFFFF80321847160.
-Context:FFFFF80321847160.
+TimerRoutine:FFFFF80436647160, SymbolName:IopDeadIrps, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+Context:FFFFF80436647160.
 DeviceObject:0000000000000000.
 DeviceName:.
 
