@@ -114,7 +114,7 @@ Enum and Remove Hook in Windows Kernel
    签名内容：用户名，单位名，电子邮箱，开始时间，到期时间。后期考虑加入：终端ID，二进制文件。  
    签名文件：AntiHook.sig。内容是JSON，在驱动解析。  
    私有文件：私钥文件和签名程序。  
-   暂时没有联网认证。  
+   暂时没有联网认证。时间也没有取互联网的（NTP服务器）。  
 4. 支持更新。  
    需要访问github.  
    如果支持更新，不能加入二进制的签名认证，这可以自己制作证书验证。  
@@ -129,5 +129,3 @@ Enum and Remove Hook in Windows Kernel
 1. https://github.com/kouzhudong/libdrv
 2. https://github.com/kouzhudong/libnet
 3. https://github.com/kouzhudong/process
-
-最后欢迎各路GUI高手，创建自己的仓库，基于这里提供的DLL，属于你的绚丽的ARK。  
