@@ -1,18 +1,6 @@
 # AntiHook
 Enum and Remove Hook in Windows Kernel
 
-起初是实现卸载各个内核的回调。  
-后来添加了minifilter，WFP，网络协议驱动，网络过滤驱动，小端口网卡驱动。  
-后来又添加了...  
-
-本工程只支持win7及以后的amd64系统。  
-
-2019/11/19  
-
----
-
-本项目的名称叫：AntiHook.  
-
 设计目标：
 1. 别的ARK工具没有的，或者很少有的，或者不开源的。
 2. 自己喜欢的，常用的，避免自己繁琐的windbg操作。
@@ -22,7 +10,7 @@ Enum and Remove Hook in Windows Kernel
 6. 不支持GUI。
 7. 多使用符号文件，尽量减少硬编码。
 
-已经添加的功能：
+已经实现的功能：
 1. 枚举和移除进程回调。  
    PsSetCreateProcessNotifyRoutine + PsSetCreateProcessNotifyRoutineEx + PsSetCreateProcessNotifyRoutineEx2  
 2. 枚举和移除线程回调。  
@@ -45,9 +33,9 @@ Enum and Remove Hook in Windows Kernel
 10. 枚举小端口网卡驱动。  
     注意：不是网卡个数。  
     NdisMRegisterMiniportDriver  
-11. 枚举DPC定时器。有待完善。  
+11. 枚举和删除DPC定时器。有待完善。  
     以Zw/Nt开头的定时器也属于这个。  
-12. 枚举IO定时器。  
+12. 枚举和停止IO定时器。  
     IoInitializeTimer  
 13. 枚举EX定时器。有待分析。  
     ExAllocateTimer 
@@ -97,13 +85,6 @@ Enum and Remove Hook in Windows Kernel
 2024-01-13
 
 ---
-
-用法流程：
-1. 加载驱动。
-2. 加载符号。
-3. 查询操作。
-4. 移除操作。
-5. 卸载操作。
 
 决定：
 1. 不公布源码。  
