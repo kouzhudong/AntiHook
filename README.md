@@ -35,8 +35,9 @@ Enum and Remove Hook in Windows Kernel
     NdisMRegisterMiniportDriver  
 11. 枚举和删除DPC定时器。有待完善。  
     以Zw/Nt开头的定时器也属于这个。  
+    KeCancelTimer。
 12. 枚举和停止IO定时器。  
-    IoInitializeTimer  
+    IoInitializeTimer + IoStopTimer 
 13. 枚举EX定时器。有待分析。  
     ExAllocateTimer 
 14. 枚举SSDT
