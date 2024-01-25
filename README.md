@@ -59,17 +59,16 @@ Enum and Remove Hook in Windows Kernel
     即：对象目录\ObjectTypes下的成员及信息。  
     驱动可创建，也可修改（系统有保护）。  
 22. 枚举驱动对象。主要显示一些函数信息。
+23. 枚举和反注册Ex回调。ExRegisterCallback + ExUnregisterCallback。(对象目录:\Callback)
 
 考虑添加的功能：
 1. 工作线程              尽管生命周期很短。
 2. 反汇编引擎，如：zydis。
-3. 加入专门与驱动交互的DLL模块，便于移植。
-4. 硬件虚拟化相关的。
-5. ExRegisterCallback + ExUnregisterCallback (对象目录:\Callback) 这个必须加上，这个很重要。
+3. 硬件虚拟化相关的。
+4. 读写内核内存。
+5. 本地内核调试。
 6. 会话回调（IoRegisterContainerNotification，非SeRegisterLogonSessionTerminatedRoutine/Ex.)
 7. IoRegisterPlugPlayNotification
-8. 读写内核内存。
-9. 本地内核调试。
 
 确定不添加的功能：
 1. 进程
