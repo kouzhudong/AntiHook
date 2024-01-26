@@ -30,8 +30,7 @@ Enum and Remove Hook in Windows Kernel
    NdisRegisterProtocolDriver + NdisRegisterProtocol
 9. 枚举网络过滤驱动。  
    特指通过NdisFRegisterFilterDriver注册的。
-10. 枚举小端口网卡驱动。  
-    注意：不是网卡个数。  
+10. 枚举小端口网卡驱动。注意：不是网卡个数。  
     NdisMRegisterMiniportDriver  
 11. 枚举和删除DPC定时器。有待完善。  
     以Zw/Nt开头的定时器也属于这个。  
@@ -39,13 +38,12 @@ Enum and Remove Hook in Windows Kernel
 12. 枚举和停止IO定时器。  
     IoInitializeTimer + IoStopTimer 
 13. 枚举EX定时器。有待分析。  
-    ExAllocateTimer 
+    ExAllocateTimer  
 14. 枚举SSDT
 15. 枚举SSSDT
 16. 枚举GDT
 17. 枚举IDT
-18. 枚举过滤设备。  
-    如：TDI，NPFS，MSFS，NSI等。  
+18. 枚举过滤设备。如：TDI，NPFS，MSFS，NSI等。  
     之所以说是设备而不是驱动，是因为  
     其一：IoAttachDevice(ByPointer) + IoAttachDeviceToDeviceStack(Safe)  
     其二：TDI的设备名不变，但是它所在的驱动在变。  
@@ -63,13 +61,15 @@ Enum and Remove Hook in Windows Kernel
 23. 枚举和反注册Ex回调。ExRegisterCallback + ExUnregisterCallback。(对象目录:\Callback)
 
 考虑添加的功能：
-1. 工作线程              尽管生命周期很短。
+1. 工作线程.    尽管生命周期很短。
 2. 反汇编引擎，如：zydis。
 3. 硬件虚拟化相关的。
 4. 读写内核内存。
 5. 本地内核调试。
 6. 会话回调（IoRegisterContainerNotification，非SeRegisterLogonSessionTerminatedRoutine/Ex.)
 7. IoRegisterPlugPlayNotification
+8. KseRegisterShim
+9. PcwRegister
 
 确定不添加的功能：
 1. 进程
