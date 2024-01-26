@@ -1,0 +1,44 @@
+{
+  "Symbol": [
+    {
+      "FileName": "ntoskrnl.exe",
+      "RelativePath": "ntoskrnl.exe"
+    },
+    {
+      "FileName": "ndis.sys",
+      "RelativePath": "drivers\\ndis.sys"
+    },
+    {
+      "FileName": "win32k.sys",
+      "RelativePath": "win32k.sys"
+    },
+    {
+      "FileName": "fltMgr.sys",
+      "RelativePath": "drivers\\fltMgr.sys"
+    },
+    {
+      "FileName": "tcpip.sys",
+      "RelativePath": "drivers\\tcpip.sys"
+    },
+    {
+      "FileName": "Ndu.sys",
+      "RelativePath": "drivers\\Ndu.sys"
+    },
+    {
+      "FileName": "mpsdrv.sys",
+      "RelativePath": "drivers\\mpsdrv.sys"
+    },
+    {
+      "FileName": "Wdf01000.sys",
+      "RelativePath": "drivers\\Wdf01000.sys"
+    },
+    {
+      "FileName": "WppRecorder.sys",
+      "RelativePath": "drivers\\WppRecorder.sys"
+    },
+    {
+      "FileName": "ntosext.sys",
+      "RelativePath": "drivers\\ntosext.sys"
+    }
+  ]
+}
