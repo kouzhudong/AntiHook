@@ -102,11 +102,3 @@ Enum and Remove Hook in Windows Kernel
 5. 
 
 2024-01-21 
-
----
-
-特别说明：  
-本工程的有些功能直接来自，自己维护的以下几个仓库：  
-1. https://github.com/kouzhudong/libdrv
-2. https://github.com/kouzhudong/libnet
-3. https://github.com/kouzhudong/process
