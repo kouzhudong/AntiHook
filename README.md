@@ -70,6 +70,8 @@ Enum and Remove Hook in Windows Kernel
 7. IoRegisterPlugPlayNotification
 8. KseRegisterShim
 9. PcwRegister
+10. NmrRegisterClient 包括：WskRegister。
+11. NmrRegisterProvider
 
 确定不添加的功能：
 1. 进程
