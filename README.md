@@ -68,10 +68,12 @@ Enum and Remove Hook in Windows Kernel
 5. 本地内核调试。
 6. 会话回调（IoRegisterContainerNotification，非SeRegisterLogonSessionTerminatedRoutine/Ex.)
 7. IoRegisterPlugPlayNotification
-8. KseRegisterShim
-9. PcwRegister
-10. NmrRegisterClient 包括：WskRegister。
-11. NmrRegisterProvider
+8. KseRegisterShim KseRegisterShimEx KseUnregisterShim
+9. PcwRegister PcwUnregister
+10. NmrpRegisterModule == NmrRegisterClient + NmrRegisterProvider + WskRegister。
+11. PsRegisterSiloMonitor
+12. PsRegisterPicoProvider
+13. EtwRegister EtwUnregister
 
 确定不添加的功能：
 1. 进程
