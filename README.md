@@ -59,6 +59,7 @@ Enum and Remove Hook in Windows Kernel
     驱动可创建，也可修改（系统有保护）。  
 22. 枚举驱动对象。主要显示一些函数信息。
 23. 枚举和反注册Ex回调。ExRegisterCallback + ExUnregisterCallback。(对象目录:\Callback)
+24. 枚举和反注册会话回调（IoRegisterContainerNotification，非SeRegisterLogonSessionTerminatedRoutine/Ex.)
 
 考虑添加的功能：
 1. 工作线程.    尽管生命周期很短。
@@ -66,14 +67,13 @@ Enum and Remove Hook in Windows Kernel
 3. 硬件虚拟化相关的。
 4. 读写内核内存。
 5. 本地内核调试。
-6. 会话回调（IoRegisterContainerNotification，非SeRegisterLogonSessionTerminatedRoutine/Ex.)
+6. EtwRegister EtwUnregister
 7. IoRegisterPlugPlayNotification
 8. KseRegisterShim KseRegisterShimEx KseUnregisterShim
 9. PcwRegister PcwUnregister
 10. NmrpRegisterModule == NmrRegisterClient + NmrRegisterProvider + WskRegister。
 11. PsRegisterSiloMonitor
 12. PsRegisterPicoProvider
-13. EtwRegister EtwUnregister
 
 确定不添加的功能：
 1. 进程
