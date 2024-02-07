@@ -1,12 +1,196 @@
-C:\Users\Administrator>C:\Users\Administrator\Desktop\bin\AntiHook.exe EnumMiniPortDriver
-Mini Port Driver Number:2
+C:\Users\Administrator\Desktop\bin>AntiHook.exe EnumMiniPortDriver
+Mini Port Driver Number:8
+
+Type:2
+Size:1184
+MajorNdisVersion:6
+MinorNdisVersion:30
+Flags:0
+DriverObject:FFFFE20B73C84E30
+Type:138
+Size:152
+MajorNdisVersion:6
+MinorNdisVersion:30
+MajorDriverVersion:1
+MinorDriverVersion:1
+Flags:0
+SetOptionsHandler                :FFFFF8043C9A75B0, FullPathName:\SystemRoot\System32\drivers\ndiswan.sys
+InitializeHandlerEx              :FFFFF8043C9D2A20, FullPathName:\SystemRoot\System32\drivers\ndiswan.sys
+HaltHandlerEx                    :FFFFF8043C9A6E00, FullPathName:\SystemRoot\System32\drivers\ndiswan.sys
+UnloadHandler                    :FFFFF8043C9C4F70, FullPathName:\SystemRoot\System32\drivers\ndiswan.sys
+PauseHandler                     :FFFFF8043C9A7120, FullPathName:\SystemRoot\System32\drivers\ndiswan.sys
+RestartHandler                   :FFFFF8043C9A71C0, FullPathName:\SystemRoot\System32\drivers\ndiswan.sys
+OidRequestHandler                :FFFFF8043C9A7070, FullPathName:\SystemRoot\System32\drivers\ndiswan.sys
+SendNetBufferListsHandler        :FFFFF8043C9A73D0, FullPathName:\SystemRoot\System32\drivers\ndiswan.sys
+ReturnNetBufferListsHandler      :FFFFF8043C9A7270, FullPathName:\SystemRoot\System32\drivers\ndiswan.sys
+CancelSendHandler                :FFFFF8043C9A1180, FullPathName:\SystemRoot\System32\drivers\ndiswan.sys
+DevicePnPEventNotifyHandler      :FFFFF8043C9A1180, FullPathName:\SystemRoot\System32\drivers\ndiswan.sys
+ShutdownHandlerEx                :FFFFF8043C9A1180, FullPathName:\SystemRoot\System32\drivers\ndiswan.sys
+CancelOidRequestHandler          :FFFFF8043C9A1180, FullPathName:\SystemRoot\System32\drivers\ndiswan.sys
+
+Type:2
+Size:1184
+MajorNdisVersion:6
+MinorNdisVersion:30
+Flags:0
+DriverObject:FFFFE20B73C82E30
+Type:138
+Size:152
+MajorNdisVersion:6
+MinorNdisVersion:30
+MajorDriverVersion:1
+MinorDriverVersion:0
+Flags:0
+SetOptionsHandler                :FFFFF8043C971B80, FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+InitializeHandlerEx              :FFFFF8043C97D880, FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+HaltHandlerEx                    :FFFFF8043C971560, FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+UnloadHandler                    :FFFFF8043C97D010, FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+PauseHandler                     :FFFFF8043C9719C0, FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+RestartHandler                   :FFFFF8043C971AA0, FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+SendNetBufferListsHandler        :FFFFF8043C9713B0, FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+ReturnNetBufferListsHandler      :FFFFF8043C9814F0, FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+CancelSendHandler                :FFFFF8043C9713B0, FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+DevicePnPEventNotifyHandler      :FFFFF8043C9713B0, FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+ShutdownHandlerEx                :FFFFF8043C9713B0, FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+CancelOidRequestHandler          :FFFFF8043C9713B0, FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+
+Type:2
+Size:1184
+MajorNdisVersion:6
+MinorNdisVersion:30
+Flags:0
+DriverObject:FFFFE20B73C0DE20
+Type:138
+Size:152
+MajorNdisVersion:6
+MinorNdisVersion:30
+MajorDriverVersion:1
+MinorDriverVersion:0
+Flags:0
+SetOptionsHandler                :FFFFF8043C944EB0, FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+InitializeHandlerEx              :FFFFF8043C958010, FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+HaltHandlerEx                    :FFFFF8043C944BC0, FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+UnloadHandler                    :FFFFF8043C956660, FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+PauseHandler                     :FFFFF8043C944D60, FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+RestartHandler                   :FFFFF8043C944DC0, FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+SendNetBufferListsHandler        :FFFFF8043C9411F0, FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+ReturnNetBufferListsHandler      :FFFFF8043C956220, FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+CancelSendHandler                :FFFFF8043C9411F0, FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+DevicePnPEventNotifyHandler      :FFFFF8043C9411F0, FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+ShutdownHandlerEx                :FFFFF8043C9411F0, FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+CancelOidRequestHandler          :FFFFF8043C9411F0, FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+
+Type:2
+Size:1184
+MajorNdisVersion:6
+MinorNdisVersion:30
+Flags:0
+DriverObject:FFFFE20B73C0BE20
+Type:138
+Size:152
+MajorNdisVersion:6
+MinorNdisVersion:30
+MajorDriverVersion:1
+MinorDriverVersion:0
+Flags:0
+SetOptionsHandler                :FFFFF8043C9148F0, FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+InitializeHandlerEx              :FFFFF8043C92C950, FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+HaltHandlerEx                    :FFFFF8043C92C850, FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+UnloadHandler                    :FFFFF8043C92B460, FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+PauseHandler                     :FFFFF8043C914720, FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+RestartHandler                   :FFFFF8043C914800, FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+SendNetBufferListsHandler        :FFFFF8043C9110C0, FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+ReturnNetBufferListsHandler      :FFFFF8043C921A70, FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+CancelSendHandler                :FFFFF8043C9110C0, FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+DevicePnPEventNotifyHandler      :FFFFF8043C9110C0, FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+ShutdownHandlerEx                :FFFFF8043C9110C0, FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+CancelOidRequestHandler          :FFFFF8043C9110C0, FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+
+Type:2
+Size:1184
+MajorNdisVersion:6
+MinorNdisVersion:30
+Flags:0
+DriverObject:FFFFE20B73C81E30
+Type:138
+Size:152
+MajorNdisVersion:6
+MinorNdisVersion:30
+MajorDriverVersion:1
+MinorDriverVersion:0
+Flags:0
+SetOptionsHandler                :FFFFF8043C8FAFE0, FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+InitializeHandlerEx              :FFFFF8043C8FAD80, FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+HaltHandlerEx                    :FFFFF8043C8E25F0, FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+UnloadHandler                    :FFFFF8043C8FA3A0, FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+PauseHandler                     :FFFFF8043C8E26B0, FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+RestartHandler                   :FFFFF8043C8E2750, FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+SendNetBufferListsHandler        :FFFFF8043C8FCB10, FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+ReturnNetBufferListsHandler      :FFFFF8043C8FCCF0, FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+CancelSendHandler                :FFFFF8043C8FCB10, FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+DevicePnPEventNotifyHandler      :FFFFF8043C8FA390, FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+ShutdownHandlerEx                :FFFFF8043C8E1410, FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+CancelOidRequestHandler          :FFFFF8043C8E1410, FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+
+Type:2
+Size:1184
+MajorNdisVersion:6
+MinorNdisVersion:30
+Flags:0
+DriverObject:FFFFE20B73B4E9E0
+Type:138
+Size:152
+MajorNdisVersion:6
+MinorNdisVersion:30
+MajorDriverVersion:1
+MinorDriverVersion:0
+Flags:0
+SetOptionsHandler                :FFFFF8043CD623E0, FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+InitializeHandlerEx              :FFFFF8043CD6DEF0, FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+HaltHandlerEx                    :FFFFF8043CD6DE80, FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+UnloadHandler                    :FFFFF8043CD6D620, FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+PauseHandler                     :FFFFF8043CD62250, FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+RestartHandler                   :FFFFF8043CD62310, FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+SendNetBufferListsHandler        :FFFFF8043CD61400, FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+ReturnNetBufferListsHandler      :FFFFF8043CD6F490, FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+CancelSendHandler                :FFFFF8043CD61400, FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+DevicePnPEventNotifyHandler      :FFFFF8043CD61400, FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+ShutdownHandlerEx                :FFFFF8043CD61400, FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+CancelOidRequestHandler          :FFFFF8043CD61400, FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+
+Type:2
+Size:1184
+MajorNdisVersion:6
+MinorNdisVersion:30
+Flags:0
+DriverObject:FFFFE20B6C883E30
+Type:138
+Size:152
+MajorNdisVersion:6
+MinorNdisVersion:30
+MajorDriverVersion:0
+MinorDriverVersion:0
+Flags:2
+InitializeHandlerEx              :FFFFF80440121AC0, FullPathName:\SystemRoot\System32\drivers\bthpan.sys
+HaltHandlerEx                    :FFFFF80440121950, FullPathName:\SystemRoot\System32\drivers\bthpan.sys
+UnloadHandler                    :FFFFF80440121500, FullPathName:\SystemRoot\System32\drivers\bthpan.sys
+PauseHandler                     :FFFFF804401221C0, FullPathName:\SystemRoot\System32\drivers\bthpan.sys
+RestartHandler                   :FFFFF80440122BC0, FullPathName:\SystemRoot\System32\drivers\bthpan.sys
+OidRequestHandler                :FFFFF80440121FF0, FullPathName:\SystemRoot\System32\drivers\bthpan.sys
+SendNetBufferListsHandler        :FFFFF80440122DB0, FullPathName:\SystemRoot\System32\drivers\bthpan.sys
+ReturnNetBufferListsHandler      :FFFFF80440122D10, FullPathName:\SystemRoot\System32\drivers\bthpan.sys
+CancelSendHandler                :FFFFF80440121890, FullPathName:\SystemRoot\System32\drivers\bthpan.sys
+ResetHandlerEx                   :FFFFF80440122B30, FullPathName:\SystemRoot\System32\drivers\bthpan.sys
+DevicePnPEventNotifyHandler      :FFFFF804401218A0, FullPathName:\SystemRoot\System32\drivers\bthpan.sys
+ShutdownHandlerEx                :FFFFF80440121890, FullPathName:\SystemRoot\System32\drivers\bthpan.sys
+CancelOidRequestHandler          :FFFFF80440121890, FullPathName:\SystemRoot\System32\drivers\bthpan.sys
 
 Type:2
 Size:1184
 MajorNdisVersion:6
 MinorNdisVersion:50
 Flags:0
-DriverObject:FFFF958F27B8CE20
+DriverObject:FFFFE20B6B93BE50
 Type:138
 Size:152
 MajorNdisVersion:6
@@ -14,21 +198,21 @@ MinorNdisVersion:50
 MajorDriverVersion:12
 MinorDriverVersion:18
 Flags:0
-SetOptionsHandler                :FFFFF8032A771F70, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-InitializeHandlerEx              :FFFFF8032A753000, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-HaltHandlerEx                    :FFFFF8032A7541D0, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-UnloadHandler                    :FFFFF8032A754CD0, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-PauseHandler                     :FFFFF8032A754520, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-RestartHandler                   :FFFFF8032A754880, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-OidRequestHandler                :FFFFF8032A75EC80, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-SendNetBufferListsHandler        :FFFFF8032A7647A0, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-ReturnNetBufferListsHandler      :FFFFF8032A7690C0, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-CancelSendHandler                :FFFFF8032A75EC70, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-CheckForHangHandlerEx            :FFFFF8032A755160, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-ResetHandlerEx                   :FFFFF8032A755C00, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-DevicePnPEventNotifyHandler      :FFFFF8032A756DA0, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-ShutdownHandlerEx                :FFFFF8032A7549F0, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-CancelOidRequestHandler          :FFFFF8032A75EC70, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
+SetOptionsHandler                :FFFFF80442181F70, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
+InitializeHandlerEx              :FFFFF80442163000, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
+HaltHandlerEx                    :FFFFF804421641D0, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
+UnloadHandler                    :FFFFF80442164CD0, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
+PauseHandler                     :FFFFF80442164520, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
+RestartHandler                   :FFFFF80442164880, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
+OidRequestHandler                :FFFFF8044216EC80, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
+SendNetBufferListsHandler        :FFFFF804421747A0, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
+ReturnNetBufferListsHandler      :FFFFF804421790C0, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
+CancelSendHandler                :FFFFF8044216EC70, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
+CheckForHangHandlerEx            :FFFFF80442165160, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
+ResetHandlerEx                   :FFFFF80442165C00, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
+DevicePnPEventNotifyHandler      :FFFFF80442166DA0, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
+ShutdownHandlerEx                :FFFFF804421649F0, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
+CancelOidRequestHandler          :FFFFF8044216EC70, FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
 
 
-C:\Users\Administrator>
+C:\Users\Administrator\Desktop\bin>
