@@ -80,10 +80,11 @@ Enum and Remove Hook in Windows Kernel
 2. 文件
 3. 注册表
 4. MBR
-5. 端口
+5. 端口   因为有netstat和tcpview.exe。
 6. LSP
-7. 系统线程
+7. 系统线程     因为有procexp.exe。
 8. 系统热键
-9. 句柄
+9. 句柄         因为有procexp.exe。
+10. 启动项      因为有Autoruns.exe。
 
 2024-01-13
