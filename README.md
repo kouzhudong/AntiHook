@@ -60,6 +60,7 @@ Enum and Remove Hook in Windows Kernel
 22. 枚举驱动对象。主要显示一些函数信息。
 23. 枚举和反注册Ex回调。ExRegisterCallback + ExUnregisterCallback。(对象目录:\Callback)
 24. 枚举和反注册会话回调（IoRegisterContainerNotification，非SeRegisterLogonSessionTerminatedRoutine/Ex.)
+25. Dump HalDispatchTable
 
 考虑添加的功能：
 1. 工作线程.    尽管生命周期很短。
@@ -74,17 +75,17 @@ Enum and Remove Hook in Windows Kernel
 10. NmrpRegisterModule == NmrRegisterClient + NmrRegisterProvider + WskRegister。
 11. PsRegisterSiloMonitor
 12. PsRegisterPicoProvider
+13. 系统热键
 
 确定不添加的功能：
 1. 进程
 2. 文件
 3. 注册表
-4. MBR
-5. 端口   因为有netstat和tcpview.exe。
+4. MBR      已经过时了。
+5. 端口     因为有netstat和tcpview.exe。
 6. LSP
 7. 系统线程     因为有procexp.exe。
-8. 系统热键
-9. 句柄         因为有procexp.exe。
-10. 启动项      因为有Autoruns.exe。
+8. 句柄         因为有procexp.exe。
+9. 启动项       因为有Autoruns.exe。
 
 2024-01-13
