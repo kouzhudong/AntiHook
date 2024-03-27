@@ -1,0 +1,28 @@
+C:\Users\Administrator>C:\Users\Administrator\Desktop\bin\AntiHook.exe DumpHalDispatchTable
+Version:5
+HalQuerySystemInformation    :FFFFF80430046C70, SymbolName:HaliQuerySystemInformation, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+HalSetSystemInformation      :FFFFF8042FDF3D30, SymbolName:HalpSetSystemInformation, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+HalQueryBusSlots             :FFFFF8042FDF04D0, SymbolName:ArbAddReserved, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+Spare1:0
+HalExamineMBR                :FFFFF8042FF2FFD0, SymbolName:HalExamineMBR, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+HalIoReadPartitionTable      :FFFFF8042FF30190, SymbolName:IoReadPartitionTable, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+HalIoSetPartitionInformation :FFFFF8042FF30410, SymbolName:IoSetPartitionInformation, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+HalIoWritePartitionTable     :FFFFF8042FF30660, SymbolName:IoWritePartitionTable, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+HalReferenceHandlerForBus    :FFFFF8042F874730, SymbolName:SC_DEVICE::GetStoragePropertyPost, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+HalReferenceBusHandler       :FFFFF8042F9A6270, SymbolName:EmpCheckErrataList, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+HalDereferenceBusHandler     :FFFFF8042F9A6270, SymbolName:EmpCheckErrataList, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+HalInitPnpDriver             :FFFFF8042FE480E0, SymbolName:HaliInitPnpDriver, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+HalInitPowerManagement       :FFFFF8042FE1BD30, SymbolName:HaliInitPowerManagement, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+HalGetDmaAdapter             :FFFFF8042F9B61E0, SymbolName:HalPnpGetDmaAdapter, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+HalGetInterruptTranslator    :FFFFF8042FE5F580, SymbolName:HaliGetInterruptTranslator, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+HalStartMirroring            :FFFFF8042FDF04D0, SymbolName:ArbAddReserved, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+HalEndMirroring              :FFFFF8042F971C90, SymbolName:DefaultAddProfileSource, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+HalMirrorPhysicalMemory      :FFFFF8042F971C90, SymbolName:DefaultAddProfileSource, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+HalEndOfBoot                 :FFFFF8042FE609E0, SymbolName:HalpEndOfBoot, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+HalMirrorVerify              :FFFFF8042F971C90, SymbolName:DefaultAddProfileSource, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+HalGetCachedAcpiTable        :FFFFF8042F8BA570, SymbolName:HalAcpiGetTableDispatch, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+HalSetPciErrorHandlerCallback:FFFFF8042F9A6270, SymbolName:EmpCheckErrataList, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+HalGetPrmCache               :FFFFF8042F971B80, SymbolName:HalpAcpiGetPrmCache, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+
+
+C:\Users\Administrator>
