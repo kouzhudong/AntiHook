@@ -61,6 +61,7 @@ Enum and Remove Hook in Windows Kernel
 23. 枚举和反注册Ex回调。ExRegisterCallback + ExUnregisterCallback。(对象目录:\Callback)
 24. 枚举和反注册会话回调（IoRegisterContainerNotification，非SeRegisterLogonSessionTerminatedRoutine/Ex.)
 25. Dump HalDispatchTable
+26. 枚举已经卸载的驱动
 
 考虑添加的功能：
 1. 工作线程.    尽管生命周期很短。
