@@ -1,0 +1,74 @@
+C:\Users\Administrator>C:\Users\Administrator\Desktop\bin\AntiHook.exe DumpUnloadedDrivers
+Name:hwpolicy.sys
+StartAddress:FFFFF8001EE10000
+EndAddress:FFFFF8001EE22000
+CurrentTime:2024-03-31 18:39:31
+
+Name:WdBoot.sys
+StartAddress:FFFFF8001DBC0000
+EndAddress:FFFFF8001DBD3000
+CurrentTime:2024-03-31 18:39:31
+
+Name:KMPDC.sys
+StartAddress:FFFFF80021E00000
+EndAddress:FFFFF80021E0F000
+CurrentTime:2024-03-31 18:39:37
+
+Name:dam.sys
+StartAddress:FFFFF80021DE0000
+EndAddress:FFFFF80021DFF000
+CurrentTime:2024-03-31 18:39:37
+
+Name:dump_dumpfve.sys
+StartAddress:FFFFF8001F400000
+EndAddress:FFFFF8001F41E000
+CurrentTime:2024-03-31 18:39:44
+
+Name:dump_stornvme.sys
+StartAddress:FFFFF8001FD90000
+EndAddress:FFFFF8001FDC9000
+CurrentTime:2024-03-31 18:39:44
+
+Name:dump_storport.sys
+StartAddress:FFFFF8001FD40000
+EndAddress:FFFFF8001FD50000
+CurrentTime:2024-03-31 18:39:44
+
+Name:AntiHook.sys
+StartAddress:FFFFF8002AAC0000
+EndAddress:FFFFF8002AAD8000
+CurrentTime:2024-03-31 18:46:14
+
+Name:AntiHook.sys
+StartAddress:FFFFF8002AAE0000
+EndAddress:FFFFF8002AAF8000
+CurrentTime:2024-03-31 18:55:28
+
+Name:YDArkDrv.sys
+StartAddress:FFFFF800CC330000
+EndAddress:FFFFF800CD18F000
+CurrentTime:2024-03-31 19:17:05
+
+
+C:\Users\Administrator>
+
+--------------------------------------------------------------------------------------------------
+
+0: kd> lm
+start             end                 module name
+fffff800`1a400000 fffff800`1b447000   nt         (pdb symbols)          c:\symbols\ntkrnlmp.pdb\0CE4A95C0CD782A7596B034D8648E5851\ntkrnlmp.pdb
+fffff800`2ab00000 fffff800`2ab17000   AntiHook   (private pdb symbols)  d:\git\gitlab\code\tools\antihook\src\wdm\sys\x64\debug\AntiHook.pdb
+fffff800`2ab20000 fffff800`2ab3a000   OpenArkDrv64   (deferred)             
+fffff800`2ab40000 fffff800`2ab4c000   PROCEXP152   (deferred)             
+
+Unloaded modules:
+fffff800`cc330000 fffff800`cd18f000   YDArkDrv.sys
+fffff800`2aae0000 fffff800`2aaf8000   AntiHook.sys
+fffff800`2aac0000 fffff800`2aad8000   AntiHook.sys
+fffff800`1fd40000 fffff800`1fd50000   dump_storport.sys
+fffff800`1fd90000 fffff800`1fdc9000   dump_stornvme.sys
+fffff800`1f400000 fffff800`1f41e000   dump_dumpfve.sys
+fffff800`21de0000 fffff800`21dff000   dam.sys 
+fffff800`21e00000 fffff800`21e0f000   KMPDC.sys
+fffff800`1dbc0000 fffff800`1dbd3000   WdBoot.sys
+fffff800`1ee10000 fffff800`1ee22000   hwpolicy.sys
