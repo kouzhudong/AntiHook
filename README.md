@@ -62,6 +62,16 @@ Enum and Remove Hook in Windows Kernel
 24. 枚举和反注册会话回调（IoRegisterContainerNotification，非SeRegisterLogonSessionTerminatedRoutine/Ex.)
 25. Dump HalDispatchTable
 26. 枚举已经卸载的驱动
+27. 给进程赋予System的Token权限，相当于NT AUTHORITY\SYSTEM。
+    有待验证是否会触发系统的保护机制（PG/KPP).
+28. 设置进程的ProcessProtectionLevel。
+    有待验证是否会触发系统的保护机制（PG/KPP).
+29. 修改进程的句柄的权限。
+    如：0x1fffff,这个可以和ObRegisterCallbacks对抗，逃避监控。
+    验证：先切换到目标进程（.process /r /p 0xXXXXXX），然后运行!handle 0xxx。
+    危险：谨慎使用，弄不好会卡系统。
+    有待验证是否会触发系统的保护机制（PG/KPP).
+30. 待补。
 
 考虑添加的功能：
 1. 工作线程.    尽管生命周期很短。
