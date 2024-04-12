@@ -60,16 +60,20 @@ Enum and Remove Hook in Windows Kernel
 22. 枚举驱动对象。主要显示一些函数信息。
 23. 枚举和反注册Ex回调。ExRegisterCallback + ExUnregisterCallback。(对象目录:\Callback)
 24. 枚举和反注册会话回调（IoRegisterContainerNotification，非SeRegisterLogonSessionTerminatedRoutine/Ex.)
-25. Dump HalDispatchTable
+25. Dump HalDispatchTable  
+    没有使用符号解析，没有使用特征码。  
 26. 枚举已经卸载的驱动
 27. 给进程赋予System的Token权限，相当于NT AUTHORITY\SYSTEM。  
+    没有使用符号解析，没有使用特征码。  
     有待验证是否会触发系统的保护机制（PG/KPP).  
 28. 设置进程的ProcessProtectionLevel。  
+    没有使用符号解析，没有使用特征码。  
     有待验证是否会触发系统的保护机制（PG/KPP).  
 29. 修改进程的句柄的权限。  
     如：0x1fffff,这个可以和ObRegisterCallbacks对抗，逃避监控。  
     验证：先切换到目标进程（.process /r /p 0xXXXXXX），然后运行!handle 0xxx。  
     危险：谨慎使用，弄不好会卡系统。  
+    没有使用符号解析，没有使用特征码。  
     有待验证是否会触发系统的保护机制（PG/KPP).  
 30. 待补。
 
@@ -98,5 +102,7 @@ Enum and Remove Hook in Windows Kernel
 7. 系统线程     因为有procexp.exe。
 8. 句柄         因为有procexp.exe。
 9. 启动项       因为有Autoruns.exe。
+10. 驱动模块    driverquery等工具都有。
+11. 系统服务    系统自带的功能。
 
 2024-01-13
