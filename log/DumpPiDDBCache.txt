@@ -1,0 +1,743 @@
+C:\Users\Administrator\Desktop\bin>C:\Users\Administrator\Desktop\bin\AntiHook.exe DumpPiDDBCache
+DriverName:Wdf01000.sys
+TimeDateStamp(编译时间):0x7e4827bc == 2118657980 (2037-02-19 20:06:20)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:PRM.sys
+TimeDateStamp(编译时间):0x635dfaed == 1667103469 (2022-10-30 12:17:49)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:acpiex.sys
+TimeDateStamp(编译时间):0x6ea4c7b4 == 1856292788 (2028-10-28 04:53:08)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:cng.sys
+TimeDateStamp(编译时间):0x263e321d == 641610269 (1990-05-02 09:04:29)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:msseccore.sys
+TimeDateStamp(编译时间):0x78cf783b == 2026862651 (2034-03-25 09:24:11)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:SgrmAgent.sys
+TimeDateStamp(编译时间):0x6a6260ba == 1784832186 (2026-07-24 02:43:06)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:WdBoot.sys
+TimeDateStamp(编译时间):0xc5d3bad6 == -975979818 (2075-03-05 12:57:58)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:intelpep.sys
+TimeDateStamp(编译时间):0x2df789ac == 771197356 (1994-06-10 05:29:16)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:WindowsTrustedRT.sys
+TimeDateStamp(编译时间):0x9f85f95e == -1618609826 (2054-10-23 16:37:50)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:IntelPMT.sys
+TimeDateStamp(编译时间):0x8607f8f9 == -2046297863 (2041-04-04 14:23:53)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:WindowsTrustedRTProxy.sys
+TimeDateStamp(编译时间):0x511a675b == 1360684891 (2013-02-13 00:01:31)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:ACPI.sys
+TimeDateStamp(编译时间):0x725de2b9 == 1918755513 (2030-10-21 03:38:33)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:msisadrv.sys
+TimeDateStamp(编译时间):0x39fc6652 == 972842578 (2000-10-30 02:02:58)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:pci.sys
+TimeDateStamp(编译时间):0xe060dc9d == -530522979 (2089-04-16 06:58:37)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:tpm.sys
+TimeDateStamp(编译时间):0x4297bb4a == 1117240138 (2005-05-28 08:28:58)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:pcw.sys
+TimeDateStamp(编译时间):0x197c3fa3 == 427573155 (1983-07-21 02:19:15)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:vdrvroot.sys
+TimeDateStamp(编译时间):0x1d57abb7 == 492284855 (1985-08-08 01:47:35)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:pdc.sys
+TimeDateStamp(编译时间):0x39a709cd == 967248333 (2000-08-26 08:05:33)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:partmgr.sys
+TimeDateStamp(编译时间):0x5413c4a == 88161354 (1972-10-17 17:15:54)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:spaceport.sys
+TimeDateStamp(编译时间):0xfbe0af53 == -69161133 (2103-11-30 03:02:43)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:volmgr.sys
+TimeDateStamp(编译时间):0x8b6fda0d == -1955603955 (2044-02-18 07:09:01)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:intelide.sys
+TimeDateStamp(编译时间):0x1dd2d282 == 500355714 (1985-11-09 11:41:54)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:volmgrx.sys
+TimeDateStamp(编译时间):0x633ebbe == 104065982 (1973-04-19 19:13:02)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:vsock.sys
+TimeDateStamp(编译时间):0x619afee2 == 1637547746 (2021-11-22 10:22:26)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:vmci.sys
+TimeDateStamp(编译时间):0x619afec4 == 1637547716 (2021-11-22 10:21:56)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:mountmgr.sys
+TimeDateStamp(编译时间):0xfa75996d == -92956307 (2103-02-27 17:16:29)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:atapi.sys
+TimeDateStamp(编译时间):0x159140c0 == 361840832 (1981-06-20 07:20:32)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:storahci.sys
+TimeDateStamp(编译时间):0xf0b75599 == -256420455 (2097-12-22 18:34:01)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:stornvme.sys
+TimeDateStamp(编译时间):0x20a7df4b == 547872587 (1987-05-13 10:49:47)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:EhStorClass.sys
+TimeDateStamp(编译时间):0x2cca47b8 == 751454136 (1993-10-24 17:15:36)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:fltmgr.sys
+TimeDateStamp(编译时间):0xb6c3316a == -1228721814 (2067-03-02 06:51:22)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:fileinfo.sys
+TimeDateStamp(编译时间):0x144422d == 21250605 (1970-09-04 06:56:45)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:Wof.SYS
+TimeDateStamp(编译时间):0x2dd9eb44 == 769256260 (1994-05-18 18:17:40)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:WdFilter.sys
+TimeDateStamp(编译时间):0x1c3d9a39 == 473799225 (1985-01-06 02:53:45)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:CLFS.sys
+TimeDateStamp(编译时间):0xcf0e876b == -821131413 (2080-01-30 18:24:43)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:Ntfs.SYS
+TimeDateStamp(编译时间):0x84504783 == -2075113597 (2040-05-06 02:01:39)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:ksecdd.sys
+TimeDateStamp(编译时间):0x788f61c == 126416412 (1974-01-03 11:40:12)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:Fs_Rec.SYS
+TimeDateStamp(编译时间):0xae0f16e9 == -1374742807 (2062-07-16 05:28:09)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:ndis.sys
+TimeDateStamp(编译时间):0x1a34b4c2 == 439661762 (1983-12-08 00:16:02)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:ksecpkg.sys
+TimeDateStamp(编译时间):0x709c330d == 1889284877 (2029-11-14 01:21:17)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:tcpip.sys
+TimeDateStamp(编译时间):0xb3fec7c7 == -1275148345 (2065-09-10 22:35:51)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:wfplwfs.sys
+TimeDateStamp(编译时间):0x9d9bbef3 == -1650737421 (2053-10-16 20:17:55)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:fvevol.sys
+TimeDateStamp(编译时间):0x74ef5adb == 1961843419 (2032-03-02 20:30:19)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:volume.sys
+TimeDateStamp(编译时间):0xa21db093 == -1575112557 (2056-03-10 03:12:19)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:volsnap.sys
+TimeDateStamp(编译时间):0xce3be296 == -834936170 (2079-08-23 23:45:26)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:rdyboost.sys
+TimeDateStamp(编译时间):0x679861a9 == 1738039721 (2025-01-28 12:48:41)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:mup.sys
+TimeDateStamp(编译时间):0x27abafbf == 665563071 (1991-02-03 14:37:51)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:iorate.sys
+TimeDateStamp(编译时间):0x140f1ac8 == 336534216 (1980-08-31 09:43:36)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:hwpolicy.sys
+TimeDateStamp(编译时间):0x5639a11 == 90413585 (1972-11-12 18:53:05)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:disk.sys
+TimeDateStamp(编译时间):0xa1eb73d5 == -1578404907 (2056-02-01 00:39:49)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:cdrom.sys
+TimeDateStamp(编译时间):0x766b7f2d == 1986756397 (2032-12-16 04:46:37)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:filecrypt.sys
+TimeDateStamp(编译时间):0xf9d07a7a == -103777670 (2102-10-25 11:20:26)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:Null.SYS
+TimeDateStamp(编译时间):0xa41489ef == -1542157841 (2057-03-26 13:17:35)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:Beep.SYS
+TimeDateStamp(编译时间):0x4d5648bf == 1297500351 (2011-02-12 16:45:51)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:vmrawdsk.sys
+TimeDateStamp(编译时间):0x619487b3 == 1637124019 (2021-11-17 12:40:19)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:dxgkrnl.sys
+TimeDateStamp(编译时间):0xa1c35a2f == -1581032913 (2056-01-01 14:39:43)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:BasicDisplay.sys
+TimeDateStamp(编译时间):0x39b04bc4 == 967855044 (2000-09-02 08:37:24)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:BasicRender.sys
+TimeDateStamp(编译时间):0xac25d4f1 == -1406806799 (2061-07-10 02:48:17)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:Npfs.SYS
+TimeDateStamp(编译时间):0x6ac5b004 == 1791340548 (2026-10-07 10:35:48)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:Msfs.SYS
+TimeDateStamp(编译时间):0x50bf92b == 84670763 (1972-09-07 07:39:23)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:CimFS.SYS
+TimeDateStamp(编译时间):0x8d3bf914 == -1925449452 (2045-02-01 07:24:04)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:tdx.sys
+TimeDateStamp(编译时间):0xf16accd1 == -244658991 (2098-05-07 21:38:25)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:ws2ifsl.sys
+TimeDateStamp(编译时间):0xfedc4bda == -19117094 (2105-07-01 08:10:02)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:sysdiag.sys
+TimeDateStamp(编译时间):0x660a71e0 == 1711960544 (2024-04-01 16:35:44)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:netbt.sys
+TimeDateStamp(编译时间):0x7a93255d == 2056463709 (2035-03-02 23:55:09)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:afunix.sys
+TimeDateStamp(编译时间):0xcaff8947 == -889222841 (2077-12-03 16:07:35)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:afd.sys
+TimeDateStamp(编译时间):0x5db30b79 == 1572014969 (2019-10-25 22:49:29)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:vwififlt.sys
+TimeDateStamp(编译时间):0xae9945c8 == -1365686840 (2062-10-29 01:00:56)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:pacer.sys
+TimeDateStamp(编译时间):0xd9d36a67 == -640456089 (2085-10-21 22:00:07)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:ndiscap.sys
+TimeDateStamp(编译时间):0x80761aad == -2139743571 (2038-04-19 01:15:25)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:netbios.sys
+TimeDateStamp(编译时间):0x6eee9a65 == 1861130853 (2028-12-23 04:47:33)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:Vid.sys
+TimeDateStamp(编译时间):0x33c27003 == 868380675 (1997-07-09 00:51:15)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:rdbss.sys
+TimeDateStamp(编译时间):0x84641c29 == -2073813975 (2040-05-21 03:02:01)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:csc.sys
+TimeDateStamp(编译时间):0x19b790c2 == 431460546 (1983-09-04 02:09:06)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:nsiproxy.sys
+TimeDateStamp(编译时间):0x5b7a4012 == 1534738450 (2018-08-20 12:14:10)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:npsvctrig.sys
+TimeDateStamp(编译时间):0xfce748e0 == -51951392 (2104-06-16 07:31:44)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:mssmbios.sys
+TimeDateStamp(编译时间):0xe6eae99d == -420812387 (2092-10-07 02:08:29)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:gpuenergydrv.sys
+TimeDateStamp(编译时间):0x369ba49c == 916169884 (1999-01-13 03:38:04)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:dfsc.sys
+TimeDateStamp(编译时间):0x86def6b4 == -2032208204 (2041-09-14 16:11:32)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:dam.sys
+TimeDateStamp(编译时间):0xacfee7a0 == -1392580704 (2061-12-21 18:29:52)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:fastfat.SYS
+TimeDateStamp(编译时间):0x2cd54096 == 752173206 (1993-11-02 01:00:06)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:bam.sys
+TimeDateStamp(编译时间):0xa1451e1b == -1589305829 (2055-09-27 20:37:47)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:ahcache.sys
+TimeDateStamp(编译时间):0x34dd12cd == 886903501 (1998-02-08 10:05:01)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:CompositeBus.sys
+TimeDateStamp(编译时间):0xef3363b0 == -281844816 (2097-03-03 12:14:40)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:kdnic.sys
+TimeDateStamp(编译时间):0x6f4c908a == 1867288714 (2029-03-04 11:18:34)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:umbus.sys
+TimeDateStamp(编译时间):0x7c36a743 == 2083956547 (2036-01-15 04:49:07)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:i8042prt.sys
+TimeDateStamp(编译时间):0xbe9ce489 == -1097014135 (2071-05-04 16:19:21)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:kbdclass.sys
+TimeDateStamp(编译时间):0x6f7b4a29 == 1870350889 (2029-04-08 21:54:49)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:vmmouse.sys
+TimeDateStamp(编译时间):0x619dc786 == 1637730182 (2021-11-24 13:03:02)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:mouclass.sys
+TimeDateStamp(编译时间):0x2ab7880 == 44791936 (1971-06-03 18:12:16)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:vm3dmp_loader.sys
+TimeDateStamp(编译时间):0x64f5cfcf == 1693831119 (2023-09-04 20:38:39)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:vm3dmp.sys
+TimeDateStamp(编译时间):0x64f5cfd0 == 1693831120 (2023-09-04 20:38:40)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:usbuhci.sys
+TimeDateStamp(编译时间):0xf81f2b40 == -132175040 (2101-11-30 19:10:56)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:HDAudBus.sys
+TimeDateStamp(编译时间):0x966aa8e7 == -1771394841 (2049-12-20 08:20:55)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:usbehci.sys
+TimeDateStamp(编译时间):0x1a6a6818 == 443181080 (1984-01-17 17:51:20)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:e1i68x64.sys
+TimeDateStamp(编译时间):0x5ee18859 == 1591838809 (2020-06-11 09:26:49)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:USBXHCI.SYS
+TimeDateStamp(编译时间):0xae774f4e == -1367912626 (2062-10-03 06:44:30)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:ucx01000.sys
+TimeDateStamp(编译时间):0xbacb774a == -1161070774 (2069-04-23 06:48:42)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:vmgencounter.sys
+TimeDateStamp(编译时间):0xeb2dafa4 == -349327452 (2095-01-12 11:04:04)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:CmBatt.sys
+TimeDateStamp(编译时间):0x1550cf21 == 357617441 (1981-05-02 10:10:41)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:intelppm.sys
+TimeDateStamp(编译时间):0x4d6fd72d == 1299175213 (2011-03-04 02:00:13)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:UEFI.sys
+TimeDateStamp(编译时间):0x3188b491 == 831042705 (1996-05-02 21:11:45)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:NdisVirtualBus.sys
+TimeDateStamp(编译时间):0x7c5fa602 == 2086643202 (2036-02-15 07:06:42)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:swenum.sys
+TimeDateStamp(编译时间):0xf62f1994 == -164685420 (2100-11-19 12:31:16)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:rdpbus.sys
+TimeDateStamp(编译时间):0xbd8b4e4d == -1114943923 (2070-10-09 03:49:33)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:usbhub.sys
+TimeDateStamp(编译时间):0x7c75beca == 2088091338 (2036-03-03 01:22:18)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:UsbHub3.sys
+TimeDateStamp(编译时间):0x8840a080 == -2009030528 (2042-06-09 22:26:08)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:HdAudio.sys
+TimeDateStamp(编译时间):0xb5f1a758 == -1242454184 (2066-09-24 08:18:32)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:ksthunk.sys
+TimeDateStamp(编译时间):0x106ea2b6 == 275686070 (1978-09-27 03:27:50)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:usbccgp.sys
+TimeDateStamp(编译时间):0x54c51e3e == 1422204478 (2015-01-26 00:47:58)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:hidusb.sys
+TimeDateStamp(编译时间):0xb0f01a09 == -1326441975 (2064-01-26 06:22:01)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:mouhid.sys
+TimeDateStamp(编译时间):0x1571ef43 == 359788355 (1981-05-27 13:12:35)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:vmusbmouse.sys
+TimeDateStamp(编译时间):0x619485f2 == 1637123570 (2021-11-17 12:32:50)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:BTHUSB.sys
+TimeDateStamp(编译时间):0x93879c7b == -1819829125 (2048-06-07 18:22:51)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:BTHport.sys
+TimeDateStamp(编译时间):0x1238d5a2 == 305714594 (1979-09-09 16:43:14)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:rfcomm.sys
+TimeDateStamp(编译时间):0xb28c51a8 == -1299426904 (2064-12-03 22:33:12)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:BthEnum.sys
+TimeDateStamp(编译时间):0x7f707340 == 2138075968 (2037-10-02 13:59:28)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:bthpan.sys
+TimeDateStamp(编译时间):0x8848c97a == -2008495750 (2042-06-16 02:59:06)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:monitor.sys
+TimeDateStamp(编译时间):0x6fae730 == 117106480 (1973-09-17 17:34:40)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:luafv.sys
+TimeDateStamp(编译时间):0x3058fddc == 811138524 (1995-09-15 12:15:24)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:wcifs.sys
+TimeDateStamp(编译时间):0xddde127c == -572648836 (2087-12-15 17:21:00)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:cldflt.sys
+TimeDateStamp(编译时间):0x13c81f73 == 331882355 (1980-07-08 13:32:35)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:storqosflt.sys
+TimeDateStamp(编译时间):0x25f123c9 == 636560329 (1990-03-04 22:18:49)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:bindflt.sys
+TimeDateStamp(编译时间):0xc1781578 == -1049094792 (2072-11-09 07:15:04)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:lltdio.sys
+TimeDateStamp(编译时间):0x281a4957 == 672811351 (1991-04-28 12:02:31)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:mslldp.sys
+TimeDateStamp(编译时间):0xf7a73dc1 == -140034623 (2101-08-31 19:57:53)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:rspndr.sys
+TimeDateStamp(编译时间):0x37ca927e == 936022654 (1999-08-30 22:17:34)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:wanarp.sys
+TimeDateStamp(编译时间):0x19e3b2d4 == 434352852 (1983-10-07 13:34:12)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:msquic.sys
+TimeDateStamp(编译时间):0x64d2c843 == 1691535427 (2023-08-09 06:57:07)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:HTTP.sys
+TimeDateStamp(编译时间):0x467c56 == 4619350 (1970-02-23 19:09:10)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:bowser.sys
+TimeDateStamp(编译时间):0xd0f5a9d4 == -789206572 (2081-02-03 06:25:24)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:mpsdrv.sys
+TimeDateStamp(编译时间):0x340730af == 872886447 (1997-08-30 04:27:27)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:mrxsmb.sys
+TimeDateStamp(编译时间):0x58e868e6 == 1491626214 (2017-04-08 12:36:54)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:mrxsmb20.sys
+TimeDateStamp(编译时间):0x4c2a3990 == 1277835664 (2010-06-30 02:21:04)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:mmcss.sys
+TimeDateStamp(编译时间):0xcc6d32b1 == -865258831 (2078-09-07 00:47:45)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:vmmemctl.sys
+TimeDateStamp(编译时间):0x619487a6 == 1637124006 (2021-11-17 12:40:06)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:ndisuio.sys
+TimeDateStamp(编译时间):0xe984b490 == -377178992 (2094-02-24 02:31:44)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:nwifi.sys
+TimeDateStamp(编译时间):0x5485c31 == 88628273 (1972-10-23 02:57:53)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:srvnet.sys
+TimeDateStamp(编译时间):0xd06b3bcc == -798278708 (2080-10-21 06:23:08)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:srv2.sys
+TimeDateStamp(编译时间):0xcaa12460 == -895409056 (2077-09-23 01:44:00)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:Ndu.sys
+TimeDateStamp(编译时间):0x24eb76bf == 619411135 (1989-08-18 10:38:55)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:tcpipreg.sys
+TimeDateStamp(编译时间):0x10a10874 == 278988916 (1978-11-04 08:55:16)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:peauth.sys
+TimeDateStamp(编译时间):0x8ec1ead7 == -1899894057 (2045-11-24 02:07:19)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:vmhgfs.sys
+TimeDateStamp(编译时间):0x619485d9 == 1637123545 (2021-11-17 12:32:25)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:condrv.sys
+TimeDateStamp(编译时间):0x9fea0918 == -1612052200 (2055-01-07 14:11:36)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:WdNisDrv.sys
+TimeDateStamp(编译时间):0x6a232323 == 1780687651 (2026-06-06 03:27:31)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:AntiHook.sys
+TimeDateStamp(编译时间):0x661943a1 == 1712931745 (2024-04-12 22:22:25)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+DriverName:wintun.sys
+TimeDateStamp(编译时间):0x6166d00f == 1634127887 (2021-10-13 20:24:47)
+NtStatus:0
+Guid:{00000000-0000-0000-0000-000000000000}.
+
+
+C:\Users\Administrator\Desktop\bin>
