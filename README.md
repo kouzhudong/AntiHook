@@ -75,7 +75,7 @@ Enum and Remove Hook in Windows Kernel
     危险：谨慎使用，弄不好会卡系统。  
     没有使用符号解析，没有使用特征码。  
     有待验证是否会触发系统的保护机制（PG/KPP).  
-30. 待补。
+30. Dump PiDDBCache  
 
 考虑添加的功能：
 1. 工作线程.    尽管生命周期很短。
