@@ -5,7 +5,7 @@ Enum and Remove Hook in Windows Kernel
 1. 别的ARK工具没有的，或者很少有的，或者不开源的。
 2. 自己喜欢的，常用的，避免自己繁琐的windbg操作。
 3. procexp.exe和processhacker及SystemInformer.exe有的，这里一律不添加。
-4. 应用层能实现的一般不添加，除非我喜欢，或者特别的嘎咕奇特。
+4. 应用层能实现的一般不添加，除非我喜欢，或者特别的奇特。
 5. 不支持32位。
 6. 不支持GUI。
 7. 多使用符号文件，尽量减少硬编码。
@@ -57,7 +57,7 @@ Enum and Remove Hook in Windows Kernel
 21. 枚举类型对象。  
     即：对象目录\ObjectTypes下的成员及信息。  
     驱动可创建，也可修改（系统有保护）。  
-22. 枚举驱动对象。主要显示一些函数信息。
+22. 枚举驱动对象。主要显示一些函数信息，如：MajorFunction，FastIoDispatch等。  
 23. 枚举和反注册Ex回调。ExRegisterCallback + ExUnregisterCallback。(对象目录:\Callback)
 24. 枚举和反注册会话回调（IoRegisterContainerNotification，非SeRegisterLogonSessionTerminatedRoutine/Ex.)
 25. Dump HalDispatchTable  
@@ -76,6 +76,7 @@ Enum and Remove Hook in Windows Kernel
     没有使用符号解析，没有使用特征码。  
     有待验证是否会触发系统的保护机制（PG/KPP).  
 30. Dump PiDDBCache  
+31. Dump HalAcpiDispatchTable  
 
 考虑添加的功能：
 1. 工作线程.    尽管生命周期很短。
