@@ -24,8 +24,9 @@ Enum and Remove Hook in Windows Kernel
    ObRegisterCallbacks + ObUnRegisterCallbacks  
 6. 枚举和移除MiniFilter。  
    FltRegisterFilter + FltUnregisterFilter（有待测试）  
-7. 枚举WFP。  
-   FwpsCalloutRegister + FwpsCalloutUnregisterById（有待测试）
+7. 枚举和反注册WFP的Callout。  
+   FwpsCalloutRegister + FwpsCalloutUnregisterById（有待测试）  
+   没有使用符号解析，没有使用硬编码，使用导出的函数。  
 8. 枚举网络协议驱动。  
    NdisRegisterProtocolDriver + NdisRegisterProtocol
 9. 枚举网络过滤驱动。  
@@ -39,10 +40,10 @@ Enum and Remove Hook in Windows Kernel
     IoInitializeTimer + IoStopTimer 
 13. 枚举EX定时器。有待分析。  
     ExAllocateTimer  
-14. 枚举SSDT
-15. 枚举SSSDT
-16. 枚举GDT
-17. 枚举IDT
+14. 枚举System Service Descriptor Table (SSDT)
+15. 枚举System Service Shadow Descriptor Table (SSSDT)
+16. 枚举Global Descriptor Table (GDT)
+17. 枚举Interrupt Descriptor Table (IDT)
 18. 枚举过滤设备。如：TDI，NPFS，MSFS，NSI等。  
     之所以说是设备而不是驱动，是因为  
     其一：IoAttachDevice(ByPointer) + IoAttachDeviceToDeviceStack(Safe)  
@@ -93,6 +94,18 @@ Enum and Remove Hook in Windows Kernel
 11. PsRegisterSiloMonitor
 12. PsRegisterPicoProvider
 13. 系统热键
+14. Unified Extensible Firmware Interface (UEFI)
+15. Root System Description Table (RSDT)
+16. Fixed ACPI Description Table (FADT)
+17. Multiple APIC Description Table (MADT)
+18. Generic Timer Description Table (GTDT)
+19. Core System Resources Table (CSRT)
+20. Debug Port Table 2 (DBG2)
+21. Differentiated System Description Table (DSDT)
+22. Windows SMM Security Mitigations Table (WSMT)
+23. iSCSI Boot Firmware Table (iBFT)
+24. Boot Graphics Resource Table (BGRT)
+25. Firmware Performance Data Table (FPDT)
 
 确定不添加的功能：
 1. 进程
@@ -106,5 +119,7 @@ Enum and Remove Hook in Windows Kernel
 9. 启动项       因为有Autoruns.exe。
 10. 驱动模块    driverquery等工具都有。
 11. 系统服务    系统自带的功能。
+12. 计划任务    系统自带的功能。
+13. 防火墙规则  系统自带的功能。
 
 2024-01-13
