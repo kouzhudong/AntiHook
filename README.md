@@ -77,6 +77,7 @@ Enum and Remove Hook in Windows Kernel
     有待验证是否会触发系统的保护机制（PG/KPP).  
 30. Dump PiDDBCache  
 31. Dump HalAcpiDispatchTable  
+32. Dump HalSubComponents  
 
 考虑添加的功能：
 1. 工作线程.    尽管生命周期很短。

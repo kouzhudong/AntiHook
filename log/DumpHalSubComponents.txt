@@ -1,0 +1,24 @@
+C:\Users\Administrator\Desktop\bin>AntiHook.exe DumpHalSubComponents
+index:01 Name:Acpi      FunctionAddress:FFFFF8031D054430  FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpAcpiInitSystem
+index:02 Name:Dbg       FunctionAddress:FFFFF8031D053AB0  FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpDbgInitSystem
+index:03 Name:Dma       FunctionAddress:FFFFF8031D059310  FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpDmaInitSystem
+index:04 Name:Dp        FunctionAddress:FFFFF8031D05A2D0  FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpDpInitSystem
+index:05 Name:Errata    FunctionAddress:FFFFF8031D053A30  FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpErrataInitSystem
+index:06 Name:ExtEnv    FunctionAddress:FFFFF8031D05A420  FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpExtEnvInitSystem
+index:07 Name:Firmware  FunctionAddress:FFFFF8031D05A380  FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpFirmwareInitSystem
+index:08 Name:HalExt    FunctionAddress:FFFFF8031D05A3D0  FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpHalExtInitSystem
+index:09 Name:Hv        FunctionAddress:FFFFF8031D05A3B0  FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpHvInitSystem
+index:10 Name:HwPerfCnt FunctionAddress:FFFFF8031D053E70  FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpHwPerfCntInitSystem
+index:11 Name:Interrupt FunctionAddress:FFFFF8031D053B20  FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpInterruptInitSystem
+index:12 Name:Iommu     FunctionAddress:FFFFF8031D0541F0  FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpIommuInitSystem
+index:13 Name:Misc      FunctionAddress:FFFFF8031D05A290  FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpMiscInitSystem
+index:14 Name:Mm        FunctionAddress:FFFFF8031D054630  FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpMmInitSystem
+index:15 Name:Pci       FunctionAddress:FFFFF8031D05A250  FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpPciInitSystem
+index:16 Name:Pnp       FunctionAddress:FFFFF8031D05A400  FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpPnpInitSystem
+index:17 Name:Power     FunctionAddress:FFFFF8031D059F70  FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpPowerInitSystem
+index:18 Name:Proc      FunctionAddress:FFFFF8031D053DF0  FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpProcInitSystem
+index:19 Name:Timer     FunctionAddress:FFFFF8031C9BA540  FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpTimerInitSystem
+index:20 Name:Topology  FunctionAddress:FFFFF8031D047390  FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpTopologyInitSystem
+index:21 Name:Whea      FunctionAddress:FFFFF8031D059FD0  FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpWheaInitSystem
+
+C:\Users\Administrator\Desktop\bin>
