@@ -43,7 +43,7 @@ Enum and Remove Hook in Windows Kernel
 14. 枚举System Service Descriptor Table (SSDT)
 15. 枚举System Service Shadow Descriptor Table (SSSDT)
 16. 枚举Global Descriptor Table (GDT)
-17. 枚举Interrupt Descriptor Table (IDT)
+17. 枚举Interrupt Descriptor Table (IDT) 注意区别：Interrupt Vector Table (IVT)  
 18. 枚举过滤设备。如：TDI，NPFS，MSFS，NSI等。  
     之所以说是设备而不是驱动，是因为  
     其一：IoAttachDevice(ByPointer) + IoAttachDeviceToDeviceStack(Safe)  
