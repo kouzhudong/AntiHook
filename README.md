@@ -81,6 +81,7 @@ Enum and Remove Hook in Windows Kernel
 32. Dump HalSubComponents  
 33. Dump HalIommuDispatchTable  
     没有定义数据结构，结构的大小，以及成员的名字，类型，偏移等都是解析符号文件得出。  
+    相当于：r $t1 = nt!HalIommuDispatchTable;dt nt!_HAL_IOMMU_DISPATCH @$t1 的加强版  
 34. 
 
 考虑添加的功能：
@@ -125,6 +126,6 @@ Enum and Remove Hook in Windows Kernel
 12. 计划任务    系统自带的功能。
 13. 防火墙规则  系统自带的功能。
 14. 设备管理器  系统自带的功能。
-15. POOL TAG    有专门的工具。
+15. 证书管理器  系统自带的功能。
 
 2024-01-13
