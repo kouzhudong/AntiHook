@@ -1,0 +1,26 @@
+C:\Users\Administrator\Desktop\bin>AntiHook.exe DumpHalIommuDispatchTable
+MemberName:HalIommuSupportEnabled          FunctionAddress:FFFFF8031C9D8BB0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpIommuSupportEnabled
+MemberName:HalIommuGetConfiguration        FunctionAddress:FFFFF8031D12A610 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:IommuGetConfiguration
+MemberName:HalIommuGetLibraryContext       FunctionAddress:FFFFF8031CB24F10 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:IommuGetLibraryContext
+MemberName:HalIommuMapDevice               FunctionAddress:FFFFF8031CB24FD0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:IommuMapDevice
+MemberName:HalIommuEnableDevicePasid       FunctionAddress:FFFFF8031CB24460 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:IommuEnableDevicePasid
+MemberName:HalIommuSetAddressSpace         FunctionAddress:FFFFF8031CB25A40 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:IommuSetAddressSpace
+MemberName:HalIommuDisableDevicePasid      FunctionAddress:FFFFF8031CB24150 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:IommuDisableDevicePasid
+MemberName:HalIommuUnmapDevice             FunctionAddress:FFFFF8031CB25C60 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:IommuUnmapDevice
+MemberName:HalIommuFreeLibraryContext      FunctionAddress:FFFFF8031C9DE1A0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:BvgaSetVirtualFrameBuffer
+MemberName:HalIommuFlushTb                 FunctionAddress:FFFFF8031CB24DD0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:IommuFlushTb
+MemberName:HalIommuFlushAllPasid           FunctionAddress:FFFFF8031CB24C90 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:IommuFlushAllPasid
+MemberName:HalIommuProcessPageRequestQueue FunctionAddress:FFFFF8031CB253A0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:IommuProcessPageRequestQueue
+MemberName:HalIommuFaultRoutine            FunctionAddress:FFFFF8031CC40190 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:ExpSvmFaultRoutine
+MemberName:HalIommuReferenceAsid           FunctionAddress:FFFFF8031CC401E0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:ExpSvmReferenceAsid
+MemberName:HalIommuDereferenceAsid         FunctionAddress:FFFFF8031CC3FD30 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:ExpSvmDereferenceAsid
+MemberName:HalIommuServicePageFault        FunctionAddress:FFFFF8031CC40300 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:ExpSvmServicePageFault
+MemberName:HalIommuDevicePowerChange       FunctionAddress:FFFFF8031CB24010 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:IommuDevicePowerChange
+MemberName:HalIommuBeginDeviceReset        FunctionAddress:FFFFF8031CB239E0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:IommuBeginDeviceReset
+MemberName:HalIommuFinalizeDeviceReset     FunctionAddress:FFFFF8031CB249B0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:IommuFinalizeDeviceReset
+MemberName:HalIommuGetAtsSettings          FunctionAddress:FFFFF8031C9D7170 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:IommuGetAtsSettings
+MemberName:HalIommuCreateAtsDevice         FunctionAddress:FFFFF8031CB23CD0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:IommuCreateAtsDevice
+MemberName:HalIommuConfigureAts            FunctionAddress:FFFFF8031CB23C80 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:IommuConfigureAts
+MemberName:HalIommuDeleteAtsDevice         FunctionAddress:FFFFF8031CB23F50 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:IommuDeleteAtsDevice
+
+C:\Users\Administrator\Desktop\bin>
