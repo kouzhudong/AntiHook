@@ -1,24 +1,50 @@
-C:\Users\Administrator\Desktop\bin>C:\Users\Administrator\Desktop\bin\AntiHook.exe DumpHalAcpiDispatchTable
+C:\Users\Administrator\Desktop\bin>AntiHook.exe DumpHalAcpiDispatchTable
 Signature:0x48414c20
 Version:5
-index:01 Function Address:FFFFF804155A6270 SymbolName:EmpCheckErrataList                        FullPathName:\SystemRoot\system32\ntoskrnl.exe
-index:02 Function Address:FFFFF80415A598A0 SymbolName:HaliAcpiMachineStateInit                  FullPathName:\SystemRoot\system32\ntoskrnl.exe
-index:03 Function Address:FFFFF804159F04E0 SymbolName:CmpCleanUpHigherLayerKcbCachesPreCallback FullPathName:\SystemRoot\system32\ntoskrnl.exe
-index:04 Function Address:FFFFF80415C47380 SymbolName:HalpInterruptIsPicStateIntact             FullPathName:\SystemRoot\system32\ntoskrnl.exe
-index:05 Function Address:FFFFF80415C505F0 SymbolName:HalpInterruptRestoreAllControllerState    FullPathName:\SystemRoot\system32\ntoskrnl.exe
-index:06 Function Address:FFFFF804154DE200 SymbolName:HaliPciInterfaceReadConfig                FullPathName:\SystemRoot\system32\ntoskrnl.exe
-index:07 Function Address:FFFFF804155B29E0 SymbolName:HaliPciInterfaceWriteConfig               FullPathName:\SystemRoot\system32\ntoskrnl.exe
-index:08 Function Address:FFFFF804155D75E0 SymbolName:HalpInterruptGetApicVersion               FullPathName:\SystemRoot\system32\ntoskrnl.exe
-index:09 Function Address:FFFFF804155B3390 SymbolName:HaliSetMaxLegacyPciBusNumber              FullPathName:\SystemRoot\system32\ntoskrnl.exe
-index:10 Function Address:FFFFF80415B07F80 SymbolName:HalpInterruptIsGsiValid                   FullPathName:\SystemRoot\system32\ntoskrnl.exe
-index:11 Function Address:FFFFF804154BA570 SymbolName:HalAcpiGetTableDispatch                   FullPathName:\SystemRoot\system32\ntoskrnl.exe
-index:12 Function Address:FFFFF80415571B70 SymbolName:HalAcpiGetRsdpDispatch                    FullPathName:\SystemRoot\system32\ntoskrnl.exe
-index:13 Function Address:FFFFF804155B76D0 SymbolName:HalAcpiGetFacsMappingDispatch             FullPathName:\SystemRoot\system32\ntoskrnl.exe
-index:14 Function Address:FFFFF804155BE1C0 SymbolName:HalAcpiGetAllTablesDispatch               FullPathName:\SystemRoot\system32\ntoskrnl.exe
-index:15 Function Address:FFFFF804155B1B10 SymbolName:HalpAcpiPmRegisterAvailable               FullPathName:\SystemRoot\system32\ntoskrnl.exe
-index:16 Function Address:FFFFF804155B2DB0 SymbolName:HalpAcpiPmRegisterRead                    FullPathName:\SystemRoot\system32\ntoskrnl.exe
-index:17 Function Address:FFFFF804155B1710 SymbolName:HalpAcpiPmRegisterWrite                   FullPathName:\SystemRoot\system32\ntoskrnl.exe
-index:18 Function Address:FFFFF80415657200 SymbolName:HalpAcpiAccessSecureAddress               FullPathName:\SystemRoot\system32\ntoskrnl.exe
+index:01 Function Address:FFFFF8031C9A6270 SymbolName:EmpCheckErrataList                        FullPathName:\SystemRoot\system32\ntoskrnl.exe
+index:02 Function Address:FFFFF8031CE598A0 SymbolName:HaliAcpiMachineStateInit                  FullPathName:\SystemRoot\system32\ntoskrnl.exe
+index:03 Function Address:FFFFF8031CDF04E0 SymbolName:CmpCleanUpHigherLayerKcbCachesPreCallback FullPathName:\SystemRoot\system32\ntoskrnl.exe
+index:04 Function Address:FFFFF8031D047380 SymbolName:HalpInterruptIsPicStateIntact             FullPathName:\SystemRoot\system32\ntoskrnl.exe
+index:05 Function Address:FFFFF8031D0505F0 SymbolName:HalpInterruptRestoreAllControllerState    FullPathName:\SystemRoot\system32\ntoskrnl.exe
+index:06 Function Address:FFFFF8031C8DE200 SymbolName:HaliPciInterfaceReadConfig                FullPathName:\SystemRoot\system32\ntoskrnl.exe
+index:07 Function Address:FFFFF8031C9B29E0 SymbolName:HaliPciInterfaceWriteConfig               FullPathName:\SystemRoot\system32\ntoskrnl.exe
+index:08 Function Address:FFFFF8031C9D75E0 SymbolName:HalpInterruptGetApicVersion               FullPathName:\SystemRoot\system32\ntoskrnl.exe
+index:09 Function Address:FFFFF8031C9B3390 SymbolName:HaliSetMaxLegacyPciBusNumber              FullPathName:\SystemRoot\system32\ntoskrnl.exe
+index:10 Function Address:FFFFF8031CF07F80 SymbolName:HalpInterruptIsGsiValid                   FullPathName:\SystemRoot\system32\ntoskrnl.exe
+index:11 Function Address:FFFFF8031C8BA570 SymbolName:HalAcpiGetTableDispatch                   FullPathName:\SystemRoot\system32\ntoskrnl.exe
+index:12 Function Address:FFFFF8031C971B70 SymbolName:HalAcpiGetRsdpDispatch                    FullPathName:\SystemRoot\system32\ntoskrnl.exe
+index:13 Function Address:FFFFF8031C9B76D0 SymbolName:HalAcpiGetFacsMappingDispatch             FullPathName:\SystemRoot\system32\ntoskrnl.exe
+index:14 Function Address:FFFFF8031C9BE1C0 SymbolName:HalAcpiGetAllTablesDispatch               FullPathName:\SystemRoot\system32\ntoskrnl.exe
+index:15 Function Address:FFFFF8031C9B1B10 SymbolName:HalpAcpiPmRegisterAvailable               FullPathName:\SystemRoot\system32\ntoskrnl.exe
+index:16 Function Address:FFFFF8031C9B2DB0 SymbolName:HalpAcpiPmRegisterRead                    FullPathName:\SystemRoot\system32\ntoskrnl.exe
+index:17 Function Address:FFFFF8031C9B1710 SymbolName:HalpAcpiPmRegisterWrite                   FullPathName:\SystemRoot\system32\ntoskrnl.exe
+index:18 Function Address:FFFFF8031CA57200 SymbolName:HalpAcpiAccessSecureAddress               FullPathName:\SystemRoot\system32\ntoskrnl.exe
 
 
 C:\Users\Administrator\Desktop\bin>
+
+
+--------------------------------------------------------------------------------------------------
+
+
+0: kd> dps nt!HalAcpiDispatchTable L20
+fffff803`1c602f60  00000005`48414c20
+fffff803`1c602f68  fffff803`1c9a6270 nt!EmpCheckErrataList
+fffff803`1c602f70  fffff803`1ce598a0 nt!HaliAcpiMachineStateInit
+fffff803`1c602f78  fffff803`1cdf04e0 nt!CmpCleanUpHigherLayerKcbCachesPreCallback
+fffff803`1c602f80  fffff803`1d047380 nt!HalpInterruptIsPicStateIntact
+fffff803`1c602f88  fffff803`1d0505f0 nt!HalpInterruptRestoreAllControllerState
+fffff803`1c602f90  fffff803`1c8de200 nt!HaliPciInterfaceReadConfig
+fffff803`1c602f98  fffff803`1c9b29e0 nt!HaliPciInterfaceWriteConfig
+fffff803`1c602fa0  fffff803`1c9d75e0 nt!HalpInterruptGetApicVersion
+fffff803`1c602fa8  fffff803`1c9b3390 nt!HaliSetMaxLegacyPciBusNumber
+fffff803`1c602fb0  fffff803`1cf07f80 nt!HalpInterruptIsGsiValid
+fffff803`1c602fb8  fffff803`1c8ba570 nt!HalAcpiGetTableDispatch
+fffff803`1c602fc0  fffff803`1c971b70 nt!HalAcpiGetRsdpDispatch
+fffff803`1c602fc8  fffff803`1c9b76d0 nt!HalAcpiGetFacsMappingDispatch
+fffff803`1c602fd0  fffff803`1c9be1c0 nt!HalAcpiGetAllTablesDispatch
+fffff803`1c602fd8  fffff803`1c9b1b10 nt!HalpAcpiPmRegisterAvailable
+fffff803`1c602fe0  fffff803`1c9b2db0 nt!HalpAcpiPmRegisterRead
+fffff803`1c602fe8  fffff803`1c9b1710 nt!HalpAcpiPmRegisterWrite
+fffff803`1c602ff0  fffff803`1ca57200 nt!HalpAcpiAccessSecureAddress
+fffff803`1c602ff8  00000000`00000000

@@ -24,3 +24,34 @@ MemberName:HalIommuConfigureAts            FunctionAddress:FFFFF8031CB23C80 Full
 MemberName:HalIommuDeleteAtsDevice         FunctionAddress:FFFFF8031CB23F50 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:IommuDeleteAtsDevice
 
 C:\Users\Administrator\Desktop\bin>
+
+
+--------------------------------------------------------------------------------------------------
+
+
+1: kd> x nt!HalIommuDispatchTable
+fffff803`1d206b10 nt!HalIommuDispatchTable = <no type information>
+1: kd> dt fffff803`1d206b10 nt!_HAL_IOMMU_DISPATCH
+   +0x000 HalIommuSupportEnabled : 0xfffff803`1c9d8bb0     unsigned char  nt!HalpIommuSupportEnabled+0
+   +0x008 HalIommuGetConfiguration : 0xfffff803`1d12a610     long  nt!IommuGetConfiguration+0
+   +0x010 HalIommuGetLibraryContext : 0xfffff803`1cb24f10     long  nt!IommuGetLibraryContext+0
+   +0x018 HalIommuMapDevice : 0xfffff803`1cb24fd0     long  nt!IommuMapDevice+0
+   +0x020 HalIommuEnableDevicePasid : 0xfffff803`1cb24460     long  nt!IommuEnableDevicePasid+0
+   +0x028 HalIommuSetAddressSpace : 0xfffff803`1cb25a40     long  nt!IommuSetAddressSpace+0
+   +0x030 HalIommuDisableDevicePasid : 0xfffff803`1cb24150     long  nt!IommuDisableDevicePasid+0
+   +0x038 HalIommuUnmapDevice : 0xfffff803`1cb25c60     long  nt!IommuUnmapDevice+0
+   +0x040 HalIommuFreeLibraryContext : 0xfffff803`1c9de1a0     long  nt!BvgaSetVirtualFrameBuffer+0
+   +0x048 HalIommuFlushTb  : 0xfffff803`1cb24dd0     void  nt!IommuFlushTb+0
+   +0x050 HalIommuFlushAllPasid : 0xfffff803`1cb24c90     void  nt!IommuFlushAllPasid+0
+   +0x058 HalIommuProcessPageRequestQueue : 0xfffff803`1cb253a0     unsigned char  nt!IommuProcessPageRequestQueue+0
+   +0x060 HalIommuFaultRoutine : 0xfffff803`1cc40190     void  nt!ExpSvmFaultRoutine+0
+   +0x068 HalIommuReferenceAsid : 0xfffff803`1cc401e0     void*  nt!ExpSvmReferenceAsid+0
+   +0x070 HalIommuDereferenceAsid : 0xfffff803`1cc3fd30     void  nt!ExpSvmDereferenceAsid+0
+   +0x078 HalIommuServicePageFault : 0xfffff803`1cc40300     long  nt!ExpSvmServicePageFault+0
+   +0x080 HalIommuDevicePowerChange : 0xfffff803`1cb24010     long  nt!IommuDevicePowerChange+0
+   +0x088 HalIommuBeginDeviceReset : 0xfffff803`1cb239e0     long  nt!IommuBeginDeviceReset+0
+   +0x090 HalIommuFinalizeDeviceReset : 0xfffff803`1cb249b0     long  nt!IommuFinalizeDeviceReset+0
+   +0x098 HalIommuGetAtsSettings : 0xfffff803`1c9d7170     long  nt!IommuGetAtsSettings+0
+   +0x0a0 HalIommuCreateAtsDevice : 0xfffff803`1cb23cd0     long  nt!IommuCreateAtsDevice+0
+   +0x0a8 HalIommuConfigureAts : 0xfffff803`1cb23c80     long  nt!IommuConfigureAts+0
+   +0x0b0 HalIommuDeleteAtsDevice : 0xfffff803`1cb23f50     void  nt!IommuDeleteAtsDevice+0

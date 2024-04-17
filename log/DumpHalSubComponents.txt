@@ -22,3 +22,65 @@ index:20 Name:Topology  FunctionAddress:FFFFF8031D047390  FullPathName:\SystemRo
 index:21 Name:Whea      FunctionAddress:FFFFF8031D059FD0  FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpWheaInitSystem
 
 C:\Users\Administrator\Desktop\bin>
+
+
+--------------------------------------------------------------------------------------------------
+
+
+0: kd> x nt!HalSubComponents
+fffff803`1c608f90 nt!HalSubComponents = <no type information>
+0: kd> dps fffff803`1c608f90 L30
+fffff803`1c608f90  fffff803`1d054430 nt!HalpAcpiInitSystem
+fffff803`1c608f98  fffff803`1c61c5e0 nt!`string'
+fffff803`1c608fa0  fffff803`1d053ab0 nt!HalpDbgInitSystem
+fffff803`1c608fa8  fffff803`1c6261d8 nt!`string'
+fffff803`1c608fb0  fffff803`1d059310 nt!HalpDmaInitSystem
+fffff803`1c608fb8  fffff803`1c6261d0 nt!`string'
+fffff803`1c608fc0  fffff803`1d05a2d0 nt!HalpDpInitSystem
+fffff803`1c608fc8  fffff803`1c6261c8 nt!`string'
+fffff803`1c608fd0  fffff803`1d053a30 nt!HalpErrataInitSystem
+fffff803`1c608fd8  fffff803`1c6261b8 nt!`string'
+fffff803`1c608fe0  fffff803`1d05a420 nt!HalpExtEnvInitSystem
+fffff803`1c608fe8  fffff803`1c6261a8 nt!`string'
+fffff803`1c608ff0  fffff803`1d05a380 nt!HalpFirmwareInitSystem
+fffff803`1c608ff8  fffff803`1c626190 nt!`string'
+fffff803`1c609000  fffff803`1d05a3d0 nt!HalpHalExtInitSystem
+fffff803`1c609008  fffff803`1c626180 nt!`string'
+fffff803`1c609010  fffff803`1d05a3b0 nt!HalpHvInitSystem
+fffff803`1c609018  fffff803`1c626174 nt!`string'
+fffff803`1c609020  fffff803`1d053e70 nt!HalpHwPerfCntInitSystem
+fffff803`1c609028  fffff803`1c626160 nt!`string'
+fffff803`1c609030  fffff803`1d053b20 nt!HalpInterruptInitSystem
+fffff803`1c609038  fffff803`1c626148 nt!`string'
+fffff803`1c609040  fffff803`1d0541f0 nt!HalpIommuInitSystem
+fffff803`1c609048  fffff803`1c626138 nt!`string'
+fffff803`1c609050  fffff803`1d05a290 nt!HalpMiscInitSystem
+fffff803`1c609058  fffff803`1c626128 nt!`string'
+fffff803`1c609060  fffff803`1d054630 nt!HalpMmInitSystem
+fffff803`1c609068  fffff803`1c626120 nt!`string'
+fffff803`1c609070  fffff803`1d05a250 nt!HalpPciInitSystem
+fffff803`1c609078  fffff803`1c626118 nt!`string'
+fffff803`1c609080  fffff803`1d05a400 nt!HalpPnpInitSystem
+fffff803`1c609088  fffff803`1c626110 nt!`string'
+fffff803`1c609090  fffff803`1d059f70 nt!HalpPowerInitSystem
+fffff803`1c609098  fffff803`1c61c670 nt!`string'
+fffff803`1c6090a0  fffff803`1d053df0 nt!HalpProcInitSystem
+fffff803`1c6090a8  fffff803`1c626100 nt!`string'
+fffff803`1c6090b0  fffff803`1c9ba540 nt!HalpTimerInitSystem
+fffff803`1c6090b8  fffff803`1c61e600 nt!`string'
+fffff803`1c6090c0  fffff803`1d047390 nt!HalpTopologyInitSystem
+fffff803`1c6090c8  fffff803`1c6260e8 nt!`string'
+fffff803`1c6090d0  fffff803`1d059fd0 nt!HalpWheaInitSystem
+fffff803`1c6090d8  fffff803`1c6260d8 nt!`string'
+fffff803`1c6090e0  fffff803`1c625f78 nt!`string'
+fffff803`1c6090e8  fffff803`1c625f58 nt!`string'
+fffff803`1c6090f0  fffff803`1c625f30 nt!`string'
+fffff803`1c6090f8  fffff803`1c625f18 nt!`string'
+fffff803`1c609100  fffff803`1c625f00 nt!`string'
+fffff803`1c609108  fffff803`1c625ee8 nt!`string'
+0: kd> du fffff803`1c61c5e0
+fffff803`1c61c5e0  "Acpi"
+0: kd> du fffff803`1c6261d8
+fffff803`1c6261d8  "Dbg"
+0: kd> du fffff803`1c6260d8
+fffff803`1c6260d8  "Whea"
