@@ -86,7 +86,7 @@ Enum and Remove Hook in Windows Kernel
 33. Dump HalIommuDispatchTable  
     没有定义数据结构。结构的大小，以及成员的名字，类型，偏移等都是解析符号文件得出。  
     相当于：r $t1 = nt!HalIommuDispatchTable;dt nt!_HAL_IOMMU_DISPATCH @$t1 的加强版  
-34. 
+34. Dump HalPrivateDispatchTable
 
 考虑添加的功能：
 1. 工作线程.    尽管生命周期很短。

@@ -1,0 +1,321 @@
+C:\Users\Administrator\Desktop\bin>AntiHook.exe DumpHalPrivateDispatchTable
+MemberName:Version                                             ULong:54
+MemberName:HalHandlerForBus                                    FunctionAddress:FFFFF8031C874730 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:SC_DEVICE::GetStoragePropertyPost
+MemberName:HalHandlerForConfigSpace                            FunctionAddress:FFFFF8031C874730 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:SC_DEVICE::GetStoragePropertyPost
+MemberName:HalLocateHiberRanges                                FunctionAddress:FFFFF8031D04DB40 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HaliLocateHiberRanges
+MemberName:HalRegisterBusHandler                               FunctionAddress:FFFFF8031CDF04D0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:ArbAddReserved
+MemberName:HalSetWakeEnable                                    FunctionAddress:0000000000000000
+MemberName:HalSetWakeAlarm                                     FunctionAddress:FFFFF8031D051330 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HaliSetWakeAlarm
+MemberName:HalPciTranslateBusAddress                           FunctionAddress:FFFFF803202790A0 FullPathName:\SystemRoot\System32\drivers\pci.sys SymbolName:PciTranslateBusAddress
+MemberName:HalPciAssignSlotResources                           FunctionAddress:FFFFF803202E2F30 FullPathName:\SystemRoot\System32\drivers\pci.sys SymbolName:PciAssignSlotResources
+MemberName:HalHaltSystem                                       FunctionAddress:FFFFF8031CB093B0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HaliHaltSystem
+MemberName:HalFindBusAddressTranslation                        FunctionAddress:FFFFF8031C9DD3C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpFindBusAddressTranslation
+MemberName:HalResetDisplay                                     FunctionAddress:FFFFF8031CB02070 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpBiosDisplayReset
+MemberName:HalAllocateMapRegisters                             FunctionAddress:FFFFF8031CF08200 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpAllocateMapRegisters
+MemberName:KdSetupPciDeviceForDebugging                        FunctionAddress:FFFFF8031D06FD60 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpKdSetupDebuggingDevice
+MemberName:KdReleasePciDeviceForDebugging                      FunctionAddress:FFFFF8031D0718F0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpKdReleaseDebuggingDevice
+MemberName:KdGetAcpiTablePhase0                                FunctionAddress:FFFFF8031C9B78D0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalAcpiGetTable
+MemberName:KdCheckPowerButton                                  FunctionAddress:FFFFF8031CA15A70 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpCheckPowerButton
+MemberName:HalVectorToIDTEntry                                 FunctionAddress:FFFFF8031C9721C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:xHalVectorToIDTEntry
+MemberName:KdMapPhysicalMemory64                               FunctionAddress:FFFFF8031C9BE0A0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpMapPhysicalMemoryWriteThrough64
+MemberName:KdUnmapVirtualAddress                               FunctionAddress:FFFFF8031C9BE7B0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpUnmapVirtualAddress
+MemberName:KdGetPciDataByOffset                                FunctionAddress:FFFFF8031C9AFD10 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpKdReadPCIConfig
+MemberName:KdSetPciDataByOffset                                FunctionAddress:FFFFF8031CB2C4D0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpKdWritePCIConfig
+MemberName:HalGetInterruptVectorOverride                       FunctionAddress:FFFFF803202362E0 FullPathName:\SystemRoot\System32\drivers\ACPI.sys SymbolName:IrqTransGetInterruptVector
+MemberName:HalGetVectorInputOverride                           FunctionAddress:FFFFF803201ACA80 FullPathName:\SystemRoot\System32\drivers\ACPI.sys SymbolName:IrqLibpGetVectorInput
+MemberName:HalLoadMicrocode                                    FunctionAddress:FFFFF8031CF09850 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpLoadMicrocode
+MemberName:HalUnloadMicrocode                                  FunctionAddress:FFFFF8031CF09AA0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpUnloadMicrocode
+MemberName:HalPostMicrocodeUpdate                              FunctionAddress:FFFFF8031C9B59E0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpMcUpdatePostUpdate
+MemberName:HalAllocateMessageTargetOverride                    FunctionAddress:FFFFF80320235AF0 FullPathName:\SystemRoot\System32\drivers\ACPI.sys SymbolName:IrqLibAllocateMessageTarget
+MemberName:HalFreeMessageTargetOverride                        FunctionAddress:FFFFF80320235DA0 FullPathName:\SystemRoot\System32\drivers\ACPI.sys SymbolName:IrqLibFreeMessageTarget
+MemberName:HalDpReplaceBegin                                   FunctionAddress:FFFFF8031CF09D80 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpDpReplaceBegin
+MemberName:HalDpReplaceTarget                                  FunctionAddress:FFFFF8031D0618F0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpDpReplaceTarget
+MemberName:HalDpReplaceControl                                 FunctionAddress:FFFFF8031D061720 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpDpReplaceControl
+MemberName:HalDpReplaceEnd                                     FunctionAddress:FFFFF8031CF09F30 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpDpReplaceEnd
+MemberName:HalPrepareForBugcheck                               FunctionAddress:FFFFF8031CB0D3F0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpPrepareForBugcheck
+MemberName:HalQueryWakeTime                                    FunctionAddress:FFFFF8031C998240 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpTimerQueryWakeTime
+MemberName:HalReportIdleStateUsage                             FunctionAddress:FFFFF8031C9DB880 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpTimerReportIdleStateUsage
+MemberName:HalTscSynchronization                               FunctionAddress:FFFFF8031C9DC190 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpTscSynchronization
+MemberName:HalWheaInitProcessorGenericSection                  FunctionAddress:FFFFF8031CB23960 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpWheaInitProcessorGenericSection
+MemberName:HalStopLegacyUsbInterrupts                          FunctionAddress:FFFFF8031D052000 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpStopLegacyUsbInterrupts
+MemberName:HalReadWheaPhysicalMemory                           FunctionAddress:FFFFF8031CB23740 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpReadWheaPhysicalMemory
+MemberName:HalWriteWheaPhysicalMemory                          FunctionAddress:FFFFF8031CB239C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpWriteWheaPhysicalMemory
+MemberName:HalDpMaskLevelTriggeredInterrupts                   FunctionAddress:FFFFF8031CB22CC0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpInterruptMaskLevelTriggeredLines
+MemberName:HalDpUnmaskLevelTriggeredInterrupts                 FunctionAddress:FFFFF8031CB22EC0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpInterruptUnmaskLevelTriggeredLines
+MemberName:HalDpGetInterruptReplayState                        FunctionAddress:FFFFF8031D0611C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpDpGetInterruptReplayState
+MemberName:HalDpReplayInterrupts                               FunctionAddress:FFFFF8031D061990 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpDpReplayInterrupts
+MemberName:HalQueryIoPortAccessSupported                       FunctionAddress:FFFFF8031C971E80 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalFlushCommonBuffer
+MemberName:KdSetupIntegratedDeviceForDebugging                 FunctionAddress:FFFFF8031D06FD60 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpKdSetupDebuggingDevice
+MemberName:KdReleaseIntegratedDeviceForDebugging               FunctionAddress:FFFFF8031D0718F0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpKdReleaseDebuggingDevice
+MemberName:HalGetEnlightenmentInformation                      FunctionAddress:FFFFF8031CB456A0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HvlGetEnlightenmentInfo
+MemberName:HalAllocateEarlyPages                               FunctionAddress:FFFFF8031CB07FC0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpAllocateEarlyPages
+MemberName:HalMapEarlyPages                                    FunctionAddress:FFFFF8031CB080A0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpMapEarlyPages
+MemberName:Dummy1                                              Void:0000000000000000
+MemberName:Dummy2                                              Void:0000000000000000
+MemberName:HalNotifyProcessorFreeze                            FunctionAddress:FFFFF8031C8CC2D0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpTimerNotifyProcessorFreeze
+MemberName:HalPrepareProcessorForIdle                          FunctionAddress:FFFFF8031C8CBD80 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpProcessorPrepareForIdle
+MemberName:HalRegisterLogRoutine                               FunctionAddress:FFFFF8031C9A6270 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:EmpCheckErrataList
+MemberName:HalResumeProcessorFromIdle                          FunctionAddress:FFFFF8031C8CC0B0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpProcessorResumeFromIdle
+MemberName:Dummy                                               Void:0000000000000000
+MemberName:HalVectorToIDTEntryEx                               FunctionAddress:FFFFF8031C8B3800 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:PtrToUlong
+MemberName:HalSecondaryInterruptQueryPrimaryInformation        FunctionAddress:FFFFF8031CF08EB0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpSecondaryInterruptQueryPrimaryInformation
+MemberName:HalMaskInterrupt                                    FunctionAddress:FFFFF8031C996FF0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpMaskInterrupt
+MemberName:HalUnmaskInterrupt                                  FunctionAddress:FFFFF8031C9B4D90 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpUnmaskInterrupt
+MemberName:HalIsInterruptTypeSecondary                         FunctionAddress:FFFFF8031C9B3860 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpIsInterruptTypeSecondary
+MemberName:HalAllocateGsivForSecondaryInterrupt                FunctionAddress:FFFFF8031CB1BA50 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpAllocateGsivForSecondaryInterrupt
+MemberName:HalAddInterruptRemapping                            FunctionAddress:FFFFF8031CE4D160 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HaliAddInterruptRemapping
+MemberName:HalRemoveInterruptRemapping                         FunctionAddress:FFFFF8031CF07FA0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HaliRemoveInterruptRemapping
+MemberName:HalSaveAndDisableHvEnlightenment                    FunctionAddress:FFFFF8031CB0E0A0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpSaveAndDisableEnlightenment
+MemberName:HalRestoreHvEnlightenment                           FunctionAddress:FFFFF8031CB0DD30 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpRestoreHvEnlightenment
+MemberName:HalFlushIoBuffersExternalCache                      FunctionAddress:FFFFF8031C9A6270 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:EmpCheckErrataList
+MemberName:HalFlushExternalCache                               FunctionAddress:FFFFF8031C9A6270 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:EmpCheckErrataList
+MemberName:HalPciEarlyRestore                                  FunctionAddress:FFFFF80320286FA0 FullPathName:\SystemRoot\System32\drivers\pci.sys SymbolName:PciEarlyRestoreResources
+MemberName:HalGetProcessorId                                   FunctionAddress:FFFFF8031C9D7970 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpInterruptGetIdentifiers
+MemberName:HalAllocatePmcCounterSet                            FunctionAddress:FFFFF8031CB098B0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpAllocatePmcCounterSet
+MemberName:HalCollectPmcCounters                               FunctionAddress:FFFFF8031CB09C90 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpCollectPmcCounters
+MemberName:HalFreePmcCounterSet                                FunctionAddress:FFFFF8031CB0A130 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpFreePmcCounterSet
+MemberName:HalProcessorHalt                                    FunctionAddress:FFFFF8031C9721B0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:xHalProcessorHalt
+MemberName:HalTimerQueryCycleCounter                           FunctionAddress:FFFFF8031C9DCA10 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpTimerQueryCycleCounter
+MemberName:Dummy3                                              Void:0000000000000000
+MemberName:HalPciMarkHiberPhase                                FunctionAddress:FFFFF803202871F0 FullPathName:\SystemRoot\System32\drivers\pci.sys SymbolName:PciMarkHiberPhase
+MemberName:HalQueryProcessorRestartEntryPoint                  FunctionAddress:FFFFF8031C971E60 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpInterruptQueryProcessorRestartEntryPoint
+MemberName:HalRequestInterrupt                                 FunctionAddress:FFFFF8031CB07D00 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpInterruptRequestInterrupt
+MemberName:HalEnumerateUnmaskedInterrupts                      FunctionAddress:FFFFF8031CB06820 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpInterruptEnumerateUnmaskedInterrupts
+MemberName:HalFlushAndInvalidatePageExternalCache              FunctionAddress:FFFFF8031C9A6270 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:EmpCheckErrataList
+MemberName:KdEnumerateDebuggingDevices                         FunctionAddress:FFFFF8031D070180 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpKdEnumerateDebuggingDevices
+MemberName:HalFlushIoRectangleExternalCache                    FunctionAddress:FFFFF8031C9A6270 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:EmpCheckErrataList
+MemberName:HalPowerEarlyRestore                                FunctionAddress:FFFFF8031C998320 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpPowerEarlyRestore
+MemberName:HalQueryCapsuleCapabilities                         FunctionAddress:FFFFF8031CB23200 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpQueryCapsuleCapabilities
+MemberName:HalUpdateCapsule                                    FunctionAddress:FFFFF8031CB232E0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpUpdateCapsule
+MemberName:HalPciMultiStageResumeCapable                       FunctionAddress:FFFFF80320287620 FullPathName:\SystemRoot\System32\drivers\pci.sys SymbolName:PciMultiStageResumeCapable
+MemberName:HalDmaFreeCrashDumpRegisters                        FunctionAddress:FFFFF8031C9982B0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpDmaFreeCrashDumpRegisters
+MemberName:HalAcpiAoacCapable                                  FunctionAddress:FFFFF8031C971EA0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:PcValidateDmaScatterTransfer
+MemberName:HalInterruptSetDestination                          FunctionAddress:FFFFF8031C8F23F0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpInterruptSetDestination
+MemberName:HalGetClockConfiguration                            FunctionAddress:FFFFF8031C9DBE80 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpTimerGetClockConfiguration
+MemberName:HalClockTimerActivate                               FunctionAddress:FFFFF8031C9AD550 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpTimerClockActivate
+MemberName:HalClockTimerInitialize                             FunctionAddress:FFFFF8031C8F8030 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpTimerClockInitialize
+MemberName:HalClockTimerStop                                   FunctionAddress:FFFFF8031C8F6660 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpTimerClockStop
+MemberName:HalClockTimerArm                                    FunctionAddress:FFFFF8031C85C5C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpTimerClockArm
+MemberName:HalTimerOnlyClockInterruptPending                   FunctionAddress:FFFFF8031C8DAB80 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpTimerOnlyClockInterruptPending
+MemberName:HalAcpiGetMultiNode                                 FunctionAddress:FFFFF8031C971B70 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalAcpiGetRsdpDispatch
+MemberName:HalPowerSetRebootHandler                            FunctionAddress:FFFFF8031C971C30 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpPowerSetRebootHandler
+MemberName:HalIommuRegisterDispatchTable                       FunctionAddress:FFFFF8031D130570 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpIommuRegisterDispatchTable
+MemberName:HalTimerWatchdogStart                               FunctionAddress:FFFFF8031C9A6270 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:EmpCheckErrataList
+MemberName:HalTimerWatchdogResetCountdown                      FunctionAddress:FFFFF8031C9A6270 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:EmpCheckErrataList
+MemberName:HalTimerWatchdogStop                                FunctionAddress:FFFFF8031C9A6270 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:EmpCheckErrataList
+MemberName:HalTimerWatchdogGeneratedLastReset                  FunctionAddress:FFFFF8031CDF05C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:BiIsLogEnabled
+MemberName:HalTimerWatchdogTriggerSystemReset                  FunctionAddress:FFFFF8031C9DE1A0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:BvgaSetVirtualFrameBuffer
+MemberName:HalInterruptVectorDataToGsiv                        FunctionAddress:FFFFF8031C9DE000 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpInterruptVectorDataToGsiv
+MemberName:HalInterruptGetHighestPriorityInterrupt             FunctionAddress:FFFFF8031C8DABD0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpInterruptGetHighestPriorityInterrupt
+MemberName:HalProcessorOn                                      FunctionAddress:FFFFF8031C971C90 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:DefaultAddProfileSource
+MemberName:HalProcessorOff                                     FunctionAddress:FFFFF8031C971C90 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:DefaultAddProfileSource
+MemberName:HalProcessorFreeze                                  FunctionAddress:FFFFF8031C971C90 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:DefaultAddProfileSource
+MemberName:HalDmaLinkDeviceObjectByToken                       FunctionAddress:FFFFF8031CE1A120 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpDmaLinkDeviceObjectByToken
+MemberName:HalDmaCheckAdapterToken                             FunctionAddress:FFFFF8031CB042F0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpDmaCheckAdapterToken
+MemberName:Dummy4                                              Void:0000000000000000
+MemberName:HalTimerConvertPerformanceCounterToAuxiliaryCounter FunctionAddress:FFFFF8031CB01CF0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpTimerConvertPerformanceCounterToAuxiliaryCounter
+MemberName:HalTimerConvertAuxiliaryCounterToPerformanceCounter FunctionAddress:FFFFF8031CB01BE0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpTimerConvertAuxiliaryCounterToPerformanceCounter
+MemberName:HalTimerQueryAuxiliaryCounterFrequency              FunctionAddress:FFFFF8031CB01E20 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpTimerQueryAuxiliaryCounterFrequency
+MemberName:HalConnectThermalInterrupt                          FunctionAddress:FFFFF8031CB1C690 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpConnectThermalInterrupt
+MemberName:HalIsEFIRuntimeActive                               FunctionAddress:FFFFF8031C9DD2B0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpIsEFIRuntimeActive
+MemberName:HalTimerQueryAndResetRtcErrors                      FunctionAddress:FFFFF8031C9978C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpTimerQueryAndResetRtcErrors
+MemberName:HalAcpiLateRestore                                  FunctionAddress:FFFFF803201DB780 FullPathName:\SystemRoot\System32\drivers\ACPI.sys SymbolName:ACPILateRestore
+MemberName:KdWatchdogDelayExpiration                           FunctionAddress:FFFFF8031CB0D8B0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpWatchdogDelayExpiration
+MemberName:HalGetProcessorStats                                FunctionAddress:FFFFF8031C971C90 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:DefaultAddProfileSource
+MemberName:HalTimerWatchdogQueryDueTime                        FunctionAddress:FFFFF8031C874730 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:SC_DEVICE::GetStoragePropertyPost
+MemberName:HalConnectSyntheticInterrupt                        FunctionAddress:FFFFF8031C971C90 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:DefaultAddProfileSource
+MemberName:HalPreprocessNmi                                    FunctionAddress:FFFFF8031C8F9DC0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpPreprocessNmi
+MemberName:HalEnumerateEnvironmentVariablesWithFilter          FunctionAddress:FFFFF8031CB074C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpEnumerateEnvironmentVariablesWithFilter
+MemberName:HalCaptureLastBranchRecordStack                     FunctionAddress:FFFFF8031C971C90 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:DefaultAddProfileSource
+MemberName:HalClearLastBranchRecordStack                       FunctionAddress:FFFFF8031C971EA0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:PcValidateDmaScatterTransfer
+MemberName:HalConfigureLastBranchRecord                        FunctionAddress:FFFFF8031C971C90 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:DefaultAddProfileSource
+MemberName:HalGetLastBranchInformation                         FunctionAddress:FFFFF8031C971EA0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:PcValidateDmaScatterTransfer
+MemberName:HalResumeLastBranchRecord                           FunctionAddress:FFFFF8031C9A6270 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:EmpCheckErrataList
+MemberName:HalStartLastBranchRecord                            FunctionAddress:FFFFF8031C971C90 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:DefaultAddProfileSource
+MemberName:HalStopLastBranchRecord                             FunctionAddress:FFFFF8031C971C90 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:DefaultAddProfileSource
+MemberName:HalIommuBlockDevice                                 FunctionAddress:FFFFF8031CB18F90 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpIommuBlockDevice
+MemberName:HalIommuUnblockDevice                               FunctionAddress:FFFFF8031CB1A530 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpIommuUnblockDevice
+MemberName:HalGetIommuInterface                                FunctionAddress:FFFFF8031CF0A020 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpGetIommuInterface
+MemberName:HalRequestGenericErrorRecovery                      FunctionAddress:FFFFF8031CB1B0F0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpRequestGenericErrorRecovery
+MemberName:HalTimerQueryHostPerformanceCounter                 FunctionAddress:FFFFF8031CB01E50 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpTimerQueryHostPerformanceCounter
+MemberName:HalTopologyQueryProcessorRelationships              FunctionAddress:FFFFF8031C971C90 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:DefaultAddProfileSource
+MemberName:HalInitPlatformDebugTriggers                        FunctionAddress:FFFFF8031CB29790 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HaliInitializePlatformDebugTriggers
+MemberName:HalRunPlatformDebugTriggers                         FunctionAddress:FFFFF8031CB29840 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HaliRunPlatformDebugTriggers
+MemberName:HalTimerGetReferencePage                            FunctionAddress:FFFFF8031C971B60 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpTimerGetReferencePage
+MemberName:HalGetHiddenProcessorPowerInterface                 FunctionAddress:FFFFF8031C9DE120 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpBlkPoGetPowerInterface
+MemberName:HalGetHiddenProcessorPackageId                      FunctionAddress:FFFFF8031CB2BAC0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpBlkPoGetPackageId
+MemberName:HalGetHiddenPackageProcessorCount                   FunctionAddress:FFFFF8031C9DCDA0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpBlkPoGetProcessorCount
+MemberName:HalGetHiddenProcessorApicIdByIndex                  FunctionAddress:FFFFF8031CB2BA90 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpBlkPoGetApicIdByIndex
+MemberName:HalRegisterHiddenProcessorIdleState                 FunctionAddress:FFFFF8031CB2BED0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpBlkPoRegisterIdleState
+MemberName:HalIommuReportIommuFault                            FunctionAddress:FFFFF8031CB1A3A0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpIommuReportIommuFault
+MemberName:HalIommuDmaRemappingCapable                         FunctionAddress:FFFFF8031CB194C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpIommuDmaRemappingCapable
+MemberName:HalAllocatePmcCounterSetEx                          FunctionAddress:FFFFF8031CB098E0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpAllocatePmcCounterSetEx
+MemberName:HalStartProfileInterruptEx                          FunctionAddress:FFFFF8031CB0A6C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpStartProfileInterruptEx
+MemberName:HalGetIommuInterfaceEx                              FunctionAddress:FFFFF8031CE5A7A0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpGetIommuInterfaceEx
+MemberName:HalNotifyIommuDomainPolicyChange                    FunctionAddress:FFFFF8031CB0FB60 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpNotifyIommuDomainPolicyChange
+MemberName:HalPciGetDeviceLocationFromPhysicalAddress          FunctionAddress:FFFFF8031CB1E1B0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpPciGetDeviceLocationFromPhysicalAddress
+
+C:\Users\Administrator\Desktop\bin>
+
+
+--------------------------------------------------------------------------------------------------
+
+
+0: kd> x nt!HalPrivateDispatchTable
+fffff803`1d201be0 nt!HalPrivateDispatchTable = <no type information>
+0: kd> dt nt!HAL_PRIVATE_DISPATCH fffff803`1d201be0
+   +0x000 Version          : 0x36
+   +0x008 HalHandlerForBus : 0xfffff803`1c874730     _BUS_HANDLER*  nt!SC_DEVICE::GetStoragePropertyPost+0
+   +0x010 HalHandlerForConfigSpace : 0xfffff803`1c874730     _BUS_HANDLER*  nt!SC_DEVICE::GetStoragePropertyPost+0
+   +0x018 HalLocateHiberRanges : 0xfffff803`1d04db40     void  nt!HaliLocateHiberRanges+0
+   +0x020 HalRegisterBusHandler : 0xfffff803`1cdf04d0     long  nt!ArbAddReserved+0
+   +0x028 HalSetWakeEnable : (null) 
+   +0x030 HalSetWakeAlarm  : 0xfffff803`1d051330     long  nt!HaliSetWakeAlarm+0
+   +0x038 HalPciTranslateBusAddress : 0xfffff803`202790a0     unsigned char  +fffff803202790a0
+   +0x040 HalPciAssignSlotResources : 0xfffff803`202e2f30     long  +fffff803202e2f30
+   +0x048 HalHaltSystem    : 0xfffff803`1cb093b0     void  nt!HaliHaltSystem+0
+   +0x050 HalFindBusAddressTranslation : 0xfffff803`1c9dd3c0     unsigned char  nt!HalpFindBusAddressTranslation+0
+   +0x058 HalResetDisplay  : 0xfffff803`1cb02070     unsigned char  nt!HalpBiosDisplayReset+0
+   +0x060 HalAllocateMapRegisters : 0xfffff803`1cf08200     long  nt!HalpAllocateMapRegisters+0
+   +0x068 KdSetupPciDeviceForDebugging : 0xfffff803`1d06fd60     long  nt!HalpKdSetupDebuggingDevice+0
+   +0x070 KdReleasePciDeviceForDebugging : 0xfffff803`1d0718f0     long  nt!HalpKdReleaseDebuggingDevice+0
+   +0x078 KdGetAcpiTablePhase0 : 0xfffff803`1c9b78d0     void*  nt!HalAcpiGetTable+0
+   +0x080 KdCheckPowerButton : 0xfffff803`1ca15a70     void  nt!HalpCheckPowerButton+0
+   +0x088 HalVectorToIDTEntry : 0xfffff803`1c9721c0     unsigned char  nt!xHalVectorToIDTEntry+0
+   +0x090 KdMapPhysicalMemory64 : 0xfffff803`1c9be0a0     void*  nt!HalpMapPhysicalMemoryWriteThrough64+0
+   +0x098 KdUnmapVirtualAddress : 0xfffff803`1c9be7b0     void  nt!HalpUnmapVirtualAddress+0
+   +0x0a0 KdGetPciDataByOffset : 0xfffff803`1c9afd10     unsigned long  nt!HalpKdReadPCIConfig+0
+   +0x0a8 KdSetPciDataByOffset : 0xfffff803`1cb2c4d0     unsigned long  nt!HalpKdWritePCIConfig+0
+   +0x0b0 HalGetInterruptVectorOverride : 0xfffff803`202362e0     unsigned long  +fffff803202362e0
+   +0x0b8 HalGetVectorInputOverride : 0xfffff803`201aca80     long  +fffff803201aca80
+   +0x0c0 HalLoadMicrocode : 0xfffff803`1cf09850     long  nt!HalpLoadMicrocode+0
+   +0x0c8 HalUnloadMicrocode : 0xfffff803`1cf09aa0     long  nt!HalpUnloadMicrocode+0
+   +0x0d0 HalPostMicrocodeUpdate : 0xfffff803`1c9b59e0     long  nt!HalpMcUpdatePostUpdate+0
+   +0x0d8 HalAllocateMessageTargetOverride : 0xfffff803`20235af0     long  +fffff80320235af0
+   +0x0e0 HalFreeMessageTargetOverride : 0xfffff803`20235da0     void  +fffff80320235da0
+   +0x0e8 HalDpReplaceBegin : 0xfffff803`1cf09d80     long  nt!HalpDpReplaceBegin+0
+   +0x0f0 HalDpReplaceTarget : 0xfffff803`1d0618f0     void  nt!HalpDpReplaceTarget+0
+   +0x0f8 HalDpReplaceControl : 0xfffff803`1d061720     long  nt!HalpDpReplaceControl+0
+   +0x100 HalDpReplaceEnd  : 0xfffff803`1cf09f30     void  nt!HalpDpReplaceEnd+0
+   +0x108 HalPrepareForBugcheck : 0xfffff803`1cb0d3f0     void  nt!HalpPrepareForBugcheck+0
+   +0x110 HalQueryWakeTime : 0xfffff803`1c998240     unsigned char  nt!HalpTimerQueryWakeTime+0
+   +0x118 HalReportIdleStateUsage : 0xfffff803`1c9db880     void  nt!HalpTimerReportIdleStateUsage+0
+   +0x120 HalTscSynchronization : 0xfffff803`1c9dc190     void  nt!HalpTscSynchronization+0
+   +0x128 HalWheaInitProcessorGenericSection : 0xfffff803`1cb23960     long  nt!HalpWheaInitProcessorGenericSection+0
+   +0x130 HalStopLegacyUsbInterrupts : 0xfffff803`1d052000     void  nt!HalpStopLegacyUsbInterrupts+0
+   +0x138 HalReadWheaPhysicalMemory : 0xfffff803`1cb23740     long  nt!HalpReadWheaPhysicalMemory+0
+   +0x140 HalWriteWheaPhysicalMemory : 0xfffff803`1cb239c0     long  nt!HalpWriteWheaPhysicalMemory+0
+   +0x148 HalDpMaskLevelTriggeredInterrupts : 0xfffff803`1cb22cc0     long  nt!HalpInterruptMaskLevelTriggeredLines+0
+   +0x150 HalDpUnmaskLevelTriggeredInterrupts : 0xfffff803`1cb22ec0     long  nt!HalpInterruptUnmaskLevelTriggeredLines+0
+   +0x158 HalDpGetInterruptReplayState : 0xfffff803`1d0611c0     long  nt!HalpDpGetInterruptReplayState+0
+   +0x160 HalDpReplayInterrupts : 0xfffff803`1d061990     long  nt!HalpDpReplayInterrupts+0
+   +0x168 HalQueryIoPortAccessSupported : 0xfffff803`1c971e80     unsigned char  nt!HalFlushCommonBuffer+0
+   +0x170 KdSetupIntegratedDeviceForDebugging : 0xfffff803`1d06fd60     long  nt!HalpKdSetupDebuggingDevice+0
+   +0x178 KdReleaseIntegratedDeviceForDebugging : 0xfffff803`1d0718f0     long  nt!HalpKdReleaseDebuggingDevice+0
+   +0x180 HalGetEnlightenmentInformation : 0xfffff803`1cb456a0     void  nt!HvlGetEnlightenmentInfo+0
+   +0x188 HalAllocateEarlyPages : 0xfffff803`1cb07fc0     void*  nt!HalpAllocateEarlyPages+0
+   +0x190 HalMapEarlyPages : 0xfffff803`1cb080a0     void*  nt!HalpMapEarlyPages+0
+   +0x198 Dummy1           : (null) 
+   +0x1a0 Dummy2           : (null) 
+   +0x1a8 HalNotifyProcessorFreeze : 0xfffff803`1c8cc2d0     void  nt!HalpTimerNotifyProcessorFreeze+0
+   +0x1b0 HalPrepareProcessorForIdle : 0xfffff803`1c8cbd80     long  nt!HalpProcessorPrepareForIdle+0
+   +0x1b8 HalRegisterLogRoutine : 0xfffff803`1c9a6270     void  nt!EmpCheckErrataList+0
+   +0x1c0 HalResumeProcessorFromIdle : 0xfffff803`1c8cc0b0     void  nt!HalpProcessorResumeFromIdle+0
+   +0x1c8 Dummy            : (null) 
+   +0x1d0 HalVectorToIDTEntryEx : 0xfffff803`1c8b3800     unsigned long  nt!PtrToUlong+0
+   +0x1d8 HalSecondaryInterruptQueryPrimaryInformation : 0xfffff803`1cf08eb0     long  nt!HalpSecondaryInterruptQueryPrimaryInformation+0
+   +0x1e0 HalMaskInterrupt : 0xfffff803`1c996ff0     long  nt!HalpMaskInterrupt+0
+   +0x1e8 HalUnmaskInterrupt : 0xfffff803`1c9b4d90     long  nt!HalpUnmaskInterrupt+0
+   +0x1f0 HalIsInterruptTypeSecondary : 0xfffff803`1c9b3860     unsigned char  nt!HalpIsInterruptTypeSecondary+0
+   +0x1f8 HalAllocateGsivForSecondaryInterrupt : 0xfffff803`1cb1ba50     long  nt!HalpAllocateGsivForSecondaryInterrupt+0
+   +0x200 HalAddInterruptRemapping : 0xfffff803`1ce4d160     long  nt!HaliAddInterruptRemapping+0
+   +0x208 HalRemoveInterruptRemapping : 0xfffff803`1cf07fa0     void  nt!HaliRemoveInterruptRemapping+0
+   +0x210 HalSaveAndDisableHvEnlightenment : 0xfffff803`1cb0e0a0     void  nt!HalpSaveAndDisableEnlightenment+0
+   +0x218 HalRestoreHvEnlightenment : 0xfffff803`1cb0dd30     void  nt!HalpRestoreHvEnlightenment+0
+   +0x220 HalFlushIoBuffersExternalCache : 0xfffff803`1c9a6270     void  nt!EmpCheckErrataList+0
+   +0x228 HalFlushExternalCache : 0xfffff803`1c9a6270     void  nt!EmpCheckErrataList+0
+   +0x230 HalPciEarlyRestore : 0xfffff803`20286fa0     long  +fffff80320286fa0
+   +0x238 HalGetProcessorId : 0xfffff803`1c9d7970     long  nt!HalpInterruptGetIdentifiers+0
+   +0x240 HalAllocatePmcCounterSet : 0xfffff803`1cb098b0     long  nt!HalpAllocatePmcCounterSet+0
+   +0x248 HalCollectPmcCounters : 0xfffff803`1cb09c90     void  nt!HalpCollectPmcCounters+0
+   +0x250 HalFreePmcCounterSet : 0xfffff803`1cb0a130     void  nt!HalpFreePmcCounterSet+0
+   +0x258 HalProcessorHalt : 0xfffff803`1c9721b0     long  nt!xHalProcessorHalt+0
+   +0x260 HalTimerQueryCycleCounter : 0xfffff803`1c9dca10     unsigned int64  nt!HalpTimerQueryCycleCounter+0
+   +0x268 Dummy3           : (null) 
+   +0x270 HalPciMarkHiberPhase : 0xfffff803`202871f0     void  +fffff803202871f0
+   +0x278 HalQueryProcessorRestartEntryPoint : 0xfffff803`1c971e60     long  nt!HalpInterruptQueryProcessorRestartEntryPoint+0
+   +0x280 HalRequestInterrupt : 0xfffff803`1cb07d00     long  nt!HalpInterruptRequestInterrupt+0
+   +0x288 HalEnumerateUnmaskedInterrupts : 0xfffff803`1cb06820     long  nt!HalpInterruptEnumerateUnmaskedInterrupts+0
+   +0x290 HalFlushAndInvalidatePageExternalCache : 0xfffff803`1c9a6270     void  nt!EmpCheckErrataList+0
+   +0x298 KdEnumerateDebuggingDevices : 0xfffff803`1d070180     long  nt!HalpKdEnumerateDebuggingDevices+0
+   +0x2a0 HalFlushIoRectangleExternalCache : 0xfffff803`1c9a6270     void  nt!EmpCheckErrataList+0
+   +0x2a8 HalPowerEarlyRestore : 0xfffff803`1c998320     void  nt!HalpPowerEarlyRestore+0
+   +0x2b0 HalQueryCapsuleCapabilities : 0xfffff803`1cb23200     long  nt!HalpQueryCapsuleCapabilities+0
+   +0x2b8 HalUpdateCapsule : 0xfffff803`1cb232e0     long  nt!HalpUpdateCapsule+0
+   +0x2c0 HalPciMultiStageResumeCapable : 0xfffff803`20287620     unsigned char  +fffff80320287620
+   +0x2c8 HalDmaFreeCrashDumpRegisters : 0xfffff803`1c9982b0     void  nt!HalpDmaFreeCrashDumpRegisters+0
+   +0x2d0 HalAcpiAoacCapable : 0xfffff803`1c971ea0     unsigned char  nt!PcValidateDmaScatterTransfer+0
+   +0x2d8 HalInterruptSetDestination : 0xfffff803`1c8f23f0     long  nt!HalpInterruptSetDestination+0
+   +0x2e0 HalGetClockConfiguration : 0xfffff803`1c9dbe80     void  nt!HalpTimerGetClockConfiguration+0
+   +0x2e8 HalClockTimerActivate : 0xfffff803`1c9ad550     void  nt!HalpTimerClockActivate+0
+   +0x2f0 HalClockTimerInitialize : 0xfffff803`1c8f8030     void  nt!HalpTimerClockInitialize+0
+   +0x2f8 HalClockTimerStop : 0xfffff803`1c8f6660     void  nt!HalpTimerClockStop+0
+   +0x300 HalClockTimerArm : 0xfffff803`1c85c5c0     long  nt!HalpTimerClockArm+0
+   +0x308 HalTimerOnlyClockInterruptPending : 0xfffff803`1c8dab80     unsigned char  nt!HalpTimerOnlyClockInterruptPending+0
+   +0x310 HalAcpiGetMultiNode : 0xfffff803`1c971b70     void*  nt!HalAcpiGetRsdpDispatch+0
+   +0x318 HalPowerSetRebootHandler : 0xfffff803`1c971c30     <function>*  nt!HalpPowerSetRebootHandler+0
+   +0x320 HalIommuRegisterDispatchTable : 0xfffff803`1d130570     void  nt!HalpIommuRegisterDispatchTable+0
+   +0x328 HalTimerWatchdogStart : 0xfffff803`1c9a6270     void  nt!EmpCheckErrataList+0
+   +0x330 HalTimerWatchdogResetCountdown : 0xfffff803`1c9a6270     void  nt!EmpCheckErrataList+0
+   +0x338 HalTimerWatchdogStop : 0xfffff803`1c9a6270     void  nt!EmpCheckErrataList+0
+   +0x340 HalTimerWatchdogGeneratedLastReset : 0xfffff803`1cdf05c0     unsigned char  nt!BiIsLogEnabled+0
+   +0x348 HalTimerWatchdogTriggerSystemReset : 0xfffff803`1c9de1a0     long  nt!BvgaSetVirtualFrameBuffer+0
+   +0x350 HalInterruptVectorDataToGsiv : 0xfffff803`1c9de000     long  nt!HalpInterruptVectorDataToGsiv+0
+   +0x358 HalInterruptGetHighestPriorityInterrupt : 0xfffff803`1c8dabd0     long  nt!HalpInterruptGetHighestPriorityInterrupt+0
+   +0x360 HalProcessorOn   : 0xfffff803`1c971c90     long  nt!DefaultAddProfileSource+0
+   +0x368 HalProcessorOff  : 0xfffff803`1c971c90     long  nt!DefaultAddProfileSource+0
+   +0x370 HalProcessorFreeze : 0xfffff803`1c971c90     long  nt!DefaultAddProfileSource+0
+   +0x378 HalDmaLinkDeviceObjectByToken : 0xfffff803`1ce1a120     long  nt!HalpDmaLinkDeviceObjectByToken+0
+   +0x380 HalDmaCheckAdapterToken : 0xfffff803`1cb042f0     long  nt!HalpDmaCheckAdapterToken+0
+   +0x388 Dummy4           : (null) 
+   +0x390 HalTimerConvertPerformanceCounterToAuxiliaryCounter : 0xfffff803`1cb01cf0     long  nt!HalpTimerConvertPerformanceCounterToAuxiliaryCounter+0
+   +0x398 HalTimerConvertAuxiliaryCounterToPerformanceCounter : 0xfffff803`1cb01be0     long  nt!HalpTimerConvertAuxiliaryCounterToPerformanceCounter+0
+   +0x3a0 HalTimerQueryAuxiliaryCounterFrequency : 0xfffff803`1cb01e20     long  nt!HalpTimerQueryAuxiliaryCounterFrequency+0
+   +0x3a8 HalConnectThermalInterrupt : 0xfffff803`1cb1c690     long  nt!HalpConnectThermalInterrupt+0
+   +0x3b0 HalIsEFIRuntimeActive : 0xfffff803`1c9dd2b0     unsigned char  nt!HalpIsEFIRuntimeActive+0
+   +0x3b8 HalTimerQueryAndResetRtcErrors : 0xfffff803`1c9978c0     unsigned char  nt!HalpTimerQueryAndResetRtcErrors+0
+   +0x3c0 HalAcpiLateRestore : 0xfffff803`201db780     void  +fffff803201db780
+   +0x3c8 KdWatchdogDelayExpiration : 0xfffff803`1cb0d8b0     long  nt!HalpWatchdogDelayExpiration+0
+   +0x3d0 HalGetProcessorStats : 0xfffff803`1c971c90     long  nt!DefaultAddProfileSource+0
+   +0x3d8 HalTimerWatchdogQueryDueTime : 0xfffff803`1c874730     unsigned int64  nt!SC_DEVICE::GetStoragePropertyPost+0
+   +0x3e0 HalConnectSyntheticInterrupt : 0xfffff803`1c971c90     long  nt!DefaultAddProfileSource+0
+   +0x3e8 HalPreprocessNmi : 0xfffff803`1c8f9dc0     void  nt!HalpPreprocessNmi+0
+   +0x3f0 HalEnumerateEnvironmentVariablesWithFilter : 0xfffff803`1cb074c0     long  nt!HalpEnumerateEnvironmentVariablesWithFilter+0
+   +0x3f8 HalCaptureLastBranchRecordStack : 0xfffff803`1c971c90     long  nt!DefaultAddProfileSource+0
+   +0x400 HalClearLastBranchRecordStack : 0xfffff803`1c971ea0     unsigned char  nt!PcValidateDmaScatterTransfer+0
+   +0x408 HalConfigureLastBranchRecord : 0xfffff803`1c971c90     long  nt!DefaultAddProfileSource+0
+   +0x410 HalGetLastBranchInformation : 0xfffff803`1c971ea0     unsigned char  nt!PcValidateDmaScatterTransfer+0
+   +0x418 HalResumeLastBranchRecord : 0xfffff803`1c9a6270     void  nt!EmpCheckErrataList+0
+   +0x420 HalStartLastBranchRecord : 0xfffff803`1c971c90     long  nt!DefaultAddProfileSource+0
+   +0x428 HalStopLastBranchRecord : 0xfffff803`1c971c90     long  nt!DefaultAddProfileSource+0
+   +0x430 HalIommuBlockDevice : 0xfffff803`1cb18f90     long  nt!HalpIommuBlockDevice+0
+   +0x438 HalIommuUnblockDevice : 0xfffff803`1cb1a530     long  nt!HalpIommuUnblockDevice+0
+   +0x440 HalGetIommuInterface : 0xfffff803`1cf0a020     long  nt!HalpGetIommuInterface+0
+   +0x448 HalRequestGenericErrorRecovery : 0xfffff803`1cb1b0f0     long  nt!HalpRequestGenericErrorRecovery+0
+   +0x450 HalTimerQueryHostPerformanceCounter : 0xfffff803`1cb01e50     long  nt!HalpTimerQueryHostPerformanceCounter+0
+   +0x458 HalTopologyQueryProcessorRelationships : 0xfffff803`1c971c90     long  nt!DefaultAddProfileSource+0
+   +0x460 HalInitPlatformDebugTriggers : 0xfffff803`1cb29790     void  nt!HaliInitializePlatformDebugTriggers+0
+   +0x468 HalRunPlatformDebugTriggers : 0xfffff803`1cb29840     void  nt!HaliRunPlatformDebugTriggers+0
+   +0x470 HalTimerGetReferencePage : 0xfffff803`1c971b60     void*  nt!HalpTimerGetReferencePage+0
+   +0x478 HalGetHiddenProcessorPowerInterface : 0xfffff803`1c9de120     long  nt!HalpBlkPoGetPowerInterface+0
+   +0x480 HalGetHiddenProcessorPackageId : 0xfffff803`1cb2bac0     unsigned long  nt!HalpBlkPoGetPackageId+0
+   +0x488 HalGetHiddenPackageProcessorCount : 0xfffff803`1c9dcda0     unsigned long  nt!HalpBlkPoGetProcessorCount+0
+   +0x490 HalGetHiddenProcessorApicIdByIndex : 0xfffff803`1cb2ba90     long  nt!HalpBlkPoGetApicIdByIndex+0
+   +0x498 HalRegisterHiddenProcessorIdleState : 0xfffff803`1cb2bed0     long  nt!HalpBlkPoRegisterIdleState+0
+   +0x4a0 HalIommuReportIommuFault : 0xfffff803`1cb1a3a0     void  nt!HalpIommuReportIommuFault+0
+   +0x4a8 HalIommuDmaRemappingCapable : 0xfffff803`1cb194c0     unsigned char  nt!HalpIommuDmaRemappingCapable+0
+   +0x4b0 HalAllocatePmcCounterSetEx : 0xfffff803`1cb098e0     long  nt!HalpAllocatePmcCounterSetEx+0
+   +0x4b8 HalStartProfileInterruptEx : 0xfffff803`1cb0a6c0     long  nt!HalpStartProfileInterruptEx+0
+   +0x4c0 HalGetIommuInterfaceEx : 0xfffff803`1ce5a7a0     long  nt!HalpGetIommuInterfaceEx+0
+   +0x4c8 HalNotifyIommuDomainPolicyChange : 0xfffff803`1cb0fb60     void  nt!HalpNotifyIommuDomainPolicyChange+0
+   +0x4d0 HalPciGetDeviceLocationFromPhysicalAddress : 0xfffff803`1cb1e1b0     unsigned char  nt!HalpPciGetDeviceLocationFromPhysicalAddress+0
