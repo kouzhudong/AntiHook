@@ -35,7 +35,8 @@ Enum and Remove Hook in Windows Kernel
     NdisMRegisterMiniportDriver  
 11. 枚举和删除DPC定时器。有待完善。  
     以Zw/Nt开头的定时器也属于这个。  
-    KeCancelTimer。
+    KeCancelTimer。  
+    用到了符号解析，如：结构体中成员的偏移，结构体中的数组的个数，全局且未导出的变量等。  
 12. 枚举和停止IO定时器。  
     IoInitializeTimer + IoStopTimer 
 13. 枚举EX定时器。有待分析。  
@@ -58,9 +59,12 @@ Enum and Remove Hook in Windows Kernel
 21. 枚举类型对象。  
     即：对象目录\ObjectTypes下的成员及信息。  
     驱动可创建，也可修改（系统有保护）。  
-22. 枚举驱动对象。主要显示一些函数信息，如：MajorFunction，FastIoDispatch等。  
-23. 枚举和反注册Ex回调。ExRegisterCallback + ExUnregisterCallback。(对象目录:\Callback)
-24. 枚举和反注册会话回调（IoRegisterContainerNotification，非SeRegisterLogonSessionTerminatedRoutine/Ex.)
+22. 枚举驱动对象。  
+    主要显示一些函数信息，如：MajorFunction，FastIoDispatch等。  
+23. 枚举和反注册Ex回调。  
+    ExRegisterCallback + ExUnregisterCallback。(对象目录:\Callback)  
+24. 枚举和反注册会话回调  
+   （IoRegisterContainerNotification，非SeRegisterLogonSessionTerminatedRoutine/Ex.)  
 25. Dump HalDispatchTable  
     没有使用符号解析，没有使用特征码。  
 26. 枚举已经卸载的驱动
@@ -80,7 +84,7 @@ Enum and Remove Hook in Windows Kernel
 31. Dump HalAcpiDispatchTable  
 32. Dump HalSubComponents  
 33. Dump HalIommuDispatchTable  
-    没有定义数据结构，结构的大小，以及成员的名字，类型，偏移等都是解析符号文件得出。  
+    没有定义数据结构。结构的大小，以及成员的名字，类型，偏移等都是解析符号文件得出。  
     相当于：r $t1 = nt!HalIommuDispatchTable;dt nt!_HAL_IOMMU_DISPATCH @$t1 的加强版  
 34. 
 
