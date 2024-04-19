@@ -1,3 +1,5 @@
+regsvr32 /s msdia140.dll rem 尽管程序已经实现了，这里明确下。
+
 AntiHook.exe install
 AntiHook.exe VerifySignature
 AntiHook.exe init
