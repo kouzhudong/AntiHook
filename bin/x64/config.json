@@ -37,6 +37,14 @@
       "RelativePath": "drivers\\WppRecorder.sys"
     },
     {
+      "FileName": "pci.sys",
+      "RelativePath": "drivers\\pci.sys"
+    },
+    {
+      "FileName": "ACPI.sys",
+      "RelativePath": "drivers\\ACPI.sys"
+    },
+    {
       "FileName": "ntosext.sys",
       "RelativePath": "drivers\\ntosext.sys"
     }
