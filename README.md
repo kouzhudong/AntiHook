@@ -4,11 +4,13 @@ Enum and Remove Hook in Windows Kernel
 设计目标：
 1. 别的ARK工具没有的，或者很少有的，或者不开源的。
 2. 自己喜欢的，常用的，避免自己繁琐的windbg操作。
-3. procexp.exe和processhacker及SystemInformer.exe有的，这里一律不添加。
-4. 应用层能实现的一般不添加，除非我喜欢，或者特别的奇特。
+3. procexp.exe和processhacker及SystemInformer.exe有的，这里一般不添加。
+4. 应用层能实现的一般不添加。
 5. 不支持32位。
 6. 不支持GUI。
 7. 多使用符号文件，尽量减少硬编码。
+8. 支持Windows 10及以后的系统（包括服务器）。  
+9. 后期考虑支持ARM64。
 
 已经实现的功能：
 1. 枚举和移除进程回调。  
