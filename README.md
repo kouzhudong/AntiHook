@@ -12,7 +12,7 @@ Enum and Remove Hook in Windows Kernel
 8. 支持Windows 10及以后的系统（包括服务器）。  
 9. 后期考虑支持ARM64。
 
-已经实现的功能：
+已经实现的功能：（按实现顺序，非功能分类）  
 1. 枚举和移除进程回调。  
    PsSetCreateProcessNotifyRoutine + PsSetCreateProcessNotifyRoutineEx + PsSetCreateProcessNotifyRoutineEx2  
 2. 枚举和移除线程回调。  
@@ -49,7 +49,7 @@ Enum and Remove Hook in Windows Kernel
     KeServiceDescriptorTableShadow  
 16. 枚举Global Descriptor Table (GDT)  
 17. 枚举Interrupt Descriptor Table (IDT)  
-    注意区别：Interrupt Vector Table (IVT)  
+    注意：Interrupt Vector Table (IVT)  
 18. 枚举过滤设备。如：TDI，NPFS，MSFS，NSI等。  
     之所以说是设备而不是驱动，是因为  
     其一：IoAttachDevice(ByPointer) + IoAttachDeviceToDeviceStack(Safe)  
