@@ -43,10 +43,13 @@ Enum and Remove Hook in Windows Kernel
     IoInitializeTimer + IoStopTimer 
 13. 枚举EX定时器。有待分析。  
     ExAllocateTimer  
-14. 枚举System Service Descriptor Table (SSDT)
-15. 枚举System Service Shadow Descriptor Table (SSSDT)
-16. 枚举Global Descriptor Table (GDT)
-17. 枚举Interrupt Descriptor Table (IDT) 注意区别：Interrupt Vector Table (IVT)  
+14. 枚举System Service Descriptor Table (SSDT)  
+    KeServiceDescriptorTable  
+15. 枚举System Service Shadow Descriptor Table (SSSDT)  
+    KeServiceDescriptorTableShadow  
+16. 枚举Global Descriptor Table (GDT)  
+17. 枚举Interrupt Descriptor Table (IDT)  
+    注意区别：Interrupt Vector Table (IVT)  
 18. 枚举过滤设备。如：TDI，NPFS，MSFS，NSI等。  
     之所以说是设备而不是驱动，是因为  
     其一：IoAttachDevice(ByPointer) + IoAttachDeviceToDeviceStack(Safe)  
@@ -82,13 +85,15 @@ Enum and Remove Hook in Windows Kernel
     危险：谨慎使用，弄不好会卡系统。  
     没有使用符号解析，没有使用特征码。  
     有待验证是否会触发系统的保护机制（PG/KPP).  
-30. Dump PiDDBCache  
-31. Dump HalAcpiDispatchTable  
-32. Dump HalSubComponents  
-33. Dump HalIommuDispatchTable  
+30. 枚举PiDDBCache  
+31. 枚举HalAcpiDispatchTable  
+32. 枚举HalSubComponents  
+33. 枚举HalIommuDispatchTable  
     没有定义数据结构。结构的大小，以及成员的名字，类型，偏移等都是解析符号文件得出。  
     相当于：r $t1 = nt!HalIommuDispatchTable;dt nt!_HAL_IOMMU_DISPATCH @$t1 的加强版  
-34. Dump HalPrivateDispatchTable
+34. 枚举HalPrivateDispatchTable
+35. 枚举KeServiceDescriptorTableFilter。  
+    这个一般情况下和KeServiceDescriptorTableShadow是不同的，特殊的情况下相同。  
 
 考虑添加的功能：
 1. 工作线程.    尽管生命周期很短。
