@@ -9,8 +9,8 @@ Enum and Remove Hook in Windows Kernel
 5. 不支持32位。
 6. 不支持GUI。
 7. 多使用符号文件，尽量减少硬编码。
-8. 支持Windows 10及以后的系统（包括服务器）。  
-9. 后期考虑支持ARM64。
+8. 支持Windows 7 SP1(Windows Server 2008 R2)及以后的系统。  
+9. 后期考虑支持ARM64。  
 
 已经实现的功能：（按实现顺序，非功能分类）  
 1. 枚举和移除进程回调。  
@@ -25,9 +25,9 @@ Enum and Remove Hook in Windows Kernel
 5. 枚举和移除对象（进程，线程，桌面）回调。  
    ObRegisterCallbacks + ObUnRegisterCallbacks  
 6. 枚举和移除MiniFilter。  
-   FltRegisterFilter + FltUnregisterFilter（有待测试）  
+   FltRegisterFilter + FltUnregisterFilter（有待测试, 可能会卡）  
 7. 枚举和反注册WFP的Callout。  
-   FwpsCalloutRegister + FwpsCalloutUnregisterById（有待测试）  
+   FwpsCalloutRegister + FwpsCalloutUnregisterById  
    没有使用符号解析，没有使用硬编码，使用导出的函数。  
 8. 枚举网络协议驱动。  
    NdisRegisterProtocolDriver + NdisRegisterProtocol
