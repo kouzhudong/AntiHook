@@ -1,4 +1,3 @@
-C:\Users\Administrator>C:\Users\Administrator\Desktop\bin\AntiHook.exe EnumGdt
 Sel        Base             Limit             Type   DPl Size Gran Pres Long Flags
 ---- ---------------- ---------------- ------------- --- ---- ---- ---- ---- --------
 0000 0000000000000000 0000000000000000    <Reserved> 000 Nb   By   NP   Nl   0x0000
@@ -9,8 +8,8 @@ Sel        Base             Limit             Type   DPl Size Gran Pres Long Fla
 0028 0000000000000000 00000000FFFFFFFF    Data RW AC 003 Bg   Pg   P    Nl   0x0cf3
 0030 0000000000000000 0000000000000000    Code RE AC 003 Nb   By   P    Lo   0x02fb
 0038 0000000000000000 0000000000000000    <Reserved> 000 Nb   By   NP   Nl   0x0000
-0040 0000000027565000 0000000000000067    Code RE AC 000 Nb   By   P    Nl   0x008b
-0048 000000000000FFFF 000000000000F803    <Reserved> 000 Nb   By   NP   Nl   0x0000
+0040 000000001A785000 0000000000000067    Code RE AC 000 Nb   By   P    Nl   0x008b
+0048 000000000000FFFF 000000000000F806    <Reserved> 000 Nb   By   NP   Nl   0x0000
 0050 0000000000000000 0000000000003C00    Data RW AC 003 Bg   By   P    Nl   0x04f3
 Sel        Base             Limit             Type   DPl Size Gran Pres Long Flags
 ---- ---------------- ---------------- ------------- --- ---- ---- ---- ---- --------
@@ -22,8 +21,6 @@ Sel        Base             Limit             Type   DPl Size Gran Pres Long Fla
 0080 0000000000000000 00000000FFFFFFFF    Data RW AC 003 Bg   Pg   P    Nl   0x0cf3
 0088 0000000000000000 0000000000000000    Code RE AC 003 Nb   By   P    Lo   0x02fb
 0090 0000000000000000 0000000000000000    <Reserved> 000 Nb   By   NP   Nl   0x0000
-0098 000000001C6D8000 0000000000000067    Code RE AC 000 Nb   By   P    Nl   0x008b
-00a0 000000000000FFFF 0000000000008400    <Reserved> 000 Nb   By   NP   Nl   0x0000
+0098 0000000097ED8000 0000000000000067    Code RE AC 000 Nb   By   P    Nl   0x008b
+00a0 000000000000FFFF 0000000000008A81    <Reserved> 000 Nb   By   NP   Nl   0x0000
 00a8 0000000000000000 0000000000007C00    Data RW AC 003 Bg   By   P    Nl   0x04f3
-
-C:\Users\Administrator>

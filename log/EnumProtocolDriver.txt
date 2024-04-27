@@ -1,193 +1,1122 @@
-C:\Users\Administrator>C:\Users\Administrator\Desktop\bin\AntiHook.exe EnumProtocolDriver
 Number:10
 
-Type:3
-Size:906
-Name:WANARPV6
-NdisVersion:6-85
-DriverVersion:0-0
-Flags:0
-IsIPv4:0
-IsIPv6:0
-IsNdisTest6:0
-BindAdapterHandlerEx             :FFFFF803396031F0, FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
-UnbindAdapterHandlerEx           :FFFFF80339617530, FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
-OpenAdapterCompleteHandlerEx     :FFFFF80339617390, FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
-CloseAdapterCompleteHandlerEx    :FFFFF803396172D0, FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
-StatusHandler/StatusHandlerEx    :FFFFF80339601C80, FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
-ReceiveNetBufferListsHandler     :FFFFF80339601010, FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
-SendNetBufferListsCompleteHandler:FFFFF80339601780, FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
-OidRequestCompleteHandler        :FFFFF80339603370, FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
+Index:1
+MemberName:Header                              Type:3, Size:906
+MemberName:ProtocolDriverContext               Void:FFFFF80623B78250
+MemberName:NextProtocol                        TypePointer:FFFF9D07D72EAB20
+MemberName:OpenQueue                           TypePointer:0000000000000000
+MemberName:Ref                                 俺不关心这个，暂不处理
+MemberName:MajorNdisVersion                    unsigned char: 6
+MemberName:MinorNdisVersion                    unsigned char: 85
+MemberName:MajorDriverVersion                  unsigned char: 0
+MemberName:MinorDriverVersion                  unsigned char: 0
+MemberName:Reserved                            unsigned int: 0
+MemberName:Flags                               unsigned int: 0
+MemberName:Name                                WANARPV6
+MemberName:IsIPv4                              unsigned char: 0
+MemberName:IsIPv6                              unsigned char: 0
+MemberName:IsNdisTest6                         unsigned char: 0
+MemberName:BindAdapterHandlerEx                FunctionAddress:FFFFF80623B731F0 FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
+MemberName:UnbindAdapterHandlerEx              FunctionAddress:FFFFF80623B87530 FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
+MemberName:OpenAdapterCompleteHandlerEx        FunctionAddress:FFFFF80623B87390 FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
+MemberName:CloseAdapterCompleteHandlerEx       FunctionAddress:FFFFF80623B872D0 FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
+MemberName:PnPEventHandler                     FunctionAddress:FFFFF80623B86ED0 FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
+MemberName:NetPnPEventHandler                  FunctionAddress:FFFFF80623B86ED0 FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
+MemberName:UnloadHandler                       FunctionAddress:0000000000000000
+MemberName:UninstallHandler                    FunctionAddress:0000000000000000
+MemberName:RequestCompleteHandler              FunctionAddress:0000000000000000
+MemberName:StatusHandlerEx                     FunctionAddress:FFFFF80623B71C80 FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
+MemberName:StatusHandler                       FunctionAddress:FFFFF80623B71C80 FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
+MemberName:StatusCompleteHandler               FunctionAddress:0000000000000000
+MemberName:ReceiveNetBufferListsHandler        FunctionAddress:FFFFF80623B71010 FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
+MemberName:SendNetBufferListsCompleteHandler   FunctionAddress:FFFFF80623B71780 FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
+MemberName:CoStatusHandlerEx                   FunctionAddress:0000000000000000
+MemberName:CoStatusHandler                     FunctionAddress:0000000000000000
+MemberName:CoAfRegisterNotifyHandler           FunctionAddress:0000000000000000
+MemberName:CoReceiveNetBufferListsHandler      FunctionAddress:0000000000000000
+MemberName:CoSendNetBufferListsCompleteHandler FunctionAddress:0000000000000000
+MemberName:OpenAdapterCompleteHandler          FunctionAddress:0000000000000000
+MemberName:CloseAdapterCompleteHandler         FunctionAddress:0000000000000000
+MemberName:SendCompleteHandler                 FunctionAddress:0000000000000000
+MemberName:WanSendCompleteHandler              FunctionAddress:0000000000000000
+MemberName:TransferDataCompleteHandler         FunctionAddress:0000000000000000
+MemberName:WanTransferDataCompleteHandler      FunctionAddress:0000000000000000
+MemberName:ResetCompleteHandler                FunctionAddress:0000000000000000
+MemberName:ReceiveHandler                      FunctionAddress:0000000000000000
+MemberName:WanReceiveHandler                   FunctionAddress:0000000000000000
+MemberName:ReceiveCompleteHandler              FunctionAddress:0000000000000000
+MemberName:ReceivePacketHandler                FunctionAddress:0000000000000000
+MemberName:BindAdapterHandler                  FunctionAddress:0000000000000000
+MemberName:UnbindAdapterHandler                FunctionAddress:0000000000000000
+MemberName:CoSendCompleteHandler               FunctionAddress:0000000000000000
+MemberName:CoReceivePacketHandler              FunctionAddress:0000000000000000
+MemberName:OidRequestCompleteHandler           FunctionAddress:FFFFF80623B73370 FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
+MemberName:WorkItem                            俺不关心这个，暂不处理
+MemberName:Mutex                               俺不关心这个，暂不处理
+MemberName:MutexOwnerThread                    Void:0000000000000000
+MemberName:MutexOwnerCount                     ULong:0
+MemberName:BindDeviceName                      
+MemberName:RootDeviceName                      
+MemberName:AssociatedMiniDriver                俺不关心这个，暂不处理
+MemberName:BindingAdapter                      俺不关心这个，暂不处理
+MemberName:DeregEvent                          俺不关心这个，暂不处理
+MemberName:ClientChars                        
+  MemberName:Header                         俺不关心这个，暂不处理
+  MemberName:Reserved                       ULong:0
+  MemberName:ClCreateVcHandler              FunctionAddress:0000000000000000
+  MemberName:ClDeleteVcHandler              FunctionAddress:0000000000000000
+  MemberName:ClOidRequestHandler            FunctionAddress:0000000000000000
+  MemberName:ClOidRequestCompleteHandler    FunctionAddress:0000000000000000
+  MemberName:ClOpenAfCompleteHandlerEx      FunctionAddress:0000000000000000
+  MemberName:ClCloseAfCompleteHandler       FunctionAddress:0000000000000000
+  MemberName:ClRegisterSapCompleteHandler   FunctionAddress:0000000000000000
+  MemberName:ClDeregisterSapCompleteHandler FunctionAddress:0000000000000000
+  MemberName:ClMakeCallCompleteHandler      FunctionAddress:0000000000000000
+  MemberName:ClModifyCallQoSCompleteHandler FunctionAddress:0000000000000000
+  MemberName:ClCloseCallCompleteHandler     FunctionAddress:0000000000000000
+  MemberName:ClAddPartyCompleteHandler      FunctionAddress:0000000000000000
+  MemberName:ClDropPartyCompleteHandler     FunctionAddress:0000000000000000
+  MemberName:ClIncomingCallHandler          FunctionAddress:0000000000000000
+  MemberName:ClIncomingCallQoSChangeHandler FunctionAddress:0000000000000000
+  MemberName:ClIncomingCloseCallHandler     FunctionAddress:0000000000000000
+  MemberName:ClIncomingDropPartyHandler     FunctionAddress:0000000000000000
+  MemberName:ClCallConnectedHandler         FunctionAddress:0000000000000000
+  MemberName:ClNotifyCloseAfHandler         FunctionAddress:0000000000000000
+MemberName:CallMgrChars                       
+  MemberName:Header                         俺不关心这个，暂不处理
+  MemberName:Reserved                       ULong:0
+  MemberName:CmCreateVcHandler              FunctionAddress:0000000000000000
+  MemberName:CmDeleteVcHandler              FunctionAddress:0000000000000000
+  MemberName:CmOpenAfHandler                FunctionAddress:0000000000000000
+  MemberName:CmCloseAfHandler               FunctionAddress:0000000000000000
+  MemberName:CmRegisterSapHandler           FunctionAddress:0000000000000000
+  MemberName:CmDeregisterSapHandler         FunctionAddress:0000000000000000
+  MemberName:CmMakeCallHandler              FunctionAddress:0000000000000000
+  MemberName:CmCloseCallHandler             FunctionAddress:0000000000000000
+  MemberName:CmIncomingCallCompleteHandler  FunctionAddress:0000000000000000
+  MemberName:CmAddPartyHandler              FunctionAddress:0000000000000000
+  MemberName:CmDropPartyHandler             FunctionAddress:0000000000000000
+  MemberName:CmActivateVcCompleteHandler    FunctionAddress:0000000000000000
+  MemberName:CmDeactivateVcCompleteHandler  FunctionAddress:0000000000000000
+  MemberName:CmModifyCallQoSHandler         FunctionAddress:0000000000000000
+  MemberName:CmOidRequestHandler            FunctionAddress:0000000000000000
+  MemberName:CmOidRequestCompleteHandler    FunctionAddress:0000000000000000
+  MemberName:CmNotifyCloseAfCompleteHandler FunctionAddress:0000000000000000
+MemberName:DirectOidRequestCompleteHandler     FunctionAddress:0000000000000000
+MemberName:AllocateSharedMemoryHandler         FunctionAddress:0000000000000000
+MemberName:FreeSharedMemoryHandler             FunctionAddress:0000000000000000
+MemberName:AllocateSharedMemoryContext         Void:0000000000000000
+MemberName:ImageName                           wanarp.sys
+MemberName:Bind                                俺不关心这个，暂不处理
+MemberName:NotifyBindCompleteWorkItem          俺不关心这个，暂不处理
 
-Type:3
-Size:902
-Name:WANARP
-NdisVersion:6-85
-DriverVersion:0-0
-Flags:0
-IsIPv4:0
-IsIPv6:0
-IsNdisTest6:0
-BindAdapterHandlerEx             :FFFFF803396031F0, FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
-UnbindAdapterHandlerEx           :FFFFF80339617530, FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
-OpenAdapterCompleteHandlerEx     :FFFFF80339617390, FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
-CloseAdapterCompleteHandlerEx    :FFFFF803396172D0, FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
-StatusHandler/StatusHandlerEx    :FFFFF80339601C80, FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
-ReceiveNetBufferListsHandler     :FFFFF80339601010, FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
-SendNetBufferListsCompleteHandler:FFFFF80339601780, FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
-OidRequestCompleteHandler        :FFFFF80339603370, FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
+---------------------------------------------------------------------------------------
 
-Type:3
-Size:902
-Name:RSPNDR
-RootDeviceName:\DEVICE\{369292E4-DD92-46B9-B680-A71531F1B46E}
-NdisVersion:6-30
-DriverVersion:0-0
-Flags:0
-IsIPv4:0
-IsIPv6:0
-IsNdisTest6:0
-BindAdapterHandlerEx             :FFFFF8033A3E1260, FullPathName:\SystemRoot\system32\drivers\rspndr.sys
-UnbindAdapterHandlerEx           :FFFFF8033A3E4A40, FullPathName:\SystemRoot\system32\drivers\rspndr.sys
-OpenAdapterCompleteHandlerEx     :FFFFF8033A3E44A0, FullPathName:\SystemRoot\system32\drivers\rspndr.sys
-CloseAdapterCompleteHandlerEx    :FFFFF8033A3E4460, FullPathName:\SystemRoot\system32\drivers\rspndr.sys
-StatusHandler/StatusHandlerEx    :FFFFF8033A3E1010, FullPathName:\SystemRoot\system32\drivers\rspndr.sys
-ReceiveNetBufferListsHandler     :FFFFF8033A3E44D0, FullPathName:\SystemRoot\system32\drivers\rspndr.sys
-SendNetBufferListsCompleteHandler:FFFFF8033A3E49C0, FullPathName:\SystemRoot\system32\drivers\rspndr.sys
-OidRequestCompleteHandler        :FFFFF8033A3E2140, FullPathName:\SystemRoot\system32\drivers\rspndr.sys
+Index:2
+MemberName:Header                              Type:3, Size:902
+MemberName:ProtocolDriverContext               Void:FFFFF80623B78000
+MemberName:NextProtocol                        TypePointer:FFFF9D07D72EA3F0
+MemberName:OpenQueue                           TypePointer:0000000000000000
+MemberName:Ref                                 俺不关心这个，暂不处理
+MemberName:MajorNdisVersion                    unsigned char: 6
+MemberName:MinorNdisVersion                    unsigned char: 85
+MemberName:MajorDriverVersion                  unsigned char: 0
+MemberName:MinorDriverVersion                  unsigned char: 0
+MemberName:Reserved                            unsigned int: 0
+MemberName:Flags                               unsigned int: 0
+MemberName:Name                                WANARP
+MemberName:IsIPv4                              unsigned char: 0
+MemberName:IsIPv6                              unsigned char: 0
+MemberName:IsNdisTest6                         unsigned char: 0
+MemberName:BindAdapterHandlerEx                FunctionAddress:FFFFF80623B731F0 FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
+MemberName:UnbindAdapterHandlerEx              FunctionAddress:FFFFF80623B87530 FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
+MemberName:OpenAdapterCompleteHandlerEx        FunctionAddress:FFFFF80623B87390 FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
+MemberName:CloseAdapterCompleteHandlerEx       FunctionAddress:FFFFF80623B872D0 FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
+MemberName:PnPEventHandler                     FunctionAddress:FFFFF80623B86ED0 FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
+MemberName:NetPnPEventHandler                  FunctionAddress:FFFFF80623B86ED0 FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
+MemberName:UnloadHandler                       FunctionAddress:0000000000000000
+MemberName:UninstallHandler                    FunctionAddress:0000000000000000
+MemberName:RequestCompleteHandler              FunctionAddress:0000000000000000
+MemberName:StatusHandlerEx                     FunctionAddress:FFFFF80623B71C80 FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
+MemberName:StatusHandler                       FunctionAddress:FFFFF80623B71C80 FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
+MemberName:StatusCompleteHandler               FunctionAddress:0000000000000000
+MemberName:ReceiveNetBufferListsHandler        FunctionAddress:FFFFF80623B71010 FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
+MemberName:SendNetBufferListsCompleteHandler   FunctionAddress:FFFFF80623B71780 FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
+MemberName:CoStatusHandlerEx                   FunctionAddress:0000000000000000
+MemberName:CoStatusHandler                     FunctionAddress:0000000000000000
+MemberName:CoAfRegisterNotifyHandler           FunctionAddress:0000000000000000
+MemberName:CoReceiveNetBufferListsHandler      FunctionAddress:0000000000000000
+MemberName:CoSendNetBufferListsCompleteHandler FunctionAddress:0000000000000000
+MemberName:OpenAdapterCompleteHandler          FunctionAddress:0000000000000000
+MemberName:CloseAdapterCompleteHandler         FunctionAddress:0000000000000000
+MemberName:SendCompleteHandler                 FunctionAddress:0000000000000000
+MemberName:WanSendCompleteHandler              FunctionAddress:0000000000000000
+MemberName:TransferDataCompleteHandler         FunctionAddress:0000000000000000
+MemberName:WanTransferDataCompleteHandler      FunctionAddress:0000000000000000
+MemberName:ResetCompleteHandler                FunctionAddress:0000000000000000
+MemberName:ReceiveHandler                      FunctionAddress:0000000000000000
+MemberName:WanReceiveHandler                   FunctionAddress:0000000000000000
+MemberName:ReceiveCompleteHandler              FunctionAddress:0000000000000000
+MemberName:ReceivePacketHandler                FunctionAddress:0000000000000000
+MemberName:BindAdapterHandler                  FunctionAddress:0000000000000000
+MemberName:UnbindAdapterHandler                FunctionAddress:0000000000000000
+MemberName:CoSendCompleteHandler               FunctionAddress:0000000000000000
+MemberName:CoReceivePacketHandler              FunctionAddress:0000000000000000
+MemberName:OidRequestCompleteHandler           FunctionAddress:FFFFF80623B73370 FullPathName:\SystemRoot\System32\DRIVERS\wanarp.sys
+MemberName:WorkItem                            俺不关心这个，暂不处理
+MemberName:Mutex                               俺不关心这个，暂不处理
+MemberName:MutexOwnerThread                    Void:0000000000000000
+MemberName:MutexOwnerCount                     ULong:0
+MemberName:BindDeviceName                      
+MemberName:RootDeviceName                      
+MemberName:AssociatedMiniDriver                俺不关心这个，暂不处理
+MemberName:BindingAdapter                      俺不关心这个，暂不处理
+MemberName:DeregEvent                          俺不关心这个，暂不处理
+MemberName:ClientChars                        
+  MemberName:Header                         俺不关心这个，暂不处理
+  MemberName:Reserved                       ULong:0
+  MemberName:ClCreateVcHandler              FunctionAddress:0000000000000000
+  MemberName:ClDeleteVcHandler              FunctionAddress:0000000000000000
+  MemberName:ClOidRequestHandler            FunctionAddress:0000000000000000
+  MemberName:ClOidRequestCompleteHandler    FunctionAddress:0000000000000000
+  MemberName:ClOpenAfCompleteHandlerEx      FunctionAddress:0000000000000000
+  MemberName:ClCloseAfCompleteHandler       FunctionAddress:0000000000000000
+  MemberName:ClRegisterSapCompleteHandler   FunctionAddress:0000000000000000
+  MemberName:ClDeregisterSapCompleteHandler FunctionAddress:0000000000000000
+  MemberName:ClMakeCallCompleteHandler      FunctionAddress:0000000000000000
+  MemberName:ClModifyCallQoSCompleteHandler FunctionAddress:0000000000000000
+  MemberName:ClCloseCallCompleteHandler     FunctionAddress:0000000000000000
+  MemberName:ClAddPartyCompleteHandler      FunctionAddress:0000000000000000
+  MemberName:ClDropPartyCompleteHandler     FunctionAddress:0000000000000000
+  MemberName:ClIncomingCallHandler          FunctionAddress:0000000000000000
+  MemberName:ClIncomingCallQoSChangeHandler FunctionAddress:0000000000000000
+  MemberName:ClIncomingCloseCallHandler     FunctionAddress:0000000000000000
+  MemberName:ClIncomingDropPartyHandler     FunctionAddress:0000000000000000
+  MemberName:ClCallConnectedHandler         FunctionAddress:0000000000000000
+  MemberName:ClNotifyCloseAfHandler         FunctionAddress:0000000000000000
+MemberName:CallMgrChars                       
+  MemberName:Header                         俺不关心这个，暂不处理
+  MemberName:Reserved                       ULong:0
+  MemberName:CmCreateVcHandler              FunctionAddress:0000000000000000
+  MemberName:CmDeleteVcHandler              FunctionAddress:0000000000000000
+  MemberName:CmOpenAfHandler                FunctionAddress:0000000000000000
+  MemberName:CmCloseAfHandler               FunctionAddress:0000000000000000
+  MemberName:CmRegisterSapHandler           FunctionAddress:0000000000000000
+  MemberName:CmDeregisterSapHandler         FunctionAddress:0000000000000000
+  MemberName:CmMakeCallHandler              FunctionAddress:0000000000000000
+  MemberName:CmCloseCallHandler             FunctionAddress:0000000000000000
+  MemberName:CmIncomingCallCompleteHandler  FunctionAddress:0000000000000000
+  MemberName:CmAddPartyHandler              FunctionAddress:0000000000000000
+  MemberName:CmDropPartyHandler             FunctionAddress:0000000000000000
+  MemberName:CmActivateVcCompleteHandler    FunctionAddress:0000000000000000
+  MemberName:CmDeactivateVcCompleteHandler  FunctionAddress:0000000000000000
+  MemberName:CmModifyCallQoSHandler         FunctionAddress:0000000000000000
+  MemberName:CmOidRequestHandler            FunctionAddress:0000000000000000
+  MemberName:CmOidRequestCompleteHandler    FunctionAddress:0000000000000000
+  MemberName:CmNotifyCloseAfCompleteHandler FunctionAddress:0000000000000000
+MemberName:DirectOidRequestCompleteHandler     FunctionAddress:0000000000000000
+MemberName:AllocateSharedMemoryHandler         FunctionAddress:0000000000000000
+MemberName:FreeSharedMemoryHandler             FunctionAddress:0000000000000000
+MemberName:AllocateSharedMemoryContext         Void:0000000000000000
+MemberName:ImageName                           wanarp.sys
+MemberName:Bind                                俺不关心这个，暂不处理
+MemberName:NotifyBindCompleteWorkItem          俺不关心这个，暂不处理
 
-Type:3
-Size:902
-Name:MSLLDP
-BindDeviceName:\DEVICE\{369292E4-DD92-46B9-B680-A71531F1B46E}
-RootDeviceName:\DEVICE\{369292E4-DD92-46B9-B680-A71531F1B46E}
-NdisVersion:6-30
-DriverVersion:10-0
-Flags:0
-IsIPv4:0
-IsIPv6:0
-IsNdisTest6:0
-BindAdapterHandlerEx             :FFFFF8033A3CCA70, FullPathName:\SystemRoot\system32\drivers\mslldp.sys
-UnbindAdapterHandlerEx           :FFFFF8033A3CD170, FullPathName:\SystemRoot\system32\drivers\mslldp.sys
-OpenAdapterCompleteHandlerEx     :FFFFF8033A3CCF80, FullPathName:\SystemRoot\system32\drivers\mslldp.sys
-CloseAdapterCompleteHandlerEx    :FFFFF8033A3CCC20, FullPathName:\SystemRoot\system32\drivers\mslldp.sys
-StatusHandler/StatusHandlerEx    :FFFFF8033A3C2A90, FullPathName:\SystemRoot\system32\drivers\mslldp.sys
-ReceiveNetBufferListsHandler     :FFFFF8033A3C1010, FullPathName:\SystemRoot\system32\drivers\mslldp.sys
-SendNetBufferListsCompleteHandler:FFFFF8033A3C2A50, FullPathName:\SystemRoot\system32\drivers\mslldp.sys
-OidRequestCompleteHandler        :FFFFF8033A3C2A20, FullPathName:\SystemRoot\system32\drivers\mslldp.sys
+---------------------------------------------------------------------------------------
 
-Type:3
-Size:902
-Name:LLTDIO
-RootDeviceName:\DEVICE\{369292E4-DD92-46B9-B680-A71531F1B46E}
-NdisVersion:6-30
-DriverVersion:0-0
-Flags:0
-IsIPv4:0
-IsIPv6:0
-IsNdisTest6:0
-BindAdapterHandlerEx             :FFFFF8033A3A14D0, FullPathName:\SystemRoot\system32\drivers\lltdio.sys
-UnbindAdapterHandlerEx           :FFFFF8033A3A3C90, FullPathName:\SystemRoot\system32\drivers\lltdio.sys
-OpenAdapterCompleteHandlerEx     :FFFFF8033A3A36D0, FullPathName:\SystemRoot\system32\drivers\lltdio.sys
-CloseAdapterCompleteHandlerEx    :FFFFF8033A3A3680, FullPathName:\SystemRoot\system32\drivers\lltdio.sys
-StatusHandler/StatusHandlerEx    :FFFFF8033A3A1E00, FullPathName:\SystemRoot\system32\drivers\lltdio.sys
-ReceiveNetBufferListsHandler     :FFFFF8033A3A3700, FullPathName:\SystemRoot\system32\drivers\lltdio.sys
-SendNetBufferListsCompleteHandler:FFFFF8033A3A3BD0, FullPathName:\SystemRoot\system32\drivers\lltdio.sys
-OidRequestCompleteHandler        :FFFFF8033A3A1E90, FullPathName:\SystemRoot\system32\drivers\lltdio.sys
+Index:3
+MemberName:Header                              Type:3, Size:902
+MemberName:ProtocolDriverContext               Void:0000000000000000
+MemberName:NextProtocol                        TypePointer:FFFF9D07D72987E0
+MemberName:OpenQueue                           TypePointer:FFFF9D07D5E9F340
+MemberName:Ref                                 俺不关心这个，暂不处理
+MemberName:MajorNdisVersion                    unsigned char: 6
+MemberName:MinorNdisVersion                    unsigned char: 30
+MemberName:MajorDriverVersion                  unsigned char: 0
+MemberName:MinorDriverVersion                  unsigned char: 0
+MemberName:Reserved                            unsigned int: 0
+MemberName:Flags                               unsigned int: 0
+MemberName:Name                                RSPNDR
+MemberName:IsIPv4                              unsigned char: 0
+MemberName:IsIPv6                              unsigned char: 0
+MemberName:IsNdisTest6                         unsigned char: 0
+MemberName:BindAdapterHandlerEx                FunctionAddress:FFFFF80623B51260 FullPathName:\SystemRoot\system32\drivers\rspndr.sys
+MemberName:UnbindAdapterHandlerEx              FunctionAddress:FFFFF80623B54A40 FullPathName:\SystemRoot\system32\drivers\rspndr.sys
+MemberName:OpenAdapterCompleteHandlerEx        FunctionAddress:FFFFF80623B544A0 FullPathName:\SystemRoot\system32\drivers\rspndr.sys
+MemberName:CloseAdapterCompleteHandlerEx       FunctionAddress:FFFFF80623B54460 FullPathName:\SystemRoot\system32\drivers\rspndr.sys
+MemberName:PnPEventHandler                     FunctionAddress:FFFFF80623B52040 FullPathName:\SystemRoot\system32\drivers\rspndr.sys
+MemberName:NetPnPEventHandler                  FunctionAddress:FFFFF80623B52040 FullPathName:\SystemRoot\system32\drivers\rspndr.sys
+MemberName:UnloadHandler                       FunctionAddress:0000000000000000
+MemberName:UninstallHandler                    FunctionAddress:0000000000000000
+MemberName:RequestCompleteHandler              FunctionAddress:0000000000000000
+MemberName:StatusHandlerEx                     FunctionAddress:FFFFF80623B51010 FullPathName:\SystemRoot\system32\drivers\rspndr.sys
+MemberName:StatusHandler                       FunctionAddress:FFFFF80623B51010 FullPathName:\SystemRoot\system32\drivers\rspndr.sys
+MemberName:StatusCompleteHandler               FunctionAddress:0000000000000000
+MemberName:ReceiveNetBufferListsHandler        FunctionAddress:FFFFF80623B544D0 FullPathName:\SystemRoot\system32\drivers\rspndr.sys
+MemberName:SendNetBufferListsCompleteHandler   FunctionAddress:FFFFF80623B549C0 FullPathName:\SystemRoot\system32\drivers\rspndr.sys
+MemberName:CoStatusHandlerEx                   FunctionAddress:0000000000000000
+MemberName:CoStatusHandler                     FunctionAddress:0000000000000000
+MemberName:CoAfRegisterNotifyHandler           FunctionAddress:0000000000000000
+MemberName:CoReceiveNetBufferListsHandler      FunctionAddress:0000000000000000
+MemberName:CoSendNetBufferListsCompleteHandler FunctionAddress:0000000000000000
+MemberName:OpenAdapterCompleteHandler          FunctionAddress:0000000000000000
+MemberName:CloseAdapterCompleteHandler         FunctionAddress:0000000000000000
+MemberName:SendCompleteHandler                 FunctionAddress:0000000000000000
+MemberName:WanSendCompleteHandler              FunctionAddress:0000000000000000
+MemberName:TransferDataCompleteHandler         FunctionAddress:0000000000000000
+MemberName:WanTransferDataCompleteHandler      FunctionAddress:0000000000000000
+MemberName:ResetCompleteHandler                FunctionAddress:0000000000000000
+MemberName:ReceiveHandler                      FunctionAddress:0000000000000000
+MemberName:WanReceiveHandler                   FunctionAddress:0000000000000000
+MemberName:ReceiveCompleteHandler              FunctionAddress:0000000000000000
+MemberName:ReceivePacketHandler                FunctionAddress:0000000000000000
+MemberName:BindAdapterHandler                  FunctionAddress:0000000000000000
+MemberName:UnbindAdapterHandler                FunctionAddress:0000000000000000
+MemberName:CoSendCompleteHandler               FunctionAddress:0000000000000000
+MemberName:CoReceivePacketHandler              FunctionAddress:0000000000000000
+MemberName:OidRequestCompleteHandler           FunctionAddress:FFFFF80623B52140 FullPathName:\SystemRoot\system32\drivers\rspndr.sys
+MemberName:WorkItem                            俺不关心这个，暂不处理
+MemberName:Mutex                               俺不关心这个，暂不处理
+MemberName:MutexOwnerThread                    Void:0000000000000000
+MemberName:MutexOwnerCount                     ULong:0
+MemberName:BindDeviceName                      
+MemberName:RootDeviceName                      
+MemberName:AssociatedMiniDriver                俺不关心这个，暂不处理
+MemberName:BindingAdapter                      俺不关心这个，暂不处理
+MemberName:DeregEvent                          俺不关心这个，暂不处理
+MemberName:ClientChars                        
+  MemberName:Header                         俺不关心这个，暂不处理
+  MemberName:Reserved                       ULong:0
+  MemberName:ClCreateVcHandler              FunctionAddress:0000000000000000
+  MemberName:ClDeleteVcHandler              FunctionAddress:0000000000000000
+  MemberName:ClOidRequestHandler            FunctionAddress:0000000000000000
+  MemberName:ClOidRequestCompleteHandler    FunctionAddress:0000000000000000
+  MemberName:ClOpenAfCompleteHandlerEx      FunctionAddress:0000000000000000
+  MemberName:ClCloseAfCompleteHandler       FunctionAddress:0000000000000000
+  MemberName:ClRegisterSapCompleteHandler   FunctionAddress:0000000000000000
+  MemberName:ClDeregisterSapCompleteHandler FunctionAddress:0000000000000000
+  MemberName:ClMakeCallCompleteHandler      FunctionAddress:0000000000000000
+  MemberName:ClModifyCallQoSCompleteHandler FunctionAddress:0000000000000000
+  MemberName:ClCloseCallCompleteHandler     FunctionAddress:0000000000000000
+  MemberName:ClAddPartyCompleteHandler      FunctionAddress:0000000000000000
+  MemberName:ClDropPartyCompleteHandler     FunctionAddress:0000000000000000
+  MemberName:ClIncomingCallHandler          FunctionAddress:0000000000000000
+  MemberName:ClIncomingCallQoSChangeHandler FunctionAddress:0000000000000000
+  MemberName:ClIncomingCloseCallHandler     FunctionAddress:0000000000000000
+  MemberName:ClIncomingDropPartyHandler     FunctionAddress:0000000000000000
+  MemberName:ClCallConnectedHandler         FunctionAddress:0000000000000000
+  MemberName:ClNotifyCloseAfHandler         FunctionAddress:0000000000000000
+MemberName:CallMgrChars                       
+  MemberName:Header                         俺不关心这个，暂不处理
+  MemberName:Reserved                       ULong:0
+  MemberName:CmCreateVcHandler              FunctionAddress:0000000000000000
+  MemberName:CmDeleteVcHandler              FunctionAddress:0000000000000000
+  MemberName:CmOpenAfHandler                FunctionAddress:0000000000000000
+  MemberName:CmCloseAfHandler               FunctionAddress:0000000000000000
+  MemberName:CmRegisterSapHandler           FunctionAddress:0000000000000000
+  MemberName:CmDeregisterSapHandler         FunctionAddress:0000000000000000
+  MemberName:CmMakeCallHandler              FunctionAddress:0000000000000000
+  MemberName:CmCloseCallHandler             FunctionAddress:0000000000000000
+  MemberName:CmIncomingCallCompleteHandler  FunctionAddress:0000000000000000
+  MemberName:CmAddPartyHandler              FunctionAddress:0000000000000000
+  MemberName:CmDropPartyHandler             FunctionAddress:0000000000000000
+  MemberName:CmActivateVcCompleteHandler    FunctionAddress:0000000000000000
+  MemberName:CmDeactivateVcCompleteHandler  FunctionAddress:0000000000000000
+  MemberName:CmModifyCallQoSHandler         FunctionAddress:0000000000000000
+  MemberName:CmOidRequestHandler            FunctionAddress:0000000000000000
+  MemberName:CmOidRequestCompleteHandler    FunctionAddress:0000000000000000
+  MemberName:CmNotifyCloseAfCompleteHandler FunctionAddress:0000000000000000
+MemberName:DirectOidRequestCompleteHandler     FunctionAddress:0000000000000000
+MemberName:AllocateSharedMemoryHandler         FunctionAddress:0000000000000000
+MemberName:FreeSharedMemoryHandler             FunctionAddress:0000000000000000
+MemberName:AllocateSharedMemoryContext         Void:0000000000000000
+MemberName:ImageName                           rspndr.sys
+MemberName:Bind                                俺不关心这个，暂不处理
+MemberName:NotifyBindCompleteWorkItem          俺不关心这个，暂不处理
 
-Type:3
-Size:904
-Name:RDMANDK
-BindDeviceName:\DEVICE\{369292E4-DD92-46B9-B680-A71531F1B46E}
-RootDeviceName:\DEVICE\{369292E4-DD92-46B9-B680-A71531F1B46E}
-NdisVersion:6-40
-DriverVersion:0-0
-Flags:0
-IsIPv4:0
-IsIPv6:0
-IsNdisTest6:0
-BindAdapterHandlerEx             :FFFFF80326F07F80, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
-UnbindAdapterHandlerEx           :FFFFF8032701B690, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
-OpenAdapterCompleteHandlerEx     :FFFFF80327011D30, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
-CloseAdapterCompleteHandlerEx    :FFFFF80326EF0420, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
-StatusHandler/StatusHandlerEx    :FFFFF80326EEB520, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
-ReceiveNetBufferListsHandler     :FFFFF80326EEB520, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
-SendNetBufferListsCompleteHandler:FFFFF80326EEB520, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
-OidRequestCompleteHandler        :FFFFF80326EE6DC0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+---------------------------------------------------------------------------------------
 
-Type:3
-Size:914
-Name:TCPIP6TUNNEL
-NdisVersion:6-40
-DriverVersion:0-0
-Flags:0
-IsIPv4:0
-IsIPv6:0
-IsNdisTest6:0
-BindAdapterHandlerEx             :FFFFF80326EFFF70, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
-UnbindAdapterHandlerEx           :FFFFF80326EEE5D0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
-OpenAdapterCompleteHandlerEx     :FFFFF80327011D30, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
-CloseAdapterCompleteHandlerEx    :FFFFF80326EF0420, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
-StatusHandler/StatusHandlerEx    :FFFFF80326F01FE0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
-ReceiveNetBufferListsHandler     :FFFFF80326ED6D80, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
-SendNetBufferListsCompleteHandler:FFFFF80326ED86D0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
-OidRequestCompleteHandler        :FFFFF80326EE6DC0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+Index:4
+MemberName:Header                              Type:3, Size:902
+MemberName:ProtocolDriverContext               Void:FFFFF80623B39220
+MemberName:NextProtocol                        TypePointer:FFFF9D07D719D3F0
+MemberName:OpenQueue                           TypePointer:FFFF9D07D52839E0
+MemberName:Ref                                 俺不关心这个，暂不处理
+MemberName:MajorNdisVersion                    unsigned char: 6
+MemberName:MinorNdisVersion                    unsigned char: 30
+MemberName:MajorDriverVersion                  unsigned char: 10
+MemberName:MinorDriverVersion                  unsigned char: 0
+MemberName:Reserved                            unsigned int: 0
+MemberName:Flags                               unsigned int: 0
+MemberName:Name                                MSLLDP
+MemberName:IsIPv4                              unsigned char: 0
+MemberName:IsIPv6                              unsigned char: 0
+MemberName:IsNdisTest6                         unsigned char: 0
+MemberName:BindAdapterHandlerEx                FunctionAddress:FFFFF80623B3CA70 FullPathName:\SystemRoot\system32\drivers\mslldp.sys
+MemberName:UnbindAdapterHandlerEx              FunctionAddress:FFFFF80623B3D170 FullPathName:\SystemRoot\system32\drivers\mslldp.sys
+MemberName:OpenAdapterCompleteHandlerEx        FunctionAddress:FFFFF80623B3CF80 FullPathName:\SystemRoot\system32\drivers\mslldp.sys
+MemberName:CloseAdapterCompleteHandlerEx       FunctionAddress:FFFFF80623B3CC20 FullPathName:\SystemRoot\system32\drivers\mslldp.sys
+MemberName:PnPEventHandler                     FunctionAddress:FFFFF80623B3CC40 FullPathName:\SystemRoot\system32\drivers\mslldp.sys
+MemberName:NetPnPEventHandler                  FunctionAddress:FFFFF80623B3CC40 FullPathName:\SystemRoot\system32\drivers\mslldp.sys
+MemberName:UnloadHandler                       FunctionAddress:0000000000000000
+MemberName:UninstallHandler                    FunctionAddress:0000000000000000
+MemberName:RequestCompleteHandler              FunctionAddress:0000000000000000
+MemberName:StatusHandlerEx                     FunctionAddress:FFFFF80623B32A90 FullPathName:\SystemRoot\system32\drivers\mslldp.sys
+MemberName:StatusHandler                       FunctionAddress:FFFFF80623B32A90 FullPathName:\SystemRoot\system32\drivers\mslldp.sys
+MemberName:StatusCompleteHandler               FunctionAddress:0000000000000000
+MemberName:ReceiveNetBufferListsHandler        FunctionAddress:FFFFF80623B31010 FullPathName:\SystemRoot\system32\drivers\mslldp.sys
+MemberName:SendNetBufferListsCompleteHandler   FunctionAddress:FFFFF80623B32A50 FullPathName:\SystemRoot\system32\drivers\mslldp.sys
+MemberName:CoStatusHandlerEx                   FunctionAddress:0000000000000000
+MemberName:CoStatusHandler                     FunctionAddress:0000000000000000
+MemberName:CoAfRegisterNotifyHandler           FunctionAddress:0000000000000000
+MemberName:CoReceiveNetBufferListsHandler      FunctionAddress:0000000000000000
+MemberName:CoSendNetBufferListsCompleteHandler FunctionAddress:0000000000000000
+MemberName:OpenAdapterCompleteHandler          FunctionAddress:0000000000000000
+MemberName:CloseAdapterCompleteHandler         FunctionAddress:0000000000000000
+MemberName:SendCompleteHandler                 FunctionAddress:0000000000000000
+MemberName:WanSendCompleteHandler              FunctionAddress:0000000000000000
+MemberName:TransferDataCompleteHandler         FunctionAddress:0000000000000000
+MemberName:WanTransferDataCompleteHandler      FunctionAddress:0000000000000000
+MemberName:ResetCompleteHandler                FunctionAddress:0000000000000000
+MemberName:ReceiveHandler                      FunctionAddress:0000000000000000
+MemberName:WanReceiveHandler                   FunctionAddress:0000000000000000
+MemberName:ReceiveCompleteHandler              FunctionAddress:0000000000000000
+MemberName:ReceivePacketHandler                FunctionAddress:0000000000000000
+MemberName:BindAdapterHandler                  FunctionAddress:0000000000000000
+MemberName:UnbindAdapterHandler                FunctionAddress:0000000000000000
+MemberName:CoSendCompleteHandler               FunctionAddress:0000000000000000
+MemberName:CoReceivePacketHandler              FunctionAddress:0000000000000000
+MemberName:OidRequestCompleteHandler           FunctionAddress:FFFFF80623B32A20 FullPathName:\SystemRoot\system32\drivers\mslldp.sys
+MemberName:WorkItem                            俺不关心这个，暂不处理
+MemberName:Mutex                               俺不关心这个，暂不处理
+MemberName:MutexOwnerThread                    Void:0000000000000000
+MemberName:MutexOwnerCount                     ULong:0
+MemberName:BindDeviceName                      
+MemberName:RootDeviceName                      
+MemberName:AssociatedMiniDriver                俺不关心这个，暂不处理
+MemberName:BindingAdapter                      俺不关心这个，暂不处理
+MemberName:DeregEvent                          俺不关心这个，暂不处理
+MemberName:ClientChars                        
+  MemberName:Header                         俺不关心这个，暂不处理
+  MemberName:Reserved                       ULong:0
+  MemberName:ClCreateVcHandler              FunctionAddress:0000000000000000
+  MemberName:ClDeleteVcHandler              FunctionAddress:0000000000000000
+  MemberName:ClOidRequestHandler            FunctionAddress:0000000000000000
+  MemberName:ClOidRequestCompleteHandler    FunctionAddress:0000000000000000
+  MemberName:ClOpenAfCompleteHandlerEx      FunctionAddress:0000000000000000
+  MemberName:ClCloseAfCompleteHandler       FunctionAddress:0000000000000000
+  MemberName:ClRegisterSapCompleteHandler   FunctionAddress:0000000000000000
+  MemberName:ClDeregisterSapCompleteHandler FunctionAddress:0000000000000000
+  MemberName:ClMakeCallCompleteHandler      FunctionAddress:0000000000000000
+  MemberName:ClModifyCallQoSCompleteHandler FunctionAddress:0000000000000000
+  MemberName:ClCloseCallCompleteHandler     FunctionAddress:0000000000000000
+  MemberName:ClAddPartyCompleteHandler      FunctionAddress:0000000000000000
+  MemberName:ClDropPartyCompleteHandler     FunctionAddress:0000000000000000
+  MemberName:ClIncomingCallHandler          FunctionAddress:0000000000000000
+  MemberName:ClIncomingCallQoSChangeHandler FunctionAddress:0000000000000000
+  MemberName:ClIncomingCloseCallHandler     FunctionAddress:0000000000000000
+  MemberName:ClIncomingDropPartyHandler     FunctionAddress:0000000000000000
+  MemberName:ClCallConnectedHandler         FunctionAddress:0000000000000000
+  MemberName:ClNotifyCloseAfHandler         FunctionAddress:0000000000000000
+MemberName:CallMgrChars                       
+  MemberName:Header                         俺不关心这个，暂不处理
+  MemberName:Reserved                       ULong:0
+  MemberName:CmCreateVcHandler              FunctionAddress:0000000000000000
+  MemberName:CmDeleteVcHandler              FunctionAddress:0000000000000000
+  MemberName:CmOpenAfHandler                FunctionAddress:0000000000000000
+  MemberName:CmCloseAfHandler               FunctionAddress:0000000000000000
+  MemberName:CmRegisterSapHandler           FunctionAddress:0000000000000000
+  MemberName:CmDeregisterSapHandler         FunctionAddress:0000000000000000
+  MemberName:CmMakeCallHandler              FunctionAddress:0000000000000000
+  MemberName:CmCloseCallHandler             FunctionAddress:0000000000000000
+  MemberName:CmIncomingCallCompleteHandler  FunctionAddress:0000000000000000
+  MemberName:CmAddPartyHandler              FunctionAddress:0000000000000000
+  MemberName:CmDropPartyHandler             FunctionAddress:0000000000000000
+  MemberName:CmActivateVcCompleteHandler    FunctionAddress:0000000000000000
+  MemberName:CmDeactivateVcCompleteHandler  FunctionAddress:0000000000000000
+  MemberName:CmModifyCallQoSHandler         FunctionAddress:0000000000000000
+  MemberName:CmOidRequestHandler            FunctionAddress:0000000000000000
+  MemberName:CmOidRequestCompleteHandler    FunctionAddress:0000000000000000
+  MemberName:CmNotifyCloseAfCompleteHandler FunctionAddress:0000000000000000
+MemberName:DirectOidRequestCompleteHandler     FunctionAddress:0000000000000000
+MemberName:AllocateSharedMemoryHandler         FunctionAddress:0000000000000000
+MemberName:FreeSharedMemoryHandler             FunctionAddress:0000000000000000
+MemberName:AllocateSharedMemoryContext         Void:0000000000000000
+MemberName:ImageName                           mslldp.sys
+MemberName:Bind                                俺不关心这个，暂不处理
+MemberName:NotifyBindCompleteWorkItem          俺不关心这个，暂不处理
 
-Type:3
-Size:912
-Name:TCPIPTUNNEL
-NdisVersion:6-40
-DriverVersion:0-0
-Flags:0
-IsIPv4:0
-IsIPv6:0
-IsNdisTest6:0
-BindAdapterHandlerEx             :FFFFF80326EFFF70, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
-UnbindAdapterHandlerEx           :FFFFF80326EEE5D0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
-OpenAdapterCompleteHandlerEx     :FFFFF80327011D30, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
-CloseAdapterCompleteHandlerEx    :FFFFF80326EF0420, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
-StatusHandler/StatusHandlerEx    :FFFFF80326F01FE0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
-ReceiveNetBufferListsHandler     :FFFFF80326ED6D80, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
-SendNetBufferListsCompleteHandler:FFFFF80326ED86D0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
-OidRequestCompleteHandler        :FFFFF80326EE6DC0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+---------------------------------------------------------------------------------------
 
-Type:3
-Size:902
-Name:TCPIP6
-RootDeviceName:\DEVICE\{369292E4-DD92-46B9-B680-A71531F1B46E}
-NdisVersion:6-40
-DriverVersion:0-0
-Flags:0
-IsIPv4:0
-IsIPv6:1
-IsNdisTest6:0
-BindAdapterHandlerEx             :FFFFF80326EFFF70, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
-UnbindAdapterHandlerEx           :FFFFF80326EEE5D0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
-OpenAdapterCompleteHandlerEx     :FFFFF80327011D30, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
-CloseAdapterCompleteHandlerEx    :FFFFF80326EF0420, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
-StatusHandler/StatusHandlerEx    :FFFFF80326F01FE0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
-ReceiveNetBufferListsHandler     :FFFFF80326ED6D80, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
-SendNetBufferListsCompleteHandler:FFFFF80326ED86D0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
-OidRequestCompleteHandler        :FFFFF80326EE6DC0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+Index:5
+MemberName:Header                              Type:3, Size:902
+MemberName:ProtocolDriverContext               Void:0000000000000000
+MemberName:NextProtocol                        TypePointer:FFFF9D07D3B61B00
+MemberName:OpenQueue                           TypePointer:FFFF9D07D57E3010
+MemberName:Ref                                 俺不关心这个，暂不处理
+MemberName:MajorNdisVersion                    unsigned char: 6
+MemberName:MinorNdisVersion                    unsigned char: 30
+MemberName:MajorDriverVersion                  unsigned char: 0
+MemberName:MinorDriverVersion                  unsigned char: 0
+MemberName:Reserved                            unsigned int: 0
+MemberName:Flags                               unsigned int: 0
+MemberName:Name                                LLTDIO
+MemberName:IsIPv4                              unsigned char: 0
+MemberName:IsIPv6                              unsigned char: 0
+MemberName:IsNdisTest6                         unsigned char: 0
+MemberName:BindAdapterHandlerEx                FunctionAddress:FFFFF80623B114D0 FullPathName:\SystemRoot\system32\drivers\lltdio.sys
+MemberName:UnbindAdapterHandlerEx              FunctionAddress:FFFFF80623B13C90 FullPathName:\SystemRoot\system32\drivers\lltdio.sys
+MemberName:OpenAdapterCompleteHandlerEx        FunctionAddress:FFFFF80623B136D0 FullPathName:\SystemRoot\system32\drivers\lltdio.sys
+MemberName:CloseAdapterCompleteHandlerEx       FunctionAddress:FFFFF80623B13680 FullPathName:\SystemRoot\system32\drivers\lltdio.sys
+MemberName:PnPEventHandler                     FunctionAddress:FFFFF80623B11C20 FullPathName:\SystemRoot\system32\drivers\lltdio.sys
+MemberName:NetPnPEventHandler                  FunctionAddress:FFFFF80623B11C20 FullPathName:\SystemRoot\system32\drivers\lltdio.sys
+MemberName:UnloadHandler                       FunctionAddress:0000000000000000
+MemberName:UninstallHandler                    FunctionAddress:0000000000000000
+MemberName:RequestCompleteHandler              FunctionAddress:0000000000000000
+MemberName:StatusHandlerEx                     FunctionAddress:FFFFF80623B11E00 FullPathName:\SystemRoot\system32\drivers\lltdio.sys
+MemberName:StatusHandler                       FunctionAddress:FFFFF80623B11E00 FullPathName:\SystemRoot\system32\drivers\lltdio.sys
+MemberName:StatusCompleteHandler               FunctionAddress:0000000000000000
+MemberName:ReceiveNetBufferListsHandler        FunctionAddress:FFFFF80623B13700 FullPathName:\SystemRoot\system32\drivers\lltdio.sys
+MemberName:SendNetBufferListsCompleteHandler   FunctionAddress:FFFFF80623B13BD0 FullPathName:\SystemRoot\system32\drivers\lltdio.sys
+MemberName:CoStatusHandlerEx                   FunctionAddress:0000000000000000
+MemberName:CoStatusHandler                     FunctionAddress:0000000000000000
+MemberName:CoAfRegisterNotifyHandler           FunctionAddress:0000000000000000
+MemberName:CoReceiveNetBufferListsHandler      FunctionAddress:0000000000000000
+MemberName:CoSendNetBufferListsCompleteHandler FunctionAddress:0000000000000000
+MemberName:OpenAdapterCompleteHandler          FunctionAddress:0000000000000000
+MemberName:CloseAdapterCompleteHandler         FunctionAddress:0000000000000000
+MemberName:SendCompleteHandler                 FunctionAddress:0000000000000000
+MemberName:WanSendCompleteHandler              FunctionAddress:0000000000000000
+MemberName:TransferDataCompleteHandler         FunctionAddress:0000000000000000
+MemberName:WanTransferDataCompleteHandler      FunctionAddress:0000000000000000
+MemberName:ResetCompleteHandler                FunctionAddress:0000000000000000
+MemberName:ReceiveHandler                      FunctionAddress:0000000000000000
+MemberName:WanReceiveHandler                   FunctionAddress:0000000000000000
+MemberName:ReceiveCompleteHandler              FunctionAddress:0000000000000000
+MemberName:ReceivePacketHandler                FunctionAddress:0000000000000000
+MemberName:BindAdapterHandler                  FunctionAddress:0000000000000000
+MemberName:UnbindAdapterHandler                FunctionAddress:0000000000000000
+MemberName:CoSendCompleteHandler               FunctionAddress:0000000000000000
+MemberName:CoReceivePacketHandler              FunctionAddress:0000000000000000
+MemberName:OidRequestCompleteHandler           FunctionAddress:FFFFF80623B11E90 FullPathName:\SystemRoot\system32\drivers\lltdio.sys
+MemberName:WorkItem                            俺不关心这个，暂不处理
+MemberName:Mutex                               俺不关心这个，暂不处理
+MemberName:MutexOwnerThread                    Void:0000000000000000
+MemberName:MutexOwnerCount                     ULong:0
+MemberName:BindDeviceName                      
+MemberName:RootDeviceName                      
+MemberName:AssociatedMiniDriver                俺不关心这个，暂不处理
+MemberName:BindingAdapter                      俺不关心这个，暂不处理
+MemberName:DeregEvent                          俺不关心这个，暂不处理
+MemberName:ClientChars                        
+  MemberName:Header                         俺不关心这个，暂不处理
+  MemberName:Reserved                       ULong:0
+  MemberName:ClCreateVcHandler              FunctionAddress:0000000000000000
+  MemberName:ClDeleteVcHandler              FunctionAddress:0000000000000000
+  MemberName:ClOidRequestHandler            FunctionAddress:0000000000000000
+  MemberName:ClOidRequestCompleteHandler    FunctionAddress:0000000000000000
+  MemberName:ClOpenAfCompleteHandlerEx      FunctionAddress:0000000000000000
+  MemberName:ClCloseAfCompleteHandler       FunctionAddress:0000000000000000
+  MemberName:ClRegisterSapCompleteHandler   FunctionAddress:0000000000000000
+  MemberName:ClDeregisterSapCompleteHandler FunctionAddress:0000000000000000
+  MemberName:ClMakeCallCompleteHandler      FunctionAddress:0000000000000000
+  MemberName:ClModifyCallQoSCompleteHandler FunctionAddress:0000000000000000
+  MemberName:ClCloseCallCompleteHandler     FunctionAddress:0000000000000000
+  MemberName:ClAddPartyCompleteHandler      FunctionAddress:0000000000000000
+  MemberName:ClDropPartyCompleteHandler     FunctionAddress:0000000000000000
+  MemberName:ClIncomingCallHandler          FunctionAddress:0000000000000000
+  MemberName:ClIncomingCallQoSChangeHandler FunctionAddress:0000000000000000
+  MemberName:ClIncomingCloseCallHandler     FunctionAddress:0000000000000000
+  MemberName:ClIncomingDropPartyHandler     FunctionAddress:0000000000000000
+  MemberName:ClCallConnectedHandler         FunctionAddress:0000000000000000
+  MemberName:ClNotifyCloseAfHandler         FunctionAddress:0000000000000000
+MemberName:CallMgrChars                       
+  MemberName:Header                         俺不关心这个，暂不处理
+  MemberName:Reserved                       ULong:0
+  MemberName:CmCreateVcHandler              FunctionAddress:0000000000000000
+  MemberName:CmDeleteVcHandler              FunctionAddress:0000000000000000
+  MemberName:CmOpenAfHandler                FunctionAddress:0000000000000000
+  MemberName:CmCloseAfHandler               FunctionAddress:0000000000000000
+  MemberName:CmRegisterSapHandler           FunctionAddress:0000000000000000
+  MemberName:CmDeregisterSapHandler         FunctionAddress:0000000000000000
+  MemberName:CmMakeCallHandler              FunctionAddress:0000000000000000
+  MemberName:CmCloseCallHandler             FunctionAddress:0000000000000000
+  MemberName:CmIncomingCallCompleteHandler  FunctionAddress:0000000000000000
+  MemberName:CmAddPartyHandler              FunctionAddress:0000000000000000
+  MemberName:CmDropPartyHandler             FunctionAddress:0000000000000000
+  MemberName:CmActivateVcCompleteHandler    FunctionAddress:0000000000000000
+  MemberName:CmDeactivateVcCompleteHandler  FunctionAddress:0000000000000000
+  MemberName:CmModifyCallQoSHandler         FunctionAddress:0000000000000000
+  MemberName:CmOidRequestHandler            FunctionAddress:0000000000000000
+  MemberName:CmOidRequestCompleteHandler    FunctionAddress:0000000000000000
+  MemberName:CmNotifyCloseAfCompleteHandler FunctionAddress:0000000000000000
+MemberName:DirectOidRequestCompleteHandler     FunctionAddress:0000000000000000
+MemberName:AllocateSharedMemoryHandler         FunctionAddress:0000000000000000
+MemberName:FreeSharedMemoryHandler             FunctionAddress:0000000000000000
+MemberName:AllocateSharedMemoryContext         Void:0000000000000000
+MemberName:ImageName                           lltdio.sys
+MemberName:Bind                                俺不关心这个，暂不处理
+MemberName:NotifyBindCompleteWorkItem          俺不关心这个，暂不处理
 
-Type:3
-Size:900
-Name:TCPIP
-RootDeviceName:\DEVICE\{369292E4-DD92-46B9-B680-A71531F1B46E}
-NdisVersion:6-40
-DriverVersion:0-0
-Flags:0
-IsIPv4:1
-IsIPv6:0
-IsNdisTest6:0
-BindAdapterHandlerEx             :FFFFF80326EFFF70, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
-UnbindAdapterHandlerEx           :FFFFF80326EEE5D0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
-OpenAdapterCompleteHandlerEx     :FFFFF80327011D30, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
-CloseAdapterCompleteHandlerEx    :FFFFF80326EF0420, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
-StatusHandler/StatusHandlerEx    :FFFFF80326F01FE0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
-ReceiveNetBufferListsHandler     :FFFFF80326ED6D80, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
-SendNetBufferListsCompleteHandler:FFFFF80326ED86D0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
-OidRequestCompleteHandler        :FFFFF80326EE6DC0, FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+---------------------------------------------------------------------------------------
 
+Index:6
+MemberName:Header                              Type:3, Size:904
+MemberName:ProtocolDriverContext               Void:FFFFF8061A28CFB0
+MemberName:NextProtocol                        TypePointer:FFFF9D07D56CA9D0
+MemberName:OpenQueue                           TypePointer:0000000000000000
+MemberName:Ref                                 俺不关心这个，暂不处理
+MemberName:MajorNdisVersion                    unsigned char: 6
+MemberName:MinorNdisVersion                    unsigned char: 40
+MemberName:MajorDriverVersion                  unsigned char: 0
+MemberName:MinorDriverVersion                  unsigned char: 0
+MemberName:Reserved                            unsigned int: 0
+MemberName:Flags                               unsigned int: 0
+MemberName:Name                                RDMANDK
+MemberName:IsIPv4                              unsigned char: 0
+MemberName:IsIPv6                              unsigned char: 0
+MemberName:IsNdisTest6                         unsigned char: 0
+MemberName:BindAdapterHandlerEx                FunctionAddress:FFFFF8061A127F80 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlRdmaBindAdapter
+MemberName:UnbindAdapterHandlerEx              FunctionAddress:FFFFF8061A23B690 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlRdmaUnbindAdapter
+MemberName:OpenAdapterCompleteHandlerEx        FunctionAddress:FFFFF8061A231D30 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlOpenAdapterComplete
+MemberName:CloseAdapterCompleteHandlerEx       FunctionAddress:FFFFF8061A110420 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlCloseAdapterComplete
+MemberName:PnPEventHandler                     FunctionAddress:FFFFF8061A127A60 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlRdmaPnpEvent
+MemberName:NetPnPEventHandler                  FunctionAddress:FFFFF8061A127A60 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlRdmaPnpEvent
+MemberName:UnloadHandler                       FunctionAddress:0000000000000000
+MemberName:UninstallHandler                    FunctionAddress:0000000000000000
+MemberName:RequestCompleteHandler              FunctionAddress:0000000000000000
+MemberName:StatusHandlerEx                     FunctionAddress:FFFFF8061A10B520 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:Fl4lCleanup
+MemberName:StatusHandler                       FunctionAddress:FFFFF8061A10B520 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:Fl4lCleanup
+MemberName:StatusCompleteHandler               FunctionAddress:0000000000000000
+MemberName:ReceiveNetBufferListsHandler        FunctionAddress:FFFFF8061A10B520 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:Fl4lCleanup
+MemberName:SendNetBufferListsCompleteHandler   FunctionAddress:FFFFF8061A10B520 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:Fl4lCleanup
+MemberName:CoStatusHandlerEx                   FunctionAddress:0000000000000000
+MemberName:CoStatusHandler                     FunctionAddress:0000000000000000
+MemberName:CoAfRegisterNotifyHandler           FunctionAddress:0000000000000000
+MemberName:CoReceiveNetBufferListsHandler      FunctionAddress:0000000000000000
+MemberName:CoSendNetBufferListsCompleteHandler FunctionAddress:0000000000000000
+MemberName:OpenAdapterCompleteHandler          FunctionAddress:0000000000000000
+MemberName:CloseAdapterCompleteHandler         FunctionAddress:0000000000000000
+MemberName:SendCompleteHandler                 FunctionAddress:0000000000000000
+MemberName:WanSendCompleteHandler              FunctionAddress:0000000000000000
+MemberName:TransferDataCompleteHandler         FunctionAddress:0000000000000000
+MemberName:WanTransferDataCompleteHandler      FunctionAddress:0000000000000000
+MemberName:ResetCompleteHandler                FunctionAddress:0000000000000000
+MemberName:ReceiveHandler                      FunctionAddress:0000000000000000
+MemberName:WanReceiveHandler                   FunctionAddress:0000000000000000
+MemberName:ReceiveCompleteHandler              FunctionAddress:0000000000000000
+MemberName:ReceivePacketHandler                FunctionAddress:0000000000000000
+MemberName:BindAdapterHandler                  FunctionAddress:0000000000000000
+MemberName:UnbindAdapterHandler                FunctionAddress:0000000000000000
+MemberName:CoSendCompleteHandler               FunctionAddress:0000000000000000
+MemberName:CoReceivePacketHandler              FunctionAddress:0000000000000000
+MemberName:OidRequestCompleteHandler           FunctionAddress:FFFFF8061A106DC0 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlDirectRequestComplete
+MemberName:WorkItem                            俺不关心这个，暂不处理
+MemberName:Mutex                               俺不关心这个，暂不处理
+MemberName:MutexOwnerThread                    Void:0000000000000000
+MemberName:MutexOwnerCount                     ULong:0
+MemberName:BindDeviceName                      \^
+MemberName:RootDeviceName                      
+MemberName:AssociatedMiniDriver                俺不关心这个，暂不处理
+MemberName:BindingAdapter                      俺不关心这个，暂不处理
+MemberName:DeregEvent                          俺不关心这个，暂不处理
+MemberName:ClientChars                        
+  MemberName:Header                         俺不关心这个，暂不处理
+  MemberName:Reserved                       ULong:0
+  MemberName:ClCreateVcHandler              FunctionAddress:0000000000000000
+  MemberName:ClDeleteVcHandler              FunctionAddress:0000000000000000
+  MemberName:ClOidRequestHandler            FunctionAddress:0000000000000000
+  MemberName:ClOidRequestCompleteHandler    FunctionAddress:0000000000000000
+  MemberName:ClOpenAfCompleteHandlerEx      FunctionAddress:0000000000000000
+  MemberName:ClCloseAfCompleteHandler       FunctionAddress:0000000000000000
+  MemberName:ClRegisterSapCompleteHandler   FunctionAddress:0000000000000000
+  MemberName:ClDeregisterSapCompleteHandler FunctionAddress:0000000000000000
+  MemberName:ClMakeCallCompleteHandler      FunctionAddress:0000000000000000
+  MemberName:ClModifyCallQoSCompleteHandler FunctionAddress:0000000000000000
+  MemberName:ClCloseCallCompleteHandler     FunctionAddress:0000000000000000
+  MemberName:ClAddPartyCompleteHandler      FunctionAddress:0000000000000000
+  MemberName:ClDropPartyCompleteHandler     FunctionAddress:0000000000000000
+  MemberName:ClIncomingCallHandler          FunctionAddress:0000000000000000
+  MemberName:ClIncomingCallQoSChangeHandler FunctionAddress:0000000000000000
+  MemberName:ClIncomingCloseCallHandler     FunctionAddress:0000000000000000
+  MemberName:ClIncomingDropPartyHandler     FunctionAddress:0000000000000000
+  MemberName:ClCallConnectedHandler         FunctionAddress:0000000000000000
+  MemberName:ClNotifyCloseAfHandler         FunctionAddress:0000000000000000
+MemberName:CallMgrChars                       
+  MemberName:Header                         俺不关心这个，暂不处理
+  MemberName:Reserved                       ULong:0
+  MemberName:CmCreateVcHandler              FunctionAddress:0000000000000000
+  MemberName:CmDeleteVcHandler              FunctionAddress:0000000000000000
+  MemberName:CmOpenAfHandler                FunctionAddress:0000000000000000
+  MemberName:CmCloseAfHandler               FunctionAddress:0000000000000000
+  MemberName:CmRegisterSapHandler           FunctionAddress:0000000000000000
+  MemberName:CmDeregisterSapHandler         FunctionAddress:0000000000000000
+  MemberName:CmMakeCallHandler              FunctionAddress:0000000000000000
+  MemberName:CmCloseCallHandler             FunctionAddress:0000000000000000
+  MemberName:CmIncomingCallCompleteHandler  FunctionAddress:0000000000000000
+  MemberName:CmAddPartyHandler              FunctionAddress:0000000000000000
+  MemberName:CmDropPartyHandler             FunctionAddress:0000000000000000
+  MemberName:CmActivateVcCompleteHandler    FunctionAddress:0000000000000000
+  MemberName:CmDeactivateVcCompleteHandler  FunctionAddress:0000000000000000
+  MemberName:CmModifyCallQoSHandler         FunctionAddress:0000000000000000
+  MemberName:CmOidRequestHandler            FunctionAddress:0000000000000000
+  MemberName:CmOidRequestCompleteHandler    FunctionAddress:0000000000000000
+  MemberName:CmNotifyCloseAfCompleteHandler FunctionAddress:0000000000000000
+MemberName:DirectOidRequestCompleteHandler     FunctionAddress:FFFFF8061A106DC0 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlDirectRequestComplete
+MemberName:AllocateSharedMemoryHandler         FunctionAddress:0000000000000000
+MemberName:FreeSharedMemoryHandler             FunctionAddress:0000000000000000
+MemberName:AllocateSharedMemoryContext         Void:0000000000000000
+MemberName:ImageName                           
+MemberName:Bind                                俺不关心这个，暂不处理
+MemberName:NotifyBindCompleteWorkItem          俺不关心这个，暂不处理
 
-C:\Users\Administrator>
+---------------------------------------------------------------------------------------
+
+Index:7
+MemberName:Header                              Type:3, Size:914
+MemberName:ProtocolDriverContext               Void:FFFFF8061A292EC0
+MemberName:NextProtocol                        TypePointer:FFFF9D07D56CA620
+MemberName:OpenQueue                           TypePointer:0000000000000000
+MemberName:Ref                                 俺不关心这个，暂不处理
+MemberName:MajorNdisVersion                    unsigned char: 6
+MemberName:MinorNdisVersion                    unsigned char: 40
+MemberName:MajorDriverVersion                  unsigned char: 0
+MemberName:MinorDriverVersion                  unsigned char: 0
+MemberName:Reserved                            unsigned int: 0
+MemberName:Flags                               unsigned int: 0
+MemberName:Name                                TCPIP6TUNNEL
+MemberName:IsIPv4                              unsigned char: 0
+MemberName:IsIPv6                              unsigned char: 0
+MemberName:IsNdisTest6                         unsigned char: 0
+MemberName:BindAdapterHandlerEx                FunctionAddress:FFFFF8061A11FF70 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlBindAdapter
+MemberName:UnbindAdapterHandlerEx              FunctionAddress:FFFFF8061A10E5D0 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlUnbindAdapter
+MemberName:OpenAdapterCompleteHandlerEx        FunctionAddress:FFFFF8061A231D30 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlOpenAdapterComplete
+MemberName:CloseAdapterCompleteHandlerEx       FunctionAddress:FFFFF8061A110420 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlCloseAdapterComplete
+MemberName:PnPEventHandler                     FunctionAddress:FFFFF8061A142E60 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:Fl6tPnpEvent
+MemberName:NetPnPEventHandler                  FunctionAddress:FFFFF8061A142E60 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:Fl6tPnpEvent
+MemberName:UnloadHandler                       FunctionAddress:0000000000000000
+MemberName:UninstallHandler                    FunctionAddress:0000000000000000
+MemberName:RequestCompleteHandler              FunctionAddress:0000000000000000
+MemberName:StatusHandlerEx                     FunctionAddress:FFFFF8061A121FE0 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlStatus
+MemberName:StatusHandler                       FunctionAddress:FFFFF8061A121FE0 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlStatus
+MemberName:StatusCompleteHandler               FunctionAddress:0000000000000000
+MemberName:ReceiveNetBufferListsHandler        FunctionAddress:FFFFF8061A0F6D80 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlReceiveNetBufferListChain
+MemberName:SendNetBufferListsCompleteHandler   FunctionAddress:FFFFF8061A0F86D0 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlSendNetBufferListChainComplete
+MemberName:CoStatusHandlerEx                   FunctionAddress:0000000000000000
+MemberName:CoStatusHandler                     FunctionAddress:0000000000000000
+MemberName:CoAfRegisterNotifyHandler           FunctionAddress:0000000000000000
+MemberName:CoReceiveNetBufferListsHandler      FunctionAddress:0000000000000000
+MemberName:CoSendNetBufferListsCompleteHandler FunctionAddress:0000000000000000
+MemberName:OpenAdapterCompleteHandler          FunctionAddress:0000000000000000
+MemberName:CloseAdapterCompleteHandler         FunctionAddress:0000000000000000
+MemberName:SendCompleteHandler                 FunctionAddress:0000000000000000
+MemberName:WanSendCompleteHandler              FunctionAddress:0000000000000000
+MemberName:TransferDataCompleteHandler         FunctionAddress:0000000000000000
+MemberName:WanTransferDataCompleteHandler      FunctionAddress:0000000000000000
+MemberName:ResetCompleteHandler                FunctionAddress:0000000000000000
+MemberName:ReceiveHandler                      FunctionAddress:0000000000000000
+MemberName:WanReceiveHandler                   FunctionAddress:0000000000000000
+MemberName:ReceiveCompleteHandler              FunctionAddress:0000000000000000
+MemberName:ReceivePacketHandler                FunctionAddress:0000000000000000
+MemberName:BindAdapterHandler                  FunctionAddress:0000000000000000
+MemberName:UnbindAdapterHandler                FunctionAddress:0000000000000000
+MemberName:CoSendCompleteHandler               FunctionAddress:0000000000000000
+MemberName:CoReceivePacketHandler              FunctionAddress:0000000000000000
+MemberName:OidRequestCompleteHandler           FunctionAddress:FFFFF8061A106DC0 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlDirectRequestComplete
+MemberName:WorkItem                            俺不关心这个，暂不处理
+MemberName:Mutex                               俺不关心这个，暂不处理
+MemberName:MutexOwnerThread                    Void:0000000000000000
+MemberName:MutexOwnerCount                     ULong:0
+MemberName:BindDeviceName                      
+MemberName:RootDeviceName                      
+MemberName:AssociatedMiniDriver                俺不关心这个，暂不处理
+MemberName:BindingAdapter                      俺不关心这个，暂不处理
+MemberName:DeregEvent                          俺不关心这个，暂不处理
+MemberName:ClientChars                        
+  MemberName:Header                         俺不关心这个，暂不处理
+  MemberName:Reserved                       ULong:0
+  MemberName:ClCreateVcHandler              FunctionAddress:0000000000000000
+  MemberName:ClDeleteVcHandler              FunctionAddress:0000000000000000
+  MemberName:ClOidRequestHandler            FunctionAddress:0000000000000000
+  MemberName:ClOidRequestCompleteHandler    FunctionAddress:0000000000000000
+  MemberName:ClOpenAfCompleteHandlerEx      FunctionAddress:0000000000000000
+  MemberName:ClCloseAfCompleteHandler       FunctionAddress:0000000000000000
+  MemberName:ClRegisterSapCompleteHandler   FunctionAddress:0000000000000000
+  MemberName:ClDeregisterSapCompleteHandler FunctionAddress:0000000000000000
+  MemberName:ClMakeCallCompleteHandler      FunctionAddress:0000000000000000
+  MemberName:ClModifyCallQoSCompleteHandler FunctionAddress:0000000000000000
+  MemberName:ClCloseCallCompleteHandler     FunctionAddress:0000000000000000
+  MemberName:ClAddPartyCompleteHandler      FunctionAddress:0000000000000000
+  MemberName:ClDropPartyCompleteHandler     FunctionAddress:0000000000000000
+  MemberName:ClIncomingCallHandler          FunctionAddress:0000000000000000
+  MemberName:ClIncomingCallQoSChangeHandler FunctionAddress:0000000000000000
+  MemberName:ClIncomingCloseCallHandler     FunctionAddress:0000000000000000
+  MemberName:ClIncomingDropPartyHandler     FunctionAddress:0000000000000000
+  MemberName:ClCallConnectedHandler         FunctionAddress:0000000000000000
+  MemberName:ClNotifyCloseAfHandler         FunctionAddress:0000000000000000
+MemberName:CallMgrChars                       
+  MemberName:Header                         俺不关心这个，暂不处理
+  MemberName:Reserved                       ULong:0
+  MemberName:CmCreateVcHandler              FunctionAddress:0000000000000000
+  MemberName:CmDeleteVcHandler              FunctionAddress:0000000000000000
+  MemberName:CmOpenAfHandler                FunctionAddress:0000000000000000
+  MemberName:CmCloseAfHandler               FunctionAddress:0000000000000000
+  MemberName:CmRegisterSapHandler           FunctionAddress:0000000000000000
+  MemberName:CmDeregisterSapHandler         FunctionAddress:0000000000000000
+  MemberName:CmMakeCallHandler              FunctionAddress:0000000000000000
+  MemberName:CmCloseCallHandler             FunctionAddress:0000000000000000
+  MemberName:CmIncomingCallCompleteHandler  FunctionAddress:0000000000000000
+  MemberName:CmAddPartyHandler              FunctionAddress:0000000000000000
+  MemberName:CmDropPartyHandler             FunctionAddress:0000000000000000
+  MemberName:CmActivateVcCompleteHandler    FunctionAddress:0000000000000000
+  MemberName:CmDeactivateVcCompleteHandler  FunctionAddress:0000000000000000
+  MemberName:CmModifyCallQoSHandler         FunctionAddress:0000000000000000
+  MemberName:CmOidRequestHandler            FunctionAddress:0000000000000000
+  MemberName:CmOidRequestCompleteHandler    FunctionAddress:0000000000000000
+  MemberName:CmNotifyCloseAfCompleteHandler FunctionAddress:0000000000000000
+MemberName:DirectOidRequestCompleteHandler     FunctionAddress:FFFFF8061A106DC0 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlDirectRequestComplete
+MemberName:AllocateSharedMemoryHandler         FunctionAddress:0000000000000000
+MemberName:FreeSharedMemoryHandler             FunctionAddress:0000000000000000
+MemberName:AllocateSharedMemoryContext         Void:0000000000000000
+MemberName:ImageName                           
+MemberName:Bind                                俺不关心这个，暂不处理
+MemberName:NotifyBindCompleteWorkItem          俺不关心这个，暂不处理
+
+---------------------------------------------------------------------------------------
+
+Index:8
+MemberName:Header                              Type:3, Size:912
+MemberName:ProtocolDriverContext               Void:FFFFF8061A292C20
+MemberName:NextProtocol                        TypePointer:FFFF9D07D5670B30
+MemberName:OpenQueue                           TypePointer:0000000000000000
+MemberName:Ref                                 俺不关心这个，暂不处理
+MemberName:MajorNdisVersion                    unsigned char: 6
+MemberName:MinorNdisVersion                    unsigned char: 40
+MemberName:MajorDriverVersion                  unsigned char: 0
+MemberName:MinorDriverVersion                  unsigned char: 0
+MemberName:Reserved                            unsigned int: 0
+MemberName:Flags                               unsigned int: 0
+MemberName:Name                                TCPIPTUNNEL
+MemberName:IsIPv4                              unsigned char: 0
+MemberName:IsIPv6                              unsigned char: 0
+MemberName:IsNdisTest6                         unsigned char: 0
+MemberName:BindAdapterHandlerEx                FunctionAddress:FFFFF8061A11FF70 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlBindAdapter
+MemberName:UnbindAdapterHandlerEx              FunctionAddress:FFFFF8061A10E5D0 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlUnbindAdapter
+MemberName:OpenAdapterCompleteHandlerEx        FunctionAddress:FFFFF8061A231D30 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlOpenAdapterComplete
+MemberName:CloseAdapterCompleteHandlerEx       FunctionAddress:FFFFF8061A110420 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlCloseAdapterComplete
+MemberName:PnPEventHandler                     FunctionAddress:FFFFF8061A142E90 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:Fl4tPnpEvent
+MemberName:NetPnPEventHandler                  FunctionAddress:FFFFF8061A142E90 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:Fl4tPnpEvent
+MemberName:UnloadHandler                       FunctionAddress:0000000000000000
+MemberName:UninstallHandler                    FunctionAddress:0000000000000000
+MemberName:RequestCompleteHandler              FunctionAddress:0000000000000000
+MemberName:StatusHandlerEx                     FunctionAddress:FFFFF8061A121FE0 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlStatus
+MemberName:StatusHandler                       FunctionAddress:FFFFF8061A121FE0 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlStatus
+MemberName:StatusCompleteHandler               FunctionAddress:0000000000000000
+MemberName:ReceiveNetBufferListsHandler        FunctionAddress:FFFFF8061A0F6D80 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlReceiveNetBufferListChain
+MemberName:SendNetBufferListsCompleteHandler   FunctionAddress:FFFFF8061A0F86D0 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlSendNetBufferListChainComplete
+MemberName:CoStatusHandlerEx                   FunctionAddress:0000000000000000
+MemberName:CoStatusHandler                     FunctionAddress:0000000000000000
+MemberName:CoAfRegisterNotifyHandler           FunctionAddress:0000000000000000
+MemberName:CoReceiveNetBufferListsHandler      FunctionAddress:0000000000000000
+MemberName:CoSendNetBufferListsCompleteHandler FunctionAddress:0000000000000000
+MemberName:OpenAdapterCompleteHandler          FunctionAddress:0000000000000000
+MemberName:CloseAdapterCompleteHandler         FunctionAddress:0000000000000000
+MemberName:SendCompleteHandler                 FunctionAddress:0000000000000000
+MemberName:WanSendCompleteHandler              FunctionAddress:0000000000000000
+MemberName:TransferDataCompleteHandler         FunctionAddress:0000000000000000
+MemberName:WanTransferDataCompleteHandler      FunctionAddress:0000000000000000
+MemberName:ResetCompleteHandler                FunctionAddress:0000000000000000
+MemberName:ReceiveHandler                      FunctionAddress:0000000000000000
+MemberName:WanReceiveHandler                   FunctionAddress:0000000000000000
+MemberName:ReceiveCompleteHandler              FunctionAddress:0000000000000000
+MemberName:ReceivePacketHandler                FunctionAddress:0000000000000000
+MemberName:BindAdapterHandler                  FunctionAddress:0000000000000000
+MemberName:UnbindAdapterHandler                FunctionAddress:0000000000000000
+MemberName:CoSendCompleteHandler               FunctionAddress:0000000000000000
+MemberName:CoReceivePacketHandler              FunctionAddress:0000000000000000
+MemberName:OidRequestCompleteHandler           FunctionAddress:FFFFF8061A106DC0 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlDirectRequestComplete
+MemberName:WorkItem                            俺不关心这个，暂不处理
+MemberName:Mutex                               俺不关心这个，暂不处理
+MemberName:MutexOwnerThread                    Void:0000000000000000
+MemberName:MutexOwnerCount                     ULong:0
+MemberName:BindDeviceName                      
+MemberName:RootDeviceName                      
+MemberName:AssociatedMiniDriver                俺不关心这个，暂不处理
+MemberName:BindingAdapter                      俺不关心这个，暂不处理
+MemberName:DeregEvent                          俺不关心这个，暂不处理
+MemberName:ClientChars                        
+  MemberName:Header                         俺不关心这个，暂不处理
+  MemberName:Reserved                       ULong:0
+  MemberName:ClCreateVcHandler              FunctionAddress:0000000000000000
+  MemberName:ClDeleteVcHandler              FunctionAddress:0000000000000000
+  MemberName:ClOidRequestHandler            FunctionAddress:0000000000000000
+  MemberName:ClOidRequestCompleteHandler    FunctionAddress:0000000000000000
+  MemberName:ClOpenAfCompleteHandlerEx      FunctionAddress:0000000000000000
+  MemberName:ClCloseAfCompleteHandler       FunctionAddress:0000000000000000
+  MemberName:ClRegisterSapCompleteHandler   FunctionAddress:0000000000000000
+  MemberName:ClDeregisterSapCompleteHandler FunctionAddress:0000000000000000
+  MemberName:ClMakeCallCompleteHandler      FunctionAddress:0000000000000000
+  MemberName:ClModifyCallQoSCompleteHandler FunctionAddress:0000000000000000
+  MemberName:ClCloseCallCompleteHandler     FunctionAddress:0000000000000000
+  MemberName:ClAddPartyCompleteHandler      FunctionAddress:0000000000000000
+  MemberName:ClDropPartyCompleteHandler     FunctionAddress:0000000000000000
+  MemberName:ClIncomingCallHandler          FunctionAddress:0000000000000000
+  MemberName:ClIncomingCallQoSChangeHandler FunctionAddress:0000000000000000
+  MemberName:ClIncomingCloseCallHandler     FunctionAddress:0000000000000000
+  MemberName:ClIncomingDropPartyHandler     FunctionAddress:0000000000000000
+  MemberName:ClCallConnectedHandler         FunctionAddress:0000000000000000
+  MemberName:ClNotifyCloseAfHandler         FunctionAddress:0000000000000000
+MemberName:CallMgrChars                       
+  MemberName:Header                         俺不关心这个，暂不处理
+  MemberName:Reserved                       ULong:0
+  MemberName:CmCreateVcHandler              FunctionAddress:0000000000000000
+  MemberName:CmDeleteVcHandler              FunctionAddress:0000000000000000
+  MemberName:CmOpenAfHandler                FunctionAddress:0000000000000000
+  MemberName:CmCloseAfHandler               FunctionAddress:0000000000000000
+  MemberName:CmRegisterSapHandler           FunctionAddress:0000000000000000
+  MemberName:CmDeregisterSapHandler         FunctionAddress:0000000000000000
+  MemberName:CmMakeCallHandler              FunctionAddress:0000000000000000
+  MemberName:CmCloseCallHandler             FunctionAddress:0000000000000000
+  MemberName:CmIncomingCallCompleteHandler  FunctionAddress:0000000000000000
+  MemberName:CmAddPartyHandler              FunctionAddress:0000000000000000
+  MemberName:CmDropPartyHandler             FunctionAddress:0000000000000000
+  MemberName:CmActivateVcCompleteHandler    FunctionAddress:0000000000000000
+  MemberName:CmDeactivateVcCompleteHandler  FunctionAddress:0000000000000000
+  MemberName:CmModifyCallQoSHandler         FunctionAddress:0000000000000000
+  MemberName:CmOidRequestHandler            FunctionAddress:0000000000000000
+  MemberName:CmOidRequestCompleteHandler    FunctionAddress:0000000000000000
+  MemberName:CmNotifyCloseAfCompleteHandler FunctionAddress:0000000000000000
+MemberName:DirectOidRequestCompleteHandler     FunctionAddress:FFFFF8061A106DC0 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlDirectRequestComplete
+MemberName:AllocateSharedMemoryHandler         FunctionAddress:0000000000000000
+MemberName:FreeSharedMemoryHandler             FunctionAddress:0000000000000000
+MemberName:AllocateSharedMemoryContext         Void:0000000000000000
+MemberName:ImageName                           
+MemberName:Bind                                俺不关心这个，暂不处理
+MemberName:NotifyBindCompleteWorkItem          俺不关心这个，暂不处理
+
+---------------------------------------------------------------------------------------
+
+Index:9
+MemberName:Header                              Type:3, Size:902
+MemberName:ProtocolDriverContext               Void:FFFFF8061A28CA70
+MemberName:NextProtocol                        TypePointer:FFFF9D07D56A1B80
+MemberName:OpenQueue                           TypePointer:FFFF9D07D5A8B460
+MemberName:Ref                                 俺不关心这个，暂不处理
+MemberName:MajorNdisVersion                    unsigned char: 6
+MemberName:MinorNdisVersion                    unsigned char: 40
+MemberName:MajorDriverVersion                  unsigned char: 0
+MemberName:MinorDriverVersion                  unsigned char: 0
+MemberName:Reserved                            unsigned int: 0
+MemberName:Flags                               unsigned int: 0
+MemberName:Name                                TCPIP6
+MemberName:IsIPv4                              unsigned char: 0
+MemberName:IsIPv6                              unsigned char: 1
+MemberName:IsNdisTest6                         unsigned char: 0
+MemberName:BindAdapterHandlerEx                FunctionAddress:FFFFF8061A11FF70 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlBindAdapter
+MemberName:UnbindAdapterHandlerEx              FunctionAddress:FFFFF8061A10E5D0 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlUnbindAdapter
+MemberName:OpenAdapterCompleteHandlerEx        FunctionAddress:FFFFF8061A231D30 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlOpenAdapterComplete
+MemberName:CloseAdapterCompleteHandlerEx       FunctionAddress:FFFFF8061A110420 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlCloseAdapterComplete
+MemberName:PnPEventHandler                     FunctionAddress:FFFFF8061A121BF0 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:Fl68PnpEvent
+MemberName:NetPnPEventHandler                  FunctionAddress:FFFFF8061A121BF0 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:Fl68PnpEvent
+MemberName:UnloadHandler                       FunctionAddress:0000000000000000
+MemberName:UninstallHandler                    FunctionAddress:0000000000000000
+MemberName:RequestCompleteHandler              FunctionAddress:0000000000000000
+MemberName:StatusHandlerEx                     FunctionAddress:FFFFF8061A121FE0 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlStatus
+MemberName:StatusHandler                       FunctionAddress:FFFFF8061A121FE0 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlStatus
+MemberName:StatusCompleteHandler               FunctionAddress:0000000000000000
+MemberName:ReceiveNetBufferListsHandler        FunctionAddress:FFFFF8061A0F6D80 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlReceiveNetBufferListChain
+MemberName:SendNetBufferListsCompleteHandler   FunctionAddress:FFFFF8061A0F86D0 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlSendNetBufferListChainComplete
+MemberName:CoStatusHandlerEx                   FunctionAddress:0000000000000000
+MemberName:CoStatusHandler                     FunctionAddress:0000000000000000
+MemberName:CoAfRegisterNotifyHandler           FunctionAddress:0000000000000000
+MemberName:CoReceiveNetBufferListsHandler      FunctionAddress:0000000000000000
+MemberName:CoSendNetBufferListsCompleteHandler FunctionAddress:0000000000000000
+MemberName:OpenAdapterCompleteHandler          FunctionAddress:0000000000000000
+MemberName:CloseAdapterCompleteHandler         FunctionAddress:0000000000000000
+MemberName:SendCompleteHandler                 FunctionAddress:0000000000000000
+MemberName:WanSendCompleteHandler              FunctionAddress:0000000000000000
+MemberName:TransferDataCompleteHandler         FunctionAddress:0000000000000000
+MemberName:WanTransferDataCompleteHandler      FunctionAddress:0000000000000000
+MemberName:ResetCompleteHandler                FunctionAddress:0000000000000000
+MemberName:ReceiveHandler                      FunctionAddress:0000000000000000
+MemberName:WanReceiveHandler                   FunctionAddress:0000000000000000
+MemberName:ReceiveCompleteHandler              FunctionAddress:0000000000000000
+MemberName:ReceivePacketHandler                FunctionAddress:0000000000000000
+MemberName:BindAdapterHandler                  FunctionAddress:0000000000000000
+MemberName:UnbindAdapterHandler                FunctionAddress:0000000000000000
+MemberName:CoSendCompleteHandler               FunctionAddress:0000000000000000
+MemberName:CoReceivePacketHandler              FunctionAddress:0000000000000000
+MemberName:OidRequestCompleteHandler           FunctionAddress:FFFFF8061A106DC0 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlDirectRequestComplete
+MemberName:WorkItem                            俺不关心这个，暂不处理
+MemberName:Mutex                               俺不关心这个，暂不处理
+MemberName:MutexOwnerThread                    Void:0000000000000000
+MemberName:MutexOwnerCount                     ULong:0
+MemberName:BindDeviceName                      
+MemberName:RootDeviceName                      
+MemberName:AssociatedMiniDriver                俺不关心这个，暂不处理
+MemberName:BindingAdapter                      俺不关心这个，暂不处理
+MemberName:DeregEvent                          俺不关心这个，暂不处理
+MemberName:ClientChars                        
+  MemberName:Header                         俺不关心这个，暂不处理
+  MemberName:Reserved                       ULong:0
+  MemberName:ClCreateVcHandler              FunctionAddress:0000000000000000
+  MemberName:ClDeleteVcHandler              FunctionAddress:0000000000000000
+  MemberName:ClOidRequestHandler            FunctionAddress:0000000000000000
+  MemberName:ClOidRequestCompleteHandler    FunctionAddress:0000000000000000
+  MemberName:ClOpenAfCompleteHandlerEx      FunctionAddress:0000000000000000
+  MemberName:ClCloseAfCompleteHandler       FunctionAddress:0000000000000000
+  MemberName:ClRegisterSapCompleteHandler   FunctionAddress:0000000000000000
+  MemberName:ClDeregisterSapCompleteHandler FunctionAddress:0000000000000000
+  MemberName:ClMakeCallCompleteHandler      FunctionAddress:0000000000000000
+  MemberName:ClModifyCallQoSCompleteHandler FunctionAddress:0000000000000000
+  MemberName:ClCloseCallCompleteHandler     FunctionAddress:0000000000000000
+  MemberName:ClAddPartyCompleteHandler      FunctionAddress:0000000000000000
+  MemberName:ClDropPartyCompleteHandler     FunctionAddress:0000000000000000
+  MemberName:ClIncomingCallHandler          FunctionAddress:0000000000000000
+  MemberName:ClIncomingCallQoSChangeHandler FunctionAddress:0000000000000000
+  MemberName:ClIncomingCloseCallHandler     FunctionAddress:0000000000000000
+  MemberName:ClIncomingDropPartyHandler     FunctionAddress:0000000000000000
+  MemberName:ClCallConnectedHandler         FunctionAddress:0000000000000000
+  MemberName:ClNotifyCloseAfHandler         FunctionAddress:0000000000000000
+MemberName:CallMgrChars                       
+  MemberName:Header                         俺不关心这个，暂不处理
+  MemberName:Reserved                       ULong:0
+  MemberName:CmCreateVcHandler              FunctionAddress:0000000000000000
+  MemberName:CmDeleteVcHandler              FunctionAddress:0000000000000000
+  MemberName:CmOpenAfHandler                FunctionAddress:0000000000000000
+  MemberName:CmCloseAfHandler               FunctionAddress:0000000000000000
+  MemberName:CmRegisterSapHandler           FunctionAddress:0000000000000000
+  MemberName:CmDeregisterSapHandler         FunctionAddress:0000000000000000
+  MemberName:CmMakeCallHandler              FunctionAddress:0000000000000000
+  MemberName:CmCloseCallHandler             FunctionAddress:0000000000000000
+  MemberName:CmIncomingCallCompleteHandler  FunctionAddress:0000000000000000
+  MemberName:CmAddPartyHandler              FunctionAddress:0000000000000000
+  MemberName:CmDropPartyHandler             FunctionAddress:0000000000000000
+  MemberName:CmActivateVcCompleteHandler    FunctionAddress:0000000000000000
+  MemberName:CmDeactivateVcCompleteHandler  FunctionAddress:0000000000000000
+  MemberName:CmModifyCallQoSHandler         FunctionAddress:0000000000000000
+  MemberName:CmOidRequestHandler            FunctionAddress:0000000000000000
+  MemberName:CmOidRequestCompleteHandler    FunctionAddress:0000000000000000
+  MemberName:CmNotifyCloseAfCompleteHandler FunctionAddress:0000000000000000
+MemberName:DirectOidRequestCompleteHandler     FunctionAddress:FFFFF8061A106DC0 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlDirectRequestComplete
+MemberName:AllocateSharedMemoryHandler         FunctionAddress:0000000000000000
+MemberName:FreeSharedMemoryHandler             FunctionAddress:0000000000000000
+MemberName:AllocateSharedMemoryContext         Void:0000000000000000
+MemberName:ImageName                           tcpip.sys
+MemberName:Bind                                俺不关心这个，暂不处理
+MemberName:NotifyBindCompleteWorkItem          俺不关心这个，暂不处理
+
+---------------------------------------------------------------------------------------
+
+Index:10
+MemberName:Header                              Type:3, Size:900
+MemberName:ProtocolDriverContext               Void:FFFFF8061A28CD10
+MemberName:NextProtocol                        TypePointer:0000000000000000
+MemberName:OpenQueue                           TypePointer:FFFF9D07D57E6010
+MemberName:Ref                                 俺不关心这个，暂不处理
+MemberName:MajorNdisVersion                    unsigned char: 6
+MemberName:MinorNdisVersion                    unsigned char: 40
+MemberName:MajorDriverVersion                  unsigned char: 0
+MemberName:MinorDriverVersion                  unsigned char: 0
+MemberName:Reserved                            unsigned int: 0
+MemberName:Flags                               unsigned int: 0
+MemberName:Name                                TCPIP
+MemberName:IsIPv4                              unsigned char: 1
+MemberName:IsIPv6                              unsigned char: 0
+MemberName:IsNdisTest6                         unsigned char: 0
+MemberName:BindAdapterHandlerEx                FunctionAddress:FFFFF8061A11FF70 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlBindAdapter
+MemberName:UnbindAdapterHandlerEx              FunctionAddress:FFFFF8061A10E5D0 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlUnbindAdapter
+MemberName:OpenAdapterCompleteHandlerEx        FunctionAddress:FFFFF8061A231D30 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlOpenAdapterComplete
+MemberName:CloseAdapterCompleteHandlerEx       FunctionAddress:FFFFF8061A110420 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlCloseAdapterComplete
+MemberName:PnPEventHandler                     FunctionAddress:FFFFF8061A121C20 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:Fl48PnpEvent
+MemberName:NetPnPEventHandler                  FunctionAddress:FFFFF8061A121C20 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:Fl48PnpEvent
+MemberName:UnloadHandler                       FunctionAddress:0000000000000000
+MemberName:UninstallHandler                    FunctionAddress:0000000000000000
+MemberName:RequestCompleteHandler              FunctionAddress:0000000000000000
+MemberName:StatusHandlerEx                     FunctionAddress:FFFFF8061A121FE0 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlStatus
+MemberName:StatusHandler                       FunctionAddress:FFFFF8061A121FE0 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlStatus
+MemberName:StatusCompleteHandler               FunctionAddress:0000000000000000
+MemberName:ReceiveNetBufferListsHandler        FunctionAddress:FFFFF8061A0F6D80 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlReceiveNetBufferListChain
+MemberName:SendNetBufferListsCompleteHandler   FunctionAddress:FFFFF8061A0F86D0 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlSendNetBufferListChainComplete
+MemberName:CoStatusHandlerEx                   FunctionAddress:0000000000000000
+MemberName:CoStatusHandler                     FunctionAddress:0000000000000000
+MemberName:CoAfRegisterNotifyHandler           FunctionAddress:0000000000000000
+MemberName:CoReceiveNetBufferListsHandler      FunctionAddress:0000000000000000
+MemberName:CoSendNetBufferListsCompleteHandler FunctionAddress:0000000000000000
+MemberName:OpenAdapterCompleteHandler          FunctionAddress:0000000000000000
+MemberName:CloseAdapterCompleteHandler         FunctionAddress:0000000000000000
+MemberName:SendCompleteHandler                 FunctionAddress:0000000000000000
+MemberName:WanSendCompleteHandler              FunctionAddress:0000000000000000
+MemberName:TransferDataCompleteHandler         FunctionAddress:0000000000000000
+MemberName:WanTransferDataCompleteHandler      FunctionAddress:0000000000000000
+MemberName:ResetCompleteHandler                FunctionAddress:0000000000000000
+MemberName:ReceiveHandler                      FunctionAddress:0000000000000000
+MemberName:WanReceiveHandler                   FunctionAddress:0000000000000000
+MemberName:ReceiveCompleteHandler              FunctionAddress:0000000000000000
+MemberName:ReceivePacketHandler                FunctionAddress:0000000000000000
+MemberName:BindAdapterHandler                  FunctionAddress:0000000000000000
+MemberName:UnbindAdapterHandler                FunctionAddress:0000000000000000
+MemberName:CoSendCompleteHandler               FunctionAddress:0000000000000000
+MemberName:CoReceivePacketHandler              FunctionAddress:0000000000000000
+MemberName:OidRequestCompleteHandler           FunctionAddress:FFFFF8061A106DC0 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlDirectRequestComplete
+MemberName:WorkItem                            俺不关心这个，暂不处理
+MemberName:Mutex                               俺不关心这个，暂不处理
+MemberName:MutexOwnerThread                    Void:0000000000000000
+MemberName:MutexOwnerCount                     ULong:0
+MemberName:BindDeviceName                      
+MemberName:RootDeviceName                      
+MemberName:AssociatedMiniDriver                俺不关心这个，暂不处理
+MemberName:BindingAdapter                      俺不关心这个，暂不处理
+MemberName:DeregEvent                          俺不关心这个，暂不处理
+MemberName:ClientChars                        
+  MemberName:Header                         俺不关心这个，暂不处理
+  MemberName:Reserved                       ULong:0
+  MemberName:ClCreateVcHandler              FunctionAddress:0000000000000000
+  MemberName:ClDeleteVcHandler              FunctionAddress:0000000000000000
+  MemberName:ClOidRequestHandler            FunctionAddress:0000000000000000
+  MemberName:ClOidRequestCompleteHandler    FunctionAddress:0000000000000000
+  MemberName:ClOpenAfCompleteHandlerEx      FunctionAddress:0000000000000000
+  MemberName:ClCloseAfCompleteHandler       FunctionAddress:0000000000000000
+  MemberName:ClRegisterSapCompleteHandler   FunctionAddress:0000000000000000
+  MemberName:ClDeregisterSapCompleteHandler FunctionAddress:0000000000000000
+  MemberName:ClMakeCallCompleteHandler      FunctionAddress:0000000000000000
+  MemberName:ClModifyCallQoSCompleteHandler FunctionAddress:0000000000000000
+  MemberName:ClCloseCallCompleteHandler     FunctionAddress:0000000000000000
+  MemberName:ClAddPartyCompleteHandler      FunctionAddress:0000000000000000
+  MemberName:ClDropPartyCompleteHandler     FunctionAddress:0000000000000000
+  MemberName:ClIncomingCallHandler          FunctionAddress:0000000000000000
+  MemberName:ClIncomingCallQoSChangeHandler FunctionAddress:0000000000000000
+  MemberName:ClIncomingCloseCallHandler     FunctionAddress:0000000000000000
+  MemberName:ClIncomingDropPartyHandler     FunctionAddress:0000000000000000
+  MemberName:ClCallConnectedHandler         FunctionAddress:0000000000000000
+  MemberName:ClNotifyCloseAfHandler         FunctionAddress:0000000000000000
+MemberName:CallMgrChars                       
+  MemberName:Header                         俺不关心这个，暂不处理
+  MemberName:Reserved                       ULong:0
+  MemberName:CmCreateVcHandler              FunctionAddress:0000000000000000
+  MemberName:CmDeleteVcHandler              FunctionAddress:0000000000000000
+  MemberName:CmOpenAfHandler                FunctionAddress:0000000000000000
+  MemberName:CmCloseAfHandler               FunctionAddress:0000000000000000
+  MemberName:CmRegisterSapHandler           FunctionAddress:0000000000000000
+  MemberName:CmDeregisterSapHandler         FunctionAddress:0000000000000000
+  MemberName:CmMakeCallHandler              FunctionAddress:0000000000000000
+  MemberName:CmCloseCallHandler             FunctionAddress:0000000000000000
+  MemberName:CmIncomingCallCompleteHandler  FunctionAddress:0000000000000000
+  MemberName:CmAddPartyHandler              FunctionAddress:0000000000000000
+  MemberName:CmDropPartyHandler             FunctionAddress:0000000000000000
+  MemberName:CmActivateVcCompleteHandler    FunctionAddress:0000000000000000
+  MemberName:CmDeactivateVcCompleteHandler  FunctionAddress:0000000000000000
+  MemberName:CmModifyCallQoSHandler         FunctionAddress:0000000000000000
+  MemberName:CmOidRequestHandler            FunctionAddress:0000000000000000
+  MemberName:CmOidRequestCompleteHandler    FunctionAddress:0000000000000000
+  MemberName:CmNotifyCloseAfCompleteHandler FunctionAddress:0000000000000000
+MemberName:DirectOidRequestCompleteHandler     FunctionAddress:FFFFF8061A106DC0 FullPathName:\SystemRoot\System32\drivers\tcpip.sys SymbolName:FlDirectRequestComplete
+MemberName:AllocateSharedMemoryHandler         FunctionAddress:0000000000000000
+MemberName:FreeSharedMemoryHandler             FunctionAddress:0000000000000000
+MemberName:AllocateSharedMemoryContext         Void:0000000000000000
+MemberName:ImageName                           tcpip.sys
+MemberName:Bind                                俺不关心这个，暂不处理
+MemberName:NotifyBindCompleteWorkItem          俺不关心这个，暂不处理
+
+---------------------------------------------------------------------------------------
+
