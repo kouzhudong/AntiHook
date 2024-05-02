@@ -25,6 +25,9 @@ Enum and Remove Hook in Windows Kernel
 5. 枚举和移除对象（进程，线程，桌面）回调。  
    ObRegisterCallbacks + ObUnRegisterCallbacks  
 6. 枚举和移除MiniFilter。  
+   不但支持常规的Operations（PreOperation + PostOperation）  
+   而且还有Contexts（ContextCleanupCallback + ContextType）  
+   还有CommunicationPort（仅仅ServerPort）的信息，如：ConnectNotify + DisconnectNotify + MessageNotify。
    FltRegisterFilter + FltUnregisterFilter（有待测试, 可能会卡）  
 7. 枚举和反注册WFP的Callout。  
    FwpsCalloutRegister + FwpsCalloutUnregisterById  
@@ -93,6 +96,8 @@ Enum and Remove Hook in Windows Kernel
     相当于：r $t1 = nt!HalIommuDispatchTable;dt nt!_HAL_IOMMU_DISPATCH @$t1 的加强版  
 34. 枚举HalPrivateDispatchTable
 35. 枚举KeServiceDescriptorTableFilter。  
+    win32k!W32pServiceTableFilter = win32k!SysEntryGetW32pServiceTableFilter()  
+    KeAddSystemServiceTable(W32pServiceTableFilter, 0i64, W32pServiceLimitFilter, &W32pArgumentTableFilter, 2);  
     这个一般情况下和KeServiceDescriptorTableShadow是不同的，特殊的情况下相同。  
 
 考虑添加的功能：

@@ -1,254 +1,266 @@
+C:\Users\Administrator\Desktop\x64>AntiHook.exe EnumMiniFilter
 total numbers:10
 
 Index:1
 MemberName:Base                      俺不关心这个，暂不处理
 MemberName:Frame                     俺不关心这个，暂不处理
-MemberName:Name                      bindflt
-MemberName:DefaultAltitude           409800
+MemberName:Name                       bindflt
+MemberName:DefaultAltitude            409800
 MemberName:Flags                     214
-MemberName:DriverObject              FFFF9D07D7178E00
+MemberName:DriverObject              FFFFD009FA9EFE20
 MemberName:InstanceList              俺不关心这个，暂不处理
 MemberName:VerifierExtension         俺不关心这个，暂不处理
 MemberName:VerifiedFiltersLink       俺不关心这个，暂不处理
-MemberName:FilterUnload               FunctionAddress:FFFFF80623B03040 FullPathName:\SystemRoot\system32\drivers\bindflt.sys
-MemberName:InstanceSetup              FunctionAddress:FFFFF80623AFC0F0 FullPathName:\SystemRoot\system32\drivers\bindflt.sys
-MemberName:InstanceQueryTeardown      FunctionAddress:FFFFF80623AFCD90 FullPathName:\SystemRoot\system32\drivers\bindflt.sys
-MemberName:InstanceTeardownStart      FunctionAddress:FFFFF80623AFCE90 FullPathName:\SystemRoot\system32\drivers\bindflt.sys
-MemberName:InstanceTeardownComplete   FunctionAddress:FFFFF80623AFCE80 FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+MemberName:FilterUnload               FunctionAddress:FFFFF8053B223040 FullPathName:\SystemRoot\system32\drivers\bindflt.sys SymbolName:BfFltUnload
+MemberName:InstanceSetup              FunctionAddress:FFFFF8053B21C0F0 FullPathName:\SystemRoot\system32\drivers\bindflt.sys SymbolName:BfInstanceSetup
+MemberName:InstanceQueryTeardown      FunctionAddress:FFFFF8053B21CD90 FullPathName:\SystemRoot\system32\drivers\bindflt.sys SymbolName:BfInstanceQueryTeardown
+MemberName:InstanceTeardownStart      FunctionAddress:FFFFF8053B21CE90 FullPathName:\SystemRoot\system32\drivers\bindflt.sys SymbolName:BfInstanceTeardownStart
+MemberName:InstanceTeardownComplete   FunctionAddress:FFFFF8053B21CE80 FullPathName:\SystemRoot\system32\drivers\bindflt.sys SymbolName:BfInstanceTeardownComplete
 MemberName:SupportedContextsListHead 俺不关心这个，暂不处理
-MemberName:SupportedContexts         
-  ContextCleanupCallback:FFFFF80623AEF810, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+MemberName:SupportedContexts
+  ContextCleanupCallback:FFFFF8053B20F810, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfContextCleanup
   ContextType:16(StreamHandle Context)
   Flags:0
   AllocationType:2
 
-MemberName:PreVolumeMount             FunctionAddress:FFFFF80623AF9CA0 FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+MemberName:PreVolumeMount             FunctionAddress:FFFFF8053B219CA0 FullPathName:\SystemRoot\system32\drivers\bindflt.sys SymbolName:BfCommonPreOp
 MemberName:PostVolumeMount            FunctionAddress:0000000000000000
-MemberName:GenerateFileName           FunctionAddress:FFFFF80623AF85A0 FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+MemberName:GenerateFileName           FunctionAddress:FFFFF8053B2185A0 FullPathName:\SystemRoot\system32\drivers\bindflt.sys SymbolName:BfGenerateFileNameCallback
 MemberName:NormalizeNameComponent     FunctionAddress:0000000000000000
-MemberName:NormalizeNameComponentEx   FunctionAddress:FFFFF80623B019A0 FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+MemberName:NormalizeNameComponentEx   FunctionAddress:FFFFF8053B2219A0 FullPathName:\SystemRoot\system32\drivers\bindflt.sys SymbolName:BfNormalizeNameComponentExCallback
 MemberName:NormalizeContextCleanup    FunctionAddress:0000000000000000
 MemberName:KtmNotification            FunctionAddress:0000000000000000
 MemberName:SectionNotification        FunctionAddress:0000000000000000
-MemberName:Operations                
+MemberName:Operations
   MajorFunction:0(IRP_MJ_CREATE)
   Flags:0
-  PreOperation :FFFFF80623AFCF90, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
-  PostOperation:FFFFF80623AFCF00, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B21CF90, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfPreCreate
+  PostOperation:FFFFF8053B21CF00, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfPostCreate
 
   MajorFunction:1(IRP_MJ_CREATE_NAMED_PIPE)
   Flags:0
-  PreOperation :FFFFF80623AF9CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B219CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfCommonPreOp
   PostOperation:0000000000000000
 
   MajorFunction:2(IRP_MJ_CLOSE)
   Flags:0
-  PreOperation :FFFFF80623AE1610, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B201610, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfPreClose
   PostOperation:0000000000000000
 
   MajorFunction:3(IRP_MJ_READ)
   Flags:0
-  PreOperation :FFFFF80623AE6010, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
-  PostOperation:FFFFF80623AE6420, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B206010, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfPreReadWrite
+  PostOperation:FFFFF8053B206420, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfPostReadWrite
 
   MajorFunction:4(IRP_MJ_WRITE)
   Flags:0
-  PreOperation :FFFFF80623AE6010, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
-  PostOperation:FFFFF80623AE6420, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B206010, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfPreReadWrite
+  PostOperation:FFFFF8053B206420, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfPostReadWrite
 
   MajorFunction:5(IRP_MJ_QUERY_INFORMATION)
   Flags:0
-  PreOperation :FFFFF80623AF9790, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B219790, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfPreQueryInfo
   PostOperation:0000000000000000
 
   MajorFunction:6(IRP_MJ_SET_INFORMATION)
   Flags:0
-  PreOperation :FFFFF80623AFA630, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
-  PostOperation:FFFFF80623AFCA30, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B21A630, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfPreSetInfo
+  PostOperation:FFFFF8053B21CA30, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfPostSetInfo
 
   MajorFunction:7(IRP_MJ_QUERY_EA)
   Flags:0
-  PreOperation :FFFFF80623AF9CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B219CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfCommonPreOp
   PostOperation:0000000000000000
 
   MajorFunction:8(IRP_MJ_SET_EA)
   Flags:0
-  PreOperation :FFFFF80623AF9CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B219CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfCommonPreOp
   PostOperation:0000000000000000
 
   MajorFunction:9(IRP_MJ_FLUSH_BUFFERS)
   Flags:0
-  PreOperation :FFFFF80623AF9CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B219CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfCommonPreOp
   PostOperation:0000000000000000
 
   MajorFunction:10(IRP_MJ_QUERY_VOLUME_INFORMATION)
   Flags:0
-  PreOperation :FFFFF80623AFAB50, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B21AB50, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfPreQueryVolumeInfo
   PostOperation:0000000000000000
 
   MajorFunction:11(IRP_MJ_SET_VOLUME_INFORMATION)
   Flags:0
-  PreOperation :FFFFF80623AF9CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B219CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfCommonPreOp
   PostOperation:0000000000000000
 
   MajorFunction:12(IRP_MJ_DIRECTORY_CONTROL)
   Flags:0
-  PreOperation :FFFFF80623AEF9C0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B20F9C0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfPreDirectoryControl
   PostOperation:0000000000000000
 
   MajorFunction:13(IRP_MJ_FILE_SYSTEM_CONTROL)
   Flags:0
-  PreOperation :FFFFF80623AF9DF0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B219DF0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfPreFsControl
   PostOperation:0000000000000000
 
   MajorFunction:14(IRP_MJ_DEVICE_CONTROL)
   Flags:0
-  PreOperation :FFFFF80623AF9CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B219CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfCommonPreOp
   PostOperation:0000000000000000
 
   MajorFunction:15(IRP_MJ_INTERNAL_DEVICE_CONTROL)
   Flags:0
-  PreOperation :FFFFF80623AF9CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B219CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfCommonPreOp
   PostOperation:0000000000000000
 
   MajorFunction:16(IRP_MJ_SHUTDOWN)
   Flags:0
-  PreOperation :FFFFF80623AF9CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B219CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfCommonPreOp
   PostOperation:0000000000000000
 
   MajorFunction:17(IRP_MJ_LOCK_CONTROL)
   Flags:0
-  PreOperation :FFFFF80623AF9CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B219CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfCommonPreOp
   PostOperation:0000000000000000
 
   MajorFunction:18(IRP_MJ_CLEANUP)
   Flags:0
-  PreOperation :FFFFF80623AE14F0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B2014F0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfPreCleanup
   PostOperation:0000000000000000
 
   MajorFunction:19(IRP_MJ_CREATE_MAILSLOT)
   Flags:0
-  PreOperation :FFFFF80623AF9CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B219CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfCommonPreOp
   PostOperation:0000000000000000
 
   MajorFunction:20(IRP_MJ_QUERY_SECURITY)
   Flags:0
-  PreOperation :FFFFF80623AF9CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B219CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfCommonPreOp
   PostOperation:0000000000000000
 
   MajorFunction:21(IRP_MJ_SET_SECURITY)
   Flags:0
-  PreOperation :FFFFF80623AF9CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B219CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfCommonPreOp
   PostOperation:0000000000000000
 
   MajorFunction:22(IRP_MJ_POWER)
   Flags:0
-  PreOperation :FFFFF80623AF9CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B219CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfCommonPreOp
   PostOperation:0000000000000000
 
   MajorFunction:23(IRP_MJ_SYSTEM_CONTROL)
   Flags:0
-  PreOperation :FFFFF80623AF9CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B219CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfCommonPreOp
   PostOperation:0000000000000000
 
   MajorFunction:24(IRP_MJ_DEVICE_CHANGE)
   Flags:0
-  PreOperation :FFFFF80623AF9CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B219CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfCommonPreOp
   PostOperation:0000000000000000
 
   MajorFunction:25(IRP_MJ_QUERY_QUOTA)
   Flags:0
-  PreOperation :FFFFF80623B03190, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B223190, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfPreQuerySetQuota
   PostOperation:0000000000000000
 
   MajorFunction:26(IRP_MJ_SET_QUOTA)
   Flags:0
-  PreOperation :FFFFF80623B03190, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B223190, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfPreQuerySetQuota
   PostOperation:0000000000000000
 
   MajorFunction:27(IRP_MJ_PNP)
   Flags:0
-  PreOperation :FFFFF80623AF9CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B219CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfCommonPreOp
   PostOperation:0000000000000000
 
   MajorFunction:236(IRP_MJ_VOLUME_DISMOUNT)
   Flags:0
-  PreOperation :FFFFF80623AF9CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B219CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfCommonPreOp
   PostOperation:0000000000000000
 
   MajorFunction:237(IRP_MJ_VOLUME_MOUNT)
   Flags:0
-  PreOperation :FFFFF80623AF9CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B219CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfCommonPreOp
   PostOperation:0000000000000000
 
   MajorFunction:238(IRP_MJ_MDL_WRITE_COMPLETE)
   Flags:0
-  PreOperation :FFFFF80623AF9CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B219CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfCommonPreOp
   PostOperation:0000000000000000
 
   MajorFunction:239(IRP_MJ_PREPARE_MDL_WRITE)
   Flags:0
-  PreOperation :FFFFF80623AF9CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B219CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfCommonPreOp
   PostOperation:0000000000000000
 
   MajorFunction:240(IRP_MJ_MDL_READ_COMPLETE)
   Flags:0
-  PreOperation :FFFFF80623AF9CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B219CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfCommonPreOp
   PostOperation:0000000000000000
 
   MajorFunction:241(IRP_MJ_MDL_READ)
   Flags:0
-  PreOperation :FFFFF80623AF9CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B219CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfCommonPreOp
   PostOperation:0000000000000000
 
   MajorFunction:242(IRP_MJ_NETWORK_QUERY_OPEN)
   Flags:0
-  PreOperation :FFFFF80623AFCF90, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B21CF90, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfPreCreate
   PostOperation:0000000000000000
 
   MajorFunction:243(IRP_MJ_FAST_IO_CHECK_IF_POSSIBLE)
   Flags:0
-  PreOperation :FFFFF80623AF9CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B219CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfCommonPreOp
   PostOperation:0000000000000000
 
   MajorFunction:249(IRP_MJ_QUERY_OPEN)
   Flags:0
-  PreOperation :FFFFF80623AFCF90, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B21CF90, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfPreCreate
   PostOperation:0000000000000000
 
   MajorFunction:250(IRP_MJ_RELEASE_FOR_CC_FLUSH)
   Flags:0
-  PreOperation :FFFFF80623AF9CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B219CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfCommonPreOp
   PostOperation:0000000000000000
 
   MajorFunction:251(IRP_MJ_ACQUIRE_FOR_CC_FLUSH)
   Flags:0
-  PreOperation :FFFFF80623AF9CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B219CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfCommonPreOp
   PostOperation:0000000000000000
 
   MajorFunction:252(IRP_MJ_RELEASE_FOR_MOD_WRITE)
   Flags:0
-  PreOperation :FFFFF80623AF9CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B219CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfCommonPreOp
   PostOperation:0000000000000000
 
   MajorFunction:253(IRP_MJ_ACQUIRE_FOR_MOD_WRITE)
   Flags:0
-  PreOperation :FFFFF80623AF9CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B219CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfCommonPreOp
   PostOperation:0000000000000000
 
   MajorFunction:254(IRP_MJ_RELEASE_FOR_SECTION_SYNCHRONIZAT)
   Flags:0
-  PreOperation :FFFFF80623AE1720, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B201720, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfPreReleaseForSectionSynchronization
   PostOperation:0000000000000000
 
   MajorFunction:255(IRP_MJ_ACQUIRE_FOR_SECTION_SYNCHRONIZAT)
   Flags:0
-  PreOperation :FFFFF80623AF9CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys
+  PreOperation :FFFFF8053B219CA0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfCommonPreOp
   PostOperation:0000000000000000
 
 MemberName:OldDriverUnload            FunctionAddress:0000000000000000
 MemberName:ActiveOpens               俺不关心这个，暂不处理
-MemberName:ConnectionList            俺不关心这个，暂不处理
+MemberName:ConnectionList
+  ServerPortObject   :FFFFD009FA879810
+  Name               :\BindFltPort
+  ConnectNotify      :FFFFF8053B21CCB0, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfPortConnect
+  DisconnectNotify   :FFFFF8053B21CC10, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfPortDisconnect
+  MessageNotify      :FFFFF8053B221570, FullPathName:\SystemRoot\system32\drivers\bindflt.sys, SymbolName:BfPortMessage
+  Filter             :FFFFD009FA78F010
+  Cookie             :0000000000000000
+  Flags              :0
+  NumberOfConnections:0
+  MaxConnections     :1000
+
 MemberName:PortList                  俺不关心这个，暂不处理
 MemberName:PortLock                  俺不关心这个，暂不处理
 
@@ -257,26 +269,26 @@ MemberName:PortLock                  俺不关心这个，暂不处理
 Index:2
 MemberName:Base                      俺不关心这个，暂不处理
 MemberName:Frame                     俺不关心这个，暂不处理
-MemberName:Name                      WdFilter
-MemberName:DefaultAltitude           328010
+MemberName:Name                       WdFilter
+MemberName:DefaultAltitude            328010
 MemberName:Flags                     242
-MemberName:DriverObject              FFFF9D07D86E56D0
+MemberName:DriverObject              FFFFD009F73EFD50
 MemberName:InstanceList              俺不关心这个，暂不处理
 MemberName:VerifierExtension         俺不关心这个，暂不处理
 MemberName:VerifiedFiltersLink       俺不关心这个，暂不处理
-MemberName:FilterUnload               FunctionAddress:FFFFF806145F2DB0 FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
-MemberName:InstanceSetup              FunctionAddress:FFFFF806145C94B0 FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
-MemberName:InstanceQueryTeardown      FunctionAddress:FFFFF806145F2D50 FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+MemberName:FilterUnload               FunctionAddress:FFFFF8052F252DB0 FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+MemberName:InstanceSetup              FunctionAddress:FFFFF8052F2294B0 FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+MemberName:InstanceQueryTeardown      FunctionAddress:FFFFF8052F252D50 FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
 MemberName:InstanceTeardownStart      FunctionAddress:0000000000000000
-MemberName:InstanceTeardownComplete   FunctionAddress:FFFFF806145E0A00 FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+MemberName:InstanceTeardownComplete   FunctionAddress:FFFFF8052F240A00 FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
 MemberName:SupportedContextsListHead 俺不关心这个，暂不处理
-MemberName:SupportedContexts         
-  ContextCleanupCallback:FFFFF806145CF5A0, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+MemberName:SupportedContexts
+  ContextCleanupCallback:FFFFF8052F22F5A0, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
   ContextType:16(StreamHandle Context)
   Flags:1
   AllocationType:1
 
-  ContextCleanupCallback:FFFFF806145DD5D0, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  ContextCleanupCallback:FFFFF8052F23D5D0, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
   ContextType:64(Section Context)
   Flags:1
   AllocationType:1
@@ -287,77 +299,187 @@ MemberName:SupportedContexts
   AllocationType:249
 
 MemberName:PreVolumeMount             FunctionAddress:0000000000000000
-MemberName:PostVolumeMount            FunctionAddress:FFFFF806145850E0 FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+MemberName:PostVolumeMount            FunctionAddress:FFFFF8052F1E50E0 FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
 MemberName:GenerateFileName           FunctionAddress:0000000000000000
 MemberName:NormalizeNameComponent     FunctionAddress:0000000000000000
 MemberName:NormalizeNameComponentEx   FunctionAddress:0000000000000000
 MemberName:NormalizeContextCleanup    FunctionAddress:0000000000000000
-MemberName:KtmNotification            FunctionAddress:FFFFF806145E4C00 FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+MemberName:KtmNotification            FunctionAddress:FFFFF8052F244C00 FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
 MemberName:SectionNotification        FunctionAddress:0000000000000000
-MemberName:Operations                
+MemberName:Operations
   MajorFunction:3(IRP_MJ_READ)
   Flags:9(FLTFL_OPERATION_REGISTRATION_SKIP_PAGING_IO;FLTFL_OPERATION_REGISTRATION_SKIP_NON_CACHED_NON_PAGING_IO;)
-  PreOperation :FFFFF806145823A0, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
-  PostOperation:FFFFF80614581530, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  PreOperation :FFFFF8052F1E23A0, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  PostOperation:FFFFF8052F1E1530, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
 
   MajorFunction:0(IRP_MJ_CREATE)
   Flags:0
-  PreOperation :FFFFF806145F1520, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
-  PostOperation:FFFFF806145F0E50, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  PreOperation :FFFFF8052F251520, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  PostOperation:FFFFF8052F250E50, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
 
   MajorFunction:18(IRP_MJ_CLEANUP)
   Flags:0
-  PreOperation :FFFFF806145EA4F0, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
-  PostOperation:FFFFF806145B7780, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  PreOperation :FFFFF8052F24A4F0, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  PostOperation:FFFFF8052F217780, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
 
   MajorFunction:6(IRP_MJ_SET_INFORMATION)
   Flags:0
-  PreOperation :FFFFF806145B5750, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
-  PostOperation:FFFFF806145BE210, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  PreOperation :FFFFF8052F215750, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  PostOperation:FFFFF8052F21E210, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
 
   MajorFunction:4(IRP_MJ_WRITE)
   Flags:0
-  PreOperation :FFFFF806145818A0, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
-  PostOperation:FFFFF80614583190, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  PreOperation :FFFFF8052F1E18A0, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  PostOperation:FFFFF8052F1E3190, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
 
   MajorFunction:237(IRP_MJ_VOLUME_MOUNT)
   Flags:0
   PreOperation :0000000000000000
-  PostOperation:FFFFF806145850E0, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  PostOperation:FFFFF8052F1E50E0, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
 
   MajorFunction:13(IRP_MJ_FILE_SYSTEM_CONTROL)
   Flags:0
-  PreOperation :FFFFF806145B4080, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
-  PostOperation:FFFFF806145FB740, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  PreOperation :FFFFF8052F214080, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  PostOperation:FFFFF8052F25B740, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
 
   MajorFunction:255(IRP_MJ_ACQUIRE_FOR_SECTION_SYNCHRONIZAT)
   Flags:0
-  PreOperation :FFFFF806145D06C0, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  PreOperation :FFFFF8052F2306C0, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
   PostOperation:0000000000000000
 
   MajorFunction:12(IRP_MJ_DIRECTORY_CONTROL)
   Flags:0
   PreOperation :0000000000000000
-  PostOperation:FFFFF80614583C80, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  PostOperation:FFFFF8052F1E3C80, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
 
   MajorFunction:7(IRP_MJ_QUERY_EA)
   Flags:0
-  PreOperation :FFFFF806145D77E0, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  PreOperation :FFFFF8052F2377E0, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
   PostOperation:0000000000000000
 
   MajorFunction:249(IRP_MJ_QUERY_OPEN)
   Flags:0
-  PreOperation :FFFFF806145DBC00, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  PreOperation :FFFFF8052F23BC00, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
   PostOperation:0000000000000000
 
   MajorFunction:8(IRP_MJ_SET_EA)
   Flags:1(FLTFL_OPERATION_REGISTRATION_SKIP_PAGING_IO;)
-  PreOperation :FFFFF806145DBDF0, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
-  PostOperation:FFFFF806145D0170, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  PreOperation :FFFFF8052F23BDF0, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  PostOperation:FFFFF8052F230170, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
 
 MemberName:OldDriverUnload            FunctionAddress:0000000000000000
 MemberName:ActiveOpens               俺不关心这个，暂不处理
-MemberName:ConnectionList            俺不关心这个，暂不处理
+MemberName:ConnectionList
+  ServerPortObject   :FFFFD009F78EC130
+  Name               :\MicrosoftMalwareProtectionControlPortWD
+  ConnectNotify      :FFFFF8052F2438D0, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  DisconnectNotify   :FFFFF8052F24BC20, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  MessageNotify      :FFFFF8052F24C8A0, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  Filter             :FFFFD009F7A5F010
+  Cookie             :FFFFD009F7DB2118
+  Flags              :0
+  NumberOfConnections:1
+  MaxConnections     :1
+
+  ServerPortObject   :FFFFD009F78EB2C0
+  Name               :\MicrosoftMalwareProtectionPortWD
+  ConnectNotify      :FFFFF8052F2438D0, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  DisconnectNotify   :FFFFF8052F24BC20, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  MessageNotify      :0000000000000000
+  Filter             :FFFFD009F7A5F010
+  Cookie             :FFFFD009F7DB2138
+  Flags              :0
+  NumberOfConnections:1
+  MaxConnections     :1
+
+  ServerPortObject   :FFFFD009F78EB580
+  Name               :\MicrosoftMalwareProtectionVeryLowIoPortWD
+  ConnectNotify      :FFFFF8052F2438D0, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  DisconnectNotify   :FFFFF8052F24BC20, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  MessageNotify      :0000000000000000
+  Filter             :FFFFD009F7A5F010
+  Cookie             :FFFFD009F7DB2158
+  Flags              :0
+  NumberOfConnections:1
+  MaxConnections     :1
+
+  ServerPortObject   :FFFFD009F78EC290
+  Name               :\MicrosoftMalwareProtectionRemoteIoPortWD
+  ConnectNotify      :FFFFF8052F2438D0, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  DisconnectNotify   :FFFFF8052F24BC20, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  MessageNotify      :0000000000000000
+  Filter             :FFFFD009F7A5F010
+  Cookie             :FFFFD009F7DB2178
+  Flags              :0
+  NumberOfConnections:1
+  MaxConnections     :1
+
+  ServerPortObject   :FFFFD009F78EC340
+  Name               :\MicrosoftMalwareProtectionAsyncPortWD
+  ConnectNotify      :FFFFF8052F2438D0, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  DisconnectNotify   :FFFFF8052F24BC20, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  MessageNotify      :0000000000000000
+  Filter             :FFFFD009F7A5F010
+  Cookie             :FFFFD009F7DB2198
+  Flags              :0
+  NumberOfConnections:1
+  MaxConnections     :1
+
+  ServerPortObject   :FFFFD009F78EB6E0
+  Name               :\MicrosoftDataLossPreventionControlPort
+  ConnectNotify      :FFFFF8052F24BFD0, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  DisconnectNotify   :FFFFF8052F24C4D0, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  MessageNotify      :FFFFF8052F24C8A0, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  Filter             :FFFFD009F7A5F010
+  Cookie             :FFFFD009F7DB2128
+  Flags              :0
+  NumberOfConnections:0
+  MaxConnections     :1
+
+  ServerPortObject   :FFFFD009F78EB790
+  Name               :\MicrosoftDataLossPreventionPort
+  ConnectNotify      :FFFFF8052F24BFD0, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  DisconnectNotify   :FFFFF8052F24C4D0, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  MessageNotify      :0000000000000000
+  Filter             :FFFFD009F7A5F010
+  Cookie             :FFFFD009F7DB2148
+  Flags              :0
+  NumberOfConnections:0
+  MaxConnections     :1
+
+  ServerPortObject   :FFFFD009F78EB0B0
+  Name               :\MicrosoftDataLossPreventionVeryLowIoPort
+  ConnectNotify      :FFFFF8052F24BFD0, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  DisconnectNotify   :FFFFF8052F24C4D0, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  MessageNotify      :0000000000000000
+  Filter             :FFFFD009F7A5F010
+  Cookie             :FFFFD009F7DB2168
+  Flags              :0
+  NumberOfConnections:0
+  MaxConnections     :1
+
+  ServerPortObject   :FFFFD009F78EB840
+  Name               :\MicrosoftDataLossPreventionRemoteIoPort
+  ConnectNotify      :FFFFF8052F24BFD0, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  DisconnectNotify   :FFFFF8052F24C4D0, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  MessageNotify      :0000000000000000
+  Filter             :FFFFD009F7A5F010
+  Cookie             :FFFFD009F7DB2188
+  Flags              :0
+  NumberOfConnections:0
+  MaxConnections     :1
+
+  ServerPortObject   :FFFFD009F78EBDC0
+  Name               :\MicrosoftDataLossPreventionAsyncPort
+  ConnectNotify      :FFFFF8052F24BFD0, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  DisconnectNotify   :FFFFF8052F24C4D0, FullPathName:\SystemRoot\system32\drivers\wd\WdFilter.sys
+  MessageNotify      :0000000000000000
+  Filter             :FFFFD009F7A5F010
+  Cookie             :FFFFD009F7DB21A8
+  Flags              :0
+  NumberOfConnections:0
+  MaxConnections     :1
+
 MemberName:PortList                  俺不关心这个，暂不处理
 MemberName:PortLock                  俺不关心这个，暂不处理
 
@@ -366,21 +488,21 @@ MemberName:PortLock                  俺不关心这个，暂不处理
 Index:3
 MemberName:Base                      俺不关心这个，暂不处理
 MemberName:Frame                     俺不关心这个，暂不处理
-MemberName:Name                      storqosflt
-MemberName:DefaultAltitude           244000
+MemberName:Name                       storqosflt
+MemberName:DefaultAltitude            244000
 MemberName:Flags                     146
-MemberName:DriverObject              FFFF9D07D57EB2C0
+MemberName:DriverObject              FFFFD009FA938E30
 MemberName:InstanceList              俺不关心这个，暂不处理
 MemberName:VerifierExtension         俺不关心这个，暂不处理
 MemberName:VerifiedFiltersLink       俺不关心这个，暂不处理
-MemberName:FilterUnload               FunctionAddress:FFFFF80623AD2F10 FullPathName:\SystemRoot\system32\drivers\storqosflt.sys
-MemberName:InstanceSetup              FunctionAddress:FFFFF80623AD11C0 FullPathName:\SystemRoot\system32\drivers\storqosflt.sys
-MemberName:InstanceQueryTeardown      FunctionAddress:FFFFF80623AD3170 FullPathName:\SystemRoot\system32\drivers\storqosflt.sys
-MemberName:InstanceTeardownStart      FunctionAddress:FFFFF80623AC9450 FullPathName:\SystemRoot\system32\drivers\storqosflt.sys
-MemberName:InstanceTeardownComplete   FunctionAddress:FFFFF80623AD3260 FullPathName:\SystemRoot\system32\drivers\storqosflt.sys
+MemberName:FilterUnload               FunctionAddress:FFFFF8053B1F2F10 FullPathName:\SystemRoot\system32\drivers\storqosflt.sys SymbolName:SqosFilterUnload
+MemberName:InstanceSetup              FunctionAddress:FFFFF8053B1F11C0 FullPathName:\SystemRoot\system32\drivers\storqosflt.sys SymbolName:SqosInstanceSetup
+MemberName:InstanceQueryTeardown      FunctionAddress:FFFFF8053B1F3170 FullPathName:\SystemRoot\system32\drivers\storqosflt.sys SymbolName:SqosInstanceQueryTeardown
+MemberName:InstanceTeardownStart      FunctionAddress:FFFFF8053B1E9450 FullPathName:\SystemRoot\system32\drivers\storqosflt.sys SymbolName:SqosInstanceTeardownStart
+MemberName:InstanceTeardownComplete   FunctionAddress:FFFFF8053B1F3260 FullPathName:\SystemRoot\system32\drivers\storqosflt.sys SymbolName:SqosInstanceTeardownComplete
 MemberName:SupportedContextsListHead 俺不关心这个，暂不处理
-MemberName:SupportedContexts         
-  ContextCleanupCallback:FFFFF80623AD0AD0, FullPathName:\SystemRoot\system32\drivers\storqosflt.sys
+MemberName:SupportedContexts
+  ContextCleanupCallback:FFFFF8053B1F0AD0, FullPathName:\SystemRoot\system32\drivers\storqosflt.sys, SymbolName:SqosStreamHandleContextCleanup
   ContextType:16(StreamHandle Context)
   Flags:1
   AllocationType:1
@@ -393,35 +515,46 @@ MemberName:NormalizeNameComponentEx   FunctionAddress:0000000000000000
 MemberName:NormalizeContextCleanup    FunctionAddress:0000000000000000
 MemberName:KtmNotification            FunctionAddress:0000000000000000
 MemberName:SectionNotification        FunctionAddress:0000000000000000
-MemberName:Operations                
+MemberName:Operations
   MajorFunction:0(IRP_MJ_CREATE)
   Flags:0
-  PreOperation :FFFFF80623AD0F10, FullPathName:\SystemRoot\system32\drivers\storqosflt.sys
-  PostOperation:FFFFF80623AD0FB0, FullPathName:\SystemRoot\system32\drivers\storqosflt.sys
+  PreOperation :FFFFF8053B1F0F10, FullPathName:\SystemRoot\system32\drivers\storqosflt.sys, SymbolName:SqosPreCreate
+  PostOperation:FFFFF8053B1F0FB0, FullPathName:\SystemRoot\system32\drivers\storqosflt.sys, SymbolName:SqosPostCreate
 
   MajorFunction:2(IRP_MJ_CLOSE)
   Flags:0
-  PreOperation :FFFFF80623AD1140, FullPathName:\SystemRoot\system32\drivers\storqosflt.sys
+  PreOperation :FFFFF8053B1F1140, FullPathName:\SystemRoot\system32\drivers\storqosflt.sys, SymbolName:SqosPreClose
   PostOperation:0000000000000000
 
   MajorFunction:3(IRP_MJ_READ)
   Flags:1(FLTFL_OPERATION_REGISTRATION_SKIP_PAGING_IO;)
-  PreOperation :FFFFF80623AD0670, FullPathName:\SystemRoot\system32\drivers\storqosflt.sys
-  PostOperation:FFFFF80623AC3070, FullPathName:\SystemRoot\system32\drivers\storqosflt.sys
+  PreOperation :FFFFF8053B1F0670, FullPathName:\SystemRoot\system32\drivers\storqosflt.sys, SymbolName:SqosPreReadWrite
+  PostOperation:FFFFF8053B1E3070, FullPathName:\SystemRoot\system32\drivers\storqosflt.sys, SymbolName:SqosPostReadWrite
 
   MajorFunction:4(IRP_MJ_WRITE)
   Flags:1(FLTFL_OPERATION_REGISTRATION_SKIP_PAGING_IO;)
-  PreOperation :FFFFF80623AD0670, FullPathName:\SystemRoot\system32\drivers\storqosflt.sys
-  PostOperation:FFFFF80623AC3070, FullPathName:\SystemRoot\system32\drivers\storqosflt.sys
+  PreOperation :FFFFF8053B1F0670, FullPathName:\SystemRoot\system32\drivers\storqosflt.sys, SymbolName:SqosPreReadWrite
+  PostOperation:FFFFF8053B1E3070, FullPathName:\SystemRoot\system32\drivers\storqosflt.sys, SymbolName:SqosPostReadWrite
 
   MajorFunction:13(IRP_MJ_FILE_SYSTEM_CONTROL)
   Flags:0
-  PreOperation :FFFFF80623AD0010, FullPathName:\SystemRoot\system32\drivers\storqosflt.sys
-  PostOperation:FFFFF80623AC9570, FullPathName:\SystemRoot\system32\drivers\storqosflt.sys
+  PreOperation :FFFFF8053B1F0010, FullPathName:\SystemRoot\system32\drivers\storqosflt.sys, SymbolName:SqosPreFileSystemControl
+  PostOperation:FFFFF8053B1E9570, FullPathName:\SystemRoot\system32\drivers\storqosflt.sys, SymbolName:SqosPostFileSystemControl
 
 MemberName:OldDriverUnload            FunctionAddress:0000000000000000
 MemberName:ActiveOpens               俺不关心这个，暂不处理
-MemberName:ConnectionList            俺不关心这个，暂不处理
+MemberName:ConnectionList
+  ServerPortObject   :FFFFD009FA87A520
+  Name               :\storqosfltport
+  ConnectNotify      :FFFFF8053B1F2DB0, FullPathName:\SystemRoot\system32\drivers\storqosflt.sys, SymbolName:SqosConnectNotifyCallback
+  DisconnectNotify   :FFFFF8053B1F2EB0, FullPathName:\SystemRoot\system32\drivers\storqosflt.sys, SymbolName:SqosDisconnectNotifyCallback
+  MessageNotify      :FFFFF8053B1F0260, FullPathName:\SystemRoot\system32\drivers\storqosflt.sys, SymbolName:SqosMessageNotifyCallback
+  Filter             :FFFFD009FA939AA0
+  Cookie             :0000000000000000
+  Flags              :0
+  NumberOfConnections:0
+  MaxConnections     :1
+
 MemberName:PortList                  俺不关心这个，暂不处理
 MemberName:PortLock                  俺不关心这个，暂不处理
 
@@ -430,147 +563,158 @@ MemberName:PortLock                  俺不关心这个，暂不处理
 Index:4
 MemberName:Base                      俺不关心这个，暂不处理
 MemberName:Frame                     俺不关心这个，暂不处理
-MemberName:Name                      wcifs
-MemberName:DefaultAltitude           189900
+MemberName:Name                       wcifs
+MemberName:DefaultAltitude            189900
 MemberName:Flags                     214
-MemberName:DriverObject              FFFF9D07D7158E30
+MemberName:DriverObject              FFFFD009FA6DAE00
 MemberName:InstanceList              俺不关心这个，暂不处理
 MemberName:VerifierExtension         俺不关心这个，暂不处理
 MemberName:VerifiedFiltersLink       俺不关心这个，暂不处理
-MemberName:FilterUnload               FunctionAddress:FFFFF80623A21500 FullPathName:\SystemRoot\system32\drivers\wcifs.sys
-MemberName:InstanceSetup              FunctionAddress:FFFFF80623A03AA0 FullPathName:\SystemRoot\system32\drivers\wcifs.sys
-MemberName:InstanceQueryTeardown      FunctionAddress:FFFFF80623A1FD40 FullPathName:\SystemRoot\system32\drivers\wcifs.sys
-MemberName:InstanceTeardownStart      FunctionAddress:FFFFF80623A04090 FullPathName:\SystemRoot\system32\drivers\wcifs.sys
-MemberName:InstanceTeardownComplete   FunctionAddress:FFFFF80623A04090 FullPathName:\SystemRoot\system32\drivers\wcifs.sys
+MemberName:FilterUnload               FunctionAddress:FFFFF8053B141500 FullPathName:\SystemRoot\system32\drivers\wcifs.sys SymbolName:WcUnload
+MemberName:InstanceSetup              FunctionAddress:FFFFF8053B123AA0 FullPathName:\SystemRoot\system32\drivers\wcifs.sys SymbolName:WcInstanceSetup
+MemberName:InstanceQueryTeardown      FunctionAddress:FFFFF8053B13FD40 FullPathName:\SystemRoot\system32\drivers\wcifs.sys SymbolName:WcInstanceQueryTeardown
+MemberName:InstanceTeardownStart      FunctionAddress:FFFFF8053B124090 FullPathName:\SystemRoot\system32\drivers\wcifs.sys SymbolName:WcInstanceTeardownComplete
+MemberName:InstanceTeardownComplete   FunctionAddress:FFFFF8053B124090 FullPathName:\SystemRoot\system32\drivers\wcifs.sys SymbolName:WcInstanceTeardownComplete
 MemberName:SupportedContextsListHead 俺不关心这个，暂不处理
-MemberName:SupportedContexts         
-  ContextCleanupCallback:FFFFF80623A05A30, FullPathName:\SystemRoot\system32\drivers\wcifs.sys
+MemberName:SupportedContexts
+  ContextCleanupCallback:FFFFF8053B125A30, FullPathName:\SystemRoot\system32\drivers\wcifs.sys, SymbolName:WcContextCleanup
   ContextType:4(File Context)
   Flags:1
   AllocationType:1
 
-  ContextCleanupCallback:FFFFF80623A05A30, FullPathName:\SystemRoot\system32\drivers\wcifs.sys
+  ContextCleanupCallback:FFFFF8053B125A30, FullPathName:\SystemRoot\system32\drivers\wcifs.sys, SymbolName:WcContextCleanup
   ContextType:16(StreamHandle Context)
   Flags:1
   AllocationType:1
 
 MemberName:PreVolumeMount             FunctionAddress:0000000000000000
 MemberName:PostVolumeMount            FunctionAddress:0000000000000000
-MemberName:GenerateFileName           FunctionAddress:FFFFF80623A1FC80 FullPathName:\SystemRoot\system32\drivers\wcifs.sys
+MemberName:GenerateFileName           FunctionAddress:FFFFF8053B13FC80 FullPathName:\SystemRoot\system32\drivers\wcifs.sys SymbolName:WcGenerateFileName
 MemberName:NormalizeNameComponent     FunctionAddress:0000000000000000
-MemberName:NormalizeNameComponentEx   FunctionAddress:FFFFF80623A1FDC0 FullPathName:\SystemRoot\system32\drivers\wcifs.sys
+MemberName:NormalizeNameComponentEx   FunctionAddress:FFFFF8053B13FDC0 FullPathName:\SystemRoot\system32\drivers\wcifs.sys SymbolName:WcNormalizeNameComponent
 MemberName:NormalizeContextCleanup    FunctionAddress:0000000000000000
 MemberName:KtmNotification            FunctionAddress:0000000000000000
 MemberName:SectionNotification        FunctionAddress:0000000000000000
-MemberName:Operations                
+MemberName:Operations
   MajorFunction:0(IRP_MJ_CREATE)
   Flags:0
-  PreOperation :FFFFF80623A08320, FullPathName:\SystemRoot\system32\drivers\wcifs.sys
-  PostOperation:FFFFF80623A07480, FullPathName:\SystemRoot\system32\drivers\wcifs.sys
+  PreOperation :FFFFF8053B128320, FullPathName:\SystemRoot\system32\drivers\wcifs.sys, SymbolName:WcPreCreate
+  PostOperation:FFFFF8053B127480, FullPathName:\SystemRoot\system32\drivers\wcifs.sys, SymbolName:WcPostCreate
 
   MajorFunction:2(IRP_MJ_CLOSE)
   Flags:0
-  PreOperation :FFFFF80623A21200, FullPathName:\SystemRoot\system32\drivers\wcifs.sys
+  PreOperation :FFFFF8053B141200, FullPathName:\SystemRoot\system32\drivers\wcifs.sys, SymbolName:WcPreClose
   PostOperation:0000000000000000
 
   MajorFunction:3(IRP_MJ_READ)
   Flags:0
-  PreOperation :FFFFF806239F50E0, FullPathName:\SystemRoot\system32\drivers\wcifs.sys
-  PostOperation:FFFFF806239F5080, FullPathName:\SystemRoot\system32\drivers\wcifs.sys
+  PreOperation :FFFFF8053B1150E0, FullPathName:\SystemRoot\system32\drivers\wcifs.sys, SymbolName:WcPreRead
+  PostOperation:FFFFF8053B115080, FullPathName:\SystemRoot\system32\drivers\wcifs.sys, SymbolName:WcPostRead
 
   MajorFunction:4(IRP_MJ_WRITE)
   Flags:2(FLTFL_OPERATION_REGISTRATION_SKIP_CACHED_IO;)
-  PreOperation :FFFFF806239F2370, FullPathName:\SystemRoot\system32\drivers\wcifs.sys
+  PreOperation :FFFFF8053B112370, FullPathName:\SystemRoot\system32\drivers\wcifs.sys, SymbolName:WcPreWrite
   PostOperation:0000000000000000
 
   MajorFunction:5(IRP_MJ_QUERY_INFORMATION)
   Flags:0
-  PreOperation :FFFFF80623A10CB0, FullPathName:\SystemRoot\system32\drivers\wcifs.sys
-  PostOperation:FFFFF80623A10480, FullPathName:\SystemRoot\system32\drivers\wcifs.sys
+  PreOperation :FFFFF8053B130CB0, FullPathName:\SystemRoot\system32\drivers\wcifs.sys, SymbolName:WcPreQueryInformation
+  PostOperation:FFFFF8053B130480, FullPathName:\SystemRoot\system32\drivers\wcifs.sys, SymbolName:WcPostQueryInformation
 
   MajorFunction:6(IRP_MJ_SET_INFORMATION)
   Flags:0
-  PreOperation :FFFFF80623A04300, FullPathName:\SystemRoot\system32\drivers\wcifs.sys
-  PostOperation:FFFFF80623A10750, FullPathName:\SystemRoot\system32\drivers\wcifs.sys
+  PreOperation :FFFFF8053B124300, FullPathName:\SystemRoot\system32\drivers\wcifs.sys, SymbolName:WcPreSetInformation
+  PostOperation:FFFFF8053B130750, FullPathName:\SystemRoot\system32\drivers\wcifs.sys, SymbolName:WcPostSetInformation
 
   MajorFunction:10(IRP_MJ_QUERY_VOLUME_INFORMATION)
   Flags:0
-  PreOperation :FFFFF80623A1FC40, FullPathName:\SystemRoot\system32\drivers\wcifs.sys
-  PostOperation:FFFFF80623A1FBC0, FullPathName:\SystemRoot\system32\drivers\wcifs.sys
+  PreOperation :FFFFF8053B13FC40, FullPathName:\SystemRoot\system32\drivers\wcifs.sys, SymbolName:WcPreQueryVolumeInformation
+  PostOperation:FFFFF8053B13FBC0, FullPathName:\SystemRoot\system32\drivers\wcifs.sys, SymbolName:WcPostQueryVolumeInformation
 
   MajorFunction:12(IRP_MJ_DIRECTORY_CONTROL)
   Flags:0
-  PreOperation :FFFFF80623A0CAF0, FullPathName:\SystemRoot\system32\drivers\wcifs.sys
+  PreOperation :FFFFF8053B12CAF0, FullPathName:\SystemRoot\system32\drivers\wcifs.sys, SymbolName:WcPreDirectoryControl
   PostOperation:0000000000000000
 
   MajorFunction:13(IRP_MJ_FILE_SYSTEM_CONTROL)
   Flags:0
-  PreOperation :FFFFF80623A04430, FullPathName:\SystemRoot\system32\drivers\wcifs.sys
-  PostOperation:FFFFF80623A11F80, FullPathName:\SystemRoot\system32\drivers\wcifs.sys
+  PreOperation :FFFFF8053B124430, FullPathName:\SystemRoot\system32\drivers\wcifs.sys, SymbolName:WcPreFsControl
+  PostOperation:FFFFF8053B131F80, FullPathName:\SystemRoot\system32\drivers\wcifs.sys, SymbolName:WcPostFsControl
 
   MajorFunction:17(IRP_MJ_LOCK_CONTROL)
   Flags:0
-  PreOperation :FFFFF80623A04AF0, FullPathName:\SystemRoot\system32\drivers\wcifs.sys
+  PreOperation :FFFFF8053B124AF0, FullPathName:\SystemRoot\system32\drivers\wcifs.sys, SymbolName:WcPreLockControl
   PostOperation:0000000000000000
 
   MajorFunction:18(IRP_MJ_CLEANUP)
   Flags:0
-  PreOperation :FFFFF80623A20B10, FullPathName:\SystemRoot\system32\drivers\wcifs.sys
-  PostOperation:FFFFF80623A20440, FullPathName:\SystemRoot\system32\drivers\wcifs.sys
+  PreOperation :FFFFF8053B140B10, FullPathName:\SystemRoot\system32\drivers\wcifs.sys, SymbolName:WcPreCleanup
+  PostOperation:FFFFF8053B140440, FullPathName:\SystemRoot\system32\drivers\wcifs.sys, SymbolName:WcPostCleanup
 
   MajorFunction:27(IRP_MJ_PNP)
   Flags:0
-  PreOperation :FFFFF80623A143A0, FullPathName:\SystemRoot\system32\drivers\wcifs.sys
+  PreOperation :FFFFF8053B1343A0, FullPathName:\SystemRoot\system32\drivers\wcifs.sys, SymbolName:WcPrePnp
   PostOperation:0000000000000000
 
   MajorFunction:255(IRP_MJ_ACQUIRE_FOR_SECTION_SYNCHRONIZAT)
   Flags:0
-  PreOperation :FFFFF80623A20870, FullPathName:\SystemRoot\system32\drivers\wcifs.sys
-  PostOperation:FFFFF80623A20420, FullPathName:\SystemRoot\system32\drivers\wcifs.sys
+  PreOperation :FFFFF8053B140870, FullPathName:\SystemRoot\system32\drivers\wcifs.sys, SymbolName:WcPreAcquireForSectionSynchronization
+  PostOperation:FFFFF8053B140420, FullPathName:\SystemRoot\system32\drivers\wcifs.sys, SymbolName:WcPostAcquireForSectionSynchronization
 
   MajorFunction:254(IRP_MJ_RELEASE_FOR_SECTION_SYNCHRONIZAT)
   Flags:0
-  PreOperation :FFFFF80623A212F0, FullPathName:\SystemRoot\system32\drivers\wcifs.sys
+  PreOperation :FFFFF8053B1412F0, FullPathName:\SystemRoot\system32\drivers\wcifs.sys, SymbolName:WcPreReleaseForSectionSynchronization
   PostOperation:0000000000000000
 
   MajorFunction:242(IRP_MJ_NETWORK_QUERY_OPEN)
   Flags:0
-  PreOperation :FFFFF80623A087A0, FullPathName:\SystemRoot\system32\drivers\wcifs.sys
-  PostOperation:FFFFF80623A08000, FullPathName:\SystemRoot\system32\drivers\wcifs.sys
+  PreOperation :FFFFF8053B1287A0, FullPathName:\SystemRoot\system32\drivers\wcifs.sys, SymbolName:WcPreNetworkQueryOpen
+  PostOperation:FFFFF8053B128000, FullPathName:\SystemRoot\system32\drivers\wcifs.sys, SymbolName:WcPostNetworkQueryOpen
 
   MajorFunction:7(IRP_MJ_QUERY_EA)
   Flags:0
-  PreOperation :FFFFF80623A0D270, FullPathName:\SystemRoot\system32\drivers\wcifs.sys
+  PreOperation :FFFFF8053B12D270, FullPathName:\SystemRoot\system32\drivers\wcifs.sys, SymbolName:WcPreQueryEa
   PostOperation:0000000000000000
 
   MajorFunction:8(IRP_MJ_SET_EA)
   Flags:0
-  PreOperation :FFFFF80623A0D3D0, FullPathName:\SystemRoot\system32\drivers\wcifs.sys
+  PreOperation :FFFFF8053B12D3D0, FullPathName:\SystemRoot\system32\drivers\wcifs.sys, SymbolName:WcPreSetEa
   PostOperation:0000000000000000
 
   MajorFunction:26(IRP_MJ_SET_QUOTA)
   Flags:0
-  PreOperation :FFFFF80623A10FB0, FullPathName:\SystemRoot\system32\drivers\wcifs.sys
+  PreOperation :FFFFF8053B130FB0, FullPathName:\SystemRoot\system32\drivers\wcifs.sys, SymbolName:WcPreSetQuota
   PostOperation:0000000000000000
 
   MajorFunction:25(IRP_MJ_QUERY_QUOTA)
   Flags:0
-  PreOperation :FFFFF80623A10E40, FullPathName:\SystemRoot\system32\drivers\wcifs.sys
+  PreOperation :FFFFF8053B130E40, FullPathName:\SystemRoot\system32\drivers\wcifs.sys, SymbolName:WcPreQueryQuota
   PostOperation:0000000000000000
 
   MajorFunction:21(IRP_MJ_SET_SECURITY)
   Flags:0
-  PreOperation :FFFFF80623A04990, FullPathName:\SystemRoot\system32\drivers\wcifs.sys
+  PreOperation :FFFFF8053B124990, FullPathName:\SystemRoot\system32\drivers\wcifs.sys, SymbolName:WcPreSetSecurity
   PostOperation:0000000000000000
 
   MajorFunction:249(IRP_MJ_QUERY_OPEN)
   Flags:0
-  PreOperation :FFFFF80623A08B00, FullPathName:\SystemRoot\system32\drivers\wcifs.sys
-  PostOperation:FFFFF80623A08210, FullPathName:\SystemRoot\system32\drivers\wcifs.sys
+  PreOperation :FFFFF8053B128B00, FullPathName:\SystemRoot\system32\drivers\wcifs.sys, SymbolName:WcPreQueryOpen
+  PostOperation:FFFFF8053B128210, FullPathName:\SystemRoot\system32\drivers\wcifs.sys, SymbolName:WcPostQueryOpen
 
 MemberName:OldDriverUnload            FunctionAddress:0000000000000000
 MemberName:ActiveOpens               俺不关心这个，暂不处理
-MemberName:ConnectionList            俺不关心这个，暂不处理
+MemberName:ConnectionList
+  ServerPortObject   :FFFFD009FA878580
+  Name               :\WcifsPort
+  ConnectNotify      :FFFFF8053B124070, FullPathName:\SystemRoot\system32\drivers\wcifs.sys, SymbolName:WcPortConnect
+  DisconnectNotify   :FFFFF8053B133D70, FullPathName:\SystemRoot\system32\drivers\wcifs.sys, SymbolName:WcPortDisconnect
+  MessageNotify      :FFFFF8053B133DA0, FullPathName:\SystemRoot\system32\drivers\wcifs.sys, SymbolName:WcPortMessage
+  Filter             :FFFFD009FA96F6F0
+  Cookie             :0000000000000000
+  Flags              :0
+  NumberOfConnections:0
+  MaxConnections     :1000
+
 MemberName:PortList                  俺不关心这个，暂不处理
 MemberName:PortLock                  俺不关心这个，暂不处理
 
@@ -579,26 +723,26 @@ MemberName:PortLock                  俺不关心这个，暂不处理
 Index:5
 MemberName:Base                      俺不关心这个，暂不处理
 MemberName:Frame                     俺不关心这个，暂不处理
-MemberName:Name                      CldFlt
-MemberName:DefaultAltitude           180451
+MemberName:Name                       CldFlt
+MemberName:DefaultAltitude            180451
 MemberName:Flags                     210
-MemberName:DriverObject              FFFF9D07D7175E00
+MemberName:DriverObject              FFFFD009FA6DEE00
 MemberName:InstanceList              俺不关心这个，暂不处理
 MemberName:VerifierExtension         俺不关心这个，暂不处理
 MemberName:VerifiedFiltersLink       俺不关心这个，暂不处理
-MemberName:FilterUnload               FunctionAddress:FFFFF80623AA3200 FullPathName:\SystemRoot\system32\drivers\cldflt.sys
-MemberName:InstanceSetup              FunctionAddress:FFFFF80623A89830 FullPathName:\SystemRoot\system32\drivers\cldflt.sys
-MemberName:InstanceQueryTeardown      FunctionAddress:FFFFF80623AA3180 FullPathName:\SystemRoot\system32\drivers\cldflt.sys
+MemberName:FilterUnload               FunctionAddress:FFFFF8053B1C3200 FullPathName:\SystemRoot\system32\drivers\cldflt.sys SymbolName:HsmFltUnload
+MemberName:InstanceSetup              FunctionAddress:FFFFF8053B1A9830 FullPathName:\SystemRoot\system32\drivers\cldflt.sys SymbolName:HsmFltInstanceSetup
+MemberName:InstanceQueryTeardown      FunctionAddress:FFFFF8053B1C3180 FullPathName:\SystemRoot\system32\drivers\cldflt.sys SymbolName:HsmFltInstanceQueryTeardown
 MemberName:InstanceTeardownStart      FunctionAddress:0000000000000000
 MemberName:InstanceTeardownComplete   FunctionAddress:0000000000000000
 MemberName:SupportedContextsListHead 俺不关心这个，暂不处理
-MemberName:SupportedContexts         
-  ContextCleanupCallback:FFFFF80623A795B0, FullPathName:\SystemRoot\system32\drivers\cldflt.sys
+MemberName:SupportedContexts
+  ContextCleanupCallback:FFFFF8053B1995B0, FullPathName:\SystemRoot\system32\drivers\cldflt.sys, SymbolName:HsmFltDeleteFILE_CONTEXT
   ContextType:4(File Context)
   Flags:1
   AllocationType:1
 
-  ContextCleanupCallback:FFFFF80623A7F2B0, FullPathName:\SystemRoot\system32\drivers\cldflt.sys
+  ContextCleanupCallback:FFFFF8053B19F2B0, FullPathName:\SystemRoot\system32\drivers\cldflt.sys, SymbolName:HsmFltDeleteSTREAMHANDLE_CONTEXT
   ContextType:16(StreamHandle Context)
   Flags:1
   AllocationType:1
@@ -611,85 +755,96 @@ MemberName:NormalizeNameComponentEx   FunctionAddress:0000000000000000
 MemberName:NormalizeContextCleanup    FunctionAddress:0000000000000000
 MemberName:KtmNotification            FunctionAddress:0000000000000000
 MemberName:SectionNotification        FunctionAddress:0000000000000000
-MemberName:Operations                
+MemberName:Operations
   MajorFunction:255(IRP_MJ_ACQUIRE_FOR_SECTION_SYNCHRONIZAT)
   Flags:0
-  PreOperation :FFFFF80623A7B620, FullPathName:\SystemRoot\system32\drivers\cldflt.sys
-  PostOperation:FFFFF80623A32770, FullPathName:\SystemRoot\system32\drivers\cldflt.sys
+  PreOperation :FFFFF8053B19B620, FullPathName:\SystemRoot\system32\drivers\cldflt.sys, SymbolName:HsmFltPreACQUIRE_FOR_SECTION_SYNCHRONIZATION
+  PostOperation:FFFFF8053B152770, FullPathName:\SystemRoot\system32\drivers\cldflt.sys, SymbolName:HsmFltPostACQUIRE_FOR_SECTION_SYNCHRONIZATION
 
   MajorFunction:18(IRP_MJ_CLEANUP)
   Flags:0
-  PreOperation :FFFFF80623A7A0F0, FullPathName:\SystemRoot\system32\drivers\cldflt.sys
-  PostOperation:FFFFF80623A7F1F0, FullPathName:\SystemRoot\system32\drivers\cldflt.sys
+  PreOperation :FFFFF8053B19A0F0, FullPathName:\SystemRoot\system32\drivers\cldflt.sys, SymbolName:HsmFltPreCLEANUP
+  PostOperation:FFFFF8053B19F1F0, FullPathName:\SystemRoot\system32\drivers\cldflt.sys, SymbolName:HsmFltPostCLEANUP
 
   MajorFunction:0(IRP_MJ_CREATE)
   Flags:0
-  PreOperation :FFFFF80623A62D90, FullPathName:\SystemRoot\system32\drivers\cldflt.sys
-  PostOperation:FFFFF80623A6B000, FullPathName:\SystemRoot\system32\drivers\cldflt.sys
+  PreOperation :FFFFF8053B182D90, FullPathName:\SystemRoot\system32\drivers\cldflt.sys, SymbolName:HsmFltPreCREATE
+  PostOperation:FFFFF8053B18B000, FullPathName:\SystemRoot\system32\drivers\cldflt.sys, SymbolName:HsmFltPostCREATE
 
   MajorFunction:12(IRP_MJ_DIRECTORY_CONTROL)
   Flags:0
-  PreOperation :FFFFF80623A64BE0, FullPathName:\SystemRoot\system32\drivers\cldflt.sys
-  PostOperation:FFFFF80623A8ACE0, FullPathName:\SystemRoot\system32\drivers\cldflt.sys
+  PreOperation :FFFFF8053B184BE0, FullPathName:\SystemRoot\system32\drivers\cldflt.sys, SymbolName:HsmFltPreDIRECTORY_CONTROL
+  PostOperation:FFFFF8053B1AACE0, FullPathName:\SystemRoot\system32\drivers\cldflt.sys, SymbolName:HsmFltPostDIRECTORY_CONTROL
 
   MajorFunction:243(IRP_MJ_FAST_IO_CHECK_IF_POSSIBLE)
   Flags:0
-  PreOperation :FFFFF80623A39F40, FullPathName:\SystemRoot\system32\drivers\cldflt.sys
+  PreOperation :FFFFF8053B159F40, FullPathName:\SystemRoot\system32\drivers\cldflt.sys, SymbolName:HsmFltPreFAST_IO_CHECK_IF_POSSIBLE
   PostOperation:0000000000000000
 
   MajorFunction:13(IRP_MJ_FILE_SYSTEM_CONTROL)
   Flags:0
-  PreOperation :FFFFF80623AA6F90, FullPathName:\SystemRoot\system32\drivers\cldflt.sys
-  PostOperation:FFFFF80623AA6F60, FullPathName:\SystemRoot\system32\drivers\cldflt.sys
+  PreOperation :FFFFF8053B1C6F90, FullPathName:\SystemRoot\system32\drivers\cldflt.sys, SymbolName:HsmFltPreFILE_SYSTEM_CONTROL
+  PostOperation:FFFFF8053B1C6F60, FullPathName:\SystemRoot\system32\drivers\cldflt.sys, SymbolName:HsmFltPostFILE_SYSTEM_CONTROL
 
   MajorFunction:17(IRP_MJ_LOCK_CONTROL)
   Flags:0
-  PreOperation :FFFFF80623A674B0, FullPathName:\SystemRoot\system32\drivers\cldflt.sys
-  PostOperation:FFFFF80623A67230, FullPathName:\SystemRoot\system32\drivers\cldflt.sys
+  PreOperation :FFFFF8053B1874B0, FullPathName:\SystemRoot\system32\drivers\cldflt.sys, SymbolName:HsmFltPreLOCK_CONTROL
+  PostOperation:FFFFF8053B187230, FullPathName:\SystemRoot\system32\drivers\cldflt.sys, SymbolName:HsmFltPostLOCK_CONTROL
 
   MajorFunction:241(IRP_MJ_MDL_READ)
   Flags:0
-  PreOperation :FFFFF80623A48070, FullPathName:\SystemRoot\system32\drivers\cldflt.sys
+  PreOperation :FFFFF8053B168070, FullPathName:\SystemRoot\system32\drivers\cldflt.sys, SymbolName:HsmFltPreMDL_READ
   PostOperation:0000000000000000
 
   MajorFunction:242(IRP_MJ_NETWORK_QUERY_OPEN)
   Flags:0
-  PreOperation :FFFFF80623A62D50, FullPathName:\SystemRoot\system32\drivers\cldflt.sys
-  PostOperation:FFFFF80623A6B000, FullPathName:\SystemRoot\system32\drivers\cldflt.sys
+  PreOperation :FFFFF8053B182D50, FullPathName:\SystemRoot\system32\drivers\cldflt.sys, SymbolName:HsmFltPreNETWORK_QUERY_OPEN
+  PostOperation:FFFFF8053B18B000, FullPathName:\SystemRoot\system32\drivers\cldflt.sys, SymbolName:HsmFltPostCREATE
 
   MajorFunction:239(IRP_MJ_PREPARE_MDL_WRITE)
   Flags:0
-  PreOperation :FFFFF80623A39F40, FullPathName:\SystemRoot\system32\drivers\cldflt.sys
+  PreOperation :FFFFF8053B159F40, FullPathName:\SystemRoot\system32\drivers\cldflt.sys, SymbolName:HsmFltPreFAST_IO_CHECK_IF_POSSIBLE
   PostOperation:0000000000000000
 
   MajorFunction:3(IRP_MJ_READ)
   Flags:0
-  PreOperation :FFFFF80623A48100, FullPathName:\SystemRoot\system32\drivers\cldflt.sys
-  PostOperation:FFFFF80623A32770, FullPathName:\SystemRoot\system32\drivers\cldflt.sys
+  PreOperation :FFFFF8053B168100, FullPathName:\SystemRoot\system32\drivers\cldflt.sys, SymbolName:HsmFltPreREAD
+  PostOperation:FFFFF8053B152770, FullPathName:\SystemRoot\system32\drivers\cldflt.sys, SymbolName:HsmFltPostACQUIRE_FOR_SECTION_SYNCHRONIZATION
 
   MajorFunction:6(IRP_MJ_SET_INFORMATION)
   Flags:0
-  PreOperation :FFFFF80623A71630, FullPathName:\SystemRoot\system32\drivers\cldflt.sys
-  PostOperation:FFFFF80623A64410, FullPathName:\SystemRoot\system32\drivers\cldflt.sys
+  PreOperation :FFFFF8053B191630, FullPathName:\SystemRoot\system32\drivers\cldflt.sys, SymbolName:HsmFltPreSET_INFORMATION
+  PostOperation:FFFFF8053B184410, FullPathName:\SystemRoot\system32\drivers\cldflt.sys, SymbolName:HsmFltPostSET_INFORMATION
 
   MajorFunction:4(IRP_MJ_WRITE)
   Flags:0
-  PreOperation :FFFFF80623A327E0, FullPathName:\SystemRoot\system32\drivers\cldflt.sys
-  PostOperation:FFFFF80623A32770, FullPathName:\SystemRoot\system32\drivers\cldflt.sys
+  PreOperation :FFFFF8053B1527E0, FullPathName:\SystemRoot\system32\drivers\cldflt.sys, SymbolName:HsmFltPreWRITE
+  PostOperation:FFFFF8053B152770, FullPathName:\SystemRoot\system32\drivers\cldflt.sys, SymbolName:HsmFltPostACQUIRE_FOR_SECTION_SYNCHRONIZATION
 
   MajorFunction:5(IRP_MJ_QUERY_INFORMATION)
   Flags:0
   PreOperation :0000000000000000
-  PostOperation:FFFFF80623A7B2A0, FullPathName:\SystemRoot\system32\drivers\cldflt.sys
+  PostOperation:FFFFF8053B19B2A0, FullPathName:\SystemRoot\system32\drivers\cldflt.sys, SymbolName:HsmFltPostQUERY_INFORMATION
 
   MajorFunction:249(IRP_MJ_QUERY_OPEN)
   Flags:0
-  PreOperation :FFFFF80623A62CE0, FullPathName:\SystemRoot\system32\drivers\cldflt.sys
-  PostOperation:FFFFF80623A6AEC0, FullPathName:\SystemRoot\system32\drivers\cldflt.sys
+  PreOperation :FFFFF8053B182CE0, FullPathName:\SystemRoot\system32\drivers\cldflt.sys, SymbolName:HsmFltPreQUERY_OPEN
+  PostOperation:FFFFF8053B18AEC0, FullPathName:\SystemRoot\system32\drivers\cldflt.sys, SymbolName:HsmFltPostQUERY_OPEN
 
-MemberName:OldDriverUnload            FunctionAddress:FFFFF80618E19E20 FullPathName:\SystemRoot\System32\drivers\FLTMGR.SYS SymbolName:FltpMiniFilterDriverUnload
+MemberName:OldDriverUnload            FunctionAddress:FFFFF8052E5D9E20 FullPathName:\SystemRoot\System32\drivers\FLTMGR.SYS SymbolName:FltpMiniFilterDriverUnload
 MemberName:ActiveOpens               俺不关心这个，暂不处理
-MemberName:ConnectionList            俺不关心这个，暂不处理
+MemberName:ConnectionList
+  ServerPortObject   :FFFFD009FA878A50
+  Name               :\CLDMSGPORT
+  ConnectNotify      :FFFFF8053B1B13E0, FullPathName:\SystemRoot\system32\drivers\cldflt.sys, SymbolName:CldiPortNotifyConnect
+  DisconnectNotify   :FFFFF8053B1B8A40, FullPathName:\SystemRoot\system32\drivers\cldflt.sys, SymbolName:CldiPortNotifyDisconnect
+  MessageNotify      :FFFFF8053B1B8BD0, FullPathName:\SystemRoot\system32\drivers\cldflt.sys, SymbolName:CldiPortNotifyMessage
+  Filter             :FFFFD009F933C520
+  Cookie             :0000000000000000
+  Flags              :0
+  NumberOfConnections:1
+  MaxConnections     :2147483647
+
 MemberName:PortList                  俺不关心这个，暂不处理
 MemberName:PortLock                  俺不关心这个，暂不处理
 
@@ -698,21 +853,21 @@ MemberName:PortLock                  俺不关心这个，暂不处理
 Index:6
 MemberName:Base                      俺不关心这个，暂不处理
 MemberName:Frame                     俺不关心这个，暂不处理
-MemberName:Name                      FileCrypt
-MemberName:DefaultAltitude           141100
+MemberName:Name                       FileCrypt
+MemberName:DefaultAltitude            141100
 MemberName:Flags                     2
-MemberName:DriverObject              FFFF9D07D5775DF0
+MemberName:DriverObject              FFFFD009F7F07E10
 MemberName:InstanceList              俺不关心这个，暂不处理
 MemberName:VerifierExtension         俺不关心这个，暂不处理
 MemberName:VerifiedFiltersLink       俺不关心这个，暂不处理
-MemberName:FilterUnload               FunctionAddress:FFFFF8061AC0BC30 FullPathName:\SystemRoot\system32\drivers\filecrypt.sys
-MemberName:InstanceSetup              FunctionAddress:FFFFF8061AC0A010 FullPathName:\SystemRoot\system32\drivers\filecrypt.sys
-MemberName:InstanceQueryTeardown      FunctionAddress:FFFFF8061AC0A4A0 FullPathName:\SystemRoot\system32\drivers\filecrypt.sys
+MemberName:FilterUnload               FunctionAddress:FFFFF8053040BC30 FullPathName:\SystemRoot\system32\drivers\filecrypt.sys
+MemberName:InstanceSetup              FunctionAddress:FFFFF8053040A010 FullPathName:\SystemRoot\system32\drivers\filecrypt.sys
+MemberName:InstanceQueryTeardown      FunctionAddress:FFFFF8053040A4A0 FullPathName:\SystemRoot\system32\drivers\filecrypt.sys
 MemberName:InstanceTeardownStart      FunctionAddress:0000000000000000
 MemberName:InstanceTeardownComplete   FunctionAddress:0000000000000000
 MemberName:SupportedContextsListHead 俺不关心这个，暂不处理
-MemberName:SupportedContexts         
-  ContextCleanupCallback:FFFFF8061AC0BBD0, FullPathName:\SystemRoot\system32\drivers\filecrypt.sys
+MemberName:SupportedContexts
+  ContextCleanupCallback:FFFFF8053040BBD0, FullPathName:\SystemRoot\system32\drivers\filecrypt.sys
   ContextType:1(Volume Context)
   Flags:1
   AllocationType:1
@@ -725,20 +880,20 @@ MemberName:NormalizeNameComponentEx   FunctionAddress:0000000000000000
 MemberName:NormalizeContextCleanup    FunctionAddress:0000000000000000
 MemberName:KtmNotification            FunctionAddress:0000000000000000
 MemberName:SectionNotification        FunctionAddress:0000000000000000
-MemberName:Operations                
+MemberName:Operations
   MajorFunction:0(IRP_MJ_CREATE)
   Flags:0
-  PreOperation :FFFFF8061AC0BFD0, FullPathName:\SystemRoot\system32\drivers\filecrypt.sys
-  PostOperation:FFFFF8061AC0BCC0, FullPathName:\SystemRoot\system32\drivers\filecrypt.sys
+  PreOperation :FFFFF8053040BFD0, FullPathName:\SystemRoot\system32\drivers\filecrypt.sys
+  PostOperation:FFFFF8053040BCC0, FullPathName:\SystemRoot\system32\drivers\filecrypt.sys
 
   MajorFunction:6(IRP_MJ_SET_INFORMATION)
   Flags:0
-  PreOperation :FFFFF8061AC0C4E0, FullPathName:\SystemRoot\system32\drivers\filecrypt.sys
+  PreOperation :FFFFF8053040C4E0, FullPathName:\SystemRoot\system32\drivers\filecrypt.sys
   PostOperation:0000000000000000
 
 MemberName:OldDriverUnload            FunctionAddress:0000000000000000
 MemberName:ActiveOpens               俺不关心这个，暂不处理
-MemberName:ConnectionList            俺不关心这个，暂不处理
+MemberName:ConnectionList
 MemberName:PortList                  俺不关心这个，暂不处理
 MemberName:PortLock                  俺不关心这个，暂不处理
 
@@ -747,277 +902,277 @@ MemberName:PortLock                  俺不关心这个，暂不处理
 Index:7
 MemberName:Base                      俺不关心这个，暂不处理
 MemberName:Frame                     俺不关心这个，暂不处理
-MemberName:Name                      luafv
-MemberName:DefaultAltitude           135000
+MemberName:Name                       luafv
+MemberName:DefaultAltitude            135000
 MemberName:Flags                     150
-MemberName:DriverObject              FFFF9D07D7187D50
+MemberName:DriverObject              FFFFD009FA6C6E00
 MemberName:InstanceList              俺不关心这个，暂不处理
 MemberName:VerifierExtension         俺不关心这个，暂不处理
 MemberName:VerifiedFiltersLink       俺不关心这个，暂不处理
 MemberName:FilterUnload               FunctionAddress:0000000000000000
-MemberName:InstanceSetup              FunctionAddress:FFFFF806239CFF50 FullPathName:\SystemRoot\system32\drivers\luafv.sys
+MemberName:InstanceSetup              FunctionAddress:FFFFF8053B0EFF50 FullPathName:\SystemRoot\system32\drivers\luafv.sys
 MemberName:InstanceQueryTeardown      FunctionAddress:0000000000000000
 MemberName:InstanceTeardownStart      FunctionAddress:0000000000000000
 MemberName:InstanceTeardownComplete   FunctionAddress:0000000000000000
 MemberName:SupportedContextsListHead 俺不关心这个，暂不处理
-MemberName:SupportedContexts         
-  ContextCleanupCallback:FFFFF806239D4B60, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+MemberName:SupportedContexts
+  ContextCleanupCallback:FFFFF8053B0F4B60, FullPathName:\SystemRoot\system32\drivers\luafv.sys
   ContextType:16(StreamHandle Context)
   Flags:1
   AllocationType:1
 
-MemberName:PreVolumeMount             FunctionAddress:FFFFF806239C10C0 FullPathName:\SystemRoot\system32\drivers\luafv.sys
+MemberName:PreVolumeMount             FunctionAddress:FFFFF8053B0E10C0 FullPathName:\SystemRoot\system32\drivers\luafv.sys
 MemberName:PostVolumeMount            FunctionAddress:0000000000000000
-MemberName:GenerateFileName           FunctionAddress:FFFFF806239CF5C0 FullPathName:\SystemRoot\system32\drivers\luafv.sys
+MemberName:GenerateFileName           FunctionAddress:FFFFF8053B0EF5C0 FullPathName:\SystemRoot\system32\drivers\luafv.sys
 MemberName:NormalizeNameComponent     FunctionAddress:0000000000000000
-MemberName:NormalizeNameComponentEx   FunctionAddress:FFFFF806239D1310 FullPathName:\SystemRoot\system32\drivers\luafv.sys
+MemberName:NormalizeNameComponentEx   FunctionAddress:FFFFF8053B0F1310 FullPathName:\SystemRoot\system32\drivers\luafv.sys
 MemberName:NormalizeContextCleanup    FunctionAddress:0000000000000000
 MemberName:KtmNotification            FunctionAddress:0000000000000000
 MemberName:SectionNotification        FunctionAddress:0000000000000000
-MemberName:Operations                
+MemberName:Operations
   MajorFunction:236(IRP_MJ_VOLUME_DISMOUNT)
   Flags:0
-  PreOperation :FFFFF806239C10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0E10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
   PostOperation:0000000000000000
 
   MajorFunction:237(IRP_MJ_VOLUME_MOUNT)
   Flags:0
-  PreOperation :FFFFF806239C10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0E10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
   PostOperation:0000000000000000
 
   MajorFunction:238(IRP_MJ_MDL_WRITE_COMPLETE)
   Flags:0
-  PreOperation :FFFFF806239C1060, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0E1060, FullPathName:\SystemRoot\system32\drivers\luafv.sys
   PostOperation:0000000000000000
 
   MajorFunction:239(IRP_MJ_PREPARE_MDL_WRITE)
   Flags:0
-  PreOperation :FFFFF806239C10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0E10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
   PostOperation:0000000000000000
 
   MajorFunction:240(IRP_MJ_MDL_READ_COMPLETE)
   Flags:0
-  PreOperation :FFFFF806239C10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0E10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
   PostOperation:0000000000000000
 
   MajorFunction:241(IRP_MJ_MDL_READ)
   Flags:0
-  PreOperation :FFFFF806239C10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0E10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
   PostOperation:0000000000000000
 
   MajorFunction:242(IRP_MJ_NETWORK_QUERY_OPEN)
   Flags:0
-  PreOperation :FFFFF806239D4910, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0F4910, FullPathName:\SystemRoot\system32\drivers\luafv.sys
   PostOperation:0000000000000000
 
   MajorFunction:243(IRP_MJ_FAST_IO_CHECK_IF_POSSIBLE)
   Flags:0
-  PreOperation :FFFFF806239C1060, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0E1060, FullPathName:\SystemRoot\system32\drivers\luafv.sys
   PostOperation:0000000000000000
 
   MajorFunction:244(IRP_MJ_RESERVED-12)
   Flags:0
-  PreOperation :FFFFF806239C10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0E10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
   PostOperation:0000000000000000
 
   MajorFunction:245(IRP_MJ_RESERVED-11)
   Flags:0
-  PreOperation :FFFFF806239C10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0E10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
   PostOperation:0000000000000000
 
   MajorFunction:246(IRP_MJ_RESERVED-10)
   Flags:0
-  PreOperation :FFFFF806239C10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0E10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
   PostOperation:0000000000000000
 
   MajorFunction:247(IRP_MJ_RESERVED-9)
   Flags:0
-  PreOperation :FFFFF806239C10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0E10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
   PostOperation:0000000000000000
 
   MajorFunction:248(IRP_MJ_RESERVED-8)
   Flags:0
-  PreOperation :FFFFF806239C10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0E10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
   PostOperation:0000000000000000
 
   MajorFunction:249(IRP_MJ_QUERY_OPEN)
   Flags:0
-  PreOperation :FFFFF806239DD9D0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0FD9D0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
   PostOperation:0000000000000000
 
   MajorFunction:250(IRP_MJ_RELEASE_FOR_CC_FLUSH)
   Flags:0
-  PreOperation :FFFFF806239C10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0E10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
   PostOperation:0000000000000000
 
   MajorFunction:251(IRP_MJ_ACQUIRE_FOR_CC_FLUSH)
   Flags:0
-  PreOperation :FFFFF806239C1060, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0E1060, FullPathName:\SystemRoot\system32\drivers\luafv.sys
   PostOperation:0000000000000000
 
   MajorFunction:252(IRP_MJ_RELEASE_FOR_MOD_WRITE)
   Flags:0
-  PreOperation :FFFFF806239C10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0E10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
   PostOperation:0000000000000000
 
   MajorFunction:253(IRP_MJ_ACQUIRE_FOR_MOD_WRITE)
   Flags:0
-  PreOperation :FFFFF806239C1060, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0E1060, FullPathName:\SystemRoot\system32\drivers\luafv.sys
   PostOperation:0000000000000000
 
   MajorFunction:254(IRP_MJ_RELEASE_FOR_SECTION_SYNCHRONIZAT)
   Flags:0
-  PreOperation :FFFFF806239CF9E0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0EF9E0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
   PostOperation:0000000000000000
 
   MajorFunction:255(IRP_MJ_ACQUIRE_FOR_SECTION_SYNCHRONIZAT)
   Flags:0
-  PreOperation :FFFFF806239CF960, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0EF960, FullPathName:\SystemRoot\system32\drivers\luafv.sys
   PostOperation:0000000000000000
 
   MajorFunction:0(IRP_MJ_CREATE)
   Flags:0
-  PreOperation :FFFFF806239D17E0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
-  PostOperation:FFFFF806239D4A20, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0F17E0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PostOperation:FFFFF8053B0F4A20, FullPathName:\SystemRoot\system32\drivers\luafv.sys
 
   MajorFunction:1(IRP_MJ_CREATE_NAMED_PIPE)
   Flags:0
-  PreOperation :FFFFF806239C10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0E10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
   PostOperation:0000000000000000
 
   MajorFunction:2(IRP_MJ_CLOSE)
   Flags:0
-  PreOperation :FFFFF806239CF4E0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0EF4E0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
   PostOperation:0000000000000000
 
   MajorFunction:3(IRP_MJ_READ)
   Flags:0
-  PreOperation :FFFFF806239C1010, FullPathName:\SystemRoot\system32\drivers\luafv.sys
-  PostOperation:FFFFF806239C25D0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0E1010, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PostOperation:FFFFF8053B0E25D0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
 
   MajorFunction:4(IRP_MJ_WRITE)
   Flags:0
-  PreOperation :FFFFF806239C1060, FullPathName:\SystemRoot\system32\drivers\luafv.sys
-  PostOperation:FFFFF806239C25D0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0E1060, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PostOperation:FFFFF8053B0E25D0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
 
   MajorFunction:5(IRP_MJ_QUERY_INFORMATION)
   Flags:0
-  PreOperation :FFFFF806239CF420, FullPathName:\SystemRoot\system32\drivers\luafv.sys
-  PostOperation:FFFFF806239C2560, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0EF420, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PostOperation:FFFFF8053B0E2560, FullPathName:\SystemRoot\system32\drivers\luafv.sys
 
   MajorFunction:6(IRP_MJ_SET_INFORMATION)
   Flags:0
-  PreOperation :FFFFF806239CF750, FullPathName:\SystemRoot\system32\drivers\luafv.sys
-  PostOperation:FFFFF806239C2630, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0EF750, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PostOperation:FFFFF8053B0E2630, FullPathName:\SystemRoot\system32\drivers\luafv.sys
 
   MajorFunction:7(IRP_MJ_QUERY_EA)
   Flags:0
-  PreOperation :FFFFF806239C10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0E10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
   PostOperation:0000000000000000
 
   MajorFunction:8(IRP_MJ_SET_EA)
   Flags:0
-  PreOperation :FFFFF806239C1060, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0E1060, FullPathName:\SystemRoot\system32\drivers\luafv.sys
   PostOperation:0000000000000000
 
   MajorFunction:9(IRP_MJ_FLUSH_BUFFERS)
   Flags:0
-  PreOperation :FFFFF806239C10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0E10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
   PostOperation:0000000000000000
 
   MajorFunction:10(IRP_MJ_QUERY_VOLUME_INFORMATION)
   Flags:0
-  PreOperation :FFFFF806239C10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0E10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
   PostOperation:0000000000000000
 
   MajorFunction:11(IRP_MJ_SET_VOLUME_INFORMATION)
   Flags:0
-  PreOperation :FFFFF806239C10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0E10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
   PostOperation:0000000000000000
 
   MajorFunction:12(IRP_MJ_DIRECTORY_CONTROL)
   Flags:0
-  PreOperation :FFFFF806239CFB00, FullPathName:\SystemRoot\system32\drivers\luafv.sys
-  PostOperation:FFFFF806239C2480, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0EFB00, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PostOperation:FFFFF8053B0E2480, FullPathName:\SystemRoot\system32\drivers\luafv.sys
 
   MajorFunction:13(IRP_MJ_FILE_SYSTEM_CONTROL)
   Flags:0
-  PreOperation :FFFFF806239CFA30, FullPathName:\SystemRoot\system32\drivers\luafv.sys
-  PostOperation:FFFFF806239DD900, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0EFA30, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PostOperation:FFFFF8053B0FD900, FullPathName:\SystemRoot\system32\drivers\luafv.sys
 
   MajorFunction:14(IRP_MJ_DEVICE_CONTROL)
   Flags:0
-  PreOperation :FFFFF806239C10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0E10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
   PostOperation:0000000000000000
 
   MajorFunction:15(IRP_MJ_INTERNAL_DEVICE_CONTROL)
   Flags:0
-  PreOperation :FFFFF806239C10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0E10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
   PostOperation:0000000000000000
 
   MajorFunction:16(IRP_MJ_SHUTDOWN)
   Flags:0
-  PreOperation :FFFFF806239C10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0E10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
   PostOperation:0000000000000000
 
   MajorFunction:17(IRP_MJ_LOCK_CONTROL)
   Flags:0
-  PreOperation :FFFFF806239CFC50, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0EFC50, FullPathName:\SystemRoot\system32\drivers\luafv.sys
   PostOperation:0000000000000000
 
   MajorFunction:18(IRP_MJ_CLEANUP)
   Flags:0
-  PreOperation :FFFFF806239CF6C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
-  PostOperation:FFFFF806239CFF10, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0EF6C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PostOperation:FFFFF8053B0EFF10, FullPathName:\SystemRoot\system32\drivers\luafv.sys
 
   MajorFunction:19(IRP_MJ_CREATE_MAILSLOT)
   Flags:0
-  PreOperation :FFFFF806239C10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0E10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
   PostOperation:0000000000000000
 
   MajorFunction:20(IRP_MJ_QUERY_SECURITY)
   Flags:0
-  PreOperation :FFFFF806239C10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0E10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
   PostOperation:0000000000000000
 
   MajorFunction:21(IRP_MJ_SET_SECURITY)
   Flags:0
-  PreOperation :FFFFF806239C1060, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0E1060, FullPathName:\SystemRoot\system32\drivers\luafv.sys
   PostOperation:0000000000000000
 
   MajorFunction:22(IRP_MJ_POWER)
   Flags:0
-  PreOperation :FFFFF806239C10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0E10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
   PostOperation:0000000000000000
 
   MajorFunction:23(IRP_MJ_SYSTEM_CONTROL)
   Flags:0
-  PreOperation :FFFFF806239C10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0E10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
   PostOperation:0000000000000000
 
   MajorFunction:24(IRP_MJ_DEVICE_CHANGE)
   Flags:0
-  PreOperation :FFFFF806239C10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0E10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
   PostOperation:0000000000000000
 
   MajorFunction:25(IRP_MJ_QUERY_QUOTA)
   Flags:0
-  PreOperation :FFFFF806239C10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0E10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
   PostOperation:0000000000000000
 
   MajorFunction:26(IRP_MJ_SET_QUOTA)
   Flags:0
-  PreOperation :FFFFF806239C10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0E10C0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
   PostOperation:0000000000000000
 
   MajorFunction:27(IRP_MJ_PNP)
   Flags:0
-  PreOperation :FFFFF806239D5DB0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
+  PreOperation :FFFFF8053B0F5DB0, FullPathName:\SystemRoot\system32\drivers\luafv.sys
   PostOperation:0000000000000000
 
 MemberName:OldDriverUnload            FunctionAddress:0000000000000000
 MemberName:ActiveOpens               俺不关心这个，暂不处理
-MemberName:ConnectionList            俺不关心这个，暂不处理
+MemberName:ConnectionList
 MemberName:PortList                  俺不关心这个，暂不处理
 MemberName:PortLock                  俺不关心这个，暂不处理
 
@@ -1026,17 +1181,17 @@ MemberName:PortLock                  俺不关心这个，暂不处理
 Index:8
 MemberName:Base                      俺不关心这个，暂不处理
 MemberName:Frame                     俺不关心这个，暂不处理
-MemberName:Name                      npsvctrig
-MemberName:DefaultAltitude           46000
+MemberName:Name                       npsvctrig
+MemberName:DefaultAltitude            46000
 MemberName:Flags                     90
-MemberName:DriverObject              FFFF9D07D58A0740
+MemberName:DriverObject              FFFFD009F7F3F740
 MemberName:InstanceList              俺不关心这个，暂不处理
 MemberName:VerifierExtension         俺不关心这个，暂不处理
 MemberName:VerifiedFiltersLink       俺不关心这个，暂不处理
-MemberName:FilterUnload               FunctionAddress:FFFFF8061D459970 FullPathName:\SystemRoot\System32\drivers\npsvctrig.sys
-MemberName:InstanceSetup              FunctionAddress:FFFFF8061D458330 FullPathName:\SystemRoot\System32\drivers\npsvctrig.sys
+MemberName:FilterUnload               FunctionAddress:FFFFF80533B99970 FullPathName:\SystemRoot\System32\drivers\npsvctrig.sys
+MemberName:InstanceSetup              FunctionAddress:FFFFF80533B98330 FullPathName:\SystemRoot\System32\drivers\npsvctrig.sys
 MemberName:InstanceQueryTeardown      FunctionAddress:0000000000000000
-MemberName:InstanceTeardownStart      FunctionAddress:FFFFF8061D459B90 FullPathName:\SystemRoot\System32\drivers\npsvctrig.sys
+MemberName:InstanceTeardownStart      FunctionAddress:FFFFF80533B99B90 FullPathName:\SystemRoot\System32\drivers\npsvctrig.sys
 MemberName:InstanceTeardownComplete   FunctionAddress:0000000000000000
 MemberName:SupportedContextsListHead 俺不关心这个，暂不处理
 MemberName:SupportedContexts         0
@@ -1048,25 +1203,25 @@ MemberName:NormalizeNameComponentEx   FunctionAddress:0000000000000000
 MemberName:NormalizeContextCleanup    FunctionAddress:0000000000000000
 MemberName:KtmNotification            FunctionAddress:0000000000000000
 MemberName:SectionNotification        FunctionAddress:0000000000000000
-MemberName:Operations                
+MemberName:Operations
   MajorFunction:0(IRP_MJ_CREATE)
   Flags:0
   PreOperation :0000000000000000
-  PostOperation:FFFFF8061D458010, FullPathName:\SystemRoot\System32\drivers\npsvctrig.sys
+  PostOperation:FFFFF80533B98010, FullPathName:\SystemRoot\System32\drivers\npsvctrig.sys
 
   MajorFunction:1(IRP_MJ_CREATE_NAMED_PIPE)
   Flags:0
   PreOperation :0000000000000000
-  PostOperation:FFFFF8061D458160, FullPathName:\SystemRoot\System32\drivers\npsvctrig.sys
+  PostOperation:FFFFF80533B98160, FullPathName:\SystemRoot\System32\drivers\npsvctrig.sys
 
   MajorFunction:13(IRP_MJ_FILE_SYSTEM_CONTROL)
   Flags:0
   PreOperation :0000000000000000
-  PostOperation:FFFFF8061D451010, FullPathName:\SystemRoot\System32\drivers\npsvctrig.sys
+  PostOperation:FFFFF80533B91010, FullPathName:\SystemRoot\System32\drivers\npsvctrig.sys
 
-MemberName:OldDriverUnload            FunctionAddress:FFFFF8061D459580 FullPathName:\SystemRoot\System32\drivers\npsvctrig.sys
+MemberName:OldDriverUnload            FunctionAddress:FFFFF80533B99580 FullPathName:\SystemRoot\System32\drivers\npsvctrig.sys
 MemberName:ActiveOpens               俺不关心这个，暂不处理
-MemberName:ConnectionList            俺不关心这个，暂不处理
+MemberName:ConnectionList
 MemberName:PortList                  俺不关心这个，暂不处理
 MemberName:PortLock                  俺不关心这个，暂不处理
 
@@ -1075,26 +1230,26 @@ MemberName:PortLock                  俺不关心这个，暂不处理
 Index:9
 MemberName:Base                      俺不关心这个，暂不处理
 MemberName:Frame                     俺不关心这个，暂不处理
-MemberName:Name                      Wof
-MemberName:DefaultAltitude           40700
+MemberName:Name                       Wof
+MemberName:DefaultAltitude            40700
 MemberName:Flags                     210
-MemberName:DriverObject              FFFF9D07D55E2E10
+MemberName:DriverObject              FFFFD009F7A5FE10
 MemberName:InstanceList              俺不关心这个，暂不处理
 MemberName:VerifierExtension         俺不关心这个，暂不处理
 MemberName:VerifiedFiltersLink       俺不关心这个，暂不处理
-MemberName:FilterUnload               FunctionAddress:FFFFF80619A19310 FullPathName:\SystemRoot\System32\Drivers\Wof.sys
-MemberName:InstanceSetup              FunctionAddress:FFFFF80619A172B0 FullPathName:\SystemRoot\System32\Drivers\Wof.sys
-MemberName:InstanceQueryTeardown      FunctionAddress:FFFFF80619A19460 FullPathName:\SystemRoot\System32\Drivers\Wof.sys
-MemberName:InstanceTeardownStart      FunctionAddress:FFFFF80619A19810 FullPathName:\SystemRoot\System32\Drivers\Wof.sys
-MemberName:InstanceTeardownComplete   FunctionAddress:FFFFF80619A197D0 FullPathName:\SystemRoot\System32\Drivers\Wof.sys
+MemberName:FilterUnload               FunctionAddress:FFFFF8052F1B9310 FullPathName:\SystemRoot\System32\Drivers\Wof.sys
+MemberName:InstanceSetup              FunctionAddress:FFFFF8052F1B72B0 FullPathName:\SystemRoot\System32\Drivers\Wof.sys
+MemberName:InstanceQueryTeardown      FunctionAddress:FFFFF8052F1B9460 FullPathName:\SystemRoot\System32\Drivers\Wof.sys
+MemberName:InstanceTeardownStart      FunctionAddress:FFFFF8052F1B9810 FullPathName:\SystemRoot\System32\Drivers\Wof.sys
+MemberName:InstanceTeardownComplete   FunctionAddress:FFFFF8052F1B97D0 FullPathName:\SystemRoot\System32\Drivers\Wof.sys
 MemberName:SupportedContextsListHead 俺不关心这个，暂不处理
-MemberName:SupportedContexts         
-  ContextCleanupCallback:FFFFF80619A16BC0, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
+MemberName:SupportedContexts
+  ContextCleanupCallback:FFFFF8052F1B6BC0, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
   ContextType:4(File Context)
   Flags:1
   AllocationType:1
 
-  ContextCleanupCallback:FFFFF80619A16BC0, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
+  ContextCleanupCallback:FFFFF8052F1B6BC0, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
   ContextType:16(StreamHandle Context)
   Flags:1
   AllocationType:1
@@ -1105,72 +1260,72 @@ MemberName:GenerateFileName           FunctionAddress:0000000000000000
 MemberName:NormalizeNameComponent     FunctionAddress:0000000000000000
 MemberName:NormalizeNameComponentEx   FunctionAddress:0000000000000000
 MemberName:NormalizeContextCleanup    FunctionAddress:0000000000000000
-MemberName:KtmNotification            FunctionAddress:FFFFF80619A198B0 FullPathName:\SystemRoot\System32\Drivers\Wof.sys
+MemberName:KtmNotification            FunctionAddress:FFFFF8052F1B98B0 FullPathName:\SystemRoot\System32\Drivers\Wof.sys
 MemberName:SectionNotification        FunctionAddress:0000000000000000
-MemberName:Operations                
+MemberName:Operations
   MajorFunction:0(IRP_MJ_CREATE)
   Flags:0
-  PreOperation :FFFFF80619A10010, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
-  PostOperation:FFFFF80619A10440, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
+  PreOperation :FFFFF8052F1B0010, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
+  PostOperation:FFFFF8052F1B0440, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
 
   MajorFunction:242(IRP_MJ_NETWORK_QUERY_OPEN)
   Flags:0
-  PreOperation :FFFFF80619A16A10, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
+  PreOperation :FFFFF8052F1B6A10, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
   PostOperation:0000000000000000
 
   MajorFunction:18(IRP_MJ_CLEANUP)
   Flags:0
   PreOperation :0000000000000000
-  PostOperation:FFFFF80619A13720, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
+  PostOperation:FFFFF8052F1B3720, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
 
   MajorFunction:3(IRP_MJ_READ)
   Flags:2(FLTFL_OPERATION_REGISTRATION_SKIP_CACHED_IO;)
-  PreOperation :FFFFF806199F3430, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
-  PostOperation:FFFFF806199F3DD0, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
+  PreOperation :FFFFF8052F193430, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
+  PostOperation:FFFFF8052F193DD0, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
 
   MajorFunction:4(IRP_MJ_WRITE)
   Flags:2(FLTFL_OPERATION_REGISTRATION_SKIP_CACHED_IO;)
-  PreOperation :FFFFF806199F3BD0, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
-  PostOperation:FFFFF806199F7040, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
+  PreOperation :FFFFF8052F193BD0, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
+  PostOperation:FFFFF8052F197040, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
 
   MajorFunction:5(IRP_MJ_QUERY_INFORMATION)
   Flags:0
   PreOperation :0000000000000000
-  PostOperation:FFFFF80619A11ED0, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
+  PostOperation:FFFFF8052F1B1ED0, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
 
   MajorFunction:6(IRP_MJ_SET_INFORMATION)
   Flags:0
-  PreOperation :FFFFF80619A14AA0, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
-  PostOperation:FFFFF80619A19BB0, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
+  PreOperation :FFFFF8052F1B4AA0, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
+  PostOperation:FFFFF8052F1B9BB0, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
 
   MajorFunction:12(IRP_MJ_DIRECTORY_CONTROL)
   Flags:0
-  PreOperation :FFFFF80619A12580, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
+  PreOperation :FFFFF8052F1B2580, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
   PostOperation:0000000000000000
 
   MajorFunction:13(IRP_MJ_FILE_SYSTEM_CONTROL)
   Flags:0
-  PreOperation :FFFFF80619A19F80, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
-  PostOperation:FFFFF80619A19C50, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
+  PreOperation :FFFFF8052F1B9F80, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
+  PostOperation:FFFFF8052F1B9C50, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
 
   MajorFunction:27(IRP_MJ_PNP)
   Flags:0
-  PreOperation :FFFFF80619A18890, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
-  PostOperation:FFFFF80619A1C860, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
+  PreOperation :FFFFF8052F1B8890, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
+  PostOperation:FFFFF8052F1BC860, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
 
   MajorFunction:255(IRP_MJ_ACQUIRE_FOR_SECTION_SYNCHRONIZAT)
   Flags:0
-  PreOperation :FFFFF80619A13920, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
-  PostOperation:FFFFF80619A16750, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
+  PreOperation :FFFFF8052F1B3920, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
+  PostOperation:FFFFF8052F1B6750, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
 
   MajorFunction:249(IRP_MJ_QUERY_OPEN)
   Flags:0
-  PreOperation :FFFFF80619A17120, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
-  PostOperation:FFFFF80619A17240, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
+  PreOperation :FFFFF8052F1B7120, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
+  PostOperation:FFFFF8052F1B7240, FullPathName:\SystemRoot\System32\Drivers\Wof.sys
 
 MemberName:OldDriverUnload            FunctionAddress:0000000000000000
 MemberName:ActiveOpens               俺不关心这个，暂不处理
-MemberName:ConnectionList            俺不关心这个，暂不处理
+MemberName:ConnectionList
 MemberName:PortList                  俺不关心这个，暂不处理
 MemberName:PortLock                  俺不关心这个，暂不处理
 
@@ -1179,14 +1334,14 @@ MemberName:PortLock                  俺不关心这个，暂不处理
 Index:10
 MemberName:Base                      俺不关心这个，暂不处理
 MemberName:Frame                     俺不关心这个，暂不处理
-MemberName:Name                      FileInfo
-MemberName:DefaultAltitude           40500
+MemberName:Name                       FileInfo
+MemberName:DefaultAltitude            40500
 MemberName:Flags                     242
-MemberName:DriverObject              FFFF9D07D55E1E10
+MemberName:DriverObject              FFFFD009F7A5EE10
 MemberName:InstanceList              俺不关心这个，暂不处理
 MemberName:VerifierExtension         俺不关心这个，暂不处理
 MemberName:VerifiedFiltersLink       俺不关心这个，暂不处理
-MemberName:FilterUnload               FunctionAddress:FFFFF806199E3610 FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
+MemberName:FilterUnload               FunctionAddress:FFFFF8052F183610 FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
 MemberName:InstanceSetup              FunctionAddress:0000000000000000
 MemberName:InstanceQueryTeardown      FunctionAddress:0000000000000000
 MemberName:InstanceTeardownStart      FunctionAddress:0000000000000000
@@ -1201,97 +1356,99 @@ MemberName:NormalizeNameComponentEx   FunctionAddress:0000000000000000
 MemberName:NormalizeContextCleanup    FunctionAddress:0000000000000000
 MemberName:KtmNotification            FunctionAddress:0000000000000000
 MemberName:SectionNotification        FunctionAddress:0000000000000000
-MemberName:Operations                
+MemberName:Operations
   MajorFunction:0(IRP_MJ_CREATE)
   Flags:0
-  PreOperation :FFFFF806199DB4B0, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
-  PostOperation:FFFFF806199DD370, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
+  PreOperation :FFFFF8052F17B4B0, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
+  PostOperation:FFFFF8052F17D370, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
 
   MajorFunction:18(IRP_MJ_CLEANUP)
   Flags:0
-  PreOperation :FFFFF806199DB040, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
-  PostOperation:FFFFF806199DD280, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
+  PreOperation :FFFFF8052F17B040, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
+  PostOperation:FFFFF8052F17D280, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
 
   MajorFunction:2(IRP_MJ_CLOSE)
   Flags:0
-  PreOperation :FFFFF806199DF140, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
-  PostOperation:FFFFF806199D1030, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
+  PreOperation :FFFFF8052F17F140, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
+  PostOperation:FFFFF8052F171030, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
 
   MajorFunction:3(IRP_MJ_READ)
   Flags:0
-  PreOperation :FFFFF806199D2580, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
-  PostOperation:FFFFF806199D1F90, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
+  PreOperation :FFFFF8052F172580, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
+  PostOperation:FFFFF8052F171F90, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
 
   MajorFunction:4(IRP_MJ_WRITE)
   Flags:0
-  PreOperation :FFFFF806199D2580, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
-  PostOperation:FFFFF806199D1F90, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
+  PreOperation :FFFFF8052F172580, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
+  PostOperation:FFFFF8052F171F90, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
 
   MajorFunction:6(IRP_MJ_SET_INFORMATION)
   Flags:0
-  PreOperation :FFFFF806199D1750, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
-  PostOperation:FFFFF806199D1C00, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
+  PreOperation :FFFFF8052F171750, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
+  PostOperation:FFFFF8052F171C00, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
 
   MajorFunction:13(IRP_MJ_FILE_SYSTEM_CONTROL)
   Flags:0
-  PreOperation :FFFFF806199DB170, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
-  PostOperation:FFFFF806199D1260, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
+  PreOperation :FFFFF8052F17B170, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
+  PostOperation:FFFFF8052F171260, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
 
   MajorFunction:9(IRP_MJ_FLUSH_BUFFERS)
   Flags:0
-  PreOperation :FFFFF806199DB340, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
-  PostOperation:FFFFF806199D1030, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
+  PreOperation :FFFFF8052F17B340, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
+  PostOperation:FFFFF8052F171030, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
 
   MajorFunction:12(IRP_MJ_DIRECTORY_CONTROL)
   Flags:0
-  PreOperation :FFFFF806199DCD00, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
-  PostOperation:FFFFF806199D1030, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
+  PreOperation :FFFFF8052F17CD00, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
+  PostOperation:FFFFF8052F171030, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
 
   MajorFunction:5(IRP_MJ_QUERY_INFORMATION)
   Flags:0
-  PreOperation :FFFFF806199D1110, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
-  PostOperation:FFFFF806199D1030, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
+  PreOperation :FFFFF8052F171110, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
+  PostOperation:FFFFF8052F171030, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
 
   MajorFunction:27(IRP_MJ_PNP)
   Flags:0
-  PreOperation :FFFFF806199E09C0, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
-  PostOperation:FFFFF806199D2A70, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
+  PreOperation :FFFFF8052F1809C0, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
+  PostOperation:FFFFF8052F172A70, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
 
   MajorFunction:241(IRP_MJ_MDL_READ)
   Flags:0
-  PreOperation :FFFFF806199D1690, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
-  PostOperation:FFFFF806199D1030, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
+  PreOperation :FFFFF8052F171690, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
+  PostOperation:FFFFF8052F171030, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
 
   MajorFunction:238(IRP_MJ_MDL_WRITE_COMPLETE)
   Flags:0
-  PreOperation :FFFFF806199D1690, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
-  PostOperation:FFFFF806199D1030, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
+  PreOperation :FFFFF8052F171690, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
+  PostOperation:FFFFF8052F171030, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
 
   MajorFunction:21(IRP_MJ_SET_SECURITY)
   Flags:0
-  PreOperation :FFFFF806199D1510, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
-  PostOperation:FFFFF806199D1030, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
+  PreOperation :FFFFF8052F171510, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
+  PostOperation:FFFFF8052F171030, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
 
   MajorFunction:20(IRP_MJ_QUERY_SECURITY)
   Flags:0
-  PreOperation :FFFFF806199D13C0, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
-  PostOperation:FFFFF806199D1030, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
+  PreOperation :FFFFF8052F1713C0, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
+  PostOperation:FFFFF8052F171030, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
 
   MajorFunction:8(IRP_MJ_SET_EA)
   Flags:0
-  PreOperation :FFFFF806199D1010, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
-  PostOperation:FFFFF806199D1030, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
+  PreOperation :FFFFF8052F171010, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
+  PostOperation:FFFFF8052F171030, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
 
   MajorFunction:7(IRP_MJ_QUERY_EA)
   Flags:0
-  PreOperation :FFFFF806199D1530, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
-  PostOperation:FFFFF806199D1030, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
+  PreOperation :FFFFF8052F171530, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
+  PostOperation:FFFFF8052F171030, FullPathName:\SystemRoot\System32\drivers\fileinfo.sys
 
 MemberName:OldDriverUnload            FunctionAddress:0000000000000000
 MemberName:ActiveOpens               俺不关心这个，暂不处理
-MemberName:ConnectionList            俺不关心这个，暂不处理
+MemberName:ConnectionList
 MemberName:PortList                  俺不关心这个，暂不处理
 MemberName:PortLock                  俺不关心这个，暂不处理
 
 ---------------------------------------------------------------------------------------
 
+
+C:\Users\Administrator\Desktop\x64>
