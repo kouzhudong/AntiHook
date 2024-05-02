@@ -25,9 +25,9 @@ Enum and Remove Hook in Windows Kernel
 5. 枚举和移除对象（进程，线程，桌面）回调。  
    ObRegisterCallbacks + ObUnRegisterCallbacks  
 6. 枚举和移除MiniFilter。  
-   不但支持常规的Operations（PreOperation + PostOperation）  
-   而且还有Contexts（ContextCleanupCallback + ContextType）  
-   还有CommunicationPort（仅仅ServerPort）的信息，如：ConnectNotify + DisconnectNotify + MessageNotify。
+   包含Operations（PreOperation + PostOperation）  
+   包含Contexts（ContextCleanupCallback + ContextType）  
+   包含CommunicationPort（仅仅ServerPort）的信息，如：ConnectNotify + DisconnectNotify + MessageNotify。  
    FltRegisterFilter + FltUnregisterFilter（有待测试, 可能会卡）  
 7. 枚举和反注册WFP的Callout。  
    FwpsCalloutRegister + FwpsCalloutUnregisterById  
