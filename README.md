@@ -12,7 +12,7 @@ Enum and Remove Hook in Windows Kernel
 8. 支持Windows 7 SP1(Windows Server 2008 R2)及以后的系统。  
 9. 后期考虑支持ARM64。  
 
-已经实现的功能：（按实现顺序，非功能分类）  
+已经实现的功能：  
 1. 枚举和移除进程回调。  
    PsSetCreateProcessNotifyRoutine + PsSetCreateProcessNotifyRoutineEx + PsSetCreateProcessNotifyRoutineEx2  
 2. 枚举和移除线程回调。  
@@ -39,13 +39,12 @@ Enum and Remove Hook in Windows Kernel
 10. 枚举小端口网卡驱动。注意：不是网卡个数。  
     NdisMRegisterMiniportDriver  
 11. 枚举和删除DPC定时器。有待完善。  
-    以Zw/Nt开头的定时器也属于这个。  
+    以Zw/Nt/Ex开头的定时器也属于这个。  
     KeCancelTimer。  
     用到了符号解析，如：结构体中成员的偏移，结构体中的数组的个数，全局且未导出的变量等。  
 12. 枚举和停止IO定时器。  
     IoInitializeTimer + IoStopTimer 
-13. 枚举EX定时器。有待分析。  
-    ExAllocateTimer  
+13. 读写内核内存。  
 14. 枚举System Service Descriptor Table (SSDT)  
     KeServiceDescriptorTable  
 15. 枚举System Service Shadow Descriptor Table (SSSDT)  
@@ -73,7 +72,7 @@ Enum and Remove Hook in Windows Kernel
     ExRegisterCallback + ExUnregisterCallback。(对象目录:\Callback)  
 24. 枚举和反注册会话回调  
    （IoRegisterContainerNotification，非SeRegisterLogonSessionTerminatedRoutine/Ex.)  
-25. Dump HalDispatchTable  
+25. 枚举HalDispatchTable  
     没有使用符号解析，没有使用特征码。  
 26. 枚举已经卸载的驱动
 27. 给进程赋予System的Token权限，相当于NT AUTHORITY\SYSTEM。  
@@ -86,7 +85,6 @@ Enum and Remove Hook in Windows Kernel
     如：0x1fffff,这个可以和ObRegisterCallbacks对抗，逃避监控。  
     验证：先切换到目标进程（.process /r /p 0xXXXXXX），然后运行!handle 0xxx。  
     危险：谨慎使用，弄不好会卡系统。  
-    没有使用符号解析，没有使用特征码。  
     有待验证是否会触发系统的保护机制（PG/KPP).  
 30. 枚举PiDDBCache  
 31. 枚举HalAcpiDispatchTable  
@@ -104,7 +102,7 @@ Enum and Remove Hook in Windows Kernel
 1. 工作线程.    尽管生命周期很短。
 2. 反汇编引擎，如：zydis。
 3. 硬件虚拟化相关的。
-4. 读写内核内存。
+4. POOL TAG。
 5. 本地内核调试。
 6. EtwRegister EtwUnregister
 7. IoRegisterPlugPlayNotification
