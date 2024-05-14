@@ -20,10 +20,18 @@
 
 关于配置文件里的符号配置的说明：
 1. 不加载符号文件，也可以使用部分功能，但部分功能缺失。
-2. 只有ntoskrnl.exe和ndis.sys是必须的功能。
+2. 只有ntoskrnl.exe,ndis.sys,fltmgr.sys等几个是必须。
 3. 其他的符号文件，仅仅是为了显示符号（如：函数名）的信息而已。
 4. 符号文件的配置是相对于%SystemRoot%\system32的。
 5. 目前加载符号，没有提示，没有进度条。
+6. 符号支持三个配置  
+   一个是系统的环境变量:_NT_SYMBOL_PATH和_NT_ALT_SYMBOL_PATH  
+   一个是配置文件:config.json  
+   一个是程序默认设置的:程序所在的目录下的symbols目录  
+7. 符号支持三个类型：  
+   一个是微软官方的服务器:http://msdl.microsoft.com/download/symbols，  
+   一个是自定义的（局域网或互联网）服务器，  
+   一个是本地目录（自己的程序的符号文件，估计可以是UNC路径）。  
 
 关于签名文件的说明：
 1. 签名算法：SHA512 + ECDSA_P521。在驱动验签。  

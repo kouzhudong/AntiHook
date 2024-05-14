@@ -97,6 +97,8 @@ Enum and Remove Hook in Windows Kernel
     win32k!W32pServiceTableFilter = win32k!SysEntryGetW32pServiceTableFilter()  
     KeAddSystemServiceTable(W32pServiceTableFilter, 0i64, W32pServiceLimitFilter, &W32pArgumentTableFilter, 2);  
     这个一般情况下和KeServiceDescriptorTableShadow是不同的，特殊的情况下相同。  
+36. 枚举和反注册不可屏蔽中断(NMI:nonmaskable interrupt)回调。  
+    KeRegisterNmiCallback + KeDeregisterNmiCallback  
 
 考虑添加的功能：
 1. 工作线程.    尽管生命周期很短。

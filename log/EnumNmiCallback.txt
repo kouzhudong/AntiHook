@@ -1,0 +1,25 @@
+C:\Users\Administrator\Desktop\x64>AntiHook.exe EnumNmiCallback
+numbers:1
+
+Index:1
+NmiCallbackObject:FFFF9809B035D350
+CallbackRoutine:FFFFF8000ADF11D0, FullPathName:\??\C:\Windows\System32\drivers\test.sys, SymbolName:NmiCallback
+Context:0000000000000000
+
+
+C:\Users\Administrator\Desktop\x64>
+
+
+--------------------------------------------------------------------------------------------------
+
+
+1: kd> ln FFFFF8000ADF11D0
+Browse module
+Set bu breakpoint
+
+ [D:\git\gitlab\code\tool\src\antihook\src\test\NmiCallback\test\test.c @ 45] (fffff800`0adf11d0)   test!NmiCallback   |  (fffff800`0adf1250)   test!Unload
+Exact matches:
+    test!NmiCallback (void *, unsigned char)
+
+
+2024-05-14
