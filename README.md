@@ -99,6 +99,10 @@ Enum and Remove Hook in Windows Kernel
     这个一般情况下和KeServiceDescriptorTableShadow是不同的，特殊的情况下相同。  
 36. 枚举和反注册不可屏蔽中断(NMI:nonmaskable interrupt)回调。  
     KeRegisterNmiCallback + KeDeregisterNmiCallback  
+37. 枚举LookasideList信息。  
+    ExNPagedLookasideListHead + ExPagedLookasideListHead + ExSystemLookasideListHead + ExPoolLookasideListHead  
+38. 枚举执行体资源（_ERESOURCE）信息。
+    ExpSystemResourcesList + ExpResourceSpinLock
 
 考虑添加的功能：
 1. 工作线程.    尽管生命周期很短。
