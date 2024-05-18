@@ -97,7 +97,6 @@ Enum and Remove Hook in Windows Kernel
 35. 枚举KeServiceDescriptorTableFilter。  
     win32k!W32pServiceTableFilter = win32k!SysEntryGetW32pServiceTableFilter()  
     KeAddSystemServiceTable(W32pServiceTableFilter, 0i64, W32pServiceLimitFilter, &W32pArgumentTableFilter, 2);  
-    这个一般情况下和KeServiceDescriptorTableShadow是不同的，特殊的情况下相同。  
 36. 枚举和反注册不可屏蔽中断(NMI:nonmaskable interrupt)回调。  
     KeRegisterNmiCallback + KeDeregisterNmiCallback  
 37. 枚举LookasideList信息。  
@@ -105,9 +104,9 @@ Enum and Remove Hook in Windows Kernel
 38. 枚举执行体资源（_ERESOURCE）信息。  
     ExpSystemResourcesList + ExpResourceSpinLock
 39. 物理内存相关。  
-    枚举物理内存，当前是分块进行的，也可以按照页进行的。  MmGetPhysicalMemoryRanges + MmIsIoSpaceActive  
-    读写物理内存。  MmMapIoSpace + MmUnmapIoSpace + MmMapLockedPagesSpecifyCache  
-    物理内存与虚拟内存（必须是内核内存且非分页）的互转。  MmGetVirtualForPhysical + MmGetPhysicalAddress  
+    枚举物理内存，当前是分块进行的，也可以按照页进行的。MmGetPhysicalMemoryRanges + MmIsIoSpaceActive  
+    读写物理内存。MmMapIoSpace + MmUnmapIoSpace + MmProbeAndLockPages  
+    物理内存与虚拟内存（必须是内核内存且非分页）的互转。MmGetVirtualForPhysical + MmGetPhysicalAddress  
 
 考虑添加的功能：
 1. 工作线程.    尽管生命周期很短。
