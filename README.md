@@ -107,6 +107,9 @@ Enum and Remove Hook in Windows Kernel
     枚举物理内存，当前是分块进行的，也可以按照页进行的。MmGetPhysicalMemoryRanges + MmIsIoSpaceActive  
     读写物理内存。MmMapIoSpace + MmUnmapIoSpace + MmProbeAndLockPages  
     物理内存与虚拟内存（必须是内核内存且非分页）的互转。MmGetVirtualForPhysical + MmGetPhysicalAddress  
+40. 枚举和反注册PNP通知。  
+    PnpProfileNotifyList + PnpDeviceClassNotifyList + PnpDeferredRegistrationList + PnpKsrNotifyList  
+    IoUnregisterPlugPlayNotificationEx  
 
 考虑添加的功能：
 1. 工作线程.    尽管生命周期很短。

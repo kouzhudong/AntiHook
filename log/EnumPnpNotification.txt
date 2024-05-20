@@ -1,0 +1,277 @@
+C:\Users\Administrator\Desktop\x64>AntiHook.exe EnumPnpNotification
+Numbers:34
+
+Index:1
+EventCategory:1(EventCategoryHardwareProfileChange)
+EventCategoryFlags:0
+DriverObject:FFFF80092FCEDE30
+CallbackRoutine:FFFFF8007F82F0C0, FullPathName:\SystemRoot\System32\drivers\i8042prt.sys
+Context:FFFF80092FD718E0
+NotificationEntry:FFFFD30EB91A7E70
+
+Index:2
+EventCategory:1(EventCategoryHardwareProfileChange)
+EventCategoryFlags:0
+DriverObject:FFFF80092FD99DD0
+CallbackRoutine:FFFFF8007F9AC600, FullPathName:\SystemRoot\System32\drivers\HDAudBus.sys
+Context:00007FF6D05625B8
+NotificationEntry:FFFFD30EB91A8590
+
+Index:3
+EventCategory:2(EventCategoryDeviceInterfaceChange)
+EventCategoryFlags:0
+DriverObject:FFFF80092D8B9A00
+CallbackRoutine:FFFFF80076E536A0, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+Context:0000000000000001
+NotificationEntry:FFFFD30EB79505A0
+
+Index:4
+EventCategory:2(EventCategoryDeviceInterfaceChange)
+EventCategoryFlags:0
+DriverObject:FFFF80092D8B9A00
+CallbackRoutine:FFFFF80076E536A0, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+Context:0000000000000009
+NotificationEntry:FFFFD30EB7950B50
+
+Index:5
+EventCategory:2(EventCategoryDeviceInterfaceChange)
+EventCategoryFlags:0
+DriverObject:FFFF80092F046D50
+CallbackRoutine:FFFFF8007B7E9E70, FullPathName:\SystemRoot\System32\drivers\spaceport.sys
+Context:0000000000000000
+NotificationEntry:FFFFD30EB7E1C680
+
+Index:6
+EventCategory:2(EventCategoryDeviceInterfaceChange)
+EventCategoryFlags:0
+DriverObject:FFFF80092FDA8940
+CallbackRoutine:FFFFBC0DAB672D20, FullPathName:\SystemRoot\System32\win32kbase.sys
+Context:FFFF80092FACFA18
+NotificationEntry:FFFFD30EBAF49310
+
+Index:7
+EventCategory:2(EventCategoryDeviceInterfaceChange)
+EventCategoryFlags:0
+DriverObject:FFFF80092FDA8940
+CallbackRoutine:FFFFBC0DAB672D20, FullPathName:\SystemRoot\System32\win32kbase.sys
+Context:FFFF8009301EE1C8
+NotificationEntry:FFFFD30EBAF49380
+
+Index:8
+EventCategory:2(EventCategoryDeviceInterfaceChange)
+EventCategoryFlags:0
+DriverObject:FFFF80092FDA8940
+CallbackRoutine:FFFFBC0DAB672D20, FullPathName:\SystemRoot\System32\win32kbase.sys
+Context:FFFF8009301A5698
+NotificationEntry:FFFFD30EBAF493F0
+
+Index:9
+EventCategory:2(EventCategoryDeviceInterfaceChange)
+EventCategoryFlags:0
+DriverObject:FFFF80092FDA8940
+CallbackRoutine:FFFFBC0DAB672D20, FullPathName:\SystemRoot\System32\win32kbase.sys
+Context:FFFF8009301E6188
+NotificationEntry:FFFFD30EBAF497E0
+
+Index:10
+EventCategory:2(EventCategoryDeviceInterfaceChange)
+EventCategoryFlags:0
+DriverObject:FFFF80092FDA8940
+CallbackRoutine:FFFFBC0DAB672D20, FullPathName:\SystemRoot\System32\win32kbase.sys
+Context:FFFF8009301E0698
+NotificationEntry:FFFFD30EBAF49E70
+
+Index:11
+EventCategory:2(EventCategoryDeviceInterfaceChange)
+EventCategoryFlags:0
+DriverObject:FFFF80092FDA8940
+CallbackRoutine:FFFFBC0DAB672D20, FullPathName:\SystemRoot\System32\win32kbase.sys
+Context:FFFF8009301E3188
+NotificationEntry:FFFFD30EBAF49A10
+
+Index:12
+EventCategory:2(EventCategoryDeviceInterfaceChange)
+EventCategoryFlags:0
+DriverObject:FFFF80092FCEA060
+CallbackRoutine:FFFFF8007F7CA940, FullPathName:\SystemRoot\System32\DriverStore\FileRepository\compositebus.inf_amd64_6657edf28697c405\CompositeBus.sys
+Context:00007FF6D0315DC8
+NotificationEntry:FFFFD30EB91236B0
+
+Index:13
+EventCategory:2(EventCategoryDeviceInterfaceChange)
+EventCategoryFlags:0
+DriverObject:FFFF80092D8B9A00
+CallbackRoutine:FFFFF80076E536A0, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+Context:0000000000000003
+NotificationEntry:FFFFD30EB79507D0
+
+Index:14
+EventCategory:2(EventCategoryDeviceInterfaceChange)
+EventCategoryFlags:0
+DriverObject:FFFF80092D8B9A00
+CallbackRoutine:FFFFF80076E536A0, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+Context:0000000000000008
+NotificationEntry:FFFFD30EB7950A70
+
+Index:15
+EventCategory:2(EventCategoryDeviceInterfaceChange)
+EventCategoryFlags:0
+DriverObject:FFFF80092D930E30
+CallbackRoutine:FFFFF80076F08380, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+Context:0000000000000000
+NotificationEntry:FFFFD30EB79508B0
+
+Index:16
+EventCategory:2(EventCategoryDeviceInterfaceChange)
+EventCategoryFlags:0
+DriverObject:FFFF80092D949E30
+CallbackRoutine:FFFFF8007B1FAE00, FullPathName:\SystemRoot\System32\drivers\cng.sys
+Context:FFFF80092D949E30
+NotificationEntry:FFFFD30EB7C96DF0
+
+Index:17
+EventCategory:2(EventCategoryDeviceInterfaceChange)
+EventCategoryFlags:0
+DriverObject:FFFF80092F241E00
+CallbackRoutine:FFFFF8007B6E1960, FullPathName:\SystemRoot\system32\drivers\pdc.sys
+Context:0000000000000000
+NotificationEntry:FFFFD30EB7E1C220
+
+Index:18
+EventCategory:2(EventCategoryDeviceInterfaceChange)
+EventCategoryFlags:0
+DriverObject:FFFF80092FAAF6F0
+CallbackRoutine:FFFFF8007FA912C0, FullPathName:\SystemRoot\System32\drivers\dxgkrnl.sys
+Context:0000000000000000
+NotificationEntry:FFFFD30EB7EFF4C0
+
+Index:19
+EventCategory:2(EventCategoryDeviceInterfaceChange)
+EventCategoryFlags:0
+DriverObject:FFFF80092FCEA060
+CallbackRoutine:FFFFF8007F7CA940, FullPathName:\SystemRoot\System32\DriverStore\FileRepository\compositebus.inf_amd64_6657edf28697c405\CompositeBus.sys
+Context:00007FF6D0315DC8
+NotificationEntry:FFFFD30EB91234F0
+
+Index:20
+EventCategory:2(EventCategoryDeviceInterfaceChange)
+EventCategoryFlags:0
+DriverObject:FFFF80092F047D50
+CallbackRoutine:FFFFF8007B82EA40, FullPathName:\SystemRoot\System32\drivers\volmgr.sys
+Context:0000000000000000
+NotificationEntry:FFFFD30EB7E1CF40
+
+Index:21
+EventCategory:2(EventCategoryDeviceInterfaceChange)
+EventCategoryFlags:0
+DriverObject:FFFF80092FAAF6F0
+CallbackRoutine:FFFFF8007FC3D1A0, FullPathName:\SystemRoot\System32\drivers\dxgkrnl.sys
+Context:0000000000000000
+NotificationEntry:FFFFD30EB7EFF3E0
+
+Index:22
+EventCategory:2(EventCategoryDeviceInterfaceChange)
+EventCategoryFlags:0
+DriverObject:FFFF80092FDA8940
+CallbackRoutine:FFFFBC0DAB672D20, FullPathName:\SystemRoot\System32\win32kbase.sys
+Context:FFFF8009301E2B88
+NotificationEntry:FFFFD30EBA7ABE20
+
+Index:23
+EventCategory:2(EventCategoryDeviceInterfaceChange)
+EventCategoryFlags:0
+DriverObject:FFFF80092FDA8940
+CallbackRoutine:FFFFBC0DABAF7650, FullPathName:\SystemRoot\System32\win32kfull.sys
+Context:0000000000000000
+NotificationEntry:FFFFD30EBA0FAE90
+
+Index:24
+EventCategory:2(EventCategoryDeviceInterfaceChange)
+EventCategoryFlags:0
+DriverObject:FFFF80092D88D880
+CallbackRoutine:FFFFF8007B471640, FullPathName:\SystemRoot\System32\drivers\ACPI.sys
+Context:0000000000000000
+NotificationEntry:FFFFD30EB7C96300
+
+Index:25
+EventCategory:2(EventCategoryDeviceInterfaceChange)
+EventCategoryFlags:0
+DriverObject:FFFF80092FAAF6F0
+CallbackRoutine:FFFFF8007FDE6940, FullPathName:\SystemRoot\System32\drivers\dxgkrnl.sys
+Context:FFFF80092FAAD1C0
+NotificationEntry:FFFFD30EB7EFFD80
+
+Index:26
+EventCategory:2(EventCategoryDeviceInterfaceChange)
+EventCategoryFlags:0
+DriverObject:FFFF80092FC30430
+CallbackRoutine:FFFFF8007F332D50, FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
+Context:FFFF80092FC30430
+NotificationEntry:FFFFD30EB9049290
+
+Index:27
+EventCategory:2(EventCategoryDeviceInterfaceChange)
+EventCategoryFlags:0
+DriverObject:FFFF80092F051D50
+CallbackRoutine:FFFFF8007B930700, FullPathName:\SystemRoot\System32\drivers\mountmgr.sys
+Context:FFFF80092F111A40
+NotificationEntry:FFFFD30EB7C097D0
+
+Index:28
+EventCategory:2(EventCategoryDeviceInterfaceChange)
+EventCategoryFlags:0
+DriverObject:FFFF80092F9A9E40
+CallbackRoutine:FFFFF8007C0850B0, FullPathName:\SystemRoot\system32\drivers\ndis.sys
+Context:0000000000000000
+NotificationEntry:FFFFD30EB7C090D0
+
+Index:29
+EventCategory:2(EventCategoryDeviceInterfaceChange)
+EventCategoryFlags:0
+DriverObject:FFFF80092FA898F0
+CallbackRoutine:FFFFF8007C6E5D00, FullPathName:\SystemRoot\System32\drivers\volsnap.sys
+Context:FFFF80092FA96060
+NotificationEntry:FFFFD30EB79B4480
+
+Index:30
+EventCategory:2(EventCategoryDeviceInterfaceChange)
+EventCategoryFlags:0
+DriverObject:FFFF80092FDA8940
+CallbackRoutine:FFFFBC0DAB672D20, FullPathName:\SystemRoot\System32\win32kbase.sys
+Context:FFFF80092FB2A1B8
+NotificationEntry:FFFFD30EBA0FA9C0
+
+Index:31
+EventCategory:2(EventCategoryDeviceInterfaceChange)
+EventCategoryFlags:0
+DriverObject:FFFF80092D8B9A00
+CallbackRoutine:FFFFF80076E536A0, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+Context:0000000000000002
+NotificationEntry:FFFFD30EB7950610
+
+Index:32
+EventCategory:2(EventCategoryDeviceInterfaceChange)
+EventCategoryFlags:0
+DriverObject:FFFF80092D8B9A00
+CallbackRoutine:FFFFF80076F9CB10, FullPathName:\SystemRoot\system32\ntoskrnl.exe
+Context:0000000000000000
+NotificationEntry:FFFFD30EB79506F0
+
+Index:33
+EventCategory:2(EventCategoryDeviceInterfaceChange)
+EventCategoryFlags:0
+DriverObject:FFFF80092F115E00
+CallbackRoutine:FFFFF8007B733530, FullPathName:\SystemRoot\System32\drivers\partmgr.sys
+Context:FFFF80092F10CA40
+NotificationEntry:FFFFD30EB7E1C300
+
+Index:34
+EventCategory:2(EventCategoryDeviceInterfaceChange)
+EventCategoryFlags:0
+DriverObject:FFFF80092F046D50
+CallbackRoutine:FFFFF8007B7DCA50, FullPathName:\SystemRoot\System32\drivers\spaceport.sys
+Context:0000000000000000
+NotificationEntry:FFFFD30EB7E1C5A0
+
+
+C:\Users\Administrator\Desktop\x64>
