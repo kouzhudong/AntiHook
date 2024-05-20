@@ -110,6 +110,8 @@ Enum and Remove Hook in Windows Kernel
 40. 枚举和反注册PNP通知。  
     PnpProfileNotifyList + PnpDeviceClassNotifyList + PnpDeferredRegistrationList + PnpKsrNotifyList  
     IoUnregisterPlugPlayNotificationEx  
+41. 枚举和反注册电源设置回调。  
+    PopRegisteredPowerSettingCallbacks + PopSettingLock + PoUnregisterPowerSettingCallback  
 
 考虑添加的功能：
 1. 工作线程.    尽管生命周期很短。
@@ -118,7 +120,7 @@ Enum and Remove Hook in Windows Kernel
 4. POOL TAG。
 5. 本地内核调试。
 6. EtwRegister EtwUnregister
-7. IoRegisterPlugPlayNotification
+7.   
 8. KseRegisterShim KseRegisterShimEx KseUnregisterShim
 9. PcwRegister PcwUnregister
 10. NmrpRegisterModule == NmrRegisterClient + NmrRegisterProvider + WskRegister。
