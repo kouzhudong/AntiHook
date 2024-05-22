@@ -120,7 +120,7 @@ Enum and Remove Hook in Windows Kernel
 4. POOL TAG。
 5. 本地内核调试。
 6. EtwRegister EtwUnregister
-7.   
+7. BIG POOL
 8. KseRegisterShim KseRegisterShimEx KseUnregisterShim
 9. PcwRegister PcwUnregister
 10. NmrpRegisterModule == NmrRegisterClient + NmrRegisterProvider + WskRegister。
