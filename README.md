@@ -126,7 +126,7 @@ Enum and Remove Hook in Windows Kernel
 10. NmrpRegisterModule == NmrRegisterClient + NmrRegisterProvider + WskRegister。
 11. PsRegisterSiloMonitor
 12. PsRegisterPicoProvider
-13. 系统热键
+13. 系统热键 和 消息钩子
 14. Unified Extensible Firmware Interface (UEFI)
 15. Root System Description Table (RSDT)
 16. Fixed ACPI Description Table (FADT)
