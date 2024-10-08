@@ -1,0 +1,12 @@
+{
+    "versig" : {
+        "url" : "https://52.20.183.239/antihook.php",
+        "proxy" : ""
+    },
+    "update" : {
+        "url" : "",
+        "hash" : "",
+        "ver" : "1.0.0.1",
+        "proxy" : ""
+    }
+}
