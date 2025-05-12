@@ -18,8 +18,7 @@ Enum and Remove Hook in Windows Kernel
 2. 枚举和移除线程回调。  
    PsSetCreateThreadNotifyRoutine + PsSetCreateThreadNotifyRoutineEx + PsRemoveCreateThreadNotifyRoutine  
 3. 枚举和移除IMAGE回调。  
-   PsSetLoadImageNotifyRoutine + PsSetLoadImageNotifyRoutineEx + PsRemoveLoadImageNotifyRoutine  
-   暂时不支持：SeRegisterImageVerificationCallback + SeUnregisterImageVerificationCallback  
+   PsSetLoadImageNotifyRoutine + PsSetLoadImageNotifyRoutineEx + PsRemoveLoadImageNotifyRoutine   
 4. 枚举和移除注册表回调。  
    CmRegisterCallback + CmRegisterCallbackEx + CmUnRegisterCallback
 5. 枚举和移除对象（进程，线程，桌面）回调。  
@@ -112,6 +111,9 @@ Enum and Remove Hook in Windows Kernel
     IoUnregisterPlugPlayNotificationEx  
 41. 枚举和反注册电源设置回调。  
     PopRegisteredPowerSettingCallbacks + PopSettingLock + PoUnregisterPowerSettingCallback  
+42. 读写nt!PspNotifyEnableMask。
+43. 枚举和移除ImageVerificationCallback。  
+    SeRegisterImageVerificationCallback + SeUnregisterImageVerificationCallback
 
 考虑添加的功能：
 1. 工作线程.    尽管生命周期很短。
