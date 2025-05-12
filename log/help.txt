@@ -1,0 +1,112 @@
+
+C:\Users\user\Desktop\bin>AntiHook.exe help
+made by correy
+https://github.com/kouzhudong
+Copyright (C) Correy Studio. All rights reserved.
+
+这里是命令行的用法和设计思想的详细说明.
+第一步确保你能成功安装驱动，如：驱动签名，AV的拦截等.
+第二步确保你有一个有效的本程序的授权认证（这里是签名）.
+第三步确保你有(联网或者复制)适合本地的符号文件.
+第四步查询各种信息.
+第五步修改系统的配置，如：移除回调函数等.
+第六步看看有没有更新的版本.
+第七步是卸载.
+
+提示：这里的所有的地址(包括数字)都是十六进制的.
+
+C:\Users\user\Desktop\bin>AntiHook.exe /?
+made by correy
+https://github.com/kouzhudong
+Copyright (C) Correy Studio. All rights reserved.
+
+Usage:
+
+AntiHook.exe Install
+AntiHook.exe VerifySignature
+AntiHook.exe Init
+
+AntiHook.exe EnumProcessNotifyRoutine
+AntiHook.exe RemoveProcessNotifyRoutine Routine
+AntiHook.exe EnumThreadNotifyRoutine
+AntiHook.exe RemoveThreadNotifyRoutine Routine
+AntiHook.exe EnumLoadImageNotifyRoutine
+AntiHook.exe RemoveLoadImageNotifyRoutine Routine
+AntiHook.exe ReadPspNotifyEnableMask
+AntiHook.exe WritePspNotifyEnableMask Mask
+AntiHook.exe EnumShutdownNotification
+AntiHook.exe UnRegisterShutdownNotification DeviceObject
+AntiHook.exe EnumContainerNotification
+AntiHook.exe UnRegisterContainerNotification CallbackRegistration
+AntiHook.exe EnumPnpNotification
+AntiHook.exe UnRegisterPnpNotification NotificationEntry
+
+AntiHook.exe EnumRegistryCallback
+AntiHook.exe RemoveRegistryCallback Cookie
+AntiHook.exe EnumObjectCallback
+AntiHook.exe RemoveObjectCallback RegistrationHandle
+AntiHook.exe EnumBugCheckCallback
+AntiHook.exe DeRegisterBugCheckCallback Callback
+AntiHook.exe DeRegisterBugCheckReasonCallback Callback
+AntiHook.exe EnumExCallback
+AntiHook.exe UnRegisterExCallback CallbackRegistration
+AntiHook.exe EnumNmiCallback
+AntiHook.exe DeRegisterNmiCallback NmiCallbackObject
+AntiHook.exe EnumPowerSettingCallback
+AntiHook.exe UnRegisterPowerSettingCallback Handle
+AntiHook.exe EnumImageVerificationCallback
+AntiHook.exe UnRegisterImageVerificationCallback CallbackHandle
+
+AntiHook.exe EnumGlobalDescriptorTable
+AntiHook.exe EnumInterruptDescriptorTable
+AntiHook.exe EnumKeServiceDescriptorTable
+AntiHook.exe EnumKeServiceDescriptorTableShadow
+AntiHook.exe EnumKeServiceDescriptorTableFilter
+AntiHook.exe EnumHalDispatchTable
+AntiHook.exe EnumHalAcpiDispatchTable
+AntiHook.exe EnumHalSubComponents
+AntiHook.exe EnumHalIommuDispatchTable
+AntiHook.exe EnumHalPrivateDispatchTable
+
+AntiHook.exe EnumFilterDevice \Device\Name
+AntiHook.exe DetachDevice DeviceObject
+AntiHook.exe EnumMiniFilter
+AntiHook.exe RemoveMinifilter FilterName
+AntiHook.exe CloseServerPort ServerPortObject
+AntiHook.exe CloseClientPort FilterName
+AntiHook.exe EnumWfpCallout
+AntiHook.exe UnRegisterCallout CalloutId
+
+AntiHook.exe EnumProtocolDriver
+AntiHook.exe EnumNdisFilterDriver
+AntiHook.exe EnumMiniPortDriver
+
+AntiHook.exe EnumDpcTimer
+AntiHook.exe CancelDpcTimer TimerObject
+AntiHook.exe EnumIoTimer
+AntiHook.exe StopIoTimer DeviceObject
+
+AntiHook.exe ReadKernelMemory KernelAddress Length
+AntiHook.exe WriteKernelMemory BinData KernelAddress
+AntiHook.exe PhysicalAddress2NoPageKernelVirtualAddress PhysicalAddress
+AntiHook.exe NoPageKernelVirtualAddress2PhysicalAddress VirtualAddress
+AntiHook.exe EnumPhysicalMemory
+AntiHook.exe ReadPhysicalMemory PhysicalAddress Length
+AntiHook.exe WritePhysicalMemory BinData PhysicalAddress
+AntiHook.exe EnumLookasideList
+AntiHook.exe EnumResourceLite
+
+AntiHook.exe SetProcessProtectionLevel Pid Level
+AntiHook.exe SetProcessSystemToken Pid
+AntiHook.exe SetHandleAccess Pid Handle Access
+
+AntiHook.exe EnumTypeObject
+AntiHook.exe EnumDriverObject
+AntiHook.exe EnumUnloadedDrivers
+AntiHook.exe EnumPiDDBCache
+
+AntiHook.exe Update
+AntiHook.exe Uninstall
+AntiHook.exe Help
+
+C:\Users\user\Desktop\bin>
