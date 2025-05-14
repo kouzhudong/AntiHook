@@ -113,7 +113,13 @@ Enum and Remove Hook in Windows Kernel
     PopRegisteredPowerSettingCallbacks + PopSettingLock + PoUnregisterPowerSettingCallback  
 42. 读写nt!PspNotifyEnableMask。
 43. 枚举和移除ImageVerificationCallback。  
-    SeRegisterImageVerificationCallback + SeUnregisterImageVerificationCallback
+    SeRegisterImageVerificationCallback + SeUnregisterImageVerificationCallback  
+44. 枚举和反注册FsNotifyChange。  
+    IoRegisterFsRegistrationChange + IoRegisterFsRegistrationChangeEx + IoRegisterFsRegistrationChangeMountAware + IoUnregisterFsRegistrationChange  
+45. 枚举和反注册LogonSessionTerminatedRoutine。  
+    SeRegisterLogonSessionTerminatedRoutine + SeUnregisterLogonSessionTerminatedRoutine  
+46. 枚举和反注册LogonSessionTerminatedRoutineEx。  
+    SeRegisterLogonSessionTerminatedRoutineEx + SeUnregisterLogonSessionTerminatedRoutineEx  
 
 考虑添加的功能：
 1. 工作线程.    尽管生命周期很短。
