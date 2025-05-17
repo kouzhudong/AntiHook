@@ -120,6 +120,8 @@ Enum and Remove Hook in Windows Kernel
     SeRegisterLogonSessionTerminatedRoutine + SeUnregisterLogonSessionTerminatedRoutine  
 46. 枚举和反注册LogonSessionTerminatedRoutineEx。  
     SeRegisterLogonSessionTerminatedRoutineEx + SeUnregisterLogonSessionTerminatedRoutineEx  
+47. 枚举和反注册SiloMonitor。  
+    PsRegisterSiloMonitor + PsUnregisterSiloMonitor。  
 
 考虑添加的功能：
 1. 工作线程.    尽管生命周期很短。
@@ -132,7 +134,7 @@ Enum and Remove Hook in Windows Kernel
 8. KseRegisterShim KseRegisterShimEx KseUnregisterShim
 9. PcwRegister PcwUnregister
 10. NmrpRegisterModule == NmrRegisterClient + NmrRegisterProvider + WskRegister。
-11. PsRegisterSiloMonitor
+11.  
 12. PsRegisterPicoProvider
 13. 系统热键 和 消息钩子
 14. Unified Extensible Firmware Interface (UEFI)

@@ -1,0 +1,95 @@
+C:\Users\Administrator\Desktop\AntiHook>AntiHook.exe EnumSiloMonitor
+Numbers:10
+
+Index:1
+Monitor:FFFFD4045A013B40
+MonitorHost:yes
+MonitorExistingSilos:yes
+Slot:3
+CreateCallback:FFFFF80278510920, FullPathName:\SystemRoot\system32\CI.dll
+TerminateCallback:0000000000000000
+ComponentName:ci.dll
+
+Index:2
+Monitor:FFFFD4045A4F9AC0
+MonitorHost:no
+MonitorExistingSilos:yes
+Slot:5
+CreateCallback:FFFFF802796AFC60, FullPathName:\SystemRoot\system32\drivers\NETIO.SYS
+TerminateCallback:FFFFF802796AFD60, FullPathName:\SystemRoot\system32\drivers\NETIO.SYS
+ComponentName:NSI
+
+Index:3
+Monitor:FFFFD4045A49E5A0
+MonitorHost:yes
+MonitorExistingSilos:yes
+Slot:6
+CreateCallback:FFFFF80278B1B570, FullPathName:\SystemRoot\System32\drivers\pcw.sys
+TerminateCallback:0000000000000000
+ComponentName:\Device\PcwDrv
+
+Index:4
+Monitor:FFFFD4045A620760
+MonitorHost:yes
+MonitorExistingSilos:no
+Slot:8
+CreateCallback:FFFFF802783D15D0, FullPathName:\SystemRoot\System32\drivers\ksecdd.sys
+TerminateCallback:FFFFF802783D53D0, FullPathName:\SystemRoot\System32\drivers\ksecdd.sys
+ComponentName:\Driver\KSecDD
+
+Index:5
+Monitor:FFFFD4045A67EAE0
+MonitorHost:no
+MonitorExistingSilos:no
+Slot:9
+CreateCallback:FFFFF80279CFB310, FullPathName:\SystemRoot\System32\Drivers\mup.sys
+TerminateCallback:FFFFF80279CFB540, FullPathName:\SystemRoot\System32\Drivers\mup.sys
+ComponentName:\FileSystem\Mup
+
+Index:6
+Monitor:FFFFD4045A6F77D0
+MonitorHost:no
+MonitorExistingSilos:no
+Slot:11
+CreateCallback:FFFFF80280E09260, FullPathName:\SystemRoot\System32\Drivers\Msfs.SYS
+TerminateCallback:FFFFF80280E09310, FullPathName:\SystemRoot\System32\Drivers\Msfs.SYS
+ComponentName:\FileSystem\Msfs
+
+Index:7
+Monitor:FFFFD4045AA665E0
+MonitorHost:yes
+MonitorExistingSilos:yes
+Slot:12
+CreateCallback:FFFFF80280F986C0, FullPathName:\SystemRoot\system32\drivers\afd.sys
+TerminateCallback:FFFFF80280FA0B70, FullPathName:\SystemRoot\system32\drivers\afd.sys
+ComponentName:\Driver\AFD
+
+Index:8
+Monitor:FFFFD4045AAF4BC0
+MonitorHost:no
+MonitorExistingSilos:no
+Slot:13
+CreateCallback:FFFFF802811FF3A0, FullPathName:\SystemRoot\system32\DRIVERS\rdbss.sys
+TerminateCallback:FFFFF802811FF790, FullPathName:\SystemRoot\system32\DRIVERS\rdbss.sys
+ComponentName:\FileSystem\rdbss
+
+Index:9
+Monitor:FFFFD4045AAF4CA0
+MonitorHost:no
+MonitorExistingSilos:no
+Slot:14
+CreateCallback:FFFFF80281396BC0, FullPathName:\SystemRoot\System32\Drivers\dfsc.sys
+TerminateCallback:FFFFF80281397030, FullPathName:\SystemRoot\System32\Drivers\dfsc.sys
+ComponentName:\FileSystem\Dfsc
+
+Index:10
+Monitor:FFFFD4045A1CA8B0
+MonitorHost:yes
+MonitorExistingSilos:yes
+Slot:19
+CreateCallback:FFFFF8027CFD4690, FullPathName:\SystemRoot\system32\drivers\HTTP.sys
+TerminateCallback:FFFFF8027CFD4A90, FullPathName:\SystemRoot\system32\drivers\HTTP.sys
+ComponentName:\Driver\HTTP
+
+
+C:\Users\Administrator\Desktop\AntiHook>
