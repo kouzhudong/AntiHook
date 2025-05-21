@@ -112,7 +112,7 @@ Enum and Remove Hook in Windows Kernel
 41. 枚举和反注册电源设置回调。  
     PopRegisteredPowerSettingCallbacks + PopSettingLock + PoUnregisterPowerSettingCallback  
 42. 读写nt!PspNotifyEnableMask。
-43. 枚举和移除ImageVerificationCallback。  
+43. 枚举和反注册ImageVerificationCallback。  
     SeRegisterImageVerificationCallback + SeUnregisterImageVerificationCallback  
 44. 枚举和反注册FsNotifyChange。  
     IoRegisterFsRegistrationChange + IoRegisterFsRegistrationChangeEx + IoRegisterFsRegistrationChangeMountAware + IoUnregisterFsRegistrationChange  
@@ -122,33 +122,35 @@ Enum and Remove Hook in Windows Kernel
     SeRegisterLogonSessionTerminatedRoutineEx + SeUnregisterLogonSessionTerminatedRoutineEx  
 47. 枚举和反注册SiloMonitor。  
     PsRegisterSiloMonitor + PsUnregisterSiloMonitor。  
+48. 枚举nt!HalpRegisteredInterruptControllers。  
+    !list -t nt!_LIST_ENTRY.Flink -x "dx -r2 (nt!_REGISTERED_INTERRUPT_CONTROLLER *)" -e -m poi(nt!HalpInterruptControllerCount) poi(nt!HalpRegisteredInterruptControllers)  
+49. 在应用层枚举 POOL TAG 和 BIG POOL。  
+50. 
 
 考虑添加的功能：
 1. 工作线程.    尽管生命周期很短。
 2. 反汇编引擎，如：zydis。
 3. 硬件虚拟化相关的。
-4. POOL TAG。
+4. 系统热键 和 消息钩子。
 5. 本地内核调试。
 6. EtwRegister EtwUnregister
-7. BIG POOL
+7. PsRegisterPicoProvider
 8. KseRegisterShim KseRegisterShimEx KseUnregisterShim
 9. PcwRegister PcwUnregister
 10. NmrpRegisterModule == NmrRegisterClient + NmrRegisterProvider + WskRegister。
-11.  
-12. PsRegisterPicoProvider
-13. 系统热键 和 消息钩子
-14. Unified Extensible Firmware Interface (UEFI)
-15. Root System Description Table (RSDT)
-16. Fixed ACPI Description Table (FADT)
-17. Multiple APIC Description Table (MADT)
-18. Generic Timer Description Table (GTDT)
-19. Core System Resources Table (CSRT)
-20. Debug Port Table 2 (DBG2)
-21. Differentiated System Description Table (DSDT)
-22. Windows SMM Security Mitigations Table (WSMT)
-23. iSCSI Boot Firmware Table (iBFT)
-24. Boot Graphics Resource Table (BGRT)
-25. Firmware Performance Data Table (FPDT)
+11. ExRegisterHost + ExRegisterExtension + ExUnregisterExtension  
+12. Boot Graphics Resource Table (BGRT)  
+13. Firmware Performance Data Table (FPDT)  
+14. Unified Extensible Firmware Interface (UEFI)  
+15. Root System Description Table (RSDT)  
+16. Fixed ACPI Description Table (FADT)  
+17. Multiple APIC Description Table (MADT)  
+18. Generic Timer Description Table (GTDT)  
+19. Core System Resources Table (CSRT)  
+20. Debug Port Table 2 (DBG2)  
+21. Differentiated System Description Table (DSDT)  
+22. Windows SMM Security Mitigations Table (WSMT)  
+23. iSCSI Boot Firmware Table (iBFT)  
 
 确定不添加的功能：
 1. 进程
