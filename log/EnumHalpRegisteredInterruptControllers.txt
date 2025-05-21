@@ -1,0 +1,186 @@
+C:\Users\user\Desktop\bin>AntiHook.exe EnumHalpRegisteredInterruptControllers
+Numbers:1
+
+Index:1
+MemberName:ListEntry                                     FFFFF802D77C1F50
+MemberName:InternalData                                  Void:FFFFF7F9C0000840
+MemberName:InternalDataSize                              ULong:48
+MemberName:FunctionTable
+  MemberName:InitializeLocalUnit            FunctionAddress:FFFFF802D6D6DEE0 FullPathName:\SystemRoot\system32\ntoskrnl.exe
+  MemberName:InitializeIoUnit               FunctionAddress:FFFFF802D6D6DD00 FullPathName:\SystemRoot\system32\ntoskrnl.exe
+  MemberName:SetPriority                    FunctionAddress:FFFFF802D6D6E650 FullPathName:\SystemRoot\system32\ntoskrnl.exe
+  MemberName:GetLocalUnitError              FunctionAddress:FFFFF802D6CD8B40 FullPathName:\SystemRoot\system32\ntoskrnl.exe
+  MemberName:ClearLocalUnitError            FunctionAddress:FFFFF802D6CD8280 FullPathName:\SystemRoot\system32\ntoskrnl.exe
+  MemberName:GetLogicalId                   FunctionAddress:0000000000000000
+  MemberName:SetLogicalId                   FunctionAddress:FFFFF802D6D6E500 FullPathName:\SystemRoot\system32\ntoskrnl.exe
+  MemberName:AcceptAndGetSource             FunctionAddress:0000000000000000
+  MemberName:EndOfInterrupt                 FunctionAddress:FFFFF802D6D6E790 FullPathName:\SystemRoot\system32\ntoskrnl.exe
+  MemberName:FastEndOfInterrupt             FunctionAddress:FFFFF802D6EA01F0 FullPathName:\SystemRoot\system32\ntoskrnl.exe
+  MemberName:SetLineState                   FunctionAddress:FFFFF802D6C82590 FullPathName:\SystemRoot\system32\ntoskrnl.exe
+  MemberName:RequestInterrupt               FunctionAddress:FFFFF802D6BF66A0 FullPathName:\SystemRoot\system32\ntoskrnl.exe
+  MemberName:StartProcessor                 FunctionAddress:FFFFF802D6D6E6A0 FullPathName:\SystemRoot\system32\ntoskrnl.exe
+  MemberName:GenerateMessage                FunctionAddress:FFFFF802D6D6DB00 FullPathName:\SystemRoot\system32\ntoskrnl.exe
+  MemberName:ConvertId                      FunctionAddress:0000000000000000
+  MemberName:SaveLocalInterrupts            FunctionAddress:FFFFF802D6D799C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe
+  MemberName:ReplayLocalInterrupts          FunctionAddress:FFFFF802D6D798E0 FullPathName:\SystemRoot\system32\ntoskrnl.exe
+  MemberName:DeinitializeLocalUnit          FunctionAddress:FFFFF802D6D6D860 FullPathName:\SystemRoot\system32\ntoskrnl.exe
+  MemberName:DeinitializeIoUnit             FunctionAddress:0000000000000000
+  MemberName:QueryAndGetSource              FunctionAddress:FFFFF802D6D6E200 FullPathName:\SystemRoot\system32\ntoskrnl.exe
+  MemberName:DeactivateInterrupt            FunctionAddress:0000000000000000
+  MemberName:DirectedEndOfInterrupt         FunctionAddress:0000000000000000
+  MemberName:QueryLocalUnitInfo             FunctionAddress:0000000000000000
+  MemberName:QueryPendingState              FunctionAddress:0000000000000000
+  MemberName:CaptureGlobalCrashdumpState    FunctionAddress:0000000000000000
+  MemberName:CaptureProcessorCrashdumpState FunctionAddress:0000000000000000
+MemberName:KnownType                                     2
+MemberName:Capabilities                                  ULong:255
+MemberName:Flags                                         ULong:1
+MemberName:MaxPriority                                   ULong:15
+MemberName:UnitId                                        ULong:2
+MemberName:LinesHead                                     FFFFF7F9C00008D8
+MemberName:OutputLinesHead                               FFFFF7F9C0000B80
+MemberName:MinLine                                       Long:-10
+MemberName:MaxLine                                       Long:24
+MemberName:MaxClusterSize                                ULong:4
+MemberName:MaxClusters                                   ULong:15
+MemberName:InterruptReplayDataSize                       ULong:96
+MemberName:Problem                                       0
+MemberName:ProblemStatus                                 Long:0
+MemberName:ProblemSourceFile                             Char:0
+MemberName:ProblemSourceLine                             ULong:0
+MemberName:CustomProblem                                 ULong:0
+MemberName:CustomProblemStatus                           Long:0
+MemberName:ResourceId                                    VEN_MSFT&DEV_4000&SUBDEV_0002&REV_0001&UID_00000002
+MemberName:PowerHandle                                   说是POHANDLE__类型，其实是_POP_FX_DEVICE
+
+
+C:\Users\user\Desktop\bin>
+
+
+上面是程序输出
+下面是windbg验证
+
+
+0: kd> !list -t nt!_LIST_ENTRY.Flink -x "dx -r2 (nt!_REGISTERED_INTERRUPT_CONTROLLER *)" -e -m poi(nt!HalpInterruptControllerCount) poi(nt!HalpRegisteredInterruptControllers)
+dx -r2 (nt!_REGISTERED_INTERRUPT_CONTROLLER *) 0xfffff7f9c00006c8 
+(nt!_REGISTERED_INTERRUPT_CONTROLLER *) 0xfffff7f9c00006c8                  : 0xfffff7f9c00006c8 [Type: _REGISTERED_INTERRUPT_CONTROLLER *]
+    [+0x000] ListEntry        [Type: _LIST_ENTRY]
+        [+0x000] Flink            : 0xfffff802d77c1f50 [Type: _LIST_ENTRY *]
+        [+0x008] Blink            : 0xfffff802d77c1f50 [Type: _LIST_ENTRY *]
+    [+0x010] InternalData     : 0xfffff7f9c0000840 [Type: void *]
+    [+0x018] InternalDataSize : 0x30 [Type: unsigned long]
+    [+0x020] FunctionTable    [Type: _INTERRUPT_FUNCTION_TABLE]
+        [+0x000] InitializeLocalUnit : 0xfffff802d6d6dee0 : ntkrnlmp!HalpApicInitializeLocalUnit+0x0 [Type: long (__cdecl*)(void *,unsigned long,unsigned long,unsigned long,unsigned long,unsigned long *)]
+        [+0x008] InitializeIoUnit : 0xfffff802d6d6dd00 : ntkrnlmp!HalpApicInitializeIoUnit+0x0 [Type: long (__cdecl*)(void *)]
+        [+0x010] SetPriority      : 0xfffff802d6d6e650 : ntkrnlmp!HalpApicSetPriority+0x0 [Type: void (__cdecl*)(void *,unsigned long)]
+        [+0x018] GetLocalUnitError : 0xfffff802d6cd8b40 : ntkrnlmp!HalpApicGetLocalUnitError+0x0 [Type: unsigned long (__cdecl*)(void *)]
+        [+0x020] ClearLocalUnitError : 0xfffff802d6cd8280 : ntkrnlmp!HalpApicClearLocalUnitError+0x0 [Type: void (__cdecl*)(void *)]
+        [+0x028] GetLogicalId     : 0x0 : 0x0 [Type: long (__cdecl*)(void *,_INTERRUPT_TARGET *)]
+        [+0x030] SetLogicalId     : 0xfffff802d6d6e500 : ntkrnlmp!HalpApicSetLogicalId+0x0 [Type: long (__cdecl*)(void *,_INTERRUPT_TARGET *)]
+        [+0x038] AcceptAndGetSource : 0x0 : 0x0 [Type: _INTERRUPT_RESULT (__cdecl*)(void *,long *,unsigned long *)]
+        [+0x040] EndOfInterrupt   : 0xfffff802d6d6e790 : ntkrnlmp!HalpApicWriteEndOfInterrupt+0x0 [Type: void (__cdecl*)(void *)]
+        [+0x048] FastEndOfInterrupt : 0xfffff802d6ea01f0 : ntkrnlmp!HalpApic1EndOfInterrupt+0x0 [Type: void (__cdecl*)()]
+        [+0x050] SetLineState     : 0xfffff802d6c82590 : ntkrnlmp!HalpApicSetLineState+0x0 [Type: long (__cdecl*)(void *,_INTERRUPT_LINE *,_INTERRUPT_LINE_STATE *)]
+        [+0x058] RequestInterrupt : 0xfffff802d6bf66a0 : ntkrnlmp!HalpApicRequestInterrupt+0x0 [Type: long (__cdecl*)(void *,_INTERRUPT_LINE *,_INTERRUPT_TARGET *,unsigned long,_INTERRUPT_LINE *)]
+        [+0x060] StartProcessor   : 0xfffff802d6d6e6a0 : ntkrnlmp!HalpApicStartProcessor+0x0 [Type: long (__cdecl*)(void *,unsigned long,void *,unsigned long)]
+        [+0x068] GenerateMessage  : 0xfffff802d6d6db00 : ntkrnlmp!HalpApicGenerateMessage+0x0 [Type: long (__cdecl*)(void *,_INTERRUPT_LINE_STATE *,unsigned __int64 *,unsigned __int64 *)]
+        [+0x070] ConvertId        : 0x0 : 0x0 [Type: long (__cdecl*)(void *,unsigned long *,_INTERRUPT_TARGET *,unsigned char)]
+        [+0x078] SaveLocalInterrupts : 0xfffff802d6d799c0 : ntkrnlmp!HalpApicSaveLocalInterrupts+0x0 [Type: long (__cdecl*)(void *,void *)]
+        [+0x080] ReplayLocalInterrupts : 0xfffff802d6d798e0 : ntkrnlmp!HalpApicReplayLocalInterrupts+0x0 [Type: long (__cdecl*)(void *,void *)]
+        [+0x088] DeinitializeLocalUnit : 0xfffff802d6d6d860 : ntkrnlmp!HalpApicDeinitializeLocalUnit+0x0 [Type: long (__cdecl*)(void *)]
+        [+0x090] DeinitializeIoUnit : 0x0 : 0x0 [Type: long (__cdecl*)(void *)]
+        [+0x098] QueryAndGetSource : 0xfffff802d6d6e200 : ntkrnlmp!HalpApicQueryAndGetSource+0x0 [Type: _INTERRUPT_RESULT (__cdecl*)(void *,long *,unsigned long *,unsigned char *)]
+        [+0x0a0] DeactivateInterrupt : 0x0 : 0x0 [Type: void (__cdecl*)(void *,unsigned long)]
+        [+0x0a8] DirectedEndOfInterrupt : 0x0 : 0x0 [Type: void (__cdecl*)(void *,unsigned long,unsigned long)]
+        [+0x0b0] QueryLocalUnitInfo : 0x0 : 0x0 [Type: long (__cdecl*)(void *,unsigned long,unsigned long *,unsigned long *,_KINTERRUPT_MODE *,_KINTERRUPT_MODE *)]
+        [+0x0b8] QueryPendingState : 0x0 : 0x0 [Type: long (__cdecl*)(void *,_INTERRUPT_LINE *,unsigned char *,unsigned char *)]
+        [+0x0c0] CaptureGlobalCrashdumpState : 0x0 : 0x0 [Type: void (__cdecl*)(void *)]
+        [+0x0c8] CaptureProcessorCrashdumpState : 0x0 : 0x0 [Type: void (__cdecl*)(void *,unsigned long)]
+    [+0x0f0] KnownType        : InterruptControllerApic (2) [Type: _KNOWN_CONTROLLER_TYPE]
+    [+0x0f4] Capabilities     : 0xff [Type: unsigned long]
+    [+0x0f8] Flags            : 0x1 [Type: unsigned long]
+    [+0x0fc] MaxPriority      : 0xf [Type: unsigned long]
+    [+0x100] UnitId           : 0x2 [Type: unsigned long]
+    [+0x108] LinesHead        [Type: _LIST_ENTRY]
+        [+0x000] Flink            : 0xfffff7f9c00008d8 [Type: _LIST_ENTRY *]
+        [+0x008] Blink            : 0xfffff7f9c0012000 [Type: _LIST_ENTRY *]
+    [+0x118] OutputLinesHead  [Type: _LIST_ENTRY]
+        [+0x000] Flink            : 0xfffff7f9c0000b80 [Type: _LIST_ENTRY *]
+        [+0x008] Blink            : 0xfffff7f9c0000b80 [Type: _LIST_ENTRY *]
+    [+0x128] MinLine          : -10 [Type: long]
+    [+0x12c] MaxLine          : 24 [Type: long]
+    [+0x130] MaxClusterSize   : 0x4 [Type: unsigned long]
+    [+0x134] MaxClusters      : 0xf [Type: unsigned long]
+    [+0x138] InterruptReplayDataSize : 0x60 [Type: unsigned long]
+    [+0x13c] Problem          : InterruptProblemNone (0) [Type: _INTERRUPT_PROBLEM]
+    [+0x140] ProblemStatus    : 0 [Type: long]
+    [+0x148] ProblemSourceFile : 0x0 [Type: char *]
+    [+0x150] ProblemSourceLine : 0x0 [Type: unsigned long]
+    [+0x154] CustomProblem    : 0x0 [Type: unsigned long]
+    [+0x158] CustomProblemStatus : 0 [Type: long]
+    [+0x160] ResourceId       : "VEN_MSFT&DEV_4000&SUBDEV_0002&REV_0001&UID_00000002" [Type: _UNICODE_STRING]
+        [+0x000] Length           : 0x66 [Type: unsigned short]
+        [+0x002] MaximumLength    : 0x68 [Type: unsigned short]
+        [+0x008] Buffer           : 0xfffff7f9c0000870 : "VEN_MSFT&DEV_4000&SUBDEV_0002&REV_0001&UID_00000002" [Type: wchar_t *]
+    [+0x170] PowerHandle      : 0xffffe606dd2dc520 [Type: POHANDLE__ *]
+        [+0x000] unused           : -584201616 [Type: int]
+
+0: kd> dt 0xffffe606dd2dc520 _POP_FX_DEVICE
+nt!_POP_FX_DEVICE
+   +0x000 Link             : _LIST_ENTRY [ 0xffffe606`dd2dca70 - 0xfffff802`d770cb30 ]
+   +0x010 Irp              : (null) 
+   +0x018 IrpData          : (null) 
+   +0x020 Status           : _POP_FX_DEVICE_STATUS
+   +0x024 PowerReqCall     : 0n0
+   +0x028 PowerNotReqCall  : 0n0
+   +0x030 DevNode          : (null) 
+   +0x038 DpmContext       : 0xffffe606`dd24fdb0 PEPHANDLE__
+   +0x040 Plugin           : (null) 
+   +0x048 PluginHandle     : (null) 
+   +0x050 AcpiPlugin       : (null) 
+   +0x058 AcpiPluginHandle : (null) 
+   +0x060 DeviceObject     : (null) 
+   +0x068 TargetDevice     : (null) 
+   +0x070 Callbacks        : _POP_FX_DRIVER_CALLBACKS
+   +0x0c0 DriverContext    : 0xfffff7f9`c00006c8 Void
+   +0x0c8 AcpiLink         : _LIST_ENTRY [ 0xffffe606`dd2dc5e8 - 0xffffe606`dd2dc5e8 ]
+   +0x0d8 DeviceId         : _UNICODE_STRING "VEN_MSFT&DEV_4000&SUBDEV_0002&REV_0001&UID_00000002"
+   +0x0e8 CommonReferenceFlags : 0n1
+   +0x0f0 RemoveLock       : _IO_REMOVE_LOCK
+   +0x110 RemoveLockReferenceCount : [10] 0n0
+   +0x138 AcpiRemoveLock   : _IO_REMOVE_LOCK
+   +0x158 WorkOrder        : _POP_FX_WORK_ORDER
+   +0x190 IdleLock         : 0
+   +0x198 IdleTimer        : _KTIMER
+   +0x1d8 IdleDpc          : _KDPC
+   +0x218 IdleTimeout      : 0
+   +0x220 IdleStamp        : 0
+   +0x228 NextIrpDeviceObject : [2] (null) 
+   +0x238 NextIrpPowerState : [2] _POWER_STATE
+   +0x240 NextIrpCallerCompletion : [2] (null) 
+   +0x250 NextIrpCallerContext : [2] (null) 
+   +0x260 IrpCompleteEvent : _KEVENT
+   +0x278 PowerOnDumpDeviceCallback : (null) 
+   +0x280 Accounting       : _POP_FX_ACCOUNTING
+   +0x360 Flags            : 0
+   +0x364 ComponentCount   : 1
+   +0x368 Components       : 0xffffe606`dd250010  -> 0xffffe606`dd250018 _POP_FX_COMPONENT
+   +0x370 LogEntries       : 0x40
+   +0x378 Log              : 0xffffe606`dd250208 _POP_FX_LOG_ENTRY
+   +0x380 LogIndex         : 0n0
+   +0x388 DripsWatchdogDriverObject : (null) 
+   +0x390 DripsWatchdogContext : _POP_FX_DRIPS_WATCHDOG_CONTEXT
+   +0x3b8 ChildDeviceComponentIndex : 0xffffffff
+   +0x3bc DirectedTimeout  : 0
+   +0x3c0 DirectedWorkOrder : _POP_FX_WORK_ORDER
+   +0x3f8 DirectedWorkWatchdogInfo : _POP_FX_WORK_ORDER_WATCHDOG_INFO
+   +0x4a8 DirectedLock     : 0
+   +0x4b0 DirectedTransitionCallCount : 0n0
+   +0x4b8 DirectedTransitionState : _POP_FX_DEVICE_DIRECTED_TRANSITION_STATE
+   +0x4c8 PowerProfile     : (null) 
+   +0x4d0 FriendlyName     : _UNICODE_STRING ""
+   +0x4e0 ReportDevicePoweredOnPassiveWorkItem : _WORK_QUEUE_ITEM
+   +0x500 RelationsLock    : 0
+   +0x508 IdleProviderCount : 0
+   +0x510 PendingDevicePowerIrp : (null) 
+   +0x518 ExternalDependencies : _LIST_ENTRY [ 0xffffe606`dd2dca38 - 0xffffe606`dd2dca38 ]
