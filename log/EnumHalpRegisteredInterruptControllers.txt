@@ -6,26 +6,26 @@ MemberName:ListEntry                                     FFFFF802D77C1F50
 MemberName:InternalData                                  Void:FFFFF7F9C0000840
 MemberName:InternalDataSize                              ULong:48
 MemberName:FunctionTable
-  MemberName:InitializeLocalUnit            FunctionAddress:FFFFF802D6D6DEE0 FullPathName:\SystemRoot\system32\ntoskrnl.exe
-  MemberName:InitializeIoUnit               FunctionAddress:FFFFF802D6D6DD00 FullPathName:\SystemRoot\system32\ntoskrnl.exe
-  MemberName:SetPriority                    FunctionAddress:FFFFF802D6D6E650 FullPathName:\SystemRoot\system32\ntoskrnl.exe
-  MemberName:GetLocalUnitError              FunctionAddress:FFFFF802D6CD8B40 FullPathName:\SystemRoot\system32\ntoskrnl.exe
-  MemberName:ClearLocalUnitError            FunctionAddress:FFFFF802D6CD8280 FullPathName:\SystemRoot\system32\ntoskrnl.exe
+  MemberName:InitializeLocalUnit            FunctionAddress:FFFFF802D6D6DEE0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpApicInitializeLocalUnit
+  MemberName:InitializeIoUnit               FunctionAddress:FFFFF802D6D6DD00 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpApicInitializeIoUnit
+  MemberName:SetPriority                    FunctionAddress:FFFFF802D6D6E650 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpApicSetPriority
+  MemberName:GetLocalUnitError              FunctionAddress:FFFFF802D6CD8B40 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpApicGetLocalUnitError
+  MemberName:ClearLocalUnitError            FunctionAddress:FFFFF802D6CD8280 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpApicClearLocalUnitError
   MemberName:GetLogicalId                   FunctionAddress:0000000000000000
-  MemberName:SetLogicalId                   FunctionAddress:FFFFF802D6D6E500 FullPathName:\SystemRoot\system32\ntoskrnl.exe
+  MemberName:SetLogicalId                   FunctionAddress:FFFFF802D6D6E500 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpApicSetLogicalId
   MemberName:AcceptAndGetSource             FunctionAddress:0000000000000000
-  MemberName:EndOfInterrupt                 FunctionAddress:FFFFF802D6D6E790 FullPathName:\SystemRoot\system32\ntoskrnl.exe
-  MemberName:FastEndOfInterrupt             FunctionAddress:FFFFF802D6EA01F0 FullPathName:\SystemRoot\system32\ntoskrnl.exe
-  MemberName:SetLineState                   FunctionAddress:FFFFF802D6C82590 FullPathName:\SystemRoot\system32\ntoskrnl.exe
-  MemberName:RequestInterrupt               FunctionAddress:FFFFF802D6BF66A0 FullPathName:\SystemRoot\system32\ntoskrnl.exe
-  MemberName:StartProcessor                 FunctionAddress:FFFFF802D6D6E6A0 FullPathName:\SystemRoot\system32\ntoskrnl.exe
-  MemberName:GenerateMessage                FunctionAddress:FFFFF802D6D6DB00 FullPathName:\SystemRoot\system32\ntoskrnl.exe
+  MemberName:EndOfInterrupt                 FunctionAddress:FFFFF802D6D6E790 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpApicWriteEndOfInterrupt
+  MemberName:FastEndOfInterrupt             FunctionAddress:FFFFF802D6EA01F0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpApic1EndOfInterrupt
+  MemberName:SetLineState                   FunctionAddress:FFFFF802D6C82590 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpApicSetLineState
+  MemberName:RequestInterrupt               FunctionAddress:FFFFF802D6BF66A0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpApicRequestInterrupt
+  MemberName:StartProcessor                 FunctionAddress:FFFFF802D6D6E6A0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpApicStartProcessor
+  MemberName:GenerateMessage                FunctionAddress:FFFFF802D6D6DB00 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpApicGenerateMessage
   MemberName:ConvertId                      FunctionAddress:0000000000000000
-  MemberName:SaveLocalInterrupts            FunctionAddress:FFFFF802D6D799C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe
-  MemberName:ReplayLocalInterrupts          FunctionAddress:FFFFF802D6D798E0 FullPathName:\SystemRoot\system32\ntoskrnl.exe
-  MemberName:DeinitializeLocalUnit          FunctionAddress:FFFFF802D6D6D860 FullPathName:\SystemRoot\system32\ntoskrnl.exe
+  MemberName:SaveLocalInterrupts            FunctionAddress:FFFFF802D6D799C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpApicSaveLocalInterrupts
+  MemberName:ReplayLocalInterrupts          FunctionAddress:FFFFF802D6D798E0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpApicReplayLocalInterrupts
+  MemberName:DeinitializeLocalUnit          FunctionAddress:FFFFF802D6D6D860 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpApicDeinitializeLocalUnit
   MemberName:DeinitializeIoUnit             FunctionAddress:0000000000000000
-  MemberName:QueryAndGetSource              FunctionAddress:FFFFF802D6D6E200 FullPathName:\SystemRoot\system32\ntoskrnl.exe
+  MemberName:QueryAndGetSource              FunctionAddress:FFFFF802D6D6E200 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:HalpApicQueryAndGetSource
   MemberName:DeactivateInterrupt            FunctionAddress:0000000000000000
   MemberName:DirectedEndOfInterrupt         FunctionAddress:0000000000000000
   MemberName:QueryLocalUnitInfo             FunctionAddress:0000000000000000
