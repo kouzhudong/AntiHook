@@ -1,0 +1,1201 @@
+
+C:\Users\user\Desktop\bin>AntiHook.exe EnumNdisGlobalFilterList
+Number:6
+
+Index:1
+Offset:000 Length:004 Name:Header
+        Type:5
+        Revision:1
+        Size:1416
+Offset:008 Length:008 Name:NextFilter                                   俺不关心这个，暂不处理
+Offset:010 Length:008 Name:FilterDriver                                 俺不关心这个，暂不处理
+Offset:018 Length:008 Name:FilterModuleContext                          Value:FFFF8084BF6584E0
+Offset:020 Length:008 Name:Miniport                                     俺不关心这个，暂不处理
+Offset:028 Length:008 Name:FilterInstanceName                           俺不关心这个，暂不处理 StructName:wistd::unique_ptr<Rtl::KString,wistd::default_delete<Rtl::KString> >
+Offset:030 Length:008 Name:FilterFriendlyName                           俺不关心这个，暂不处理
+Offset:038 Length:004 Name:Flags                                        俺不关心这个，暂不处理
+Offset:03c Length:004 Name:StackFlags                                   俺不关心这个，暂不处理
+Offset:040 Length:001 Name:State                                        俺不关心这个，暂不处理 StructName:_NDIS_FILTER_STATE
+Offset:048 Length:018 Name:Ref                                          俺不关心这个，暂不处理 StructName:_REFERENCE_EX
+Offset:060 Length:004 Name:FakeStatus                                   俺不关心这个，暂不处理
+Offset:068 Length:008 Name:NextGlobalFilter                             俺不关心这个，暂不处理
+Offset:070 Length:008 Name:LowerFilter                                  俺不关心这个，暂不处理
+Offset:078 Length:008 Name:HigherFilter                                 俺不关心这个，暂不处理
+Offset:080 Length:008 Name:AsyncOpContext                               俺不关心这个，暂不处理
+Offset:088 Length:004 Name:NumOfPauseRestartRequests                    俺不关心这个，暂不处理
+Offset:090 Length:008 Name:Lock                                         俺不关心这个，暂不处理
+Offset:098 Length:008 Name:LockThread                                   Value:0000000000000000
+Offset:0a0 Length:010 Name:OidRequestList                               俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:0b0 Length:008 Name:PendingOidRequest                            俺不关心这个，暂不处理
+Offset:0b8 Length:008 Name:PendingOidWatchdog                           俺不关心这个，暂不处理 StructName:wil::unique_any_t<wil::details::unique_storage<wil::details::resource_policy<NDISWATCHDOG__ *,void (__cdecl*)(NDISWATCHDOG__ *),&ndisFreeWatchdog,wistd::integral_constant<unsigned __int64,1>,NDISWATCHDOG__ *,__int64,-1,std::nullptr_t> > >
+Offset:000 Length:000 Name:<unnamed-type-StackExpansionFallback>        俺不关心这个，暂不处理
+Offset:0c0 Length:060 Name:StackExpansionFallback                       俺不关心这个，暂不处理 StructName:_NDIS_FILTER_BLOCK::<unnamed-type-StackExpansionFallback>
+Offset:120 Length:001 Name:StatusIndicationsQueued                      俺不关心这个，暂不处理
+Offset:124 Length:004 Name:DroppedReceiveNbls                           俺不关心这个，暂不处理
+Offset:128 Length:004 Name:DroppedSendNbls                              俺不关心这个，暂不处理
+Offset:12c Length:004 Name:DroppedStatusIndications                     俺不关心这个，暂不处理
+Offset:130 Length:004 Name:DroppedUncloneableStatusIndications          俺不关心这个，暂不处理
+Offset:138 Length:018 Name:PnPRef                                       俺不关心这个，暂不处理 StructName:_REFERENCE_EX
+Offset:150 Length:004 Name:MediaType                                    俺不关心这个，暂不处理 StructName:_NDIS_MEDIUM
+Offset:154 Length:004 Name:PhysicalMediaType                            俺不关心这个，暂不处理 StructName:_NDIS_PHYSICAL_MEDIUM
+Offset:158 Length:004 Name:MediaConnectState                            俺不关心这个，暂不处理 StructName:_NET_IF_MEDIA_CONNECT_STATE
+Offset:15c Length:004 Name:MediaDuplexState                             俺不关心这个，暂不处理 StructName:_NET_IF_MEDIA_DUPLEX_STATE
+Offset:160 Length:008 Name:XmitLinkSpeed                                俺不关心这个，暂不处理
+Offset:168 Length:008 Name:RcvLinkSpeed                                 俺不关心这个，暂不处理
+Offset:170 Length:004 Name:PauseFunctions                               俺不关心这个，暂不处理 StructName:_NDIS_SUPPORTED_PAUSE_FUNCTIONS
+Offset:174 Length:004 Name:AutoNegotiationFlags                         俺不关心这个，暂不处理
+Offset:178 Length:001 Name:XState                                       俺不关心这个，暂不处理
+Offset:179 Length:001 Name:Reserved1                                    俺不关心这个，暂不处理
+Offset:17a Length:001 Name:Reserved2                                    俺不关心这个，暂不处理
+Offset:17b Length:001 Name:Reserved3                                    俺不关心这个，暂不处理
+Offset:17c Length:004 Name:MediaConnectStateIndicateUp                  俺不关心这个，暂不处理 StructName:_NET_IF_MEDIA_CONNECT_STATE
+Offset:180 Length:004 Name:MediaDuplexStateIndicateUp                   俺不关心这个，暂不处理 StructName:_NET_IF_MEDIA_DUPLEX_STATE
+Offset:188 Length:008 Name:XmitLinkSpeedIndicateUp                      俺不关心这个，暂不处理
+Offset:190 Length:008 Name:RcvLinkSpeedIndicateUp                       俺不关心这个，暂不处理
+Offset:198 Length:004 Name:PauseFunctionsIndicateUp                     俺不关心这个，暂不处理 StructName:_NDIS_SUPPORTED_PAUSE_FUNCTIONS
+Offset:19c Length:004 Name:AutoNegotiationFlagsIndicateUp               俺不关心这个，暂不处理
+Offset:1a0 Length:008 Name:NextRequestHandle                            Value:FFFF8084C04D7620
+Offset:1a8 Length:008 Name:IterativeDataPathTracker                     俺不关心这个，暂不处理
+Offset:1b0 Length:008 Name:NextSendNetBufferListsHandler                Value:FFFFF80308D17CE0 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+Offset:1b8 Length:008 Name:NextSendNetBufferListsContext                Value:FFFF8084C04CFB10
+Offset:1c0 Length:008 Name:NextSendNetBufferListsTracker                俺不关心这个，暂不处理
+Offset:1c8 Length:008 Name:NextSendNetBufferListsObject                 俺不关心这个，暂不处理
+Offset:1d0 Length:008 Name:NextSendNetBufferListsCompleteHandler        Value:FFFFF80307F85080 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:1d8 Length:008 Name:NextSendNetBufferListsCompleteContext        Value:FFFF8084BF69F1A0
+Offset:1e0 Length:008 Name:NextSendNetBufferListsCompleteTracker        俺不关心这个，暂不处理
+Offset:1e8 Length:008 Name:NextSendNetBufferListsCompleteObject         俺不关心这个，暂不处理
+Offset:1f0 Length:008 Name:NextIndicateReceiveNetBufferListsHandler     Value:FFFFF80307F5D460 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:1f8 Length:008 Name:NextIndicateReceiveNetBufferListsContext     Value:FFFF8084BF69F1A0
+Offset:200 Length:008 Name:NextIndicateReceiveNetBufferListsTracker     俺不关心这个，暂不处理
+Offset:208 Length:008 Name:NextIndicateReceiveNetBufferListsObject      俺不关心这个，暂不处理
+Offset:210 Length:008 Name:NextReturnNetBufferListsHandler              Value:FFFFF80308D117D0 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+Offset:218 Length:008 Name:NextReturnNetBufferListsContext              Value:FFFF8084C04CFB10
+Offset:220 Length:008 Name:NextReturnNetBufferListsTracker              俺不关心这个，暂不处理
+Offset:228 Length:008 Name:NextReturnNetBufferListsObject               俺不关心这个，暂不处理
+Offset:230 Length:008 Name:NextCancelSendNetBufferListsHandler          Value:FFFFF8030800B540 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:238 Length:008 Name:NextCancelSendNetBufferListsContext          Value:FFFF8084BF69F1A0
+Offset:240 Length:030 Name:Characteristics                              俺不关心这个，暂不处理 StructName:_NDIS_FILTER_PARTIAL_CHARACTERISTICS
+Offset:270 Length:008 Name:FilterSendNetBufferListsHandler              Value:FFFFF80307FD2E00 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:278 Length:008 Name:FilterIndicateReceiveNetBufferListsHandler   Value:FFFFF80307FE2E90 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:280 Length:008 Name:FilterCancelSendNetBufferListsHandler        Value:FFFFF80307FDC860 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:288 Length:008 Name:NblTracker                                   俺不关心这个，暂不处理
+Offset:290 Length:008 Name:Offload                                      俺不关心这个，暂不处理
+Offset:298 Length:010 Name:InterfaceGuid                                俺不关心这个，暂不处理 StructName:_GUID
+Offset:2a8 Length:004 Name:IfIndex                                      俺不关心这个，暂不处理
+Offset:2b0 Length:008 Name:IfBlock                                      俺不关心这个，暂不处理
+Offset:2b8 Length:008 Name:NextDirectRequestHandle                      Value:FFFF8084BF69F1A0
+Offset:2c0 Length:004 Name:DirectOidRequestCount                        俺不关心这个，暂不处理
+Offset:2c8 Length:008 Name:WOLPatternList                               俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:2d0 Length:008 Name:PMProtocolOffloadList                        俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:2d8 Length:014 Name:PMCurrentParameters                          俺不关心这个，暂不处理 StructName:_NDIS_PM_PARAMETERS
+Offset:2f0 Length:008 Name:Bind                                         俺不关心这个，暂不处理
+Offset:2f8 Length:008 Name:HwTimestampCapabilities                      俺不关心这个，暂不处理
+Offset:300 Length:008 Name:HwTimestampCurrentConfig                     俺不关心这个，暂不处理
+Offset:308 Length:008 Name:VerifierContext                              Value:0000000000000000
+Offset:310 Length:040 Name:PktMonComp                                   俺不关心这个，暂不处理 StructName:_PKTMON_COMPONENT_CONTEXT
+Offset:350 Length:028 Name:PktMonEdgeLower                              俺不关心这个，暂不处理 StructName:_PKTMON_EDGE_CONTEXT
+Offset:378 Length:028 Name:PktMonEdgeUpper                              俺不关心这个，暂不处理 StructName:_PKTMON_EDGE_CONTEXT
+Offset:3a0 Length:020 Name:NblContextVerifierContext                    俺不关心这个，暂不处理 StructName:_NBL_CONTEXT_VERIFIER_CONTEXT
+Offset:3c0 Length:00c Name:SriovHwCapabilities                          俺不关心这个，暂不处理 StructName:_NDIS_SRIOV_CAPABILITIES
+Offset:3cc Length:00c Name:SriovCurrentCapabilities                     俺不关心这个，暂不处理 StructName:_NDIS_SRIOV_CAPABILITIES
+Offset:3d8 Length:084 Name:NicSwitchHwCapabilities                      俺不关心这个，暂不处理 StructName:_NDIS_NIC_SWITCH_CAPABILITIES
+Offset:45c Length:084 Name:NicSwitchCurrentCapabilities                 俺不关心这个，暂不处理 StructName:_NDIS_NIC_SWITCH_CAPABILITIES
+Offset:4e0 Length:054 Name:ReceiveFilterHwCapabilities                  俺不关心这个，暂不处理 StructName:_NDIS_RECEIVE_FILTER_CAPABILITIES
+Offset:534 Length:054 Name:ReceiveFilterCurrentCapabilities             俺不关心这个，暂不处理 StructName:_NDIS_RECEIVE_FILTER_CAPABILITIES
+
+---------------------------------------------------------------------------------------
+
+Index:2
+Offset:000 Length:004 Name:Header
+        Type:5
+        Revision:1
+        Size:1416
+Offset:008 Length:008 Name:NextFilter                                   俺不关心这个，暂不处理
+Offset:010 Length:008 Name:FilterDriver                                 俺不关心这个，暂不处理
+Offset:018 Length:008 Name:FilterModuleContext                          Value:FFFF8084BFB8FD70
+Offset:020 Length:008 Name:Miniport                                     俺不关心这个，暂不处理
+Offset:028 Length:008 Name:FilterInstanceName                           俺不关心这个，暂不处理 StructName:wistd::unique_ptr<Rtl::KString,wistd::default_delete<Rtl::KString> >
+Offset:030 Length:008 Name:FilterFriendlyName                           俺不关心这个，暂不处理
+Offset:038 Length:004 Name:Flags                                        俺不关心这个，暂不处理
+Offset:03c Length:004 Name:StackFlags                                   俺不关心这个，暂不处理
+Offset:040 Length:001 Name:State                                        俺不关心这个，暂不处理 StructName:_NDIS_FILTER_STATE
+Offset:048 Length:018 Name:Ref                                          俺不关心这个，暂不处理 StructName:_REFERENCE_EX
+Offset:060 Length:004 Name:FakeStatus                                   俺不关心这个，暂不处理
+Offset:068 Length:008 Name:NextGlobalFilter                             俺不关心这个，暂不处理
+Offset:070 Length:008 Name:LowerFilter                                  俺不关心这个，暂不处理
+Offset:078 Length:008 Name:HigherFilter                                 俺不关心这个，暂不处理
+Offset:080 Length:008 Name:AsyncOpContext                               俺不关心这个，暂不处理
+Offset:088 Length:004 Name:NumOfPauseRestartRequests                    俺不关心这个，暂不处理
+Offset:090 Length:008 Name:Lock                                         俺不关心这个，暂不处理
+Offset:098 Length:008 Name:LockThread                                   Value:0000000000000000
+Offset:0a0 Length:010 Name:OidRequestList                               俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:0b0 Length:008 Name:PendingOidRequest                            俺不关心这个，暂不处理
+Offset:0b8 Length:008 Name:PendingOidWatchdog                           俺不关心这个，暂不处理 StructName:wil::unique_any_t<wil::details::unique_storage<wil::details::resource_policy<NDISWATCHDOG__ *,void (__cdecl*)(NDISWATCHDOG__ *),&ndisFreeWatchdog,wistd::integral_constant<unsigned __int64,1>,NDISWATCHDOG__ *,__int64,-1,std::nullptr_t> > >
+Offset:000 Length:000 Name:<unnamed-type-StackExpansionFallback>        俺不关心这个，暂不处理
+Offset:0c0 Length:060 Name:StackExpansionFallback                       俺不关心这个，暂不处理 StructName:_NDIS_FILTER_BLOCK::<unnamed-type-StackExpansionFallback>
+Offset:120 Length:001 Name:StatusIndicationsQueued                      俺不关心这个，暂不处理
+Offset:124 Length:004 Name:DroppedReceiveNbls                           俺不关心这个，暂不处理
+Offset:128 Length:004 Name:DroppedSendNbls                              俺不关心这个，暂不处理
+Offset:12c Length:004 Name:DroppedStatusIndications                     俺不关心这个，暂不处理
+Offset:130 Length:004 Name:DroppedUncloneableStatusIndications          俺不关心这个，暂不处理
+Offset:138 Length:018 Name:PnPRef                                       俺不关心这个，暂不处理 StructName:_REFERENCE_EX
+Offset:150 Length:004 Name:MediaType                                    俺不关心这个，暂不处理 StructName:_NDIS_MEDIUM
+Offset:154 Length:004 Name:PhysicalMediaType                            俺不关心这个，暂不处理 StructName:_NDIS_PHYSICAL_MEDIUM
+Offset:158 Length:004 Name:MediaConnectState                            俺不关心这个，暂不处理 StructName:_NET_IF_MEDIA_CONNECT_STATE
+Offset:15c Length:004 Name:MediaDuplexState                             俺不关心这个，暂不处理 StructName:_NET_IF_MEDIA_DUPLEX_STATE
+Offset:160 Length:008 Name:XmitLinkSpeed                                俺不关心这个，暂不处理
+Offset:168 Length:008 Name:RcvLinkSpeed                                 俺不关心这个，暂不处理
+Offset:170 Length:004 Name:PauseFunctions                               俺不关心这个，暂不处理 StructName:_NDIS_SUPPORTED_PAUSE_FUNCTIONS
+Offset:174 Length:004 Name:AutoNegotiationFlags                         俺不关心这个，暂不处理
+Offset:178 Length:001 Name:XState                                       俺不关心这个，暂不处理
+Offset:179 Length:001 Name:Reserved1                                    俺不关心这个，暂不处理
+Offset:17a Length:001 Name:Reserved2                                    俺不关心这个，暂不处理
+Offset:17b Length:001 Name:Reserved3                                    俺不关心这个，暂不处理
+Offset:17c Length:004 Name:MediaConnectStateIndicateUp                  俺不关心这个，暂不处理 StructName:_NET_IF_MEDIA_CONNECT_STATE
+Offset:180 Length:004 Name:MediaDuplexStateIndicateUp                   俺不关心这个，暂不处理 StructName:_NET_IF_MEDIA_DUPLEX_STATE
+Offset:188 Length:008 Name:XmitLinkSpeedIndicateUp                      俺不关心这个，暂不处理
+Offset:190 Length:008 Name:RcvLinkSpeedIndicateUp                       俺不关心这个，暂不处理
+Offset:198 Length:004 Name:PauseFunctionsIndicateUp                     俺不关心这个，暂不处理 StructName:_NDIS_SUPPORTED_PAUSE_FUNCTIONS
+Offset:19c Length:004 Name:AutoNegotiationFlagsIndicateUp               俺不关心这个，暂不处理
+Offset:1a0 Length:008 Name:NextRequestHandle                            Value:FFFF8084C04D58A0
+Offset:1a8 Length:008 Name:IterativeDataPathTracker                     俺不关心这个，暂不处理
+Offset:1b0 Length:008 Name:NextSendNetBufferListsHandler                Value:FFFFF80308D17CE0 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+Offset:1b8 Length:008 Name:NextSendNetBufferListsContext                Value:FFFF8084C04CFB10
+Offset:1c0 Length:008 Name:NextSendNetBufferListsTracker                俺不关心这个，暂不处理
+Offset:1c8 Length:008 Name:NextSendNetBufferListsObject                 俺不关心这个，暂不处理
+Offset:1d0 Length:008 Name:NextSendNetBufferListsCompleteHandler        Value:FFFFF80307F85080 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:1d8 Length:008 Name:NextSendNetBufferListsCompleteContext        Value:FFFF8084BF69F1A0
+Offset:1e0 Length:008 Name:NextSendNetBufferListsCompleteTracker        俺不关心这个，暂不处理
+Offset:1e8 Length:008 Name:NextSendNetBufferListsCompleteObject         俺不关心这个，暂不处理
+Offset:1f0 Length:008 Name:NextIndicateReceiveNetBufferListsHandler     Value:FFFFF80307F5D460 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:1f8 Length:008 Name:NextIndicateReceiveNetBufferListsContext     Value:FFFF8084BF69F1A0
+Offset:200 Length:008 Name:NextIndicateReceiveNetBufferListsTracker     俺不关心这个，暂不处理
+Offset:208 Length:008 Name:NextIndicateReceiveNetBufferListsObject      俺不关心这个，暂不处理
+Offset:210 Length:008 Name:NextReturnNetBufferListsHandler              Value:FFFFF80308D117D0 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+Offset:218 Length:008 Name:NextReturnNetBufferListsContext              Value:FFFF8084C04CFB10
+Offset:220 Length:008 Name:NextReturnNetBufferListsTracker              俺不关心这个，暂不处理
+Offset:228 Length:008 Name:NextReturnNetBufferListsObject               俺不关心这个，暂不处理
+Offset:230 Length:008 Name:NextCancelSendNetBufferListsHandler          Value:FFFFF8030800B540 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:238 Length:008 Name:NextCancelSendNetBufferListsContext          Value:FFFF8084BF69F1A0
+Offset:240 Length:030 Name:Characteristics                              俺不关心这个，暂不处理 StructName:_NDIS_FILTER_PARTIAL_CHARACTERISTICS
+Offset:270 Length:008 Name:FilterSendNetBufferListsHandler              Value:FFFFF80307FD2E00 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:278 Length:008 Name:FilterIndicateReceiveNetBufferListsHandler   Value:FFFFF80307FE2E90 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:280 Length:008 Name:FilterCancelSendNetBufferListsHandler        Value:FFFFF80307FDC860 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:288 Length:008 Name:NblTracker                                   俺不关心这个，暂不处理
+Offset:290 Length:008 Name:Offload                                      俺不关心这个，暂不处理
+Offset:298 Length:010 Name:InterfaceGuid                                俺不关心这个，暂不处理 StructName:_GUID
+Offset:2a8 Length:004 Name:IfIndex                                      俺不关心这个，暂不处理
+Offset:2b0 Length:008 Name:IfBlock                                      俺不关心这个，暂不处理
+Offset:2b8 Length:008 Name:NextDirectRequestHandle                      Value:FFFF8084BF69F1A0
+Offset:2c0 Length:004 Name:DirectOidRequestCount                        俺不关心这个，暂不处理
+Offset:2c8 Length:008 Name:WOLPatternList                               俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:2d0 Length:008 Name:PMProtocolOffloadList                        俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:2d8 Length:014 Name:PMCurrentParameters                          俺不关心这个，暂不处理 StructName:_NDIS_PM_PARAMETERS
+Offset:2f0 Length:008 Name:Bind                                         俺不关心这个，暂不处理
+Offset:2f8 Length:008 Name:HwTimestampCapabilities                      俺不关心这个，暂不处理
+Offset:300 Length:008 Name:HwTimestampCurrentConfig                     俺不关心这个，暂不处理
+Offset:308 Length:008 Name:VerifierContext                              Value:0000000000000000
+Offset:310 Length:040 Name:PktMonComp                                   俺不关心这个，暂不处理 StructName:_PKTMON_COMPONENT_CONTEXT
+Offset:350 Length:028 Name:PktMonEdgeLower                              俺不关心这个，暂不处理 StructName:_PKTMON_EDGE_CONTEXT
+Offset:378 Length:028 Name:PktMonEdgeUpper                              俺不关心这个，暂不处理 StructName:_PKTMON_EDGE_CONTEXT
+Offset:3a0 Length:020 Name:NblContextVerifierContext                    俺不关心这个，暂不处理 StructName:_NBL_CONTEXT_VERIFIER_CONTEXT
+Offset:3c0 Length:00c Name:SriovHwCapabilities                          俺不关心这个，暂不处理 StructName:_NDIS_SRIOV_CAPABILITIES
+Offset:3cc Length:00c Name:SriovCurrentCapabilities                     俺不关心这个，暂不处理 StructName:_NDIS_SRIOV_CAPABILITIES
+Offset:3d8 Length:084 Name:NicSwitchHwCapabilities                      俺不关心这个，暂不处理 StructName:_NDIS_NIC_SWITCH_CAPABILITIES
+Offset:45c Length:084 Name:NicSwitchCurrentCapabilities                 俺不关心这个，暂不处理 StructName:_NDIS_NIC_SWITCH_CAPABILITIES
+Offset:4e0 Length:054 Name:ReceiveFilterHwCapabilities                  俺不关心这个，暂不处理 StructName:_NDIS_RECEIVE_FILTER_CAPABILITIES
+Offset:534 Length:054 Name:ReceiveFilterCurrentCapabilities             俺不关心这个，暂不处理 StructName:_NDIS_RECEIVE_FILTER_CAPABILITIES
+
+---------------------------------------------------------------------------------------
+
+Index:3
+Offset:000 Length:004 Name:Header
+        Type:5
+        Revision:1
+        Size:1416
+Offset:008 Length:008 Name:NextFilter                                   俺不关心这个，暂不处理
+Offset:010 Length:008 Name:FilterDriver                                 俺不关心这个，暂不处理
+Offset:018 Length:008 Name:FilterModuleContext                          Value:FFFF8084C04CFB10
+Offset:020 Length:008 Name:Miniport                                     俺不关心这个，暂不处理
+Offset:028 Length:008 Name:FilterInstanceName                           俺不关心这个，暂不处理 StructName:wistd::unique_ptr<Rtl::KString,wistd::default_delete<Rtl::KString> >
+Offset:030 Length:008 Name:FilterFriendlyName                           俺不关心这个，暂不处理
+Offset:038 Length:004 Name:Flags                                        俺不关心这个，暂不处理
+Offset:03c Length:004 Name:StackFlags                                   俺不关心这个，暂不处理
+Offset:040 Length:001 Name:State                                        俺不关心这个，暂不处理 StructName:_NDIS_FILTER_STATE
+Offset:048 Length:018 Name:Ref                                          俺不关心这个，暂不处理 StructName:_REFERENCE_EX
+Offset:060 Length:004 Name:FakeStatus                                   俺不关心这个，暂不处理
+Offset:068 Length:008 Name:NextGlobalFilter                             俺不关心这个，暂不处理
+Offset:070 Length:008 Name:LowerFilter                                  俺不关心这个，暂不处理
+Offset:078 Length:008 Name:HigherFilter                                 俺不关心这个，暂不处理
+Offset:080 Length:008 Name:AsyncOpContext                               俺不关心这个，暂不处理
+Offset:088 Length:004 Name:NumOfPauseRestartRequests                    俺不关心这个，暂不处理
+Offset:090 Length:008 Name:Lock                                         俺不关心这个，暂不处理
+Offset:098 Length:008 Name:LockThread                                   Value:0000000000000000
+Offset:0a0 Length:010 Name:OidRequestList                               俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:0b0 Length:008 Name:PendingOidRequest                            俺不关心这个，暂不处理
+Offset:0b8 Length:008 Name:PendingOidWatchdog                           俺不关心这个，暂不处理 StructName:wil::unique_any_t<wil::details::unique_storage<wil::details::resource_policy<NDISWATCHDOG__ *,void (__cdecl*)(NDISWATCHDOG__ *),&ndisFreeWatchdog,wistd::integral_constant<unsigned __int64,1>,NDISWATCHDOG__ *,__int64,-1,std::nullptr_t> > >
+Offset:000 Length:000 Name:<unnamed-type-StackExpansionFallback>        俺不关心这个，暂不处理
+Offset:0c0 Length:060 Name:StackExpansionFallback                       俺不关心这个，暂不处理 StructName:_NDIS_FILTER_BLOCK::<unnamed-type-StackExpansionFallback>
+Offset:120 Length:001 Name:StatusIndicationsQueued                      俺不关心这个，暂不处理
+Offset:124 Length:004 Name:DroppedReceiveNbls                           俺不关心这个，暂不处理
+Offset:128 Length:004 Name:DroppedSendNbls                              俺不关心这个，暂不处理
+Offset:12c Length:004 Name:DroppedStatusIndications                     俺不关心这个，暂不处理
+Offset:130 Length:004 Name:DroppedUncloneableStatusIndications          俺不关心这个，暂不处理
+Offset:138 Length:018 Name:PnPRef                                       俺不关心这个，暂不处理 StructName:_REFERENCE_EX
+Offset:150 Length:004 Name:MediaType                                    俺不关心这个，暂不处理 StructName:_NDIS_MEDIUM
+Offset:154 Length:004 Name:PhysicalMediaType                            俺不关心这个，暂不处理 StructName:_NDIS_PHYSICAL_MEDIUM
+Offset:158 Length:004 Name:MediaConnectState                            俺不关心这个，暂不处理 StructName:_NET_IF_MEDIA_CONNECT_STATE
+Offset:15c Length:004 Name:MediaDuplexState                             俺不关心这个，暂不处理 StructName:_NET_IF_MEDIA_DUPLEX_STATE
+Offset:160 Length:008 Name:XmitLinkSpeed                                俺不关心这个，暂不处理
+Offset:168 Length:008 Name:RcvLinkSpeed                                 俺不关心这个，暂不处理
+Offset:170 Length:004 Name:PauseFunctions                               俺不关心这个，暂不处理 StructName:_NDIS_SUPPORTED_PAUSE_FUNCTIONS
+Offset:174 Length:004 Name:AutoNegotiationFlags                         俺不关心这个，暂不处理
+Offset:178 Length:001 Name:XState                                       俺不关心这个，暂不处理
+Offset:179 Length:001 Name:Reserved1                                    俺不关心这个，暂不处理
+Offset:17a Length:001 Name:Reserved2                                    俺不关心这个，暂不处理
+Offset:17b Length:001 Name:Reserved3                                    俺不关心这个，暂不处理
+Offset:17c Length:004 Name:MediaConnectStateIndicateUp                  俺不关心这个，暂不处理 StructName:_NET_IF_MEDIA_CONNECT_STATE
+Offset:180 Length:004 Name:MediaDuplexStateIndicateUp                   俺不关心这个，暂不处理 StructName:_NET_IF_MEDIA_DUPLEX_STATE
+Offset:188 Length:008 Name:XmitLinkSpeedIndicateUp                      俺不关心这个，暂不处理
+Offset:190 Length:008 Name:RcvLinkSpeedIndicateUp                       俺不关心这个，暂不处理
+Offset:198 Length:004 Name:PauseFunctionsIndicateUp                     俺不关心这个，暂不处理 StructName:_NDIS_SUPPORTED_PAUSE_FUNCTIONS
+Offset:19c Length:004 Name:AutoNegotiationFlagsIndicateUp               俺不关心这个，暂不处理
+Offset:1a0 Length:008 Name:NextRequestHandle                            Value:FFFF8084BF69F1A0
+Offset:1a8 Length:008 Name:IterativeDataPathTracker                     俺不关心这个，暂不处理
+Offset:1b0 Length:008 Name:NextSendNetBufferListsHandler                Value:FFFFF80307F75370 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:1b8 Length:008 Name:NextSendNetBufferListsContext                Value:FFFF8084BF69F1A0
+Offset:1c0 Length:008 Name:NextSendNetBufferListsTracker                俺不关心这个，暂不处理
+Offset:1c8 Length:008 Name:NextSendNetBufferListsObject                 俺不关心这个，暂不处理
+Offset:1d0 Length:008 Name:NextSendNetBufferListsCompleteHandler        Value:FFFFF80307F85080 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:1d8 Length:008 Name:NextSendNetBufferListsCompleteContext        Value:FFFF8084BF69F1A0
+Offset:1e0 Length:008 Name:NextSendNetBufferListsCompleteTracker        俺不关心这个，暂不处理
+Offset:1e8 Length:008 Name:NextSendNetBufferListsCompleteObject         俺不关心这个，暂不处理
+Offset:1f0 Length:008 Name:NextIndicateReceiveNetBufferListsHandler     Value:FFFFF80307F5D460 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:1f8 Length:008 Name:NextIndicateReceiveNetBufferListsContext     Value:FFFF8084BF69F1A0
+Offset:200 Length:008 Name:NextIndicateReceiveNetBufferListsTracker     俺不关心这个，暂不处理
+Offset:208 Length:008 Name:NextIndicateReceiveNetBufferListsObject      俺不关心这个，暂不处理
+Offset:210 Length:008 Name:NextReturnNetBufferListsHandler              Value:FFFFF80309EA5A10 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+Offset:218 Length:008 Name:NextReturnNetBufferListsContext              Value:FFFF8084BF94F010
+Offset:220 Length:008 Name:NextReturnNetBufferListsTracker              俺不关心这个，暂不处理
+Offset:228 Length:008 Name:NextReturnNetBufferListsObject               俺不关心这个，暂不处理
+Offset:230 Length:008 Name:NextCancelSendNetBufferListsHandler          Value:FFFFF8030800B540 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:238 Length:008 Name:NextCancelSendNetBufferListsContext          Value:FFFF8084BF69F1A0
+Offset:240 Length:030 Name:Characteristics                              俺不关心这个，暂不处理 StructName:_NDIS_FILTER_PARTIAL_CHARACTERISTICS
+Offset:270 Length:008 Name:FilterSendNetBufferListsHandler              Value:FFFFF80307FD2E00 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:278 Length:008 Name:FilterIndicateReceiveNetBufferListsHandler   Value:FFFFF80307FE2E90 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:280 Length:008 Name:FilterCancelSendNetBufferListsHandler        Value:FFFFF80307FDC860 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:288 Length:008 Name:NblTracker                                   俺不关心这个，暂不处理
+Offset:290 Length:008 Name:Offload                                      俺不关心这个，暂不处理
+Offset:298 Length:010 Name:InterfaceGuid                                俺不关心这个，暂不处理 StructName:_GUID
+Offset:2a8 Length:004 Name:IfIndex                                      俺不关心这个，暂不处理
+Offset:2b0 Length:008 Name:IfBlock                                      俺不关心这个，暂不处理
+Offset:2b8 Length:008 Name:NextDirectRequestHandle                      Value:FFFF8084BF69F1A0
+Offset:2c0 Length:004 Name:DirectOidRequestCount                        俺不关心这个，暂不处理
+Offset:2c8 Length:008 Name:WOLPatternList                               俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:2d0 Length:008 Name:PMProtocolOffloadList                        俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:2d8 Length:014 Name:PMCurrentParameters                          俺不关心这个，暂不处理 StructName:_NDIS_PM_PARAMETERS
+Offset:2f0 Length:008 Name:Bind                                         俺不关心这个，暂不处理
+Offset:2f8 Length:008 Name:HwTimestampCapabilities                      俺不关心这个，暂不处理
+Offset:300 Length:008 Name:HwTimestampCurrentConfig                     俺不关心这个，暂不处理
+Offset:308 Length:008 Name:VerifierContext                              Value:0000000000000000
+Offset:310 Length:040 Name:PktMonComp                                   俺不关心这个，暂不处理 StructName:_PKTMON_COMPONENT_CONTEXT
+Offset:350 Length:028 Name:PktMonEdgeLower                              俺不关心这个，暂不处理 StructName:_PKTMON_EDGE_CONTEXT
+Offset:378 Length:028 Name:PktMonEdgeUpper                              俺不关心这个，暂不处理 StructName:_PKTMON_EDGE_CONTEXT
+Offset:3a0 Length:020 Name:NblContextVerifierContext                    俺不关心这个，暂不处理 StructName:_NBL_CONTEXT_VERIFIER_CONTEXT
+Offset:3c0 Length:00c Name:SriovHwCapabilities                          俺不关心这个，暂不处理 StructName:_NDIS_SRIOV_CAPABILITIES
+Offset:3cc Length:00c Name:SriovCurrentCapabilities                     俺不关心这个，暂不处理 StructName:_NDIS_SRIOV_CAPABILITIES
+Offset:3d8 Length:084 Name:NicSwitchHwCapabilities                      俺不关心这个，暂不处理 StructName:_NDIS_NIC_SWITCH_CAPABILITIES
+Offset:45c Length:084 Name:NicSwitchCurrentCapabilities                 俺不关心这个，暂不处理 StructName:_NDIS_NIC_SWITCH_CAPABILITIES
+Offset:4e0 Length:054 Name:ReceiveFilterHwCapabilities                  俺不关心这个，暂不处理 StructName:_NDIS_RECEIVE_FILTER_CAPABILITIES
+Offset:534 Length:054 Name:ReceiveFilterCurrentCapabilities             俺不关心这个，暂不处理 StructName:_NDIS_RECEIVE_FILTER_CAPABILITIES
+
+---------------------------------------------------------------------------------------
+
+Index:4
+Offset:000 Length:004 Name:Header
+        Type:5
+        Revision:1
+        Size:1416
+Offset:008 Length:008 Name:NextFilter                                   俺不关心这个，暂不处理
+Offset:010 Length:008 Name:FilterDriver                                 俺不关心这个，暂不处理
+Offset:018 Length:008 Name:FilterModuleContext                          Value:FFFF8084BF6F22B0
+Offset:020 Length:008 Name:Miniport                                     俺不关心这个，暂不处理
+Offset:028 Length:008 Name:FilterInstanceName                           俺不关心这个，暂不处理 StructName:wistd::unique_ptr<Rtl::KString,wistd::default_delete<Rtl::KString> >
+Offset:030 Length:008 Name:FilterFriendlyName                           俺不关心这个，暂不处理
+Offset:038 Length:004 Name:Flags                                        俺不关心这个，暂不处理
+Offset:03c Length:004 Name:StackFlags                                   俺不关心这个，暂不处理
+Offset:040 Length:001 Name:State                                        俺不关心这个，暂不处理 StructName:_NDIS_FILTER_STATE
+Offset:048 Length:018 Name:Ref                                          俺不关心这个，暂不处理 StructName:_REFERENCE_EX
+Offset:060 Length:004 Name:FakeStatus                                   俺不关心这个，暂不处理
+Offset:068 Length:008 Name:NextGlobalFilter                             俺不关心这个，暂不处理
+Offset:070 Length:008 Name:LowerFilter                                  俺不关心这个，暂不处理
+Offset:078 Length:008 Name:HigherFilter                                 俺不关心这个，暂不处理
+Offset:080 Length:008 Name:AsyncOpContext                               俺不关心这个，暂不处理
+Offset:088 Length:004 Name:NumOfPauseRestartRequests                    俺不关心这个，暂不处理
+Offset:090 Length:008 Name:Lock                                         俺不关心这个，暂不处理
+Offset:098 Length:008 Name:LockThread                                   Value:0000000000000000
+Offset:0a0 Length:010 Name:OidRequestList                               俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:0b0 Length:008 Name:PendingOidRequest                            俺不关心这个，暂不处理
+Offset:0b8 Length:008 Name:PendingOidWatchdog                           俺不关心这个，暂不处理 StructName:wil::unique_any_t<wil::details::unique_storage<wil::details::resource_policy<NDISWATCHDOG__ *,void (__cdecl*)(NDISWATCHDOG__ *),&ndisFreeWatchdog,wistd::integral_constant<unsigned __int64,1>,NDISWATCHDOG__ *,__int64,-1,std::nullptr_t> > >
+Offset:000 Length:000 Name:<unnamed-type-StackExpansionFallback>        俺不关心这个，暂不处理
+Offset:0c0 Length:060 Name:StackExpansionFallback                       俺不关心这个，暂不处理 StructName:_NDIS_FILTER_BLOCK::<unnamed-type-StackExpansionFallback>
+Offset:120 Length:001 Name:StatusIndicationsQueued                      俺不关心这个，暂不处理
+Offset:124 Length:004 Name:DroppedReceiveNbls                           俺不关心这个，暂不处理
+Offset:128 Length:004 Name:DroppedSendNbls                              俺不关心这个，暂不处理
+Offset:12c Length:004 Name:DroppedStatusIndications                     俺不关心这个，暂不处理
+Offset:130 Length:004 Name:DroppedUncloneableStatusIndications          俺不关心这个，暂不处理
+Offset:138 Length:018 Name:PnPRef                                       俺不关心这个，暂不处理 StructName:_REFERENCE_EX
+Offset:150 Length:004 Name:MediaType                                    俺不关心这个，暂不处理 StructName:_NDIS_MEDIUM
+Offset:154 Length:004 Name:PhysicalMediaType                            俺不关心这个，暂不处理 StructName:_NDIS_PHYSICAL_MEDIUM
+Offset:158 Length:004 Name:MediaConnectState                            俺不关心这个，暂不处理 StructName:_NET_IF_MEDIA_CONNECT_STATE
+Offset:15c Length:004 Name:MediaDuplexState                             俺不关心这个，暂不处理 StructName:_NET_IF_MEDIA_DUPLEX_STATE
+Offset:160 Length:008 Name:XmitLinkSpeed                                俺不关心这个，暂不处理
+Offset:168 Length:008 Name:RcvLinkSpeed                                 俺不关心这个，暂不处理
+Offset:170 Length:004 Name:PauseFunctions                               俺不关心这个，暂不处理 StructName:_NDIS_SUPPORTED_PAUSE_FUNCTIONS
+Offset:174 Length:004 Name:AutoNegotiationFlags                         俺不关心这个，暂不处理
+Offset:178 Length:001 Name:XState                                       俺不关心这个，暂不处理
+Offset:179 Length:001 Name:Reserved1                                    俺不关心这个，暂不处理
+Offset:17a Length:001 Name:Reserved2                                    俺不关心这个，暂不处理
+Offset:17b Length:001 Name:Reserved3                                    俺不关心这个，暂不处理
+Offset:17c Length:004 Name:MediaConnectStateIndicateUp                  俺不关心这个，暂不处理 StructName:_NET_IF_MEDIA_CONNECT_STATE
+Offset:180 Length:004 Name:MediaDuplexStateIndicateUp                   俺不关心这个，暂不处理 StructName:_NET_IF_MEDIA_DUPLEX_STATE
+Offset:188 Length:008 Name:XmitLinkSpeedIndicateUp                      俺不关心这个，暂不处理
+Offset:190 Length:008 Name:RcvLinkSpeedIndicateUp                       俺不关心这个，暂不处理
+Offset:198 Length:004 Name:PauseFunctionsIndicateUp                     俺不关心这个，暂不处理 StructName:_NDIS_SUPPORTED_PAUSE_FUNCTIONS
+Offset:19c Length:004 Name:AutoNegotiationFlagsIndicateUp               俺不关心这个，暂不处理
+Offset:1a0 Length:008 Name:NextRequestHandle                            Value:FFFF8084C04D4A20
+Offset:1a8 Length:008 Name:IterativeDataPathTracker                     俺不关心这个，暂不处理
+Offset:1b0 Length:008 Name:NextSendNetBufferListsHandler                Value:FFFFF80308D17CE0 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+Offset:1b8 Length:008 Name:NextSendNetBufferListsContext                Value:FFFF8084C04D4620
+Offset:1c0 Length:008 Name:NextSendNetBufferListsTracker                俺不关心这个，暂不处理
+Offset:1c8 Length:008 Name:NextSendNetBufferListsObject                 俺不关心这个，暂不处理
+Offset:1d0 Length:008 Name:NextSendNetBufferListsCompleteHandler        Value:FFFFF80307F85080 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:1d8 Length:008 Name:NextSendNetBufferListsCompleteContext        Value:FFFF8084BF69D1A0
+Offset:1e0 Length:008 Name:NextSendNetBufferListsCompleteTracker        俺不关心这个，暂不处理
+Offset:1e8 Length:008 Name:NextSendNetBufferListsCompleteObject         俺不关心这个，暂不处理
+Offset:1f0 Length:008 Name:NextIndicateReceiveNetBufferListsHandler     Value:FFFFF80307F5D460 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:1f8 Length:008 Name:NextIndicateReceiveNetBufferListsContext     Value:FFFF8084BF69D1A0
+Offset:200 Length:008 Name:NextIndicateReceiveNetBufferListsTracker     俺不关心这个，暂不处理
+Offset:208 Length:008 Name:NextIndicateReceiveNetBufferListsObject      俺不关心这个，暂不处理
+Offset:210 Length:008 Name:NextReturnNetBufferListsHandler              Value:FFFFF80308D117D0 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+Offset:218 Length:008 Name:NextReturnNetBufferListsContext              Value:FFFF8084C04D4620
+Offset:220 Length:008 Name:NextReturnNetBufferListsTracker              俺不关心这个，暂不处理
+Offset:228 Length:008 Name:NextReturnNetBufferListsObject               俺不关心这个，暂不处理
+Offset:230 Length:008 Name:NextCancelSendNetBufferListsHandler          Value:FFFFF8030800B540 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:238 Length:008 Name:NextCancelSendNetBufferListsContext          Value:FFFF8084BF69D1A0
+Offset:240 Length:030 Name:Characteristics                              俺不关心这个，暂不处理 StructName:_NDIS_FILTER_PARTIAL_CHARACTERISTICS
+Offset:270 Length:008 Name:FilterSendNetBufferListsHandler              Value:FFFFF80307F58F70 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:278 Length:008 Name:FilterIndicateReceiveNetBufferListsHandler   Value:FFFFF80307F60DF0 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:280 Length:008 Name:FilterCancelSendNetBufferListsHandler        Value:FFFFF80307FDA9F0 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:288 Length:008 Name:NblTracker                                   俺不关心这个，暂不处理
+Offset:290 Length:008 Name:Offload                                      俺不关心这个，暂不处理
+Offset:298 Length:010 Name:InterfaceGuid                                俺不关心这个，暂不处理 StructName:_GUID
+Offset:2a8 Length:004 Name:IfIndex                                      俺不关心这个，暂不处理
+Offset:2b0 Length:008 Name:IfBlock                                      俺不关心这个，暂不处理
+Offset:2b8 Length:008 Name:NextDirectRequestHandle                      Value:FFFF8084BF69D1A0
+Offset:2c0 Length:004 Name:DirectOidRequestCount                        俺不关心这个，暂不处理
+Offset:2c8 Length:008 Name:WOLPatternList                               俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:2d0 Length:008 Name:PMProtocolOffloadList                        俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:2d8 Length:014 Name:PMCurrentParameters                          俺不关心这个，暂不处理 StructName:_NDIS_PM_PARAMETERS
+Offset:2f0 Length:008 Name:Bind                                         俺不关心这个，暂不处理
+Offset:2f8 Length:008 Name:HwTimestampCapabilities                      俺不关心这个，暂不处理
+Offset:300 Length:008 Name:HwTimestampCurrentConfig                     俺不关心这个，暂不处理
+Offset:308 Length:008 Name:VerifierContext                              Value:0000000000000000
+Offset:310 Length:040 Name:PktMonComp                                   俺不关心这个，暂不处理 StructName:_PKTMON_COMPONENT_CONTEXT
+Offset:350 Length:028 Name:PktMonEdgeLower                              俺不关心这个，暂不处理 StructName:_PKTMON_EDGE_CONTEXT
+Offset:378 Length:028 Name:PktMonEdgeUpper                              俺不关心这个，暂不处理 StructName:_PKTMON_EDGE_CONTEXT
+Offset:3a0 Length:020 Name:NblContextVerifierContext                    俺不关心这个，暂不处理 StructName:_NBL_CONTEXT_VERIFIER_CONTEXT
+Offset:3c0 Length:00c Name:SriovHwCapabilities                          俺不关心这个，暂不处理 StructName:_NDIS_SRIOV_CAPABILITIES
+Offset:3cc Length:00c Name:SriovCurrentCapabilities                     俺不关心这个，暂不处理 StructName:_NDIS_SRIOV_CAPABILITIES
+Offset:3d8 Length:084 Name:NicSwitchHwCapabilities                      俺不关心这个，暂不处理 StructName:_NDIS_NIC_SWITCH_CAPABILITIES
+Offset:45c Length:084 Name:NicSwitchCurrentCapabilities                 俺不关心这个，暂不处理 StructName:_NDIS_NIC_SWITCH_CAPABILITIES
+Offset:4e0 Length:054 Name:ReceiveFilterHwCapabilities                  俺不关心这个，暂不处理 StructName:_NDIS_RECEIVE_FILTER_CAPABILITIES
+Offset:534 Length:054 Name:ReceiveFilterCurrentCapabilities             俺不关心这个，暂不处理 StructName:_NDIS_RECEIVE_FILTER_CAPABILITIES
+
+---------------------------------------------------------------------------------------
+
+Index:5
+Offset:000 Length:004 Name:Header
+        Type:5
+        Revision:1
+        Size:1416
+Offset:008 Length:008 Name:NextFilter                                   俺不关心这个，暂不处理
+Offset:010 Length:008 Name:FilterDriver                                 俺不关心这个，暂不处理
+Offset:018 Length:008 Name:FilterModuleContext                          Value:FFFF8084BFB90230
+Offset:020 Length:008 Name:Miniport                                     俺不关心这个，暂不处理
+Offset:028 Length:008 Name:FilterInstanceName                           俺不关心这个，暂不处理 StructName:wistd::unique_ptr<Rtl::KString,wistd::default_delete<Rtl::KString> >
+Offset:030 Length:008 Name:FilterFriendlyName                           俺不关心这个，暂不处理
+Offset:038 Length:004 Name:Flags                                        俺不关心这个，暂不处理
+Offset:03c Length:004 Name:StackFlags                                   俺不关心这个，暂不处理
+Offset:040 Length:001 Name:State                                        俺不关心这个，暂不处理 StructName:_NDIS_FILTER_STATE
+Offset:048 Length:018 Name:Ref                                          俺不关心这个，暂不处理 StructName:_REFERENCE_EX
+Offset:060 Length:004 Name:FakeStatus                                   俺不关心这个，暂不处理
+Offset:068 Length:008 Name:NextGlobalFilter                             俺不关心这个，暂不处理
+Offset:070 Length:008 Name:LowerFilter                                  俺不关心这个，暂不处理
+Offset:078 Length:008 Name:HigherFilter                                 俺不关心这个，暂不处理
+Offset:080 Length:008 Name:AsyncOpContext                               俺不关心这个，暂不处理
+Offset:088 Length:004 Name:NumOfPauseRestartRequests                    俺不关心这个，暂不处理
+Offset:090 Length:008 Name:Lock                                         俺不关心这个，暂不处理
+Offset:098 Length:008 Name:LockThread                                   Value:0000000000000000
+Offset:0a0 Length:010 Name:OidRequestList                               俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:0b0 Length:008 Name:PendingOidRequest                            俺不关心这个，暂不处理
+Offset:0b8 Length:008 Name:PendingOidWatchdog                           俺不关心这个，暂不处理 StructName:wil::unique_any_t<wil::details::unique_storage<wil::details::resource_policy<NDISWATCHDOG__ *,void (__cdecl*)(NDISWATCHDOG__ *),&ndisFreeWatchdog,wistd::integral_constant<unsigned __int64,1>,NDISWATCHDOG__ *,__int64,-1,std::nullptr_t> > >
+Offset:000 Length:000 Name:<unnamed-type-StackExpansionFallback>        俺不关心这个，暂不处理
+Offset:0c0 Length:060 Name:StackExpansionFallback                       俺不关心这个，暂不处理 StructName:_NDIS_FILTER_BLOCK::<unnamed-type-StackExpansionFallback>
+Offset:120 Length:001 Name:StatusIndicationsQueued                      俺不关心这个，暂不处理
+Offset:124 Length:004 Name:DroppedReceiveNbls                           俺不关心这个，暂不处理
+Offset:128 Length:004 Name:DroppedSendNbls                              俺不关心这个，暂不处理
+Offset:12c Length:004 Name:DroppedStatusIndications                     俺不关心这个，暂不处理
+Offset:130 Length:004 Name:DroppedUncloneableStatusIndications          俺不关心这个，暂不处理
+Offset:138 Length:018 Name:PnPRef                                       俺不关心这个，暂不处理 StructName:_REFERENCE_EX
+Offset:150 Length:004 Name:MediaType                                    俺不关心这个，暂不处理 StructName:_NDIS_MEDIUM
+Offset:154 Length:004 Name:PhysicalMediaType                            俺不关心这个，暂不处理 StructName:_NDIS_PHYSICAL_MEDIUM
+Offset:158 Length:004 Name:MediaConnectState                            俺不关心这个，暂不处理 StructName:_NET_IF_MEDIA_CONNECT_STATE
+Offset:15c Length:004 Name:MediaDuplexState                             俺不关心这个，暂不处理 StructName:_NET_IF_MEDIA_DUPLEX_STATE
+Offset:160 Length:008 Name:XmitLinkSpeed                                俺不关心这个，暂不处理
+Offset:168 Length:008 Name:RcvLinkSpeed                                 俺不关心这个，暂不处理
+Offset:170 Length:004 Name:PauseFunctions                               俺不关心这个，暂不处理 StructName:_NDIS_SUPPORTED_PAUSE_FUNCTIONS
+Offset:174 Length:004 Name:AutoNegotiationFlags                         俺不关心这个，暂不处理
+Offset:178 Length:001 Name:XState                                       俺不关心这个，暂不处理
+Offset:179 Length:001 Name:Reserved1                                    俺不关心这个，暂不处理
+Offset:17a Length:001 Name:Reserved2                                    俺不关心这个，暂不处理
+Offset:17b Length:001 Name:Reserved3                                    俺不关心这个，暂不处理
+Offset:17c Length:004 Name:MediaConnectStateIndicateUp                  俺不关心这个，暂不处理 StructName:_NET_IF_MEDIA_CONNECT_STATE
+Offset:180 Length:004 Name:MediaDuplexStateIndicateUp                   俺不关心这个，暂不处理 StructName:_NET_IF_MEDIA_DUPLEX_STATE
+Offset:188 Length:008 Name:XmitLinkSpeedIndicateUp                      俺不关心这个，暂不处理
+Offset:190 Length:008 Name:RcvLinkSpeedIndicateUp                       俺不关心这个，暂不处理
+Offset:198 Length:004 Name:PauseFunctionsIndicateUp                     俺不关心这个，暂不处理 StructName:_NDIS_SUPPORTED_PAUSE_FUNCTIONS
+Offset:19c Length:004 Name:AutoNegotiationFlagsIndicateUp               俺不关心这个，暂不处理
+Offset:1a0 Length:008 Name:NextRequestHandle                            Value:FFFF8084C04D2010
+Offset:1a8 Length:008 Name:IterativeDataPathTracker                     俺不关心这个，暂不处理
+Offset:1b0 Length:008 Name:NextSendNetBufferListsHandler                Value:FFFFF80308D17CE0 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+Offset:1b8 Length:008 Name:NextSendNetBufferListsContext                Value:FFFF8084C04D4620
+Offset:1c0 Length:008 Name:NextSendNetBufferListsTracker                俺不关心这个，暂不处理
+Offset:1c8 Length:008 Name:NextSendNetBufferListsObject                 俺不关心这个，暂不处理
+Offset:1d0 Length:008 Name:NextSendNetBufferListsCompleteHandler        Value:FFFFF80307F85080 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:1d8 Length:008 Name:NextSendNetBufferListsCompleteContext        Value:FFFF8084BF69D1A0
+Offset:1e0 Length:008 Name:NextSendNetBufferListsCompleteTracker        俺不关心这个，暂不处理
+Offset:1e8 Length:008 Name:NextSendNetBufferListsCompleteObject         俺不关心这个，暂不处理
+Offset:1f0 Length:008 Name:NextIndicateReceiveNetBufferListsHandler     Value:FFFFF80307F5D460 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:1f8 Length:008 Name:NextIndicateReceiveNetBufferListsContext     Value:FFFF8084BF69D1A0
+Offset:200 Length:008 Name:NextIndicateReceiveNetBufferListsTracker     俺不关心这个，暂不处理
+Offset:208 Length:008 Name:NextIndicateReceiveNetBufferListsObject      俺不关心这个，暂不处理
+Offset:210 Length:008 Name:NextReturnNetBufferListsHandler              Value:FFFFF80308D117D0 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+Offset:218 Length:008 Name:NextReturnNetBufferListsContext              Value:FFFF8084C04D4620
+Offset:220 Length:008 Name:NextReturnNetBufferListsTracker              俺不关心这个，暂不处理
+Offset:228 Length:008 Name:NextReturnNetBufferListsObject               俺不关心这个，暂不处理
+Offset:230 Length:008 Name:NextCancelSendNetBufferListsHandler          Value:FFFFF8030800B540 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:238 Length:008 Name:NextCancelSendNetBufferListsContext          Value:FFFF8084BF69D1A0
+Offset:240 Length:030 Name:Characteristics                              俺不关心这个，暂不处理 StructName:_NDIS_FILTER_PARTIAL_CHARACTERISTICS
+Offset:270 Length:008 Name:FilterSendNetBufferListsHandler              Value:FFFFF80307F58F70 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:278 Length:008 Name:FilterIndicateReceiveNetBufferListsHandler   Value:FFFFF80307F60DF0 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:280 Length:008 Name:FilterCancelSendNetBufferListsHandler        Value:FFFFF80307FDA9F0 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:288 Length:008 Name:NblTracker                                   俺不关心这个，暂不处理
+Offset:290 Length:008 Name:Offload                                      俺不关心这个，暂不处理
+Offset:298 Length:010 Name:InterfaceGuid                                俺不关心这个，暂不处理 StructName:_GUID
+Offset:2a8 Length:004 Name:IfIndex                                      俺不关心这个，暂不处理
+Offset:2b0 Length:008 Name:IfBlock                                      俺不关心这个，暂不处理
+Offset:2b8 Length:008 Name:NextDirectRequestHandle                      Value:FFFF8084BF69D1A0
+Offset:2c0 Length:004 Name:DirectOidRequestCount                        俺不关心这个，暂不处理
+Offset:2c8 Length:008 Name:WOLPatternList                               俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:2d0 Length:008 Name:PMProtocolOffloadList                        俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:2d8 Length:014 Name:PMCurrentParameters                          俺不关心这个，暂不处理 StructName:_NDIS_PM_PARAMETERS
+Offset:2f0 Length:008 Name:Bind                                         俺不关心这个，暂不处理
+Offset:2f8 Length:008 Name:HwTimestampCapabilities                      俺不关心这个，暂不处理
+Offset:300 Length:008 Name:HwTimestampCurrentConfig                     俺不关心这个，暂不处理
+Offset:308 Length:008 Name:VerifierContext                              Value:0000000000000000
+Offset:310 Length:040 Name:PktMonComp                                   俺不关心这个，暂不处理 StructName:_PKTMON_COMPONENT_CONTEXT
+Offset:350 Length:028 Name:PktMonEdgeLower                              俺不关心这个，暂不处理 StructName:_PKTMON_EDGE_CONTEXT
+Offset:378 Length:028 Name:PktMonEdgeUpper                              俺不关心这个，暂不处理 StructName:_PKTMON_EDGE_CONTEXT
+Offset:3a0 Length:020 Name:NblContextVerifierContext                    俺不关心这个，暂不处理 StructName:_NBL_CONTEXT_VERIFIER_CONTEXT
+Offset:3c0 Length:00c Name:SriovHwCapabilities                          俺不关心这个，暂不处理 StructName:_NDIS_SRIOV_CAPABILITIES
+Offset:3cc Length:00c Name:SriovCurrentCapabilities                     俺不关心这个，暂不处理 StructName:_NDIS_SRIOV_CAPABILITIES
+Offset:3d8 Length:084 Name:NicSwitchHwCapabilities                      俺不关心这个，暂不处理 StructName:_NDIS_NIC_SWITCH_CAPABILITIES
+Offset:45c Length:084 Name:NicSwitchCurrentCapabilities                 俺不关心这个，暂不处理 StructName:_NDIS_NIC_SWITCH_CAPABILITIES
+Offset:4e0 Length:054 Name:ReceiveFilterHwCapabilities                  俺不关心这个，暂不处理 StructName:_NDIS_RECEIVE_FILTER_CAPABILITIES
+Offset:534 Length:054 Name:ReceiveFilterCurrentCapabilities             俺不关心这个，暂不处理 StructName:_NDIS_RECEIVE_FILTER_CAPABILITIES
+
+---------------------------------------------------------------------------------------
+
+Index:6
+Offset:000 Length:004 Name:Header
+        Type:5
+        Revision:1
+        Size:1416
+Offset:008 Length:008 Name:NextFilter                                   俺不关心这个，暂不处理
+Offset:010 Length:008 Name:FilterDriver                                 俺不关心这个，暂不处理
+Offset:018 Length:008 Name:FilterModuleContext                          Value:FFFF8084C04D4620
+Offset:020 Length:008 Name:Miniport                                     俺不关心这个，暂不处理
+Offset:028 Length:008 Name:FilterInstanceName                           俺不关心这个，暂不处理 StructName:wistd::unique_ptr<Rtl::KString,wistd::default_delete<Rtl::KString> >
+Offset:030 Length:008 Name:FilterFriendlyName                           俺不关心这个，暂不处理
+Offset:038 Length:004 Name:Flags                                        俺不关心这个，暂不处理
+Offset:03c Length:004 Name:StackFlags                                   俺不关心这个，暂不处理
+Offset:040 Length:001 Name:State                                        俺不关心这个，暂不处理 StructName:_NDIS_FILTER_STATE
+Offset:048 Length:018 Name:Ref                                          俺不关心这个，暂不处理 StructName:_REFERENCE_EX
+Offset:060 Length:004 Name:FakeStatus                                   俺不关心这个，暂不处理
+Offset:068 Length:008 Name:NextGlobalFilter                             俺不关心这个，暂不处理
+Offset:070 Length:008 Name:LowerFilter                                  俺不关心这个，暂不处理
+Offset:078 Length:008 Name:HigherFilter                                 俺不关心这个，暂不处理
+Offset:080 Length:008 Name:AsyncOpContext                               俺不关心这个，暂不处理
+Offset:088 Length:004 Name:NumOfPauseRestartRequests                    俺不关心这个，暂不处理
+Offset:090 Length:008 Name:Lock                                         俺不关心这个，暂不处理
+Offset:098 Length:008 Name:LockThread                                   Value:0000000000000000
+Offset:0a0 Length:010 Name:OidRequestList                               俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:0b0 Length:008 Name:PendingOidRequest                            俺不关心这个，暂不处理
+Offset:0b8 Length:008 Name:PendingOidWatchdog                           俺不关心这个，暂不处理 StructName:wil::unique_any_t<wil::details::unique_storage<wil::details::resource_policy<NDISWATCHDOG__ *,void (__cdecl*)(NDISWATCHDOG__ *),&ndisFreeWatchdog,wistd::integral_constant<unsigned __int64,1>,NDISWATCHDOG__ *,__int64,-1,std::nullptr_t> > >
+Offset:000 Length:000 Name:<unnamed-type-StackExpansionFallback>        俺不关心这个，暂不处理
+Offset:0c0 Length:060 Name:StackExpansionFallback                       俺不关心这个，暂不处理 StructName:_NDIS_FILTER_BLOCK::<unnamed-type-StackExpansionFallback>
+Offset:120 Length:001 Name:StatusIndicationsQueued                      俺不关心这个，暂不处理
+Offset:124 Length:004 Name:DroppedReceiveNbls                           俺不关心这个，暂不处理
+Offset:128 Length:004 Name:DroppedSendNbls                              俺不关心这个，暂不处理
+Offset:12c Length:004 Name:DroppedStatusIndications                     俺不关心这个，暂不处理
+Offset:130 Length:004 Name:DroppedUncloneableStatusIndications          俺不关心这个，暂不处理
+Offset:138 Length:018 Name:PnPRef                                       俺不关心这个，暂不处理 StructName:_REFERENCE_EX
+Offset:150 Length:004 Name:MediaType                                    俺不关心这个，暂不处理 StructName:_NDIS_MEDIUM
+Offset:154 Length:004 Name:PhysicalMediaType                            俺不关心这个，暂不处理 StructName:_NDIS_PHYSICAL_MEDIUM
+Offset:158 Length:004 Name:MediaConnectState                            俺不关心这个，暂不处理 StructName:_NET_IF_MEDIA_CONNECT_STATE
+Offset:15c Length:004 Name:MediaDuplexState                             俺不关心这个，暂不处理 StructName:_NET_IF_MEDIA_DUPLEX_STATE
+Offset:160 Length:008 Name:XmitLinkSpeed                                俺不关心这个，暂不处理
+Offset:168 Length:008 Name:RcvLinkSpeed                                 俺不关心这个，暂不处理
+Offset:170 Length:004 Name:PauseFunctions                               俺不关心这个，暂不处理 StructName:_NDIS_SUPPORTED_PAUSE_FUNCTIONS
+Offset:174 Length:004 Name:AutoNegotiationFlags                         俺不关心这个，暂不处理
+Offset:178 Length:001 Name:XState                                       俺不关心这个，暂不处理
+Offset:179 Length:001 Name:Reserved1                                    俺不关心这个，暂不处理
+Offset:17a Length:001 Name:Reserved2                                    俺不关心这个，暂不处理
+Offset:17b Length:001 Name:Reserved3                                    俺不关心这个，暂不处理
+Offset:17c Length:004 Name:MediaConnectStateIndicateUp                  俺不关心这个，暂不处理 StructName:_NET_IF_MEDIA_CONNECT_STATE
+Offset:180 Length:004 Name:MediaDuplexStateIndicateUp                   俺不关心这个，暂不处理 StructName:_NET_IF_MEDIA_DUPLEX_STATE
+Offset:188 Length:008 Name:XmitLinkSpeedIndicateUp                      俺不关心这个，暂不处理
+Offset:190 Length:008 Name:RcvLinkSpeedIndicateUp                       俺不关心这个，暂不处理
+Offset:198 Length:004 Name:PauseFunctionsIndicateUp                     俺不关心这个，暂不处理 StructName:_NDIS_SUPPORTED_PAUSE_FUNCTIONS
+Offset:19c Length:004 Name:AutoNegotiationFlagsIndicateUp               俺不关心这个，暂不处理
+Offset:1a0 Length:008 Name:NextRequestHandle                            Value:FFFF8084BF69D1A0
+Offset:1a8 Length:008 Name:IterativeDataPathTracker                     俺不关心这个，暂不处理
+Offset:1b0 Length:008 Name:NextSendNetBufferListsHandler                Value:FFFFF80307F75370 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:1b8 Length:008 Name:NextSendNetBufferListsContext                Value:FFFF8084BF69D1A0
+Offset:1c0 Length:008 Name:NextSendNetBufferListsTracker                俺不关心这个，暂不处理
+Offset:1c8 Length:008 Name:NextSendNetBufferListsObject                 俺不关心这个，暂不处理
+Offset:1d0 Length:008 Name:NextSendNetBufferListsCompleteHandler        Value:FFFFF80307F85080 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:1d8 Length:008 Name:NextSendNetBufferListsCompleteContext        Value:FFFF8084BF69D1A0
+Offset:1e0 Length:008 Name:NextSendNetBufferListsCompleteTracker        俺不关心这个，暂不处理
+Offset:1e8 Length:008 Name:NextSendNetBufferListsCompleteObject         俺不关心这个，暂不处理
+Offset:1f0 Length:008 Name:NextIndicateReceiveNetBufferListsHandler     Value:FFFFF80307F5D460 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:1f8 Length:008 Name:NextIndicateReceiveNetBufferListsContext     Value:FFFF8084BF69D1A0
+Offset:200 Length:008 Name:NextIndicateReceiveNetBufferListsTracker     俺不关心这个，暂不处理
+Offset:208 Length:008 Name:NextIndicateReceiveNetBufferListsObject      俺不关心这个，暂不处理
+Offset:210 Length:008 Name:NextReturnNetBufferListsHandler              Value:FFFFF80309EA5A10 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+Offset:218 Length:008 Name:NextReturnNetBufferListsContext              Value:FFFF8084BF94B010
+Offset:220 Length:008 Name:NextReturnNetBufferListsTracker              俺不关心这个，暂不处理
+Offset:228 Length:008 Name:NextReturnNetBufferListsObject               俺不关心这个，暂不处理
+Offset:230 Length:008 Name:NextCancelSendNetBufferListsHandler          Value:FFFFF8030800B540 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:238 Length:008 Name:NextCancelSendNetBufferListsContext          Value:FFFF8084BF69D1A0
+Offset:240 Length:030 Name:Characteristics                              俺不关心这个，暂不处理 StructName:_NDIS_FILTER_PARTIAL_CHARACTERISTICS
+Offset:270 Length:008 Name:FilterSendNetBufferListsHandler              Value:FFFFF80307F58F70 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:278 Length:008 Name:FilterIndicateReceiveNetBufferListsHandler   Value:FFFFF80307F60DF0 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:280 Length:008 Name:FilterCancelSendNetBufferListsHandler        Value:FFFFF80307FDA9F0 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:288 Length:008 Name:NblTracker                                   俺不关心这个，暂不处理
+Offset:290 Length:008 Name:Offload                                      俺不关心这个，暂不处理
+Offset:298 Length:010 Name:InterfaceGuid                                俺不关心这个，暂不处理 StructName:_GUID
+Offset:2a8 Length:004 Name:IfIndex                                      俺不关心这个，暂不处理
+Offset:2b0 Length:008 Name:IfBlock                                      俺不关心这个，暂不处理
+Offset:2b8 Length:008 Name:NextDirectRequestHandle                      Value:FFFF8084BF69D1A0
+Offset:2c0 Length:004 Name:DirectOidRequestCount                        俺不关心这个，暂不处理
+Offset:2c8 Length:008 Name:WOLPatternList                               俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:2d0 Length:008 Name:PMProtocolOffloadList                        俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:2d8 Length:014 Name:PMCurrentParameters                          俺不关心这个，暂不处理 StructName:_NDIS_PM_PARAMETERS
+Offset:2f0 Length:008 Name:Bind                                         俺不关心这个，暂不处理
+Offset:2f8 Length:008 Name:HwTimestampCapabilities                      俺不关心这个，暂不处理
+Offset:300 Length:008 Name:HwTimestampCurrentConfig                     俺不关心这个，暂不处理
+Offset:308 Length:008 Name:VerifierContext                              Value:0000000000000000
+Offset:310 Length:040 Name:PktMonComp                                   俺不关心这个，暂不处理 StructName:_PKTMON_COMPONENT_CONTEXT
+Offset:350 Length:028 Name:PktMonEdgeLower                              俺不关心这个，暂不处理 StructName:_PKTMON_EDGE_CONTEXT
+Offset:378 Length:028 Name:PktMonEdgeUpper                              俺不关心这个，暂不处理 StructName:_PKTMON_EDGE_CONTEXT
+Offset:3a0 Length:020 Name:NblContextVerifierContext                    俺不关心这个，暂不处理 StructName:_NBL_CONTEXT_VERIFIER_CONTEXT
+Offset:3c0 Length:00c Name:SriovHwCapabilities                          俺不关心这个，暂不处理 StructName:_NDIS_SRIOV_CAPABILITIES
+Offset:3cc Length:00c Name:SriovCurrentCapabilities                     俺不关心这个，暂不处理 StructName:_NDIS_SRIOV_CAPABILITIES
+Offset:3d8 Length:084 Name:NicSwitchHwCapabilities                      俺不关心这个，暂不处理 StructName:_NDIS_NIC_SWITCH_CAPABILITIES
+Offset:45c Length:084 Name:NicSwitchCurrentCapabilities                 俺不关心这个，暂不处理 StructName:_NDIS_NIC_SWITCH_CAPABILITIES
+Offset:4e0 Length:054 Name:ReceiveFilterHwCapabilities                  俺不关心这个，暂不处理 StructName:_NDIS_RECEIVE_FILTER_CAPABILITIES
+Offset:534 Length:054 Name:ReceiveFilterCurrentCapabilities             俺不关心这个，暂不处理 StructName:_NDIS_RECEIVE_FILTER_CAPABILITIES
+
+---------------------------------------------------------------------------------------
+
+
+C:\Users\user\Desktop\bin>
+
+
+上面是程序输出
+下面是工具验证
+
+
+0: kd> .for (r $t0 = poi(ndis!ndisGlobalFilterList); @$t0 != 0; r $t0 = poi(@$t0 + @@(#FIELD_OFFSET(ndis!_NDIS_FILTER_BLOCK, NextGlobalFilter)))) { dt ndis!_NDIS_FILTER_BLOCK @$t0 }
+   +0x000 Header           : _NDIS_OBJECT_HEADER
+   +0x008 NextFilter       : 0xffff8084`bfab2030 _NDIS_FILTER_BLOCK
+   +0x010 FilterDriver     : 0xffff8084`bf0a0cf0 _NDIS_FILTER_DRIVER_BLOCK
+   +0x018 FilterModuleContext : 0xffff8084`bf6584e0 Void
+   +0x020 Miniport         : 0xffff8084`bf69f1a0 _NDIS_MINIPORT_BLOCK
+   +0x028 FilterInstanceName : wistd::unique_ptr<Rtl::KString,wistd::default_delete<Rtl::KString> >
+   +0x030 FilterFriendlyName : 0xffff8084`c0447620 _UNICODE_STRING "Microsoft Hyper-V Network Adapter #3-WFP 802.3 MAC Layer LightWeight Filter-0000"
+   +0x038 Flags            : 0x10
+   +0x03c StackFlags       : 0
+   +0x040 State            : 4 ( NdisFilterRunning )
+   +0x048 Ref              : _REFERENCE_EX
+   +0x060 FakeStatus       : 0n-1071448033
+   +0x068 NextGlobalFilter : 0xffff8084`c04d7620 _NDIS_FILTER_BLOCK
+   +0x070 LowerFilter      : 0xffff8084`c04d7620 _NDIS_FILTER_BLOCK
+   +0x078 HigherFilter     : (null) 
+   +0x080 AsyncOpContext   : (null) 
+   +0x088 NumOfPauseRestartRequests : 0n0
+   +0x090 Lock             : 0
+   +0x098 LockThread       : (null) 
+   +0x0a0 OidRequestList   : _LIST_ENTRY [ 0xffff8084`c04db0b0 - 0xffff8084`c04db0b0 ]
+   +0x0b0 PendingOidRequest : (null) 
+   +0x0b8 PendingOidWatchdog : wil::unique_any_t<wil::details::unique_storage<wil::details::resource_policy<NDISWATCHDOG__ *,void (__cdecl*)(NDISWATCHDOG__ *),&ndisFreeWatchdog,wistd::integral_constant<unsigned __int64,1>,NDISWATCHDOG__ *,__int64,-1,std::nullptr_t> > >
+   +0x0c0 StackExpansionFallback : _NDIS_FILTER_BLOCK::<unnamed-type-StackExpansionFallback>
+   +0x120 StatusIndicationsQueued : 0 ''
+   +0x124 DroppedReceiveNbls : 0n0
+   +0x128 DroppedSendNbls  : 0n0
+   +0x12c DroppedStatusIndications : 0
+   +0x130 DroppedUncloneableStatusIndications : 0
+   +0x138 PnPRef           : _REFERENCE_EX
+   +0x150 MediaType        : 0 ( NdisMedium802_3 )
+   +0x154 PhysicalMediaType : 0 ( NdisPhysicalMediumUnspecified )
+   +0x158 MediaConnectState : 2 ( MediaConnectStateDisconnected )
+   +0x15c MediaDuplexState : 0 ( MediaDuplexStateUnknown )
+   +0x160 XmitLinkSpeed    : 0x00000002`540be400
+   +0x168 RcvLinkSpeed     : 0x00000002`540be400
+   +0x170 PauseFunctions   : 0 ( NdisPauseFunctionsUnsupported )
+   +0x174 AutoNegotiationFlags : 0
+   +0x178 XState           : 0x1 ''
+   +0x179 Reserved1        : 0 ''
+   +0x17a Reserved2        : 0 ''
+   +0x17b Reserved3        : 0 ''
+   +0x17c MediaConnectStateIndicateUp : 2 ( MediaConnectStateDisconnected )
+   +0x180 MediaDuplexStateIndicateUp : 0 ( MediaDuplexStateUnknown )
+   +0x188 XmitLinkSpeedIndicateUp : 0x00000002`540be400
+   +0x190 RcvLinkSpeedIndicateUp : 0x00000002`540be400
+   +0x198 PauseFunctionsIndicateUp : 0 ( NdisPauseFunctionsUnsupported )
+   +0x19c AutoNegotiationFlagsIndicateUp : 0
+   +0x1a0 NextRequestHandle : 0xffff8084`c04d7620 Void
+   +0x1a8 IterativeDataPathTracker : (null) 
+   +0x1b0 NextSendNetBufferListsHandler : 0xfffff803`08d17ce0     void  wfplwfs!LwfLowerSendNetBufferLists+0
+   +0x1b8 NextSendNetBufferListsContext : 0xffff8084`c04cfb10 Void
+   +0x1c0 NextSendNetBufferListsTracker : 0xffff8084`bf703c31 NDIS_NBL_TRACKER_HANDLE__
+   +0x1c8 NextSendNetBufferListsObject : 0xffff8084`c04d58a0 _NDIS_OBJECT_HEADER
+   +0x1d0 NextSendNetBufferListsCompleteHandler : 0xfffff803`07f85080     void  NDIS!ndisMSendCompleteNetBufferListsInternal+0
+   +0x1d8 NextSendNetBufferListsCompleteContext : 0xffff8084`bf69f1a0 Void
+   +0x1e0 NextSendNetBufferListsCompleteTracker : 0x00000000`00000030 NDIS_NBL_TRACKER_HANDLE__
+   +0x1e8 NextSendNetBufferListsCompleteObject : 0xffff8084`bf69f1a0 _NDIS_OBJECT_HEADER
+   +0x1f0 NextIndicateReceiveNetBufferListsHandler : 0xfffff803`07f5d460     void  NDIS!ndisMTopReceiveNetBufferLists+0
+   +0x1f8 NextIndicateReceiveNetBufferListsContext : 0xffff8084`bf69f1a0 Void
+   +0x200 NextIndicateReceiveNetBufferListsTracker : 0x00000000`00000020 NDIS_NBL_TRACKER_HANDLE__
+   +0x208 NextIndicateReceiveNetBufferListsObject : 0xffff8084`bf69f1a0 _NDIS_OBJECT_HEADER
+   +0x210 NextReturnNetBufferListsHandler : 0xfffff803`08d117d0     void  wfplwfs!LwfLowerReturnNetBufferLists+0
+   +0x218 NextReturnNetBufferListsContext : 0xffff8084`c04cfb10 Void
+   +0x220 NextReturnNetBufferListsTracker : 0xffff8084`bf703c31 NDIS_NBL_TRACKER_HANDLE__
+   +0x228 NextReturnNetBufferListsObject : 0xffff8084`c04d58a0 _NDIS_OBJECT_HEADER
+   +0x230 NextCancelSendNetBufferListsHandler : 0xfffff803`0800b540     void  NDIS!ndisMCancelSendNetBufferListsOnMiniport+0
+   +0x238 NextCancelSendNetBufferListsContext : 0xffff8084`bf69f1a0 Void
+   +0x240 Characteristics  : _NDIS_FILTER_PARTIAL_CHARACTERISTICS
+   +0x270 FilterSendNetBufferListsHandler : 0xfffff803`07fd2e00     void  NDIS!ndisFakeFilterSendHandler+0
+   +0x278 FilterIndicateReceiveNetBufferListsHandler : 0xfffff803`07fe2e90     void  NDIS!ndisFakeFilterReceiveHandler+0
+   +0x280 FilterCancelSendNetBufferListsHandler : 0xfffff803`07fdc860     void  NDIS!ndis6DummyReceiveComplete+0
+   +0x288 NblTracker       : 0xffff8084`bf7056d1 NDIS_NBL_TRACKER_HANDLE__
+   +0x290 Offload          : 0xffff8084`bf67bbb0 _NDIS_FILTER_TASK_OFFLOAD
+   +0x298 InterfaceGuid    : _GUID {b5f3399d-3845-11f0-a4c4-806e6f6e6963}
+   +0x2a8 IfIndex          : 0x16
+   +0x2b0 IfBlock          : 0xffff8084`c04dc010 _NDIS_IF_BLOCK
+   +0x2b8 NextDirectRequestHandle : 0xffff8084`bf69f1a0 Void
+   +0x2c0 DirectOidRequestCount : 0
+   +0x2c8 WOLPatternList   : _SINGLE_LIST_ENTRY
+   +0x2d0 PMProtocolOffloadList : _SINGLE_LIST_ENTRY
+   +0x2d8 PMCurrentParameters : _NDIS_PM_PARAMETERS
+   +0x2f0 Bind             : 0xffffcf02`7eb02930 NDIS_BIND_FILTER_LINK
+   +0x2f8 HwTimestampCapabilities : (null) 
+   +0x300 HwTimestampCurrentConfig : (null) 
+   +0x308 VerifierContext  : (null) 
+   +0x310 PktMonComp       : _PKTMON_COMPONENT_CONTEXT
+   +0x350 PktMonEdgeLower  : _PKTMON_EDGE_CONTEXT
+   +0x378 PktMonEdgeUpper  : _PKTMON_EDGE_CONTEXT
+   +0x3a0 NblContextVerifierContext : _NBL_CONTEXT_VERIFIER_CONTEXT
+   +0x3c0 SriovHwCapabilities : _NDIS_SRIOV_CAPABILITIES
+   +0x3cc SriovCurrentCapabilities : _NDIS_SRIOV_CAPABILITIES
+   +0x3d8 NicSwitchHwCapabilities : _NDIS_NIC_SWITCH_CAPABILITIES
+   +0x45c NicSwitchCurrentCapabilities : _NDIS_NIC_SWITCH_CAPABILITIES
+   +0x4e0 ReceiveFilterHwCapabilities : _NDIS_RECEIVE_FILTER_CAPABILITIES
+   +0x534 ReceiveFilterCurrentCapabilities : _NDIS_RECEIVE_FILTER_CAPABILITIES
+   +0x000 Header           : _NDIS_OBJECT_HEADER
+   +0x008 NextFilter       : 0xffff8084`c04d4a20 _NDIS_FILTER_BLOCK
+   +0x010 FilterDriver     : 0xffff8084`bf51f4c0 _NDIS_FILTER_DRIVER_BLOCK
+   +0x018 FilterModuleContext : 0xffff8084`bfb8fd70 Void
+   +0x020 Miniport         : 0xffff8084`bf69f1a0 _NDIS_MINIPORT_BLOCK
+   +0x028 FilterInstanceName : wistd::unique_ptr<Rtl::KString,wistd::default_delete<Rtl::KString> >
+   +0x030 FilterFriendlyName : 0xffff8084`bfac2be0 _UNICODE_STRING "Microsoft Hyper-V Network Adapter #3-QoS Packet Scheduler-0000"
+   +0x038 Flags            : 0x10
+   +0x03c StackFlags       : 1
+   +0x040 State            : 4 ( NdisFilterRunning )
+   +0x048 Ref              : _REFERENCE_EX
+   +0x060 FakeStatus       : 0n-1071448033
+   +0x068 NextGlobalFilter : 0xffff8084`c04d58a0 _NDIS_FILTER_BLOCK
+   +0x070 LowerFilter      : 0xffff8084`c04d58a0 _NDIS_FILTER_BLOCK
+   +0x078 HigherFilter     : 0xffff8084`c04db010 _NDIS_FILTER_BLOCK
+   +0x080 AsyncOpContext   : (null) 
+   +0x088 NumOfPauseRestartRequests : 0n0
+   +0x090 Lock             : 0
+   +0x098 LockThread       : (null) 
+   +0x0a0 OidRequestList   : _LIST_ENTRY [ 0xffff8084`c04d76c0 - 0xffff8084`c04d76c0 ]
+   +0x0b0 PendingOidRequest : (null) 
+   +0x0b8 PendingOidWatchdog : wil::unique_any_t<wil::details::unique_storage<wil::details::resource_policy<NDISWATCHDOG__ *,void (__cdecl*)(NDISWATCHDOG__ *),&ndisFreeWatchdog,wistd::integral_constant<unsigned __int64,1>,NDISWATCHDOG__ *,__int64,-1,std::nullptr_t> > >
+   +0x0c0 StackExpansionFallback : _NDIS_FILTER_BLOCK::<unnamed-type-StackExpansionFallback>
+   +0x120 StatusIndicationsQueued : 0 ''
+   +0x124 DroppedReceiveNbls : 0n0
+   +0x128 DroppedSendNbls  : 0n0
+   +0x12c DroppedStatusIndications : 0
+   +0x130 DroppedUncloneableStatusIndications : 0
+   +0x138 PnPRef           : _REFERENCE_EX
+   +0x150 MediaType        : 0 ( NdisMedium802_3 )
+   +0x154 PhysicalMediaType : 0 ( NdisPhysicalMediumUnspecified )
+   +0x158 MediaConnectState : 2 ( MediaConnectStateDisconnected )
+   +0x15c MediaDuplexState : 0 ( MediaDuplexStateUnknown )
+   +0x160 XmitLinkSpeed    : 0x00000002`540be400
+   +0x168 RcvLinkSpeed     : 0x00000002`540be400
+   +0x170 PauseFunctions   : 0 ( NdisPauseFunctionsUnsupported )
+   +0x174 AutoNegotiationFlags : 0
+   +0x178 XState           : 0x1 ''
+   +0x179 Reserved1        : 0 ''
+   +0x17a Reserved2        : 0 ''
+   +0x17b Reserved3        : 0 ''
+   +0x17c MediaConnectStateIndicateUp : 2 ( MediaConnectStateDisconnected )
+   +0x180 MediaDuplexStateIndicateUp : 0 ( MediaDuplexStateUnknown )
+   +0x188 XmitLinkSpeedIndicateUp : 0x00000002`540be400
+   +0x190 RcvLinkSpeedIndicateUp : 0x00000002`540be400
+   +0x198 PauseFunctionsIndicateUp : 0 ( NdisPauseFunctionsUnsupported )
+   +0x19c AutoNegotiationFlagsIndicateUp : 0
+   +0x1a0 NextRequestHandle : 0xffff8084`c04d58a0 Void
+   +0x1a8 IterativeDataPathTracker : (null) 
+   +0x1b0 NextSendNetBufferListsHandler : 0xfffff803`08d17ce0     void  wfplwfs!LwfLowerSendNetBufferLists+0
+   +0x1b8 NextSendNetBufferListsContext : 0xffff8084`c04cfb10 Void
+   +0x1c0 NextSendNetBufferListsTracker : 0xffff8084`bf703c31 NDIS_NBL_TRACKER_HANDLE__
+   +0x1c8 NextSendNetBufferListsObject : 0xffff8084`c04d58a0 _NDIS_OBJECT_HEADER
+   +0x1d0 NextSendNetBufferListsCompleteHandler : 0xfffff803`07f85080     void  NDIS!ndisMSendCompleteNetBufferListsInternal+0
+   +0x1d8 NextSendNetBufferListsCompleteContext : 0xffff8084`bf69f1a0 Void
+   +0x1e0 NextSendNetBufferListsCompleteTracker : 0x00000000`00000030 NDIS_NBL_TRACKER_HANDLE__
+   +0x1e8 NextSendNetBufferListsCompleteObject : 0xffff8084`bf69f1a0 _NDIS_OBJECT_HEADER
+   +0x1f0 NextIndicateReceiveNetBufferListsHandler : 0xfffff803`07f5d460     void  NDIS!ndisMTopReceiveNetBufferLists+0
+   +0x1f8 NextIndicateReceiveNetBufferListsContext : 0xffff8084`bf69f1a0 Void
+   +0x200 NextIndicateReceiveNetBufferListsTracker : 0x00000000`00000020 NDIS_NBL_TRACKER_HANDLE__
+   +0x208 NextIndicateReceiveNetBufferListsObject : 0xffff8084`bf69f1a0 _NDIS_OBJECT_HEADER
+   +0x210 NextReturnNetBufferListsHandler : 0xfffff803`08d117d0     void  wfplwfs!LwfLowerReturnNetBufferLists+0
+   +0x218 NextReturnNetBufferListsContext : 0xffff8084`c04cfb10 Void
+   +0x220 NextReturnNetBufferListsTracker : 0xffff8084`bf703c31 NDIS_NBL_TRACKER_HANDLE__
+   +0x228 NextReturnNetBufferListsObject : 0xffff8084`c04d58a0 _NDIS_OBJECT_HEADER
+   +0x230 NextCancelSendNetBufferListsHandler : 0xfffff803`0800b540     void  NDIS!ndisMCancelSendNetBufferListsOnMiniport+0
+   +0x238 NextCancelSendNetBufferListsContext : 0xffff8084`bf69f1a0 Void
+   +0x240 Characteristics  : _NDIS_FILTER_PARTIAL_CHARACTERISTICS
+   +0x270 FilterSendNetBufferListsHandler : 0xfffff803`07fd2e00     void  NDIS!ndisFakeFilterSendHandler+0
+   +0x278 FilterIndicateReceiveNetBufferListsHandler : 0xfffff803`07fe2e90     void  NDIS!ndisFakeFilterReceiveHandler+0
+   +0x280 FilterCancelSendNetBufferListsHandler : 0xfffff803`07fdc860     void  NDIS!ndis6DummyReceiveComplete+0
+   +0x288 NblTracker       : 0xffff8084`bf7053d1 NDIS_NBL_TRACKER_HANDLE__
+   +0x290 Offload          : 0xffff8084`bf67b250 _NDIS_FILTER_TASK_OFFLOAD
+   +0x298 InterfaceGuid    : _GUID {b5f3399c-3845-11f0-a4c4-806e6f6e6963}
+   +0x2a8 IfIndex          : 0x15
+   +0x2b0 IfBlock          : 0xffff8084`c04da7a0 _NDIS_IF_BLOCK
+   +0x2b8 NextDirectRequestHandle : 0xffff8084`bf69f1a0 Void
+   +0x2c0 DirectOidRequestCount : 0
+   +0x2c8 WOLPatternList   : _SINGLE_LIST_ENTRY
+   +0x2d0 PMProtocolOffloadList : _SINGLE_LIST_ENTRY
+   +0x2d8 PMCurrentParameters : _NDIS_PM_PARAMETERS
+   +0x2f0 Bind             : 0xffffcf02`7eb02540 NDIS_BIND_FILTER_LINK
+   +0x2f8 HwTimestampCapabilities : (null) 
+   +0x300 HwTimestampCurrentConfig : (null) 
+   +0x308 VerifierContext  : (null) 
+   +0x310 PktMonComp       : _PKTMON_COMPONENT_CONTEXT
+   +0x350 PktMonEdgeLower  : _PKTMON_EDGE_CONTEXT
+   +0x378 PktMonEdgeUpper  : _PKTMON_EDGE_CONTEXT
+   +0x3a0 NblContextVerifierContext : _NBL_CONTEXT_VERIFIER_CONTEXT
+   +0x3c0 SriovHwCapabilities : _NDIS_SRIOV_CAPABILITIES
+   +0x3cc SriovCurrentCapabilities : _NDIS_SRIOV_CAPABILITIES
+   +0x3d8 NicSwitchHwCapabilities : _NDIS_NIC_SWITCH_CAPABILITIES
+   +0x45c NicSwitchCurrentCapabilities : _NDIS_NIC_SWITCH_CAPABILITIES
+   +0x4e0 ReceiveFilterHwCapabilities : _NDIS_RECEIVE_FILTER_CAPABILITIES
+   +0x534 ReceiveFilterCurrentCapabilities : _NDIS_RECEIVE_FILTER_CAPABILITIES
+   +0x000 Header           : _NDIS_OBJECT_HEADER
+   +0x008 NextFilter       : 0xffff8084`c04d2010 _NDIS_FILTER_BLOCK
+   +0x010 FilterDriver     : 0xffff8084`bf09dc80 _NDIS_FILTER_DRIVER_BLOCK
+   +0x018 FilterModuleContext : 0xffff8084`c04cfb10 Void
+   +0x020 Miniport         : 0xffff8084`bf69f1a0 _NDIS_MINIPORT_BLOCK
+   +0x028 FilterInstanceName : wistd::unique_ptr<Rtl::KString,wistd::default_delete<Rtl::KString> >
+   +0x030 FilterFriendlyName : 0xffff8084`c0447890 _UNICODE_STRING "Microsoft Hyper-V Network Adapter #3-WFP Native MAC Layer LightWeight Filter-0000"
+   +0x038 Flags            : 0x10
+   +0x03c StackFlags       : 0
+   +0x040 State            : 4 ( NdisFilterRunning )
+   +0x048 Ref              : _REFERENCE_EX
+   +0x060 FakeStatus       : 0n-1071448033
+   +0x068 NextGlobalFilter : 0xffff8084`bfab2030 _NDIS_FILTER_BLOCK
+   +0x070 LowerFilter      : (null) 
+   +0x078 HigherFilter     : 0xffff8084`c04d7620 _NDIS_FILTER_BLOCK
+   +0x080 AsyncOpContext   : (null) 
+   +0x088 NumOfPauseRestartRequests : 0n0
+   +0x090 Lock             : 0
+   +0x098 LockThread       : (null) 
+   +0x0a0 OidRequestList   : _LIST_ENTRY [ 0xffff8084`c04d5940 - 0xffff8084`c04d5940 ]
+   +0x0b0 PendingOidRequest : (null) 
+   +0x0b8 PendingOidWatchdog : wil::unique_any_t<wil::details::unique_storage<wil::details::resource_policy<NDISWATCHDOG__ *,void (__cdecl*)(NDISWATCHDOG__ *),&ndisFreeWatchdog,wistd::integral_constant<unsigned __int64,1>,NDISWATCHDOG__ *,__int64,-1,std::nullptr_t> > >
+   +0x0c0 StackExpansionFallback : _NDIS_FILTER_BLOCK::<unnamed-type-StackExpansionFallback>
+   +0x120 StatusIndicationsQueued : 0 ''
+   +0x124 DroppedReceiveNbls : 0n0
+   +0x128 DroppedSendNbls  : 0n0
+   +0x12c DroppedStatusIndications : 0
+   +0x130 DroppedUncloneableStatusIndications : 0
+   +0x138 PnPRef           : _REFERENCE_EX
+   +0x150 MediaType        : 0 ( NdisMedium802_3 )
+   +0x154 PhysicalMediaType : 0 ( NdisPhysicalMediumUnspecified )
+   +0x158 MediaConnectState : 2 ( MediaConnectStateDisconnected )
+   +0x15c MediaDuplexState : 0 ( MediaDuplexStateUnknown )
+   +0x160 XmitLinkSpeed    : 0x00000002`540be400
+   +0x168 RcvLinkSpeed     : 0x00000002`540be400
+   +0x170 PauseFunctions   : 0 ( NdisPauseFunctionsUnsupported )
+   +0x174 AutoNegotiationFlags : 0
+   +0x178 XState           : 0x1 ''
+   +0x179 Reserved1        : 0 ''
+   +0x17a Reserved2        : 0 ''
+   +0x17b Reserved3        : 0 ''
+   +0x17c MediaConnectStateIndicateUp : 2 ( MediaConnectStateDisconnected )
+   +0x180 MediaDuplexStateIndicateUp : 0 ( MediaDuplexStateUnknown )
+   +0x188 XmitLinkSpeedIndicateUp : 0x00000002`540be400
+   +0x190 RcvLinkSpeedIndicateUp : 0x00000002`540be400
+   +0x198 PauseFunctionsIndicateUp : 0 ( NdisPauseFunctionsUnsupported )
+   +0x19c AutoNegotiationFlagsIndicateUp : 0
+   +0x1a0 NextRequestHandle : 0xffff8084`bf69f1a0 Void
+   +0x1a8 IterativeDataPathTracker : 0xffff8084`bfaa1180 [4] _NDIS_ITERATIVE_DATA_PATH_TRACKER_ENTRY
+   +0x1b0 NextSendNetBufferListsHandler : 0xfffff803`07f75370     void  NDIS!ndisMSendNBLToMiniport+0
+   +0x1b8 NextSendNetBufferListsContext : 0xffff8084`bf69f1a0 Void
+   +0x1c0 NextSendNetBufferListsTracker : 0xffff8084`bf702a31 NDIS_NBL_TRACKER_HANDLE__
+   +0x1c8 NextSendNetBufferListsObject : 0xffff8084`bf69f1a0 _NDIS_OBJECT_HEADER
+   +0x1d0 NextSendNetBufferListsCompleteHandler : 0xfffff803`07f85080     void  NDIS!ndisMSendCompleteNetBufferListsInternal+0
+   +0x1d8 NextSendNetBufferListsCompleteContext : 0xffff8084`bf69f1a0 Void
+   +0x1e0 NextSendNetBufferListsCompleteTracker : 0x00000000`00000030 NDIS_NBL_TRACKER_HANDLE__
+   +0x1e8 NextSendNetBufferListsCompleteObject : 0xffff8084`bf69f1a0 _NDIS_OBJECT_HEADER
+   +0x1f0 NextIndicateReceiveNetBufferListsHandler : 0xfffff803`07f5d460     void  NDIS!ndisMTopReceiveNetBufferLists+0
+   +0x1f8 NextIndicateReceiveNetBufferListsContext : 0xffff8084`bf69f1a0 Void
+   +0x200 NextIndicateReceiveNetBufferListsTracker : 0x00000000`00000020 NDIS_NBL_TRACKER_HANDLE__
+   +0x208 NextIndicateReceiveNetBufferListsObject : 0xffff8084`bf69f1a0 _NDIS_OBJECT_HEADER
+   +0x210 NextReturnNetBufferListsHandler : 0xfffff803`09ea5a10     void  netvsc!RndismpReturnNetBufferLists+0
+   +0x218 NextReturnNetBufferListsContext : 0xffff8084`bf94f010 Void
+   +0x220 NextReturnNetBufferListsTracker : 0xffff8084`bf702a31 NDIS_NBL_TRACKER_HANDLE__
+   +0x228 NextReturnNetBufferListsObject : 0xffff8084`bf69f1a0 _NDIS_OBJECT_HEADER
+   +0x230 NextCancelSendNetBufferListsHandler : 0xfffff803`0800b540     void  NDIS!ndisMCancelSendNetBufferListsOnMiniport+0
+   +0x238 NextCancelSendNetBufferListsContext : 0xffff8084`bf69f1a0 Void
+   +0x240 Characteristics  : _NDIS_FILTER_PARTIAL_CHARACTERISTICS
+   +0x270 FilterSendNetBufferListsHandler : 0xfffff803`07fd2e00     void  NDIS!ndisFakeFilterSendHandler+0
+   +0x278 FilterIndicateReceiveNetBufferListsHandler : 0xfffff803`07fe2e90     void  NDIS!ndisFakeFilterReceiveHandler+0
+   +0x280 FilterCancelSendNetBufferListsHandler : 0xfffff803`07fdc860     void  NDIS!ndis6DummyReceiveComplete+0
+   +0x288 NblTracker       : 0xffff8084`bf703c31 NDIS_NBL_TRACKER_HANDLE__
+   +0x290 Offload          : 0xffff8084`bf67c420 _NDIS_FILTER_TASK_OFFLOAD
+   +0x298 InterfaceGuid    : _GUID {b5f3399b-3845-11f0-a4c4-806e6f6e6963}
+   +0x2a8 IfIndex          : 0x14
+   +0x2b0 IfBlock          : 0xffff8084`c04d7010 _NDIS_IF_BLOCK
+   +0x2b8 NextDirectRequestHandle : 0xffff8084`bf69f1a0 Void
+   +0x2c0 DirectOidRequestCount : 0
+   +0x2c8 WOLPatternList   : _SINGLE_LIST_ENTRY
+   +0x2d0 PMProtocolOffloadList : _SINGLE_LIST_ENTRY
+   +0x2d8 PMCurrentParameters : _NDIS_PM_PARAMETERS
+   +0x2f0 Bind             : 0xffffcf02`7eb03340 NDIS_BIND_FILTER_LINK
+   +0x2f8 HwTimestampCapabilities : (null) 
+   +0x300 HwTimestampCurrentConfig : (null) 
+   +0x308 VerifierContext  : (null) 
+   +0x310 PktMonComp       : _PKTMON_COMPONENT_CONTEXT
+   +0x350 PktMonEdgeLower  : _PKTMON_EDGE_CONTEXT
+   +0x378 PktMonEdgeUpper  : _PKTMON_EDGE_CONTEXT
+   +0x3a0 NblContextVerifierContext : _NBL_CONTEXT_VERIFIER_CONTEXT
+   +0x3c0 SriovHwCapabilities : _NDIS_SRIOV_CAPABILITIES
+   +0x3cc SriovCurrentCapabilities : _NDIS_SRIOV_CAPABILITIES
+   +0x3d8 NicSwitchHwCapabilities : _NDIS_NIC_SWITCH_CAPABILITIES
+   +0x45c NicSwitchCurrentCapabilities : _NDIS_NIC_SWITCH_CAPABILITIES
+   +0x4e0 ReceiveFilterHwCapabilities : _NDIS_RECEIVE_FILTER_CAPABILITIES
+   +0x534 ReceiveFilterCurrentCapabilities : _NDIS_RECEIVE_FILTER_CAPABILITIES
+   +0x000 Header           : _NDIS_OBJECT_HEADER
+   +0x008 NextFilter       : (null) 
+   +0x010 FilterDriver     : 0xffff8084`bf0a0cf0 _NDIS_FILTER_DRIVER_BLOCK
+   +0x018 FilterModuleContext : 0xffff8084`bf6f22b0 Void
+   +0x020 Miniport         : 0xffff8084`bf69d1a0 _NDIS_MINIPORT_BLOCK
+   +0x028 FilterInstanceName : wistd::unique_ptr<Rtl::KString,wistd::default_delete<Rtl::KString> >
+   +0x030 FilterFriendlyName : 0xffff8084`c0442a90 _UNICODE_STRING "Microsoft Hyper-V Network Adapter #2-WFP 802.3 MAC Layer LightWeight Filter-0000"
+   +0x038 Flags            : 0x10
+   +0x03c StackFlags       : 0
+   +0x040 State            : 4 ( NdisFilterRunning )
+   +0x048 Ref              : _REFERENCE_EX
+   +0x060 FakeStatus       : 0n0
+   +0x068 NextGlobalFilter : 0xffff8084`c04d4a20 _NDIS_FILTER_BLOCK
+   +0x070 LowerFilter      : 0xffff8084`c04d4a20 _NDIS_FILTER_BLOCK
+   +0x078 HigherFilter     : (null) 
+   +0x080 AsyncOpContext   : (null) 
+   +0x088 NumOfPauseRestartRequests : 0n0
+   +0x090 Lock             : 0
+   +0x098 LockThread       : (null) 
+   +0x0a0 OidRequestList   : _LIST_ENTRY [ 0xffff8084`bfab20d0 - 0xffff8084`bfab20d0 ]
+   +0x0b0 PendingOidRequest : (null) 
+   +0x0b8 PendingOidWatchdog : wil::unique_any_t<wil::details::unique_storage<wil::details::resource_policy<NDISWATCHDOG__ *,void (__cdecl*)(NDISWATCHDOG__ *),&ndisFreeWatchdog,wistd::integral_constant<unsigned __int64,1>,NDISWATCHDOG__ *,__int64,-1,std::nullptr_t> > >
+   +0x0c0 StackExpansionFallback : _NDIS_FILTER_BLOCK::<unnamed-type-StackExpansionFallback>
+   +0x120 StatusIndicationsQueued : 0 ''
+   +0x124 DroppedReceiveNbls : 0n0
+   +0x128 DroppedSendNbls  : 0n0
+   +0x12c DroppedStatusIndications : 0
+   +0x130 DroppedUncloneableStatusIndications : 0
+   +0x138 PnPRef           : _REFERENCE_EX
+   +0x150 MediaType        : 0 ( NdisMedium802_3 )
+   +0x154 PhysicalMediaType : 0 ( NdisPhysicalMediumUnspecified )
+   +0x158 MediaConnectState : 1 ( MediaConnectStateConnected )
+   +0x15c MediaDuplexState : 0 ( MediaDuplexStateUnknown )
+   +0x160 XmitLinkSpeed    : 0x00000002`540be400
+   +0x168 RcvLinkSpeed     : 0x00000002`540be400
+   +0x170 PauseFunctions   : 0 ( NdisPauseFunctionsUnsupported )
+   +0x174 AutoNegotiationFlags : 0
+   +0x178 XState           : 0 ''
+   +0x179 Reserved1        : 0 ''
+   +0x17a Reserved2        : 0 ''
+   +0x17b Reserved3        : 0 ''
+   +0x17c MediaConnectStateIndicateUp : 1 ( MediaConnectStateConnected )
+   +0x180 MediaDuplexStateIndicateUp : 0 ( MediaDuplexStateUnknown )
+   +0x188 XmitLinkSpeedIndicateUp : 0x00000002`540be400
+   +0x190 RcvLinkSpeedIndicateUp : 0x00000002`540be400
+   +0x198 PauseFunctionsIndicateUp : 0 ( NdisPauseFunctionsUnsupported )
+   +0x19c AutoNegotiationFlagsIndicateUp : 0
+   +0x1a0 NextRequestHandle : 0xffff8084`c04d4a20 Void
+   +0x1a8 IterativeDataPathTracker : (null) 
+   +0x1b0 NextSendNetBufferListsHandler : 0xfffff803`08d17ce0     void  wfplwfs!LwfLowerSendNetBufferLists+0
+   +0x1b8 NextSendNetBufferListsContext : 0xffff8084`c04d4620 Void
+   +0x1c0 NextSendNetBufferListsTracker : 0xffff8084`bf703871 NDIS_NBL_TRACKER_HANDLE__
+   +0x1c8 NextSendNetBufferListsObject : 0xffff8084`c04d2010 _NDIS_OBJECT_HEADER
+   +0x1d0 NextSendNetBufferListsCompleteHandler : 0xfffff803`07f85080     void  NDIS!ndisMSendCompleteNetBufferListsInternal+0
+   +0x1d8 NextSendNetBufferListsCompleteContext : 0xffff8084`bf69d1a0 Void
+   +0x1e0 NextSendNetBufferListsCompleteTracker : 0x00000000`00000030 NDIS_NBL_TRACKER_HANDLE__
+   +0x1e8 NextSendNetBufferListsCompleteObject : 0xffff8084`bf69d1a0 _NDIS_OBJECT_HEADER
+   +0x1f0 NextIndicateReceiveNetBufferListsHandler : 0xfffff803`07f5d460     void  NDIS!ndisMTopReceiveNetBufferLists+0
+   +0x1f8 NextIndicateReceiveNetBufferListsContext : 0xffff8084`bf69d1a0 Void
+   +0x200 NextIndicateReceiveNetBufferListsTracker : 0x00000000`00000020 NDIS_NBL_TRACKER_HANDLE__
+   +0x208 NextIndicateReceiveNetBufferListsObject : 0xffff8084`bf69d1a0 _NDIS_OBJECT_HEADER
+   +0x210 NextReturnNetBufferListsHandler : 0xfffff803`08d117d0     void  wfplwfs!LwfLowerReturnNetBufferLists+0
+   +0x218 NextReturnNetBufferListsContext : 0xffff8084`c04d4620 Void
+   +0x220 NextReturnNetBufferListsTracker : 0xffff8084`bf703871 NDIS_NBL_TRACKER_HANDLE__
+   +0x228 NextReturnNetBufferListsObject : 0xffff8084`c04d2010 _NDIS_OBJECT_HEADER
+   +0x230 NextCancelSendNetBufferListsHandler : 0xfffff803`0800b540     void  NDIS!ndisMCancelSendNetBufferListsOnMiniport+0
+   +0x238 NextCancelSendNetBufferListsContext : 0xffff8084`bf69d1a0 Void
+   +0x240 Characteristics  : _NDIS_FILTER_PARTIAL_CHARACTERISTICS
+   +0x270 FilterSendNetBufferListsHandler : 0xfffff803`07f58f70     void  NDIS!ndisFilterSendNetBufferLists+0
+   +0x278 FilterIndicateReceiveNetBufferListsHandler : 0xfffff803`07f60df0     void  NDIS!ndisFilterIndicateReceiveNetBufferLists+0
+   +0x280 FilterCancelSendNetBufferListsHandler : 0xfffff803`07fda9f0     void  NDIS!ndisFilterCancelSendNetBufferLists+0
+   +0x288 NblTracker       : 0xffff8084`bf704231 NDIS_NBL_TRACKER_HANDLE__
+   +0x290 Offload          : 0xffff8084`bf67bac0 _NDIS_FILTER_TASK_OFFLOAD
+   +0x298 InterfaceGuid    : _GUID {b5f3399a-3845-11f0-a4c4-806e6f6e6963}
+   +0x2a8 IfIndex          : 0x13
+   +0x2b0 IfBlock          : 0xffff8084`bfab2600 _NDIS_IF_BLOCK
+   +0x2b8 NextDirectRequestHandle : 0xffff8084`bf69d1a0 Void
+   +0x2c0 DirectOidRequestCount : 0
+   +0x2c8 WOLPatternList   : _SINGLE_LIST_ENTRY
+   +0x2d0 PMProtocolOffloadList : _SINGLE_LIST_ENTRY
+   +0x2d8 PMCurrentParameters : _NDIS_PM_PARAMETERS
+   +0x2f0 Bind             : 0xffffcf02`7eb031f0 NDIS_BIND_FILTER_LINK
+   +0x2f8 HwTimestampCapabilities : (null) 
+   +0x300 HwTimestampCurrentConfig : (null) 
+   +0x308 VerifierContext  : (null) 
+   +0x310 PktMonComp       : _PKTMON_COMPONENT_CONTEXT
+   +0x350 PktMonEdgeLower  : _PKTMON_EDGE_CONTEXT
+   +0x378 PktMonEdgeUpper  : _PKTMON_EDGE_CONTEXT
+   +0x3a0 NblContextVerifierContext : _NBL_CONTEXT_VERIFIER_CONTEXT
+   +0x3c0 SriovHwCapabilities : _NDIS_SRIOV_CAPABILITIES
+   +0x3cc SriovCurrentCapabilities : _NDIS_SRIOV_CAPABILITIES
+   +0x3d8 NicSwitchHwCapabilities : _NDIS_NIC_SWITCH_CAPABILITIES
+   +0x45c NicSwitchCurrentCapabilities : _NDIS_NIC_SWITCH_CAPABILITIES
+   +0x4e0 ReceiveFilterHwCapabilities : _NDIS_RECEIVE_FILTER_CAPABILITIES
+   +0x534 ReceiveFilterCurrentCapabilities : _NDIS_RECEIVE_FILTER_CAPABILITIES
+   +0x000 Header           : _NDIS_OBJECT_HEADER
+   +0x008 NextFilter       : (null) 
+   +0x010 FilterDriver     : 0xffff8084`bf51f4c0 _NDIS_FILTER_DRIVER_BLOCK
+   +0x018 FilterModuleContext : 0xffff8084`bfb90230 Void
+   +0x020 Miniport         : 0xffff8084`bf69d1a0 _NDIS_MINIPORT_BLOCK
+   +0x028 FilterInstanceName : wistd::unique_ptr<Rtl::KString,wistd::default_delete<Rtl::KString> >
+   +0x030 FilterFriendlyName : 0xffff8084`bfac12e0 _UNICODE_STRING "Microsoft Hyper-V Network Adapter #2-QoS Packet Scheduler-0000"
+   +0x038 Flags            : 0x10
+   +0x03c StackFlags       : 1
+   +0x040 State            : 4 ( NdisFilterRunning )
+   +0x048 Ref              : _REFERENCE_EX
+   +0x060 FakeStatus       : 0n0
+   +0x068 NextGlobalFilter : 0xffff8084`c04d2010 _NDIS_FILTER_BLOCK
+   +0x070 LowerFilter      : 0xffff8084`c04d2010 _NDIS_FILTER_BLOCK
+   +0x078 HigherFilter     : 0xffff8084`bfab2030 _NDIS_FILTER_BLOCK
+   +0x080 AsyncOpContext   : (null) 
+   +0x088 NumOfPauseRestartRequests : 0n0
+   +0x090 Lock             : 0
+   +0x098 LockThread       : (null) 
+   +0x0a0 OidRequestList   : _LIST_ENTRY [ 0xffff8084`c04d4ac0 - 0xffff8084`c04d4ac0 ]
+   +0x0b0 PendingOidRequest : (null) 
+   +0x0b8 PendingOidWatchdog : wil::unique_any_t<wil::details::unique_storage<wil::details::resource_policy<NDISWATCHDOG__ *,void (__cdecl*)(NDISWATCHDOG__ *),&ndisFreeWatchdog,wistd::integral_constant<unsigned __int64,1>,NDISWATCHDOG__ *,__int64,-1,std::nullptr_t> > >
+   +0x0c0 StackExpansionFallback : _NDIS_FILTER_BLOCK::<unnamed-type-StackExpansionFallback>
+   +0x120 StatusIndicationsQueued : 0 ''
+   +0x124 DroppedReceiveNbls : 0n0
+   +0x128 DroppedSendNbls  : 0n0
+   +0x12c DroppedStatusIndications : 0
+   +0x130 DroppedUncloneableStatusIndications : 0
+   +0x138 PnPRef           : _REFERENCE_EX
+   +0x150 MediaType        : 0 ( NdisMedium802_3 )
+   +0x154 PhysicalMediaType : 0 ( NdisPhysicalMediumUnspecified )
+   +0x158 MediaConnectState : 1 ( MediaConnectStateConnected )
+   +0x15c MediaDuplexState : 0 ( MediaDuplexStateUnknown )
+   +0x160 XmitLinkSpeed    : 0x00000002`540be400
+   +0x168 RcvLinkSpeed     : 0x00000002`540be400
+   +0x170 PauseFunctions   : 0 ( NdisPauseFunctionsUnsupported )
+   +0x174 AutoNegotiationFlags : 0
+   +0x178 XState           : 0 ''
+   +0x179 Reserved1        : 0 ''
+   +0x17a Reserved2        : 0 ''
+   +0x17b Reserved3        : 0 ''
+   +0x17c MediaConnectStateIndicateUp : 1 ( MediaConnectStateConnected )
+   +0x180 MediaDuplexStateIndicateUp : 0 ( MediaDuplexStateUnknown )
+   +0x188 XmitLinkSpeedIndicateUp : 0x00000002`540be400
+   +0x190 RcvLinkSpeedIndicateUp : 0x00000002`540be400
+   +0x198 PauseFunctionsIndicateUp : 0 ( NdisPauseFunctionsUnsupported )
+   +0x19c AutoNegotiationFlagsIndicateUp : 0
+   +0x1a0 NextRequestHandle : 0xffff8084`c04d2010 Void
+   +0x1a8 IterativeDataPathTracker : (null) 
+   +0x1b0 NextSendNetBufferListsHandler : 0xfffff803`08d17ce0     void  wfplwfs!LwfLowerSendNetBufferLists+0
+   +0x1b8 NextSendNetBufferListsContext : 0xffff8084`c04d4620 Void
+   +0x1c0 NextSendNetBufferListsTracker : 0xffff8084`bf703871 NDIS_NBL_TRACKER_HANDLE__
+   +0x1c8 NextSendNetBufferListsObject : 0xffff8084`c04d2010 _NDIS_OBJECT_HEADER
+   +0x1d0 NextSendNetBufferListsCompleteHandler : 0xfffff803`07f85080     void  NDIS!ndisMSendCompleteNetBufferListsInternal+0
+   +0x1d8 NextSendNetBufferListsCompleteContext : 0xffff8084`bf69d1a0 Void
+   +0x1e0 NextSendNetBufferListsCompleteTracker : 0x00000000`00000030 NDIS_NBL_TRACKER_HANDLE__
+   +0x1e8 NextSendNetBufferListsCompleteObject : 0xffff8084`bf69d1a0 _NDIS_OBJECT_HEADER
+   +0x1f0 NextIndicateReceiveNetBufferListsHandler : 0xfffff803`07f5d460     void  NDIS!ndisMTopReceiveNetBufferLists+0
+   +0x1f8 NextIndicateReceiveNetBufferListsContext : 0xffff8084`bf69d1a0 Void
+   +0x200 NextIndicateReceiveNetBufferListsTracker : 0x00000000`00000020 NDIS_NBL_TRACKER_HANDLE__
+   +0x208 NextIndicateReceiveNetBufferListsObject : 0xffff8084`bf69d1a0 _NDIS_OBJECT_HEADER
+   +0x210 NextReturnNetBufferListsHandler : 0xfffff803`08d117d0     void  wfplwfs!LwfLowerReturnNetBufferLists+0
+   +0x218 NextReturnNetBufferListsContext : 0xffff8084`c04d4620 Void
+   +0x220 NextReturnNetBufferListsTracker : 0xffff8084`bf703871 NDIS_NBL_TRACKER_HANDLE__
+   +0x228 NextReturnNetBufferListsObject : 0xffff8084`c04d2010 _NDIS_OBJECT_HEADER
+   +0x230 NextCancelSendNetBufferListsHandler : 0xfffff803`0800b540     void  NDIS!ndisMCancelSendNetBufferListsOnMiniport+0
+   +0x238 NextCancelSendNetBufferListsContext : 0xffff8084`bf69d1a0 Void
+   +0x240 Characteristics  : _NDIS_FILTER_PARTIAL_CHARACTERISTICS
+   +0x270 FilterSendNetBufferListsHandler : 0xfffff803`07f58f70     void  NDIS!ndisFilterSendNetBufferLists+0
+   +0x278 FilterIndicateReceiveNetBufferListsHandler : 0xfffff803`07f60df0     void  NDIS!ndisFilterIndicateReceiveNetBufferLists+0
+   +0x280 FilterCancelSendNetBufferListsHandler : 0xfffff803`07fda9f0     void  NDIS!ndisFilterCancelSendNetBufferLists+0
+   +0x288 NblTracker       : 0xffff8084`bf704ef1 NDIS_NBL_TRACKER_HANDLE__
+   +0x290 Offload          : 0xffff8084`bf67eb80 _NDIS_FILTER_TASK_OFFLOAD
+   +0x298 InterfaceGuid    : _GUID {b5f33999-3845-11f0-a4c4-806e6f6e6963}
+   +0x2a8 IfIndex          : 0x12
+   +0x2b0 IfBlock          : 0xffff8084`c04d25e0 _NDIS_IF_BLOCK
+   +0x2b8 NextDirectRequestHandle : 0xffff8084`bf69d1a0 Void
+   +0x2c0 DirectOidRequestCount : 0
+   +0x2c8 WOLPatternList   : _SINGLE_LIST_ENTRY
+   +0x2d0 PMProtocolOffloadList : _SINGLE_LIST_ENTRY
+   +0x2d8 PMCurrentParameters : _NDIS_PM_PARAMETERS
+   +0x2f0 Bind             : 0xffffcf02`7eb02e70 NDIS_BIND_FILTER_LINK
+   +0x2f8 HwTimestampCapabilities : (null) 
+   +0x300 HwTimestampCurrentConfig : (null) 
+   +0x308 VerifierContext  : (null) 
+   +0x310 PktMonComp       : _PKTMON_COMPONENT_CONTEXT
+   +0x350 PktMonEdgeLower  : _PKTMON_EDGE_CONTEXT
+   +0x378 PktMonEdgeUpper  : _PKTMON_EDGE_CONTEXT
+   +0x3a0 NblContextVerifierContext : _NBL_CONTEXT_VERIFIER_CONTEXT
+   +0x3c0 SriovHwCapabilities : _NDIS_SRIOV_CAPABILITIES
+   +0x3cc SriovCurrentCapabilities : _NDIS_SRIOV_CAPABILITIES
+   +0x3d8 NicSwitchHwCapabilities : _NDIS_NIC_SWITCH_CAPABILITIES
+   +0x45c NicSwitchCurrentCapabilities : _NDIS_NIC_SWITCH_CAPABILITIES
+   +0x4e0 ReceiveFilterHwCapabilities : _NDIS_RECEIVE_FILTER_CAPABILITIES
+   +0x534 ReceiveFilterCurrentCapabilities : _NDIS_RECEIVE_FILTER_CAPABILITIES
+   +0x000 Header           : _NDIS_OBJECT_HEADER
+   +0x008 NextFilter       : (null) 
+   +0x010 FilterDriver     : 0xffff8084`bf09dc80 _NDIS_FILTER_DRIVER_BLOCK
+   +0x018 FilterModuleContext : 0xffff8084`c04d4620 Void
+   +0x020 Miniport         : 0xffff8084`bf69d1a0 _NDIS_MINIPORT_BLOCK
+   +0x028 FilterInstanceName : wistd::unique_ptr<Rtl::KString,wistd::default_delete<Rtl::KString> >
+   +0x030 FilterFriendlyName : 0xffff8084`c0442dd0 _UNICODE_STRING "Microsoft Hyper-V Network Adapter #2-WFP Native MAC Layer LightWeight Filter-0000"
+   +0x038 Flags            : 0x10
+   +0x03c StackFlags       : 0
+   +0x040 State            : 4 ( NdisFilterRunning )
+   +0x048 Ref              : _REFERENCE_EX
+   +0x060 FakeStatus       : 0n0
+   +0x068 NextGlobalFilter : (null) 
+   +0x070 LowerFilter      : (null) 
+   +0x078 HigherFilter     : 0xffff8084`c04d4a20 _NDIS_FILTER_BLOCK
+   +0x080 AsyncOpContext   : (null) 
+   +0x088 NumOfPauseRestartRequests : 0n0
+   +0x090 Lock             : 0
+   +0x098 LockThread       : (null) 
+   +0x0a0 OidRequestList   : _LIST_ENTRY [ 0xffff8084`c04d20b0 - 0xffff8084`c04d20b0 ]
+   +0x0b0 PendingOidRequest : (null) 
+   +0x0b8 PendingOidWatchdog : wil::unique_any_t<wil::details::unique_storage<wil::details::resource_policy<NDISWATCHDOG__ *,void (__cdecl*)(NDISWATCHDOG__ *),&ndisFreeWatchdog,wistd::integral_constant<unsigned __int64,1>,NDISWATCHDOG__ *,__int64,-1,std::nullptr_t> > >
+   +0x0c0 StackExpansionFallback : _NDIS_FILTER_BLOCK::<unnamed-type-StackExpansionFallback>
+   +0x120 StatusIndicationsQueued : 0 ''
+   +0x124 DroppedReceiveNbls : 0n0
+   +0x128 DroppedSendNbls  : 0n0
+   +0x12c DroppedStatusIndications : 0
+   +0x130 DroppedUncloneableStatusIndications : 0
+   +0x138 PnPRef           : _REFERENCE_EX
+   +0x150 MediaType        : 0 ( NdisMedium802_3 )
+   +0x154 PhysicalMediaType : 0 ( NdisPhysicalMediumUnspecified )
+   +0x158 MediaConnectState : 1 ( MediaConnectStateConnected )
+   +0x15c MediaDuplexState : 0 ( MediaDuplexStateUnknown )
+   +0x160 XmitLinkSpeed    : 0x00000002`540be400
+   +0x168 RcvLinkSpeed     : 0x00000002`540be400
+   +0x170 PauseFunctions   : 0 ( NdisPauseFunctionsUnsupported )
+   +0x174 AutoNegotiationFlags : 0
+   +0x178 XState           : 0 ''
+   +0x179 Reserved1        : 0 ''
+   +0x17a Reserved2        : 0 ''
+   +0x17b Reserved3        : 0 ''
+   +0x17c MediaConnectStateIndicateUp : 1 ( MediaConnectStateConnected )
+   +0x180 MediaDuplexStateIndicateUp : 0 ( MediaDuplexStateUnknown )
+   +0x188 XmitLinkSpeedIndicateUp : 0x00000002`540be400
+   +0x190 RcvLinkSpeedIndicateUp : 0x00000002`540be400
+   +0x198 PauseFunctionsIndicateUp : 0 ( NdisPauseFunctionsUnsupported )
+   +0x19c AutoNegotiationFlagsIndicateUp : 0
+   +0x1a0 NextRequestHandle : 0xffff8084`bf69d1a0 Void
+   +0x1a8 IterativeDataPathTracker : 0xffff8084`bfaa27c0 [4] _NDIS_ITERATIVE_DATA_PATH_TRACKER_ENTRY
+   +0x1b0 NextSendNetBufferListsHandler : 0xfffff803`07f75370     void  NDIS!ndisMSendNBLToMiniport+0
+   +0x1b8 NextSendNetBufferListsContext : 0xffff8084`bf69d1a0 Void
+   +0x1c0 NextSendNetBufferListsTracker : 0xffff8084`bf703811 NDIS_NBL_TRACKER_HANDLE__
+   +0x1c8 NextSendNetBufferListsObject : 0xffff8084`bf69d1a0 _NDIS_OBJECT_HEADER
+   +0x1d0 NextSendNetBufferListsCompleteHandler : 0xfffff803`07f85080     void  NDIS!ndisMSendCompleteNetBufferListsInternal+0
+   +0x1d8 NextSendNetBufferListsCompleteContext : 0xffff8084`bf69d1a0 Void
+   +0x1e0 NextSendNetBufferListsCompleteTracker : 0x00000000`00000030 NDIS_NBL_TRACKER_HANDLE__
+   +0x1e8 NextSendNetBufferListsCompleteObject : 0xffff8084`bf69d1a0 _NDIS_OBJECT_HEADER
+   +0x1f0 NextIndicateReceiveNetBufferListsHandler : 0xfffff803`07f5d460     void  NDIS!ndisMTopReceiveNetBufferLists+0
+   +0x1f8 NextIndicateReceiveNetBufferListsContext : 0xffff8084`bf69d1a0 Void
+   +0x200 NextIndicateReceiveNetBufferListsTracker : 0x00000000`00000020 NDIS_NBL_TRACKER_HANDLE__
+   +0x208 NextIndicateReceiveNetBufferListsObject : 0xffff8084`bf69d1a0 _NDIS_OBJECT_HEADER
+   +0x210 NextReturnNetBufferListsHandler : 0xfffff803`09ea5a10     void  netvsc!RndismpReturnNetBufferLists+0
+   +0x218 NextReturnNetBufferListsContext : 0xffff8084`bf94b010 Void
+   +0x220 NextReturnNetBufferListsTracker : 0xffff8084`bf703811 NDIS_NBL_TRACKER_HANDLE__
+   +0x228 NextReturnNetBufferListsObject : 0xffff8084`bf69d1a0 _NDIS_OBJECT_HEADER
+   +0x230 NextCancelSendNetBufferListsHandler : 0xfffff803`0800b540     void  NDIS!ndisMCancelSendNetBufferListsOnMiniport+0
+   +0x238 NextCancelSendNetBufferListsContext : 0xffff8084`bf69d1a0 Void
+   +0x240 Characteristics  : _NDIS_FILTER_PARTIAL_CHARACTERISTICS
+   +0x270 FilterSendNetBufferListsHandler : 0xfffff803`07f58f70     void  NDIS!ndisFilterSendNetBufferLists+0
+   +0x278 FilterIndicateReceiveNetBufferListsHandler : 0xfffff803`07f60df0     void  NDIS!ndisFilterIndicateReceiveNetBufferLists+0
+   +0x280 FilterCancelSendNetBufferListsHandler : 0xfffff803`07fda9f0     void  NDIS!ndisFilterCancelSendNetBufferLists+0
+   +0x288 NblTracker       : 0xffff8084`bf703871 NDIS_NBL_TRACKER_HANDLE__
+   +0x290 Offload          : 0xffff8084`bf67ee50 _NDIS_FILTER_TASK_OFFLOAD
+   +0x298 InterfaceGuid    : _GUID {b5f33998-3845-11f0-a4c4-806e6f6e6963}
+   +0x2a8 IfIndex          : 0x11
+   +0x2b0 IfBlock          : 0xffff8084`c04d4010 _NDIS_IF_BLOCK
+   +0x2b8 NextDirectRequestHandle : 0xffff8084`bf69d1a0 Void
+   +0x2c0 DirectOidRequestCount : 0
+   +0x2c8 WOLPatternList   : _SINGLE_LIST_ENTRY
+   +0x2d0 PMProtocolOffloadList : _SINGLE_LIST_ENTRY
+   +0x2d8 PMCurrentParameters : _NDIS_PM_PARAMETERS
+   +0x2f0 Bind             : 0xffffcf02`7eb03880 NDIS_BIND_FILTER_LINK
+   +0x2f8 HwTimestampCapabilities : (null) 
+   +0x300 HwTimestampCurrentConfig : (null) 
+   +0x308 VerifierContext  : (null) 
+   +0x310 PktMonComp       : _PKTMON_COMPONENT_CONTEXT
+   +0x350 PktMonEdgeLower  : _PKTMON_EDGE_CONTEXT
+   +0x378 PktMonEdgeUpper  : _PKTMON_EDGE_CONTEXT
+   +0x3a0 NblContextVerifierContext : _NBL_CONTEXT_VERIFIER_CONTEXT
+   +0x3c0 SriovHwCapabilities : _NDIS_SRIOV_CAPABILITIES
+   +0x3cc SriovCurrentCapabilities : _NDIS_SRIOV_CAPABILITIES
+   +0x3d8 NicSwitchHwCapabilities : _NDIS_NIC_SWITCH_CAPABILITIES
+   +0x45c NicSwitchCurrentCapabilities : _NDIS_NIC_SWITCH_CAPABILITIES
+   +0x4e0 ReceiveFilterHwCapabilities : _NDIS_RECEIVE_FILTER_CAPABILITIES
+   +0x534 ReceiveFilterCurrentCapabilities : _NDIS_RECEIVE_FILTER_CAPABILITIES

@@ -1,0 +1,2493 @@
+
+C:\Users\user\Desktop\bin>AntiHook.exe EnumNdisGlobalOpenList
+Number:10
+
+Index:1
+Offset:000 Length:008 Name:MacHandle                            俺不关心这个，暂不处理
+Offset:000 Length:004 Name:Header
+        Type:18
+        Revision:1
+        Size:1024
+Offset:008 Length:008 Name:BindingHandle                        Value:FFFF8084C2B21010
+Offset:010 Length:008 Name:MiniportHandle                       俺不关心这个，暂不处理
+Offset:018 Length:008 Name:ProtocolHandle                       俺不关心这个，暂不处理
+Offset:020 Length:008 Name:ProtocolBindingContext               Value:FFFF8084C29FE860
+Offset:028 Length:008 Name:NextSendHandler                      俺不关心这个，暂不处理
+Offset:030 Length:008 Name:NextSendContext                      Value:0000000000000000
+Offset:038 Length:008 Name:MiniportAdapterContext               Value:FFFF8084BF94F010
+Offset:040 Length:001 Name:Reserved1                            俺不关心这个，暂不处理
+Offset:041 Length:001 Name:CallingFromNdis6Protocol             俺不关心这个，暂不处理
+Offset:042 Length:001 Name:Reserved3                            俺不关心这个，暂不处理
+Offset:043 Length:001 Name:Reserved4                            俺不关心这个，暂不处理
+Offset:048 Length:008 Name:NextReturnNetBufferListsHandler      Value:0000000000000000
+Offset:050 Length:008 Name:Reserved5                            俺不关心这个，暂不处理
+Offset:058 Length:008 Name:NextReturnNetBufferListsContext      俺不关心这个，暂不处理
+Offset:060 Length:008 Name:SendHandler                          俺不关心这个，暂不处理
+Offset:060 Length:008 Name:WanSendHandler                       俺不关心这个，暂不处理
+Offset:068 Length:008 Name:TransferDataHandler                  Value:FFFFF8030801EEA0 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:070 Length:008 Name:SendCompleteHandler                  Value:0000000000000000
+Offset:078 Length:008 Name:TransferDataCompleteHandler          Value:0000000000000000
+Offset:080 Length:008 Name:ReceiveHandler                       Value:0000000000000000
+Offset:088 Length:008 Name:ReceiveCompleteHandler               Value:FFFFF80307FDC860 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:090 Length:008 Name:WanReceiveHandler                    Value:0000000000000000
+Offset:098 Length:008 Name:RequestCompleteHandler               Value:0000000000000000
+Offset:0a0 Length:008 Name:ReceivePacketHandler                 Value:0000000000000000
+Offset:0a8 Length:008 Name:SendPacketsHandler                   Value:FFFFF80307FE52B0 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:0b0 Length:008 Name:ResetHandler                         Value:FFFFF80307FE51D0 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:0b8 Length:008 Name:RequestHandler                       Value:FFFFF80307FB6190 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:0c0 Length:008 Name:OidRequestHandler                    Value:FFFFF80307F52F50 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:0c8 Length:008 Name:ResetCompleteHandler                 Value:0000000000000000
+Offset:0d0 Length:008 Name:StatusHandler                        俺不关心这个，暂不处理
+Offset:0d0 Length:008 Name:StatusHandlerEx                      俺不关心这个，暂不处理
+Offset:0d8 Length:008 Name:StatusCompleteHandler                Value:0000000000000000
+Offset:0e0 Length:004 Name:OpenFlags                            俺不关心这个，暂不处理
+Offset:0e4 Length:004 Name:References                           俺不关心这个，暂不处理
+Offset:0e8 Length:008 Name:SpinLock                             俺不关心这个，暂不处理
+Offset:0f0 Length:008 Name:FilterHandle                         俺不关心这个，暂不处理
+Offset:0f8 Length:004 Name:FrameTypeArraySize                   俺不关心这个，暂不处理
+Offset:0fc Length:008 Name:FrameTypeArray                       俺不关心这个，暂不处理
+Offset:104 Length:004 Name:ProtocolOptions                      俺不关心这个，暂不处理
+Offset:108 Length:004 Name:CurrentLookahead                     俺不关心这个，暂不处理
+Offset:110 Length:008 Name:WSendHandler                         Value:0000000000000000
+Offset:118 Length:008 Name:WTransferDataHandler                 Value:0000000000000000
+Offset:120 Length:008 Name:WSendPacketsHandler                  Value:0000000000000000
+Offset:128 Length:008 Name:CancelSendPacketsHandler             Value:0000000000000000
+Offset:130 Length:004 Name:WakeUpEnable                         俺不关心这个，暂不处理
+Offset:134 Length:014 Name:PMCurrentParameters                  俺不关心这个，暂不处理 StructName:_NDIS_PM_PARAMETERS
+Offset:148 Length:008 Name:CloseCompleteEvent                   俺不关心这个，暂不处理
+Offset:000 Length:000 Name:_QUEUED_CLOSE                        俺不关心这个，暂不处理
+Offset:150 Length:028 Name:QC                                   俺不关心这个，暂不处理 StructName:_NDIS_COMMON_OPEN_BLOCK::_QUEUED_CLOSE
+Offset:178 Length:004 Name:AfReferences                         俺不关心这个，暂不处理
+Offset:180 Length:008 Name:NextGlobalOpen                       俺不关心这个，暂不处理
+Offset:188 Length:008 Name:MiniportNextOpen                     俺不关心这个，暂不处理
+Offset:190 Length:008 Name:ProtocolNextOpen                     俺不关心这个，暂不处理
+Offset:198 Length:008 Name:BindDeviceName                       俺不关心这个，暂不处理
+Offset:1a0 Length:008 Name:RootDeviceName                       俺不关心这个，暂不处理
+Offset:1a8 Length:008 Name:FilterNextOpen                       俺不关心这个，暂不处理
+Offset:1b0 Length:004 Name:PacketFilters                        俺不关心这个，暂不处理
+Offset:1b4 Length:004 Name:OldPacketFilters                     俺不关心这个，暂不处理
+Offset:1b8 Length:004 Name:MaxMulticastAddresses                俺不关心这个，暂不处理
+Offset:1c0 Length:008 Name:MCastAddressBuf                      俺不关心这个，暂不处理
+Offset:1c8 Length:004 Name:NumAddresses                         俺不关心这个，暂不处理
+Offset:1d0 Length:008 Name:OldMCastAddressBuf                   俺不关心这个，暂不处理
+Offset:1d8 Length:004 Name:OldNumAddresses                      俺不关心这个，暂不处理
+Offset:1e0 Length:008 Name:RssParametersBuffer                  俺不关心这个，暂不处理
+Offset:1e8 Length:008 Name:NdisRSSParameters                    俺不关心这个，暂不处理
+Offset:1f0 Length:008 Name:PatternList                          俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:1f8 Length:008 Name:WOLPatternList                       俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:200 Length:008 Name:PMProtocolOffloadList                俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:208 Length:008 Name:ProtSendNetBufferListsComplete       Value:FFFFF8030AC73DD0 FullPathName:\SystemRoot\system32\drivers\mslldp.sys
+Offset:210 Length:008 Name:SendCompleteNdisPacketContext        Value:FFFF8084C29FE860
+Offset:218 Length:008 Name:SendCompleteNetBufferListsContext    Value:FFFF8084C29FE860
+Offset:220 Length:008 Name:ReceiveNetBufferLists                Value:FFFFF8030AC71010 FullPathName:\SystemRoot\system32\drivers\mslldp.sys
+Offset:228 Length:008 Name:ReceiveNetBufferListsContext         Value:FFFF8084C29FE860
+Offset:230 Length:008 Name:SavedSendPacketsHandler              Value:0000000000000000
+Offset:238 Length:008 Name:SavedCancelSendPacketsHandler        Value:FFFFF80309EB15B0 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+Offset:240 Length:008 Name:SavedSendHandler                     Value:FFFFF8030801E730 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:248 Length:008 Name:NblTracker                           俺不关心这个，暂不处理
+Offset:250 Length:008 Name:RefCountTracker                      俺不关心这个，暂不处理
+Offset:258 Length:008 Name:RefCountLock                         俺不关心这个，暂不处理
+Offset:260 Length:004 Name:ProtocolMajorVersion                 俺不关心这个，暂不处理
+Offset:268 Length:008 Name:IfBlock                              Value:0000000000000000
+Offset:270 Length:010 Name:PnPStateLock                         俺不关心这个，暂不处理 StructName:_NDIS_SPIN_LOCK
+Offset:280 Length:004 Name:PnPState                             俺不关心这个，暂不处理 StructName:NDIS_NDIS5_DRIVER_STATE
+Offset:284 Length:004 Name:OutstandingSends                     俺不关心这个，暂不处理
+Offset:288 Length:018 Name:PauseEvent                           俺不关心这个，暂不处理 StructName:_NDIS_EVENT
+Offset:2a0 Length:008 Name:Ndis5WanSendHandler                  Value:0000000000000000
+Offset:2a8 Length:008 Name:ProtSendCompleteHandler              Value:0000000000000000
+Offset:2b0 Length:008 Name:OidRequestCompleteHandler            Value:FFFFF80307FAD6E0 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:2b8 Length:008 Name:Offload                              俺不关心这个，暂不处理
+Offset:2c0 Length:008 Name:StatusUnbindWorkItem                 俺不关心这个，暂不处理
+Offset:2c8 Length:008 Name:DpcStartCycle                        俺不关心这个，暂不处理
+Offset:2d0 Length:008 Name:ReceivedAPacketSlot                  俺不关心这个，暂不处理
+Offset:2d8 Length:008 Name:DirectOidRequestHandler              Value:FFFFF80307FA1E60 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:2e0 Length:010 Name:ReceiveQueueList                     俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:2f0 Length:004 Name:NumReceiveQueues                     俺不关心这个，暂不处理
+Offset:2f8 Length:010 Name:SharedMemoryBlockList                俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:308 Length:008 Name:AllocateSharedMemoryHandler          Value:0000000000000000
+Offset:310 Length:008 Name:FreeSharedMemoryHandler              Value:0000000000000000
+Offset:318 Length:008 Name:AllocateSharedMemoryContext          Value:0000000000000000
+Offset:320 Length:004 Name:NumAllocatedVFs                      俺不关心这个，暂不处理
+Offset:328 Length:010 Name:VFList                               俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:338 Length:004 Name:NumActiveVPorts                      俺不关心这个，暂不处理
+Offset:340 Length:010 Name:VPortList                            俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:350 Length:004 Name:AoAcReferences                       俺不关心这个，暂不处理
+Offset:358 Length:008 Name:Bind                                 俺不关心这个，暂不处理
+Offset:360 Length:020 Name:UnsolicitedUnbindComplete            俺不关心这个，暂不处理 StructName:_WORK_QUEUE_ITEM
+Offset:380 Length:008 Name:UnsolicitedUnbindEvent               俺不关心这个，暂不处理
+Offset:388 Length:001 Name:PendingLegacyUnbind                  俺不关心这个，暂不处理
+Offset:390 Length:008 Name:WaitNetPnpEvent                      俺不关心这个，暂不处理
+Offset:398 Length:040 Name:PktMonComp                           俺不关心这个，暂不处理 StructName:_PKTMON_COMPONENT_CONTEXT
+Offset:3d8 Length:028 Name:PktMonEdge                           俺不关心这个，暂不处理 StructName:_PKTMON_EDGE_CONTEXT
+
+---------------------------------------------------------------------------------------
+
+Index:2
+Offset:000 Length:008 Name:MacHandle                            俺不关心这个，暂不处理
+Offset:000 Length:004 Name:Header
+        Type:18
+        Revision:1
+        Size:1024
+Offset:008 Length:008 Name:BindingHandle                        Value:FFFF8084C2B21460
+Offset:010 Length:008 Name:MiniportHandle                       俺不关心这个，暂不处理
+Offset:018 Length:008 Name:ProtocolHandle                       俺不关心这个，暂不处理
+Offset:020 Length:008 Name:ProtocolBindingContext               Value:FFFF8084C2B1AC50
+Offset:028 Length:008 Name:NextSendHandler                      俺不关心这个，暂不处理
+Offset:030 Length:008 Name:NextSendContext                      Value:0000000000000000
+Offset:038 Length:008 Name:MiniportAdapterContext               Value:FFFF8084BF94F010
+Offset:040 Length:001 Name:Reserved1                            俺不关心这个，暂不处理
+Offset:041 Length:001 Name:CallingFromNdis6Protocol             俺不关心这个，暂不处理
+Offset:042 Length:001 Name:Reserved3                            俺不关心这个，暂不处理
+Offset:043 Length:001 Name:Reserved4                            俺不关心这个，暂不处理
+Offset:048 Length:008 Name:NextReturnNetBufferListsHandler      Value:0000000000000000
+Offset:050 Length:008 Name:Reserved5                            俺不关心这个，暂不处理
+Offset:058 Length:008 Name:NextReturnNetBufferListsContext      俺不关心这个，暂不处理
+Offset:060 Length:008 Name:SendHandler                          俺不关心这个，暂不处理
+Offset:060 Length:008 Name:WanSendHandler                       俺不关心这个，暂不处理
+Offset:068 Length:008 Name:TransferDataHandler                  Value:FFFFF8030801EEA0 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:070 Length:008 Name:SendCompleteHandler                  Value:0000000000000000
+Offset:078 Length:008 Name:TransferDataCompleteHandler          Value:0000000000000000
+Offset:080 Length:008 Name:ReceiveHandler                       Value:0000000000000000
+Offset:088 Length:008 Name:ReceiveCompleteHandler               Value:FFFFF80307FDC860 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:090 Length:008 Name:WanReceiveHandler                    Value:0000000000000000
+Offset:098 Length:008 Name:RequestCompleteHandler               Value:0000000000000000
+Offset:0a0 Length:008 Name:ReceivePacketHandler                 Value:0000000000000000
+Offset:0a8 Length:008 Name:SendPacketsHandler                   Value:FFFFF80307FE52B0 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:0b0 Length:008 Name:ResetHandler                         Value:FFFFF80307FE51D0 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:0b8 Length:008 Name:RequestHandler                       Value:FFFFF80307FB6190 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:0c0 Length:008 Name:OidRequestHandler                    Value:FFFFF80307F52F50 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:0c8 Length:008 Name:ResetCompleteHandler                 Value:0000000000000000
+Offset:0d0 Length:008 Name:StatusHandler                        俺不关心这个，暂不处理
+Offset:0d0 Length:008 Name:StatusHandlerEx                      俺不关心这个，暂不处理
+Offset:0d8 Length:008 Name:StatusCompleteHandler                Value:0000000000000000
+Offset:0e0 Length:004 Name:OpenFlags                            俺不关心这个，暂不处理
+Offset:0e4 Length:004 Name:References                           俺不关心这个，暂不处理
+Offset:0e8 Length:008 Name:SpinLock                             俺不关心这个，暂不处理
+Offset:0f0 Length:008 Name:FilterHandle                         俺不关心这个，暂不处理
+Offset:0f8 Length:004 Name:FrameTypeArraySize                   俺不关心这个，暂不处理
+Offset:0fc Length:008 Name:FrameTypeArray                       俺不关心这个，暂不处理
+Offset:104 Length:004 Name:ProtocolOptions                      俺不关心这个，暂不处理
+Offset:108 Length:004 Name:CurrentLookahead                     俺不关心这个，暂不处理
+Offset:110 Length:008 Name:WSendHandler                         Value:0000000000000000
+Offset:118 Length:008 Name:WTransferDataHandler                 Value:0000000000000000
+Offset:120 Length:008 Name:WSendPacketsHandler                  Value:0000000000000000
+Offset:128 Length:008 Name:CancelSendPacketsHandler             Value:0000000000000000
+Offset:130 Length:004 Name:WakeUpEnable                         俺不关心这个，暂不处理
+Offset:134 Length:014 Name:PMCurrentParameters                  俺不关心这个，暂不处理 StructName:_NDIS_PM_PARAMETERS
+Offset:148 Length:008 Name:CloseCompleteEvent                   俺不关心这个，暂不处理
+Offset:000 Length:000 Name:_QUEUED_CLOSE                        俺不关心这个，暂不处理
+Offset:150 Length:028 Name:QC                                   俺不关心这个，暂不处理 StructName:_NDIS_COMMON_OPEN_BLOCK::_QUEUED_CLOSE
+Offset:178 Length:004 Name:AfReferences                         俺不关心这个，暂不处理
+Offset:180 Length:008 Name:NextGlobalOpen                       俺不关心这个，暂不处理
+Offset:188 Length:008 Name:MiniportNextOpen                     俺不关心这个，暂不处理
+Offset:190 Length:008 Name:ProtocolNextOpen                     俺不关心这个，暂不处理
+Offset:198 Length:008 Name:BindDeviceName                       俺不关心这个，暂不处理
+Offset:1a0 Length:008 Name:RootDeviceName                       俺不关心这个，暂不处理
+Offset:1a8 Length:008 Name:FilterNextOpen                       俺不关心这个，暂不处理
+Offset:1b0 Length:004 Name:PacketFilters                        俺不关心这个，暂不处理
+Offset:1b4 Length:004 Name:OldPacketFilters                     俺不关心这个，暂不处理
+Offset:1b8 Length:004 Name:MaxMulticastAddresses                俺不关心这个，暂不处理
+Offset:1c0 Length:008 Name:MCastAddressBuf                      俺不关心这个，暂不处理
+Offset:1c8 Length:004 Name:NumAddresses                         俺不关心这个，暂不处理
+Offset:1d0 Length:008 Name:OldMCastAddressBuf                   俺不关心这个，暂不处理
+Offset:1d8 Length:004 Name:OldNumAddresses                      俺不关心这个，暂不处理
+Offset:1e0 Length:008 Name:RssParametersBuffer                  俺不关心这个，暂不处理
+Offset:1e8 Length:008 Name:NdisRSSParameters                    俺不关心这个，暂不处理
+Offset:1f0 Length:008 Name:PatternList                          俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:1f8 Length:008 Name:WOLPatternList                       俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:200 Length:008 Name:PMProtocolOffloadList                俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:208 Length:008 Name:ProtSendNetBufferListsComplete       Value:FFFFF8030AC543D0 FullPathName:\SystemRoot\system32\drivers\lltdio.sys
+Offset:210 Length:008 Name:SendCompleteNdisPacketContext        Value:FFFF8084C2B1AC50
+Offset:218 Length:008 Name:SendCompleteNetBufferListsContext    Value:FFFF8084C2B1AC50
+Offset:220 Length:008 Name:ReceiveNetBufferLists                Value:FFFFF8030AC51010 FullPathName:\SystemRoot\system32\drivers\lltdio.sys
+Offset:228 Length:008 Name:ReceiveNetBufferListsContext         Value:FFFF8084C2B1AC50
+Offset:230 Length:008 Name:SavedSendPacketsHandler              Value:0000000000000000
+Offset:238 Length:008 Name:SavedCancelSendPacketsHandler        Value:FFFFF80309EB15B0 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+Offset:240 Length:008 Name:SavedSendHandler                     Value:FFFFF8030801E730 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:248 Length:008 Name:NblTracker                           俺不关心这个，暂不处理
+Offset:250 Length:008 Name:RefCountTracker                      俺不关心这个，暂不处理
+Offset:258 Length:008 Name:RefCountLock                         俺不关心这个，暂不处理
+Offset:260 Length:004 Name:ProtocolMajorVersion                 俺不关心这个，暂不处理
+Offset:268 Length:008 Name:IfBlock                              Value:0000000000000000
+Offset:270 Length:010 Name:PnPStateLock                         俺不关心这个，暂不处理 StructName:_NDIS_SPIN_LOCK
+Offset:280 Length:004 Name:PnPState                             俺不关心这个，暂不处理 StructName:NDIS_NDIS5_DRIVER_STATE
+Offset:284 Length:004 Name:OutstandingSends                     俺不关心这个，暂不处理
+Offset:288 Length:018 Name:PauseEvent                           俺不关心这个，暂不处理 StructName:_NDIS_EVENT
+Offset:2a0 Length:008 Name:Ndis5WanSendHandler                  Value:0000000000000000
+Offset:2a8 Length:008 Name:ProtSendCompleteHandler              Value:0000000000000000
+Offset:2b0 Length:008 Name:OidRequestCompleteHandler            Value:FFFFF80307FAD6E0 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:2b8 Length:008 Name:Offload                              俺不关心这个，暂不处理
+Offset:2c0 Length:008 Name:StatusUnbindWorkItem                 俺不关心这个，暂不处理
+Offset:2c8 Length:008 Name:DpcStartCycle                        俺不关心这个，暂不处理
+Offset:2d0 Length:008 Name:ReceivedAPacketSlot                  俺不关心这个，暂不处理
+Offset:2d8 Length:008 Name:DirectOidRequestHandler              Value:FFFFF80307FA1E60 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:2e0 Length:010 Name:ReceiveQueueList                     俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:2f0 Length:004 Name:NumReceiveQueues                     俺不关心这个，暂不处理
+Offset:2f8 Length:010 Name:SharedMemoryBlockList                俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:308 Length:008 Name:AllocateSharedMemoryHandler          Value:0000000000000000
+Offset:310 Length:008 Name:FreeSharedMemoryHandler              Value:0000000000000000
+Offset:318 Length:008 Name:AllocateSharedMemoryContext          Value:0000000000000000
+Offset:320 Length:004 Name:NumAllocatedVFs                      俺不关心这个，暂不处理
+Offset:328 Length:010 Name:VFList                               俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:338 Length:004 Name:NumActiveVPorts                      俺不关心这个，暂不处理
+Offset:340 Length:010 Name:VPortList                            俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:350 Length:004 Name:AoAcReferences                       俺不关心这个，暂不处理
+Offset:358 Length:008 Name:Bind                                 俺不关心这个，暂不处理
+Offset:360 Length:020 Name:UnsolicitedUnbindComplete            俺不关心这个，暂不处理 StructName:_WORK_QUEUE_ITEM
+Offset:380 Length:008 Name:UnsolicitedUnbindEvent               俺不关心这个，暂不处理
+Offset:388 Length:001 Name:PendingLegacyUnbind                  俺不关心这个，暂不处理
+Offset:390 Length:008 Name:WaitNetPnpEvent                      俺不关心这个，暂不处理
+Offset:398 Length:040 Name:PktMonComp                           俺不关心这个，暂不处理 StructName:_PKTMON_COMPONENT_CONTEXT
+Offset:3d8 Length:028 Name:PktMonEdge                           俺不关心这个，暂不处理 StructName:_PKTMON_EDGE_CONTEXT
+
+---------------------------------------------------------------------------------------
+
+Index:3
+Offset:000 Length:008 Name:MacHandle                            俺不关心这个，暂不处理
+Offset:000 Length:004 Name:Header
+        Type:18
+        Revision:1
+        Size:1024
+Offset:008 Length:008 Name:BindingHandle                        Value:FFFF8084C29DC4E0
+Offset:010 Length:008 Name:MiniportHandle                       俺不关心这个，暂不处理
+Offset:018 Length:008 Name:ProtocolHandle                       俺不关心这个，暂不处理
+Offset:020 Length:008 Name:ProtocolBindingContext               Value:FFFF8084C2B18610
+Offset:028 Length:008 Name:NextSendHandler                      俺不关心这个，暂不处理
+Offset:030 Length:008 Name:NextSendContext                      Value:0000000000000000
+Offset:038 Length:008 Name:MiniportAdapterContext               Value:FFFF8084BF94F010
+Offset:040 Length:001 Name:Reserved1                            俺不关心这个，暂不处理
+Offset:041 Length:001 Name:CallingFromNdis6Protocol             俺不关心这个，暂不处理
+Offset:042 Length:001 Name:Reserved3                            俺不关心这个，暂不处理
+Offset:043 Length:001 Name:Reserved4                            俺不关心这个，暂不处理
+Offset:048 Length:008 Name:NextReturnNetBufferListsHandler      Value:0000000000000000
+Offset:050 Length:008 Name:Reserved5                            俺不关心这个，暂不处理
+Offset:058 Length:008 Name:NextReturnNetBufferListsContext      俺不关心这个，暂不处理
+Offset:060 Length:008 Name:SendHandler                          俺不关心这个，暂不处理
+Offset:060 Length:008 Name:WanSendHandler                       俺不关心这个，暂不处理
+Offset:068 Length:008 Name:TransferDataHandler                  Value:FFFFF8030801EEA0 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:070 Length:008 Name:SendCompleteHandler                  Value:0000000000000000
+Offset:078 Length:008 Name:TransferDataCompleteHandler          Value:0000000000000000
+Offset:080 Length:008 Name:ReceiveHandler                       Value:0000000000000000
+Offset:088 Length:008 Name:ReceiveCompleteHandler               Value:FFFFF80307FDC860 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:090 Length:008 Name:WanReceiveHandler                    Value:0000000000000000
+Offset:098 Length:008 Name:RequestCompleteHandler               Value:0000000000000000
+Offset:0a0 Length:008 Name:ReceivePacketHandler                 Value:0000000000000000
+Offset:0a8 Length:008 Name:SendPacketsHandler                   Value:FFFFF80307FE52B0 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:0b0 Length:008 Name:ResetHandler                         Value:FFFFF80307FE51D0 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:0b8 Length:008 Name:RequestHandler                       Value:FFFFF80307FB6190 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:0c0 Length:008 Name:OidRequestHandler                    Value:FFFFF80307F52F50 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:0c8 Length:008 Name:ResetCompleteHandler                 Value:0000000000000000
+Offset:0d0 Length:008 Name:StatusHandler                        俺不关心这个，暂不处理
+Offset:0d0 Length:008 Name:StatusHandlerEx                      俺不关心这个，暂不处理
+Offset:0d8 Length:008 Name:StatusCompleteHandler                Value:0000000000000000
+Offset:0e0 Length:004 Name:OpenFlags                            俺不关心这个，暂不处理
+Offset:0e4 Length:004 Name:References                           俺不关心这个，暂不处理
+Offset:0e8 Length:008 Name:SpinLock                             俺不关心这个，暂不处理
+Offset:0f0 Length:008 Name:FilterHandle                         俺不关心这个，暂不处理
+Offset:0f8 Length:004 Name:FrameTypeArraySize                   俺不关心这个，暂不处理
+Offset:0fc Length:008 Name:FrameTypeArray                       俺不关心这个，暂不处理
+Offset:104 Length:004 Name:ProtocolOptions                      俺不关心这个，暂不处理
+Offset:108 Length:004 Name:CurrentLookahead                     俺不关心这个，暂不处理
+Offset:110 Length:008 Name:WSendHandler                         Value:0000000000000000
+Offset:118 Length:008 Name:WTransferDataHandler                 Value:0000000000000000
+Offset:120 Length:008 Name:WSendPacketsHandler                  Value:0000000000000000
+Offset:128 Length:008 Name:CancelSendPacketsHandler             Value:0000000000000000
+Offset:130 Length:004 Name:WakeUpEnable                         俺不关心这个，暂不处理
+Offset:134 Length:014 Name:PMCurrentParameters                  俺不关心这个，暂不处理 StructName:_NDIS_PM_PARAMETERS
+Offset:148 Length:008 Name:CloseCompleteEvent                   俺不关心这个，暂不处理
+Offset:000 Length:000 Name:_QUEUED_CLOSE                        俺不关心这个，暂不处理
+Offset:150 Length:028 Name:QC                                   俺不关心这个，暂不处理 StructName:_NDIS_COMMON_OPEN_BLOCK::_QUEUED_CLOSE
+Offset:178 Length:004 Name:AfReferences                         俺不关心这个，暂不处理
+Offset:180 Length:008 Name:NextGlobalOpen                       俺不关心这个，暂不处理
+Offset:188 Length:008 Name:MiniportNextOpen                     俺不关心这个，暂不处理
+Offset:190 Length:008 Name:ProtocolNextOpen                     俺不关心这个，暂不处理
+Offset:198 Length:008 Name:BindDeviceName                       俺不关心这个，暂不处理
+Offset:1a0 Length:008 Name:RootDeviceName                       俺不关心这个，暂不处理
+Offset:1a8 Length:008 Name:FilterNextOpen                       俺不关心这个，暂不处理
+Offset:1b0 Length:004 Name:PacketFilters                        俺不关心这个，暂不处理
+Offset:1b4 Length:004 Name:OldPacketFilters                     俺不关心这个，暂不处理
+Offset:1b8 Length:004 Name:MaxMulticastAddresses                俺不关心这个，暂不处理
+Offset:1c0 Length:008 Name:MCastAddressBuf                      俺不关心这个，暂不处理
+Offset:1c8 Length:004 Name:NumAddresses                         俺不关心这个，暂不处理
+Offset:1d0 Length:008 Name:OldMCastAddressBuf                   俺不关心这个，暂不处理
+Offset:1d8 Length:004 Name:OldNumAddresses                      俺不关心这个，暂不处理
+Offset:1e0 Length:008 Name:RssParametersBuffer                  俺不关心这个，暂不处理
+Offset:1e8 Length:008 Name:NdisRSSParameters                    俺不关心这个，暂不处理
+Offset:1f0 Length:008 Name:PatternList                          俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:1f8 Length:008 Name:WOLPatternList                       俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:200 Length:008 Name:PMProtocolOffloadList                俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:208 Length:008 Name:ProtSendNetBufferListsComplete       Value:FFFFF8030AC95F20 FullPathName:\SystemRoot\system32\drivers\rspndr.sys
+Offset:210 Length:008 Name:SendCompleteNdisPacketContext        Value:FFFF8084C2B18610
+Offset:218 Length:008 Name:SendCompleteNetBufferListsContext    Value:FFFF8084C2B18610
+Offset:220 Length:008 Name:ReceiveNetBufferLists                Value:FFFFF8030AC91010 FullPathName:\SystemRoot\system32\drivers\rspndr.sys
+Offset:228 Length:008 Name:ReceiveNetBufferListsContext         Value:FFFF8084C2B18610
+Offset:230 Length:008 Name:SavedSendPacketsHandler              Value:0000000000000000
+Offset:238 Length:008 Name:SavedCancelSendPacketsHandler        Value:FFFFF80309EB15B0 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+Offset:240 Length:008 Name:SavedSendHandler                     Value:FFFFF8030801E730 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:248 Length:008 Name:NblTracker                           俺不关心这个，暂不处理
+Offset:250 Length:008 Name:RefCountTracker                      俺不关心这个，暂不处理
+Offset:258 Length:008 Name:RefCountLock                         俺不关心这个，暂不处理
+Offset:260 Length:004 Name:ProtocolMajorVersion                 俺不关心这个，暂不处理
+Offset:268 Length:008 Name:IfBlock                              Value:0000000000000000
+Offset:270 Length:010 Name:PnPStateLock                         俺不关心这个，暂不处理 StructName:_NDIS_SPIN_LOCK
+Offset:280 Length:004 Name:PnPState                             俺不关心这个，暂不处理 StructName:NDIS_NDIS5_DRIVER_STATE
+Offset:284 Length:004 Name:OutstandingSends                     俺不关心这个，暂不处理
+Offset:288 Length:018 Name:PauseEvent                           俺不关心这个，暂不处理 StructName:_NDIS_EVENT
+Offset:2a0 Length:008 Name:Ndis5WanSendHandler                  Value:0000000000000000
+Offset:2a8 Length:008 Name:ProtSendCompleteHandler              Value:0000000000000000
+Offset:2b0 Length:008 Name:OidRequestCompleteHandler            Value:FFFFF80307FAD6E0 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:2b8 Length:008 Name:Offload                              俺不关心这个，暂不处理
+Offset:2c0 Length:008 Name:StatusUnbindWorkItem                 俺不关心这个，暂不处理
+Offset:2c8 Length:008 Name:DpcStartCycle                        俺不关心这个，暂不处理
+Offset:2d0 Length:008 Name:ReceivedAPacketSlot                  俺不关心这个，暂不处理
+Offset:2d8 Length:008 Name:DirectOidRequestHandler              Value:FFFFF80307FA1E60 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:2e0 Length:010 Name:ReceiveQueueList                     俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:2f0 Length:004 Name:NumReceiveQueues                     俺不关心这个，暂不处理
+Offset:2f8 Length:010 Name:SharedMemoryBlockList                俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:308 Length:008 Name:AllocateSharedMemoryHandler          Value:0000000000000000
+Offset:310 Length:008 Name:FreeSharedMemoryHandler              Value:0000000000000000
+Offset:318 Length:008 Name:AllocateSharedMemoryContext          Value:0000000000000000
+Offset:320 Length:004 Name:NumAllocatedVFs                      俺不关心这个，暂不处理
+Offset:328 Length:010 Name:VFList                               俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:338 Length:004 Name:NumActiveVPorts                      俺不关心这个，暂不处理
+Offset:340 Length:010 Name:VPortList                            俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:350 Length:004 Name:AoAcReferences                       俺不关心这个，暂不处理
+Offset:358 Length:008 Name:Bind                                 俺不关心这个，暂不处理
+Offset:360 Length:020 Name:UnsolicitedUnbindComplete            俺不关心这个，暂不处理 StructName:_WORK_QUEUE_ITEM
+Offset:380 Length:008 Name:UnsolicitedUnbindEvent               俺不关心这个，暂不处理
+Offset:388 Length:001 Name:PendingLegacyUnbind                  俺不关心这个，暂不处理
+Offset:390 Length:008 Name:WaitNetPnpEvent                      俺不关心这个，暂不处理
+Offset:398 Length:040 Name:PktMonComp                           俺不关心这个，暂不处理 StructName:_PKTMON_COMPONENT_CONTEXT
+Offset:3d8 Length:028 Name:PktMonEdge                           俺不关心这个，暂不处理 StructName:_PKTMON_EDGE_CONTEXT
+
+---------------------------------------------------------------------------------------
+
+Index:4
+Offset:000 Length:008 Name:MacHandle                            俺不关心这个，暂不处理
+Offset:000 Length:004 Name:Header
+        Type:18
+        Revision:1
+        Size:1024
+Offset:008 Length:008 Name:BindingHandle                        Value:FFFF8084C29DC930
+Offset:010 Length:008 Name:MiniportHandle                       俺不关心这个，暂不处理
+Offset:018 Length:008 Name:ProtocolHandle                       俺不关心这个，暂不处理
+Offset:020 Length:008 Name:ProtocolBindingContext               Value:FFFF8084C29FEC50
+Offset:028 Length:008 Name:NextSendHandler                      俺不关心这个，暂不处理
+Offset:030 Length:008 Name:NextSendContext                      Value:0000000000000000
+Offset:038 Length:008 Name:MiniportAdapterContext               Value:FFFF8084BF94B010
+Offset:040 Length:001 Name:Reserved1                            俺不关心这个，暂不处理
+Offset:041 Length:001 Name:CallingFromNdis6Protocol             俺不关心这个，暂不处理
+Offset:042 Length:001 Name:Reserved3                            俺不关心这个，暂不处理
+Offset:043 Length:001 Name:Reserved4                            俺不关心这个，暂不处理
+Offset:048 Length:008 Name:NextReturnNetBufferListsHandler      Value:0000000000000000
+Offset:050 Length:008 Name:Reserved5                            俺不关心这个，暂不处理
+Offset:058 Length:008 Name:NextReturnNetBufferListsContext      俺不关心这个，暂不处理
+Offset:060 Length:008 Name:SendHandler                          俺不关心这个，暂不处理
+Offset:060 Length:008 Name:WanSendHandler                       俺不关心这个，暂不处理
+Offset:068 Length:008 Name:TransferDataHandler                  Value:FFFFF8030801EEA0 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:070 Length:008 Name:SendCompleteHandler                  Value:0000000000000000
+Offset:078 Length:008 Name:TransferDataCompleteHandler          Value:0000000000000000
+Offset:080 Length:008 Name:ReceiveHandler                       Value:0000000000000000
+Offset:088 Length:008 Name:ReceiveCompleteHandler               Value:FFFFF80307FDC860 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:090 Length:008 Name:WanReceiveHandler                    Value:0000000000000000
+Offset:098 Length:008 Name:RequestCompleteHandler               Value:0000000000000000
+Offset:0a0 Length:008 Name:ReceivePacketHandler                 Value:0000000000000000
+Offset:0a8 Length:008 Name:SendPacketsHandler                   Value:0000000000000000
+Offset:0b0 Length:008 Name:ResetHandler                         Value:FFFFF80307FE6470 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:0b8 Length:008 Name:RequestHandler                       Value:FFFFF80307FB6190 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:0c0 Length:008 Name:OidRequestHandler                    Value:FFFFF80307F52F50 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:0c8 Length:008 Name:ResetCompleteHandler                 Value:0000000000000000
+Offset:0d0 Length:008 Name:StatusHandler                        俺不关心这个，暂不处理
+Offset:0d0 Length:008 Name:StatusHandlerEx                      俺不关心这个，暂不处理
+Offset:0d8 Length:008 Name:StatusCompleteHandler                Value:0000000000000000
+Offset:0e0 Length:004 Name:OpenFlags                            俺不关心这个，暂不处理
+Offset:0e4 Length:004 Name:References                           俺不关心这个，暂不处理
+Offset:0e8 Length:008 Name:SpinLock                             俺不关心这个，暂不处理
+Offset:0f0 Length:008 Name:FilterHandle                         俺不关心这个，暂不处理
+Offset:0f8 Length:004 Name:FrameTypeArraySize                   俺不关心这个，暂不处理
+Offset:0fc Length:008 Name:FrameTypeArray                       俺不关心这个，暂不处理
+Offset:104 Length:004 Name:ProtocolOptions                      俺不关心这个，暂不处理
+Offset:108 Length:004 Name:CurrentLookahead                     俺不关心这个，暂不处理
+Offset:110 Length:008 Name:WSendHandler                         Value:0000000000000000
+Offset:118 Length:008 Name:WTransferDataHandler                 Value:0000000000000000
+Offset:120 Length:008 Name:WSendPacketsHandler                  Value:0000000000000000
+Offset:128 Length:008 Name:CancelSendPacketsHandler             Value:FFFFF80309EB15B0 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+Offset:130 Length:004 Name:WakeUpEnable                         俺不关心这个，暂不处理
+Offset:134 Length:014 Name:PMCurrentParameters                  俺不关心这个，暂不处理 StructName:_NDIS_PM_PARAMETERS
+Offset:148 Length:008 Name:CloseCompleteEvent                   俺不关心这个，暂不处理
+Offset:000 Length:000 Name:_QUEUED_CLOSE                        俺不关心这个，暂不处理
+Offset:150 Length:028 Name:QC                                   俺不关心这个，暂不处理 StructName:_NDIS_COMMON_OPEN_BLOCK::_QUEUED_CLOSE
+Offset:178 Length:004 Name:AfReferences                         俺不关心这个，暂不处理
+Offset:180 Length:008 Name:NextGlobalOpen                       俺不关心这个，暂不处理
+Offset:188 Length:008 Name:MiniportNextOpen                     俺不关心这个，暂不处理
+Offset:190 Length:008 Name:ProtocolNextOpen                     俺不关心这个，暂不处理
+Offset:198 Length:008 Name:BindDeviceName                       俺不关心这个，暂不处理
+Offset:1a0 Length:008 Name:RootDeviceName                       俺不关心这个，暂不处理
+Offset:1a8 Length:008 Name:FilterNextOpen                       俺不关心这个，暂不处理
+Offset:1b0 Length:004 Name:PacketFilters                        俺不关心这个，暂不处理
+Offset:1b4 Length:004 Name:OldPacketFilters                     俺不关心这个，暂不处理
+Offset:1b8 Length:004 Name:MaxMulticastAddresses                俺不关心这个，暂不处理
+Offset:1c0 Length:008 Name:MCastAddressBuf                      俺不关心这个，暂不处理
+Offset:1c8 Length:004 Name:NumAddresses                         俺不关心这个，暂不处理
+Offset:1d0 Length:008 Name:OldMCastAddressBuf                   俺不关心这个，暂不处理
+Offset:1d8 Length:004 Name:OldNumAddresses                      俺不关心这个，暂不处理
+Offset:1e0 Length:008 Name:RssParametersBuffer                  俺不关心这个，暂不处理
+Offset:1e8 Length:008 Name:NdisRSSParameters                    俺不关心这个，暂不处理
+Offset:1f0 Length:008 Name:PatternList                          俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:1f8 Length:008 Name:WOLPatternList                       俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:200 Length:008 Name:PMProtocolOffloadList                俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:208 Length:008 Name:ProtSendNetBufferListsComplete       Value:FFFFF8030AC73DD0 FullPathName:\SystemRoot\system32\drivers\mslldp.sys
+Offset:210 Length:008 Name:SendCompleteNdisPacketContext        Value:FFFF8084C29FEC50
+Offset:218 Length:008 Name:SendCompleteNetBufferListsContext    Value:FFFF8084C29FEC50
+Offset:220 Length:008 Name:ReceiveNetBufferLists                Value:FFFFF8030AC71010 FullPathName:\SystemRoot\system32\drivers\mslldp.sys
+Offset:228 Length:008 Name:ReceiveNetBufferListsContext         Value:FFFF8084C29FEC50
+Offset:230 Length:008 Name:SavedSendPacketsHandler              Value:0000000000000000
+Offset:238 Length:008 Name:SavedCancelSendPacketsHandler        Value:FFFFF80309EB15B0 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+Offset:240 Length:008 Name:SavedSendHandler                     Value:FFFFF8030801E730 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:248 Length:008 Name:NblTracker                           俺不关心这个，暂不处理
+Offset:250 Length:008 Name:RefCountTracker                      俺不关心这个，暂不处理
+Offset:258 Length:008 Name:RefCountLock                         俺不关心这个，暂不处理
+Offset:260 Length:004 Name:ProtocolMajorVersion                 俺不关心这个，暂不处理
+Offset:268 Length:008 Name:IfBlock                              Value:0000000000000000
+Offset:270 Length:010 Name:PnPStateLock                         俺不关心这个，暂不处理 StructName:_NDIS_SPIN_LOCK
+Offset:280 Length:004 Name:PnPState                             俺不关心这个，暂不处理 StructName:NDIS_NDIS5_DRIVER_STATE
+Offset:284 Length:004 Name:OutstandingSends                     俺不关心这个，暂不处理
+Offset:288 Length:018 Name:PauseEvent                           俺不关心这个，暂不处理 StructName:_NDIS_EVENT
+Offset:2a0 Length:008 Name:Ndis5WanSendHandler                  Value:0000000000000000
+Offset:2a8 Length:008 Name:ProtSendCompleteHandler              Value:0000000000000000
+Offset:2b0 Length:008 Name:OidRequestCompleteHandler            Value:FFFFF80307FAD6E0 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:2b8 Length:008 Name:Offload                              俺不关心这个，暂不处理
+Offset:2c0 Length:008 Name:StatusUnbindWorkItem                 俺不关心这个，暂不处理
+Offset:2c8 Length:008 Name:DpcStartCycle                        俺不关心这个，暂不处理
+Offset:2d0 Length:008 Name:ReceivedAPacketSlot                  俺不关心这个，暂不处理
+Offset:2d8 Length:008 Name:DirectOidRequestHandler              Value:FFFFF80307FA1E60 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:2e0 Length:010 Name:ReceiveQueueList                     俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:2f0 Length:004 Name:NumReceiveQueues                     俺不关心这个，暂不处理
+Offset:2f8 Length:010 Name:SharedMemoryBlockList                俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:308 Length:008 Name:AllocateSharedMemoryHandler          Value:0000000000000000
+Offset:310 Length:008 Name:FreeSharedMemoryHandler              Value:0000000000000000
+Offset:318 Length:008 Name:AllocateSharedMemoryContext          Value:0000000000000000
+Offset:320 Length:004 Name:NumAllocatedVFs                      俺不关心这个，暂不处理
+Offset:328 Length:010 Name:VFList                               俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:338 Length:004 Name:NumActiveVPorts                      俺不关心这个，暂不处理
+Offset:340 Length:010 Name:VPortList                            俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:350 Length:004 Name:AoAcReferences                       俺不关心这个，暂不处理
+Offset:358 Length:008 Name:Bind                                 俺不关心这个，暂不处理
+Offset:360 Length:020 Name:UnsolicitedUnbindComplete            俺不关心这个，暂不处理 StructName:_WORK_QUEUE_ITEM
+Offset:380 Length:008 Name:UnsolicitedUnbindEvent               俺不关心这个，暂不处理
+Offset:388 Length:001 Name:PendingLegacyUnbind                  俺不关心这个，暂不处理
+Offset:390 Length:008 Name:WaitNetPnpEvent                      俺不关心这个，暂不处理
+Offset:398 Length:040 Name:PktMonComp                           俺不关心这个，暂不处理 StructName:_PKTMON_COMPONENT_CONTEXT
+Offset:3d8 Length:028 Name:PktMonEdge                           俺不关心这个，暂不处理 StructName:_PKTMON_EDGE_CONTEXT
+
+---------------------------------------------------------------------------------------
+
+Index:5
+Offset:000 Length:008 Name:MacHandle                            俺不关心这个，暂不处理
+Offset:000 Length:004 Name:Header
+        Type:18
+        Revision:1
+        Size:1024
+Offset:008 Length:008 Name:BindingHandle                        Value:FFFF8084C29D5010
+Offset:010 Length:008 Name:MiniportHandle                       俺不关心这个，暂不处理
+Offset:018 Length:008 Name:ProtocolHandle                       俺不关心这个，暂不处理
+Offset:020 Length:008 Name:ProtocolBindingContext               Value:FFFF8084C2B15010
+Offset:028 Length:008 Name:NextSendHandler                      俺不关心这个，暂不处理
+Offset:030 Length:008 Name:NextSendContext                      Value:0000000000000000
+Offset:038 Length:008 Name:MiniportAdapterContext               Value:FFFF8084BF94B010
+Offset:040 Length:001 Name:Reserved1                            俺不关心这个，暂不处理
+Offset:041 Length:001 Name:CallingFromNdis6Protocol             俺不关心这个，暂不处理
+Offset:042 Length:001 Name:Reserved3                            俺不关心这个，暂不处理
+Offset:043 Length:001 Name:Reserved4                            俺不关心这个，暂不处理
+Offset:048 Length:008 Name:NextReturnNetBufferListsHandler      Value:0000000000000000
+Offset:050 Length:008 Name:Reserved5                            俺不关心这个，暂不处理
+Offset:058 Length:008 Name:NextReturnNetBufferListsContext      俺不关心这个，暂不处理
+Offset:060 Length:008 Name:SendHandler                          俺不关心这个，暂不处理
+Offset:060 Length:008 Name:WanSendHandler                       俺不关心这个，暂不处理
+Offset:068 Length:008 Name:TransferDataHandler                  Value:FFFFF8030801EEA0 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:070 Length:008 Name:SendCompleteHandler                  Value:0000000000000000
+Offset:078 Length:008 Name:TransferDataCompleteHandler          Value:0000000000000000
+Offset:080 Length:008 Name:ReceiveHandler                       Value:0000000000000000
+Offset:088 Length:008 Name:ReceiveCompleteHandler               Value:FFFFF80307FDC860 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:090 Length:008 Name:WanReceiveHandler                    Value:0000000000000000
+Offset:098 Length:008 Name:RequestCompleteHandler               Value:0000000000000000
+Offset:0a0 Length:008 Name:ReceivePacketHandler                 Value:0000000000000000
+Offset:0a8 Length:008 Name:SendPacketsHandler                   Value:0000000000000000
+Offset:0b0 Length:008 Name:ResetHandler                         Value:FFFFF80307FE6470 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:0b8 Length:008 Name:RequestHandler                       Value:FFFFF80307FB6190 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:0c0 Length:008 Name:OidRequestHandler                    Value:FFFFF80307F52F50 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:0c8 Length:008 Name:ResetCompleteHandler                 Value:0000000000000000
+Offset:0d0 Length:008 Name:StatusHandler                        俺不关心这个，暂不处理
+Offset:0d0 Length:008 Name:StatusHandlerEx                      俺不关心这个，暂不处理
+Offset:0d8 Length:008 Name:StatusCompleteHandler                Value:0000000000000000
+Offset:0e0 Length:004 Name:OpenFlags                            俺不关心这个，暂不处理
+Offset:0e4 Length:004 Name:References                           俺不关心这个，暂不处理
+Offset:0e8 Length:008 Name:SpinLock                             俺不关心这个，暂不处理
+Offset:0f0 Length:008 Name:FilterHandle                         俺不关心这个，暂不处理
+Offset:0f8 Length:004 Name:FrameTypeArraySize                   俺不关心这个，暂不处理
+Offset:0fc Length:008 Name:FrameTypeArray                       俺不关心这个，暂不处理
+Offset:104 Length:004 Name:ProtocolOptions                      俺不关心这个，暂不处理
+Offset:108 Length:004 Name:CurrentLookahead                     俺不关心这个，暂不处理
+Offset:110 Length:008 Name:WSendHandler                         Value:0000000000000000
+Offset:118 Length:008 Name:WTransferDataHandler                 Value:0000000000000000
+Offset:120 Length:008 Name:WSendPacketsHandler                  Value:0000000000000000
+Offset:128 Length:008 Name:CancelSendPacketsHandler             Value:FFFFF80309EB15B0 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+Offset:130 Length:004 Name:WakeUpEnable                         俺不关心这个，暂不处理
+Offset:134 Length:014 Name:PMCurrentParameters                  俺不关心这个，暂不处理 StructName:_NDIS_PM_PARAMETERS
+Offset:148 Length:008 Name:CloseCompleteEvent                   俺不关心这个，暂不处理
+Offset:000 Length:000 Name:_QUEUED_CLOSE                        俺不关心这个，暂不处理
+Offset:150 Length:028 Name:QC                                   俺不关心这个，暂不处理 StructName:_NDIS_COMMON_OPEN_BLOCK::_QUEUED_CLOSE
+Offset:178 Length:004 Name:AfReferences                         俺不关心这个，暂不处理
+Offset:180 Length:008 Name:NextGlobalOpen                       俺不关心这个，暂不处理
+Offset:188 Length:008 Name:MiniportNextOpen                     俺不关心这个，暂不处理
+Offset:190 Length:008 Name:ProtocolNextOpen                     俺不关心这个，暂不处理
+Offset:198 Length:008 Name:BindDeviceName                       俺不关心这个，暂不处理
+Offset:1a0 Length:008 Name:RootDeviceName                       俺不关心这个，暂不处理
+Offset:1a8 Length:008 Name:FilterNextOpen                       俺不关心这个，暂不处理
+Offset:1b0 Length:004 Name:PacketFilters                        俺不关心这个，暂不处理
+Offset:1b4 Length:004 Name:OldPacketFilters                     俺不关心这个，暂不处理
+Offset:1b8 Length:004 Name:MaxMulticastAddresses                俺不关心这个，暂不处理
+Offset:1c0 Length:008 Name:MCastAddressBuf                      俺不关心这个，暂不处理
+Offset:1c8 Length:004 Name:NumAddresses                         俺不关心这个，暂不处理
+Offset:1d0 Length:008 Name:OldMCastAddressBuf                   俺不关心这个，暂不处理
+Offset:1d8 Length:004 Name:OldNumAddresses                      俺不关心这个，暂不处理
+Offset:1e0 Length:008 Name:RssParametersBuffer                  俺不关心这个，暂不处理
+Offset:1e8 Length:008 Name:NdisRSSParameters                    俺不关心这个，暂不处理
+Offset:1f0 Length:008 Name:PatternList                          俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:1f8 Length:008 Name:WOLPatternList                       俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:200 Length:008 Name:PMProtocolOffloadList                俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:208 Length:008 Name:ProtSendNetBufferListsComplete       Value:FFFFF8030AC543D0 FullPathName:\SystemRoot\system32\drivers\lltdio.sys
+Offset:210 Length:008 Name:SendCompleteNdisPacketContext        Value:FFFF8084C2B15010
+Offset:218 Length:008 Name:SendCompleteNetBufferListsContext    Value:FFFF8084C2B15010
+Offset:220 Length:008 Name:ReceiveNetBufferLists                Value:FFFFF8030AC51010 FullPathName:\SystemRoot\system32\drivers\lltdio.sys
+Offset:228 Length:008 Name:ReceiveNetBufferListsContext         Value:FFFF8084C2B15010
+Offset:230 Length:008 Name:SavedSendPacketsHandler              Value:0000000000000000
+Offset:238 Length:008 Name:SavedCancelSendPacketsHandler        Value:FFFFF80309EB15B0 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+Offset:240 Length:008 Name:SavedSendHandler                     Value:FFFFF8030801E730 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:248 Length:008 Name:NblTracker                           俺不关心这个，暂不处理
+Offset:250 Length:008 Name:RefCountTracker                      俺不关心这个，暂不处理
+Offset:258 Length:008 Name:RefCountLock                         俺不关心这个，暂不处理
+Offset:260 Length:004 Name:ProtocolMajorVersion                 俺不关心这个，暂不处理
+Offset:268 Length:008 Name:IfBlock                              Value:0000000000000000
+Offset:270 Length:010 Name:PnPStateLock                         俺不关心这个，暂不处理 StructName:_NDIS_SPIN_LOCK
+Offset:280 Length:004 Name:PnPState                             俺不关心这个，暂不处理 StructName:NDIS_NDIS5_DRIVER_STATE
+Offset:284 Length:004 Name:OutstandingSends                     俺不关心这个，暂不处理
+Offset:288 Length:018 Name:PauseEvent                           俺不关心这个，暂不处理 StructName:_NDIS_EVENT
+Offset:2a0 Length:008 Name:Ndis5WanSendHandler                  Value:0000000000000000
+Offset:2a8 Length:008 Name:ProtSendCompleteHandler              Value:0000000000000000
+Offset:2b0 Length:008 Name:OidRequestCompleteHandler            Value:FFFFF80307FAD6E0 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:2b8 Length:008 Name:Offload                              俺不关心这个，暂不处理
+Offset:2c0 Length:008 Name:StatusUnbindWorkItem                 俺不关心这个，暂不处理
+Offset:2c8 Length:008 Name:DpcStartCycle                        俺不关心这个，暂不处理
+Offset:2d0 Length:008 Name:ReceivedAPacketSlot                  俺不关心这个，暂不处理
+Offset:2d8 Length:008 Name:DirectOidRequestHandler              Value:FFFFF80307FA1E60 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:2e0 Length:010 Name:ReceiveQueueList                     俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:2f0 Length:004 Name:NumReceiveQueues                     俺不关心这个，暂不处理
+Offset:2f8 Length:010 Name:SharedMemoryBlockList                俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:308 Length:008 Name:AllocateSharedMemoryHandler          Value:0000000000000000
+Offset:310 Length:008 Name:FreeSharedMemoryHandler              Value:0000000000000000
+Offset:318 Length:008 Name:AllocateSharedMemoryContext          Value:0000000000000000
+Offset:320 Length:004 Name:NumAllocatedVFs                      俺不关心这个，暂不处理
+Offset:328 Length:010 Name:VFList                               俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:338 Length:004 Name:NumActiveVPorts                      俺不关心这个，暂不处理
+Offset:340 Length:010 Name:VPortList                            俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:350 Length:004 Name:AoAcReferences                       俺不关心这个，暂不处理
+Offset:358 Length:008 Name:Bind                                 俺不关心这个，暂不处理
+Offset:360 Length:020 Name:UnsolicitedUnbindComplete            俺不关心这个，暂不处理 StructName:_WORK_QUEUE_ITEM
+Offset:380 Length:008 Name:UnsolicitedUnbindEvent               俺不关心这个，暂不处理
+Offset:388 Length:001 Name:PendingLegacyUnbind                  俺不关心这个，暂不处理
+Offset:390 Length:008 Name:WaitNetPnpEvent                      俺不关心这个，暂不处理
+Offset:398 Length:040 Name:PktMonComp                           俺不关心这个，暂不处理 StructName:_PKTMON_COMPONENT_CONTEXT
+Offset:3d8 Length:028 Name:PktMonEdge                           俺不关心这个，暂不处理 StructName:_PKTMON_EDGE_CONTEXT
+
+---------------------------------------------------------------------------------------
+
+Index:6
+Offset:000 Length:008 Name:MacHandle                            俺不关心这个，暂不处理
+Offset:000 Length:004 Name:Header
+        Type:18
+        Revision:1
+        Size:1024
+Offset:008 Length:008 Name:BindingHandle                        Value:FFFF8084C29D5460
+Offset:010 Length:008 Name:MiniportHandle                       俺不关心这个，暂不处理
+Offset:018 Length:008 Name:ProtocolHandle                       俺不关心这个，暂不处理
+Offset:020 Length:008 Name:ProtocolBindingContext               Value:FFFF8084C2B14010
+Offset:028 Length:008 Name:NextSendHandler                      俺不关心这个，暂不处理
+Offset:030 Length:008 Name:NextSendContext                      Value:0000000000000000
+Offset:038 Length:008 Name:MiniportAdapterContext               Value:FFFF8084BF94B010
+Offset:040 Length:001 Name:Reserved1                            俺不关心这个，暂不处理
+Offset:041 Length:001 Name:CallingFromNdis6Protocol             俺不关心这个，暂不处理
+Offset:042 Length:001 Name:Reserved3                            俺不关心这个，暂不处理
+Offset:043 Length:001 Name:Reserved4                            俺不关心这个，暂不处理
+Offset:048 Length:008 Name:NextReturnNetBufferListsHandler      Value:0000000000000000
+Offset:050 Length:008 Name:Reserved5                            俺不关心这个，暂不处理
+Offset:058 Length:008 Name:NextReturnNetBufferListsContext      俺不关心这个，暂不处理
+Offset:060 Length:008 Name:SendHandler                          俺不关心这个，暂不处理
+Offset:060 Length:008 Name:WanSendHandler                       俺不关心这个，暂不处理
+Offset:068 Length:008 Name:TransferDataHandler                  Value:FFFFF8030801EEA0 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:070 Length:008 Name:SendCompleteHandler                  Value:0000000000000000
+Offset:078 Length:008 Name:TransferDataCompleteHandler          Value:0000000000000000
+Offset:080 Length:008 Name:ReceiveHandler                       Value:0000000000000000
+Offset:088 Length:008 Name:ReceiveCompleteHandler               Value:FFFFF80307FDC860 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:090 Length:008 Name:WanReceiveHandler                    Value:0000000000000000
+Offset:098 Length:008 Name:RequestCompleteHandler               Value:0000000000000000
+Offset:0a0 Length:008 Name:ReceivePacketHandler                 Value:0000000000000000
+Offset:0a8 Length:008 Name:SendPacketsHandler                   Value:0000000000000000
+Offset:0b0 Length:008 Name:ResetHandler                         Value:FFFFF80307FE6470 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:0b8 Length:008 Name:RequestHandler                       Value:FFFFF80307FB6190 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:0c0 Length:008 Name:OidRequestHandler                    Value:FFFFF80307F52F50 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:0c8 Length:008 Name:ResetCompleteHandler                 Value:0000000000000000
+Offset:0d0 Length:008 Name:StatusHandler                        俺不关心这个，暂不处理
+Offset:0d0 Length:008 Name:StatusHandlerEx                      俺不关心这个，暂不处理
+Offset:0d8 Length:008 Name:StatusCompleteHandler                Value:0000000000000000
+Offset:0e0 Length:004 Name:OpenFlags                            俺不关心这个，暂不处理
+Offset:0e4 Length:004 Name:References                           俺不关心这个，暂不处理
+Offset:0e8 Length:008 Name:SpinLock                             俺不关心这个，暂不处理
+Offset:0f0 Length:008 Name:FilterHandle                         俺不关心这个，暂不处理
+Offset:0f8 Length:004 Name:FrameTypeArraySize                   俺不关心这个，暂不处理
+Offset:0fc Length:008 Name:FrameTypeArray                       俺不关心这个，暂不处理
+Offset:104 Length:004 Name:ProtocolOptions                      俺不关心这个，暂不处理
+Offset:108 Length:004 Name:CurrentLookahead                     俺不关心这个，暂不处理
+Offset:110 Length:008 Name:WSendHandler                         Value:0000000000000000
+Offset:118 Length:008 Name:WTransferDataHandler                 Value:0000000000000000
+Offset:120 Length:008 Name:WSendPacketsHandler                  Value:0000000000000000
+Offset:128 Length:008 Name:CancelSendPacketsHandler             Value:FFFFF80309EB15B0 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+Offset:130 Length:004 Name:WakeUpEnable                         俺不关心这个，暂不处理
+Offset:134 Length:014 Name:PMCurrentParameters                  俺不关心这个，暂不处理 StructName:_NDIS_PM_PARAMETERS
+Offset:148 Length:008 Name:CloseCompleteEvent                   俺不关心这个，暂不处理
+Offset:000 Length:000 Name:_QUEUED_CLOSE                        俺不关心这个，暂不处理
+Offset:150 Length:028 Name:QC                                   俺不关心这个，暂不处理 StructName:_NDIS_COMMON_OPEN_BLOCK::_QUEUED_CLOSE
+Offset:178 Length:004 Name:AfReferences                         俺不关心这个，暂不处理
+Offset:180 Length:008 Name:NextGlobalOpen                       俺不关心这个，暂不处理
+Offset:188 Length:008 Name:MiniportNextOpen                     俺不关心这个，暂不处理
+Offset:190 Length:008 Name:ProtocolNextOpen                     俺不关心这个，暂不处理
+Offset:198 Length:008 Name:BindDeviceName                       俺不关心这个，暂不处理
+Offset:1a0 Length:008 Name:RootDeviceName                       俺不关心这个，暂不处理
+Offset:1a8 Length:008 Name:FilterNextOpen                       俺不关心这个，暂不处理
+Offset:1b0 Length:004 Name:PacketFilters                        俺不关心这个，暂不处理
+Offset:1b4 Length:004 Name:OldPacketFilters                     俺不关心这个，暂不处理
+Offset:1b8 Length:004 Name:MaxMulticastAddresses                俺不关心这个，暂不处理
+Offset:1c0 Length:008 Name:MCastAddressBuf                      俺不关心这个，暂不处理
+Offset:1c8 Length:004 Name:NumAddresses                         俺不关心这个，暂不处理
+Offset:1d0 Length:008 Name:OldMCastAddressBuf                   俺不关心这个，暂不处理
+Offset:1d8 Length:004 Name:OldNumAddresses                      俺不关心这个，暂不处理
+Offset:1e0 Length:008 Name:RssParametersBuffer                  俺不关心这个，暂不处理
+Offset:1e8 Length:008 Name:NdisRSSParameters                    俺不关心这个，暂不处理
+Offset:1f0 Length:008 Name:PatternList                          俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:1f8 Length:008 Name:WOLPatternList                       俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:200 Length:008 Name:PMProtocolOffloadList                俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:208 Length:008 Name:ProtSendNetBufferListsComplete       Value:FFFFF8030AC95F20 FullPathName:\SystemRoot\system32\drivers\rspndr.sys
+Offset:210 Length:008 Name:SendCompleteNdisPacketContext        Value:FFFF8084C2B14010
+Offset:218 Length:008 Name:SendCompleteNetBufferListsContext    Value:FFFF8084C2B14010
+Offset:220 Length:008 Name:ReceiveNetBufferLists                Value:FFFFF8030AC91010 FullPathName:\SystemRoot\system32\drivers\rspndr.sys
+Offset:228 Length:008 Name:ReceiveNetBufferListsContext         Value:FFFF8084C2B14010
+Offset:230 Length:008 Name:SavedSendPacketsHandler              Value:0000000000000000
+Offset:238 Length:008 Name:SavedCancelSendPacketsHandler        Value:FFFFF80309EB15B0 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+Offset:240 Length:008 Name:SavedSendHandler                     Value:FFFFF8030801E730 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:248 Length:008 Name:NblTracker                           俺不关心这个，暂不处理
+Offset:250 Length:008 Name:RefCountTracker                      俺不关心这个，暂不处理
+Offset:258 Length:008 Name:RefCountLock                         俺不关心这个，暂不处理
+Offset:260 Length:004 Name:ProtocolMajorVersion                 俺不关心这个，暂不处理
+Offset:268 Length:008 Name:IfBlock                              Value:0000000000000000
+Offset:270 Length:010 Name:PnPStateLock                         俺不关心这个，暂不处理 StructName:_NDIS_SPIN_LOCK
+Offset:280 Length:004 Name:PnPState                             俺不关心这个，暂不处理 StructName:NDIS_NDIS5_DRIVER_STATE
+Offset:284 Length:004 Name:OutstandingSends                     俺不关心这个，暂不处理
+Offset:288 Length:018 Name:PauseEvent                           俺不关心这个，暂不处理 StructName:_NDIS_EVENT
+Offset:2a0 Length:008 Name:Ndis5WanSendHandler                  Value:0000000000000000
+Offset:2a8 Length:008 Name:ProtSendCompleteHandler              Value:0000000000000000
+Offset:2b0 Length:008 Name:OidRequestCompleteHandler            Value:FFFFF80307FAD6E0 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:2b8 Length:008 Name:Offload                              俺不关心这个，暂不处理
+Offset:2c0 Length:008 Name:StatusUnbindWorkItem                 俺不关心这个，暂不处理
+Offset:2c8 Length:008 Name:DpcStartCycle                        俺不关心这个，暂不处理
+Offset:2d0 Length:008 Name:ReceivedAPacketSlot                  俺不关心这个，暂不处理
+Offset:2d8 Length:008 Name:DirectOidRequestHandler              Value:FFFFF80307FA1E60 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:2e0 Length:010 Name:ReceiveQueueList                     俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:2f0 Length:004 Name:NumReceiveQueues                     俺不关心这个，暂不处理
+Offset:2f8 Length:010 Name:SharedMemoryBlockList                俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:308 Length:008 Name:AllocateSharedMemoryHandler          Value:0000000000000000
+Offset:310 Length:008 Name:FreeSharedMemoryHandler              Value:0000000000000000
+Offset:318 Length:008 Name:AllocateSharedMemoryContext          Value:0000000000000000
+Offset:320 Length:004 Name:NumAllocatedVFs                      俺不关心这个，暂不处理
+Offset:328 Length:010 Name:VFList                               俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:338 Length:004 Name:NumActiveVPorts                      俺不关心这个，暂不处理
+Offset:340 Length:010 Name:VPortList                            俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:350 Length:004 Name:AoAcReferences                       俺不关心这个，暂不处理
+Offset:358 Length:008 Name:Bind                                 俺不关心这个，暂不处理
+Offset:360 Length:020 Name:UnsolicitedUnbindComplete            俺不关心这个，暂不处理 StructName:_WORK_QUEUE_ITEM
+Offset:380 Length:008 Name:UnsolicitedUnbindEvent               俺不关心这个，暂不处理
+Offset:388 Length:001 Name:PendingLegacyUnbind                  俺不关心这个，暂不处理
+Offset:390 Length:008 Name:WaitNetPnpEvent                      俺不关心这个，暂不处理
+Offset:398 Length:040 Name:PktMonComp                           俺不关心这个，暂不处理 StructName:_PKTMON_COMPONENT_CONTEXT
+Offset:3d8 Length:028 Name:PktMonEdge                           俺不关心这个，暂不处理 StructName:_PKTMON_EDGE_CONTEXT
+
+---------------------------------------------------------------------------------------
+
+Index:7
+Offset:000 Length:008 Name:MacHandle                            俺不关心这个，暂不处理
+Offset:000 Length:004 Name:Header
+        Type:18
+        Revision:1
+        Size:1024
+Offset:008 Length:008 Name:BindingHandle                        Value:FFFF8084C04E2010
+Offset:010 Length:008 Name:MiniportHandle                       俺不关心这个，暂不处理
+Offset:018 Length:008 Name:ProtocolHandle                       俺不关心这个，暂不处理
+Offset:020 Length:008 Name:ProtocolBindingContext               Value:FFFF8084BFA7A050
+Offset:028 Length:008 Name:NextSendHandler                      俺不关心这个，暂不处理
+Offset:030 Length:008 Name:NextSendContext                      Value:0000000000000000
+Offset:038 Length:008 Name:MiniportAdapterContext               Value:FFFF8084BF94F010
+Offset:040 Length:001 Name:Reserved1                            俺不关心这个，暂不处理
+Offset:041 Length:001 Name:CallingFromNdis6Protocol             俺不关心这个，暂不处理
+Offset:042 Length:001 Name:Reserved3                            俺不关心这个，暂不处理
+Offset:043 Length:001 Name:Reserved4                            俺不关心这个，暂不处理
+Offset:048 Length:008 Name:NextReturnNetBufferListsHandler      Value:0000000000000000
+Offset:050 Length:008 Name:Reserved5                            俺不关心这个，暂不处理
+Offset:058 Length:008 Name:NextReturnNetBufferListsContext      俺不关心这个，暂不处理
+Offset:060 Length:008 Name:SendHandler                          俺不关心这个，暂不处理
+Offset:060 Length:008 Name:WanSendHandler                       俺不关心这个，暂不处理
+Offset:068 Length:008 Name:TransferDataHandler                  Value:FFFFF8030801EEA0 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:070 Length:008 Name:SendCompleteHandler                  Value:0000000000000000
+Offset:078 Length:008 Name:TransferDataCompleteHandler          Value:0000000000000000
+Offset:080 Length:008 Name:ReceiveHandler                       Value:0000000000000000
+Offset:088 Length:008 Name:ReceiveCompleteHandler               Value:FFFFF80307FDC860 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:090 Length:008 Name:WanReceiveHandler                    Value:0000000000000000
+Offset:098 Length:008 Name:RequestCompleteHandler               Value:0000000000000000
+Offset:0a0 Length:008 Name:ReceivePacketHandler                 Value:0000000000000000
+Offset:0a8 Length:008 Name:SendPacketsHandler                   Value:FFFFF80307FE52B0 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:0b0 Length:008 Name:ResetHandler                         Value:FFFFF80307FE51D0 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:0b8 Length:008 Name:RequestHandler                       Value:FFFFF80307FB6190 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:0c0 Length:008 Name:OidRequestHandler                    Value:FFFFF80307F52F50 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:0c8 Length:008 Name:ResetCompleteHandler                 Value:0000000000000000
+Offset:0d0 Length:008 Name:StatusHandler                        俺不关心这个，暂不处理
+Offset:0d0 Length:008 Name:StatusHandlerEx                      俺不关心这个，暂不处理
+Offset:0d8 Length:008 Name:StatusCompleteHandler                Value:0000000000000000
+Offset:0e0 Length:004 Name:OpenFlags                            俺不关心这个，暂不处理
+Offset:0e4 Length:004 Name:References                           俺不关心这个，暂不处理
+Offset:0e8 Length:008 Name:SpinLock                             俺不关心这个，暂不处理
+Offset:0f0 Length:008 Name:FilterHandle                         俺不关心这个，暂不处理
+Offset:0f8 Length:004 Name:FrameTypeArraySize                   俺不关心这个，暂不处理
+Offset:0fc Length:008 Name:FrameTypeArray                       俺不关心这个，暂不处理
+Offset:104 Length:004 Name:ProtocolOptions                      俺不关心这个，暂不处理
+Offset:108 Length:004 Name:CurrentLookahead                     俺不关心这个，暂不处理
+Offset:110 Length:008 Name:WSendHandler                         Value:0000000000000000
+Offset:118 Length:008 Name:WTransferDataHandler                 Value:0000000000000000
+Offset:120 Length:008 Name:WSendPacketsHandler                  Value:0000000000000000
+Offset:128 Length:008 Name:CancelSendPacketsHandler             Value:0000000000000000
+Offset:130 Length:004 Name:WakeUpEnable                         俺不关心这个，暂不处理
+Offset:134 Length:014 Name:PMCurrentParameters                  俺不关心这个，暂不处理 StructName:_NDIS_PM_PARAMETERS
+Offset:148 Length:008 Name:CloseCompleteEvent                   俺不关心这个，暂不处理
+Offset:000 Length:000 Name:_QUEUED_CLOSE                        俺不关心这个，暂不处理
+Offset:150 Length:028 Name:QC                                   俺不关心这个，暂不处理 StructName:_NDIS_COMMON_OPEN_BLOCK::_QUEUED_CLOSE
+Offset:178 Length:004 Name:AfReferences                         俺不关心这个，暂不处理
+Offset:180 Length:008 Name:NextGlobalOpen                       俺不关心这个，暂不处理
+Offset:188 Length:008 Name:MiniportNextOpen                     俺不关心这个，暂不处理
+Offset:190 Length:008 Name:ProtocolNextOpen                     俺不关心这个，暂不处理
+Offset:198 Length:008 Name:BindDeviceName                       俺不关心这个，暂不处理
+Offset:1a0 Length:008 Name:RootDeviceName                       俺不关心这个，暂不处理
+Offset:1a8 Length:008 Name:FilterNextOpen                       俺不关心这个，暂不处理
+Offset:1b0 Length:004 Name:PacketFilters                        俺不关心这个，暂不处理
+Offset:1b4 Length:004 Name:OldPacketFilters                     俺不关心这个，暂不处理
+Offset:1b8 Length:004 Name:MaxMulticastAddresses                俺不关心这个，暂不处理
+Offset:1c0 Length:008 Name:MCastAddressBuf                      俺不关心这个，暂不处理
+Offset:1c8 Length:004 Name:NumAddresses                         俺不关心这个，暂不处理
+Offset:1d0 Length:008 Name:OldMCastAddressBuf                   俺不关心这个，暂不处理
+Offset:1d8 Length:004 Name:OldNumAddresses                      俺不关心这个，暂不处理
+Offset:1e0 Length:008 Name:RssParametersBuffer                  俺不关心这个，暂不处理
+Offset:1e8 Length:008 Name:NdisRSSParameters                    俺不关心这个，暂不处理
+Offset:1f0 Length:008 Name:PatternList                          俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:1f8 Length:008 Name:WOLPatternList                       俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:200 Length:008 Name:PMProtocolOffloadList                俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:208 Length:008 Name:ProtSendNetBufferListsComplete       Value:FFFFF80308A2CC80 FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+Offset:210 Length:008 Name:SendCompleteNdisPacketContext        Value:FFFF8084BFA7A050
+Offset:218 Length:008 Name:SendCompleteNetBufferListsContext    Value:FFFF8084BFA7A050
+Offset:220 Length:008 Name:ReceiveNetBufferLists                Value:FFFFF803089EC9D0 FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+Offset:228 Length:008 Name:ReceiveNetBufferListsContext         Value:FFFF8084BFA7A050
+Offset:230 Length:008 Name:SavedSendPacketsHandler              Value:0000000000000000
+Offset:238 Length:008 Name:SavedCancelSendPacketsHandler        Value:FFFFF80309EB15B0 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+Offset:240 Length:008 Name:SavedSendHandler                     Value:FFFFF8030801E730 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:248 Length:008 Name:NblTracker                           俺不关心这个，暂不处理
+Offset:250 Length:008 Name:RefCountTracker                      俺不关心这个，暂不处理
+Offset:258 Length:008 Name:RefCountLock                         俺不关心这个，暂不处理
+Offset:260 Length:004 Name:ProtocolMajorVersion                 俺不关心这个，暂不处理
+Offset:268 Length:008 Name:IfBlock                              Value:0000000000000000
+Offset:270 Length:010 Name:PnPStateLock                         俺不关心这个，暂不处理 StructName:_NDIS_SPIN_LOCK
+Offset:280 Length:004 Name:PnPState                             俺不关心这个，暂不处理 StructName:NDIS_NDIS5_DRIVER_STATE
+Offset:284 Length:004 Name:OutstandingSends                     俺不关心这个，暂不处理
+Offset:288 Length:018 Name:PauseEvent                           俺不关心这个，暂不处理 StructName:_NDIS_EVENT
+Offset:2a0 Length:008 Name:Ndis5WanSendHandler                  Value:0000000000000000
+Offset:2a8 Length:008 Name:ProtSendCompleteHandler              Value:0000000000000000
+Offset:2b0 Length:008 Name:OidRequestCompleteHandler            Value:FFFFF80307FAD6E0 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:2b8 Length:008 Name:Offload                              俺不关心这个，暂不处理
+Offset:2c0 Length:008 Name:StatusUnbindWorkItem                 俺不关心这个，暂不处理
+Offset:2c8 Length:008 Name:DpcStartCycle                        俺不关心这个，暂不处理
+Offset:2d0 Length:008 Name:ReceivedAPacketSlot                  俺不关心这个，暂不处理
+Offset:2d8 Length:008 Name:DirectOidRequestHandler              Value:FFFFF80307FA1E60 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:2e0 Length:010 Name:ReceiveQueueList                     俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:2f0 Length:004 Name:NumReceiveQueues                     俺不关心这个，暂不处理
+Offset:2f8 Length:010 Name:SharedMemoryBlockList                俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:308 Length:008 Name:AllocateSharedMemoryHandler          Value:0000000000000000
+Offset:310 Length:008 Name:FreeSharedMemoryHandler              Value:0000000000000000
+Offset:318 Length:008 Name:AllocateSharedMemoryContext          Value:0000000000000000
+Offset:320 Length:004 Name:NumAllocatedVFs                      俺不关心这个，暂不处理
+Offset:328 Length:010 Name:VFList                               俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:338 Length:004 Name:NumActiveVPorts                      俺不关心这个，暂不处理
+Offset:340 Length:010 Name:VPortList                            俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:350 Length:004 Name:AoAcReferences                       俺不关心这个，暂不处理
+Offset:358 Length:008 Name:Bind                                 俺不关心这个，暂不处理
+Offset:360 Length:020 Name:UnsolicitedUnbindComplete            俺不关心这个，暂不处理 StructName:_WORK_QUEUE_ITEM
+Offset:380 Length:008 Name:UnsolicitedUnbindEvent               俺不关心这个，暂不处理
+Offset:388 Length:001 Name:PendingLegacyUnbind                  俺不关心这个，暂不处理
+Offset:390 Length:008 Name:WaitNetPnpEvent                      俺不关心这个，暂不处理
+Offset:398 Length:040 Name:PktMonComp                           俺不关心这个，暂不处理 StructName:_PKTMON_COMPONENT_CONTEXT
+Offset:3d8 Length:028 Name:PktMonEdge                           俺不关心这个，暂不处理 StructName:_PKTMON_EDGE_CONTEXT
+
+---------------------------------------------------------------------------------------
+
+Index:8
+Offset:000 Length:008 Name:MacHandle                            俺不关心这个，暂不处理
+Offset:000 Length:004 Name:Header
+        Type:18
+        Revision:1
+        Size:1024
+Offset:008 Length:008 Name:BindingHandle                        Value:FFFF8084C0502B20
+Offset:010 Length:008 Name:MiniportHandle                       俺不关心这个，暂不处理
+Offset:018 Length:008 Name:ProtocolHandle                       俺不关心这个，暂不处理
+Offset:020 Length:008 Name:ProtocolBindingContext               Value:FFFF8084C04E9010
+Offset:028 Length:008 Name:NextSendHandler                      俺不关心这个，暂不处理
+Offset:030 Length:008 Name:NextSendContext                      Value:0000000000000000
+Offset:038 Length:008 Name:MiniportAdapterContext               Value:FFFF8084BF94B010
+Offset:040 Length:001 Name:Reserved1                            俺不关心这个，暂不处理
+Offset:041 Length:001 Name:CallingFromNdis6Protocol             俺不关心这个，暂不处理
+Offset:042 Length:001 Name:Reserved3                            俺不关心这个，暂不处理
+Offset:043 Length:001 Name:Reserved4                            俺不关心这个，暂不处理
+Offset:048 Length:008 Name:NextReturnNetBufferListsHandler      Value:0000000000000000
+Offset:050 Length:008 Name:Reserved5                            俺不关心这个，暂不处理
+Offset:058 Length:008 Name:NextReturnNetBufferListsContext      俺不关心这个，暂不处理
+Offset:060 Length:008 Name:SendHandler                          俺不关心这个，暂不处理
+Offset:060 Length:008 Name:WanSendHandler                       俺不关心这个，暂不处理
+Offset:068 Length:008 Name:TransferDataHandler                  Value:FFFFF8030801EEA0 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:070 Length:008 Name:SendCompleteHandler                  Value:0000000000000000
+Offset:078 Length:008 Name:TransferDataCompleteHandler          Value:0000000000000000
+Offset:080 Length:008 Name:ReceiveHandler                       Value:0000000000000000
+Offset:088 Length:008 Name:ReceiveCompleteHandler               Value:FFFFF80307FDC860 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:090 Length:008 Name:WanReceiveHandler                    Value:0000000000000000
+Offset:098 Length:008 Name:RequestCompleteHandler               Value:0000000000000000
+Offset:0a0 Length:008 Name:ReceivePacketHandler                 Value:0000000000000000
+Offset:0a8 Length:008 Name:SendPacketsHandler                   Value:0000000000000000
+Offset:0b0 Length:008 Name:ResetHandler                         Value:FFFFF80307FE6470 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:0b8 Length:008 Name:RequestHandler                       Value:FFFFF80307FB6190 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:0c0 Length:008 Name:OidRequestHandler                    Value:FFFFF80307F52F50 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:0c8 Length:008 Name:ResetCompleteHandler                 Value:0000000000000000
+Offset:0d0 Length:008 Name:StatusHandler                        俺不关心这个，暂不处理
+Offset:0d0 Length:008 Name:StatusHandlerEx                      俺不关心这个，暂不处理
+Offset:0d8 Length:008 Name:StatusCompleteHandler                Value:0000000000000000
+Offset:0e0 Length:004 Name:OpenFlags                            俺不关心这个，暂不处理
+Offset:0e4 Length:004 Name:References                           俺不关心这个，暂不处理
+Offset:0e8 Length:008 Name:SpinLock                             俺不关心这个，暂不处理
+Offset:0f0 Length:008 Name:FilterHandle                         俺不关心这个，暂不处理
+Offset:0f8 Length:004 Name:FrameTypeArraySize                   俺不关心这个，暂不处理
+Offset:0fc Length:008 Name:FrameTypeArray                       俺不关心这个，暂不处理
+Offset:104 Length:004 Name:ProtocolOptions                      俺不关心这个，暂不处理
+Offset:108 Length:004 Name:CurrentLookahead                     俺不关心这个，暂不处理
+Offset:110 Length:008 Name:WSendHandler                         Value:0000000000000000
+Offset:118 Length:008 Name:WTransferDataHandler                 Value:0000000000000000
+Offset:120 Length:008 Name:WSendPacketsHandler                  Value:0000000000000000
+Offset:128 Length:008 Name:CancelSendPacketsHandler             Value:FFFFF80309EB15B0 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+Offset:130 Length:004 Name:WakeUpEnable                         俺不关心这个，暂不处理
+Offset:134 Length:014 Name:PMCurrentParameters                  俺不关心这个，暂不处理 StructName:_NDIS_PM_PARAMETERS
+Offset:148 Length:008 Name:CloseCompleteEvent                   俺不关心这个，暂不处理
+Offset:000 Length:000 Name:_QUEUED_CLOSE                        俺不关心这个，暂不处理
+Offset:150 Length:028 Name:QC                                   俺不关心这个，暂不处理 StructName:_NDIS_COMMON_OPEN_BLOCK::_QUEUED_CLOSE
+Offset:178 Length:004 Name:AfReferences                         俺不关心这个，暂不处理
+Offset:180 Length:008 Name:NextGlobalOpen                       俺不关心这个，暂不处理
+Offset:188 Length:008 Name:MiniportNextOpen                     俺不关心这个，暂不处理
+Offset:190 Length:008 Name:ProtocolNextOpen                     俺不关心这个，暂不处理
+Offset:198 Length:008 Name:BindDeviceName                       俺不关心这个，暂不处理
+Offset:1a0 Length:008 Name:RootDeviceName                       俺不关心这个，暂不处理
+Offset:1a8 Length:008 Name:FilterNextOpen                       俺不关心这个，暂不处理
+Offset:1b0 Length:004 Name:PacketFilters                        俺不关心这个，暂不处理
+Offset:1b4 Length:004 Name:OldPacketFilters                     俺不关心这个，暂不处理
+Offset:1b8 Length:004 Name:MaxMulticastAddresses                俺不关心这个，暂不处理
+Offset:1c0 Length:008 Name:MCastAddressBuf                      俺不关心这个，暂不处理
+Offset:1c8 Length:004 Name:NumAddresses                         俺不关心这个，暂不处理
+Offset:1d0 Length:008 Name:OldMCastAddressBuf                   俺不关心这个，暂不处理
+Offset:1d8 Length:004 Name:OldNumAddresses                      俺不关心这个，暂不处理
+Offset:1e0 Length:008 Name:RssParametersBuffer                  俺不关心这个，暂不处理
+Offset:1e8 Length:008 Name:NdisRSSParameters                    俺不关心这个，暂不处理
+Offset:1f0 Length:008 Name:PatternList                          俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:1f8 Length:008 Name:WOLPatternList                       俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:200 Length:008 Name:PMProtocolOffloadList                俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:208 Length:008 Name:ProtSendNetBufferListsComplete       Value:FFFFF80308A2CC80 FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+Offset:210 Length:008 Name:SendCompleteNdisPacketContext        Value:FFFF8084C04E9010
+Offset:218 Length:008 Name:SendCompleteNetBufferListsContext    Value:FFFF8084C04E9010
+Offset:220 Length:008 Name:ReceiveNetBufferLists                Value:FFFFF803089EC9D0 FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+Offset:228 Length:008 Name:ReceiveNetBufferListsContext         Value:FFFF8084C04E9010
+Offset:230 Length:008 Name:SavedSendPacketsHandler              Value:0000000000000000
+Offset:238 Length:008 Name:SavedCancelSendPacketsHandler        Value:FFFFF80309EB15B0 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+Offset:240 Length:008 Name:SavedSendHandler                     Value:FFFFF8030801E730 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:248 Length:008 Name:NblTracker                           俺不关心这个，暂不处理
+Offset:250 Length:008 Name:RefCountTracker                      俺不关心这个，暂不处理
+Offset:258 Length:008 Name:RefCountLock                         俺不关心这个，暂不处理
+Offset:260 Length:004 Name:ProtocolMajorVersion                 俺不关心这个，暂不处理
+Offset:268 Length:008 Name:IfBlock                              Value:0000000000000000
+Offset:270 Length:010 Name:PnPStateLock                         俺不关心这个，暂不处理 StructName:_NDIS_SPIN_LOCK
+Offset:280 Length:004 Name:PnPState                             俺不关心这个，暂不处理 StructName:NDIS_NDIS5_DRIVER_STATE
+Offset:284 Length:004 Name:OutstandingSends                     俺不关心这个，暂不处理
+Offset:288 Length:018 Name:PauseEvent                           俺不关心这个，暂不处理 StructName:_NDIS_EVENT
+Offset:2a0 Length:008 Name:Ndis5WanSendHandler                  Value:0000000000000000
+Offset:2a8 Length:008 Name:ProtSendCompleteHandler              Value:0000000000000000
+Offset:2b0 Length:008 Name:OidRequestCompleteHandler            Value:FFFFF80307FAD6E0 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:2b8 Length:008 Name:Offload                              俺不关心这个，暂不处理
+Offset:2c0 Length:008 Name:StatusUnbindWorkItem                 俺不关心这个，暂不处理
+Offset:2c8 Length:008 Name:DpcStartCycle                        俺不关心这个，暂不处理
+Offset:2d0 Length:008 Name:ReceivedAPacketSlot                  俺不关心这个，暂不处理
+Offset:2d8 Length:008 Name:DirectOidRequestHandler              Value:FFFFF80307FA1E60 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:2e0 Length:010 Name:ReceiveQueueList                     俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:2f0 Length:004 Name:NumReceiveQueues                     俺不关心这个，暂不处理
+Offset:2f8 Length:010 Name:SharedMemoryBlockList                俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:308 Length:008 Name:AllocateSharedMemoryHandler          Value:0000000000000000
+Offset:310 Length:008 Name:FreeSharedMemoryHandler              Value:0000000000000000
+Offset:318 Length:008 Name:AllocateSharedMemoryContext          Value:0000000000000000
+Offset:320 Length:004 Name:NumAllocatedVFs                      俺不关心这个，暂不处理
+Offset:328 Length:010 Name:VFList                               俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:338 Length:004 Name:NumActiveVPorts                      俺不关心这个，暂不处理
+Offset:340 Length:010 Name:VPortList                            俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:350 Length:004 Name:AoAcReferences                       俺不关心这个，暂不处理
+Offset:358 Length:008 Name:Bind                                 俺不关心这个，暂不处理
+Offset:360 Length:020 Name:UnsolicitedUnbindComplete            俺不关心这个，暂不处理 StructName:_WORK_QUEUE_ITEM
+Offset:380 Length:008 Name:UnsolicitedUnbindEvent               俺不关心这个，暂不处理
+Offset:388 Length:001 Name:PendingLegacyUnbind                  俺不关心这个，暂不处理
+Offset:390 Length:008 Name:WaitNetPnpEvent                      俺不关心这个，暂不处理
+Offset:398 Length:040 Name:PktMonComp                           俺不关心这个，暂不处理 StructName:_PKTMON_COMPONENT_CONTEXT
+Offset:3d8 Length:028 Name:PktMonEdge                           俺不关心这个，暂不处理 StructName:_PKTMON_EDGE_CONTEXT
+
+---------------------------------------------------------------------------------------
+
+Index:9
+Offset:000 Length:008 Name:MacHandle                            俺不关心这个，暂不处理
+Offset:000 Length:004 Name:Header
+        Type:18
+        Revision:1
+        Size:1024
+Offset:008 Length:008 Name:BindingHandle                        Value:FFFF8084C04E5AB0
+Offset:010 Length:008 Name:MiniportHandle                       俺不关心这个，暂不处理
+Offset:018 Length:008 Name:ProtocolHandle                       俺不关心这个，暂不处理
+Offset:020 Length:008 Name:ProtocolBindingContext               Value:FFFF8084C04E7010
+Offset:028 Length:008 Name:NextSendHandler                      俺不关心这个，暂不处理
+Offset:030 Length:008 Name:NextSendContext                      Value:0000000000000000
+Offset:038 Length:008 Name:MiniportAdapterContext               Value:FFFF8084BF94F010
+Offset:040 Length:001 Name:Reserved1                            俺不关心这个，暂不处理
+Offset:041 Length:001 Name:CallingFromNdis6Protocol             俺不关心这个，暂不处理
+Offset:042 Length:001 Name:Reserved3                            俺不关心这个，暂不处理
+Offset:043 Length:001 Name:Reserved4                            俺不关心这个，暂不处理
+Offset:048 Length:008 Name:NextReturnNetBufferListsHandler      Value:0000000000000000
+Offset:050 Length:008 Name:Reserved5                            俺不关心这个，暂不处理
+Offset:058 Length:008 Name:NextReturnNetBufferListsContext      俺不关心这个，暂不处理
+Offset:060 Length:008 Name:SendHandler                          俺不关心这个，暂不处理
+Offset:060 Length:008 Name:WanSendHandler                       俺不关心这个，暂不处理
+Offset:068 Length:008 Name:TransferDataHandler                  Value:FFFFF8030801EEA0 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:070 Length:008 Name:SendCompleteHandler                  Value:0000000000000000
+Offset:078 Length:008 Name:TransferDataCompleteHandler          Value:0000000000000000
+Offset:080 Length:008 Name:ReceiveHandler                       Value:0000000000000000
+Offset:088 Length:008 Name:ReceiveCompleteHandler               Value:FFFFF80307FDC860 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:090 Length:008 Name:WanReceiveHandler                    Value:0000000000000000
+Offset:098 Length:008 Name:RequestCompleteHandler               Value:0000000000000000
+Offset:0a0 Length:008 Name:ReceivePacketHandler                 Value:0000000000000000
+Offset:0a8 Length:008 Name:SendPacketsHandler                   Value:FFFFF80307FE52B0 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:0b0 Length:008 Name:ResetHandler                         Value:FFFFF80307FE51D0 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:0b8 Length:008 Name:RequestHandler                       Value:FFFFF80307FB6190 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:0c0 Length:008 Name:OidRequestHandler                    Value:FFFFF80307F52F50 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:0c8 Length:008 Name:ResetCompleteHandler                 Value:0000000000000000
+Offset:0d0 Length:008 Name:StatusHandler                        俺不关心这个，暂不处理
+Offset:0d0 Length:008 Name:StatusHandlerEx                      俺不关心这个，暂不处理
+Offset:0d8 Length:008 Name:StatusCompleteHandler                Value:0000000000000000
+Offset:0e0 Length:004 Name:OpenFlags                            俺不关心这个，暂不处理
+Offset:0e4 Length:004 Name:References                           俺不关心这个，暂不处理
+Offset:0e8 Length:008 Name:SpinLock                             俺不关心这个，暂不处理
+Offset:0f0 Length:008 Name:FilterHandle                         俺不关心这个，暂不处理
+Offset:0f8 Length:004 Name:FrameTypeArraySize                   俺不关心这个，暂不处理
+Offset:0fc Length:008 Name:FrameTypeArray                       俺不关心这个，暂不处理
+Offset:104 Length:004 Name:ProtocolOptions                      俺不关心这个，暂不处理
+Offset:108 Length:004 Name:CurrentLookahead                     俺不关心这个，暂不处理
+Offset:110 Length:008 Name:WSendHandler                         Value:0000000000000000
+Offset:118 Length:008 Name:WTransferDataHandler                 Value:0000000000000000
+Offset:120 Length:008 Name:WSendPacketsHandler                  Value:0000000000000000
+Offset:128 Length:008 Name:CancelSendPacketsHandler             Value:0000000000000000
+Offset:130 Length:004 Name:WakeUpEnable                         俺不关心这个，暂不处理
+Offset:134 Length:014 Name:PMCurrentParameters                  俺不关心这个，暂不处理 StructName:_NDIS_PM_PARAMETERS
+Offset:148 Length:008 Name:CloseCompleteEvent                   俺不关心这个，暂不处理
+Offset:000 Length:000 Name:_QUEUED_CLOSE                        俺不关心这个，暂不处理
+Offset:150 Length:028 Name:QC                                   俺不关心这个，暂不处理 StructName:_NDIS_COMMON_OPEN_BLOCK::_QUEUED_CLOSE
+Offset:178 Length:004 Name:AfReferences                         俺不关心这个，暂不处理
+Offset:180 Length:008 Name:NextGlobalOpen                       俺不关心这个，暂不处理
+Offset:188 Length:008 Name:MiniportNextOpen                     俺不关心这个，暂不处理
+Offset:190 Length:008 Name:ProtocolNextOpen                     俺不关心这个，暂不处理
+Offset:198 Length:008 Name:BindDeviceName                       俺不关心这个，暂不处理
+Offset:1a0 Length:008 Name:RootDeviceName                       俺不关心这个，暂不处理
+Offset:1a8 Length:008 Name:FilterNextOpen                       俺不关心这个，暂不处理
+Offset:1b0 Length:004 Name:PacketFilters                        俺不关心这个，暂不处理
+Offset:1b4 Length:004 Name:OldPacketFilters                     俺不关心这个，暂不处理
+Offset:1b8 Length:004 Name:MaxMulticastAddresses                俺不关心这个，暂不处理
+Offset:1c0 Length:008 Name:MCastAddressBuf                      俺不关心这个，暂不处理
+Offset:1c8 Length:004 Name:NumAddresses                         俺不关心这个，暂不处理
+Offset:1d0 Length:008 Name:OldMCastAddressBuf                   俺不关心这个，暂不处理
+Offset:1d8 Length:004 Name:OldNumAddresses                      俺不关心这个，暂不处理
+Offset:1e0 Length:008 Name:RssParametersBuffer                  俺不关心这个，暂不处理
+Offset:1e8 Length:008 Name:NdisRSSParameters                    俺不关心这个，暂不处理
+Offset:1f0 Length:008 Name:PatternList                          俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:1f8 Length:008 Name:WOLPatternList                       俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:200 Length:008 Name:PMProtocolOffloadList                俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:208 Length:008 Name:ProtSendNetBufferListsComplete       Value:FFFFF80308A2CC80 FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+Offset:210 Length:008 Name:SendCompleteNdisPacketContext        Value:FFFF8084C04E7010
+Offset:218 Length:008 Name:SendCompleteNetBufferListsContext    Value:FFFF8084C04E7010
+Offset:220 Length:008 Name:ReceiveNetBufferLists                Value:FFFFF803089EC9D0 FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+Offset:228 Length:008 Name:ReceiveNetBufferListsContext         Value:FFFF8084C04E7010
+Offset:230 Length:008 Name:SavedSendPacketsHandler              Value:0000000000000000
+Offset:238 Length:008 Name:SavedCancelSendPacketsHandler        Value:FFFFF80309EB15B0 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+Offset:240 Length:008 Name:SavedSendHandler                     Value:FFFFF8030801E730 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:248 Length:008 Name:NblTracker                           俺不关心这个，暂不处理
+Offset:250 Length:008 Name:RefCountTracker                      俺不关心这个，暂不处理
+Offset:258 Length:008 Name:RefCountLock                         俺不关心这个，暂不处理
+Offset:260 Length:004 Name:ProtocolMajorVersion                 俺不关心这个，暂不处理
+Offset:268 Length:008 Name:IfBlock                              Value:0000000000000000
+Offset:270 Length:010 Name:PnPStateLock                         俺不关心这个，暂不处理 StructName:_NDIS_SPIN_LOCK
+Offset:280 Length:004 Name:PnPState                             俺不关心这个，暂不处理 StructName:NDIS_NDIS5_DRIVER_STATE
+Offset:284 Length:004 Name:OutstandingSends                     俺不关心这个，暂不处理
+Offset:288 Length:018 Name:PauseEvent                           俺不关心这个，暂不处理 StructName:_NDIS_EVENT
+Offset:2a0 Length:008 Name:Ndis5WanSendHandler                  Value:0000000000000000
+Offset:2a8 Length:008 Name:ProtSendCompleteHandler              Value:0000000000000000
+Offset:2b0 Length:008 Name:OidRequestCompleteHandler            Value:FFFFF80307FAD6E0 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:2b8 Length:008 Name:Offload                              俺不关心这个，暂不处理
+Offset:2c0 Length:008 Name:StatusUnbindWorkItem                 俺不关心这个，暂不处理
+Offset:2c8 Length:008 Name:DpcStartCycle                        俺不关心这个，暂不处理
+Offset:2d0 Length:008 Name:ReceivedAPacketSlot                  俺不关心这个，暂不处理
+Offset:2d8 Length:008 Name:DirectOidRequestHandler              Value:FFFFF80307FA1E60 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:2e0 Length:010 Name:ReceiveQueueList                     俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:2f0 Length:004 Name:NumReceiveQueues                     俺不关心这个，暂不处理
+Offset:2f8 Length:010 Name:SharedMemoryBlockList                俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:308 Length:008 Name:AllocateSharedMemoryHandler          Value:0000000000000000
+Offset:310 Length:008 Name:FreeSharedMemoryHandler              Value:0000000000000000
+Offset:318 Length:008 Name:AllocateSharedMemoryContext          Value:0000000000000000
+Offset:320 Length:004 Name:NumAllocatedVFs                      俺不关心这个，暂不处理
+Offset:328 Length:010 Name:VFList                               俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:338 Length:004 Name:NumActiveVPorts                      俺不关心这个，暂不处理
+Offset:340 Length:010 Name:VPortList                            俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:350 Length:004 Name:AoAcReferences                       俺不关心这个，暂不处理
+Offset:358 Length:008 Name:Bind                                 俺不关心这个，暂不处理
+Offset:360 Length:020 Name:UnsolicitedUnbindComplete            俺不关心这个，暂不处理 StructName:_WORK_QUEUE_ITEM
+Offset:380 Length:008 Name:UnsolicitedUnbindEvent               俺不关心这个，暂不处理
+Offset:388 Length:001 Name:PendingLegacyUnbind                  俺不关心这个，暂不处理
+Offset:390 Length:008 Name:WaitNetPnpEvent                      俺不关心这个，暂不处理
+Offset:398 Length:040 Name:PktMonComp                           俺不关心这个，暂不处理 StructName:_PKTMON_COMPONENT_CONTEXT
+Offset:3d8 Length:028 Name:PktMonEdge                           俺不关心这个，暂不处理 StructName:_PKTMON_EDGE_CONTEXT
+
+---------------------------------------------------------------------------------------
+
+Index:10
+Offset:000 Length:008 Name:MacHandle                            俺不关心这个，暂不处理
+Offset:000 Length:004 Name:Header
+        Type:18
+        Revision:1
+        Size:1024
+Offset:008 Length:008 Name:BindingHandle                        Value:FFFF8084BFA75B60
+Offset:010 Length:008 Name:MiniportHandle                       俺不关心这个，暂不处理
+Offset:018 Length:008 Name:ProtocolHandle                       俺不关心这个，暂不处理
+Offset:020 Length:008 Name:ProtocolBindingContext               Value:FFFF8084BFA7A7A0
+Offset:028 Length:008 Name:NextSendHandler                      俺不关心这个，暂不处理
+Offset:030 Length:008 Name:NextSendContext                      Value:0000000000000000
+Offset:038 Length:008 Name:MiniportAdapterContext               Value:FFFF8084BF94B010
+Offset:040 Length:001 Name:Reserved1                            俺不关心这个，暂不处理
+Offset:041 Length:001 Name:CallingFromNdis6Protocol             俺不关心这个，暂不处理
+Offset:042 Length:001 Name:Reserved3                            俺不关心这个，暂不处理
+Offset:043 Length:001 Name:Reserved4                            俺不关心这个，暂不处理
+Offset:048 Length:008 Name:NextReturnNetBufferListsHandler      Value:0000000000000000
+Offset:050 Length:008 Name:Reserved5                            俺不关心这个，暂不处理
+Offset:058 Length:008 Name:NextReturnNetBufferListsContext      俺不关心这个，暂不处理
+Offset:060 Length:008 Name:SendHandler                          俺不关心这个，暂不处理
+Offset:060 Length:008 Name:WanSendHandler                       俺不关心这个，暂不处理
+Offset:068 Length:008 Name:TransferDataHandler                  Value:FFFFF8030801EEA0 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:070 Length:008 Name:SendCompleteHandler                  Value:0000000000000000
+Offset:078 Length:008 Name:TransferDataCompleteHandler          Value:0000000000000000
+Offset:080 Length:008 Name:ReceiveHandler                       Value:0000000000000000
+Offset:088 Length:008 Name:ReceiveCompleteHandler               Value:FFFFF80307FDC860 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:090 Length:008 Name:WanReceiveHandler                    Value:0000000000000000
+Offset:098 Length:008 Name:RequestCompleteHandler               Value:0000000000000000
+Offset:0a0 Length:008 Name:ReceivePacketHandler                 Value:0000000000000000
+Offset:0a8 Length:008 Name:SendPacketsHandler                   Value:0000000000000000
+Offset:0b0 Length:008 Name:ResetHandler                         Value:FFFFF80307FE6470 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:0b8 Length:008 Name:RequestHandler                       Value:FFFFF80307FB6190 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:0c0 Length:008 Name:OidRequestHandler                    Value:FFFFF80307F52F50 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:0c8 Length:008 Name:ResetCompleteHandler                 Value:0000000000000000
+Offset:0d0 Length:008 Name:StatusHandler                        俺不关心这个，暂不处理
+Offset:0d0 Length:008 Name:StatusHandlerEx                      俺不关心这个，暂不处理
+Offset:0d8 Length:008 Name:StatusCompleteHandler                Value:0000000000000000
+Offset:0e0 Length:004 Name:OpenFlags                            俺不关心这个，暂不处理
+Offset:0e4 Length:004 Name:References                           俺不关心这个，暂不处理
+Offset:0e8 Length:008 Name:SpinLock                             俺不关心这个，暂不处理
+Offset:0f0 Length:008 Name:FilterHandle                         俺不关心这个，暂不处理
+Offset:0f8 Length:004 Name:FrameTypeArraySize                   俺不关心这个，暂不处理
+Offset:0fc Length:008 Name:FrameTypeArray                       俺不关心这个，暂不处理
+Offset:104 Length:004 Name:ProtocolOptions                      俺不关心这个，暂不处理
+Offset:108 Length:004 Name:CurrentLookahead                     俺不关心这个，暂不处理
+Offset:110 Length:008 Name:WSendHandler                         Value:0000000000000000
+Offset:118 Length:008 Name:WTransferDataHandler                 Value:0000000000000000
+Offset:120 Length:008 Name:WSendPacketsHandler                  Value:0000000000000000
+Offset:128 Length:008 Name:CancelSendPacketsHandler             Value:FFFFF80309EB15B0 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+Offset:130 Length:004 Name:WakeUpEnable                         俺不关心这个，暂不处理
+Offset:134 Length:014 Name:PMCurrentParameters                  俺不关心这个，暂不处理 StructName:_NDIS_PM_PARAMETERS
+Offset:148 Length:008 Name:CloseCompleteEvent                   俺不关心这个，暂不处理
+Offset:000 Length:000 Name:_QUEUED_CLOSE                        俺不关心这个，暂不处理
+Offset:150 Length:028 Name:QC                                   俺不关心这个，暂不处理 StructName:_NDIS_COMMON_OPEN_BLOCK::_QUEUED_CLOSE
+Offset:178 Length:004 Name:AfReferences                         俺不关心这个，暂不处理
+Offset:180 Length:008 Name:NextGlobalOpen                       俺不关心这个，暂不处理
+Offset:188 Length:008 Name:MiniportNextOpen                     俺不关心这个，暂不处理
+Offset:190 Length:008 Name:ProtocolNextOpen                     俺不关心这个，暂不处理
+Offset:198 Length:008 Name:BindDeviceName                       俺不关心这个，暂不处理
+Offset:1a0 Length:008 Name:RootDeviceName                       俺不关心这个，暂不处理
+Offset:1a8 Length:008 Name:FilterNextOpen                       俺不关心这个，暂不处理
+Offset:1b0 Length:004 Name:PacketFilters                        俺不关心这个，暂不处理
+Offset:1b4 Length:004 Name:OldPacketFilters                     俺不关心这个，暂不处理
+Offset:1b8 Length:004 Name:MaxMulticastAddresses                俺不关心这个，暂不处理
+Offset:1c0 Length:008 Name:MCastAddressBuf                      俺不关心这个，暂不处理
+Offset:1c8 Length:004 Name:NumAddresses                         俺不关心这个，暂不处理
+Offset:1d0 Length:008 Name:OldMCastAddressBuf                   俺不关心这个，暂不处理
+Offset:1d8 Length:004 Name:OldNumAddresses                      俺不关心这个，暂不处理
+Offset:1e0 Length:008 Name:RssParametersBuffer                  俺不关心这个，暂不处理
+Offset:1e8 Length:008 Name:NdisRSSParameters                    俺不关心这个，暂不处理
+Offset:1f0 Length:008 Name:PatternList                          俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:1f8 Length:008 Name:WOLPatternList                       俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:200 Length:008 Name:PMProtocolOffloadList                俺不关心这个，暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:208 Length:008 Name:ProtSendNetBufferListsComplete       Value:FFFFF80308A2CC80 FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+Offset:210 Length:008 Name:SendCompleteNdisPacketContext        Value:FFFF8084BFA7A7A0
+Offset:218 Length:008 Name:SendCompleteNetBufferListsContext    Value:FFFF8084BFA7A7A0
+Offset:220 Length:008 Name:ReceiveNetBufferLists                Value:FFFFF803089EC9D0 FullPathName:\SystemRoot\System32\drivers\tcpip.sys
+Offset:228 Length:008 Name:ReceiveNetBufferListsContext         Value:FFFF8084BFA7A7A0
+Offset:230 Length:008 Name:SavedSendPacketsHandler              Value:0000000000000000
+Offset:238 Length:008 Name:SavedCancelSendPacketsHandler        Value:FFFFF80309EB15B0 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+Offset:240 Length:008 Name:SavedSendHandler                     Value:FFFFF8030801E730 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:248 Length:008 Name:NblTracker                           俺不关心这个，暂不处理
+Offset:250 Length:008 Name:RefCountTracker                      俺不关心这个，暂不处理
+Offset:258 Length:008 Name:RefCountLock                         俺不关心这个，暂不处理
+Offset:260 Length:004 Name:ProtocolMajorVersion                 俺不关心这个，暂不处理
+Offset:268 Length:008 Name:IfBlock                              Value:0000000000000000
+Offset:270 Length:010 Name:PnPStateLock                         俺不关心这个，暂不处理 StructName:_NDIS_SPIN_LOCK
+Offset:280 Length:004 Name:PnPState                             俺不关心这个，暂不处理 StructName:NDIS_NDIS5_DRIVER_STATE
+Offset:284 Length:004 Name:OutstandingSends                     俺不关心这个，暂不处理
+Offset:288 Length:018 Name:PauseEvent                           俺不关心这个，暂不处理 StructName:_NDIS_EVENT
+Offset:2a0 Length:008 Name:Ndis5WanSendHandler                  Value:0000000000000000
+Offset:2a8 Length:008 Name:ProtSendCompleteHandler              Value:0000000000000000
+Offset:2b0 Length:008 Name:OidRequestCompleteHandler            Value:FFFFF80307FAD6E0 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:2b8 Length:008 Name:Offload                              俺不关心这个，暂不处理
+Offset:2c0 Length:008 Name:StatusUnbindWorkItem                 俺不关心这个，暂不处理
+Offset:2c8 Length:008 Name:DpcStartCycle                        俺不关心这个，暂不处理
+Offset:2d0 Length:008 Name:ReceivedAPacketSlot                  俺不关心这个，暂不处理
+Offset:2d8 Length:008 Name:DirectOidRequestHandler              Value:FFFFF80307FA1E60 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS
+Offset:2e0 Length:010 Name:ReceiveQueueList                     俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:2f0 Length:004 Name:NumReceiveQueues                     俺不关心这个，暂不处理
+Offset:2f8 Length:010 Name:SharedMemoryBlockList                俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:308 Length:008 Name:AllocateSharedMemoryHandler          Value:0000000000000000
+Offset:310 Length:008 Name:FreeSharedMemoryHandler              Value:0000000000000000
+Offset:318 Length:008 Name:AllocateSharedMemoryContext          Value:0000000000000000
+Offset:320 Length:004 Name:NumAllocatedVFs                      俺不关心这个，暂不处理
+Offset:328 Length:010 Name:VFList                               俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:338 Length:004 Name:NumActiveVPorts                      俺不关心这个，暂不处理
+Offset:340 Length:010 Name:VPortList                            俺不关心这个，暂不处理 StructName:_LIST_ENTRY
+Offset:350 Length:004 Name:AoAcReferences                       俺不关心这个，暂不处理
+Offset:358 Length:008 Name:Bind                                 俺不关心这个，暂不处理
+Offset:360 Length:020 Name:UnsolicitedUnbindComplete            俺不关心这个，暂不处理 StructName:_WORK_QUEUE_ITEM
+Offset:380 Length:008 Name:UnsolicitedUnbindEvent               俺不关心这个，暂不处理
+Offset:388 Length:001 Name:PendingLegacyUnbind                  俺不关心这个，暂不处理
+Offset:390 Length:008 Name:WaitNetPnpEvent                      俺不关心这个，暂不处理
+Offset:398 Length:040 Name:PktMonComp                           俺不关心这个，暂不处理 StructName:_PKTMON_COMPONENT_CONTEXT
+Offset:3d8 Length:028 Name:PktMonEdge                           俺不关心这个，暂不处理 StructName:_PKTMON_EDGE_CONTEXT
+
+---------------------------------------------------------------------------------------
+
+
+C:\Users\user\Desktop\bin>
+
+
+上面是程序输出
+下以是windbg验证：实际结构大多是_NDIS_COMMON_OPEN_BLOCK，这里输出的是_NDIS_OPEN_BLOCK。
+
+
+0: kd> .for (r $t0 = poi(ndis!ndisGlobalOpenList); @$t0 != 0; r $t0 = poi(@$t0 + @@(#FIELD_OFFSET(ndis!_NDIS_COMMON_OPEN_BLOCK, NextGlobalOpen)))) { dt ndis!_NDIS_OPEN_BLOCK @$t0 }
+   +0x000 MacHandle        : 0x00000000`04000112 Void
+   +0x000 Header           : _NDIS_OBJECT_HEADER
+   +0x008 BindingHandle    : 0xffff8084`c2b21010 Void
+   +0x010 MiniportHandle   : 0xffff8084`bf69f1a0 _NDIS_MINIPORT_BLOCK
+   +0x018 ProtocolHandle   : 0xffff8084`c2b09890 _NDIS_PROTOCOL_BLOCK
+   +0x020 ProtocolBindingContext : 0xffff8084`c29fe860 Void
+   +0x028 NextSendHandler  : (null) 
+   +0x030 NextSendContext  : (null) 
+   +0x038 MiniportAdapterContext : 0xffff8084`bf94f010 Void
+   +0x040 Reserved1        : 0 ''
+   +0x041 CallingFromNdis6Protocol : 0 ''
+   +0x042 Reserved3        : 0 ''
+   +0x043 Reserved4        : 0 ''
+   +0x048 NextReturnNetBufferListsHandler : (null) 
+   +0x050 Reserved5        : 0
+   +0x058 NextReturnNetBufferListsContext : (null) 
+   +0x060 SendHandler      : 0xfffff803`07fcd8a0     int  NDIS!ndisMFakeSend+0
+   +0x060 WanSendHandler   : 0xfffff803`07fcd8a0     int  NDIS!ndisMFakeSend+0
+   +0x068 TransferDataHandler : 0xfffff803`0801eea0     int  NDIS!ndisMTransferData+0
+   +0x070 SendCompleteHandler : (null) 
+   +0x078 TransferDataCompleteHandler : (null) 
+   +0x080 ReceiveHandler   : (null) 
+   +0x088 ReceiveCompleteHandler : 0xfffff803`07fdc860     void  NDIS!ndis6DummyReceiveComplete+0
+   +0x090 WanReceiveHandler : (null) 
+   +0x098 RequestCompleteHandler : (null) 
+   +0x0a0 ReceivePacketHandler : (null) 
+   +0x0a8 SendPacketsHandler : 0xfffff803`07fe52b0     void  NDIS!ndisMFakeSendPackets+0
+   +0x0b0 ResetHandler     : 0xfffff803`07fe51d0     int  NDIS!ndisMFakeReset+0
+   +0x0b8 RequestHandler   : 0xfffff803`07fb6190     int  NDIS!ndisLegacyRequest+0
+   +0x0c0 OidRequestHandler : 0xfffff803`07f52f50     int  NDIS!ndisMOidRequest+0
+   +0x0c8 ResetCompleteHandler : (null) 
+   +0x0d0 StatusHandler    : 0xfffff803`0ac71ab0     void  mslldp!lldpProtStatus+0
+   +0x0d0 StatusHandlerEx  : 0xfffff803`0ac71ab0     void  mslldp!lldpProtStatus+0
+   +0x0d8 StatusCompleteHandler : (null) 
+   +0x0e0 OpenFlags        : 0
+   +0x0e4 References       : 0n1
+   +0x0e8 SpinLock         : 0
+   +0x0f0 FilterHandle     : (null) 
+   +0x0f8 FrameTypeArraySize : 1
+   +0x0fc FrameTypeArray   : [4] 0xcc88
+   +0x104 ProtocolOptions  : 0
+   +0x108 CurrentLookahead : 0
+   +0x110 WSendHandler     : (null) 
+   +0x118 WTransferDataHandler : (null) 
+   +0x120 WSendPacketsHandler : (null) 
+   +0x128 CancelSendPacketsHandler : (null) 
+   +0x130 WakeUpEnable     : 0
+   +0x134 PMCurrentParameters : _NDIS_PM_PARAMETERS
+   +0x148 CloseCompleteEvent : (null) 
+   +0x150 QC               : _NDIS_COMMON_OPEN_BLOCK::_QUEUED_CLOSE
+   +0x178 AfReferences     : 0n0
+   +0x180 NextGlobalOpen   : 0xffff8084`c2b21460 _NDIS_OPEN_BLOCK
+   +0x188 MiniportNextOpen : 0xffff8084`c2b21460 _NDIS_OPEN_BLOCK
+   +0x190 ProtocolNextOpen : 0xffff8084`c29dc930 _NDIS_OPEN_BLOCK
+   +0x198 BindDeviceName   : 0xffff8084`bf6a0080 _UNICODE_STRING "\DEVICE\{AAF79E81-F0B3-424D-8974-27FCEB50ADF5}"
+   +0x1a0 RootDeviceName   : 0xffff8084`bf6a76e8 _UNICODE_STRING "\DEVICE\{AAF79E81-F0B3-424D-8974-27FCEB50ADF5}"
+   +0x1a8 FilterNextOpen   : 0xffff8084`c29dc4e0 _NDIS_OPEN_BLOCK
+   +0x1b0 PacketFilters    : 0
+   +0x1b4 OldPacketFilters : 0
+   +0x1b8 MaxMulticastAddresses : 0x40
+   +0x1c0 MCastAddressBuf  : 0xffff8084`c2b97ae0 _ETH_MULTICAST_WRAPPER
+   +0x1c8 NumAddresses     : 0
+   +0x1d0 OldMCastAddressBuf : 0xffff8084`c2b99610 _ETH_MULTICAST_WRAPPER
+   +0x1d8 OldNumAddresses  : 0
+   +0x1e0 RssParametersBuffer : (null) 
+   +0x1e8 NdisRSSParameters : (null) 
+   +0x1f0 PatternList      : _SINGLE_LIST_ENTRY
+   +0x1f8 WOLPatternList   : _SINGLE_LIST_ENTRY
+   +0x200 PMProtocolOffloadList : _SINGLE_LIST_ENTRY
+   +0x208 ProtSendNetBufferListsComplete : 0xfffff803`0ac73dd0     void  mslldp!lldpProtSendNetBufferListsComplete+0
+   +0x210 SendCompleteNdisPacketContext : 0xffff8084`c29fe860 Void
+   +0x218 SendCompleteNetBufferListsContext : 0xffff8084`c29fe860 Void
+   +0x220 ReceiveNetBufferLists : 0xfffff803`0ac71010     void  mslldp!lldpProtReceiveNetBufferLists+0
+   +0x228 ReceiveNetBufferListsContext : 0xffff8084`c29fe860 Void
+   +0x230 SavedSendPacketsHandler : (null) 
+   +0x238 SavedCancelSendPacketsHandler : 0xfffff803`09eb15b0     void  netvsc!NvscPDIndicateConfiguration+0
+   +0x240 SavedSendHandler : 0xfffff803`0801e730     int  NDIS!ndisMSend+0
+   +0x248 NblTracker       : 0xffff8084`c29eea31 NDIS_NBL_TRACKER_HANDLE__
+   +0x250 RefCountTracker  : 0xffff8084`c245a800 NDIS_REFCOUNT_HANDLE__
+   +0x258 RefCountLock     : 0
+   +0x260 ProtocolMajorVersion : 6
+   +0x268 IfBlock          : (null) 
+   +0x270 PnPStateLock     : _NDIS_SPIN_LOCK
+   +0x280 PnPState         : 0 ( Ndis5StateUnused )
+   +0x284 OutstandingSends : 0n0
+   +0x288 PauseEvent       : _NDIS_EVENT
+   +0x2a0 Ndis5WanSendHandler : (null) 
+   +0x2a8 ProtSendCompleteHandler : (null) 
+   +0x2b0 OidRequestCompleteHandler : 0xfffff803`07fad6e0     void  NDIS!ndisInvokeOidRequestComplete+0
+   +0x2b8 Offload          : (null) 
+   +0x2c0 StatusUnbindWorkItem : (null) 
+   +0x2c8 DpcStartCycle    : 0
+   +0x2d0 ReceivedAPacketSlot : 0xffffa501`9d730300 PNDIS_PER_PROCESSOR_SLOT__
+   +0x2d8 DirectOidRequestHandler : 0xfffff803`07fa1e60     int  NDIS!ndisMDirectOidRequest+0
+   +0x2e0 ReceiveQueueList : _LIST_ENTRY [ 0xffff8084`c2b212f0 - 0xffff8084`c2b212f0 ]
+   +0x2f0 NumReceiveQueues : 0
+   +0x2f8 SharedMemoryBlockList : _LIST_ENTRY [ 0xffff8084`c2b21308 - 0xffff8084`c2b21308 ]
+   +0x308 AllocateSharedMemoryHandler : (null) 
+   +0x310 FreeSharedMemoryHandler : (null) 
+   +0x318 AllocateSharedMemoryContext : (null) 
+   +0x320 NumAllocatedVFs  : 0
+   +0x328 VFList           : _LIST_ENTRY [ 0xffff8084`c2b21338 - 0xffff8084`c2b21338 ]
+   +0x338 NumActiveVPorts  : 0
+   +0x340 VPortList        : _LIST_ENTRY [ 0xffff8084`c2b21350 - 0xffff8084`c2b21350 ]
+   +0x350 AoAcReferences   : 0
+   +0x358 Bind             : 0xffffcf02`7eb02cb0 NDIS_BIND_PROTOCOL_LINK
+   +0x360 UnsolicitedUnbindComplete : _WORK_QUEUE_ITEM
+   +0x380 UnsolicitedUnbindEvent : (null) 
+   +0x388 PendingLegacyUnbind : 0
+   +0x390 WaitNetPnpEvent  : (null) 
+   +0x398 PktMonComp       : _PKTMON_COMPONENT_CONTEXT
+   +0x3d8 PktMonEdge       : _PKTMON_EDGE_CONTEXT
+   +0x400 NextAf           : (null) 
+   +0x408 MiniportCoCreateVcHandler : (null) 
+   +0x410 MiniportCoRequestHandler : (null) 
+   +0x418 CoCreateVcHandler : (null) 
+   +0x420 CoDeleteVcHandler : (null) 
+   +0x428 CmActivateVcCompleteHandler : (null) 
+   +0x430 CmDeactivateVcCompleteHandler : 0x91e68118`fbc07f2c     void  +91e68118fbc07f2c
+   +0x438 CoRequestCompleteHandler : 0x00000000`00000022     void  +22
+   +0x440 CoRequestHandler : 0x6f6d444e`02441000     int  +6f6d444e02441000
+   +0x448 ActiveVcHead     : _LIST_ENTRY [ 0xffff8084`c2b21fe9 - 0x00000000`04000112 ]
+   +0x458 InactiveVcHead   : _LIST_ENTRY [ 0xffff8084`c2b21460 - 0xffff8084`bf69f1a0 ]
+   +0x468 PendingAfNotifications : 0n-1028623376
+   +0x470 AfNotifyCompleteEvent : 0xffff8084`c2b1ac50 _KEVENT
+   +0x478 MiniportCoOidRequestHandler : (null) 
+   +0x480 CoOidRequestCompleteHandler : (null) 
+   +0x488 CoOidRequestHandler : 0xffff8084`bf94f010     int  +ffff8084bf94f010
+   +0x000 MacHandle        : 0x00000000`04000112 Void
+   +0x000 Header           : _NDIS_OBJECT_HEADER
+   +0x008 BindingHandle    : 0xffff8084`c2b21460 Void
+   +0x010 MiniportHandle   : 0xffff8084`bf69f1a0 _NDIS_MINIPORT_BLOCK
+   +0x018 ProtocolHandle   : 0xffff8084`c2b073f0 _NDIS_PROTOCOL_BLOCK
+   +0x020 ProtocolBindingContext : 0xffff8084`c2b1ac50 Void
+   +0x028 NextSendHandler  : (null) 
+   +0x030 NextSendContext  : (null) 
+   +0x038 MiniportAdapterContext : 0xffff8084`bf94f010 Void
+   +0x040 Reserved1        : 0 ''
+   +0x041 CallingFromNdis6Protocol : 0 ''
+   +0x042 Reserved3        : 0 ''
+   +0x043 Reserved4        : 0 ''
+   +0x048 NextReturnNetBufferListsHandler : (null) 
+   +0x050 Reserved5        : 0
+   +0x058 NextReturnNetBufferListsContext : (null) 
+   +0x060 SendHandler      : 0xfffff803`07fcd8a0     int  NDIS!ndisMFakeSend+0
+   +0x060 WanSendHandler   : 0xfffff803`07fcd8a0     int  NDIS!ndisMFakeSend+0
+   +0x068 TransferDataHandler : 0xfffff803`0801eea0     int  NDIS!ndisMTransferData+0
+   +0x070 SendCompleteHandler : (null) 
+   +0x078 TransferDataCompleteHandler : (null) 
+   +0x080 ReceiveHandler   : (null) 
+   +0x088 ReceiveCompleteHandler : 0xfffff803`07fdc860     void  NDIS!ndis6DummyReceiveComplete+0
+   +0x090 WanReceiveHandler : (null) 
+   +0x098 RequestCompleteHandler : (null) 
+   +0x0a0 ReceivePacketHandler : (null) 
+   +0x0a8 SendPacketsHandler : 0xfffff803`07fe52b0     void  NDIS!ndisMFakeSendPackets+0
+   +0x0b0 ResetHandler     : 0xfffff803`07fe51d0     int  NDIS!ndisMFakeReset+0
+   +0x0b8 RequestHandler   : 0xfffff803`07fb6190     int  NDIS!ndisLegacyRequest+0
+   +0x0c0 OidRequestHandler : 0xfffff803`07f52f50     int  NDIS!ndisMOidRequest+0
+   +0x0c8 ResetCompleteHandler : (null) 
+   +0x0d0 StatusHandler    : 0xfffff803`0ac51530     void  lltdio!ToppStatusHandlerEx+0
+   +0x0d0 StatusHandlerEx  : 0xfffff803`0ac51530     void  lltdio!ToppStatusHandlerEx+0
+   +0x0d8 StatusCompleteHandler : (null) 
+   +0x0e0 OpenFlags        : 0
+   +0x0e4 References       : 0n1
+   +0x0e8 SpinLock         : 0
+   +0x0f0 FilterHandle     : (null) 
+   +0x0f8 FrameTypeArraySize : 0
+   +0x0fc FrameTypeArray   : [4] 0
+   +0x104 ProtocolOptions  : 0
+   +0x108 CurrentLookahead : 0
+   +0x110 WSendHandler     : (null) 
+   +0x118 WTransferDataHandler : (null) 
+   +0x120 WSendPacketsHandler : (null) 
+   +0x128 CancelSendPacketsHandler : (null) 
+   +0x130 WakeUpEnable     : 0
+   +0x134 PMCurrentParameters : _NDIS_PM_PARAMETERS
+   +0x148 CloseCompleteEvent : (null) 
+   +0x150 QC               : _NDIS_COMMON_OPEN_BLOCK::_QUEUED_CLOSE
+   +0x178 AfReferences     : 0n0
+   +0x180 NextGlobalOpen   : 0xffff8084`c29dc4e0 _NDIS_OPEN_BLOCK
+   +0x188 MiniportNextOpen : 0xffff8084`c29dc4e0 _NDIS_OPEN_BLOCK
+   +0x190 ProtocolNextOpen : 0xffff8084`c29d5010 _NDIS_OPEN_BLOCK
+   +0x198 BindDeviceName   : 0xffff8084`bf6a0080 _UNICODE_STRING "\DEVICE\{AAF79E81-F0B3-424D-8974-27FCEB50ADF5}"
+   +0x1a0 RootDeviceName   : 0xffff8084`bf6a76e8 _UNICODE_STRING "\DEVICE\{AAF79E81-F0B3-424D-8974-27FCEB50ADF5}"
+   +0x1a8 FilterNextOpen   : (null) 
+   +0x1b0 PacketFilters    : 0
+   +0x1b4 OldPacketFilters : 0
+   +0x1b8 MaxMulticastAddresses : 0x40
+   +0x1c0 MCastAddressBuf  : 0xffff8084`c2b218b0 _ETH_MULTICAST_WRAPPER
+   +0x1c8 NumAddresses     : 0
+   +0x1d0 OldMCastAddressBuf : 0xffff8084`c2b21bd0 _ETH_MULTICAST_WRAPPER
+   +0x1d8 OldNumAddresses  : 0
+   +0x1e0 RssParametersBuffer : (null) 
+   +0x1e8 NdisRSSParameters : (null) 
+   +0x1f0 PatternList      : _SINGLE_LIST_ENTRY
+   +0x1f8 WOLPatternList   : _SINGLE_LIST_ENTRY
+   +0x200 PMProtocolOffloadList : _SINGLE_LIST_ENTRY
+   +0x208 ProtSendNetBufferListsComplete : 0xfffff803`0ac543d0     void  lltdio!ToppSendNetBufferListsCompleteHandler+0
+   +0x210 SendCompleteNdisPacketContext : 0xffff8084`c2b1ac50 Void
+   +0x218 SendCompleteNetBufferListsContext : 0xffff8084`c2b1ac50 Void
+   +0x220 ReceiveNetBufferLists : 0xfffff803`0ac51010     void  lltdio!ToppReceiveNetBufferListHandler+0
+   +0x228 ReceiveNetBufferListsContext : 0xffff8084`c2b1ac50 Void
+   +0x230 SavedSendPacketsHandler : (null) 
+   +0x238 SavedCancelSendPacketsHandler : 0xfffff803`09eb15b0     void  netvsc!NvscPDIndicateConfiguration+0
+   +0x240 SavedSendHandler : 0xfffff803`0801e730     int  NDIS!ndisMSend+0
+   +0x248 NblTracker       : 0xffff8084`c29eee51 NDIS_NBL_TRACKER_HANDLE__
+   +0x250 RefCountTracker  : 0xffff8084`c2459c90 NDIS_REFCOUNT_HANDLE__
+   +0x258 RefCountLock     : 0
+   +0x260 ProtocolMajorVersion : 6
+   +0x268 IfBlock          : (null) 
+   +0x270 PnPStateLock     : _NDIS_SPIN_LOCK
+   +0x280 PnPState         : 0 ( Ndis5StateUnused )
+   +0x284 OutstandingSends : 0n0
+   +0x288 PauseEvent       : _NDIS_EVENT
+   +0x2a0 Ndis5WanSendHandler : (null) 
+   +0x2a8 ProtSendCompleteHandler : (null) 
+   +0x2b0 OidRequestCompleteHandler : 0xfffff803`07fad6e0     void  NDIS!ndisInvokeOidRequestComplete+0
+   +0x2b8 Offload          : (null) 
+   +0x2c0 StatusUnbindWorkItem : (null) 
+   +0x2c8 DpcStartCycle    : 0
+   +0x2d0 ReceivedAPacketSlot : 0xffffa501`9d7302b8 PNDIS_PER_PROCESSOR_SLOT__
+   +0x2d8 DirectOidRequestHandler : 0xfffff803`07fa1e60     int  NDIS!ndisMDirectOidRequest+0
+   +0x2e0 ReceiveQueueList : _LIST_ENTRY [ 0xffff8084`c2b21740 - 0xffff8084`c2b21740 ]
+   +0x2f0 NumReceiveQueues : 0
+   +0x2f8 SharedMemoryBlockList : _LIST_ENTRY [ 0xffff8084`c2b21758 - 0xffff8084`c2b21758 ]
+   +0x308 AllocateSharedMemoryHandler : (null) 
+   +0x310 FreeSharedMemoryHandler : (null) 
+   +0x318 AllocateSharedMemoryContext : (null) 
+   +0x320 NumAllocatedVFs  : 0
+   +0x328 VFList           : _LIST_ENTRY [ 0xffff8084`c2b21788 - 0xffff8084`c2b21788 ]
+   +0x338 NumActiveVPorts  : 0
+   +0x340 VPortList        : _LIST_ENTRY [ 0xffff8084`c2b217a0 - 0xffff8084`c2b217a0 ]
+   +0x350 AoAcReferences   : 0
+   +0x358 Bind             : 0xffffcf02`7eb028c0 NDIS_BIND_PROTOCOL_LINK
+   +0x360 UnsolicitedUnbindComplete : _WORK_QUEUE_ITEM
+   +0x380 UnsolicitedUnbindEvent : (null) 
+   +0x388 PendingLegacyUnbind : 0
+   +0x390 WaitNetPnpEvent  : (null) 
+   +0x398 PktMonComp       : _PKTMON_COMPONENT_CONTEXT
+   +0x3d8 PktMonEdge       : _PKTMON_EDGE_CONTEXT
+   +0x400 NextAf           : (null) 
+   +0x408 MiniportCoCreateVcHandler : (null) 
+   +0x410 MiniportCoRequestHandler : (null) 
+   +0x418 CoCreateVcHandler : (null) 
+   +0x420 CoDeleteVcHandler : (null) 
+   +0x428 CmActivateVcCompleteHandler : (null) 
+   +0x430 CmDeactivateVcCompleteHandler : 0x91e6811b`fbb773fc     void  +91e6811bfbb773fc
+   +0x438 CoRequestCompleteHandler : 0x00000000`000000f2     void  +f2
+   +0x440 CoRequestHandler : 0x6166444e`02310000     int  +6166444e02310000
+   +0x448 ActiveVcHead     : _LIST_ENTRY [ 0xffff8084`c2b21fe9 - 0x5e415f41`20c48348 ]
+   +0x458 InactiveVcHead   : _LIST_ENTRY [ 0xcccccccc`ccc35d41 - 0x245c8948`cccccccc ]
+   +0x468 PendingAfNotifications : 0n1465275656
+   +0x470 AfNotifyCompleteEvent : 0x246c8d48`57415641 _KEVENT
+   +0x478 MiniportCoOidRequestHandler : 0x000000b0`ec8148f9     int  +b0ec8148f9
+   +0x480 CoOidRequestCompleteHandler : 0x48ffffac`59058b48     void  +48ffffac59058b48
+   +0x488 CoOidRequestHandler : 0x8b48f745`8948c433     int  +8b48f7458948c433
+   +0x000 MacHandle        : 0x00000000`04000112 Void
+   +0x000 Header           : _NDIS_OBJECT_HEADER
+   +0x008 BindingHandle    : 0xffff8084`c29dc4e0 Void
+   +0x010 MiniportHandle   : 0xffff8084`bf69f1a0 _NDIS_MINIPORT_BLOCK
+   +0x018 ProtocolHandle   : 0xffff8084`c2b0b3f0 _NDIS_PROTOCOL_BLOCK
+   +0x020 ProtocolBindingContext : 0xffff8084`c2b18610 Void
+   +0x028 NextSendHandler  : (null) 
+   +0x030 NextSendContext  : (null) 
+   +0x038 MiniportAdapterContext : 0xffff8084`bf94f010 Void
+   +0x040 Reserved1        : 0 ''
+   +0x041 CallingFromNdis6Protocol : 0 ''
+   +0x042 Reserved3        : 0 ''
+   +0x043 Reserved4        : 0 ''
+   +0x048 NextReturnNetBufferListsHandler : (null) 
+   +0x050 Reserved5        : 0
+   +0x058 NextReturnNetBufferListsContext : (null) 
+   +0x060 SendHandler      : 0xfffff803`07fcd8a0     int  NDIS!ndisMFakeSend+0
+   +0x060 WanSendHandler   : 0xfffff803`07fcd8a0     int  NDIS!ndisMFakeSend+0
+   +0x068 TransferDataHandler : 0xfffff803`0801eea0     int  NDIS!ndisMTransferData+0
+   +0x070 SendCompleteHandler : (null) 
+   +0x078 TransferDataCompleteHandler : (null) 
+   +0x080 ReceiveHandler   : (null) 
+   +0x088 ReceiveCompleteHandler : 0xfffff803`07fdc860     void  NDIS!ndis6DummyReceiveComplete+0
+   +0x090 WanReceiveHandler : (null) 
+   +0x098 RequestCompleteHandler : (null) 
+   +0x0a0 ReceivePacketHandler : (null) 
+   +0x0a8 SendPacketsHandler : 0xfffff803`07fe52b0     void  NDIS!ndisMFakeSendPackets+0
+   +0x0b0 ResetHandler     : 0xfffff803`07fe51d0     int  NDIS!ndisMFakeReset+0
+   +0x0b8 RequestHandler   : 0xfffff803`07fb6190     int  NDIS!ndisLegacyRequest+0
+   +0x0c0 OidRequestHandler : 0xfffff803`07f52f50     int  NDIS!ndisMOidRequest+0
+   +0x0c8 ResetCompleteHandler : (null) 
+   +0x0d0 StatusHandler    : 0xfffff803`0ac91560     void  rspndr!ToppStatusHandlerEx+0
+   +0x0d0 StatusHandlerEx  : 0xfffff803`0ac91560     void  rspndr!ToppStatusHandlerEx+0
+   +0x0d8 StatusCompleteHandler : (null) 
+   +0x0e0 OpenFlags        : 0
+   +0x0e4 References       : 0n1
+   +0x0e8 SpinLock         : 0
+   +0x0f0 FilterHandle     : (null) 
+   +0x0f8 FrameTypeArraySize : 2
+   +0x0fc FrameTypeArray   : [4] 0xd988
+   +0x104 ProtocolOptions  : 0
+   +0x108 CurrentLookahead : 0
+   +0x110 WSendHandler     : (null) 
+   +0x118 WTransferDataHandler : (null) 
+   +0x120 WSendPacketsHandler : (null) 
+   +0x128 CancelSendPacketsHandler : (null) 
+   +0x130 WakeUpEnable     : 0
+   +0x134 PMCurrentParameters : _NDIS_PM_PARAMETERS
+   +0x148 CloseCompleteEvent : (null) 
+   +0x150 QC               : _NDIS_COMMON_OPEN_BLOCK::_QUEUED_CLOSE
+   +0x178 AfReferences     : 0n0
+   +0x180 NextGlobalOpen   : 0xffff8084`c29dc930 _NDIS_OPEN_BLOCK
+   +0x188 MiniportNextOpen : 0xffff8084`c04e2010 _NDIS_OPEN_BLOCK
+   +0x190 ProtocolNextOpen : 0xffff8084`c29d5460 _NDIS_OPEN_BLOCK
+   +0x198 BindDeviceName   : 0xffff8084`bf6a0080 _UNICODE_STRING "\DEVICE\{AAF79E81-F0B3-424D-8974-27FCEB50ADF5}"
+   +0x1a0 RootDeviceName   : 0xffff8084`bf6a76e8 _UNICODE_STRING "\DEVICE\{AAF79E81-F0B3-424D-8974-27FCEB50ADF5}"
+   +0x1a8 FilterNextOpen   : 0xffff8084`c04e2010 _NDIS_OPEN_BLOCK
+   +0x1b0 PacketFilters    : 9
+   +0x1b4 OldPacketFilters : 0
+   +0x1b8 MaxMulticastAddresses : 0x40
+   +0x1c0 MCastAddressBuf  : 0xffff8084`c2b1a610 _ETH_MULTICAST_WRAPPER
+   +0x1c8 NumAddresses     : 0
+   +0x1d0 OldMCastAddressBuf : 0xffff8084`c2b1a930 _ETH_MULTICAST_WRAPPER
+   +0x1d8 OldNumAddresses  : 0
+   +0x1e0 RssParametersBuffer : (null) 
+   +0x1e8 NdisRSSParameters : (null) 
+   +0x1f0 PatternList      : _SINGLE_LIST_ENTRY
+   +0x1f8 WOLPatternList   : _SINGLE_LIST_ENTRY
+   +0x200 PMProtocolOffloadList : _SINGLE_LIST_ENTRY
+   +0x208 ProtSendNetBufferListsComplete : 0xfffff803`0ac95f20     void  rspndr!ToppSendNetBufferListsCompleteHandler+0
+   +0x210 SendCompleteNdisPacketContext : 0xffff8084`c2b18610 Void
+   +0x218 SendCompleteNetBufferListsContext : 0xffff8084`c2b18610 Void
+   +0x220 ReceiveNetBufferLists : 0xfffff803`0ac91010     void  rspndr!ToppReceiveNetBufferListHandler+0
+   +0x228 ReceiveNetBufferListsContext : 0xffff8084`c2b18610 Void
+   +0x230 SavedSendPacketsHandler : (null) 
+   +0x238 SavedCancelSendPacketsHandler : 0xfffff803`09eb15b0     void  netvsc!NvscPDIndicateConfiguration+0
+   +0x240 SavedSendHandler : 0xfffff803`0801e730     int  NDIS!ndisMSend+0
+   +0x248 NblTracker       : 0xffff8084`c29eeeb1 NDIS_NBL_TRACKER_HANDLE__
+   +0x250 RefCountTracker  : 0xffff8084`c24592a0 NDIS_REFCOUNT_HANDLE__
+   +0x258 RefCountLock     : 0
+   +0x260 ProtocolMajorVersion : 6
+   +0x268 IfBlock          : (null) 
+   +0x270 PnPStateLock     : _NDIS_SPIN_LOCK
+   +0x280 PnPState         : 0 ( Ndis5StateUnused )
+   +0x284 OutstandingSends : 0n0
+   +0x288 PauseEvent       : _NDIS_EVENT
+   +0x2a0 Ndis5WanSendHandler : (null) 
+   +0x2a8 ProtSendCompleteHandler : (null) 
+   +0x2b0 OidRequestCompleteHandler : 0xfffff803`07fad6e0     void  NDIS!ndisInvokeOidRequestComplete+0
+   +0x2b8 Offload          : (null) 
+   +0x2c0 StatusUnbindWorkItem : (null) 
+   +0x2c8 DpcStartCycle    : 0
+   +0x2d0 ReceivedAPacketSlot : 0xffffa501`9d7302a0 PNDIS_PER_PROCESSOR_SLOT__
+   +0x2d8 DirectOidRequestHandler : 0xfffff803`07fa1e60     int  NDIS!ndisMDirectOidRequest+0
+   +0x2e0 ReceiveQueueList : _LIST_ENTRY [ 0xffff8084`c29dc7c0 - 0xffff8084`c29dc7c0 ]
+   +0x2f0 NumReceiveQueues : 0
+   +0x2f8 SharedMemoryBlockList : _LIST_ENTRY [ 0xffff8084`c29dc7d8 - 0xffff8084`c29dc7d8 ]
+   +0x308 AllocateSharedMemoryHandler : (null) 
+   +0x310 FreeSharedMemoryHandler : (null) 
+   +0x318 AllocateSharedMemoryContext : (null) 
+   +0x320 NumAllocatedVFs  : 0
+   +0x328 VFList           : _LIST_ENTRY [ 0xffff8084`c29dc808 - 0xffff8084`c29dc808 ]
+   +0x338 NumActiveVPorts  : 0
+   +0x340 VPortList        : _LIST_ENTRY [ 0xffff8084`c29dc820 - 0xffff8084`c29dc820 ]
+   +0x350 AoAcReferences   : 0
+   +0x358 Bind             : 0xffffcf02`7eb024d0 NDIS_BIND_PROTOCOL_LINK
+   +0x360 UnsolicitedUnbindComplete : _WORK_QUEUE_ITEM
+   +0x380 UnsolicitedUnbindEvent : (null) 
+   +0x388 PendingLegacyUnbind : 0
+   +0x390 WaitNetPnpEvent  : (null) 
+   +0x398 PktMonComp       : _PKTMON_COMPONENT_CONTEXT
+   +0x3d8 PktMonEdge       : _PKTMON_EDGE_CONTEXT
+   +0x400 NextAf           : (null) 
+   +0x408 MiniportCoCreateVcHandler : (null) 
+   +0x410 MiniportCoRequestHandler : (null) 
+   +0x418 CoCreateVcHandler : (null) 
+   +0x420 CoDeleteVcHandler : (null) 
+   +0x428 CmActivateVcCompleteHandler : (null) 
+   +0x430 CmDeactivateVcCompleteHandler : 0x91e6811b`fbefa27c     void  +91e6811bfbefa27c
+   +0x438 CoRequestCompleteHandler : 0x00000000`0000007d     void  +7d
+   +0x440 CoRequestHandler : 0x6f6d444e`0244c400     int  +6f6d444e0244c400
+   +0x448 ActiveVcHead     : _LIST_ENTRY [ 0xffff8084`bf235c89 - 0x00000000`04000112 ]
+   +0x458 InactiveVcHead   : _LIST_ENTRY [ 0xffff8084`c29dc930 - 0xffff8084`bf69d1a0 ]
+   +0x468 PendingAfNotifications : 0n-1028614000
+   +0x470 AfNotifyCompleteEvent : 0xffff8084`c29fec50 _KEVENT
+   +0x478 MiniportCoOidRequestHandler : (null) 
+   +0x480 CoOidRequestCompleteHandler : (null) 
+   +0x488 CoOidRequestHandler : 0xffff8084`bf94b010     int  +ffff8084bf94b010
+   +0x000 MacHandle        : 0x00000000`04000112 Void
+   +0x000 Header           : _NDIS_OBJECT_HEADER
+   +0x008 BindingHandle    : 0xffff8084`c29dc930 Void
+   +0x010 MiniportHandle   : 0xffff8084`bf69d1a0 _NDIS_MINIPORT_BLOCK
+   +0x018 ProtocolHandle   : 0xffff8084`c2b09890 _NDIS_PROTOCOL_BLOCK
+   +0x020 ProtocolBindingContext : 0xffff8084`c29fec50 Void
+   +0x028 NextSendHandler  : (null) 
+   +0x030 NextSendContext  : (null) 
+   +0x038 MiniportAdapterContext : 0xffff8084`bf94b010 Void
+   +0x040 Reserved1        : 0 ''
+   +0x041 CallingFromNdis6Protocol : 0 ''
+   +0x042 Reserved3        : 0 ''
+   +0x043 Reserved4        : 0 ''
+   +0x048 NextReturnNetBufferListsHandler : (null) 
+   +0x050 Reserved5        : 0
+   +0x058 NextReturnNetBufferListsContext : (null) 
+   +0x060 SendHandler      : 0xfffff803`0801e730     int  NDIS!ndisMSend+0
+   +0x060 WanSendHandler   : 0xfffff803`0801e730     int  NDIS!ndisMSend+0
+   +0x068 TransferDataHandler : 0xfffff803`0801eea0     int  NDIS!ndisMTransferData+0
+   +0x070 SendCompleteHandler : (null) 
+   +0x078 TransferDataCompleteHandler : (null) 
+   +0x080 ReceiveHandler   : (null) 
+   +0x088 ReceiveCompleteHandler : 0xfffff803`07fdc860     void  NDIS!ndis6DummyReceiveComplete+0
+   +0x090 WanReceiveHandler : (null) 
+   +0x098 RequestCompleteHandler : (null) 
+   +0x0a0 ReceivePacketHandler : (null) 
+   +0x0a8 SendPacketsHandler : (null) 
+   +0x0b0 ResetHandler     : 0xfffff803`07fe6470     int  NDIS!ndisMReset+0
+   +0x0b8 RequestHandler   : 0xfffff803`07fb6190     int  NDIS!ndisLegacyRequest+0
+   +0x0c0 OidRequestHandler : 0xfffff803`07f52f50     int  NDIS!ndisMOidRequest+0
+   +0x0c8 ResetCompleteHandler : (null) 
+   +0x0d0 StatusHandler    : 0xfffff803`0ac71ab0     void  mslldp!lldpProtStatus+0
+   +0x0d0 StatusHandlerEx  : 0xfffff803`0ac71ab0     void  mslldp!lldpProtStatus+0
+   +0x0d8 StatusCompleteHandler : (null) 
+   +0x0e0 OpenFlags        : 0
+   +0x0e4 References       : 0n1
+   +0x0e8 SpinLock         : 0
+   +0x0f0 FilterHandle     : (null) 
+   +0x0f8 FrameTypeArraySize : 1
+   +0x0fc FrameTypeArray   : [4] 0xcc88
+   +0x104 ProtocolOptions  : 0
+   +0x108 CurrentLookahead : 0
+   +0x110 WSendHandler     : (null) 
+   +0x118 WTransferDataHandler : (null) 
+   +0x120 WSendPacketsHandler : (null) 
+   +0x128 CancelSendPacketsHandler : 0xfffff803`09eb15b0     void  netvsc!NvscPDIndicateConfiguration+0
+   +0x130 WakeUpEnable     : 0
+   +0x134 PMCurrentParameters : _NDIS_PM_PARAMETERS
+   +0x148 CloseCompleteEvent : (null) 
+   +0x150 QC               : _NDIS_COMMON_OPEN_BLOCK::_QUEUED_CLOSE
+   +0x178 AfReferences     : 0n0
+   +0x180 NextGlobalOpen   : 0xffff8084`c29d5010 _NDIS_OPEN_BLOCK
+   +0x188 MiniportNextOpen : 0xffff8084`c29d5010 _NDIS_OPEN_BLOCK
+   +0x190 ProtocolNextOpen : (null) 
+   +0x198 BindDeviceName   : 0xffff8084`bf69e080 _UNICODE_STRING "\DEVICE\{EB5F55FA-BD2D-4AB8-ABD6-CBA5562ECDCD}"
+   +0x1a0 RootDeviceName   : 0xffff8084`bf6a7aa8 _UNICODE_STRING "\DEVICE\{EB5F55FA-BD2D-4AB8-ABD6-CBA5562ECDCD}"
+   +0x1a8 FilterNextOpen   : 0xffff8084`c29d5460 _NDIS_OPEN_BLOCK
+   +0x1b0 PacketFilters    : 0
+   +0x1b4 OldPacketFilters : 0
+   +0x1b8 MaxMulticastAddresses : 0x40
+   +0x1c0 MCastAddressBuf  : 0xffff8084`c2b15930 _ETH_MULTICAST_WRAPPER
+   +0x1c8 NumAddresses     : 0
+   +0x1d0 OldMCastAddressBuf : 0xffff8084`c2b15c50 _ETH_MULTICAST_WRAPPER
+   +0x1d8 OldNumAddresses  : 0
+   +0x1e0 RssParametersBuffer : (null) 
+   +0x1e8 NdisRSSParameters : (null) 
+   +0x1f0 PatternList      : _SINGLE_LIST_ENTRY
+   +0x1f8 WOLPatternList   : _SINGLE_LIST_ENTRY
+   +0x200 PMProtocolOffloadList : _SINGLE_LIST_ENTRY
+   +0x208 ProtSendNetBufferListsComplete : 0xfffff803`0ac73dd0     void  mslldp!lldpProtSendNetBufferListsComplete+0
+   +0x210 SendCompleteNdisPacketContext : 0xffff8084`c29fec50 Void
+   +0x218 SendCompleteNetBufferListsContext : 0xffff8084`c29fec50 Void
+   +0x220 ReceiveNetBufferLists : 0xfffff803`0ac71010     void  mslldp!lldpProtReceiveNetBufferLists+0
+   +0x228 ReceiveNetBufferListsContext : 0xffff8084`c29fec50 Void
+   +0x230 SavedSendPacketsHandler : (null) 
+   +0x238 SavedCancelSendPacketsHandler : 0xfffff803`09eb15b0     void  netvsc!NvscPDIndicateConfiguration+0
+   +0x240 SavedSendHandler : 0xfffff803`0801e730     int  NDIS!ndisMSend+0
+   +0x248 NblTracker       : 0xffff8084`c29eef71 NDIS_NBL_TRACKER_HANDLE__
+   +0x250 RefCountTracker  : 0xffff8084`c24597e0 NDIS_REFCOUNT_HANDLE__
+   +0x258 RefCountLock     : 0
+   +0x260 ProtocolMajorVersion : 6
+   +0x268 IfBlock          : (null) 
+   +0x270 PnPStateLock     : _NDIS_SPIN_LOCK
+   +0x280 PnPState         : 0 ( Ndis5StateUnused )
+   +0x284 OutstandingSends : 0n0
+   +0x288 PauseEvent       : _NDIS_EVENT
+   +0x2a0 Ndis5WanSendHandler : (null) 
+   +0x2a8 ProtSendCompleteHandler : (null) 
+   +0x2b0 OidRequestCompleteHandler : 0xfffff803`07fad6e0     void  NDIS!ndisInvokeOidRequestComplete+0
+   +0x2b8 Offload          : (null) 
+   +0x2c0 StatusUnbindWorkItem : (null) 
+   +0x2c8 DpcStartCycle    : 0
+   +0x2d0 ReceivedAPacketSlot : 0xffffa501`9d730288 PNDIS_PER_PROCESSOR_SLOT__
+   +0x2d8 DirectOidRequestHandler : 0xfffff803`07fa1e60     int  NDIS!ndisMDirectOidRequest+0
+   +0x2e0 ReceiveQueueList : _LIST_ENTRY [ 0xffff8084`c29dcc10 - 0xffff8084`c29dcc10 ]
+   +0x2f0 NumReceiveQueues : 0
+   +0x2f8 SharedMemoryBlockList : _LIST_ENTRY [ 0xffff8084`c29dcc28 - 0xffff8084`c29dcc28 ]
+   +0x308 AllocateSharedMemoryHandler : (null) 
+   +0x310 FreeSharedMemoryHandler : (null) 
+   +0x318 AllocateSharedMemoryContext : (null) 
+   +0x320 NumAllocatedVFs  : 0
+   +0x328 VFList           : _LIST_ENTRY [ 0xffff8084`c29dcc58 - 0xffff8084`c29dcc58 ]
+   +0x338 NumActiveVPorts  : 0
+   +0x340 VPortList        : _LIST_ENTRY [ 0xffff8084`c29dcc70 - 0xffff8084`c29dcc70 ]
+   +0x350 AoAcReferences   : 0
+   +0x358 Bind             : 0xffffcf02`7eb02f50 NDIS_BIND_PROTOCOL_LINK
+   +0x360 UnsolicitedUnbindComplete : _WORK_QUEUE_ITEM
+   +0x380 UnsolicitedUnbindEvent : (null) 
+   +0x388 PendingLegacyUnbind : 0
+   +0x390 WaitNetPnpEvent  : (null) 
+   +0x398 PktMonComp       : _PKTMON_COMPONENT_CONTEXT
+   +0x3d8 PktMonEdge       : _PKTMON_EDGE_CONTEXT
+   +0x400 NextAf           : (null) 
+   +0x408 MiniportCoCreateVcHandler : (null) 
+   +0x410 MiniportCoRequestHandler : (null) 
+   +0x418 CoCreateVcHandler : (null) 
+   +0x420 CoDeleteVcHandler : (null) 
+   +0x428 CmActivateVcCompleteHandler : (null) 
+   +0x430 CmDeactivateVcCompleteHandler : 0x91e6811b`fb8ca60c     void  +91e6811bfb8ca60c
+   +0x438 CoRequestCompleteHandler : 0xffff8084`0000000d     void  +ffff80840000000d
+   +0x440 CoRequestHandler : 0x43504c41`0225ad00     int  +43504c410225ad00
+   +0x448 ActiveVcHead     : _LIST_ENTRY [ 0xffff8084`bf657829 - 0x00000260`00000000 ]
+   +0x458 InactiveVcHead   : _LIST_ENTRY [ 0x00000000`00000000 - 0x00000000`00000000 ]
+   +0x468 PendingAfNotifications : 0n0
+   +0x470 AfNotifyCompleteEvent : 0xffff8084`c0f73080 _KEVENT
+   +0x478 MiniportCoOidRequestHandler : 0x00000000`00000001     int  +1
+   +0x480 CoOidRequestCompleteHandler : 0x00000000`00007fce     void  +7fce
+   +0x488 CoOidRequestHandler : 0x00000000`00000001     int  +1
+   +0x000 MacHandle        : 0x00000000`04000112 Void
+   +0x000 Header           : _NDIS_OBJECT_HEADER
+   +0x008 BindingHandle    : 0xffff8084`c29d5010 Void
+   +0x010 MiniportHandle   : 0xffff8084`bf69d1a0 _NDIS_MINIPORT_BLOCK
+   +0x018 ProtocolHandle   : 0xffff8084`c2b073f0 _NDIS_PROTOCOL_BLOCK
+   +0x020 ProtocolBindingContext : 0xffff8084`c2b15010 Void
+   +0x028 NextSendHandler  : (null) 
+   +0x030 NextSendContext  : (null) 
+   +0x038 MiniportAdapterContext : 0xffff8084`bf94b010 Void
+   +0x040 Reserved1        : 0 ''
+   +0x041 CallingFromNdis6Protocol : 0 ''
+   +0x042 Reserved3        : 0 ''
+   +0x043 Reserved4        : 0 ''
+   +0x048 NextReturnNetBufferListsHandler : (null) 
+   +0x050 Reserved5        : 0
+   +0x058 NextReturnNetBufferListsContext : (null) 
+   +0x060 SendHandler      : 0xfffff803`0801e730     int  NDIS!ndisMSend+0
+   +0x060 WanSendHandler   : 0xfffff803`0801e730     int  NDIS!ndisMSend+0
+   +0x068 TransferDataHandler : 0xfffff803`0801eea0     int  NDIS!ndisMTransferData+0
+   +0x070 SendCompleteHandler : (null) 
+   +0x078 TransferDataCompleteHandler : (null) 
+   +0x080 ReceiveHandler   : (null) 
+   +0x088 ReceiveCompleteHandler : 0xfffff803`07fdc860     void  NDIS!ndis6DummyReceiveComplete+0
+   +0x090 WanReceiveHandler : (null) 
+   +0x098 RequestCompleteHandler : (null) 
+   +0x0a0 ReceivePacketHandler : (null) 
+   +0x0a8 SendPacketsHandler : (null) 
+   +0x0b0 ResetHandler     : 0xfffff803`07fe6470     int  NDIS!ndisMReset+0
+   +0x0b8 RequestHandler   : 0xfffff803`07fb6190     int  NDIS!ndisLegacyRequest+0
+   +0x0c0 OidRequestHandler : 0xfffff803`07f52f50     int  NDIS!ndisMOidRequest+0
+   +0x0c8 ResetCompleteHandler : (null) 
+   +0x0d0 StatusHandler    : 0xfffff803`0ac51530     void  lltdio!ToppStatusHandlerEx+0
+   +0x0d0 StatusHandlerEx  : 0xfffff803`0ac51530     void  lltdio!ToppStatusHandlerEx+0
+   +0x0d8 StatusCompleteHandler : (null) 
+   +0x0e0 OpenFlags        : 0
+   +0x0e4 References       : 0n1
+   +0x0e8 SpinLock         : 0
+   +0x0f0 FilterHandle     : (null) 
+   +0x0f8 FrameTypeArraySize : 0
+   +0x0fc FrameTypeArray   : [4] 0
+   +0x104 ProtocolOptions  : 0
+   +0x108 CurrentLookahead : 0
+   +0x110 WSendHandler     : (null) 
+   +0x118 WTransferDataHandler : (null) 
+   +0x120 WSendPacketsHandler : (null) 
+   +0x128 CancelSendPacketsHandler : 0xfffff803`09eb15b0     void  netvsc!NvscPDIndicateConfiguration+0
+   +0x130 WakeUpEnable     : 0
+   +0x134 PMCurrentParameters : _NDIS_PM_PARAMETERS
+   +0x148 CloseCompleteEvent : (null) 
+   +0x150 QC               : _NDIS_COMMON_OPEN_BLOCK::_QUEUED_CLOSE
+   +0x178 AfReferences     : 0n0
+   +0x180 NextGlobalOpen   : 0xffff8084`c29d5460 _NDIS_OPEN_BLOCK
+   +0x188 MiniportNextOpen : 0xffff8084`c29d5460 _NDIS_OPEN_BLOCK
+   +0x190 ProtocolNextOpen : (null) 
+   +0x198 BindDeviceName   : 0xffff8084`bf69e080 _UNICODE_STRING "\DEVICE\{EB5F55FA-BD2D-4AB8-ABD6-CBA5562ECDCD}"
+   +0x1a0 RootDeviceName   : 0xffff8084`bf6a7aa8 _UNICODE_STRING "\DEVICE\{EB5F55FA-BD2D-4AB8-ABD6-CBA5562ECDCD}"
+   +0x1a8 FilterNextOpen   : (null) 
+   +0x1b0 PacketFilters    : 0
+   +0x1b4 OldPacketFilters : 0
+   +0x1b8 MaxMulticastAddresses : 0x40
+   +0x1c0 MCastAddressBuf  : 0xffff8084`c2b152f0 _ETH_MULTICAST_WRAPPER
+   +0x1c8 NumAddresses     : 0
+   +0x1d0 OldMCastAddressBuf : 0xffff8084`c2b15610 _ETH_MULTICAST_WRAPPER
+   +0x1d8 OldNumAddresses  : 0
+   +0x1e0 RssParametersBuffer : (null) 
+   +0x1e8 NdisRSSParameters : (null) 
+   +0x1f0 PatternList      : _SINGLE_LIST_ENTRY
+   +0x1f8 WOLPatternList   : _SINGLE_LIST_ENTRY
+   +0x200 PMProtocolOffloadList : _SINGLE_LIST_ENTRY
+   +0x208 ProtSendNetBufferListsComplete : 0xfffff803`0ac543d0     void  lltdio!ToppSendNetBufferListsCompleteHandler+0
+   +0x210 SendCompleteNdisPacketContext : 0xffff8084`c2b15010 Void
+   +0x218 SendCompleteNetBufferListsContext : 0xffff8084`c2b15010 Void
+   +0x220 ReceiveNetBufferLists : 0xfffff803`0ac51010     void  lltdio!ToppReceiveNetBufferListHandler+0
+   +0x228 ReceiveNetBufferListsContext : 0xffff8084`c2b15010 Void
+   +0x230 SavedSendPacketsHandler : (null) 
+   +0x238 SavedCancelSendPacketsHandler : 0xfffff803`09eb15b0     void  netvsc!NvscPDIndicateConfiguration+0
+   +0x240 SavedSendHandler : 0xfffff803`0801e730     int  NDIS!ndisMSend+0
+   +0x248 NblTracker       : 0xffff8084`c29edd71 NDIS_NBL_TRACKER_HANDLE__
+   +0x250 RefCountTracker  : 0xffff8084`c2459bd0 NDIS_REFCOUNT_HANDLE__
+   +0x258 RefCountLock     : 0
+   +0x260 ProtocolMajorVersion : 6
+   +0x268 IfBlock          : (null) 
+   +0x270 PnPStateLock     : _NDIS_SPIN_LOCK
+   +0x280 PnPState         : 0 ( Ndis5StateUnused )
+   +0x284 OutstandingSends : 0n0
+   +0x288 PauseEvent       : _NDIS_EVENT
+   +0x2a0 Ndis5WanSendHandler : (null) 
+   +0x2a8 ProtSendCompleteHandler : (null) 
+   +0x2b0 OidRequestCompleteHandler : 0xfffff803`07fad6e0     void  NDIS!ndisInvokeOidRequestComplete+0
+   +0x2b8 Offload          : (null) 
+   +0x2c0 StatusUnbindWorkItem : (null) 
+   +0x2c8 DpcStartCycle    : 0
+   +0x2d0 ReceivedAPacketSlot : 0xffffa501`9d730240 PNDIS_PER_PROCESSOR_SLOT__
+   +0x2d8 DirectOidRequestHandler : 0xfffff803`07fa1e60     int  NDIS!ndisMDirectOidRequest+0
+   +0x2e0 ReceiveQueueList : _LIST_ENTRY [ 0xffff8084`c29d52f0 - 0xffff8084`c29d52f0 ]
+   +0x2f0 NumReceiveQueues : 0
+   +0x2f8 SharedMemoryBlockList : _LIST_ENTRY [ 0xffff8084`c29d5308 - 0xffff8084`c29d5308 ]
+   +0x308 AllocateSharedMemoryHandler : (null) 
+   +0x310 FreeSharedMemoryHandler : (null) 
+   +0x318 AllocateSharedMemoryContext : (null) 
+   +0x320 NumAllocatedVFs  : 0
+   +0x328 VFList           : _LIST_ENTRY [ 0xffff8084`c29d5338 - 0xffff8084`c29d5338 ]
+   +0x338 NumActiveVPorts  : 0
+   +0x340 VPortList        : _LIST_ENTRY [ 0xffff8084`c29d5350 - 0xffff8084`c29d5350 ]
+   +0x350 AoAcReferences   : 0
+   +0x358 Bind             : 0xffffcf02`7eb02bd0 NDIS_BIND_PROTOCOL_LINK
+   +0x360 UnsolicitedUnbindComplete : _WORK_QUEUE_ITEM
+   +0x380 UnsolicitedUnbindEvent : (null) 
+   +0x388 PendingLegacyUnbind : 0
+   +0x390 WaitNetPnpEvent  : (null) 
+   +0x398 PktMonComp       : _PKTMON_COMPONENT_CONTEXT
+   +0x3d8 PktMonEdge       : _PKTMON_EDGE_CONTEXT
+   +0x400 NextAf           : (null) 
+   +0x408 MiniportCoCreateVcHandler : (null) 
+   +0x410 MiniportCoRequestHandler : (null) 
+   +0x418 CoCreateVcHandler : (null) 
+   +0x420 CoDeleteVcHandler : (null) 
+   +0x428 CmActivateVcCompleteHandler : (null) 
+   +0x430 CmDeactivateVcCompleteHandler : 0x91e68118`fbef3f2c     void  +91e68118fbef3f2c
+   +0x438 CoRequestCompleteHandler : 0x00000000`00000027     void  +27
+   +0x440 CoRequestHandler : 0x6f6d444e`02445000     int  +6f6d444e02445000
+   +0x448 ActiveVcHead     : _LIST_ENTRY [ 0xffff8084`bf235c89 - 0x00000000`04000112 ]
+   +0x458 InactiveVcHead   : _LIST_ENTRY [ 0xffff8084`c29d5460 - 0xffff8084`bf69d1a0 ]
+   +0x468 PendingAfNotifications : 0n-1028606992
+   +0x470 AfNotifyCompleteEvent : 0xffff8084`c2b14010 _KEVENT
+   +0x478 MiniportCoOidRequestHandler : (null) 
+   +0x480 CoOidRequestCompleteHandler : (null) 
+   +0x488 CoOidRequestHandler : 0xffff8084`bf94b010     int  +ffff8084bf94b010
+   +0x000 MacHandle        : 0x00000000`04000112 Void
+   +0x000 Header           : _NDIS_OBJECT_HEADER
+   +0x008 BindingHandle    : 0xffff8084`c29d5460 Void
+   +0x010 MiniportHandle   : 0xffff8084`bf69d1a0 _NDIS_MINIPORT_BLOCK
+   +0x018 ProtocolHandle   : 0xffff8084`c2b0b3f0 _NDIS_PROTOCOL_BLOCK
+   +0x020 ProtocolBindingContext : 0xffff8084`c2b14010 Void
+   +0x028 NextSendHandler  : (null) 
+   +0x030 NextSendContext  : (null) 
+   +0x038 MiniportAdapterContext : 0xffff8084`bf94b010 Void
+   +0x040 Reserved1        : 0 ''
+   +0x041 CallingFromNdis6Protocol : 0 ''
+   +0x042 Reserved3        : 0 ''
+   +0x043 Reserved4        : 0 ''
+   +0x048 NextReturnNetBufferListsHandler : (null) 
+   +0x050 Reserved5        : 0
+   +0x058 NextReturnNetBufferListsContext : (null) 
+   +0x060 SendHandler      : 0xfffff803`0801e730     int  NDIS!ndisMSend+0
+   +0x060 WanSendHandler   : 0xfffff803`0801e730     int  NDIS!ndisMSend+0
+   +0x068 TransferDataHandler : 0xfffff803`0801eea0     int  NDIS!ndisMTransferData+0
+   +0x070 SendCompleteHandler : (null) 
+   +0x078 TransferDataCompleteHandler : (null) 
+   +0x080 ReceiveHandler   : (null) 
+   +0x088 ReceiveCompleteHandler : 0xfffff803`07fdc860     void  NDIS!ndis6DummyReceiveComplete+0
+   +0x090 WanReceiveHandler : (null) 
+   +0x098 RequestCompleteHandler : (null) 
+   +0x0a0 ReceivePacketHandler : (null) 
+   +0x0a8 SendPacketsHandler : (null) 
+   +0x0b0 ResetHandler     : 0xfffff803`07fe6470     int  NDIS!ndisMReset+0
+   +0x0b8 RequestHandler   : 0xfffff803`07fb6190     int  NDIS!ndisLegacyRequest+0
+   +0x0c0 OidRequestHandler : 0xfffff803`07f52f50     int  NDIS!ndisMOidRequest+0
+   +0x0c8 ResetCompleteHandler : (null) 
+   +0x0d0 StatusHandler    : 0xfffff803`0ac91560     void  rspndr!ToppStatusHandlerEx+0
+   +0x0d0 StatusHandlerEx  : 0xfffff803`0ac91560     void  rspndr!ToppStatusHandlerEx+0
+   +0x0d8 StatusCompleteHandler : (null) 
+   +0x0e0 OpenFlags        : 0
+   +0x0e4 References       : 0n1
+   +0x0e8 SpinLock         : 0
+   +0x0f0 FilterHandle     : (null) 
+   +0x0f8 FrameTypeArraySize : 2
+   +0x0fc FrameTypeArray   : [4] 0xd988
+   +0x104 ProtocolOptions  : 0
+   +0x108 CurrentLookahead : 0
+   +0x110 WSendHandler     : (null) 
+   +0x118 WTransferDataHandler : (null) 
+   +0x120 WSendPacketsHandler : (null) 
+   +0x128 CancelSendPacketsHandler : 0xfffff803`09eb15b0     void  netvsc!NvscPDIndicateConfiguration+0
+   +0x130 WakeUpEnable     : 0
+   +0x134 PMCurrentParameters : _NDIS_PM_PARAMETERS
+   +0x148 CloseCompleteEvent : (null) 
+   +0x150 QC               : _NDIS_COMMON_OPEN_BLOCK::_QUEUED_CLOSE
+   +0x178 AfReferences     : 0n0
+   +0x180 NextGlobalOpen   : 0xffff8084`c04e2010 _NDIS_OPEN_BLOCK
+   +0x188 MiniportNextOpen : 0xffff8084`c0502b20 _NDIS_OPEN_BLOCK
+   +0x190 ProtocolNextOpen : (null) 
+   +0x198 BindDeviceName   : 0xffff8084`bf69e080 _UNICODE_STRING "\DEVICE\{EB5F55FA-BD2D-4AB8-ABD6-CBA5562ECDCD}"
+   +0x1a0 RootDeviceName   : 0xffff8084`bf6a7aa8 _UNICODE_STRING "\DEVICE\{EB5F55FA-BD2D-4AB8-ABD6-CBA5562ECDCD}"
+   +0x1a8 FilterNextOpen   : 0xffff8084`c0502b20 _NDIS_OPEN_BLOCK
+   +0x1b0 PacketFilters    : 9
+   +0x1b4 OldPacketFilters : 0
+   +0x1b8 MaxMulticastAddresses : 0x40
+   +0x1c0 MCastAddressBuf  : 0xffff8084`c2b149a0 _ETH_MULTICAST_WRAPPER
+   +0x1c8 NumAddresses     : 0
+   +0x1d0 OldMCastAddressBuf : 0xffff8084`c2b14cc0 _ETH_MULTICAST_WRAPPER
+   +0x1d8 OldNumAddresses  : 0
+   +0x1e0 RssParametersBuffer : (null) 
+   +0x1e8 NdisRSSParameters : (null) 
+   +0x1f0 PatternList      : _SINGLE_LIST_ENTRY
+   +0x1f8 WOLPatternList   : _SINGLE_LIST_ENTRY
+   +0x200 PMProtocolOffloadList : _SINGLE_LIST_ENTRY
+   +0x208 ProtSendNetBufferListsComplete : 0xfffff803`0ac95f20     void  rspndr!ToppSendNetBufferListsCompleteHandler+0
+   +0x210 SendCompleteNdisPacketContext : 0xffff8084`c2b14010 Void
+   +0x218 SendCompleteNetBufferListsContext : 0xffff8084`c2b14010 Void
+   +0x220 ReceiveNetBufferLists : 0xfffff803`0ac91010     void  rspndr!ToppReceiveNetBufferListHandler+0
+   +0x228 ReceiveNetBufferListsContext : 0xffff8084`c2b14010 Void
+   +0x230 SavedSendPacketsHandler : (null) 
+   +0x238 SavedCancelSendPacketsHandler : 0xfffff803`09eb15b0     void  netvsc!NvscPDIndicateConfiguration+0
+   +0x240 SavedSendHandler : 0xfffff803`0801e730     int  NDIS!ndisMSend+0
+   +0x248 NblTracker       : 0xffff8084`c29ede31 NDIS_NBL_TRACKER_HANDLE__
+   +0x250 RefCountTracker  : 0xffff8084`c2459600 NDIS_REFCOUNT_HANDLE__
+   +0x258 RefCountLock     : 0
+   +0x260 ProtocolMajorVersion : 6
+   +0x268 IfBlock          : (null) 
+   +0x270 PnPStateLock     : _NDIS_SPIN_LOCK
+   +0x280 PnPState         : 0 ( Ndis5StateUnused )
+   +0x284 OutstandingSends : 0n0
+   +0x288 PauseEvent       : _NDIS_EVENT
+   +0x2a0 Ndis5WanSendHandler : (null) 
+   +0x2a8 ProtSendCompleteHandler : (null) 
+   +0x2b0 OidRequestCompleteHandler : 0xfffff803`07fad6e0     void  NDIS!ndisInvokeOidRequestComplete+0
+   +0x2b8 Offload          : (null) 
+   +0x2c0 StatusUnbindWorkItem : (null) 
+   +0x2c8 DpcStartCycle    : 0
+   +0x2d0 ReceivedAPacketSlot : 0xffffa501`9d730228 PNDIS_PER_PROCESSOR_SLOT__
+   +0x2d8 DirectOidRequestHandler : 0xfffff803`07fa1e60     int  NDIS!ndisMDirectOidRequest+0
+   +0x2e0 ReceiveQueueList : _LIST_ENTRY [ 0xffff8084`c29d5740 - 0xffff8084`c29d5740 ]
+   +0x2f0 NumReceiveQueues : 0
+   +0x2f8 SharedMemoryBlockList : _LIST_ENTRY [ 0xffff8084`c29d5758 - 0xffff8084`c29d5758 ]
+   +0x308 AllocateSharedMemoryHandler : (null) 
+   +0x310 FreeSharedMemoryHandler : (null) 
+   +0x318 AllocateSharedMemoryContext : (null) 
+   +0x320 NumAllocatedVFs  : 0
+   +0x328 VFList           : _LIST_ENTRY [ 0xffff8084`c29d5788 - 0xffff8084`c29d5788 ]
+   +0x338 NumActiveVPorts  : 0
+   +0x340 VPortList        : _LIST_ENTRY [ 0xffff8084`c29d57a0 - 0xffff8084`c29d57a0 ]
+   +0x350 AoAcReferences   : 0
+   +0x358 Bind             : 0xffffcf02`7eb029a0 NDIS_BIND_PROTOCOL_LINK
+   +0x360 UnsolicitedUnbindComplete : _WORK_QUEUE_ITEM
+   +0x380 UnsolicitedUnbindEvent : (null) 
+   +0x388 PendingLegacyUnbind : 0
+   +0x390 WaitNetPnpEvent  : (null) 
+   +0x398 PktMonComp       : _PKTMON_COMPONENT_CONTEXT
+   +0x3d8 PktMonEdge       : _PKTMON_EDGE_CONTEXT
+   +0x400 NextAf           : (null) 
+   +0x408 MiniportCoCreateVcHandler : (null) 
+   +0x410 MiniportCoRequestHandler : (null) 
+   +0x418 CoCreateVcHandler : (null) 
+   +0x420 CoDeleteVcHandler : (null) 
+   +0x428 CmActivateVcCompleteHandler : (null) 
+   +0x430 CmDeactivateVcCompleteHandler : 0x91e6811b`fbef33fc     void  +91e6811bfbef33fc
+   +0x438 CoRequestCompleteHandler : 0x00000000`000000f7     void  +f7
+   +0x440 CoRequestHandler : 0x6e694c52`02445400     int  +6e694c5202445400
+   +0x448 ActiveVcHead     : _LIST_ENTRY [ 0xffff8084`bf235c89 - 0x00000000`00000000 ]
+   +0x458 InactiveVcHead   : _LIST_ENTRY [ 0x00000000`00000000 - 0x00000000`00000000 ]
+   +0x468 PendingAfNotifications : 0n65535
+   +0x470 AfNotifyCompleteEvent : (null) 
+   +0x478 MiniportCoOidRequestHandler : (null) 
+   +0x480 CoOidRequestCompleteHandler : (null) 
+   +0x488 CoOidRequestHandler : (null) 
+   +0x000 MacHandle        : 0x00000000`04000112 Void
+   +0x000 Header           : _NDIS_OBJECT_HEADER
+   +0x008 BindingHandle    : 0xffff8084`c04e2010 Void
+   +0x010 MiniportHandle   : 0xffff8084`bf69f1a0 _NDIS_MINIPORT_BLOCK
+   +0x018 ProtocolHandle   : 0xffff8084`bf0a5b80 _NDIS_PROTOCOL_BLOCK
+   +0x020 ProtocolBindingContext : 0xffff8084`bfa7a050 Void
+   +0x028 NextSendHandler  : (null) 
+   +0x030 NextSendContext  : (null) 
+   +0x038 MiniportAdapterContext : 0xffff8084`bf94f010 Void
+   +0x040 Reserved1        : 0 ''
+   +0x041 CallingFromNdis6Protocol : 0 ''
+   +0x042 Reserved3        : 0 ''
+   +0x043 Reserved4        : 0 ''
+   +0x048 NextReturnNetBufferListsHandler : (null) 
+   +0x050 Reserved5        : 0
+   +0x058 NextReturnNetBufferListsContext : (null) 
+   +0x060 SendHandler      : 0xfffff803`07fcd8a0     int  NDIS!ndisMFakeSend+0
+   +0x060 WanSendHandler   : 0xfffff803`07fcd8a0     int  NDIS!ndisMFakeSend+0
+   +0x068 TransferDataHandler : 0xfffff803`0801eea0     int  NDIS!ndisMTransferData+0
+   +0x070 SendCompleteHandler : (null) 
+   +0x078 TransferDataCompleteHandler : (null) 
+   +0x080 ReceiveHandler   : (null) 
+   +0x088 ReceiveCompleteHandler : 0xfffff803`07fdc860     void  NDIS!ndis6DummyReceiveComplete+0
+   +0x090 WanReceiveHandler : (null) 
+   +0x098 RequestCompleteHandler : (null) 
+   +0x0a0 ReceivePacketHandler : (null) 
+   +0x0a8 SendPacketsHandler : 0xfffff803`07fe52b0     void  NDIS!ndisMFakeSendPackets+0
+   +0x0b0 ResetHandler     : 0xfffff803`07fe51d0     int  NDIS!ndisMFakeReset+0
+   +0x0b8 RequestHandler   : 0xfffff803`07fb6190     int  NDIS!ndisLegacyRequest+0
+   +0x0c0 OidRequestHandler : 0xfffff803`07f52f50     int  NDIS!ndisMOidRequest+0
+   +0x0c8 ResetCompleteHandler : (null) 
+   +0x0d0 StatusHandler    : 0xfffff803`089c73d0     void  tcpip!FlStatus+0
+   +0x0d0 StatusHandlerEx  : 0xfffff803`089c73d0     void  tcpip!FlStatus+0
+   +0x0d8 StatusCompleteHandler : (null) 
+   +0x0e0 OpenFlags        : 0x1000000
+   +0x0e4 References       : 0n1
+   +0x0e8 SpinLock         : 0
+   +0x0f0 FilterHandle     : (null) 
+   +0x0f8 FrameTypeArraySize : 2
+   +0x0fc FrameTypeArray   : [4] 8
+   +0x104 ProtocolOptions  : 0
+   +0x108 CurrentLookahead : 0x3c
+   +0x110 WSendHandler     : (null) 
+   +0x118 WTransferDataHandler : (null) 
+   +0x120 WSendPacketsHandler : (null) 
+   +0x128 CancelSendPacketsHandler : (null) 
+   +0x130 WakeUpEnable     : 0
+   +0x134 PMCurrentParameters : _NDIS_PM_PARAMETERS
+   +0x148 CloseCompleteEvent : (null) 
+   +0x150 QC               : _NDIS_COMMON_OPEN_BLOCK::_QUEUED_CLOSE
+   +0x178 AfReferences     : 0n0
+   +0x180 NextGlobalOpen   : 0xffff8084`c0502b20 _NDIS_OPEN_BLOCK
+   +0x188 MiniportNextOpen : 0xffff8084`c04e5ab0 _NDIS_OPEN_BLOCK
+   +0x190 ProtocolNextOpen : 0xffff8084`c0502b20 _NDIS_OPEN_BLOCK
+   +0x198 BindDeviceName   : 0xffff8084`bf6a0080 _UNICODE_STRING "\DEVICE\{AAF79E81-F0B3-424D-8974-27FCEB50ADF5}"
+   +0x1a0 RootDeviceName   : 0xffff8084`bf6a76e8 _UNICODE_STRING "\DEVICE\{AAF79E81-F0B3-424D-8974-27FCEB50ADF5}"
+   +0x1a8 FilterNextOpen   : 0xffff8084`c04e5ab0 _NDIS_OPEN_BLOCK
+   +0x1b0 PacketFilters    : 0xb
+   +0x1b4 OldPacketFilters : 0
+   +0x1b8 MaxMulticastAddresses : 0x40
+   +0x1c0 MCastAddressBuf  : 0xffff8084`bf94ba20 _ETH_MULTICAST_WRAPPER
+   +0x1c8 NumAddresses     : 1
+   +0x1d0 OldMCastAddressBuf : 0xffff8084`c04dc620 _ETH_MULTICAST_WRAPPER
+   +0x1d8 OldNumAddresses  : 0
+   +0x1e0 RssParametersBuffer : (null) 
+   +0x1e8 NdisRSSParameters : (null) 
+   +0x1f0 PatternList      : _SINGLE_LIST_ENTRY
+   +0x1f8 WOLPatternList   : _SINGLE_LIST_ENTRY
+   +0x200 PMProtocolOffloadList : _SINGLE_LIST_ENTRY
+   +0x208 ProtSendNetBufferListsComplete : 0xfffff803`08a2cc80     void  tcpip!FlSendNetBufferListChainComplete+0
+   +0x210 SendCompleteNdisPacketContext : 0xffff8084`bfa7a050 Void
+   +0x218 SendCompleteNetBufferListsContext : 0xffff8084`bfa7a050 Void
+   +0x220 ReceiveNetBufferLists : 0xfffff803`089ec9d0     void  tcpip!FlReceiveNetBufferListChain+0
+   +0x228 ReceiveNetBufferListsContext : 0xffff8084`bfa7a050 Void
+   +0x230 SavedSendPacketsHandler : (null) 
+   +0x238 SavedCancelSendPacketsHandler : 0xfffff803`09eb15b0     void  netvsc!NvscPDIndicateConfiguration+0
+   +0x240 SavedSendHandler : 0xfffff803`0801e730     int  NDIS!ndisMSend+0
+   +0x248 NblTracker       : 0xffff8084`bf7051f1 NDIS_NBL_TRACKER_HANDLE__
+   +0x250 RefCountTracker  : 0xffff8084`bf647240 NDIS_REFCOUNT_HANDLE__
+   +0x258 RefCountLock     : 0
+   +0x260 ProtocolMajorVersion : 6
+   +0x268 IfBlock          : (null) 
+   +0x270 PnPStateLock     : _NDIS_SPIN_LOCK
+   +0x280 PnPState         : 0 ( Ndis5StateUnused )
+   +0x284 OutstandingSends : 0n0
+   +0x288 PauseEvent       : _NDIS_EVENT
+   +0x2a0 Ndis5WanSendHandler : (null) 
+   +0x2a8 ProtSendCompleteHandler : (null) 
+   +0x2b0 OidRequestCompleteHandler : 0xfffff803`07fad6e0     void  NDIS!ndisInvokeOidRequestComplete+0
+   +0x2b8 Offload          : 0xffff8084`bf620f90 _NDIS_OPEN_OFFLOAD
+   +0x2c0 StatusUnbindWorkItem : (null) 
+   +0x2c8 DpcStartCycle    : 0
+   +0x2d0 ReceivedAPacketSlot : 0xffffa501`9d730210 PNDIS_PER_PROCESSOR_SLOT__
+   +0x2d8 DirectOidRequestHandler : 0xfffff803`07fa1e60     int  NDIS!ndisMDirectOidRequest+0
+   +0x2e0 ReceiveQueueList : _LIST_ENTRY [ 0xffff8084`c04e22f0 - 0xffff8084`c04e22f0 ]
+   +0x2f0 NumReceiveQueues : 0
+   +0x2f8 SharedMemoryBlockList : _LIST_ENTRY [ 0xffff8084`c04e2308 - 0xffff8084`c04e2308 ]
+   +0x308 AllocateSharedMemoryHandler : (null) 
+   +0x310 FreeSharedMemoryHandler : (null) 
+   +0x318 AllocateSharedMemoryContext : (null) 
+   +0x320 NumAllocatedVFs  : 0
+   +0x328 VFList           : _LIST_ENTRY [ 0xffff8084`c04e2338 - 0xffff8084`c04e2338 ]
+   +0x338 NumActiveVPorts  : 0
+   +0x340 VPortList        : _LIST_ENTRY [ 0xffff8084`c04e2350 - 0xffff8084`c04e2350 ]
+   +0x350 AoAcReferences   : 0
+   +0x358 Bind             : 0xffffcf02`7eb030a0 NDIS_BIND_PROTOCOL_LINK
+   +0x360 UnsolicitedUnbindComplete : _WORK_QUEUE_ITEM
+   +0x380 UnsolicitedUnbindEvent : (null) 
+   +0x388 PendingLegacyUnbind : 0
+   +0x390 WaitNetPnpEvent  : (null) 
+   +0x398 PktMonComp       : _PKTMON_COMPONENT_CONTEXT
+   +0x3d8 PktMonEdge       : _PKTMON_EDGE_CONTEXT
+   +0x400 NextAf           : (null) 
+   +0x408 MiniportCoCreateVcHandler : (null) 
+   +0x410 MiniportCoRequestHandler : (null) 
+   +0x418 CoCreateVcHandler : (null) 
+   +0x420 CoDeleteVcHandler : (null) 
+   +0x428 CmActivateVcCompleteHandler : (null) 
+   +0x430 CmDeactivateVcCompleteHandler : 0x91e68118`f95e4f2c     void  +91e68118f95e4f2c
+   +0x438 CoRequestCompleteHandler : 0x00000000`00000024     void  +24
+   +0x440 CoRequestHandler : 0x6e6e6e4e`02260000     int  +6e6e6e4e02260000
+   +0x448 ActiveVcHead     : _LIST_ENTRY [ 0xffff8084`c04e2fe9 - 0xffff8084`bdeb1b40 ]
+   +0x458 InactiveVcHead   : _LIST_ENTRY [ 0xffff8084`bdeb1b50 - 0xffff8084`c0503658 ]
+   +0x468 PendingAfNotifications : 0n0
+   +0x470 AfNotifyCompleteEvent : (null) 
+   +0x478 MiniportCoOidRequestHandler : 0xffff8084`c04e2600     int  +ffff8084c04e2600
+   +0x480 CoOidRequestCompleteHandler : (null) 
+   +0x488 CoOidRequestHandler : (null) 
+   +0x000 MacHandle        : 0x00000000`04000112 Void
+   +0x000 Header           : _NDIS_OBJECT_HEADER
+   +0x008 BindingHandle    : 0xffff8084`c0502b20 Void
+   +0x010 MiniportHandle   : 0xffff8084`bf69d1a0 _NDIS_MINIPORT_BLOCK
+   +0x018 ProtocolHandle   : 0xffff8084`bf0a5b80 _NDIS_PROTOCOL_BLOCK
+   +0x020 ProtocolBindingContext : 0xffff8084`c04e9010 Void
+   +0x028 NextSendHandler  : (null) 
+   +0x030 NextSendContext  : (null) 
+   +0x038 MiniportAdapterContext : 0xffff8084`bf94b010 Void
+   +0x040 Reserved1        : 0 ''
+   +0x041 CallingFromNdis6Protocol : 0 ''
+   +0x042 Reserved3        : 0 ''
+   +0x043 Reserved4        : 0 ''
+   +0x048 NextReturnNetBufferListsHandler : (null) 
+   +0x050 Reserved5        : 0
+   +0x058 NextReturnNetBufferListsContext : (null) 
+   +0x060 SendHandler      : 0xfffff803`0801e730     int  NDIS!ndisMSend+0
+   +0x060 WanSendHandler   : 0xfffff803`0801e730     int  NDIS!ndisMSend+0
+   +0x068 TransferDataHandler : 0xfffff803`0801eea0     int  NDIS!ndisMTransferData+0
+   +0x070 SendCompleteHandler : (null) 
+   +0x078 TransferDataCompleteHandler : (null) 
+   +0x080 ReceiveHandler   : (null) 
+   +0x088 ReceiveCompleteHandler : 0xfffff803`07fdc860     void  NDIS!ndis6DummyReceiveComplete+0
+   +0x090 WanReceiveHandler : (null) 
+   +0x098 RequestCompleteHandler : (null) 
+   +0x0a0 ReceivePacketHandler : (null) 
+   +0x0a8 SendPacketsHandler : (null) 
+   +0x0b0 ResetHandler     : 0xfffff803`07fe6470     int  NDIS!ndisMReset+0
+   +0x0b8 RequestHandler   : 0xfffff803`07fb6190     int  NDIS!ndisLegacyRequest+0
+   +0x0c0 OidRequestHandler : 0xfffff803`07f52f50     int  NDIS!ndisMOidRequest+0
+   +0x0c8 ResetCompleteHandler : (null) 
+   +0x0d0 StatusHandler    : 0xfffff803`089c73d0     void  tcpip!FlStatus+0
+   +0x0d0 StatusHandlerEx  : 0xfffff803`089c73d0     void  tcpip!FlStatus+0
+   +0x0d8 StatusCompleteHandler : (null) 
+   +0x0e0 OpenFlags        : 0x1000000
+   +0x0e4 References       : 0n1
+   +0x0e8 SpinLock         : 0
+   +0x0f0 FilterHandle     : (null) 
+   +0x0f8 FrameTypeArraySize : 2
+   +0x0fc FrameTypeArray   : [4] 8
+   +0x104 ProtocolOptions  : 0
+   +0x108 CurrentLookahead : 0x3c
+   +0x110 WSendHandler     : (null) 
+   +0x118 WTransferDataHandler : (null) 
+   +0x120 WSendPacketsHandler : (null) 
+   +0x128 CancelSendPacketsHandler : 0xfffff803`09eb15b0     void  netvsc!NvscPDIndicateConfiguration+0
+   +0x130 WakeUpEnable     : 0
+   +0x134 PMCurrentParameters : _NDIS_PM_PARAMETERS
+   +0x148 CloseCompleteEvent : (null) 
+   +0x150 QC               : _NDIS_COMMON_OPEN_BLOCK::_QUEUED_CLOSE
+   +0x178 AfReferences     : 0n0
+   +0x180 NextGlobalOpen   : 0xffff8084`c04e5ab0 _NDIS_OPEN_BLOCK
+   +0x188 MiniportNextOpen : 0xffff8084`bfa75b60 _NDIS_OPEN_BLOCK
+   +0x190 ProtocolNextOpen : (null) 
+   +0x198 BindDeviceName   : 0xffff8084`bf69e080 _UNICODE_STRING "\DEVICE\{EB5F55FA-BD2D-4AB8-ABD6-CBA5562ECDCD}"
+   +0x1a0 RootDeviceName   : 0xffff8084`bf6a7aa8 _UNICODE_STRING "\DEVICE\{EB5F55FA-BD2D-4AB8-ABD6-CBA5562ECDCD}"
+   +0x1a8 FilterNextOpen   : 0xffff8084`bfa75b60 _NDIS_OPEN_BLOCK
+   +0x1b0 PacketFilters    : 0xb
+   +0x1b4 OldPacketFilters : 0
+   +0x1b8 MaxMulticastAddresses : 0x40
+   +0x1c0 MCastAddressBuf  : 0xffff8084`c0503010 _ETH_MULTICAST_WRAPPER
+   +0x1c8 NumAddresses     : 4
+   +0x1d0 OldMCastAddressBuf : 0xffff8084`c0503330 _ETH_MULTICAST_WRAPPER
+   +0x1d8 OldNumAddresses  : 0
+   +0x1e0 RssParametersBuffer : (null) 
+   +0x1e8 NdisRSSParameters : (null) 
+   +0x1f0 PatternList      : _SINGLE_LIST_ENTRY
+   +0x1f8 WOLPatternList   : _SINGLE_LIST_ENTRY
+   +0x200 PMProtocolOffloadList : _SINGLE_LIST_ENTRY
+   +0x208 ProtSendNetBufferListsComplete : 0xfffff803`08a2cc80     void  tcpip!FlSendNetBufferListChainComplete+0
+   +0x210 SendCompleteNdisPacketContext : 0xffff8084`c04e9010 Void
+   +0x218 SendCompleteNetBufferListsContext : 0xffff8084`c04e9010 Void
+   +0x220 ReceiveNetBufferLists : 0xfffff803`089ec9d0     void  tcpip!FlReceiveNetBufferListChain+0
+   +0x228 ReceiveNetBufferListsContext : 0xffff8084`c04e9010 Void
+   +0x230 SavedSendPacketsHandler : (null) 
+   +0x238 SavedCancelSendPacketsHandler : 0xfffff803`09eb15b0     void  netvsc!NvscPDIndicateConfiguration+0
+   +0x240 SavedSendHandler : 0xfffff803`0801e730     int  NDIS!ndisMSend+0
+   +0x248 NblTracker       : 0xffff8084`bf705a31 NDIS_NBL_TRACKER_HANDLE__
+   +0x250 RefCountTracker  : 0xffff8084`bf649a60 NDIS_REFCOUNT_HANDLE__
+   +0x258 RefCountLock     : 0
+   +0x260 ProtocolMajorVersion : 6
+   +0x268 IfBlock          : (null) 
+   +0x270 PnPStateLock     : _NDIS_SPIN_LOCK
+   +0x280 PnPState         : 0 ( Ndis5StateUnused )
+   +0x284 OutstandingSends : 0n0
+   +0x288 PauseEvent       : _NDIS_EVENT
+   +0x2a0 Ndis5WanSendHandler : (null) 
+   +0x2a8 ProtSendCompleteHandler : (null) 
+   +0x2b0 OidRequestCompleteHandler : 0xfffff803`07fad6e0     void  NDIS!ndisInvokeOidRequestComplete+0
+   +0x2b8 Offload          : 0xffff8084`bf620e10 _NDIS_OPEN_OFFLOAD
+   +0x2c0 StatusUnbindWorkItem : (null) 
+   +0x2c8 DpcStartCycle    : 0
+   +0x2d0 ReceivedAPacketSlot : 0xffffa501`9d7301f8 PNDIS_PER_PROCESSOR_SLOT__
+   +0x2d8 DirectOidRequestHandler : 0xfffff803`07fa1e60     int  NDIS!ndisMDirectOidRequest+0
+   +0x2e0 ReceiveQueueList : _LIST_ENTRY [ 0xffff8084`c0502e00 - 0xffff8084`c0502e00 ]
+   +0x2f0 NumReceiveQueues : 0
+   +0x2f8 SharedMemoryBlockList : _LIST_ENTRY [ 0xffff8084`c0502e18 - 0xffff8084`c0502e18 ]
+   +0x308 AllocateSharedMemoryHandler : (null) 
+   +0x310 FreeSharedMemoryHandler : (null) 
+   +0x318 AllocateSharedMemoryContext : (null) 
+   +0x320 NumAllocatedVFs  : 0
+   +0x328 VFList           : _LIST_ENTRY [ 0xffff8084`c0502e48 - 0xffff8084`c0502e48 ]
+   +0x338 NumActiveVPorts  : 0
+   +0x340 VPortList        : _LIST_ENTRY [ 0xffff8084`c0502e60 - 0xffff8084`c0502e60 ]
+   +0x350 AoAcReferences   : 0
+   +0x358 Bind             : 0xffffcf02`7eb02ee0 NDIS_BIND_PROTOCOL_LINK
+   +0x360 UnsolicitedUnbindComplete : _WORK_QUEUE_ITEM
+   +0x380 UnsolicitedUnbindEvent : (null) 
+   +0x388 PendingLegacyUnbind : 0
+   +0x390 WaitNetPnpEvent  : (null) 
+   +0x398 PktMonComp       : _PKTMON_COMPONENT_CONTEXT
+   +0x3d8 PktMonEdge       : _PKTMON_EDGE_CONTEXT
+   +0x400 NextAf           : (null) 
+   +0x408 MiniportCoCreateVcHandler : (null) 
+   +0x410 MiniportCoRequestHandler : (null) 
+   +0x418 CoCreateVcHandler : (null) 
+   +0x420 CoDeleteVcHandler : (null) 
+   +0x428 CmActivateVcCompleteHandler : (null) 
+   +0x430 CmDeactivateVcCompleteHandler : 0x91e7811b`f96e443c     void  +91e7811bf96e443c
+   +0x438 CoRequestCompleteHandler : 0xffff8084`bfa6ff58     void  +ffff8084bfa6ff58
+   +0x440 CoRequestHandler : 0xffff8084`c0c97f58     int  +ffff8084c0c97f58
+   +0x448 ActiveVcHead     : _LIST_ENTRY [ 0xffff8084`bd79a5c9 - 0xe3c3c917`1ce90d48 ]
+   +0x458 InactiveVcHead   : _LIST_ENTRY [ 0x3220383a`0c7102c2 - 0x70fe3392`42c00550 ]
+   +0x468 PendingAfNotifications : 0n-251473220
+   +0x470 AfNotifyCompleteEvent : 0x523309f8`b2bf0278 _KEVENT
+   +0x478 MiniportCoOidRequestHandler : 0x1788f0b5`e2182002     int  +1788f0b5e2182002
+   +0x480 CoOidRequestCompleteHandler : 0x24f00109`0df14912     void  +24f001090df14912
+   +0x488 CoOidRequestHandler : 0xa4c500c7`b83050d6     int  +a4c500c7b83050d6
+   +0x000 MacHandle        : 0x00000000`04000112 Void
+   +0x000 Header           : _NDIS_OBJECT_HEADER
+   +0x008 BindingHandle    : 0xffff8084`c04e5ab0 Void
+   +0x010 MiniportHandle   : 0xffff8084`bf69f1a0 _NDIS_MINIPORT_BLOCK
+   +0x018 ProtocolHandle   : 0xffff8084`bf06cb30 _NDIS_PROTOCOL_BLOCK
+   +0x020 ProtocolBindingContext : 0xffff8084`c04e7010 Void
+   +0x028 NextSendHandler  : (null) 
+   +0x030 NextSendContext  : (null) 
+   +0x038 MiniportAdapterContext : 0xffff8084`bf94f010 Void
+   +0x040 Reserved1        : 0 ''
+   +0x041 CallingFromNdis6Protocol : 0 ''
+   +0x042 Reserved3        : 0 ''
+   +0x043 Reserved4        : 0 ''
+   +0x048 NextReturnNetBufferListsHandler : (null) 
+   +0x050 Reserved5        : 0
+   +0x058 NextReturnNetBufferListsContext : (null) 
+   +0x060 SendHandler      : 0xfffff803`07fcd8a0     int  NDIS!ndisMFakeSend+0
+   +0x060 WanSendHandler   : 0xfffff803`07fcd8a0     int  NDIS!ndisMFakeSend+0
+   +0x068 TransferDataHandler : 0xfffff803`0801eea0     int  NDIS!ndisMTransferData+0
+   +0x070 SendCompleteHandler : (null) 
+   +0x078 TransferDataCompleteHandler : (null) 
+   +0x080 ReceiveHandler   : (null) 
+   +0x088 ReceiveCompleteHandler : 0xfffff803`07fdc860     void  NDIS!ndis6DummyReceiveComplete+0
+   +0x090 WanReceiveHandler : (null) 
+   +0x098 RequestCompleteHandler : (null) 
+   +0x0a0 ReceivePacketHandler : (null) 
+   +0x0a8 SendPacketsHandler : 0xfffff803`07fe52b0     void  NDIS!ndisMFakeSendPackets+0
+   +0x0b0 ResetHandler     : 0xfffff803`07fe51d0     int  NDIS!ndisMFakeReset+0
+   +0x0b8 RequestHandler   : 0xfffff803`07fb6190     int  NDIS!ndisLegacyRequest+0
+   +0x0c0 OidRequestHandler : 0xfffff803`07f52f50     int  NDIS!ndisMOidRequest+0
+   +0x0c8 ResetCompleteHandler : (null) 
+   +0x0d0 StatusHandler    : 0xfffff803`089c73d0     void  tcpip!FlStatus+0
+   +0x0d0 StatusHandlerEx  : 0xfffff803`089c73d0     void  tcpip!FlStatus+0
+   +0x0d8 StatusCompleteHandler : (null) 
+   +0x0e0 OpenFlags        : 0x1000000
+   +0x0e4 References       : 0n1
+   +0x0e8 SpinLock         : 0
+   +0x0f0 FilterHandle     : (null) 
+   +0x0f8 FrameTypeArraySize : 1
+   +0x0fc FrameTypeArray   : [4] 0xdd86
+   +0x104 ProtocolOptions  : 0
+   +0x108 CurrentLookahead : 0x28
+   +0x110 WSendHandler     : (null) 
+   +0x118 WTransferDataHandler : (null) 
+   +0x120 WSendPacketsHandler : (null) 
+   +0x128 CancelSendPacketsHandler : (null) 
+   +0x130 WakeUpEnable     : 0
+   +0x134 PMCurrentParameters : _NDIS_PM_PARAMETERS
+   +0x148 CloseCompleteEvent : (null) 
+   +0x150 QC               : _NDIS_COMMON_OPEN_BLOCK::_QUEUED_CLOSE
+   +0x178 AfReferences     : 0n0
+   +0x180 NextGlobalOpen   : 0xffff8084`bfa75b60 _NDIS_OPEN_BLOCK
+   +0x188 MiniportNextOpen : (null) 
+   +0x190 ProtocolNextOpen : 0xffff8084`bfa75b60 _NDIS_OPEN_BLOCK
+   +0x198 BindDeviceName   : 0xffff8084`bf6a0080 _UNICODE_STRING "\DEVICE\{AAF79E81-F0B3-424D-8974-27FCEB50ADF5}"
+   +0x1a0 RootDeviceName   : 0xffff8084`bf6a76e8 _UNICODE_STRING "\DEVICE\{AAF79E81-F0B3-424D-8974-27FCEB50ADF5}"
+   +0x1a8 FilterNextOpen   : (null) 
+   +0x1b0 PacketFilters    : 3
+   +0x1b4 OldPacketFilters : 0
+   +0x1b8 MaxMulticastAddresses : 0x40
+   +0x1c0 MCastAddressBuf  : 0xffff8084`c04e88a0 _ETH_MULTICAST_WRAPPER
+   +0x1c8 NumAddresses     : 2
+   +0x1d0 OldMCastAddressBuf : 0xffff8084`c04e8bc0 _ETH_MULTICAST_WRAPPER
+   +0x1d8 OldNumAddresses  : 0
+   +0x1e0 RssParametersBuffer : (null) 
+   +0x1e8 NdisRSSParameters : (null) 
+   +0x1f0 PatternList      : _SINGLE_LIST_ENTRY
+   +0x1f8 WOLPatternList   : _SINGLE_LIST_ENTRY
+   +0x200 PMProtocolOffloadList : _SINGLE_LIST_ENTRY
+   +0x208 ProtSendNetBufferListsComplete : 0xfffff803`08a2cc80     void  tcpip!FlSendNetBufferListChainComplete+0
+   +0x210 SendCompleteNdisPacketContext : 0xffff8084`c04e7010 Void
+   +0x218 SendCompleteNetBufferListsContext : 0xffff8084`c04e7010 Void
+   +0x220 ReceiveNetBufferLists : 0xfffff803`089ec9d0     void  tcpip!FlReceiveNetBufferListChain+0
+   +0x228 ReceiveNetBufferListsContext : 0xffff8084`c04e7010 Void
+   +0x230 SavedSendPacketsHandler : (null) 
+   +0x238 SavedCancelSendPacketsHandler : 0xfffff803`09eb15b0     void  netvsc!NvscPDIndicateConfiguration+0
+   +0x240 SavedSendHandler : 0xfffff803`0801e730     int  NDIS!ndisMSend+0
+   +0x248 NblTracker       : 0xffff8084`bf705af1 NDIS_NBL_TRACKER_HANDLE__
+   +0x250 RefCountTracker  : 0xffff8084`bf649640 NDIS_REFCOUNT_HANDLE__
+   +0x258 RefCountLock     : 0
+   +0x260 ProtocolMajorVersion : 6
+   +0x268 IfBlock          : (null) 
+   +0x270 PnPStateLock     : _NDIS_SPIN_LOCK
+   +0x280 PnPState         : 0 ( Ndis5StateUnused )
+   +0x284 OutstandingSends : 0n0
+   +0x288 PauseEvent       : _NDIS_EVENT
+   +0x2a0 Ndis5WanSendHandler : (null) 
+   +0x2a8 ProtSendCompleteHandler : (null) 
+   +0x2b0 OidRequestCompleteHandler : 0xfffff803`07fad6e0     void  NDIS!ndisInvokeOidRequestComplete+0
+   +0x2b8 Offload          : 0xffff8084`bf620410 _NDIS_OPEN_OFFLOAD
+   +0x2c0 StatusUnbindWorkItem : (null) 
+   +0x2c8 DpcStartCycle    : 0
+   +0x2d0 ReceivedAPacketSlot : 0xffffa501`9d7301e0 PNDIS_PER_PROCESSOR_SLOT__
+   +0x2d8 DirectOidRequestHandler : 0xfffff803`07fa1e60     int  NDIS!ndisMDirectOidRequest+0
+   +0x2e0 ReceiveQueueList : _LIST_ENTRY [ 0xffff8084`c04e5d90 - 0xffff8084`c04e5d90 ]
+   +0x2f0 NumReceiveQueues : 0
+   +0x2f8 SharedMemoryBlockList : _LIST_ENTRY [ 0xffff8084`c04e5da8 - 0xffff8084`c04e5da8 ]
+   +0x308 AllocateSharedMemoryHandler : (null) 
+   +0x310 FreeSharedMemoryHandler : (null) 
+   +0x318 AllocateSharedMemoryContext : (null) 
+   +0x320 NumAllocatedVFs  : 0
+   +0x328 VFList           : _LIST_ENTRY [ 0xffff8084`c04e5dd8 - 0xffff8084`c04e5dd8 ]
+   +0x338 NumActiveVPorts  : 0
+   +0x340 VPortList        : _LIST_ENTRY [ 0xffff8084`c04e5df0 - 0xffff8084`c04e5df0 ]
+   +0x350 AoAcReferences   : 0
+   +0x358 Bind             : 0xffffcf02`7eb02850 NDIS_BIND_PROTOCOL_LINK
+   +0x360 UnsolicitedUnbindComplete : _WORK_QUEUE_ITEM
+   +0x380 UnsolicitedUnbindEvent : (null) 
+   +0x388 PendingLegacyUnbind : 0
+   +0x390 WaitNetPnpEvent  : (null) 
+   +0x398 PktMonComp       : _PKTMON_COMPONENT_CONTEXT
+   +0x3d8 PktMonEdge       : _PKTMON_EDGE_CONTEXT
+   +0x400 NextAf           : (null) 
+   +0x408 MiniportCoCreateVcHandler : (null) 
+   +0x410 MiniportCoRequestHandler : (null) 
+   +0x418 CoCreateVcHandler : (null) 
+   +0x420 CoDeleteVcHandler : (null) 
+   +0x428 CmActivateVcCompleteHandler : (null) 
+   +0x430 CmDeactivateVcCompleteHandler : 0x91e7811b`f969358c     void  +91e7811bf969358c
+   +0x438 CoRequestCompleteHandler : (null) 
+   +0x440 CoRequestHandler : (null) 
+   +0x448 ActiveVcHead     : _LIST_ENTRY [ 0xffff8084`c24f6f08 - 0xa069fdd9`ae0a4485 ]
+   +0x458 InactiveVcHead   : _LIST_ENTRY [ 0x59c6f665`b3835ff0 - 0xf1143c36`11f1971f ]
+   +0x468 PendingAfNotifications : 0n527482571
+   +0x470 AfNotifyCompleteEvent : 0xfccaf279`a79513f4 _KEVENT
+   +0x478 MiniportCoOidRequestHandler : 0xec48a0b3`9a3de43f     int  +ec48a0b39a3de43f
+   +0x480 CoOidRequestCompleteHandler : 0x396fa399`d611ec37     void  +396fa399d611ec37
+   +0x488 CoOidRequestHandler : 0x3827e2f3`2367c373     int  +3827e2f32367c373
+   +0x000 MacHandle        : 0x00000000`04000112 Void
+   +0x000 Header           : _NDIS_OBJECT_HEADER
+   +0x008 BindingHandle    : 0xffff8084`bfa75b60 Void
+   +0x010 MiniportHandle   : 0xffff8084`bf69d1a0 _NDIS_MINIPORT_BLOCK
+   +0x018 ProtocolHandle   : 0xffff8084`bf06cb30 _NDIS_PROTOCOL_BLOCK
+   +0x020 ProtocolBindingContext : 0xffff8084`bfa7a7a0 Void
+   +0x028 NextSendHandler  : (null) 
+   +0x030 NextSendContext  : (null) 
+   +0x038 MiniportAdapterContext : 0xffff8084`bf94b010 Void
+   +0x040 Reserved1        : 0 ''
+   +0x041 CallingFromNdis6Protocol : 0 ''
+   +0x042 Reserved3        : 0 ''
+   +0x043 Reserved4        : 0 ''
+   +0x048 NextReturnNetBufferListsHandler : (null) 
+   +0x050 Reserved5        : 0
+   +0x058 NextReturnNetBufferListsContext : (null) 
+   +0x060 SendHandler      : 0xfffff803`0801e730     int  NDIS!ndisMSend+0
+   +0x060 WanSendHandler   : 0xfffff803`0801e730     int  NDIS!ndisMSend+0
+   +0x068 TransferDataHandler : 0xfffff803`0801eea0     int  NDIS!ndisMTransferData+0
+   +0x070 SendCompleteHandler : (null) 
+   +0x078 TransferDataCompleteHandler : (null) 
+   +0x080 ReceiveHandler   : (null) 
+   +0x088 ReceiveCompleteHandler : 0xfffff803`07fdc860     void  NDIS!ndis6DummyReceiveComplete+0
+   +0x090 WanReceiveHandler : (null) 
+   +0x098 RequestCompleteHandler : (null) 
+   +0x0a0 ReceivePacketHandler : (null) 
+   +0x0a8 SendPacketsHandler : (null) 
+   +0x0b0 ResetHandler     : 0xfffff803`07fe6470     int  NDIS!ndisMReset+0
+   +0x0b8 RequestHandler   : 0xfffff803`07fb6190     int  NDIS!ndisLegacyRequest+0
+   +0x0c0 OidRequestHandler : 0xfffff803`07f52f50     int  NDIS!ndisMOidRequest+0
+   +0x0c8 ResetCompleteHandler : (null) 
+   +0x0d0 StatusHandler    : 0xfffff803`089c73d0     void  tcpip!FlStatus+0
+   +0x0d0 StatusHandlerEx  : 0xfffff803`089c73d0     void  tcpip!FlStatus+0
+   +0x0d8 StatusCompleteHandler : (null) 
+   +0x0e0 OpenFlags        : 0x1000000
+   +0x0e4 References       : 0n1
+   +0x0e8 SpinLock         : 0
+   +0x0f0 FilterHandle     : (null) 
+   +0x0f8 FrameTypeArraySize : 1
+   +0x0fc FrameTypeArray   : [4] 0xdd86
+   +0x104 ProtocolOptions  : 0
+   +0x108 CurrentLookahead : 0x28
+   +0x110 WSendHandler     : (null) 
+   +0x118 WTransferDataHandler : (null) 
+   +0x120 WSendPacketsHandler : (null) 
+   +0x128 CancelSendPacketsHandler : 0xfffff803`09eb15b0     void  netvsc!NvscPDIndicateConfiguration+0
+   +0x130 WakeUpEnable     : 0
+   +0x134 PMCurrentParameters : _NDIS_PM_PARAMETERS
+   +0x148 CloseCompleteEvent : (null) 
+   +0x150 QC               : _NDIS_COMMON_OPEN_BLOCK::_QUEUED_CLOSE
+   +0x178 AfReferences     : 0n0
+   +0x180 NextGlobalOpen   : (null) 
+   +0x188 MiniportNextOpen : (null) 
+   +0x190 ProtocolNextOpen : (null) 
+   +0x198 BindDeviceName   : 0xffff8084`bf69e080 _UNICODE_STRING "\DEVICE\{EB5F55FA-BD2D-4AB8-ABD6-CBA5562ECDCD}"
+   +0x1a0 RootDeviceName   : 0xffff8084`bf6a7aa8 _UNICODE_STRING "\DEVICE\{EB5F55FA-BD2D-4AB8-ABD6-CBA5562ECDCD}"
+   +0x1a8 FilterNextOpen   : (null) 
+   +0x1b0 PacketFilters    : 3
+   +0x1b4 OldPacketFilters : 0
+   +0x1b8 MaxMulticastAddresses : 0x40
+   +0x1c0 MCastAddressBuf  : 0xffff8084`bfaad030 _ETH_MULTICAST_WRAPPER
+   +0x1c8 NumAddresses     : 5
+   +0x1d0 OldMCastAddressBuf : 0xffff8084`c04d0b30 _ETH_MULTICAST_WRAPPER
+   +0x1d8 OldNumAddresses  : 0
+   +0x1e0 RssParametersBuffer : 0xffff8084`c04df940  "???"
+   +0x1e8 NdisRSSParameters : 0xffff8084`c04df940 _NDIS_RECEIVE_SCALE_PARAMETERS
+   +0x1f0 PatternList      : _SINGLE_LIST_ENTRY
+   +0x1f8 WOLPatternList   : _SINGLE_LIST_ENTRY
+   +0x200 PMProtocolOffloadList : _SINGLE_LIST_ENTRY
+   +0x208 ProtSendNetBufferListsComplete : 0xfffff803`08a2cc80     void  tcpip!FlSendNetBufferListChainComplete+0
+   +0x210 SendCompleteNdisPacketContext : 0xffff8084`bfa7a7a0 Void
+   +0x218 SendCompleteNetBufferListsContext : 0xffff8084`bfa7a7a0 Void
+   +0x220 ReceiveNetBufferLists : 0xfffff803`089ec9d0     void  tcpip!FlReceiveNetBufferListChain+0
+   +0x228 ReceiveNetBufferListsContext : 0xffff8084`bfa7a7a0 Void
+   +0x230 SavedSendPacketsHandler : (null) 
+   +0x238 SavedCancelSendPacketsHandler : 0xfffff803`09eb15b0     void  netvsc!NvscPDIndicateConfiguration+0
+   +0x240 SavedSendHandler : 0xfffff803`0801e730     int  NDIS!ndisMSend+0
+   +0x248 NblTracker       : 0xffff8084`bf703e11 NDIS_NBL_TRACKER_HANDLE__
+   +0x250 RefCountTracker  : 0xffff8084`bf647db0 NDIS_REFCOUNT_HANDLE__
+   +0x258 RefCountLock     : 0
+   +0x260 ProtocolMajorVersion : 6
+   +0x268 IfBlock          : (null) 
+   +0x270 PnPStateLock     : _NDIS_SPIN_LOCK
+   +0x280 PnPState         : 0 ( Ndis5StateUnused )
+   +0x284 OutstandingSends : 0n0
+   +0x288 PauseEvent       : _NDIS_EVENT
+   +0x2a0 Ndis5WanSendHandler : (null) 
+   +0x2a8 ProtSendCompleteHandler : (null) 
+   +0x2b0 OidRequestCompleteHandler : 0xfffff803`07fad6e0     void  NDIS!ndisInvokeOidRequestComplete+0
+   +0x2b8 Offload          : 0xffff8084`bf61f690 _NDIS_OPEN_OFFLOAD
+   +0x2c0 StatusUnbindWorkItem : (null) 
+   +0x2c8 DpcStartCycle    : 0
+   +0x2d0 ReceivedAPacketSlot : 0xffffa501`9d730188 PNDIS_PER_PROCESSOR_SLOT__
+   +0x2d8 DirectOidRequestHandler : 0xfffff803`07fa1e60     int  NDIS!ndisMDirectOidRequest+0
+   +0x2e0 ReceiveQueueList : _LIST_ENTRY [ 0xffff8084`bfa75e40 - 0xffff8084`bfa75e40 ]
+   +0x2f0 NumReceiveQueues : 0
+   +0x2f8 SharedMemoryBlockList : _LIST_ENTRY [ 0xffff8084`bfa75e58 - 0xffff8084`bfa75e58 ]
+   +0x308 AllocateSharedMemoryHandler : (null) 
+   +0x310 FreeSharedMemoryHandler : (null) 
+   +0x318 AllocateSharedMemoryContext : (null) 
+   +0x320 NumAllocatedVFs  : 0
+   +0x328 VFList           : _LIST_ENTRY [ 0xffff8084`bfa75e88 - 0xffff8084`bfa75e88 ]
+   +0x338 NumActiveVPorts  : 0
+   +0x340 VPortList        : _LIST_ENTRY [ 0xffff8084`bfa75ea0 - 0xffff8084`bfa75ea0 ]
+   +0x350 AoAcReferences   : 0
+   +0x358 Bind             : 0xffffcf02`7eb03c00 NDIS_BIND_PROTOCOL_LINK
+   +0x360 UnsolicitedUnbindComplete : _WORK_QUEUE_ITEM
+   +0x380 UnsolicitedUnbindEvent : (null) 
+   +0x388 PendingLegacyUnbind : 0
+   +0x390 WaitNetPnpEvent  : (null) 
+   +0x398 PktMonComp       : _PKTMON_COMPONENT_CONTEXT
+   +0x3d8 PktMonEdge       : _PKTMON_EDGE_CONTEXT
+   +0x400 NextAf           : (null) 
+   +0x408 MiniportCoCreateVcHandler : (null) 
+   +0x410 MiniportCoRequestHandler : (null) 
+   +0x418 CoCreateVcHandler : (null) 
+   +0x420 CoDeleteVcHandler : (null) 
+   +0x428 CmActivateVcCompleteHandler : (null) 
+   +0x430 CmDeactivateVcCompleteHandler : 0x91e7811b`869534fc     void  +91e7811b869534fc
+   +0x438 CoRequestCompleteHandler : (null) 
+   +0x440 CoRequestHandler : (null) 
+   +0x448 ActiveVcHead     : _LIST_ENTRY [ 0xffff8084`bf3b5718 - 0xa79aa997`988ab9aa ]
+   +0x458 InactiveVcHead   : _LIST_ENTRY [ 0xaa98a89a`8888a989 - 0xaaaabc8a`aaa90aaa ]
+   +0x468 PendingAfNotifications : 0n-2036613974
+   +0x470 AfNotifyCompleteEvent : 0x0b6aacaa`a9c8acaa _KEVENT
+   +0x478 MiniportCoOidRequestHandler : (null) 
+   +0x480 CoOidRequestCompleteHandler : 0x91e6815b`82953489     void  +91e6815b82953489
+   +0x488 CoOidRequestHandler : 0x00000000`00000086     int  +86

@@ -125,14 +125,19 @@ Enum and Remove Hook in Windows Kernel
 48. 枚举nt!HalpRegisteredInterruptControllers。  
     !list -t nt!_LIST_ENTRY.Flink -x "dx -r2 (nt!_REGISTERED_INTERRUPT_CONTROLLER *)" -e -m poi(nt!HalpInterruptControllerCount) poi(nt!HalpRegisteredInterruptControllers)  
 49. 在应用层枚举 POOL TAG 和 BIG POOL。  
-50. 
+50. 在应用层枚举 NamedPipe。  
+51. 枚举ndis!ndisGlobalOpenList.  
+    .for (r $t0 = poi(ndis!ndisGlobalOpenList); @$t0 != 0; r $t0 = poi(@$t0 + @@(#FIELD_OFFSET(ndis!_NDIS_COMMON_OPEN_BLOCK, NextGlobalOpen)))) { dt ndis!_NDIS_OPEN_BLOCK @$t0 }  
+52. 枚举ndis!ndisGlobalFilterList.  
+    .for (r $t0 = poi(ndis!ndisGlobalFilterList); @$t0 != 0; r $t0 = poi(@$t0 + @@(#FIELD_OFFSET(ndis!_NDIS_FILTER_BLOCK, NextGlobalFilter)))) { dt ndis!_NDIS_FILTER_BLOCK @$t0 }  
+53. 
 
 考虑添加的功能：
 1. 工作线程.    尽管生命周期很短。
 2. 反汇编引擎，如：zydis。
 3. 硬件虚拟化相关的。
 4. 系统热键 和 消息钩子。
-5. 本地内核调试。
+5. 本地内核调试及生成LiveKernelDump。
 6. EtwRegister EtwUnregister
 7. PsRegisterPicoProvider
 8. KseRegisterShim KseRegisterShimEx KseUnregisterShim
@@ -158,7 +163,7 @@ Enum and Remove Hook in Windows Kernel
 3. 注册表
 4. MBR      已经过时了。
 5. 端口     因为有netstat和tcpview.exe。
-6. LSP
+6. LSP      参见 https://github.com/kouzhudong/libnet
 7. 系统线程     因为有procexp.exe。
 8. 句柄         因为有procexp.exe。
 9. 启动项       因为有Autoruns.exe。
