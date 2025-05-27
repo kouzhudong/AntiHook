@@ -131,7 +131,7 @@ Enum and Remove Hook in Windows Kernel
 52. 枚举ndis!ndisGlobalFilterList.  
     .for (r $t0 = poi(ndis!ndisGlobalFilterList); @$t0 != 0; r $t0 = poi(@$t0 + @@(#FIELD_OFFSET(ndis!_NDIS_FILTER_BLOCK, NextGlobalFilter)))) { dt ndis!_NDIS_FILTER_BLOCK @$t0 }  
 53. 在应用层枚举进程的KernelCallbackTable。  
-    自己确保以读权限打开目标进程，如：干掉ObRegisterCallbacks的保护，去掉PPL标志，调试状态，守护进程等。  
+    自己确保以读权限打开目标进程，如：干掉ObRegisterCallbacks的保护，去掉PPL标志等。  
 
 考虑添加的功能：
 1. 工作线程.    尽管生命周期很短。
