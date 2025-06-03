@@ -1,0 +1,284 @@
+C:\Users\Administrator\Desktop\bin>AntiHook.exe ReadDebuggerDataBlock
+OwnerTag:0x4742444b
+Size:0x3a0
+KernBase:fffff802a8a00000
+BreakpointWithStatus:fffff802a8f025e0
+SavedContext:0
+ThCallbackStack:0
+NextCallback:0
+FramePointer:0
+PaeEnabled:1
+KiCallUserMode:fffff802a90a5e00
+KeUserCallbackDispatcher:0
+PsLoadedModuleList:fffff802a98f4aa0
+PsActiveProcessHead:fffff802a9905240
+PspCidTable:fffff802a99c5ca8
+ExpSystemResourcesList:fffff802a98fa0a0
+ExpPagedPoolDescriptor:0
+ExpNumberOfPagedPools:0
+KeTimeIncrement:fffff802a99c5b64
+KeBugCheckCallbackListHead:fffff802a99217e0
+KiBugcheckData:fffff802a9945b60
+IopErrorLogListHead:fffff802a998bbb0
+ObpRootDirectoryObject:fffff802a990dbf0
+ObpTypeObjectType:fffff802a990dbf8
+MmSystemCacheStart:0
+MmSystemCacheEnd:0
+MmSystemCacheWs:0
+MmPfnDatabase:fffff802a99c5c40
+MmSystemPtesStart:0
+MmSystemPtesEnd:0
+MmSubsectionBase:0
+MmNumberOfPagingFiles:0
+MmLowestPhysicalPage:0
+MmHighestPhysicalPage:0
+MmNumberOfPhysicalPages:0
+MmMaximumNonPagedPoolInBytes:0
+MmNonPagedSystemStart:0
+MmNonPagedPoolStart:0
+MmNonPagedPoolEnd:0
+MmPagedPoolStart:0
+MmPagedPoolEnd:0
+MmPagedPoolInformation:0
+MmPageSize:1000
+MmSizeOfPagedPoolInBytes:fffff802a99c5f20
+MmTotalCommitLimit:0
+MmTotalCommittedPages:0
+MmSharedCommit:0
+MmDriverCommit:0
+MmProcessCommit:0
+MmPagedPoolCommit:fffff802a9837110
+MmExtendedCommit:0
+MmZeroedPageListHead:0
+MmFreePageListHead:0
+MmStandbyPageListHead:0
+MmModifiedPageListHead:0
+MmModifiedNoWritePageListHead:0
+MmAvailablePages:0
+MmResidentAvailablePages:0
+PoolTrackTable:fffff802a98fa160
+NonPagedPoolDescriptor:0
+MmHighestUserAddress:fffff802a8a39d28
+MmSystemRangeStart:fffff802a8a39d20
+MmUserProbeAddress:fffff802a8a39d30
+KdPrintCircularBuffer:fffff802a9945c00
+KdPrintCircularBufferEnd:fffff802a9946c00
+KdPrintWritePointer:fffff802a9807078
+KdPrintRolloverCount:fffff802a9946c00
+MmLoadedUserImageList:0
+NtBuildLab:fffff802a99c2780
+KiNormalSystemCall:0
+KiProcessorBlock:fffff802a99c7c40
+MmUnloadedDrivers:fffff802a98f4a88
+MmLastUnloadedDriver:fffff802a98f4a90
+MmTriageActionTaken:fffff802a9903818
+MmSpecialPoolTag:fffff802a99c5c30
+KernelVerifier:fffff802a990381c
+MmVerifierData:fffff802a9903780
+MmAllocatedNonPagedPool:0
+MmPeakCommitment:0
+MmTotalCommitLimitMaximum:0
+CmNtCSDVersion:fffff802a99c2760
+MmPhysicalMemoryBlock:fffff802a99c5b90
+MmSessionBase:0
+MmSessionSize:0
+MmSystemParentTablePage:0
+MmVirtualTranslationBase:0
+OffsetKThreadNextProcessor:536
+OffsetKThreadTeb:240
+OffsetKThreadKernelStack:88
+OffsetKThreadInitialStack:40
+OffsetKThreadApcProcess:184
+OffsetKThreadState:388
+OffsetKThreadBStore:0
+OffsetKThreadBStoreLimit:0
+SizeEProcess:2112
+OffsetEprocessPeb:736
+OffsetEprocessParentCID:720
+OffsetEprocessDirectoryTableBase:40
+SizePrcb:52992
+OffsetPrcbDpcRoutine:14522
+OffsetPrcbCurrentThread:8
+OffsetPrcbMhz:68
+OffsetPrcbCpuType:64
+OffsetPrcbVendorString:36752
+OffsetPrcbProcStateContext:496
+OffsetPrcbNumber:36
+SizeEThread:1928
+L1tfHighPhysicalBitIndex:0
+L1tfSwizzleBitIndex:0
+Padding0:0
+KdPrintCircularBufferPtr:fffff802a9807070
+KdPrintBufferSize:fffff802a980a8a4
+KeLoaderBlock:fffff802a9958290
+SizePcr:53376
+OffsetPcrSelfPcr:24
+OffsetPcrCurrentPrcb:32
+OffsetPcrContainedPrcb:384
+OffsetPcrInitialBStore:0
+OffsetPcrBStoreLimit:0
+OffsetPcrInitialStack:0
+OffsetPcrStackLimit:0
+OffsetPrcbPcrPage:0
+OffsetPrcbProcStateSpecialReg:256
+GdtR0Code:16
+GdtR0Data:24
+GdtR0Pcr:0
+GdtR3Code:48
+GdtR3Data:40
+GdtR3Teb:0
+GdtLdt:0
+GdtTss:64
+Gdt64R3CmCode:32
+Gdt64R3CmTeb:80
+IopNumTriageDumpDataBlocks:fffff802a998cec0
+IopTriageDumpDataBlocks:fffff802a998bec0
+VfCrashDataBlock:0
+MmBadPagesDetected:0
+MmZeroedPageSingleBitErrorsDetected:0
+EtwpDebuggerData:fffff802a980e800
+OffsetPrcbContext:36800
+OffsetPrcbMaxBreakpoints:0
+OffsetPrcbMaxWatchpoints:0
+OffsetKThreadStackLimit:48
+OffsetKThreadStackBase:56
+OffsetKThreadQueueListEntry:520
+OffsetEThreadIrpList:1344
+OffsetPrcbIdleThread:24
+OffsetPrcbNormalDpcState:14524
+OffsetPrcbDpcStack:14496
+OffsetPrcbIsrStack:36824
+SizeKDPC_STACK_FRAME:80
+OffsetKPriQueueThreadListHead:672
+OffsetKThreadWaitReason:643
+Padding1:0
+PteBase:ffffcc8000000000
+RetpolineStubFunctionTable:fffff802a9c01a80
+RetpolineStubFunctionTableSize:324
+RetpolineStubOffset:0
+RetpolineStubSize:0
+
+C:\Users\Administrator\Desktop\bin>
+
+
+上面是程序输出：必要时可以打印地址对应的符号名。
+下面是验证：符号里没有nt!_KDDEBUGGER_DATA64。
+
+
+0: kd> dps fffff802`a9801040 L74
+fffff802`a9801040  fffff802`a9958270 nt!KdpDebuggerDataListHead
+fffff802`a9801048  fffff802`a9958270 nt!KdpDebuggerDataListHead
+fffff802`a9801050  000003a0`4742444b
+fffff802`a9801058  fffff802`a8a00000 nt!RtlDecompressBufferProcs <PERF> (nt+0x0)
+fffff802`a9801060  fffff802`a8f025e0 nt!DbgBreakPointWithStatus
+fffff802`a9801068  00000000`00000000
+fffff802`a9801070  00110000`00000000
+fffff802`a9801078  fffff802`a90a5e00 nt!KiCallUserMode
+fffff802`a9801080  00000000`00000000
+fffff802`a9801088  fffff802`a98f4aa0 nt!PsLoadedModuleList
+fffff802`a9801090  fffff802`a9905240 nt!PsActiveProcessHead
+fffff802`a9801098  fffff802`a99c5ca8 nt!PspCidTable
+fffff802`a98010a0  fffff802`a98fa0a0 nt!ExpSystemResourcesList
+fffff802`a98010a8  00000000`00000000
+fffff802`a98010b0  00000000`00000000
+fffff802`a98010b8  fffff802`a99c5b64 nt!KeTimeIncrement
+fffff802`a98010c0  fffff802`a99217e0 nt!KeBugCheckCallbackListHead
+fffff802`a98010c8  fffff802`a9945b60 nt!KiBugCheckData
+fffff802`a98010d0  fffff802`a998bbb0 nt!IopErrorLogListHead
+fffff802`a98010d8  fffff802`a990dbf0 nt!ObpRootDirectoryObject
+fffff802`a98010e0  fffff802`a990dbf8 nt!ObpTypeObjectType
+fffff802`a98010e8  00000000`00000000
+fffff802`a98010f0  00000000`00000000
+fffff802`a98010f8  00000000`00000000
+fffff802`a9801100  fffff802`a99c5c40 nt!MmPfnDatabase
+fffff802`a9801108  00000000`00000000
+fffff802`a9801110  00000000`00000000
+fffff802`a9801118  00000000`00000000
+fffff802`a9801120  00000000`00000000
+fffff802`a9801128  00000000`00000000
+fffff802`a9801130  00000000`00000000
+fffff802`a9801138  00000000`00000000
+fffff802`a9801140  00000000`00000000
+fffff802`a9801148  00000000`00000000
+fffff802`a9801150  00000000`00000000
+fffff802`a9801158  00000000`00000000
+fffff802`a9801160  00000000`00000000
+fffff802`a9801168  00000000`00000000
+fffff802`a9801170  00000000`00000000
+fffff802`a9801178  00000000`00001000
+fffff802`a9801180  fffff802`a99c5f20 nt!MmSizeOfPagedPoolInBytes
+fffff802`a9801188  00000000`00000000
+fffff802`a9801190  00000000`00000000
+fffff802`a9801198  00000000`00000000
+fffff802`a98011a0  00000000`00000000
+fffff802`a98011a8  00000000`00000000
+fffff802`a98011b0  fffff802`a9837110 nt!MiState+0xab10
+fffff802`a98011b8  00000000`00000000
+fffff802`a98011c0  00000000`00000000
+fffff802`a98011c8  00000000`00000000
+fffff802`a98011d0  00000000`00000000
+fffff802`a98011d8  00000000`00000000
+fffff802`a98011e0  00000000`00000000
+fffff802`a98011e8  00000000`00000000
+fffff802`a98011f0  00000000`00000000
+fffff802`a98011f8  fffff802`a98fa160 nt!PoolTrackTable
+fffff802`a9801200  00000000`00000000
+fffff802`a9801208  fffff802`a8a39d28 nt!MmHighestUserAddress
+fffff802`a9801210  fffff802`a8a39d20 nt!MmSystemRangeStart
+fffff802`a9801218  fffff802`a8a39d30 nt!MmUserProbeAddress
+fffff802`a9801220  fffff802`a9945c00 nt!KdPrintDefaultCircularBuffer
+fffff802`a9801228  fffff802`a9946c00 nt!KdPrintRolloverCount
+fffff802`a9801230  fffff802`a9807078 nt!KdPrintWritePointer
+fffff802`a9801238  fffff802`a9946c00 nt!KdPrintRolloverCount
+fffff802`a9801240  00000000`00000000
+fffff802`a9801248  fffff802`a99c2780 nt!NtBuildLabEx
+fffff802`a9801250  00000000`00000000
+fffff802`a9801258  fffff802`a99c7c40 nt!KiProcessorBlock
+fffff802`a9801260  fffff802`a98f4a88 nt!MmUnloadedDrivers
+fffff802`a9801268  fffff802`a98f4a90 nt!MmLastUnloadedDriver
+fffff802`a9801270  fffff802`a9903818 nt!VerifierTriageActionTaken
+fffff802`a9801278  fffff802`a99c5c30 nt!MmSpecialPoolTag
+fffff802`a9801280  fffff802`a990381c nt!KernelVerifier
+fffff802`a9801288  fffff802`a9903780 nt!MmVerifierData
+fffff802`a9801290  00000000`00000000
+fffff802`a9801298  00000000`00000000
+fffff802`a98012a0  00000000`00000000
+fffff802`a98012a8  fffff802`a99c2760 nt!CmNtCSDVersion
+fffff802`a98012b0  fffff802`a99c5b90 nt!MmPhysicalMemoryBlock
+fffff802`a98012b8  00000000`00000000
+fffff802`a98012c0  00000000`00000000
+fffff802`a98012c8  00000000`00000000
+fffff802`a98012d0  00000000`00000000
+fffff802`a98012d8  00280058`00f00218
+fffff802`a98012e0  00000000`018400b8
+fffff802`a98012e8  002802d0`02e00840
+fffff802`a98012f0  00440008`38bacf00
+fffff802`a98012f8  002401f0`8f900040
+fffff802`a9801300  00000000`00000788
+fffff802`a9801308  fffff802`a9807070 nt!KdPrintCircularBuffer
+fffff802`a9801310  fffff802`a980a8a4 nt!KdPrintBufferSize
+fffff802`a9801318  fffff802`a9958290 nt!KdpLoaderDebuggerBlock
+fffff802`a9801320  01800020`0018d080
+fffff802`a9801328  00000000`00000000
+fffff802`a9801330  00180010`01000000
+fffff802`a9801338  00000028`00300000
+fffff802`a9801340  00500020`00400000
+fffff802`a9801348  fffff802`a998cec0 nt!IopNumTriageDumpDataBlocks
+fffff802`a9801350  fffff802`a998bec0 nt!IopTriageDumpDataBlocks
+fffff802`a9801358  00000000`00000000
+fffff802`a9801360  00000000`00000000
+fffff802`a9801368  00000000`00000000
+fffff802`a9801370  fffff802`a980e800 nt!EtwpDebuggerData
+fffff802`a9801378  00000000`00008fc0
+fffff802`a9801380  00000038`00000030
+fffff802`a9801388  00000540`00000208
+fffff802`a9801390  8fd838a0`38bc0018
+fffff802`a9801398  00000283`02a00050
+fffff802`a98013a0  ffffcc80`00000000
+fffff802`a98013a8  fffff802`a9c01a80 nt!RtlKernelScpFunctionTable
+fffff802`a98013b0  00000000`00000144
+fffff802`a98013b8  00000778`00000000
+fffff802`a98013c0  00000418`00000420
+fffff802`a98013c8  fffff802`a9c01841 nt!KiKernelCetEnabled
+fffff802`a98013d0  00000000`00000000
+fffff802`a98013d8  00000000`00008768
