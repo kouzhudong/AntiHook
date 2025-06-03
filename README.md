@@ -134,6 +134,19 @@ Enum and Remove Hook in Windows Kernel
     自己确保以读权限打开目标进程，如：干掉ObRegisterCallbacks的保护，去掉PPL标志等。  
 54. 枚举ndis!ndisMiniportList  
     .for (r $t0 = poi(ndis!ndisMiniportList); @$t0 != 0; r $t0 = poi(@$t0 + @@(#FIELD_OFFSET(ndis!_NDIS_MINIPORT_BLOCK, NextGlobalMiniport)))) { dt ndis!_NDIS_MINIPORT_BLOCK @$t0 }  
+55. 注入DLL到目标进程。  
+    驱动实现，更加隐蔽和不易（被宿主进程）察觉。  
+    不支持的进程有：Minimal processes，Pico processes，Protected processes。  
+    支持的进程有：Native processes，WOW64进程，托管的进程（估计也支持）。  
+    考虑加入注入PPL进程：使被注入的（无签名和认证）DLL让Windows认为是KnownDlls/KnownDlls32下的DLL。  
+56. Dump SharedUserData  
+    !kuser + dt nt!_KUSER_SHARED_DATA fffff78000000000  
+57. 读写 NtGlobalFlag + NtGlobalFlag2  
+    !gflag  
+    另一思路：NtQuerySystemInformation/NtSetSystemInformation + SystemFlagsInformation/SystemFlags2Information  
+58. Dump nt!KdDebuggerDataBlock(nt!_KDDEBUGGER_DATA64)  
+59. 在应用层枚举当前会话的WindowStations/Desktop/Window/ChildWindow。  
+60. 
 
 考虑添加的功能：
 1. 工作线程.    尽管生命周期很短。
