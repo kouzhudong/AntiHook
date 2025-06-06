@@ -4,7 +4,7 @@ Enum and Remove Hook in Windows Kernel
 设计目标：
 1. 别的ARK工具没有的，或者很少有的，或者不开源的。
 2. 自己喜欢的，常用的，避免自己繁琐的windbg操作。
-3. procexp.exe和processhacker及SystemInformer.exe有的，这里一般不添加。
+3. procexp.exe和processhacker及SystemInformer.exe有的，一般不添加。
 4. 应用层能实现的一般不添加。
 5. 不支持32位。
 6. 不支持GUI。
@@ -104,7 +104,7 @@ Enum and Remove Hook in Windows Kernel
     ExpSystemResourcesList + ExpResourceSpinLock
 39. 物理内存相关。  
     枚举物理内存，当前是分块进行的，也可以按照页进行的。MmGetPhysicalMemoryRanges + MmIsIoSpaceActive  
-    读写物理内存。MmMapIoSpace + MmUnmapIoSpace + MmProbeAndLockPages  
+    读写物理内存。MmMapIoSpace + MmUnmapIoSpace + MmProbeAndLockPages 又改为在驱动调用KdSystemDebugControl实现  
     物理内存与虚拟内存（必须是内核内存且非分页）的互转。MmGetVirtualForPhysical + MmGetPhysicalAddress  
 40. 枚举和反注册PNP通知。  
     PnpProfileNotifyList + PnpDeviceClassNotifyList + PnpDeferredRegistrationList + PnpKsrNotifyList  
@@ -146,19 +146,19 @@ Enum and Remove Hook in Windows Kernel
     另一思路：NtQuerySystemInformation/NtSetSystemInformation + SystemFlagsInformation/SystemFlags2Information  
 58. Dump nt!KdDebuggerDataBlock(nt!_KDDEBUGGER_DATA64)  
 59. 在应用层枚举当前会话的WindowStations/Desktop/Window/ChildWindow。  
-60. 
+60. 在应用层生成LiveKernelDump（调用NtSystemDebugControl实现）  
 
 考虑添加的功能：
 1. 工作线程.    尽管生命周期很短。
-2. 反汇编引擎，如：zydis。
-3. 硬件虚拟化相关的。
-4. 系统热键 和 消息钩子。
-5. 本地内核调试及生成LiveKernelDump。
-6. EtwRegister EtwUnregister
-7. PsRegisterPicoProvider
-8. KseRegisterShim KseRegisterShimEx KseUnregisterShim
-9. PcwRegister PcwUnregister
-10. NmrpRegisterModule == NmrRegisterClient + NmrRegisterProvider + WskRegister。
+2. 反汇编引擎，如：zydis。  
+3. 硬件虚拟化相关的。  
+4. 系统热键 和 消息钩子。  
+5. 本地内核调试。  
+6. EtwRegister EtwUnregister  
+7. PsRegisterPicoProvider  
+8. KseRegisterShim KseRegisterShimEx KseUnregisterShim  
+9. PcwRegister PcwUnregister  
+10. NmrpRegisterModule == NmrRegisterClient + NmrRegisterProvider + WskRegister。  
 11. ExRegisterHost + ExRegisterExtension + ExUnregisterExtension  
 12. Boot Graphics Resource Table (BGRT)  
 13. Firmware Performance Data Table (FPDT)  
