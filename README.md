@@ -147,6 +147,9 @@ Enum and Remove Hook in Windows Kernel
 58. Dump nt!KdDebuggerDataBlock(nt!_KDDEBUGGER_DATA64)  
 59. 在应用层枚举当前会话的WindowStations/Desktop/Window/ChildWindow。  
 60. 在应用层生成LiveKernelDump（调用NtSystemDebugControl实现）  
+61. 在应用层枚举Firmware。  
+    暂时不支持修改和删除等操作。  
+62. 在应用层枚举SMBIOS  
 
 考虑添加的功能：
 1. 工作线程.    尽管生命周期很短。
