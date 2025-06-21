@@ -150,14 +150,30 @@ Enum and Remove Hook in Windows Kernel
 61. 在应用层枚举Firmware。  
     暂时不支持修改和删除等操作。  
 62. 在应用层枚举SMBIOS  
+63. 枚举 AlpcPort ,修改（阻断）AlpcPort(的State)，断开AlpcPort(ZwAlpcDisconnectPort/AlpcpDisconnectPort)。  
+    !list -t nt!_LIST_ENTRY.Flink -x "dx (nt!_ALPC_PORT *)" -e poi(nt!AlpcpPortList)  
+    读取和设置：AlpcpLogEnabled，即alpc日志的开关。  
+64. 枚举 Job 内核对象  
+    nt!PspJobList nt!PspJobListLock nt!_EJOB  
+    暂时没有添加删除和修改的操作。  
+65. 调用（任意）内核的函数 和 run kernel shellcode  
+    前者是便于开发，内部使用，说是任意，其实有好多限制；后者是供攻防人员使用。  
+    本驱动除了安装和启动需要管理员的权限，任意用户都可以打开本驱动。  
+66. ETW  
+    枚举 Provider（不包括ClassicProvider）：EtwRegister/EtwRegisterClassicProvider  
+    反注册 Provider（不包括ClassicProvider）：EtwUnregister  
+    枚举 Consumer : _ETW_REALTIME_CONSUMER + _WMI_LOGGER_CONTEXT  
+    断开/删除 Consumer : EtwpRealtimeDisconnectConsumer/EtwpDeleteRealTimeConnectionObject  
+    打印PsGetCurrentServerSiloGlobals函数获取的结构的EtwSiloState成员的详细信息  
+    打印EtwpHostSiloState全局变量的详细信息  
 
 考虑添加的功能：
-1. 工作线程.    尽管生命周期很短。
+1. 工作线程.    尽管生命周期很短。  
 2. 反汇编引擎，如：zydis。  
 3. 硬件虚拟化相关的。  
 4. 系统热键 和 消息钩子。  
 5. 本地内核调试。  
-6. EtwRegister EtwUnregister  
+6. ApiSet 应用层枚举 驱动修改  
 7. PsRegisterPicoProvider  
 8. KseRegisterShim KseRegisterShimEx KseUnregisterShim  
 9. PcwRegister PcwUnregister  
