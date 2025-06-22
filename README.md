@@ -167,8 +167,6 @@ Enum and Remove Hook in Windows Kernel
     反注册 Provider（不包括ClassicProvider）：EtwUnregister  
     枚举 Consumer : _ETW_REALTIME_CONSUMER + _WMI_LOGGER_CONTEXT  
     断开/删除 Consumer : EtwpRealtimeDisconnectConsumer/EtwpDeleteRealTimeConnectionObject  
-    打印PsGetCurrentServerSiloGlobals函数获取的结构的EtwSiloState成员的详细信息  
-    打印EtwpHostSiloState全局变量的详细信息  
 
 考虑添加的功能：
 1. 工作线程.    尽管生命周期很短。  
