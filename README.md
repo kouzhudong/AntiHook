@@ -151,11 +151,12 @@ Enum and Remove Hook in Windows Kernel
     暂时不支持修改和删除等操作。  
 62. 在应用层枚举SMBIOS  
 63. AlpcPort  
-    枚举:检测命令:!list -t nt!_LIST_ENTRY.Flink -x "dx (nt!_ALPC_PORT *)" -e poi(nt!AlpcpPortList)  
-    阻断:即修改AlpcPort的State  
-    断开:ZwAlpcDisconnectPort/AlpcpDisconnectPort  
-    日志开关:即设置nt!AlpcpLogEnabled，还有读取的功能。  
-    监控:尚未实现，有待继续。  
+    枚举所有:ALPC_CONNECTION_PORT + ALPC_CLIENT_COMMUNICATION_PORT + ALPC_SERVER_COMMUNICATION_PORT。  
+    阻断通讯:修改ALPC_CLIENT_COMMUNICATION_PORT/ALPC_SERVER_COMMUNICATION_PORT的State，也可恢复  
+    断开连接:ZwAlpcDisconnectPort/AlpcpDisconnectPort(ALPC_CONNECTION_PORT)  
+    日志开关:即读写nt!AlpcpLogEnabled。  
+    监控收发:尚未实现，有待继续。  
+    !list -t nt!_LIST_ENTRY.Flink -x "dx (nt!_ALPC_PORT *)" -e poi(nt!AlpcpPortList)  
 64. 枚举 Job 内核对象  
     nt!PspJobList nt!PspJobListLock nt!_EJOB  
     暂时没有添加删除和修改的操作。  
