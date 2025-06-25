@@ -164,8 +164,8 @@ Enum and Remove Hook in Windows Kernel
     前者是便于开发，内部使用，说是任意，其实有好多限制；后者是供攻防人员使用。  
     本驱动除了安装和启动需要管理员的权限，任意用户都可以打开本驱动。  
 66. ETW  
-    枚举 Provider（不包括ClassicProvider）：EtwRegister/EtwRegisterClassicProvider  
-    反注册 Provider（不包括ClassicProvider）：EtwUnregister  
+    枚举 Provider（包括ClassicProvider）：EtwRegister/EtwRegisterClassicProvider  
+    反注册 Provider（包括ClassicProvider）：EtwUnregister  
     枚举 Consumer : _ETW_REALTIME_CONSUMER + _WMI_LOGGER_CONTEXT  
     断开/删除 Consumer : EtwpRealtimeDisconnectConsumer/EtwpDeleteRealTimeConnectionObject  
 
