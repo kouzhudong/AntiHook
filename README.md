@@ -168,6 +168,8 @@ Enum and Remove Hook in Windows Kernel
     反注册 Provider（包括ClassicProvider）：EtwUnregister  
     枚举 Consumer : _ETW_REALTIME_CONSUMER + _WMI_LOGGER_CONTEXT  
     断开/删除 Consumer : EtwpRealtimeDisconnectConsumer/EtwpDeleteRealTimeConnectionObject  
+67. 枚举和反注册Shim  
+    KseRegisterShim KseRegisterShimEx KseUnregisterShim  
 
 考虑添加的功能：
 1. 工作线程.    尽管生命周期很短。  
@@ -177,22 +179,21 @@ Enum and Remove Hook in Windows Kernel
 5. 本地内核调试。  
 6. ApiSet 应用层枚举 驱动修改  
 7. PsRegisterPicoProvider  
-8. KseRegisterShim KseRegisterShimEx KseUnregisterShim  
-9. PcwRegister PcwUnregister  
-10. NmrpRegisterModule == NmrRegisterClient + NmrRegisterProvider + WskRegister。  
-11. ExRegisterHost + ExRegisterExtension + ExUnregisterExtension  
-12. Boot Graphics Resource Table (BGRT)  
-13. Firmware Performance Data Table (FPDT)  
-14. Unified Extensible Firmware Interface (UEFI)  
-15. Root System Description Table (RSDT)  
-16. Fixed ACPI Description Table (FADT)  
-17. Multiple APIC Description Table (MADT)  
-18. Generic Timer Description Table (GTDT)  
-19. Core System Resources Table (CSRT)  
-20. Debug Port Table 2 (DBG2)  
-21. Differentiated System Description Table (DSDT)  
-22. Windows SMM Security Mitigations Table (WSMT)  
-23. iSCSI Boot Firmware Table (iBFT)  
+8. PcwRegister PcwUnregister  
+9. NmrpRegisterModule == NmrRegisterClient + NmrRegisterProvider + WskRegister。  
+10. ExRegisterHost + ExRegisterExtension + ExUnregisterExtension  
+11. Boot Graphics Resource Table (BGRT)  
+    Firmware Performance Data Table (FPDT)  
+    Unified Extensible Firmware Interface (UEFI)  
+    Root System Description Table (RSDT)  
+    Fixed ACPI Description Table (FADT)  
+    Multiple APIC Description Table (MADT)  
+    Generic Timer Description Table (GTDT)  
+    Core System Resources Table (CSRT)  
+    Debug Port Table 2 (DBG2)  
+    Differentiated System Description Table (DSDT)  
+    Windows SMM Security Mitigations Table (WSMT)  
+    iSCSI Boot Firmware Table (iBFT)  
 
 确定不添加的功能：
 1. 进程
