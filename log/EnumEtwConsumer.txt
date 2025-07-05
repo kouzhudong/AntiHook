@@ -1,0 +1,2015 @@
+Number:11
+
+Index:1
+EtwConsumerObject(_ETW_REALTIME_CONSUMER/EtwpRealTimeConnectionObjectType):FFFFCF81403F7610
+Logger ProcessId:0000000000000004, Logger ThreadId:0000000000000098, Consumer ProcessId:2408
+
+_WMI_LOGGER_CONTEXT:
+Offset:000 Length:004 Name:LoggerId                      Value:0x3
+Offset:004 Length:004 Name:BufferSize                    Value:0x10000
+Offset:008 Length:004 Name:MaximumEventSize              Value:0xffb8
+Offset:00c Length:004 Name:LoggerMode                    Value:0x188001c0
+Offset:010 Length:004 Name:AcceptNewEvents               Value:0
+Offset:018 Length:008 Name:GetCpuClock                   Value:0000000000000000
+Offset:020 Length:008 Name:LoggerThread                  Value:FFFFCF813B962080
+Offset:028 Length:004 Name:LoggerStatus                  Value:0
+Offset:02c Length:004 Name:FailureReason                 Value:0
+Offset:030 Length:010 Name:BufferQueue                   暂不处理 StructName:_ETW_BUFFER_QUEUE
+Offset:040 Length:010 Name:OverflowQueue                 暂不处理 StructName:_ETW_BUFFER_QUEUE
+Offset:050 Length:010 Name:GlobalList                    暂不处理 StructName:_LIST_ENTRY
+Offset:060 Length:010 Name:DebugIdTrackingList           暂不处理 StructName:_LIST_ENTRY
+Offset:070 Length:008 Name:DecodeControlList             Value:0000000000000000
+Offset:078 Length:004 Name:DecodeControlCount            Value:0
+Offset:080 Length:008 Name:BatchedBufferList             Value:0000000000000000
+Offset:080 Length:008 Name:CurrentBuffer                 暂不处理 StructName:_EX_FAST_REF
+Offset:088 Length:010 Name:LoggerName                    Value:Eventlog-Security
+Offset:098 Length:010 Name:LogFileName                   Value:
+Offset:0a8 Length:010 Name:LogFilePattern                Value:
+Offset:0b8 Length:010 Name:NewLogFileName                Value:
+Offset:0c8 Length:004 Name:ClockType                     Value:0x2
+Offset:0cc Length:004 Name:LastFlushedBuffer             Value:0
+Offset:0d0 Length:004 Name:FlushTimer                    Value:0x1
+Offset:0d4 Length:004 Name:FlushThreshold                Value:0
+Offset:0d8 Length:008 Name:ByteOffset                    Value:0
+Offset:0e0 Length:004 Name:MinimumBuffers                Value:0x2
+Offset:0e4 Length:004 Name:BuffersAvailable              Value:0x2
+Offset:0e8 Length:004 Name:NumberOfBuffers               Value:0x2
+Offset:0ec Length:004 Name:MaximumBuffers                Value:0x10
+Offset:0f0 Length:004 Name:EventsLost                    Value:0
+Offset:0f4 Length:004 Name:PeakBuffersCount              Value:0x2
+Offset:0f8 Length:004 Name:BuffersWritten                Value:0
+Offset:0fc Length:004 Name:LogBuffersLost                Value:0
+Offset:100 Length:004 Name:RealTimeBuffersDelivered      Value:0x53
+Offset:104 Length:004 Name:RealTimeBuffersLost           Value:0
+Offset:108 Length:008 Name:SequencePtr                   Value:0
+Offset:110 Length:004 Name:LocalSequence                 Value:0
+Offset:114 Length:010 Name:InstanceGuid                  Value:{0E66E20B-B802-BA6A-9272-31199D0ED295}
+Offset:124 Length:004 Name:MaximumFileSize               Value:0x64
+Offset:128 Length:004 Name:FileCounter                   Value:0
+Offset:12c Length:004 Name:PoolType                      Value:0x200
+Offset:130 Length:010 Name:ReferenceTime                 暂不处理 StructName:_ETW_REF_CLOCK
+Offset:140 Length:004 Name:CollectionOn                  Value:0x1
+Offset:144 Length:004 Name:ProviderInfoSize              Value:0
+Offset:148 Length:010 Name:Consumers                     暂不处理 StructName:_LIST_ENTRY
+Offset:158 Length:004 Name:NumConsumers                  Value:0x1
+Offset:160 Length:008 Name:TransitionConsumer            Value:0000000000000000
+Offset:168 Length:008 Name:RealtimeLogfileHandle         Value:FFFFFFFF80000360
+Offset:170 Length:010 Name:RealtimeLogfileName           Value:C:\Windows\system32\Logfiles\WMI\RtBackup\EtwRTEventlog-Security.etl
+Offset:180 Length:008 Name:RealtimeWriteOffset           Value:48
+Offset:188 Length:008 Name:RealtimeReadOffset            Value:48
+Offset:190 Length:008 Name:RealtimeLogfileSize           Value:48
+Offset:198 Length:008 Name:RealtimeLogfileUsage          Value:0000000000000000
+Offset:1a0 Length:008 Name:RealtimeMaximumFileSize       Value:0000000006400000
+Offset:1a8 Length:004 Name:RealtimeBuffersSaved          Value:0
+Offset:1b0 Length:010 Name:RealtimeReferenceTime         暂不处理 StructName:_ETW_REF_CLOCK
+Offset:1c0 Length:004 Name:NewRTEventsLost               Value:0
+Offset:1c8 Length:018 Name:LoggerEvent                   暂不处理 StructName:_KEVENT
+Offset:1e0 Length:018 Name:FlushEvent                    暂不处理 StructName:_KEVENT
+Offset:1f8 Length:040 Name:FlushTimeOutTimer             暂不处理 StructName:_KTIMER
+Offset:238 Length:040 Name:LoggerDpc                     暂不处理 StructName:_KDPC
+Offset:278 Length:038 Name:LoggerMutex                   暂不处理 StructName:_KMUTANT
+Offset:2b0 Length:008 Name:LoggerLock                    暂不处理 StructName:_EX_PUSH_LOCK
+Offset:2b8 Length:008 Name:BufferListSpinLock            Value:0000000000000000
+Offset:2b8 Length:008 Name:BufferListPushLock            暂不处理 StructName:_EX_PUSH_LOCK
+Offset:2c0 Length:048 Name:ClientSecurityContext         暂不处理 StructName:_SECURITY_CLIENT_CONTEXT
+Offset:308 Length:008 Name:TokenAccessInformation        Value:0000000000000000
+Offset:310 Length:008 Name:SecurityDescriptor            暂不处理 StructName:_EX_FAST_REF
+Offset:318 Length:008 Name:StartTime                     Value:1dbed7b7c2822e3
+Offset:320 Length:008 Name:LogFileHandle                 Value:0000000000000000
+Offset:328 Length:008 Name:BufferSequenceNumber          Value:0000000000000056
+Offset:330 Length:004 Name:Flags                         Value:0xf
+Offset:330 Length:004 Name:Persistent                    Value:0xf
+Offset:330 Length:004 Name:AutoLogger                    Value:0xf
+Offset:330 Length:004 Name:FsReady                       Value:0xf
+Offset:330 Length:004 Name:RealTime                      Value:0xf
+Offset:330 Length:004 Name:Wow                           Value:0xf
+Offset:330 Length:004 Name:KernelTrace                   Value:0xf
+Offset:330 Length:004 Name:NoMoreEnable                  Value:0xf
+Offset:330 Length:004 Name:StackTracing                  Value:0xf
+Offset:330 Length:004 Name:ErrorLogged                   Value:0xf
+Offset:330 Length:004 Name:RealtimeLoggerContextFreed    Value:0xf
+Offset:330 Length:004 Name:PebsTracing                   Value:0xf
+Offset:330 Length:004 Name:PmcCounters                   Value:0xf
+Offset:330 Length:004 Name:PageAlignBuffers              Value:0xf
+Offset:330 Length:004 Name:StackLookasideListAllocated   Value:0xf
+Offset:330 Length:004 Name:SecurityTrace                 Value:0xf
+Offset:330 Length:004 Name:LastBranchTracing             Value:0xf
+Offset:330 Length:004 Name:SystemLoggerIndex             Value:0xf
+Offset:330 Length:004 Name:StackCaching                  Value:0xf
+Offset:330 Length:004 Name:ProviderTracking              Value:0xf
+Offset:330 Length:004 Name:ProcessorTrace                Value:0xf
+Offset:330 Length:004 Name:QpcDeltaTracking              Value:0xf
+Offset:330 Length:004 Name:MarkerBufferSaved             Value:0xf
+Offset:330 Length:004 Name:LargeMdlPages                 Value:0xf
+Offset:330 Length:004 Name:ExcludeKernelStack            Value:0xf
+Offset:330 Length:004 Name:BootLogger                    Value:0xf
+Offset:334 Length:004 Name:Flags2                        Value:0
+Offset:334 Length:004 Name:UnifiedStackCaching           Value:0
+Offset:338 Length:004 Name:RequestFlag                   Value:0
+Offset:338 Length:004 Name:DbgRequestNewFile             Value:0
+Offset:338 Length:004 Name:DbgRequestUpdateFile          Value:0
+Offset:338 Length:004 Name:DbgRequestFlush               Value:0
+Offset:338 Length:004 Name:DbgRequestDisableRealtime     Value:0
+Offset:338 Length:004 Name:DbgRequestDisconnectConsumer  Value:0
+Offset:338 Length:004 Name:DbgRequestConnectConsumer     Value:0
+Offset:338 Length:004 Name:DbgRequestNotifyConsumer      Value:0
+Offset:338 Length:004 Name:DbgRequestUpdateHeader        Value:0
+Offset:338 Length:004 Name:DbgRequestDeferredFlush       Value:0
+Offset:338 Length:004 Name:DbgRequestDeferredFlushTimer  Value:0
+Offset:338 Length:004 Name:DbgRequestFlushTimer          Value:0
+Offset:338 Length:004 Name:DbgRequestUpdateDebugger      Value:0
+Offset:338 Length:004 Name:DbgSpareRequestFlags          Value:0
+Offset:340 Length:0a0 Name:StackTraceBlock               暂不处理 StructName:_ETW_STACK_TRACE_BLOCK
+Offset:3e0 Length:010 Name:HookIdMap                     暂不处理 StructName:_RTL_BITMAP
+Offset:3f0 Length:008 Name:StackCache                    Value:0000000000000000
+Offset:3f8 Length:008 Name:PmcData                       Value:0000000000000000
+Offset:400 Length:008 Name:LbrData                       Value:0000000000000000
+Offset:408 Length:008 Name:IptData                       Value:0000000000000000
+Offset:410 Length:010 Name:BinaryTrackingList            暂不处理 StructName:_LIST_ENTRY
+Offset:420 Length:008 Name:ScratchArray                  Value:0000000000000000
+Offset:428 Length:010 Name:DisallowedGuids               暂不处理 StructName:_DISALLOWED_GUIDS
+Offset:438 Length:008 Name:PeriodicCaptureStateContext   Value:0000000000000000
+Offset:440 Length:008 Name:SoftRestartContext            Value:0000000000000000
+Offset:448 Length:008 Name:SiloState                     Value:FFFFCF813BA72000
+Offset:450 Length:020 Name:CompressionWorkItem           暂不处理 StructName:_WORK_QUEUE_ITEM
+Offset:470 Length:004 Name:CompressionWorkItemState      Value:0
+Offset:478 Length:008 Name:CompressionLock               暂不处理 StructName:_EX_PUSH_LOCK
+Offset:480 Length:008 Name:CompressionTarget             Value:0000000000000000
+Offset:488 Length:008 Name:CompressionWorkspace          Value:0000000000000000
+Offset:490 Length:004 Name:CompressionOn                 Value:0
+Offset:494 Length:004 Name:CompressionRatioGuess         Value:0
+Offset:498 Length:004 Name:PartialBufferCompressionLevel Value:0
+Offset:49c Length:004 Name:CompressionResumptionMode     Value:0
+Offset:4a0 Length:008 Name:PlaceholderList               暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:4a8 Length:040 Name:CompressionDpc                暂不处理 StructName:_KDPC
+Offset:4e8 Length:008 Name:LastBufferSwitchTime          Value:0
+Offset:4f0 Length:008 Name:BufferWriteDuration           Value:0
+Offset:4f8 Length:008 Name:BufferCompressDuration        Value:0
+Offset:500 Length:008 Name:ReferenceQpcDelta             Value:0000000000000000
+Offset:508 Length:008 Name:CallbackContext               Value:0000000000000000
+Offset:510 Length:008 Name:LastDroppedTime               Value:0000000000000000
+Offset:518 Length:008 Name:FlushingLastDroppedTime       Value:0000000000000000
+Offset:520 Length:008 Name:FlushingSequenceNumber        Value:FFFFFFFFFFFFFFFF
+Offset:528 Length:008 Name:PartitionContext              暂不处理 StructName:_ETW_PARTITION_CONTEXT
+Offset:530 Length:008 Name:BufferMdl                     Value:0000000000000000
+
+_ETW_REALTIME_CONSUMER:
+Offset:000 Length:010 Name:Links                         暂不处理 StructName:_LIST_ENTRY
+Offset:010 Length:008 Name:ProcessHandle                 Value:FFFFFFFF8000118C
+Offset:018 Length:008 Name:ProcessObject                 Value:FFFFCF813B91B080
+Offset:020 Length:008 Name:NextNotDelivered              Value:0000000000000000
+Offset:028 Length:008 Name:RealtimeConnectContext        Value:0000000000000000
+Offset:030 Length:008 Name:DisconnectEvent               Value:FFFFCF81403BAEE0
+Offset:038 Length:008 Name:DataAvailableEvent            Value:FFFFCF81403BA4E0
+Offset:040 Length:008 Name:UserBufferCount               Value:1005065280
+Offset:048 Length:008 Name:UserBufferListHead            Value:000002013BE81438
+Offset:050 Length:004 Name:BuffersLost                   Value:0
+Offset:054 Length:004 Name:EmptyBuffersCount             Value:0
+Offset:058 Length:002 Name:LoggerId                      Value:3
+Offset:05a Length:001 Name:Flags                         Value:0
+Offset:05a Length:001 Name:ShutDownRequested             Value:0
+Offset:05a Length:001 Name:NewBuffersLost                Value:0
+Offset:05a Length:001 Name:Disconnected                  Value:0
+Offset:05a Length:001 Name:Notified                      Value:0
+Offset:05a Length:001 Name:Wow                           Value:0
+Offset:060 Length:010 Name:ReservedBufferSpaceBitMap     暂不处理 StructName:_RTL_BITMAP
+Offset:070 Length:008 Name:ReservedBufferSpace           Value:0
+Offset:078 Length:004 Name:ReservedBufferSpaceSize       Value:0x20000
+Offset:07c Length:004 Name:UserPagesAllocated            Value:0
+Offset:080 Length:004 Name:UserPagesReused               Value:0x6c
+Offset:088 Length:008 Name:EventsLostCount               Value:1005065048
+Offset:090 Length:008 Name:BuffersLostCount              Value:1005065052
+Offset:098 Length:008 Name:SiloState                     Value:FFFFCF813BA72000
+
+---------------------------------------------------------------------------------------
+
+Index:2
+EtwConsumerObject(_ETW_REALTIME_CONSUMER/EtwpRealTimeConnectionObjectType):FFFFCF81427907B0
+Logger ProcessId:0000000000000004, Logger ThreadId:0000000000000084, Consumer ProcessId:4540
+
+_WMI_LOGGER_CONTEXT:
+Offset:000 Length:004 Name:LoggerId                      Value:0x4
+Offset:004 Length:004 Name:BufferSize                    Value:0x10000
+Offset:008 Length:004 Name:MaximumEventSize              Value:0xffb8
+Offset:00c Length:004 Name:LoggerMode                    Value:0x18800180
+Offset:010 Length:004 Name:AcceptNewEvents               Value:0
+Offset:018 Length:008 Name:GetCpuClock                   Value:0000000000000000
+Offset:020 Length:008 Name:LoggerThread                  Value:FFFFCF813B94A080
+Offset:028 Length:004 Name:LoggerStatus                  Value:0
+Offset:02c Length:004 Name:FailureReason                 Value:0
+Offset:030 Length:010 Name:BufferQueue                   暂不处理 StructName:_ETW_BUFFER_QUEUE
+Offset:040 Length:010 Name:OverflowQueue                 暂不处理 StructName:_ETW_BUFFER_QUEUE
+Offset:050 Length:010 Name:GlobalList                    暂不处理 StructName:_LIST_ENTRY
+Offset:060 Length:010 Name:DebugIdTrackingList           暂不处理 StructName:_LIST_ENTRY
+Offset:070 Length:008 Name:DecodeControlList             Value:0000000000000000
+Offset:078 Length:004 Name:DecodeControlCount            Value:0
+Offset:080 Length:008 Name:BatchedBufferList             Value:FFFFCF814502300F
+Offset:080 Length:008 Name:CurrentBuffer                 暂不处理 StructName:_EX_FAST_REF
+Offset:088 Length:010 Name:LoggerName                    Value:DefenderApiLogger
+Offset:098 Length:010 Name:LogFileName                   Value:
+Offset:0a8 Length:010 Name:LogFilePattern                Value:
+Offset:0b8 Length:010 Name:NewLogFileName                Value:
+Offset:0c8 Length:004 Name:ClockType                     Value:0x2
+Offset:0cc Length:004 Name:LastFlushedBuffer             Value:0
+Offset:0d0 Length:004 Name:FlushTimer                    Value:0x1
+Offset:0d4 Length:004 Name:FlushThreshold                Value:0
+Offset:0d8 Length:008 Name:ByteOffset                    Value:0
+Offset:0e0 Length:004 Name:MinimumBuffers                Value:0x2
+Offset:0e4 Length:004 Name:BuffersAvailable              Value:0x1
+Offset:0e8 Length:004 Name:NumberOfBuffers               Value:0x2
+Offset:0ec Length:004 Name:MaximumBuffers                Value:0x10
+Offset:0f0 Length:004 Name:EventsLost                    Value:0
+Offset:0f4 Length:004 Name:PeakBuffersCount              Value:0x3
+Offset:0f8 Length:004 Name:BuffersWritten                Value:0
+Offset:0fc Length:004 Name:LogBuffersLost                Value:0
+Offset:100 Length:004 Name:RealTimeBuffersDelivered      Value:0x149
+Offset:104 Length:004 Name:RealTimeBuffersLost           Value:0
+Offset:108 Length:008 Name:SequencePtr                   Value:0
+Offset:110 Length:004 Name:LocalSequence                 Value:0
+Offset:114 Length:010 Name:InstanceGuid                  Value:{6B4012D0-22B6-464D-A553-20E9618403A2}
+Offset:124 Length:004 Name:MaximumFileSize               Value:0x64
+Offset:128 Length:004 Name:FileCounter                   Value:0
+Offset:12c Length:004 Name:PoolType                      Value:0x200
+Offset:130 Length:010 Name:ReferenceTime                 暂不处理 StructName:_ETW_REF_CLOCK
+Offset:140 Length:004 Name:CollectionOn                  Value:0x1
+Offset:144 Length:004 Name:ProviderInfoSize              Value:0
+Offset:148 Length:010 Name:Consumers                     暂不处理 StructName:_LIST_ENTRY
+Offset:158 Length:004 Name:NumConsumers                  Value:0x1
+Offset:160 Length:008 Name:TransitionConsumer            Value:0000000000000000
+Offset:168 Length:008 Name:RealtimeLogfileHandle         Value:FFFFFFFF8000028C
+Offset:170 Length:010 Name:RealtimeLogfileName           Value:C:\Windows\system32\Logfiles\WMI\RtBackup\EtwRTDefenderApiLogger.etl
+Offset:180 Length:008 Name:RealtimeWriteOffset           Value:48
+Offset:188 Length:008 Name:RealtimeReadOffset            Value:48
+Offset:190 Length:008 Name:RealtimeLogfileSize           Value:48
+Offset:198 Length:008 Name:RealtimeLogfileUsage          Value:0000000000000000
+Offset:1a0 Length:008 Name:RealtimeMaximumFileSize       Value:0000000006400000
+Offset:1a8 Length:004 Name:RealtimeBuffersSaved          Value:0
+Offset:1b0 Length:010 Name:RealtimeReferenceTime         暂不处理 StructName:_ETW_REF_CLOCK
+Offset:1c0 Length:004 Name:NewRTEventsLost               Value:0
+Offset:1c8 Length:018 Name:LoggerEvent                   暂不处理 StructName:_KEVENT
+Offset:1e0 Length:018 Name:FlushEvent                    暂不处理 StructName:_KEVENT
+Offset:1f8 Length:040 Name:FlushTimeOutTimer             暂不处理 StructName:_KTIMER
+Offset:238 Length:040 Name:LoggerDpc                     暂不处理 StructName:_KDPC
+Offset:278 Length:038 Name:LoggerMutex                   暂不处理 StructName:_KMUTANT
+Offset:2b0 Length:008 Name:LoggerLock                    暂不处理 StructName:_EX_PUSH_LOCK
+Offset:2b8 Length:008 Name:BufferListSpinLock            Value:0000000000000000
+Offset:2b8 Length:008 Name:BufferListPushLock            暂不处理 StructName:_EX_PUSH_LOCK
+Offset:2c0 Length:048 Name:ClientSecurityContext         暂不处理 StructName:_SECURITY_CLIENT_CONTEXT
+Offset:308 Length:008 Name:TokenAccessInformation        Value:0000000000000000
+Offset:310 Length:008 Name:SecurityDescriptor            暂不处理 StructName:_EX_FAST_REF
+Offset:318 Length:008 Name:StartTime                     Value:1dbed7b7c2445c9
+Offset:320 Length:008 Name:LogFileHandle                 Value:0000000000000000
+Offset:328 Length:008 Name:BufferSequenceNumber          Value:000000000000014F
+Offset:330 Length:004 Name:Flags                         Value:0x400f
+Offset:330 Length:004 Name:Persistent                    Value:0x400f
+Offset:330 Length:004 Name:AutoLogger                    Value:0x400f
+Offset:330 Length:004 Name:FsReady                       Value:0x400f
+Offset:330 Length:004 Name:RealTime                      Value:0x400f
+Offset:330 Length:004 Name:Wow                           Value:0x400f
+Offset:330 Length:004 Name:KernelTrace                   Value:0x400f
+Offset:330 Length:004 Name:NoMoreEnable                  Value:0x400f
+Offset:330 Length:004 Name:StackTracing                  Value:0x400f
+Offset:330 Length:004 Name:ErrorLogged                   Value:0x400f
+Offset:330 Length:004 Name:RealtimeLoggerContextFreed    Value:0x400f
+Offset:330 Length:004 Name:PebsTracing                   Value:0x400f
+Offset:330 Length:004 Name:PmcCounters                   Value:0x400f
+Offset:330 Length:004 Name:PageAlignBuffers              Value:0x400f
+Offset:330 Length:004 Name:StackLookasideListAllocated   Value:0x400f
+Offset:330 Length:004 Name:SecurityTrace                 Value:0x400f
+Offset:330 Length:004 Name:LastBranchTracing             Value:0x400f
+Offset:330 Length:004 Name:SystemLoggerIndex             Value:0x400f
+Offset:330 Length:004 Name:StackCaching                  Value:0x400f
+Offset:330 Length:004 Name:ProviderTracking              Value:0x400f
+Offset:330 Length:004 Name:ProcessorTrace                Value:0x400f
+Offset:330 Length:004 Name:QpcDeltaTracking              Value:0x400f
+Offset:330 Length:004 Name:MarkerBufferSaved             Value:0x400f
+Offset:330 Length:004 Name:LargeMdlPages                 Value:0x400f
+Offset:330 Length:004 Name:ExcludeKernelStack            Value:0x400f
+Offset:330 Length:004 Name:BootLogger                    Value:0x400f
+Offset:334 Length:004 Name:Flags2                        Value:0
+Offset:334 Length:004 Name:UnifiedStackCaching           Value:0
+Offset:338 Length:004 Name:RequestFlag                   Value:0x400
+Offset:338 Length:004 Name:DbgRequestNewFile             Value:0x400
+Offset:338 Length:004 Name:DbgRequestUpdateFile          Value:0x400
+Offset:338 Length:004 Name:DbgRequestFlush               Value:0x400
+Offset:338 Length:004 Name:DbgRequestDisableRealtime     Value:0x400
+Offset:338 Length:004 Name:DbgRequestDisconnectConsumer  Value:0x400
+Offset:338 Length:004 Name:DbgRequestConnectConsumer     Value:0x400
+Offset:338 Length:004 Name:DbgRequestNotifyConsumer      Value:0x400
+Offset:338 Length:004 Name:DbgRequestUpdateHeader        Value:0x400
+Offset:338 Length:004 Name:DbgRequestDeferredFlush       Value:0x400
+Offset:338 Length:004 Name:DbgRequestDeferredFlushTimer  Value:0x400
+Offset:338 Length:004 Name:DbgRequestFlushTimer          Value:0x400
+Offset:338 Length:004 Name:DbgRequestUpdateDebugger      Value:0x400
+Offset:338 Length:004 Name:DbgSpareRequestFlags          Value:0x400
+Offset:340 Length:0a0 Name:StackTraceBlock               暂不处理 StructName:_ETW_STACK_TRACE_BLOCK
+Offset:3e0 Length:010 Name:HookIdMap                     暂不处理 StructName:_RTL_BITMAP
+Offset:3f0 Length:008 Name:StackCache                    Value:0000000000000000
+Offset:3f8 Length:008 Name:PmcData                       Value:0000000000000000
+Offset:400 Length:008 Name:LbrData                       Value:0000000000000000
+Offset:408 Length:008 Name:IptData                       Value:0000000000000000
+Offset:410 Length:010 Name:BinaryTrackingList            暂不处理 StructName:_LIST_ENTRY
+Offset:420 Length:008 Name:ScratchArray                  Value:0000000000000000
+Offset:428 Length:010 Name:DisallowedGuids               暂不处理 StructName:_DISALLOWED_GUIDS
+Offset:438 Length:008 Name:PeriodicCaptureStateContext   Value:0000000000000000
+Offset:440 Length:008 Name:SoftRestartContext            Value:0000000000000000
+Offset:448 Length:008 Name:SiloState                     Value:FFFFCF813BA72000
+Offset:450 Length:020 Name:CompressionWorkItem           暂不处理 StructName:_WORK_QUEUE_ITEM
+Offset:470 Length:004 Name:CompressionWorkItemState      Value:0
+Offset:478 Length:008 Name:CompressionLock               暂不处理 StructName:_EX_PUSH_LOCK
+Offset:480 Length:008 Name:CompressionTarget             Value:0000000000000000
+Offset:488 Length:008 Name:CompressionWorkspace          Value:0000000000000000
+Offset:490 Length:004 Name:CompressionOn                 Value:0
+Offset:494 Length:004 Name:CompressionRatioGuess         Value:0
+Offset:498 Length:004 Name:PartialBufferCompressionLevel Value:0
+Offset:49c Length:004 Name:CompressionResumptionMode     Value:0
+Offset:4a0 Length:008 Name:PlaceholderList               暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:4a8 Length:040 Name:CompressionDpc                暂不处理 StructName:_KDPC
+Offset:4e8 Length:008 Name:LastBufferSwitchTime          Value:0
+Offset:4f0 Length:008 Name:BufferWriteDuration           Value:0
+Offset:4f8 Length:008 Name:BufferCompressDuration        Value:0
+Offset:500 Length:008 Name:ReferenceQpcDelta             Value:0000000000000000
+Offset:508 Length:008 Name:CallbackContext               Value:0000000000000000
+Offset:510 Length:008 Name:LastDroppedTime               Value:0000000000000000
+Offset:518 Length:008 Name:FlushingLastDroppedTime       Value:0000000000000000
+Offset:520 Length:008 Name:FlushingSequenceNumber        Value:FFFFFFFFFFFFFFFF
+Offset:528 Length:008 Name:PartitionContext              暂不处理 StructName:_ETW_PARTITION_CONTEXT
+Offset:530 Length:008 Name:BufferMdl                     Value:0000000000000000
+
+_ETW_REALTIME_CONSUMER:
+Offset:000 Length:010 Name:Links                         暂不处理 StructName:_LIST_ENTRY
+Offset:010 Length:008 Name:ProcessHandle                 Value:FFFFFFFF800019B4
+Offset:018 Length:008 Name:ProcessObject                 Value:FFFFCF8140EB9080
+Offset:020 Length:008 Name:NextNotDelivered              Value:0000000000000000
+Offset:028 Length:008 Name:RealtimeConnectContext        Value:0000000000000000
+Offset:030 Length:008 Name:DisconnectEvent               Value:FFFFCF81440BE8E0
+Offset:038 Length:008 Name:DataAvailableEvent            Value:FFFFCF81440BEEE0
+Offset:040 Length:008 Name:UserBufferCount               Value:2974375248
+Offset:048 Length:008 Name:UserBufferListHead            Value:00000270B1495D48
+Offset:050 Length:004 Name:BuffersLost                   Value:0
+Offset:054 Length:004 Name:EmptyBuffersCount             Value:0
+Offset:058 Length:002 Name:LoggerId                      Value:4
+Offset:05a Length:001 Name:Flags                         Value:0
+Offset:05a Length:001 Name:ShutDownRequested             Value:0
+Offset:05a Length:001 Name:NewBuffersLost                Value:0
+Offset:05a Length:001 Name:Disconnected                  Value:0
+Offset:05a Length:001 Name:Notified                      Value:0
+Offset:05a Length:001 Name:Wow                           Value:0
+Offset:060 Length:010 Name:ReservedBufferSpaceBitMap     暂不处理 StructName:_RTL_BITMAP
+Offset:070 Length:008 Name:ReservedBufferSpace           Value:0
+Offset:078 Length:004 Name:ReservedBufferSpaceSize       Value:0x20000
+Offset:07c Length:004 Name:UserPagesAllocated            Value:0
+Offset:080 Length:004 Name:UserPagesReused               Value:0x139
+Offset:088 Length:008 Name:EventsLostCount               Value:2974375016
+Offset:090 Length:008 Name:BuffersLostCount              Value:2974375020
+Offset:098 Length:008 Name:SiloState                     Value:FFFFCF813BA72000
+
+---------------------------------------------------------------------------------------
+
+Index:3
+EtwConsumerObject(_ETW_REALTIME_CONSUMER/EtwpRealTimeConnectionObjectType):FFFFCF8142790BF0
+Logger ProcessId:0000000000000004, Logger ThreadId:0000000000000088, Consumer ProcessId:4540
+
+_WMI_LOGGER_CONTEXT:
+Offset:000 Length:004 Name:LoggerId                      Value:0x5
+Offset:004 Length:004 Name:BufferSize                    Value:0x10000
+Offset:008 Length:004 Name:MaximumEventSize              Value:0xffb8
+Offset:00c Length:004 Name:LoggerMode                    Value:0x188001c0
+Offset:010 Length:004 Name:AcceptNewEvents               Value:0
+Offset:018 Length:008 Name:GetCpuClock                   Value:0000000000000000
+Offset:020 Length:008 Name:LoggerThread                  Value:FFFFCF813B952080
+Offset:028 Length:004 Name:LoggerStatus                  Value:0
+Offset:02c Length:004 Name:FailureReason                 Value:0
+Offset:030 Length:010 Name:BufferQueue                   暂不处理 StructName:_ETW_BUFFER_QUEUE
+Offset:040 Length:010 Name:OverflowQueue                 暂不处理 StructName:_ETW_BUFFER_QUEUE
+Offset:050 Length:010 Name:GlobalList                    暂不处理 StructName:_LIST_ENTRY
+Offset:060 Length:010 Name:DebugIdTrackingList           暂不处理 StructName:_LIST_ENTRY
+Offset:070 Length:008 Name:DecodeControlList             Value:0000000000000000
+Offset:078 Length:004 Name:DecodeControlCount            Value:0
+Offset:080 Length:008 Name:BatchedBufferList             Value:0000000000000000
+Offset:080 Length:008 Name:CurrentBuffer                 暂不处理 StructName:_EX_FAST_REF
+Offset:088 Length:010 Name:LoggerName                    Value:DefenderAuditLogger
+Offset:098 Length:010 Name:LogFileName                   Value:
+Offset:0a8 Length:010 Name:LogFilePattern                Value:
+Offset:0b8 Length:010 Name:NewLogFileName                Value:
+Offset:0c8 Length:004 Name:ClockType                     Value:0x2
+Offset:0cc Length:004 Name:LastFlushedBuffer             Value:0
+Offset:0d0 Length:004 Name:FlushTimer                    Value:0x1
+Offset:0d4 Length:004 Name:FlushThreshold                Value:0
+Offset:0d8 Length:008 Name:ByteOffset                    Value:0
+Offset:0e0 Length:004 Name:MinimumBuffers                Value:0x2
+Offset:0e4 Length:004 Name:BuffersAvailable              Value:0x2
+Offset:0e8 Length:004 Name:NumberOfBuffers               Value:0x2
+Offset:0ec Length:004 Name:MaximumBuffers                Value:0x10
+Offset:0f0 Length:004 Name:EventsLost                    Value:0
+Offset:0f4 Length:004 Name:PeakBuffersCount              Value:0x2
+Offset:0f8 Length:004 Name:BuffersWritten                Value:0
+Offset:0fc Length:004 Name:LogBuffersLost                Value:0
+Offset:100 Length:004 Name:RealTimeBuffersDelivered      Value:0x53
+Offset:104 Length:004 Name:RealTimeBuffersLost           Value:0
+Offset:108 Length:008 Name:SequencePtr                   Value:0
+Offset:110 Length:004 Name:LocalSequence                 Value:0
+Offset:114 Length:010 Name:InstanceGuid                  Value:{6B4012D0-22B6-464D-A553-20E9618403A1}
+Offset:124 Length:004 Name:MaximumFileSize               Value:0x64
+Offset:128 Length:004 Name:FileCounter                   Value:0
+Offset:12c Length:004 Name:PoolType                      Value:0x200
+Offset:130 Length:010 Name:ReferenceTime                 暂不处理 StructName:_ETW_REF_CLOCK
+Offset:140 Length:004 Name:CollectionOn                  Value:0x1
+Offset:144 Length:004 Name:ProviderInfoSize              Value:0
+Offset:148 Length:010 Name:Consumers                     暂不处理 StructName:_LIST_ENTRY
+Offset:158 Length:004 Name:NumConsumers                  Value:0x1
+Offset:160 Length:008 Name:TransitionConsumer            Value:0000000000000000
+Offset:168 Length:008 Name:RealtimeLogfileHandle         Value:FFFFFFFF800003B8
+Offset:170 Length:010 Name:RealtimeLogfileName           Value:C:\Windows\system32\Logfiles\WMI\RtBackup\EtwRTDefenderAuditLogger.etl
+Offset:180 Length:008 Name:RealtimeWriteOffset           Value:48
+Offset:188 Length:008 Name:RealtimeReadOffset            Value:48
+Offset:190 Length:008 Name:RealtimeLogfileSize           Value:48
+Offset:198 Length:008 Name:RealtimeLogfileUsage          Value:0000000000000000
+Offset:1a0 Length:008 Name:RealtimeMaximumFileSize       Value:0000000006400000
+Offset:1a8 Length:004 Name:RealtimeBuffersSaved          Value:0
+Offset:1b0 Length:010 Name:RealtimeReferenceTime         暂不处理 StructName:_ETW_REF_CLOCK
+Offset:1c0 Length:004 Name:NewRTEventsLost               Value:0
+Offset:1c8 Length:018 Name:LoggerEvent                   暂不处理 StructName:_KEVENT
+Offset:1e0 Length:018 Name:FlushEvent                    暂不处理 StructName:_KEVENT
+Offset:1f8 Length:040 Name:FlushTimeOutTimer             暂不处理 StructName:_KTIMER
+Offset:238 Length:040 Name:LoggerDpc                     暂不处理 StructName:_KDPC
+Offset:278 Length:038 Name:LoggerMutex                   暂不处理 StructName:_KMUTANT
+Offset:2b0 Length:008 Name:LoggerLock                    暂不处理 StructName:_EX_PUSH_LOCK
+Offset:2b8 Length:008 Name:BufferListSpinLock            Value:0000000000000000
+Offset:2b8 Length:008 Name:BufferListPushLock            暂不处理 StructName:_EX_PUSH_LOCK
+Offset:2c0 Length:048 Name:ClientSecurityContext         暂不处理 StructName:_SECURITY_CLIENT_CONTEXT
+Offset:308 Length:008 Name:TokenAccessInformation        Value:0000000000000000
+Offset:310 Length:008 Name:SecurityDescriptor            暂不处理 StructName:_EX_FAST_REF
+Offset:318 Length:008 Name:StartTime                     Value:1dbed7b7c249a6e
+Offset:320 Length:008 Name:LogFileHandle                 Value:0000000000000000
+Offset:328 Length:008 Name:BufferSequenceNumber          Value:0000000000000056
+Offset:330 Length:004 Name:Flags                         Value:0x400f
+Offset:330 Length:004 Name:Persistent                    Value:0x400f
+Offset:330 Length:004 Name:AutoLogger                    Value:0x400f
+Offset:330 Length:004 Name:FsReady                       Value:0x400f
+Offset:330 Length:004 Name:RealTime                      Value:0x400f
+Offset:330 Length:004 Name:Wow                           Value:0x400f
+Offset:330 Length:004 Name:KernelTrace                   Value:0x400f
+Offset:330 Length:004 Name:NoMoreEnable                  Value:0x400f
+Offset:330 Length:004 Name:StackTracing                  Value:0x400f
+Offset:330 Length:004 Name:ErrorLogged                   Value:0x400f
+Offset:330 Length:004 Name:RealtimeLoggerContextFreed    Value:0x400f
+Offset:330 Length:004 Name:PebsTracing                   Value:0x400f
+Offset:330 Length:004 Name:PmcCounters                   Value:0x400f
+Offset:330 Length:004 Name:PageAlignBuffers              Value:0x400f
+Offset:330 Length:004 Name:StackLookasideListAllocated   Value:0x400f
+Offset:330 Length:004 Name:SecurityTrace                 Value:0x400f
+Offset:330 Length:004 Name:LastBranchTracing             Value:0x400f
+Offset:330 Length:004 Name:SystemLoggerIndex             Value:0x400f
+Offset:330 Length:004 Name:StackCaching                  Value:0x400f
+Offset:330 Length:004 Name:ProviderTracking              Value:0x400f
+Offset:330 Length:004 Name:ProcessorTrace                Value:0x400f
+Offset:330 Length:004 Name:QpcDeltaTracking              Value:0x400f
+Offset:330 Length:004 Name:MarkerBufferSaved             Value:0x400f
+Offset:330 Length:004 Name:LargeMdlPages                 Value:0x400f
+Offset:330 Length:004 Name:ExcludeKernelStack            Value:0x400f
+Offset:330 Length:004 Name:BootLogger                    Value:0x400f
+Offset:334 Length:004 Name:Flags2                        Value:0
+Offset:334 Length:004 Name:UnifiedStackCaching           Value:0
+Offset:338 Length:004 Name:RequestFlag                   Value:0
+Offset:338 Length:004 Name:DbgRequestNewFile             Value:0
+Offset:338 Length:004 Name:DbgRequestUpdateFile          Value:0
+Offset:338 Length:004 Name:DbgRequestFlush               Value:0
+Offset:338 Length:004 Name:DbgRequestDisableRealtime     Value:0
+Offset:338 Length:004 Name:DbgRequestDisconnectConsumer  Value:0
+Offset:338 Length:004 Name:DbgRequestConnectConsumer     Value:0
+Offset:338 Length:004 Name:DbgRequestNotifyConsumer      Value:0
+Offset:338 Length:004 Name:DbgRequestUpdateHeader        Value:0
+Offset:338 Length:004 Name:DbgRequestDeferredFlush       Value:0
+Offset:338 Length:004 Name:DbgRequestDeferredFlushTimer  Value:0
+Offset:338 Length:004 Name:DbgRequestFlushTimer          Value:0
+Offset:338 Length:004 Name:DbgRequestUpdateDebugger      Value:0
+Offset:338 Length:004 Name:DbgSpareRequestFlags          Value:0
+Offset:340 Length:0a0 Name:StackTraceBlock               暂不处理 StructName:_ETW_STACK_TRACE_BLOCK
+Offset:3e0 Length:010 Name:HookIdMap                     暂不处理 StructName:_RTL_BITMAP
+Offset:3f0 Length:008 Name:StackCache                    Value:0000000000000000
+Offset:3f8 Length:008 Name:PmcData                       Value:0000000000000000
+Offset:400 Length:008 Name:LbrData                       Value:0000000000000000
+Offset:408 Length:008 Name:IptData                       Value:0000000000000000
+Offset:410 Length:010 Name:BinaryTrackingList            暂不处理 StructName:_LIST_ENTRY
+Offset:420 Length:008 Name:ScratchArray                  Value:0000000000000000
+Offset:428 Length:010 Name:DisallowedGuids               暂不处理 StructName:_DISALLOWED_GUIDS
+Offset:438 Length:008 Name:PeriodicCaptureStateContext   Value:0000000000000000
+Offset:440 Length:008 Name:SoftRestartContext            Value:0000000000000000
+Offset:448 Length:008 Name:SiloState                     Value:FFFFCF813BA72000
+Offset:450 Length:020 Name:CompressionWorkItem           暂不处理 StructName:_WORK_QUEUE_ITEM
+Offset:470 Length:004 Name:CompressionWorkItemState      Value:0
+Offset:478 Length:008 Name:CompressionLock               暂不处理 StructName:_EX_PUSH_LOCK
+Offset:480 Length:008 Name:CompressionTarget             Value:0000000000000000
+Offset:488 Length:008 Name:CompressionWorkspace          Value:0000000000000000
+Offset:490 Length:004 Name:CompressionOn                 Value:0
+Offset:494 Length:004 Name:CompressionRatioGuess         Value:0
+Offset:498 Length:004 Name:PartialBufferCompressionLevel Value:0
+Offset:49c Length:004 Name:CompressionResumptionMode     Value:0
+Offset:4a0 Length:008 Name:PlaceholderList               暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:4a8 Length:040 Name:CompressionDpc                暂不处理 StructName:_KDPC
+Offset:4e8 Length:008 Name:LastBufferSwitchTime          Value:0
+Offset:4f0 Length:008 Name:BufferWriteDuration           Value:0
+Offset:4f8 Length:008 Name:BufferCompressDuration        Value:0
+Offset:500 Length:008 Name:ReferenceQpcDelta             Value:0000000000000000
+Offset:508 Length:008 Name:CallbackContext               Value:0000000000000000
+Offset:510 Length:008 Name:LastDroppedTime               Value:0000000000000000
+Offset:518 Length:008 Name:FlushingLastDroppedTime       Value:0000000000000000
+Offset:520 Length:008 Name:FlushingSequenceNumber        Value:FFFFFFFFFFFFFFFF
+Offset:528 Length:008 Name:PartitionContext              暂不处理 StructName:_ETW_PARTITION_CONTEXT
+Offset:530 Length:008 Name:BufferMdl                     Value:0000000000000000
+
+_ETW_REALTIME_CONSUMER:
+Offset:000 Length:010 Name:Links                         暂不处理 StructName:_LIST_ENTRY
+Offset:010 Length:008 Name:ProcessHandle                 Value:FFFFFFFF80002620
+Offset:018 Length:008 Name:ProcessObject                 Value:FFFFCF8140EB9080
+Offset:020 Length:008 Name:NextNotDelivered              Value:0000000000000000
+Offset:028 Length:008 Name:RealtimeConnectContext        Value:0000000000000000
+Offset:030 Length:008 Name:DisconnectEvent               Value:FFFFCF81440BEFE0
+Offset:038 Length:008 Name:DataAvailableEvent            Value:FFFFCF81440BF060
+Offset:040 Length:008 Name:UserBufferCount               Value:2974378512
+Offset:048 Length:008 Name:UserBufferListHead            Value:00000270B1496A08
+Offset:050 Length:004 Name:BuffersLost                   Value:0
+Offset:054 Length:004 Name:EmptyBuffersCount             Value:0
+Offset:058 Length:002 Name:LoggerId                      Value:5
+Offset:05a Length:001 Name:Flags                         Value:0
+Offset:05a Length:001 Name:ShutDownRequested             Value:0
+Offset:05a Length:001 Name:NewBuffersLost                Value:0
+Offset:05a Length:001 Name:Disconnected                  Value:0
+Offset:05a Length:001 Name:Notified                      Value:0
+Offset:05a Length:001 Name:Wow                           Value:0
+Offset:060 Length:010 Name:ReservedBufferSpaceBitMap     暂不处理 StructName:_RTL_BITMAP
+Offset:070 Length:008 Name:ReservedBufferSpace           Value:0
+Offset:078 Length:004 Name:ReservedBufferSpaceSize       Value:0x20000
+Offset:07c Length:004 Name:UserPagesAllocated            Value:0
+Offset:080 Length:004 Name:UserPagesReused               Value:0x22
+Offset:088 Length:008 Name:EventsLostCount               Value:2974378280
+Offset:090 Length:008 Name:BuffersLostCount              Value:2974378284
+Offset:098 Length:008 Name:SiloState                     Value:FFFFCF813BA72000
+
+---------------------------------------------------------------------------------------
+
+Index:4
+EtwConsumerObject(_ETW_REALTIME_CONSUMER/EtwpRealTimeConnectionObjectType):FFFFCF8140CF94D0
+Logger ProcessId:0000000000000004, Logger ThreadId:000000000000008C, Consumer ProcessId:4296
+
+_WMI_LOGGER_CONTEXT:
+Offset:000 Length:004 Name:LoggerId                      Value:0x6
+Offset:004 Length:004 Name:BufferSize                    Value:0x4000
+Offset:008 Length:004 Name:MaximumEventSize              Value:0x3fb8
+Offset:00c Length:004 Name:LoggerMode                    Value:0x10800180
+Offset:010 Length:004 Name:AcceptNewEvents               Value:0
+Offset:018 Length:008 Name:GetCpuClock                   Value:0000000000000001
+Offset:020 Length:008 Name:LoggerThread                  Value:FFFFCF813B954080
+Offset:028 Length:004 Name:LoggerStatus                  Value:0
+Offset:02c Length:004 Name:FailureReason                 Value:0
+Offset:030 Length:010 Name:BufferQueue                   暂不处理 StructName:_ETW_BUFFER_QUEUE
+Offset:040 Length:010 Name:OverflowQueue                 暂不处理 StructName:_ETW_BUFFER_QUEUE
+Offset:050 Length:010 Name:GlobalList                    暂不处理 StructName:_LIST_ENTRY
+Offset:060 Length:010 Name:DebugIdTrackingList           暂不处理 StructName:_LIST_ENTRY
+Offset:070 Length:008 Name:DecodeControlList             Value:0000000000000000
+Offset:078 Length:004 Name:DecodeControlCount            Value:0
+Offset:080 Length:008 Name:BatchedBufferList             Value:0000000000000000
+Offset:080 Length:008 Name:CurrentBuffer                 暂不处理 StructName:_EX_FAST_REF
+Offset:088 Length:010 Name:LoggerName                    Value:DiagLog
+Offset:098 Length:010 Name:LogFileName                   Value:
+Offset:0a8 Length:010 Name:LogFilePattern                Value:
+Offset:0b8 Length:010 Name:NewLogFileName                Value:
+Offset:0c8 Length:004 Name:ClockType                     Value:0x1
+Offset:0cc Length:004 Name:LastFlushedBuffer             Value:0
+Offset:0d0 Length:004 Name:FlushTimer                    Value:0x1
+Offset:0d4 Length:004 Name:FlushThreshold                Value:0
+Offset:0d8 Length:008 Name:ByteOffset                    Value:0
+Offset:0e0 Length:004 Name:MinimumBuffers                Value:0x2
+Offset:0e4 Length:004 Name:BuffersAvailable              Value:0x2
+Offset:0e8 Length:004 Name:NumberOfBuffers               Value:0x2
+Offset:0ec Length:004 Name:MaximumBuffers                Value:0x16
+Offset:0f0 Length:004 Name:EventsLost                    Value:0
+Offset:0f4 Length:004 Name:PeakBuffersCount              Value:0x3
+Offset:0f8 Length:004 Name:BuffersWritten                Value:0
+Offset:0fc Length:004 Name:LogBuffersLost                Value:0
+Offset:100 Length:004 Name:RealTimeBuffersDelivered      Value:0x87
+Offset:104 Length:004 Name:RealTimeBuffersLost           Value:0
+Offset:108 Length:008 Name:SequencePtr                   Value:0
+Offset:110 Length:004 Name:LocalSequence                 Value:0
+Offset:114 Length:010 Name:InstanceGuid                  Value:{08B524EB-A2BF-47EB-AEF1-DBD871741D7A}
+Offset:124 Length:004 Name:MaximumFileSize               Value:0x64
+Offset:128 Length:004 Name:FileCounter                   Value:0
+Offset:12c Length:004 Name:PoolType                      Value:0x200
+Offset:130 Length:010 Name:ReferenceTime                 暂不处理 StructName:_ETW_REF_CLOCK
+Offset:140 Length:004 Name:CollectionOn                  Value:0x1
+Offset:144 Length:004 Name:ProviderInfoSize              Value:0
+Offset:148 Length:010 Name:Consumers                     暂不处理 StructName:_LIST_ENTRY
+Offset:158 Length:004 Name:NumConsumers                  Value:0x1
+Offset:160 Length:008 Name:TransitionConsumer            Value:0000000000000000
+Offset:168 Length:008 Name:RealtimeLogfileHandle         Value:FFFFFFFF80000278
+Offset:170 Length:010 Name:RealtimeLogfileName           Value:C:\Windows\system32\Logfiles\WMI\RtBackup\EtwRTDiagLog.etl
+Offset:180 Length:008 Name:RealtimeWriteOffset           Value:48
+Offset:188 Length:008 Name:RealtimeReadOffset            Value:48
+Offset:190 Length:008 Name:RealtimeLogfileSize           Value:48
+Offset:198 Length:008 Name:RealtimeLogfileUsage          Value:0000000000000000
+Offset:1a0 Length:008 Name:RealtimeMaximumFileSize       Value:0000000006400000
+Offset:1a8 Length:004 Name:RealtimeBuffersSaved          Value:0
+Offset:1b0 Length:010 Name:RealtimeReferenceTime         暂不处理 StructName:_ETW_REF_CLOCK
+Offset:1c0 Length:004 Name:NewRTEventsLost               Value:0
+Offset:1c8 Length:018 Name:LoggerEvent                   暂不处理 StructName:_KEVENT
+Offset:1e0 Length:018 Name:FlushEvent                    暂不处理 StructName:_KEVENT
+Offset:1f8 Length:040 Name:FlushTimeOutTimer             暂不处理 StructName:_KTIMER
+Offset:238 Length:040 Name:LoggerDpc                     暂不处理 StructName:_KDPC
+Offset:278 Length:038 Name:LoggerMutex                   暂不处理 StructName:_KMUTANT
+Offset:2b0 Length:008 Name:LoggerLock                    暂不处理 StructName:_EX_PUSH_LOCK
+Offset:2b8 Length:008 Name:BufferListSpinLock            Value:0000000000000000
+Offset:2b8 Length:008 Name:BufferListPushLock            暂不处理 StructName:_EX_PUSH_LOCK
+Offset:2c0 Length:048 Name:ClientSecurityContext         暂不处理 StructName:_SECURITY_CLIENT_CONTEXT
+Offset:308 Length:008 Name:TokenAccessInformation        Value:0000000000000000
+Offset:310 Length:008 Name:SecurityDescriptor            暂不处理 StructName:_EX_FAST_REF
+Offset:318 Length:008 Name:StartTime                     Value:1dbed7b7c24a745
+Offset:320 Length:008 Name:LogFileHandle                 Value:0000000000000000
+Offset:328 Length:008 Name:BufferSequenceNumber          Value:0000000000000089
+Offset:330 Length:004 Name:Flags                         Value:0xf
+Offset:330 Length:004 Name:Persistent                    Value:0xf
+Offset:330 Length:004 Name:AutoLogger                    Value:0xf
+Offset:330 Length:004 Name:FsReady                       Value:0xf
+Offset:330 Length:004 Name:RealTime                      Value:0xf
+Offset:330 Length:004 Name:Wow                           Value:0xf
+Offset:330 Length:004 Name:KernelTrace                   Value:0xf
+Offset:330 Length:004 Name:NoMoreEnable                  Value:0xf
+Offset:330 Length:004 Name:StackTracing                  Value:0xf
+Offset:330 Length:004 Name:ErrorLogged                   Value:0xf
+Offset:330 Length:004 Name:RealtimeLoggerContextFreed    Value:0xf
+Offset:330 Length:004 Name:PebsTracing                   Value:0xf
+Offset:330 Length:004 Name:PmcCounters                   Value:0xf
+Offset:330 Length:004 Name:PageAlignBuffers              Value:0xf
+Offset:330 Length:004 Name:StackLookasideListAllocated   Value:0xf
+Offset:330 Length:004 Name:SecurityTrace                 Value:0xf
+Offset:330 Length:004 Name:LastBranchTracing             Value:0xf
+Offset:330 Length:004 Name:SystemLoggerIndex             Value:0xf
+Offset:330 Length:004 Name:StackCaching                  Value:0xf
+Offset:330 Length:004 Name:ProviderTracking              Value:0xf
+Offset:330 Length:004 Name:ProcessorTrace                Value:0xf
+Offset:330 Length:004 Name:QpcDeltaTracking              Value:0xf
+Offset:330 Length:004 Name:MarkerBufferSaved             Value:0xf
+Offset:330 Length:004 Name:LargeMdlPages                 Value:0xf
+Offset:330 Length:004 Name:ExcludeKernelStack            Value:0xf
+Offset:330 Length:004 Name:BootLogger                    Value:0xf
+Offset:334 Length:004 Name:Flags2                        Value:0
+Offset:334 Length:004 Name:UnifiedStackCaching           Value:0
+Offset:338 Length:004 Name:RequestFlag                   Value:0
+Offset:338 Length:004 Name:DbgRequestNewFile             Value:0
+Offset:338 Length:004 Name:DbgRequestUpdateFile          Value:0
+Offset:338 Length:004 Name:DbgRequestFlush               Value:0
+Offset:338 Length:004 Name:DbgRequestDisableRealtime     Value:0
+Offset:338 Length:004 Name:DbgRequestDisconnectConsumer  Value:0
+Offset:338 Length:004 Name:DbgRequestConnectConsumer     Value:0
+Offset:338 Length:004 Name:DbgRequestNotifyConsumer      Value:0
+Offset:338 Length:004 Name:DbgRequestUpdateHeader        Value:0
+Offset:338 Length:004 Name:DbgRequestDeferredFlush       Value:0
+Offset:338 Length:004 Name:DbgRequestDeferredFlushTimer  Value:0
+Offset:338 Length:004 Name:DbgRequestFlushTimer          Value:0
+Offset:338 Length:004 Name:DbgRequestUpdateDebugger      Value:0
+Offset:338 Length:004 Name:DbgSpareRequestFlags          Value:0
+Offset:340 Length:0a0 Name:StackTraceBlock               暂不处理 StructName:_ETW_STACK_TRACE_BLOCK
+Offset:3e0 Length:010 Name:HookIdMap                     暂不处理 StructName:_RTL_BITMAP
+Offset:3f0 Length:008 Name:StackCache                    Value:0000000000000000
+Offset:3f8 Length:008 Name:PmcData                       Value:0000000000000000
+Offset:400 Length:008 Name:LbrData                       Value:0000000000000000
+Offset:408 Length:008 Name:IptData                       Value:0000000000000000
+Offset:410 Length:010 Name:BinaryTrackingList            暂不处理 StructName:_LIST_ENTRY
+Offset:420 Length:008 Name:ScratchArray                  Value:0000000000000000
+Offset:428 Length:010 Name:DisallowedGuids               暂不处理 StructName:_DISALLOWED_GUIDS
+Offset:438 Length:008 Name:PeriodicCaptureStateContext   Value:0000000000000000
+Offset:440 Length:008 Name:SoftRestartContext            Value:0000000000000000
+Offset:448 Length:008 Name:SiloState                     Value:FFFFCF813BA72000
+Offset:450 Length:020 Name:CompressionWorkItem           暂不处理 StructName:_WORK_QUEUE_ITEM
+Offset:470 Length:004 Name:CompressionWorkItemState      Value:0
+Offset:478 Length:008 Name:CompressionLock               暂不处理 StructName:_EX_PUSH_LOCK
+Offset:480 Length:008 Name:CompressionTarget             Value:0000000000000000
+Offset:488 Length:008 Name:CompressionWorkspace          Value:0000000000000000
+Offset:490 Length:004 Name:CompressionOn                 Value:0
+Offset:494 Length:004 Name:CompressionRatioGuess         Value:0
+Offset:498 Length:004 Name:PartialBufferCompressionLevel Value:0
+Offset:49c Length:004 Name:CompressionResumptionMode     Value:0
+Offset:4a0 Length:008 Name:PlaceholderList               暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:4a8 Length:040 Name:CompressionDpc                暂不处理 StructName:_KDPC
+Offset:4e8 Length:008 Name:LastBufferSwitchTime          Value:0
+Offset:4f0 Length:008 Name:BufferWriteDuration           Value:0
+Offset:4f8 Length:008 Name:BufferCompressDuration        Value:0
+Offset:500 Length:008 Name:ReferenceQpcDelta             Value:0000000000000000
+Offset:508 Length:008 Name:CallbackContext               Value:0000000000000000
+Offset:510 Length:008 Name:LastDroppedTime               Value:0000000000000000
+Offset:518 Length:008 Name:FlushingLastDroppedTime       Value:0000000000000000
+Offset:520 Length:008 Name:FlushingSequenceNumber        Value:FFFFFFFFFFFFFFFF
+Offset:528 Length:008 Name:PartitionContext              暂不处理 StructName:_ETW_PARTITION_CONTEXT
+Offset:530 Length:008 Name:BufferMdl                     Value:0000000000000000
+
+_ETW_REALTIME_CONSUMER:
+Offset:000 Length:010 Name:Links                         暂不处理 StructName:_LIST_ENTRY
+Offset:010 Length:008 Name:ProcessHandle                 Value:FFFFFFFF80001DD0
+Offset:018 Length:008 Name:ProcessObject                 Value:FFFFCF8140DE4080
+Offset:020 Length:008 Name:NextNotDelivered              Value:0000000000000000
+Offset:028 Length:008 Name:RealtimeConnectContext        Value:0000000000000000
+Offset:030 Length:008 Name:DisconnectEvent               Value:FFFFCF8140EE6660
+Offset:038 Length:008 Name:DataAvailableEvent            Value:FFFFCF8140EE6D60
+Offset:040 Length:008 Name:UserBufferCount               Value:3726859552
+Offset:048 Length:008 Name:UserBufferListHead            Value:0000027DDE235D18
+Offset:050 Length:004 Name:BuffersLost                   Value:0
+Offset:054 Length:004 Name:EmptyBuffersCount             Value:0
+Offset:058 Length:002 Name:LoggerId                      Value:6
+Offset:05a Length:001 Name:Flags                         Value:0
+Offset:05a Length:001 Name:ShutDownRequested             Value:0
+Offset:05a Length:001 Name:NewBuffersLost                Value:0
+Offset:05a Length:001 Name:Disconnected                  Value:0
+Offset:05a Length:001 Name:Notified                      Value:0
+Offset:05a Length:001 Name:Wow                           Value:0
+Offset:060 Length:010 Name:ReservedBufferSpaceBitMap     暂不处理 StructName:_RTL_BITMAP
+Offset:070 Length:008 Name:ReservedBufferSpace           Value:0
+Offset:078 Length:004 Name:ReservedBufferSpaceSize       Value:0x8000
+Offset:07c Length:004 Name:UserPagesAllocated            Value:0x8
+Offset:080 Length:004 Name:UserPagesReused               Value:0xe6
+Offset:088 Length:008 Name:EventsLostCount               Value:3726859320
+Offset:090 Length:008 Name:BuffersLostCount              Value:3726859324
+Offset:098 Length:008 Name:SiloState                     Value:FFFFCF813BA72000
+
+---------------------------------------------------------------------------------------
+
+Index:5
+EtwConsumerObject(_ETW_REALTIME_CONSUMER/EtwpRealTimeConnectionObjectType):FFFFCF8141557830
+Logger ProcessId:0000000000000004, Logger ThreadId:0000000000000090, Consumer ProcessId:4272
+
+_WMI_LOGGER_CONTEXT:
+Offset:000 Length:004 Name:LoggerId                      Value:0x7
+Offset:004 Length:004 Name:BufferSize                    Value:0x10000
+Offset:008 Length:004 Name:MaximumEventSize              Value:0xffb8
+Offset:00c Length:004 Name:LoggerMode                    Value:0x8800110
+Offset:010 Length:004 Name:AcceptNewEvents               Value:0
+Offset:018 Length:008 Name:GetCpuClock                   Value:0000000000000001
+Offset:020 Length:008 Name:LoggerThread                  Value:FFFFCF813B95C080
+Offset:028 Length:004 Name:LoggerStatus                  Value:0
+Offset:02c Length:004 Name:FailureReason                 Value:0
+Offset:030 Length:010 Name:BufferQueue                   暂不处理 StructName:_ETW_BUFFER_QUEUE
+Offset:040 Length:010 Name:OverflowQueue                 暂不处理 StructName:_ETW_BUFFER_QUEUE
+Offset:050 Length:010 Name:GlobalList                    暂不处理 StructName:_LIST_ENTRY
+Offset:060 Length:010 Name:DebugIdTrackingList           暂不处理 StructName:_LIST_ENTRY
+Offset:070 Length:008 Name:DecodeControlList             Value:0000000000000000
+Offset:078 Length:004 Name:DecodeControlCount            Value:0
+Offset:080 Length:008 Name:BatchedBufferList             Value:0000000000000000
+Offset:080 Length:008 Name:CurrentBuffer                 暂不处理 StructName:_EX_FAST_REF
+Offset:088 Length:010 Name:LoggerName                    Value:Diagtrack-Listener
+Offset:098 Length:010 Name:LogFileName                   Value:
+Offset:0a8 Length:010 Name:LogFilePattern                Value:
+Offset:0b8 Length:010 Name:NewLogFileName                Value:
+Offset:0c8 Length:004 Name:ClockType                     Value:0x1
+Offset:0cc Length:004 Name:LastFlushedBuffer             Value:0x5
+Offset:0d0 Length:004 Name:FlushTimer                    Value:0x12c
+Offset:0d4 Length:004 Name:FlushThreshold                Value:0
+Offset:0d8 Length:008 Name:ByteOffset                    Value:50000
+Offset:0e0 Length:004 Name:MinimumBuffers                Value:0x8
+Offset:0e4 Length:004 Name:BuffersAvailable              Value:0x7
+Offset:0e8 Length:004 Name:NumberOfBuffers               Value:0x8
+Offset:0ec Length:004 Name:MaximumBuffers                Value:0x1e
+Offset:0f0 Length:004 Name:EventsLost                    Value:0
+Offset:0f4 Length:004 Name:PeakBuffersCount              Value:0x8
+Offset:0f8 Length:004 Name:BuffersWritten                Value:0x5
+Offset:0fc Length:004 Name:LogBuffersLost                Value:0
+Offset:100 Length:004 Name:RealTimeBuffersDelivered      Value:0x25f
+Offset:104 Length:004 Name:RealTimeBuffersLost           Value:0
+Offset:108 Length:008 Name:SequencePtr                   Value:0
+Offset:110 Length:004 Name:LocalSequence                 Value:0
+Offset:114 Length:010 Name:InstanceGuid                  Value:{11D8A17B-F2D8-4733-B41B-6F4959ACD701}
+Offset:124 Length:004 Name:MaximumFileSize               Value:0x20
+Offset:128 Length:004 Name:FileCounter                   Value:0x4
+Offset:12c Length:004 Name:PoolType                      Value:0x200
+Offset:130 Length:010 Name:ReferenceTime                 暂不处理 StructName:_ETW_REF_CLOCK
+Offset:140 Length:004 Name:CollectionOn                  Value:0x1
+Offset:144 Length:004 Name:ProviderInfoSize              Value:0xffce
+Offset:148 Length:010 Name:Consumers                     暂不处理 StructName:_LIST_ENTRY
+Offset:158 Length:004 Name:NumConsumers                  Value:0x1
+Offset:160 Length:008 Name:TransitionConsumer            Value:0000000000000000
+Offset:168 Length:008 Name:RealtimeLogfileHandle         Value:FFFFFFFF8000218C
+Offset:170 Length:010 Name:RealtimeLogfileName           Value:C:\Windows\system32\Logfiles\WMI\RtBackup\EtwRTDiagtrack-Listener.etl
+Offset:180 Length:008 Name:RealtimeWriteOffset           Value:48
+Offset:188 Length:008 Name:RealtimeReadOffset            Value:48
+Offset:190 Length:008 Name:RealtimeLogfileSize           Value:48
+Offset:198 Length:008 Name:RealtimeLogfileUsage          Value:0000000000000000
+Offset:1a0 Length:008 Name:RealtimeMaximumFileSize       Value:0000000002000000
+Offset:1a8 Length:004 Name:RealtimeBuffersSaved          Value:0
+Offset:1b0 Length:010 Name:RealtimeReferenceTime         暂不处理 StructName:_ETW_REF_CLOCK
+Offset:1c0 Length:004 Name:NewRTEventsLost               Value:0
+Offset:1c8 Length:018 Name:LoggerEvent                   暂不处理 StructName:_KEVENT
+Offset:1e0 Length:018 Name:FlushEvent                    暂不处理 StructName:_KEVENT
+Offset:1f8 Length:040 Name:FlushTimeOutTimer             暂不处理 StructName:_KTIMER
+Offset:238 Length:040 Name:LoggerDpc                     暂不处理 StructName:_KDPC
+Offset:278 Length:038 Name:LoggerMutex                   暂不处理 StructName:_KMUTANT
+Offset:2b0 Length:008 Name:LoggerLock                    暂不处理 StructName:_EX_PUSH_LOCK
+Offset:2b8 Length:008 Name:BufferListSpinLock            Value:0000000000000000
+Offset:2b8 Length:008 Name:BufferListPushLock            暂不处理 StructName:_EX_PUSH_LOCK
+Offset:2c0 Length:048 Name:ClientSecurityContext         暂不处理 StructName:_SECURITY_CLIENT_CONTEXT
+Offset:308 Length:008 Name:TokenAccessInformation        Value:FFFFE28E190EF720
+Offset:310 Length:008 Name:SecurityDescriptor            暂不处理 StructName:_EX_FAST_REF
+Offset:318 Length:008 Name:StartTime                     Value:1dbed7b7c24b395
+Offset:320 Length:008 Name:LogFileHandle                 Value:0000000000000000
+Offset:328 Length:008 Name:BufferSequenceNumber          Value:000000000000026A
+Offset:330 Length:004 Name:Flags                         Value:0x200000f
+Offset:330 Length:004 Name:Persistent                    Value:0x200000f
+Offset:330 Length:004 Name:AutoLogger                    Value:0x200000f
+Offset:330 Length:004 Name:FsReady                       Value:0x200000f
+Offset:330 Length:004 Name:RealTime                      Value:0x200000f
+Offset:330 Length:004 Name:Wow                           Value:0x200000f
+Offset:330 Length:004 Name:KernelTrace                   Value:0x200000f
+Offset:330 Length:004 Name:NoMoreEnable                  Value:0x200000f
+Offset:330 Length:004 Name:StackTracing                  Value:0x200000f
+Offset:330 Length:004 Name:ErrorLogged                   Value:0x200000f
+Offset:330 Length:004 Name:RealtimeLoggerContextFreed    Value:0x200000f
+Offset:330 Length:004 Name:PebsTracing                   Value:0x200000f
+Offset:330 Length:004 Name:PmcCounters                   Value:0x200000f
+Offset:330 Length:004 Name:PageAlignBuffers              Value:0x200000f
+Offset:330 Length:004 Name:StackLookasideListAllocated   Value:0x200000f
+Offset:330 Length:004 Name:SecurityTrace                 Value:0x200000f
+Offset:330 Length:004 Name:LastBranchTracing             Value:0x200000f
+Offset:330 Length:004 Name:SystemLoggerIndex             Value:0x200000f
+Offset:330 Length:004 Name:StackCaching                  Value:0x200000f
+Offset:330 Length:004 Name:ProviderTracking              Value:0x200000f
+Offset:330 Length:004 Name:ProcessorTrace                Value:0x200000f
+Offset:330 Length:004 Name:QpcDeltaTracking              Value:0x200000f
+Offset:330 Length:004 Name:MarkerBufferSaved             Value:0x200000f
+Offset:330 Length:004 Name:LargeMdlPages                 Value:0x200000f
+Offset:330 Length:004 Name:ExcludeKernelStack            Value:0x200000f
+Offset:330 Length:004 Name:BootLogger                    Value:0x200000f
+Offset:334 Length:004 Name:Flags2                        Value:0
+Offset:334 Length:004 Name:UnifiedStackCaching           Value:0
+Offset:338 Length:004 Name:RequestFlag                   Value:0x400
+Offset:338 Length:004 Name:DbgRequestNewFile             Value:0x400
+Offset:338 Length:004 Name:DbgRequestUpdateFile          Value:0x400
+Offset:338 Length:004 Name:DbgRequestFlush               Value:0x400
+Offset:338 Length:004 Name:DbgRequestDisableRealtime     Value:0x400
+Offset:338 Length:004 Name:DbgRequestDisconnectConsumer  Value:0x400
+Offset:338 Length:004 Name:DbgRequestConnectConsumer     Value:0x400
+Offset:338 Length:004 Name:DbgRequestNotifyConsumer      Value:0x400
+Offset:338 Length:004 Name:DbgRequestUpdateHeader        Value:0x400
+Offset:338 Length:004 Name:DbgRequestDeferredFlush       Value:0x400
+Offset:338 Length:004 Name:DbgRequestDeferredFlushTimer  Value:0x400
+Offset:338 Length:004 Name:DbgRequestFlushTimer          Value:0x400
+Offset:338 Length:004 Name:DbgRequestUpdateDebugger      Value:0x400
+Offset:338 Length:004 Name:DbgSpareRequestFlags          Value:0x400
+Offset:340 Length:0a0 Name:StackTraceBlock               暂不处理 StructName:_ETW_STACK_TRACE_BLOCK
+Offset:3e0 Length:010 Name:HookIdMap                     暂不处理 StructName:_RTL_BITMAP
+Offset:3f0 Length:008 Name:StackCache                    Value:0000000000000000
+Offset:3f8 Length:008 Name:PmcData                       Value:0000000000000000
+Offset:400 Length:008 Name:LbrData                       Value:0000000000000000
+Offset:408 Length:008 Name:IptData                       Value:0000000000000000
+Offset:410 Length:010 Name:BinaryTrackingList            暂不处理 StructName:_LIST_ENTRY
+Offset:420 Length:008 Name:ScratchArray                  Value:0000000000000000
+Offset:428 Length:010 Name:DisallowedGuids               暂不处理 StructName:_DISALLOWED_GUIDS
+Offset:438 Length:008 Name:PeriodicCaptureStateContext   Value:0000000000000000
+Offset:440 Length:008 Name:SoftRestartContext            Value:0000000000000000
+Offset:448 Length:008 Name:SiloState                     Value:FFFFCF813BA72000
+Offset:450 Length:020 Name:CompressionWorkItem           暂不处理 StructName:_WORK_QUEUE_ITEM
+Offset:470 Length:004 Name:CompressionWorkItemState      Value:0
+Offset:478 Length:008 Name:CompressionLock               暂不处理 StructName:_EX_PUSH_LOCK
+Offset:480 Length:008 Name:CompressionTarget             Value:0000000000000000
+Offset:488 Length:008 Name:CompressionWorkspace          Value:0000000000000000
+Offset:490 Length:004 Name:CompressionOn                 Value:0
+Offset:494 Length:004 Name:CompressionRatioGuess         Value:0
+Offset:498 Length:004 Name:PartialBufferCompressionLevel Value:0
+Offset:49c Length:004 Name:CompressionResumptionMode     Value:0
+Offset:4a0 Length:008 Name:PlaceholderList               暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:4a8 Length:040 Name:CompressionDpc                暂不处理 StructName:_KDPC
+Offset:4e8 Length:008 Name:LastBufferSwitchTime          Value:0
+Offset:4f0 Length:008 Name:BufferWriteDuration           Value:0
+Offset:4f8 Length:008 Name:BufferCompressDuration        Value:0
+Offset:500 Length:008 Name:ReferenceQpcDelta             Value:0000000000000000
+Offset:508 Length:008 Name:CallbackContext               Value:0000000000000000
+Offset:510 Length:008 Name:LastDroppedTime               Value:0000000000000000
+Offset:518 Length:008 Name:FlushingLastDroppedTime       Value:0000000000000000
+Offset:520 Length:008 Name:FlushingSequenceNumber        Value:FFFFFFFFFFFFFFFF
+Offset:528 Length:008 Name:PartitionContext              暂不处理 StructName:_ETW_PARTITION_CONTEXT
+Offset:530 Length:008 Name:BufferMdl                     Value:0000000000000000
+
+_ETW_REALTIME_CONSUMER:
+Offset:000 Length:010 Name:Links                         暂不处理 StructName:_LIST_ENTRY
+Offset:010 Length:008 Name:ProcessHandle                 Value:FFFFFFFF800000AC
+Offset:018 Length:008 Name:ProcessObject                 Value:FFFFCF8140DB5080
+Offset:020 Length:008 Name:NextNotDelivered              Value:0000000000000000
+Offset:028 Length:008 Name:RealtimeConnectContext        Value:0000000000000000
+Offset:030 Length:008 Name:DisconnectEvent               Value:FFFFCF81413C8160
+Offset:038 Length:008 Name:DataAvailableEvent            Value:FFFFCF81413C71E0
+Offset:040 Length:008 Name:UserBufferCount               Value:1356045392
+Offset:048 Length:008 Name:UserBufferListHead            Value:0000026C50D39C48
+Offset:050 Length:004 Name:BuffersLost                   Value:0
+Offset:054 Length:004 Name:EmptyBuffersCount             Value:0x1
+Offset:058 Length:002 Name:LoggerId                      Value:7
+Offset:05a Length:001 Name:Flags                         Value:8
+Offset:05a Length:001 Name:ShutDownRequested             Value:8
+Offset:05a Length:001 Name:NewBuffersLost                Value:8
+Offset:05a Length:001 Name:Disconnected                  Value:8
+Offset:05a Length:001 Name:Notified                      Value:8
+Offset:05a Length:001 Name:Wow                           Value:8
+Offset:060 Length:010 Name:ReservedBufferSpaceBitMap     暂不处理 StructName:_RTL_BITMAP
+Offset:070 Length:008 Name:ReservedBufferSpace           Value:0
+Offset:078 Length:004 Name:ReservedBufferSpaceSize       Value:0x80000
+Offset:07c Length:004 Name:UserPagesAllocated            Value:0
+Offset:080 Length:004 Name:UserPagesReused               Value:0x3c1
+Offset:088 Length:008 Name:EventsLostCount               Value:1356045160
+Offset:090 Length:008 Name:BuffersLostCount              Value:1356045164
+Offset:098 Length:008 Name:SiloState                     Value:FFFFCF813BA72000
+
+---------------------------------------------------------------------------------------
+
+Index:6
+EtwConsumerObject(_ETW_REALTIME_CONSUMER/EtwpRealTimeConnectionObjectType):FFFFCF81403F7500
+Logger ProcessId:0000000000000004, Logger ThreadId:0000000000000094, Consumer ProcessId:2408
+
+_WMI_LOGGER_CONTEXT:
+Offset:000 Length:004 Name:LoggerId                      Value:0x8
+Offset:004 Length:004 Name:BufferSize                    Value:0x10000
+Offset:008 Length:004 Name:MaximumEventSize              Value:0xffb8
+Offset:00c Length:004 Name:LoggerMode                    Value:0x19800180
+Offset:010 Length:004 Name:AcceptNewEvents               Value:0
+Offset:018 Length:008 Name:GetCpuClock                   Value:0000000000000000
+Offset:020 Length:008 Name:LoggerThread                  Value:FFFFCF813B95E080
+Offset:028 Length:004 Name:LoggerStatus                  Value:0
+Offset:02c Length:004 Name:FailureReason                 Value:0
+Offset:030 Length:010 Name:BufferQueue                   暂不处理 StructName:_ETW_BUFFER_QUEUE
+Offset:040 Length:010 Name:OverflowQueue                 暂不处理 StructName:_ETW_BUFFER_QUEUE
+Offset:050 Length:010 Name:GlobalList                    暂不处理 StructName:_LIST_ENTRY
+Offset:060 Length:010 Name:DebugIdTrackingList           暂不处理 StructName:_LIST_ENTRY
+Offset:070 Length:008 Name:DecodeControlList             Value:0000000000000000
+Offset:078 Length:004 Name:DecodeControlCount            Value:0
+Offset:080 Length:008 Name:BatchedBufferList             Value:FFFFE28E1431A00F
+Offset:080 Length:008 Name:CurrentBuffer                 暂不处理 StructName:_EX_FAST_REF
+Offset:088 Length:010 Name:LoggerName                    Value:EventLog-Application
+Offset:098 Length:010 Name:LogFileName                   Value:
+Offset:0a8 Length:010 Name:LogFilePattern                Value:
+Offset:0b8 Length:010 Name:NewLogFileName                Value:
+Offset:0c8 Length:004 Name:ClockType                     Value:0x2
+Offset:0cc Length:004 Name:LastFlushedBuffer             Value:0
+Offset:0d0 Length:004 Name:FlushTimer                    Value:0x1
+Offset:0d4 Length:004 Name:FlushThreshold                Value:0
+Offset:0d8 Length:008 Name:ByteOffset                    Value:0
+Offset:0e0 Length:004 Name:MinimumBuffers                Value:0x2
+Offset:0e4 Length:004 Name:BuffersAvailable              Value:0x1
+Offset:0e8 Length:004 Name:NumberOfBuffers               Value:0x2
+Offset:0ec Length:004 Name:MaximumBuffers                Value:0x40
+Offset:0f0 Length:004 Name:EventsLost                    Value:0
+Offset:0f4 Length:004 Name:PeakBuffersCount              Value:0x3
+Offset:0f8 Length:004 Name:BuffersWritten                Value:0
+Offset:0fc Length:004 Name:LogBuffersLost                Value:0
+Offset:100 Length:004 Name:RealTimeBuffersDelivered      Value:0x595
+Offset:104 Length:004 Name:RealTimeBuffersLost           Value:0
+Offset:108 Length:008 Name:SequencePtr                   Value:0
+Offset:110 Length:004 Name:LocalSequence                 Value:0
+Offset:114 Length:010 Name:InstanceGuid                  Value:{C4A0A2BC-C743-5810-8AD4-2655A8CA2744}
+Offset:124 Length:004 Name:MaximumFileSize               Value:0x64
+Offset:128 Length:004 Name:FileCounter                   Value:0
+Offset:12c Length:004 Name:PoolType                      Value:0x1
+Offset:130 Length:010 Name:ReferenceTime                 暂不处理 StructName:_ETW_REF_CLOCK
+Offset:140 Length:004 Name:CollectionOn                  Value:0x1
+Offset:144 Length:004 Name:ProviderInfoSize              Value:0
+Offset:148 Length:010 Name:Consumers                     暂不处理 StructName:_LIST_ENTRY
+Offset:158 Length:004 Name:NumConsumers                  Value:0x1
+Offset:160 Length:008 Name:TransitionConsumer            Value:0000000000000000
+Offset:168 Length:008 Name:RealtimeLogfileHandle         Value:FFFFFFFF800003C8
+Offset:170 Length:010 Name:RealtimeLogfileName           Value:C:\Windows\system32\Logfiles\WMI\RtBackup\EtwRTEventLog-Application.etl
+Offset:180 Length:008 Name:RealtimeWriteOffset           Value:48
+Offset:188 Length:008 Name:RealtimeReadOffset            Value:48
+Offset:190 Length:008 Name:RealtimeLogfileSize           Value:48
+Offset:198 Length:008 Name:RealtimeLogfileUsage          Value:0000000000000000
+Offset:1a0 Length:008 Name:RealtimeMaximumFileSize       Value:0000000006400000
+Offset:1a8 Length:004 Name:RealtimeBuffersSaved          Value:0
+Offset:1b0 Length:010 Name:RealtimeReferenceTime         暂不处理 StructName:_ETW_REF_CLOCK
+Offset:1c0 Length:004 Name:NewRTEventsLost               Value:0
+Offset:1c8 Length:018 Name:LoggerEvent                   暂不处理 StructName:_KEVENT
+Offset:1e0 Length:018 Name:FlushEvent                    暂不处理 StructName:_KEVENT
+Offset:1f8 Length:040 Name:FlushTimeOutTimer             暂不处理 StructName:_KTIMER
+Offset:238 Length:040 Name:LoggerDpc                     暂不处理 StructName:_KDPC
+Offset:278 Length:038 Name:LoggerMutex                   暂不处理 StructName:_KMUTANT
+Offset:2b0 Length:008 Name:LoggerLock                    暂不处理 StructName:_EX_PUSH_LOCK
+Offset:2b8 Length:008 Name:BufferListSpinLock            Value:0000000000000000
+Offset:2b8 Length:008 Name:BufferListPushLock            暂不处理 StructName:_EX_PUSH_LOCK
+Offset:2c0 Length:048 Name:ClientSecurityContext         暂不处理 StructName:_SECURITY_CLIENT_CONTEXT
+Offset:308 Length:008 Name:TokenAccessInformation        Value:0000000000000000
+Offset:310 Length:008 Name:SecurityDescriptor            暂不处理 StructName:_EX_FAST_REF
+Offset:318 Length:008 Name:StartTime                     Value:1dbed7b7c25fac3
+Offset:320 Length:008 Name:LogFileHandle                 Value:0000000000000000
+Offset:328 Length:008 Name:BufferSequenceNumber          Value:0000000000000597
+Offset:330 Length:004 Name:Flags                         Value:0xf
+Offset:330 Length:004 Name:Persistent                    Value:0xf
+Offset:330 Length:004 Name:AutoLogger                    Value:0xf
+Offset:330 Length:004 Name:FsReady                       Value:0xf
+Offset:330 Length:004 Name:RealTime                      Value:0xf
+Offset:330 Length:004 Name:Wow                           Value:0xf
+Offset:330 Length:004 Name:KernelTrace                   Value:0xf
+Offset:330 Length:004 Name:NoMoreEnable                  Value:0xf
+Offset:330 Length:004 Name:StackTracing                  Value:0xf
+Offset:330 Length:004 Name:ErrorLogged                   Value:0xf
+Offset:330 Length:004 Name:RealtimeLoggerContextFreed    Value:0xf
+Offset:330 Length:004 Name:PebsTracing                   Value:0xf
+Offset:330 Length:004 Name:PmcCounters                   Value:0xf
+Offset:330 Length:004 Name:PageAlignBuffers              Value:0xf
+Offset:330 Length:004 Name:StackLookasideListAllocated   Value:0xf
+Offset:330 Length:004 Name:SecurityTrace                 Value:0xf
+Offset:330 Length:004 Name:LastBranchTracing             Value:0xf
+Offset:330 Length:004 Name:SystemLoggerIndex             Value:0xf
+Offset:330 Length:004 Name:StackCaching                  Value:0xf
+Offset:330 Length:004 Name:ProviderTracking              Value:0xf
+Offset:330 Length:004 Name:ProcessorTrace                Value:0xf
+Offset:330 Length:004 Name:QpcDeltaTracking              Value:0xf
+Offset:330 Length:004 Name:MarkerBufferSaved             Value:0xf
+Offset:330 Length:004 Name:LargeMdlPages                 Value:0xf
+Offset:330 Length:004 Name:ExcludeKernelStack            Value:0xf
+Offset:330 Length:004 Name:BootLogger                    Value:0xf
+Offset:334 Length:004 Name:Flags2                        Value:0
+Offset:334 Length:004 Name:UnifiedStackCaching           Value:0
+Offset:338 Length:004 Name:RequestFlag                   Value:0x400
+Offset:338 Length:004 Name:DbgRequestNewFile             Value:0x400
+Offset:338 Length:004 Name:DbgRequestUpdateFile          Value:0x400
+Offset:338 Length:004 Name:DbgRequestFlush               Value:0x400
+Offset:338 Length:004 Name:DbgRequestDisableRealtime     Value:0x400
+Offset:338 Length:004 Name:DbgRequestDisconnectConsumer  Value:0x400
+Offset:338 Length:004 Name:DbgRequestConnectConsumer     Value:0x400
+Offset:338 Length:004 Name:DbgRequestNotifyConsumer      Value:0x400
+Offset:338 Length:004 Name:DbgRequestUpdateHeader        Value:0x400
+Offset:338 Length:004 Name:DbgRequestDeferredFlush       Value:0x400
+Offset:338 Length:004 Name:DbgRequestDeferredFlushTimer  Value:0x400
+Offset:338 Length:004 Name:DbgRequestFlushTimer          Value:0x400
+Offset:338 Length:004 Name:DbgRequestUpdateDebugger      Value:0x400
+Offset:338 Length:004 Name:DbgSpareRequestFlags          Value:0x400
+Offset:340 Length:0a0 Name:StackTraceBlock               暂不处理 StructName:_ETW_STACK_TRACE_BLOCK
+Offset:3e0 Length:010 Name:HookIdMap                     暂不处理 StructName:_RTL_BITMAP
+Offset:3f0 Length:008 Name:StackCache                    Value:0000000000000000
+Offset:3f8 Length:008 Name:PmcData                       Value:0000000000000000
+Offset:400 Length:008 Name:LbrData                       Value:0000000000000000
+Offset:408 Length:008 Name:IptData                       Value:0000000000000000
+Offset:410 Length:010 Name:BinaryTrackingList            暂不处理 StructName:_LIST_ENTRY
+Offset:420 Length:008 Name:ScratchArray                  Value:0000000000000000
+Offset:428 Length:010 Name:DisallowedGuids               暂不处理 StructName:_DISALLOWED_GUIDS
+Offset:438 Length:008 Name:PeriodicCaptureStateContext   Value:0000000000000000
+Offset:440 Length:008 Name:SoftRestartContext            Value:0000000000000000
+Offset:448 Length:008 Name:SiloState                     Value:FFFFCF813BA72000
+Offset:450 Length:020 Name:CompressionWorkItem           暂不处理 StructName:_WORK_QUEUE_ITEM
+Offset:470 Length:004 Name:CompressionWorkItemState      Value:0
+Offset:478 Length:008 Name:CompressionLock               暂不处理 StructName:_EX_PUSH_LOCK
+Offset:480 Length:008 Name:CompressionTarget             Value:0000000000000000
+Offset:488 Length:008 Name:CompressionWorkspace          Value:0000000000000000
+Offset:490 Length:004 Name:CompressionOn                 Value:0
+Offset:494 Length:004 Name:CompressionRatioGuess         Value:0
+Offset:498 Length:004 Name:PartialBufferCompressionLevel Value:0
+Offset:49c Length:004 Name:CompressionResumptionMode     Value:0
+Offset:4a0 Length:008 Name:PlaceholderList               暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:4a8 Length:040 Name:CompressionDpc                暂不处理 StructName:_KDPC
+Offset:4e8 Length:008 Name:LastBufferSwitchTime          Value:0
+Offset:4f0 Length:008 Name:BufferWriteDuration           Value:0
+Offset:4f8 Length:008 Name:BufferCompressDuration        Value:0
+Offset:500 Length:008 Name:ReferenceQpcDelta             Value:0000000000000000
+Offset:508 Length:008 Name:CallbackContext               Value:0000000000000000
+Offset:510 Length:008 Name:LastDroppedTime               Value:0000000000000000
+Offset:518 Length:008 Name:FlushingLastDroppedTime       Value:0000000000000000
+Offset:520 Length:008 Name:FlushingSequenceNumber        Value:FFFFFFFFFFFFFFFF
+Offset:528 Length:008 Name:PartitionContext              暂不处理 StructName:_ETW_PARTITION_CONTEXT
+Offset:530 Length:008 Name:BufferMdl                     Value:0000000000000000
+
+_ETW_REALTIME_CONSUMER:
+Offset:000 Length:010 Name:Links                         暂不处理 StructName:_LIST_ENTRY
+Offset:010 Length:008 Name:ProcessHandle                 Value:FFFFFFFF80001180
+Offset:018 Length:008 Name:ProcessObject                 Value:FFFFCF813B91B080
+Offset:020 Length:008 Name:NextNotDelivered              Value:0000000000000000
+Offset:028 Length:008 Name:RealtimeConnectContext        Value:0000000000000000
+Offset:030 Length:008 Name:DisconnectEvent               Value:FFFFCF81403B98E0
+Offset:038 Length:008 Name:DataAvailableEvent            Value:FFFFCF81403B9FE0
+Offset:040 Length:008 Name:UserBufferCount               Value:1005011104
+Offset:048 Length:008 Name:UserBufferListHead            Value:000002013BE74098
+Offset:050 Length:004 Name:BuffersLost                   Value:0
+Offset:054 Length:004 Name:EmptyBuffersCount             Value:0
+Offset:058 Length:002 Name:LoggerId                      Value:8
+Offset:05a Length:001 Name:Flags                         Value:0
+Offset:05a Length:001 Name:ShutDownRequested             Value:0
+Offset:05a Length:001 Name:NewBuffersLost                Value:0
+Offset:05a Length:001 Name:Disconnected                  Value:0
+Offset:05a Length:001 Name:Notified                      Value:0
+Offset:05a Length:001 Name:Wow                           Value:0
+Offset:060 Length:010 Name:ReservedBufferSpaceBitMap     暂不处理 StructName:_RTL_BITMAP
+Offset:070 Length:008 Name:ReservedBufferSpace           Value:0
+Offset:078 Length:004 Name:ReservedBufferSpaceSize       Value:0x20000
+Offset:07c Length:004 Name:UserPagesAllocated            Value:0
+Offset:080 Length:004 Name:UserPagesReused               Value:0xb18
+Offset:088 Length:008 Name:EventsLostCount               Value:1005010872
+Offset:090 Length:008 Name:BuffersLostCount              Value:1005010876
+Offset:098 Length:008 Name:SiloState                     Value:FFFFCF813BA72000
+
+---------------------------------------------------------------------------------------
+
+Index:7
+EtwConsumerObject(_ETW_REALTIME_CONSUMER/EtwpRealTimeConnectionObjectType):FFFFCF81403F6840
+Logger ProcessId:0000000000000004, Logger ThreadId:000000000000009C, Consumer ProcessId:2408
+
+_WMI_LOGGER_CONTEXT:
+Offset:000 Length:004 Name:LoggerId                      Value:0x9
+Offset:004 Length:004 Name:BufferSize                    Value:0x10000
+Offset:008 Length:004 Name:MaximumEventSize              Value:0xffb8
+Offset:00c Length:004 Name:LoggerMode                    Value:0x98800180
+Offset:010 Length:004 Name:AcceptNewEvents               Value:0
+Offset:018 Length:008 Name:GetCpuClock                   Value:0000000000000000
+Offset:020 Length:008 Name:LoggerThread                  Value:FFFFCF813B964080
+Offset:028 Length:004 Name:LoggerStatus                  Value:0
+Offset:02c Length:004 Name:FailureReason                 Value:0
+Offset:030 Length:010 Name:BufferQueue                   暂不处理 StructName:_ETW_BUFFER_QUEUE
+Offset:040 Length:010 Name:OverflowQueue                 暂不处理 StructName:_ETW_BUFFER_QUEUE
+Offset:050 Length:010 Name:GlobalList                    暂不处理 StructName:_LIST_ENTRY
+Offset:060 Length:010 Name:DebugIdTrackingList           暂不处理 StructName:_LIST_ENTRY
+Offset:070 Length:008 Name:DecodeControlList             Value:0000000000000000
+Offset:078 Length:004 Name:DecodeControlCount            Value:0
+Offset:080 Length:008 Name:BatchedBufferList             Value:0000000000000000
+Offset:080 Length:008 Name:CurrentBuffer                 暂不处理 StructName:_EX_FAST_REF
+Offset:088 Length:010 Name:LoggerName                    Value:EventLog-System
+Offset:098 Length:010 Name:LogFileName                   Value:
+Offset:0a8 Length:010 Name:LogFilePattern                Value:
+Offset:0b8 Length:010 Name:NewLogFileName                Value:
+Offset:0c8 Length:004 Name:ClockType                     Value:0x2
+Offset:0cc Length:004 Name:LastFlushedBuffer             Value:0
+Offset:0d0 Length:004 Name:FlushTimer                    Value:0x1
+Offset:0d4 Length:004 Name:FlushThreshold                Value:0
+Offset:0d8 Length:008 Name:ByteOffset                    Value:0
+Offset:0e0 Length:004 Name:MinimumBuffers                Value:0x2
+Offset:0e4 Length:004 Name:BuffersAvailable              Value:0x2
+Offset:0e8 Length:004 Name:NumberOfBuffers               Value:0x2
+Offset:0ec Length:004 Name:MaximumBuffers                Value:0x10
+Offset:0f0 Length:004 Name:EventsLost                    Value:0
+Offset:0f4 Length:004 Name:PeakBuffersCount              Value:0x2
+Offset:0f8 Length:004 Name:BuffersWritten                Value:0
+Offset:0fc Length:004 Name:LogBuffersLost                Value:0
+Offset:100 Length:004 Name:RealTimeBuffersDelivered      Value:0xc3
+Offset:104 Length:004 Name:RealTimeBuffersLost           Value:0
+Offset:108 Length:008 Name:SequencePtr                   Value:0
+Offset:110 Length:004 Name:LocalSequence                 Value:0
+Offset:114 Length:010 Name:InstanceGuid                  Value:{D2112BE4-CD15-5A9C-E38F-080A207E08D5}
+Offset:124 Length:004 Name:MaximumFileSize               Value:0x64
+Offset:128 Length:004 Name:FileCounter                   Value:0
+Offset:12c Length:004 Name:PoolType                      Value:0x200
+Offset:130 Length:010 Name:ReferenceTime                 暂不处理 StructName:_ETW_REF_CLOCK
+Offset:140 Length:004 Name:CollectionOn                  Value:0x1
+Offset:144 Length:004 Name:ProviderInfoSize              Value:0
+Offset:148 Length:010 Name:Consumers                     暂不处理 StructName:_LIST_ENTRY
+Offset:158 Length:004 Name:NumConsumers                  Value:0x1
+Offset:160 Length:008 Name:TransitionConsumer            Value:0000000000000000
+Offset:168 Length:008 Name:RealtimeLogfileHandle         Value:FFFFFFFF800003CC
+Offset:170 Length:010 Name:RealtimeLogfileName           Value:C:\Windows\system32\Logfiles\WMI\RtBackup\EtwRTEventLog-System.etl
+Offset:180 Length:008 Name:RealtimeWriteOffset           Value:48
+Offset:188 Length:008 Name:RealtimeReadOffset            Value:48
+Offset:190 Length:008 Name:RealtimeLogfileSize           Value:48
+Offset:198 Length:008 Name:RealtimeLogfileUsage          Value:0000000000000000
+Offset:1a0 Length:008 Name:RealtimeMaximumFileSize       Value:0000000006400000
+Offset:1a8 Length:004 Name:RealtimeBuffersSaved          Value:0
+Offset:1b0 Length:010 Name:RealtimeReferenceTime         暂不处理 StructName:_ETW_REF_CLOCK
+Offset:1c0 Length:004 Name:NewRTEventsLost               Value:0
+Offset:1c8 Length:018 Name:LoggerEvent                   暂不处理 StructName:_KEVENT
+Offset:1e0 Length:018 Name:FlushEvent                    暂不处理 StructName:_KEVENT
+Offset:1f8 Length:040 Name:FlushTimeOutTimer             暂不处理 StructName:_KTIMER
+Offset:238 Length:040 Name:LoggerDpc                     暂不处理 StructName:_KDPC
+Offset:278 Length:038 Name:LoggerMutex                   暂不处理 StructName:_KMUTANT
+Offset:2b0 Length:008 Name:LoggerLock                    暂不处理 StructName:_EX_PUSH_LOCK
+Offset:2b8 Length:008 Name:BufferListSpinLock            Value:0000000000000000
+Offset:2b8 Length:008 Name:BufferListPushLock            暂不处理 StructName:_EX_PUSH_LOCK
+Offset:2c0 Length:048 Name:ClientSecurityContext         暂不处理 StructName:_SECURITY_CLIENT_CONTEXT
+Offset:308 Length:008 Name:TokenAccessInformation        Value:0000000000000000
+Offset:310 Length:008 Name:SecurityDescriptor            暂不处理 StructName:_EX_FAST_REF
+Offset:318 Length:008 Name:StartTime                     Value:1dbed7b7c282ee1
+Offset:320 Length:008 Name:LogFileHandle                 Value:0000000000000000
+Offset:328 Length:008 Name:BufferSequenceNumber          Value:00000000000000C1
+Offset:330 Length:004 Name:Flags                         Value:0xf
+Offset:330 Length:004 Name:Persistent                    Value:0xf
+Offset:330 Length:004 Name:AutoLogger                    Value:0xf
+Offset:330 Length:004 Name:FsReady                       Value:0xf
+Offset:330 Length:004 Name:RealTime                      Value:0xf
+Offset:330 Length:004 Name:Wow                           Value:0xf
+Offset:330 Length:004 Name:KernelTrace                   Value:0xf
+Offset:330 Length:004 Name:NoMoreEnable                  Value:0xf
+Offset:330 Length:004 Name:StackTracing                  Value:0xf
+Offset:330 Length:004 Name:ErrorLogged                   Value:0xf
+Offset:330 Length:004 Name:RealtimeLoggerContextFreed    Value:0xf
+Offset:330 Length:004 Name:PebsTracing                   Value:0xf
+Offset:330 Length:004 Name:PmcCounters                   Value:0xf
+Offset:330 Length:004 Name:PageAlignBuffers              Value:0xf
+Offset:330 Length:004 Name:StackLookasideListAllocated   Value:0xf
+Offset:330 Length:004 Name:SecurityTrace                 Value:0xf
+Offset:330 Length:004 Name:LastBranchTracing             Value:0xf
+Offset:330 Length:004 Name:SystemLoggerIndex             Value:0xf
+Offset:330 Length:004 Name:StackCaching                  Value:0xf
+Offset:330 Length:004 Name:ProviderTracking              Value:0xf
+Offset:330 Length:004 Name:ProcessorTrace                Value:0xf
+Offset:330 Length:004 Name:QpcDeltaTracking              Value:0xf
+Offset:330 Length:004 Name:MarkerBufferSaved             Value:0xf
+Offset:330 Length:004 Name:LargeMdlPages                 Value:0xf
+Offset:330 Length:004 Name:ExcludeKernelStack            Value:0xf
+Offset:330 Length:004 Name:BootLogger                    Value:0xf
+Offset:334 Length:004 Name:Flags2                        Value:0
+Offset:334 Length:004 Name:UnifiedStackCaching           Value:0
+Offset:338 Length:004 Name:RequestFlag                   Value:0
+Offset:338 Length:004 Name:DbgRequestNewFile             Value:0
+Offset:338 Length:004 Name:DbgRequestUpdateFile          Value:0
+Offset:338 Length:004 Name:DbgRequestFlush               Value:0
+Offset:338 Length:004 Name:DbgRequestDisableRealtime     Value:0
+Offset:338 Length:004 Name:DbgRequestDisconnectConsumer  Value:0
+Offset:338 Length:004 Name:DbgRequestConnectConsumer     Value:0
+Offset:338 Length:004 Name:DbgRequestNotifyConsumer      Value:0
+Offset:338 Length:004 Name:DbgRequestUpdateHeader        Value:0
+Offset:338 Length:004 Name:DbgRequestDeferredFlush       Value:0
+Offset:338 Length:004 Name:DbgRequestDeferredFlushTimer  Value:0
+Offset:338 Length:004 Name:DbgRequestFlushTimer          Value:0
+Offset:338 Length:004 Name:DbgRequestUpdateDebugger      Value:0
+Offset:338 Length:004 Name:DbgSpareRequestFlags          Value:0
+Offset:340 Length:0a0 Name:StackTraceBlock               暂不处理 StructName:_ETW_STACK_TRACE_BLOCK
+Offset:3e0 Length:010 Name:HookIdMap                     暂不处理 StructName:_RTL_BITMAP
+Offset:3f0 Length:008 Name:StackCache                    Value:0000000000000000
+Offset:3f8 Length:008 Name:PmcData                       Value:0000000000000000
+Offset:400 Length:008 Name:LbrData                       Value:0000000000000000
+Offset:408 Length:008 Name:IptData                       Value:0000000000000000
+Offset:410 Length:010 Name:BinaryTrackingList            暂不处理 StructName:_LIST_ENTRY
+Offset:420 Length:008 Name:ScratchArray                  Value:0000000000000000
+Offset:428 Length:010 Name:DisallowedGuids               暂不处理 StructName:_DISALLOWED_GUIDS
+Offset:438 Length:008 Name:PeriodicCaptureStateContext   Value:0000000000000000
+Offset:440 Length:008 Name:SoftRestartContext            Value:0000000000000000
+Offset:448 Length:008 Name:SiloState                     Value:FFFFCF813BA72000
+Offset:450 Length:020 Name:CompressionWorkItem           暂不处理 StructName:_WORK_QUEUE_ITEM
+Offset:470 Length:004 Name:CompressionWorkItemState      Value:0
+Offset:478 Length:008 Name:CompressionLock               暂不处理 StructName:_EX_PUSH_LOCK
+Offset:480 Length:008 Name:CompressionTarget             Value:0000000000000000
+Offset:488 Length:008 Name:CompressionWorkspace          Value:0000000000000000
+Offset:490 Length:004 Name:CompressionOn                 Value:0
+Offset:494 Length:004 Name:CompressionRatioGuess         Value:0
+Offset:498 Length:004 Name:PartialBufferCompressionLevel Value:0
+Offset:49c Length:004 Name:CompressionResumptionMode     Value:0
+Offset:4a0 Length:008 Name:PlaceholderList               暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:4a8 Length:040 Name:CompressionDpc                暂不处理 StructName:_KDPC
+Offset:4e8 Length:008 Name:LastBufferSwitchTime          Value:0
+Offset:4f0 Length:008 Name:BufferWriteDuration           Value:0
+Offset:4f8 Length:008 Name:BufferCompressDuration        Value:0
+Offset:500 Length:008 Name:ReferenceQpcDelta             Value:0000000000000000
+Offset:508 Length:008 Name:CallbackContext               Value:0000000000000000
+Offset:510 Length:008 Name:LastDroppedTime               Value:0000000000000000
+Offset:518 Length:008 Name:FlushingLastDroppedTime       Value:0000000000000000
+Offset:520 Length:008 Name:FlushingSequenceNumber        Value:FFFFFFFFFFFFFFFF
+Offset:528 Length:008 Name:PartitionContext              暂不处理 StructName:_ETW_PARTITION_CONTEXT
+Offset:530 Length:008 Name:BufferMdl                     Value:0000000000000000
+
+_ETW_REALTIME_CONSUMER:
+Offset:000 Length:010 Name:Links                         暂不处理 StructName:_LIST_ENTRY
+Offset:010 Length:008 Name:ProcessHandle                 Value:FFFFFFFF80000430
+Offset:018 Length:008 Name:ProcessObject                 Value:FFFFCF813B91B080
+Offset:020 Length:008 Name:NextNotDelivered              Value:0000000000000000
+Offset:028 Length:008 Name:RealtimeConnectContext        Value:0000000000000000
+Offset:030 Length:008 Name:DisconnectEvent               Value:FFFFCF81403B94E0
+Offset:038 Length:008 Name:DataAvailableEvent            Value:FFFFCF81403B95E0
+Offset:040 Length:008 Name:UserBufferCount               Value:1005010016
+Offset:048 Length:008 Name:UserBufferListHead            Value:000002013BE73C58
+Offset:050 Length:004 Name:BuffersLost                   Value:0
+Offset:054 Length:004 Name:EmptyBuffersCount             Value:0
+Offset:058 Length:002 Name:LoggerId                      Value:9
+Offset:05a Length:001 Name:Flags                         Value:0
+Offset:05a Length:001 Name:ShutDownRequested             Value:0
+Offset:05a Length:001 Name:NewBuffersLost                Value:0
+Offset:05a Length:001 Name:Disconnected                  Value:0
+Offset:05a Length:001 Name:Notified                      Value:0
+Offset:05a Length:001 Name:Wow                           Value:0
+Offset:060 Length:010 Name:ReservedBufferSpaceBitMap     暂不处理 StructName:_RTL_BITMAP
+Offset:070 Length:008 Name:ReservedBufferSpace           Value:0
+Offset:078 Length:004 Name:ReservedBufferSpaceSize       Value:0x20000
+Offset:07c Length:004 Name:UserPagesAllocated            Value:0
+Offset:080 Length:004 Name:UserPagesReused               Value:0x128
+Offset:088 Length:008 Name:EventsLostCount               Value:1005009784
+Offset:090 Length:008 Name:BuffersLostCount              Value:1005009788
+Offset:098 Length:008 Name:SiloState                     Value:FFFFCF813BA72000
+
+---------------------------------------------------------------------------------------
+
+Index:8
+EtwConsumerObject(_ETW_REALTIME_CONSUMER/EtwpRealTimeConnectionObjectType):FFFFCF813F66AA40
+Logger ProcessId:0000000000000004, Logger ThreadId:00000000000000BC, Consumer ProcessId:612
+
+_WMI_LOGGER_CONTEXT:
+Offset:000 Length:004 Name:LoggerId                      Value:0x11
+Offset:004 Length:004 Name:BufferSize                    Value:0x800
+Offset:008 Length:004 Name:MaximumEventSize              Value:0x7b8
+Offset:00c Length:004 Name:LoggerMode                    Value:0x108001d0
+Offset:010 Length:004 Name:AcceptNewEvents               Value:0
+Offset:018 Length:008 Name:GetCpuClock                   Value:0000000000000001
+Offset:020 Length:008 Name:LoggerThread                  Value:FFFFCF813B986080
+Offset:028 Length:004 Name:LoggerStatus                  Value:0
+Offset:02c Length:004 Name:FailureReason                 Value:0
+Offset:030 Length:010 Name:BufferQueue                   暂不处理 StructName:_ETW_BUFFER_QUEUE
+Offset:040 Length:010 Name:OverflowQueue                 暂不处理 StructName:_ETW_BUFFER_QUEUE
+Offset:050 Length:010 Name:GlobalList                    暂不处理 StructName:_LIST_ENTRY
+Offset:060 Length:010 Name:DebugIdTrackingList           暂不处理 StructName:_LIST_ENTRY
+Offset:070 Length:008 Name:DecodeControlList             Value:0000000000000000
+Offset:078 Length:004 Name:DecodeControlCount            Value:0
+Offset:080 Length:008 Name:BatchedBufferList             Value:0000000000000000
+Offset:080 Length:008 Name:CurrentBuffer                 暂不处理 StructName:_EX_FAST_REF
+Offset:088 Length:010 Name:LoggerName                    Value:UBPM
+Offset:098 Length:010 Name:LogFileName                   Value:
+Offset:0a8 Length:010 Name:LogFilePattern                Value:
+Offset:0b8 Length:010 Name:NewLogFileName                Value:
+Offset:0c8 Length:004 Name:ClockType                     Value:0x1
+Offset:0cc Length:004 Name:LastFlushedBuffer             Value:0
+Offset:0d0 Length:004 Name:FlushTimer                    Value:0x14
+Offset:0d4 Length:004 Name:FlushThreshold                Value:0
+Offset:0d8 Length:008 Name:ByteOffset                    Value:0
+Offset:0e0 Length:004 Name:MinimumBuffers                Value:0x2
+Offset:0e4 Length:004 Name:BuffersAvailable              Value:0x2
+Offset:0e8 Length:004 Name:NumberOfBuffers               Value:0x2
+Offset:0ec Length:004 Name:MaximumBuffers                Value:0x64
+Offset:0f0 Length:004 Name:EventsLost                    Value:0
+Offset:0f4 Length:004 Name:PeakBuffersCount              Value:0x2
+Offset:0f8 Length:004 Name:BuffersWritten                Value:0
+Offset:0fc Length:004 Name:LogBuffersLost                Value:0
+Offset:100 Length:004 Name:RealTimeBuffersDelivered      Value:0x2f
+Offset:104 Length:004 Name:RealTimeBuffersLost           Value:0
+Offset:108 Length:008 Name:SequencePtr                   Value:0
+Offset:110 Length:004 Name:LocalSequence                 Value:0
+Offset:114 Length:010 Name:InstanceGuid                  Value:{C09355A3-96AF-4E8F-8D32-A2658DC2D5BE}
+Offset:124 Length:004 Name:MaximumFileSize               Value:0xa
+Offset:128 Length:004 Name:FileCounter                   Value:0
+Offset:12c Length:004 Name:PoolType                      Value:0x200
+Offset:130 Length:010 Name:ReferenceTime                 暂不处理 StructName:_ETW_REF_CLOCK
+Offset:140 Length:004 Name:CollectionOn                  Value:0x1
+Offset:144 Length:004 Name:ProviderInfoSize              Value:0
+Offset:148 Length:010 Name:Consumers                     暂不处理 StructName:_LIST_ENTRY
+Offset:158 Length:004 Name:NumConsumers                  Value:0x1
+Offset:160 Length:008 Name:TransitionConsumer            Value:0000000000000000
+Offset:168 Length:008 Name:RealtimeLogfileHandle         Value:FFFFFFFF8000039C
+Offset:170 Length:010 Name:RealtimeLogfileName           Value:C:\Windows\system32\Logfiles\WMI\RtBackup\EtwRTUBPM.etl
+Offset:180 Length:008 Name:RealtimeWriteOffset           Value:48
+Offset:188 Length:008 Name:RealtimeReadOffset            Value:48
+Offset:190 Length:008 Name:RealtimeLogfileSize           Value:48
+Offset:198 Length:008 Name:RealtimeLogfileUsage          Value:0000000000000000
+Offset:1a0 Length:008 Name:RealtimeMaximumFileSize       Value:0000000000A00000
+Offset:1a8 Length:004 Name:RealtimeBuffersSaved          Value:0
+Offset:1b0 Length:010 Name:RealtimeReferenceTime         暂不处理 StructName:_ETW_REF_CLOCK
+Offset:1c0 Length:004 Name:NewRTEventsLost               Value:0
+Offset:1c8 Length:018 Name:LoggerEvent                   暂不处理 StructName:_KEVENT
+Offset:1e0 Length:018 Name:FlushEvent                    暂不处理 StructName:_KEVENT
+Offset:1f8 Length:040 Name:FlushTimeOutTimer             暂不处理 StructName:_KTIMER
+Offset:238 Length:040 Name:LoggerDpc                     暂不处理 StructName:_KDPC
+Offset:278 Length:038 Name:LoggerMutex                   暂不处理 StructName:_KMUTANT
+Offset:2b0 Length:008 Name:LoggerLock                    暂不处理 StructName:_EX_PUSH_LOCK
+Offset:2b8 Length:008 Name:BufferListSpinLock            Value:0000000000000000
+Offset:2b8 Length:008 Name:BufferListPushLock            暂不处理 StructName:_EX_PUSH_LOCK
+Offset:2c0 Length:048 Name:ClientSecurityContext         暂不处理 StructName:_SECURITY_CLIENT_CONTEXT
+Offset:308 Length:008 Name:TokenAccessInformation        Value:0000000000000000
+Offset:310 Length:008 Name:SecurityDescriptor            暂不处理 StructName:_EX_FAST_REF
+Offset:318 Length:008 Name:StartTime                     Value:1dbed7b7c2aeead
+Offset:320 Length:008 Name:LogFileHandle                 Value:0000000000000000
+Offset:328 Length:008 Name:BufferSequenceNumber          Value:0000000000000031
+Offset:330 Length:004 Name:Flags                         Value:0xf
+Offset:330 Length:004 Name:Persistent                    Value:0xf
+Offset:330 Length:004 Name:AutoLogger                    Value:0xf
+Offset:330 Length:004 Name:FsReady                       Value:0xf
+Offset:330 Length:004 Name:RealTime                      Value:0xf
+Offset:330 Length:004 Name:Wow                           Value:0xf
+Offset:330 Length:004 Name:KernelTrace                   Value:0xf
+Offset:330 Length:004 Name:NoMoreEnable                  Value:0xf
+Offset:330 Length:004 Name:StackTracing                  Value:0xf
+Offset:330 Length:004 Name:ErrorLogged                   Value:0xf
+Offset:330 Length:004 Name:RealtimeLoggerContextFreed    Value:0xf
+Offset:330 Length:004 Name:PebsTracing                   Value:0xf
+Offset:330 Length:004 Name:PmcCounters                   Value:0xf
+Offset:330 Length:004 Name:PageAlignBuffers              Value:0xf
+Offset:330 Length:004 Name:StackLookasideListAllocated   Value:0xf
+Offset:330 Length:004 Name:SecurityTrace                 Value:0xf
+Offset:330 Length:004 Name:LastBranchTracing             Value:0xf
+Offset:330 Length:004 Name:SystemLoggerIndex             Value:0xf
+Offset:330 Length:004 Name:StackCaching                  Value:0xf
+Offset:330 Length:004 Name:ProviderTracking              Value:0xf
+Offset:330 Length:004 Name:ProcessorTrace                Value:0xf
+Offset:330 Length:004 Name:QpcDeltaTracking              Value:0xf
+Offset:330 Length:004 Name:MarkerBufferSaved             Value:0xf
+Offset:330 Length:004 Name:LargeMdlPages                 Value:0xf
+Offset:330 Length:004 Name:ExcludeKernelStack            Value:0xf
+Offset:330 Length:004 Name:BootLogger                    Value:0xf
+Offset:334 Length:004 Name:Flags2                        Value:0
+Offset:334 Length:004 Name:UnifiedStackCaching           Value:0
+Offset:338 Length:004 Name:RequestFlag                   Value:0
+Offset:338 Length:004 Name:DbgRequestNewFile             Value:0
+Offset:338 Length:004 Name:DbgRequestUpdateFile          Value:0
+Offset:338 Length:004 Name:DbgRequestFlush               Value:0
+Offset:338 Length:004 Name:DbgRequestDisableRealtime     Value:0
+Offset:338 Length:004 Name:DbgRequestDisconnectConsumer  Value:0
+Offset:338 Length:004 Name:DbgRequestConnectConsumer     Value:0
+Offset:338 Length:004 Name:DbgRequestNotifyConsumer      Value:0
+Offset:338 Length:004 Name:DbgRequestUpdateHeader        Value:0
+Offset:338 Length:004 Name:DbgRequestDeferredFlush       Value:0
+Offset:338 Length:004 Name:DbgRequestDeferredFlushTimer  Value:0
+Offset:338 Length:004 Name:DbgRequestFlushTimer          Value:0
+Offset:338 Length:004 Name:DbgRequestUpdateDebugger      Value:0
+Offset:338 Length:004 Name:DbgSpareRequestFlags          Value:0
+Offset:340 Length:0a0 Name:StackTraceBlock               暂不处理 StructName:_ETW_STACK_TRACE_BLOCK
+Offset:3e0 Length:010 Name:HookIdMap                     暂不处理 StructName:_RTL_BITMAP
+Offset:3f0 Length:008 Name:StackCache                    Value:0000000000000000
+Offset:3f8 Length:008 Name:PmcData                       Value:0000000000000000
+Offset:400 Length:008 Name:LbrData                       Value:0000000000000000
+Offset:408 Length:008 Name:IptData                       Value:0000000000000000
+Offset:410 Length:010 Name:BinaryTrackingList            暂不处理 StructName:_LIST_ENTRY
+Offset:420 Length:008 Name:ScratchArray                  Value:0000000000000000
+Offset:428 Length:010 Name:DisallowedGuids               暂不处理 StructName:_DISALLOWED_GUIDS
+Offset:438 Length:008 Name:PeriodicCaptureStateContext   Value:0000000000000000
+Offset:440 Length:008 Name:SoftRestartContext            Value:0000000000000000
+Offset:448 Length:008 Name:SiloState                     Value:FFFFCF813BA72000
+Offset:450 Length:020 Name:CompressionWorkItem           暂不处理 StructName:_WORK_QUEUE_ITEM
+Offset:470 Length:004 Name:CompressionWorkItemState      Value:0
+Offset:478 Length:008 Name:CompressionLock               暂不处理 StructName:_EX_PUSH_LOCK
+Offset:480 Length:008 Name:CompressionTarget             Value:0000000000000000
+Offset:488 Length:008 Name:CompressionWorkspace          Value:0000000000000000
+Offset:490 Length:004 Name:CompressionOn                 Value:0
+Offset:494 Length:004 Name:CompressionRatioGuess         Value:0
+Offset:498 Length:004 Name:PartialBufferCompressionLevel Value:0
+Offset:49c Length:004 Name:CompressionResumptionMode     Value:0
+Offset:4a0 Length:008 Name:PlaceholderList               暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:4a8 Length:040 Name:CompressionDpc                暂不处理 StructName:_KDPC
+Offset:4e8 Length:008 Name:LastBufferSwitchTime          Value:0
+Offset:4f0 Length:008 Name:BufferWriteDuration           Value:0
+Offset:4f8 Length:008 Name:BufferCompressDuration        Value:0
+Offset:500 Length:008 Name:ReferenceQpcDelta             Value:0000000000000000
+Offset:508 Length:008 Name:CallbackContext               Value:0000000000000000
+Offset:510 Length:008 Name:LastDroppedTime               Value:0000000000000000
+Offset:518 Length:008 Name:FlushingLastDroppedTime       Value:0000000000000000
+Offset:520 Length:008 Name:FlushingSequenceNumber        Value:FFFFFFFFFFFFFFFF
+Offset:528 Length:008 Name:PartitionContext              暂不处理 StructName:_ETW_PARTITION_CONTEXT
+Offset:530 Length:008 Name:BufferMdl                     Value:0000000000000000
+
+_ETW_REALTIME_CONSUMER:
+Offset:000 Length:010 Name:Links                         暂不处理 StructName:_LIST_ENTRY
+Offset:010 Length:008 Name:ProcessHandle                 Value:FFFFFFFF80000874
+Offset:018 Length:008 Name:ProcessObject                 Value:FFFFCF813FED4080
+Offset:020 Length:008 Name:NextNotDelivered              Value:0000000000000000
+Offset:028 Length:008 Name:RealtimeConnectContext        Value:0000000000000000
+Offset:030 Length:008 Name:DisconnectEvent               Value:FFFFCF81400CA660
+Offset:038 Length:008 Name:DataAvailableEvent            Value:FFFFCF81400CA6E0
+Offset:040 Length:008 Name:UserBufferCount               Value:2594882736
+Offset:048 Length:008 Name:UserBufferListHead            Value:0000026A9AAAC4A8
+Offset:050 Length:004 Name:BuffersLost                   Value:0
+Offset:054 Length:004 Name:EmptyBuffersCount             Value:0
+Offset:058 Length:002 Name:LoggerId                      Value:17
+Offset:05a Length:001 Name:Flags                         Value:0
+Offset:05a Length:001 Name:ShutDownRequested             Value:0
+Offset:05a Length:001 Name:NewBuffersLost                Value:0
+Offset:05a Length:001 Name:Disconnected                  Value:0
+Offset:05a Length:001 Name:Notified                      Value:0
+Offset:05a Length:001 Name:Wow                           Value:0
+Offset:060 Length:010 Name:ReservedBufferSpaceBitMap     暂不处理 StructName:_RTL_BITMAP
+Offset:070 Length:008 Name:ReservedBufferSpace           Value:0
+Offset:078 Length:004 Name:ReservedBufferSpaceSize       Value:0x1000
+Offset:07c Length:004 Name:UserPagesAllocated            Value:0x2
+Offset:080 Length:004 Name:UserPagesReused               Value:0x2f
+Offset:088 Length:008 Name:EventsLostCount               Value:2594882504
+Offset:090 Length:008 Name:BuffersLostCount              Value:2594882508
+Offset:098 Length:008 Name:SiloState                     Value:FFFFCF813BA72000
+
+---------------------------------------------------------------------------------------
+
+Index:9
+EtwConsumerObject(_ETW_REALTIME_CONSUMER/EtwpRealTimeConnectionObjectType):FFFFCF8140CF7C60
+Logger ProcessId:0000000000000004, Logger ThreadId:0000000000001188, Consumer ProcessId:3652
+
+_WMI_LOGGER_CONTEXT:
+Offset:000 Length:004 Name:LoggerId                      Value:0x1e
+Offset:004 Length:004 Name:BufferSize                    Value:0x8000
+Offset:008 Length:004 Name:MaximumEventSize              Value:0x7fb8
+Offset:00c Length:004 Name:LoggerMode                    Value:0x10802102
+Offset:010 Length:004 Name:AcceptNewEvents               Value:0
+Offset:018 Length:008 Name:GetCpuClock                   Value:0000000000000000
+Offset:020 Length:008 Name:LoggerThread                  Value:FFFFCF8140E550C0
+Offset:028 Length:004 Name:LoggerStatus                  Value:0
+Offset:02c Length:004 Name:FailureReason                 Value:0
+Offset:030 Length:010 Name:BufferQueue                   暂不处理 StructName:_ETW_BUFFER_QUEUE
+Offset:040 Length:010 Name:OverflowQueue                 暂不处理 StructName:_ETW_BUFFER_QUEUE
+Offset:050 Length:010 Name:GlobalList                    暂不处理 StructName:_LIST_ENTRY
+Offset:060 Length:010 Name:DebugIdTrackingList           暂不处理 StructName:_LIST_ENTRY
+Offset:070 Length:008 Name:DecodeControlList             Value:0000000000000000
+Offset:078 Length:004 Name:DecodeControlCount            Value:0
+Offset:080 Length:008 Name:BatchedBufferList             Value:0000000000000000
+Offset:080 Length:008 Name:CurrentBuffer                 暂不处理 StructName:_EX_FAST_REF
+Offset:088 Length:010 Name:LoggerName                    Value:WFP-IPsec Diagnostics
+Offset:098 Length:010 Name:LogFileName                   Value:C:\ProgramData\Microsoft\Windows\wfp\wfpdiag.etl
+Offset:0a8 Length:010 Name:LogFilePattern                Value:
+Offset:0b8 Length:010 Name:NewLogFileName                Value:
+Offset:0c8 Length:004 Name:ClockType                     Value:0x2
+Offset:0cc Length:004 Name:LastFlushedBuffer             Value:0xe
+Offset:0d0 Length:004 Name:FlushTimer                    Value:0x1
+Offset:0d4 Length:004 Name:FlushThreshold                Value:0
+Offset:0d8 Length:008 Name:ByteOffset                    Value:70000
+Offset:0e0 Length:004 Name:MinimumBuffers                Value:0x2
+Offset:0e4 Length:004 Name:BuffersAvailable              Value:0x2
+Offset:0e8 Length:004 Name:NumberOfBuffers               Value:0x2
+Offset:0ec Length:004 Name:MaximumBuffers                Value:0x8
+Offset:0f0 Length:004 Name:EventsLost                    Value:0
+Offset:0f4 Length:004 Name:PeakBuffersCount              Value:0x2
+Offset:0f8 Length:004 Name:BuffersWritten                Value:0xe
+Offset:0fc Length:004 Name:LogBuffersLost                Value:0
+Offset:100 Length:004 Name:RealTimeBuffersDelivered      Value:0xd
+Offset:104 Length:004 Name:RealTimeBuffersLost           Value:0
+Offset:108 Length:008 Name:SequencePtr                   Value:0
+Offset:110 Length:004 Name:LocalSequence                 Value:0
+Offset:114 Length:010 Name:InstanceGuid                  Value:{B40325FE-7106-42AC-849E-8AA81DF5CB01}
+Offset:124 Length:004 Name:MaximumFileSize               Value:0x400
+Offset:128 Length:004 Name:FileCounter                   Value:0
+Offset:12c Length:004 Name:PoolType                      Value:0x200
+Offset:130 Length:010 Name:ReferenceTime                 暂不处理 StructName:_ETW_REF_CLOCK
+Offset:140 Length:004 Name:CollectionOn                  Value:0x1
+Offset:144 Length:004 Name:ProviderInfoSize              Value:0
+Offset:148 Length:010 Name:Consumers                     暂不处理 StructName:_LIST_ENTRY
+Offset:158 Length:004 Name:NumConsumers                  Value:0x1
+Offset:160 Length:008 Name:TransitionConsumer            Value:0000000000000000
+Offset:168 Length:008 Name:RealtimeLogfileHandle         Value:FFFFFFFF80001D68
+Offset:170 Length:010 Name:RealtimeLogfileName           Value:C:\Windows\system32\Logfiles\WMI\RtBackup\EtwRTWFP-IPsec Diagnostics.etl
+Offset:180 Length:008 Name:RealtimeWriteOffset           Value:48
+Offset:188 Length:008 Name:RealtimeReadOffset            Value:48
+Offset:190 Length:008 Name:RealtimeLogfileSize           Value:48
+Offset:198 Length:008 Name:RealtimeLogfileUsage          Value:0000000000000000
+Offset:1a0 Length:008 Name:RealtimeMaximumFileSize       Value:0000000000A00000
+Offset:1a8 Length:004 Name:RealtimeBuffersSaved          Value:0
+Offset:1b0 Length:010 Name:RealtimeReferenceTime         暂不处理 StructName:_ETW_REF_CLOCK
+Offset:1c0 Length:004 Name:NewRTEventsLost               Value:0
+Offset:1c8 Length:018 Name:LoggerEvent                   暂不处理 StructName:_KEVENT
+Offset:1e0 Length:018 Name:FlushEvent                    暂不处理 StructName:_KEVENT
+Offset:1f8 Length:040 Name:FlushTimeOutTimer             暂不处理 StructName:_KTIMER
+Offset:238 Length:040 Name:LoggerDpc                     暂不处理 StructName:_KDPC
+Offset:278 Length:038 Name:LoggerMutex                   暂不处理 StructName:_KMUTANT
+Offset:2b0 Length:008 Name:LoggerLock                    暂不处理 StructName:_EX_PUSH_LOCK
+Offset:2b8 Length:008 Name:BufferListSpinLock            Value:0000000000000000
+Offset:2b8 Length:008 Name:BufferListPushLock            暂不处理 StructName:_EX_PUSH_LOCK
+Offset:2c0 Length:048 Name:ClientSecurityContext         暂不处理 StructName:_SECURITY_CLIENT_CONTEXT
+Offset:308 Length:008 Name:TokenAccessInformation        Value:0000000000000000
+Offset:310 Length:008 Name:SecurityDescriptor            暂不处理 StructName:_EX_FAST_REF
+Offset:318 Length:008 Name:StartTime                     Value:1dbed7b9624ea44
+Offset:320 Length:008 Name:LogFileHandle                 Value:FFFFFFFF80001CD8
+Offset:328 Length:008 Name:BufferSequenceNumber          Value:000000000000000F
+Offset:330 Length:004 Name:Flags                         Value:0xc
+Offset:330 Length:004 Name:Persistent                    Value:0xc
+Offset:330 Length:004 Name:AutoLogger                    Value:0xc
+Offset:330 Length:004 Name:FsReady                       Value:0xc
+Offset:330 Length:004 Name:RealTime                      Value:0xc
+Offset:330 Length:004 Name:Wow                           Value:0xc
+Offset:330 Length:004 Name:KernelTrace                   Value:0xc
+Offset:330 Length:004 Name:NoMoreEnable                  Value:0xc
+Offset:330 Length:004 Name:StackTracing                  Value:0xc
+Offset:330 Length:004 Name:ErrorLogged                   Value:0xc
+Offset:330 Length:004 Name:RealtimeLoggerContextFreed    Value:0xc
+Offset:330 Length:004 Name:PebsTracing                   Value:0xc
+Offset:330 Length:004 Name:PmcCounters                   Value:0xc
+Offset:330 Length:004 Name:PageAlignBuffers              Value:0xc
+Offset:330 Length:004 Name:StackLookasideListAllocated   Value:0xc
+Offset:330 Length:004 Name:SecurityTrace                 Value:0xc
+Offset:330 Length:004 Name:LastBranchTracing             Value:0xc
+Offset:330 Length:004 Name:SystemLoggerIndex             Value:0xc
+Offset:330 Length:004 Name:StackCaching                  Value:0xc
+Offset:330 Length:004 Name:ProviderTracking              Value:0xc
+Offset:330 Length:004 Name:ProcessorTrace                Value:0xc
+Offset:330 Length:004 Name:QpcDeltaTracking              Value:0xc
+Offset:330 Length:004 Name:MarkerBufferSaved             Value:0xc
+Offset:330 Length:004 Name:LargeMdlPages                 Value:0xc
+Offset:330 Length:004 Name:ExcludeKernelStack            Value:0xc
+Offset:330 Length:004 Name:BootLogger                    Value:0xc
+Offset:334 Length:004 Name:Flags2                        Value:0
+Offset:334 Length:004 Name:UnifiedStackCaching           Value:0
+Offset:338 Length:004 Name:RequestFlag                   Value:0
+Offset:338 Length:004 Name:DbgRequestNewFile             Value:0
+Offset:338 Length:004 Name:DbgRequestUpdateFile          Value:0
+Offset:338 Length:004 Name:DbgRequestFlush               Value:0
+Offset:338 Length:004 Name:DbgRequestDisableRealtime     Value:0
+Offset:338 Length:004 Name:DbgRequestDisconnectConsumer  Value:0
+Offset:338 Length:004 Name:DbgRequestConnectConsumer     Value:0
+Offset:338 Length:004 Name:DbgRequestNotifyConsumer      Value:0
+Offset:338 Length:004 Name:DbgRequestUpdateHeader        Value:0
+Offset:338 Length:004 Name:DbgRequestDeferredFlush       Value:0
+Offset:338 Length:004 Name:DbgRequestDeferredFlushTimer  Value:0
+Offset:338 Length:004 Name:DbgRequestFlushTimer          Value:0
+Offset:338 Length:004 Name:DbgRequestUpdateDebugger      Value:0
+Offset:338 Length:004 Name:DbgSpareRequestFlags          Value:0
+Offset:340 Length:0a0 Name:StackTraceBlock               暂不处理 StructName:_ETW_STACK_TRACE_BLOCK
+Offset:3e0 Length:010 Name:HookIdMap                     暂不处理 StructName:_RTL_BITMAP
+Offset:3f0 Length:008 Name:StackCache                    Value:0000000000000000
+Offset:3f8 Length:008 Name:PmcData                       Value:0000000000000000
+Offset:400 Length:008 Name:LbrData                       Value:0000000000000000
+Offset:408 Length:008 Name:IptData                       Value:0000000000000000
+Offset:410 Length:010 Name:BinaryTrackingList            暂不处理 StructName:_LIST_ENTRY
+Offset:420 Length:008 Name:ScratchArray                  Value:0000000000000000
+Offset:428 Length:010 Name:DisallowedGuids               暂不处理 StructName:_DISALLOWED_GUIDS
+Offset:438 Length:008 Name:PeriodicCaptureStateContext   Value:0000000000000000
+Offset:440 Length:008 Name:SoftRestartContext            Value:0000000000000000
+Offset:448 Length:008 Name:SiloState                     Value:FFFFCF813BA72000
+Offset:450 Length:020 Name:CompressionWorkItem           暂不处理 StructName:_WORK_QUEUE_ITEM
+Offset:470 Length:004 Name:CompressionWorkItemState      Value:0
+Offset:478 Length:008 Name:CompressionLock               暂不处理 StructName:_EX_PUSH_LOCK
+Offset:480 Length:008 Name:CompressionTarget             Value:0000000000000000
+Offset:488 Length:008 Name:CompressionWorkspace          Value:0000000000000000
+Offset:490 Length:004 Name:CompressionOn                 Value:0
+Offset:494 Length:004 Name:CompressionRatioGuess         Value:0
+Offset:498 Length:004 Name:PartialBufferCompressionLevel Value:0
+Offset:49c Length:004 Name:CompressionResumptionMode     Value:0
+Offset:4a0 Length:008 Name:PlaceholderList               暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:4a8 Length:040 Name:CompressionDpc                暂不处理 StructName:_KDPC
+Offset:4e8 Length:008 Name:LastBufferSwitchTime          Value:0
+Offset:4f0 Length:008 Name:BufferWriteDuration           Value:0
+Offset:4f8 Length:008 Name:BufferCompressDuration        Value:0
+Offset:500 Length:008 Name:ReferenceQpcDelta             Value:0000000000000000
+Offset:508 Length:008 Name:CallbackContext               Value:0000000000000000
+Offset:510 Length:008 Name:LastDroppedTime               Value:0000000000000000
+Offset:518 Length:008 Name:FlushingLastDroppedTime       Value:0000000000000000
+Offset:520 Length:008 Name:FlushingSequenceNumber        Value:FFFFFFFFFFFFFFFF
+Offset:528 Length:008 Name:PartitionContext              暂不处理 StructName:_ETW_PARTITION_CONTEXT
+Offset:530 Length:008 Name:BufferMdl                     Value:0000000000000000
+
+_ETW_REALTIME_CONSUMER:
+Offset:000 Length:010 Name:Links                         暂不处理 StructName:_LIST_ENTRY
+Offset:010 Length:008 Name:ProcessHandle                 Value:FFFFFFFF80001D50
+Offset:018 Length:008 Name:ProcessObject                 Value:FFFFCF81408350C0
+Offset:020 Length:008 Name:NextNotDelivered              Value:0000000000000000
+Offset:028 Length:008 Name:RealtimeConnectContext        Value:0000000000000000
+Offset:030 Length:008 Name:DisconnectEvent               Value:FFFFCF8140EDC2E0
+Offset:038 Length:008 Name:DataAvailableEvent            Value:FFFFCF8140EDCE60
+Offset:040 Length:008 Name:UserBufferCount               Value:4029491712
+Offset:048 Length:008 Name:UserBufferListHead            Value:000001D2F02D29F8
+Offset:050 Length:004 Name:BuffersLost                   Value:0
+Offset:054 Length:004 Name:EmptyBuffersCount             Value:0
+Offset:058 Length:002 Name:LoggerId                      Value:30
+Offset:05a Length:001 Name:Flags                         Value:0
+Offset:05a Length:001 Name:ShutDownRequested             Value:0
+Offset:05a Length:001 Name:NewBuffersLost                Value:0
+Offset:05a Length:001 Name:Disconnected                  Value:0
+Offset:05a Length:001 Name:Notified                      Value:0
+Offset:05a Length:001 Name:Wow                           Value:0
+Offset:060 Length:010 Name:ReservedBufferSpaceBitMap     暂不处理 StructName:_RTL_BITMAP
+Offset:070 Length:008 Name:ReservedBufferSpace           Value:0
+Offset:078 Length:004 Name:ReservedBufferSpaceSize       Value:0x10000
+Offset:07c Length:004 Name:UserPagesAllocated            Value:0
+Offset:080 Length:004 Name:UserPagesReused               Value:0xd
+Offset:088 Length:008 Name:EventsLostCount               Value:4029491480
+Offset:090 Length:008 Name:BuffersLostCount              Value:4029491484
+Offset:098 Length:008 Name:SiloState                     Value:FFFFCF813BA72000
+
+---------------------------------------------------------------------------------------
+
+Index:10
+EtwConsumerObject(_ETW_REALTIME_CONSUMER/EtwpRealTimeConnectionObjectType):FFFFCF81410A1E90
+Logger ProcessId:0000000000000004, Logger ThreadId:000000000000131C, Consumer ProcessId:5064
+
+_WMI_LOGGER_CONTEXT:
+Offset:000 Length:004 Name:LoggerId                      Value:0x21
+Offset:004 Length:004 Name:BufferSize                    Value:0x10000
+Offset:008 Length:004 Name:MaximumEventSize              Value:0xffb8
+Offset:00c Length:004 Name:LoggerMode                    Value:0x800100
+Offset:010 Length:004 Name:AcceptNewEvents               Value:0
+Offset:018 Length:008 Name:GetCpuClock                   Value:0000000000000001
+Offset:020 Length:008 Name:LoggerThread                  Value:FFFFCF814106D080
+Offset:028 Length:004 Name:LoggerStatus                  Value:0
+Offset:02c Length:004 Name:FailureReason                 Value:0
+Offset:030 Length:010 Name:BufferQueue                   暂不处理 StructName:_ETW_BUFFER_QUEUE
+Offset:040 Length:010 Name:OverflowQueue                 暂不处理 StructName:_ETW_BUFFER_QUEUE
+Offset:050 Length:010 Name:GlobalList                    暂不处理 StructName:_LIST_ENTRY
+Offset:060 Length:010 Name:DebugIdTrackingList           暂不处理 StructName:_LIST_ENTRY
+Offset:070 Length:008 Name:DecodeControlList             Value:0000000000000000
+Offset:078 Length:004 Name:DecodeControlCount            Value:0
+Offset:080 Length:008 Name:BatchedBufferList             Value:0000000000000000
+Offset:080 Length:008 Name:CurrentBuffer                 暂不处理 StructName:_EX_FAST_REF
+Offset:088 Length:010 Name:LoggerName                    Value:WINNETESP
+Offset:098 Length:010 Name:LogFileName                   Value:
+Offset:0a8 Length:010 Name:LogFilePattern                Value:
+Offset:0b8 Length:010 Name:NewLogFileName                Value:
+Offset:0c8 Length:004 Name:ClockType                     Value:0x1
+Offset:0cc Length:004 Name:LastFlushedBuffer             Value:0
+Offset:0d0 Length:004 Name:FlushTimer                    Value:0x1
+Offset:0d4 Length:004 Name:FlushThreshold                Value:0
+Offset:0d8 Length:008 Name:ByteOffset                    Value:0
+Offset:0e0 Length:004 Name:MinimumBuffers                Value:0x8
+Offset:0e4 Length:004 Name:BuffersAvailable              Value:0x8
+Offset:0e8 Length:004 Name:NumberOfBuffers               Value:0x8
+Offset:0ec Length:004 Name:MaximumBuffers                Value:0x1e
+Offset:0f0 Length:004 Name:EventsLost                    Value:0
+Offset:0f4 Length:004 Name:PeakBuffersCount              Value:0x8
+Offset:0f8 Length:004 Name:BuffersWritten                Value:0
+Offset:0fc Length:004 Name:LogBuffersLost                Value:0
+Offset:100 Length:004 Name:RealTimeBuffersDelivered      Value:0x19a
+Offset:104 Length:004 Name:RealTimeBuffersLost           Value:0
+Offset:108 Length:008 Name:SequencePtr                   Value:0
+Offset:110 Length:004 Name:LocalSequence                 Value:0
+Offset:114 Length:010 Name:InstanceGuid                  Value:{8A05048C-86D8-4F98-80BA-B0C306663D28}
+Offset:124 Length:004 Name:MaximumFileSize               Value:0
+Offset:128 Length:004 Name:FileCounter                   Value:0
+Offset:12c Length:004 Name:PoolType                      Value:0x200
+Offset:130 Length:010 Name:ReferenceTime                 暂不处理 StructName:_ETW_REF_CLOCK
+Offset:140 Length:004 Name:CollectionOn                  Value:0x1
+Offset:144 Length:004 Name:ProviderInfoSize              Value:0
+Offset:148 Length:010 Name:Consumers                     暂不处理 StructName:_LIST_ENTRY
+Offset:158 Length:004 Name:NumConsumers                  Value:0x1
+Offset:160 Length:008 Name:TransitionConsumer            Value:0000000000000000
+Offset:168 Length:008 Name:RealtimeLogfileHandle         Value:FFFFFFFF80001EC4
+Offset:170 Length:010 Name:RealtimeLogfileName           Value:C:\Windows\system32\Logfiles\WMI\RtBackup\EtwRTWINNETESP.etl
+Offset:180 Length:008 Name:RealtimeWriteOffset           Value:48
+Offset:188 Length:008 Name:RealtimeReadOffset            Value:48
+Offset:190 Length:008 Name:RealtimeLogfileSize           Value:48
+Offset:198 Length:008 Name:RealtimeLogfileUsage          Value:0000000000000000
+Offset:1a0 Length:008 Name:RealtimeMaximumFileSize       Value:0000000000A00000
+Offset:1a8 Length:004 Name:RealtimeBuffersSaved          Value:0
+Offset:1b0 Length:010 Name:RealtimeReferenceTime         暂不处理 StructName:_ETW_REF_CLOCK
+Offset:1c0 Length:004 Name:NewRTEventsLost               Value:0
+Offset:1c8 Length:018 Name:LoggerEvent                   暂不处理 StructName:_KEVENT
+Offset:1e0 Length:018 Name:FlushEvent                    暂不处理 StructName:_KEVENT
+Offset:1f8 Length:040 Name:FlushTimeOutTimer             暂不处理 StructName:_KTIMER
+Offset:238 Length:040 Name:LoggerDpc                     暂不处理 StructName:_KDPC
+Offset:278 Length:038 Name:LoggerMutex                   暂不处理 StructName:_KMUTANT
+Offset:2b0 Length:008 Name:LoggerLock                    暂不处理 StructName:_EX_PUSH_LOCK
+Offset:2b8 Length:008 Name:BufferListSpinLock            Value:0000000000000000
+Offset:2b8 Length:008 Name:BufferListPushLock            暂不处理 StructName:_EX_PUSH_LOCK
+Offset:2c0 Length:048 Name:ClientSecurityContext         暂不处理 StructName:_SECURITY_CLIENT_CONTEXT
+Offset:308 Length:008 Name:TokenAccessInformation        Value:0000000000000000
+Offset:310 Length:008 Name:SecurityDescriptor            暂不处理 StructName:_EX_FAST_REF
+Offset:318 Length:008 Name:StartTime                     Value:1dbed7b96bfe1f0
+Offset:320 Length:008 Name:LogFileHandle                 Value:0000000000000000
+Offset:328 Length:008 Name:BufferSequenceNumber          Value:00000000000001A2
+Offset:330 Length:004 Name:Flags                         Value:0xc
+Offset:330 Length:004 Name:Persistent                    Value:0xc
+Offset:330 Length:004 Name:AutoLogger                    Value:0xc
+Offset:330 Length:004 Name:FsReady                       Value:0xc
+Offset:330 Length:004 Name:RealTime                      Value:0xc
+Offset:330 Length:004 Name:Wow                           Value:0xc
+Offset:330 Length:004 Name:KernelTrace                   Value:0xc
+Offset:330 Length:004 Name:NoMoreEnable                  Value:0xc
+Offset:330 Length:004 Name:StackTracing                  Value:0xc
+Offset:330 Length:004 Name:ErrorLogged                   Value:0xc
+Offset:330 Length:004 Name:RealtimeLoggerContextFreed    Value:0xc
+Offset:330 Length:004 Name:PebsTracing                   Value:0xc
+Offset:330 Length:004 Name:PmcCounters                   Value:0xc
+Offset:330 Length:004 Name:PageAlignBuffers              Value:0xc
+Offset:330 Length:004 Name:StackLookasideListAllocated   Value:0xc
+Offset:330 Length:004 Name:SecurityTrace                 Value:0xc
+Offset:330 Length:004 Name:LastBranchTracing             Value:0xc
+Offset:330 Length:004 Name:SystemLoggerIndex             Value:0xc
+Offset:330 Length:004 Name:StackCaching                  Value:0xc
+Offset:330 Length:004 Name:ProviderTracking              Value:0xc
+Offset:330 Length:004 Name:ProcessorTrace                Value:0xc
+Offset:330 Length:004 Name:QpcDeltaTracking              Value:0xc
+Offset:330 Length:004 Name:MarkerBufferSaved             Value:0xc
+Offset:330 Length:004 Name:LargeMdlPages                 Value:0xc
+Offset:330 Length:004 Name:ExcludeKernelStack            Value:0xc
+Offset:330 Length:004 Name:BootLogger                    Value:0xc
+Offset:334 Length:004 Name:Flags2                        Value:0
+Offset:334 Length:004 Name:UnifiedStackCaching           Value:0
+Offset:338 Length:004 Name:RequestFlag                   Value:0
+Offset:338 Length:004 Name:DbgRequestNewFile             Value:0
+Offset:338 Length:004 Name:DbgRequestUpdateFile          Value:0
+Offset:338 Length:004 Name:DbgRequestFlush               Value:0
+Offset:338 Length:004 Name:DbgRequestDisableRealtime     Value:0
+Offset:338 Length:004 Name:DbgRequestDisconnectConsumer  Value:0
+Offset:338 Length:004 Name:DbgRequestConnectConsumer     Value:0
+Offset:338 Length:004 Name:DbgRequestNotifyConsumer      Value:0
+Offset:338 Length:004 Name:DbgRequestUpdateHeader        Value:0
+Offset:338 Length:004 Name:DbgRequestDeferredFlush       Value:0
+Offset:338 Length:004 Name:DbgRequestDeferredFlushTimer  Value:0
+Offset:338 Length:004 Name:DbgRequestFlushTimer          Value:0
+Offset:338 Length:004 Name:DbgRequestUpdateDebugger      Value:0
+Offset:338 Length:004 Name:DbgSpareRequestFlags          Value:0
+Offset:340 Length:0a0 Name:StackTraceBlock               暂不处理 StructName:_ETW_STACK_TRACE_BLOCK
+Offset:3e0 Length:010 Name:HookIdMap                     暂不处理 StructName:_RTL_BITMAP
+Offset:3f0 Length:008 Name:StackCache                    Value:0000000000000000
+Offset:3f8 Length:008 Name:PmcData                       Value:0000000000000000
+Offset:400 Length:008 Name:LbrData                       Value:0000000000000000
+Offset:408 Length:008 Name:IptData                       Value:0000000000000000
+Offset:410 Length:010 Name:BinaryTrackingList            暂不处理 StructName:_LIST_ENTRY
+Offset:420 Length:008 Name:ScratchArray                  Value:0000000000000000
+Offset:428 Length:010 Name:DisallowedGuids               暂不处理 StructName:_DISALLOWED_GUIDS
+Offset:438 Length:008 Name:PeriodicCaptureStateContext   Value:0000000000000000
+Offset:440 Length:008 Name:SoftRestartContext            Value:0000000000000000
+Offset:448 Length:008 Name:SiloState                     Value:FFFFCF813BA72000
+Offset:450 Length:020 Name:CompressionWorkItem           暂不处理 StructName:_WORK_QUEUE_ITEM
+Offset:470 Length:004 Name:CompressionWorkItemState      Value:0
+Offset:478 Length:008 Name:CompressionLock               暂不处理 StructName:_EX_PUSH_LOCK
+Offset:480 Length:008 Name:CompressionTarget             Value:0000000000000000
+Offset:488 Length:008 Name:CompressionWorkspace          Value:0000000000000000
+Offset:490 Length:004 Name:CompressionOn                 Value:0
+Offset:494 Length:004 Name:CompressionRatioGuess         Value:0
+Offset:498 Length:004 Name:PartialBufferCompressionLevel Value:0
+Offset:49c Length:004 Name:CompressionResumptionMode     Value:0
+Offset:4a0 Length:008 Name:PlaceholderList               暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:4a8 Length:040 Name:CompressionDpc                暂不处理 StructName:_KDPC
+Offset:4e8 Length:008 Name:LastBufferSwitchTime          Value:0
+Offset:4f0 Length:008 Name:BufferWriteDuration           Value:0
+Offset:4f8 Length:008 Name:BufferCompressDuration        Value:0
+Offset:500 Length:008 Name:ReferenceQpcDelta             Value:0000000000000000
+Offset:508 Length:008 Name:CallbackContext               Value:0000000000000000
+Offset:510 Length:008 Name:LastDroppedTime               Value:0000000000000000
+Offset:518 Length:008 Name:FlushingLastDroppedTime       Value:0000000000000000
+Offset:520 Length:008 Name:FlushingSequenceNumber        Value:FFFFFFFFFFFFFFFF
+Offset:528 Length:008 Name:PartitionContext              暂不处理 StructName:_ETW_PARTITION_CONTEXT
+Offset:530 Length:008 Name:BufferMdl                     Value:0000000000000000
+
+_ETW_REALTIME_CONSUMER:
+Offset:000 Length:010 Name:Links                         暂不处理 StructName:_LIST_ENTRY
+Offset:010 Length:008 Name:ProcessHandle                 Value:FFFFFFFF80001DBC
+Offset:018 Length:008 Name:ProcessObject                 Value:FFFFCF8141043080
+Offset:020 Length:008 Name:NextNotDelivered              Value:0000000000000000
+Offset:028 Length:008 Name:RealtimeConnectContext        Value:0000000000000000
+Offset:030 Length:008 Name:DisconnectEvent               Value:FFFFCF81410C23E0
+Offset:038 Length:008 Name:DataAvailableEvent            Value:FFFFCF81410C2D60
+Offset:040 Length:008 Name:UserBufferCount               Value:2193784160
+Offset:048 Length:008 Name:UserBufferListHead            Value:0000020082C27D58
+Offset:050 Length:004 Name:BuffersLost                   Value:0
+Offset:054 Length:004 Name:EmptyBuffersCount             Value:0x1
+Offset:058 Length:002 Name:LoggerId                      Value:33
+Offset:05a Length:001 Name:Flags                         Value:0
+Offset:05a Length:001 Name:ShutDownRequested             Value:0
+Offset:05a Length:001 Name:NewBuffersLost                Value:0
+Offset:05a Length:001 Name:Disconnected                  Value:0
+Offset:05a Length:001 Name:Notified                      Value:0
+Offset:05a Length:001 Name:Wow                           Value:0
+Offset:060 Length:010 Name:ReservedBufferSpaceBitMap     暂不处理 StructName:_RTL_BITMAP
+Offset:070 Length:008 Name:ReservedBufferSpace           Value:0
+Offset:078 Length:004 Name:ReservedBufferSpaceSize       Value:0x80000
+Offset:07c Length:004 Name:UserPagesAllocated            Value:0
+Offset:080 Length:004 Name:UserPagesReused               Value:0x20d
+Offset:088 Length:008 Name:EventsLostCount               Value:2193783928
+Offset:090 Length:008 Name:BuffersLostCount              Value:2193783932
+Offset:098 Length:008 Name:SiloState                     Value:FFFFCF813BA72000
+
+---------------------------------------------------------------------------------------
+
+Index:11
+EtwConsumerObject(_ETW_REALTIME_CONSUMER/EtwpRealTimeConnectionObjectType):FFFFCF8141D65860
+Logger ProcessId:0000000000000004, Logger ThreadId:00000000000014D0, Consumer ProcessId:4412
+
+_WMI_LOGGER_CONTEXT:
+Offset:000 Length:004 Name:LoggerId                      Value:0x23
+Offset:004 Length:004 Name:BufferSize                    Value:0x10000
+Offset:008 Length:004 Name:MaximumEventSize              Value:0xffb8
+Offset:00c Length:004 Name:LoggerMode                    Value:0x8800180
+Offset:010 Length:004 Name:AcceptNewEvents               Value:0
+Offset:018 Length:008 Name:GetCpuClock                   Value:0000000000000001
+Offset:020 Length:008 Name:LoggerThread                  Value:FFFFCF8141396080
+Offset:028 Length:004 Name:LoggerStatus                  Value:0
+Offset:02c Length:004 Name:FailureReason                 Value:0
+Offset:030 Length:010 Name:BufferQueue                   暂不处理 StructName:_ETW_BUFFER_QUEUE
+Offset:040 Length:010 Name:OverflowQueue                 暂不处理 StructName:_ETW_BUFFER_QUEUE
+Offset:050 Length:010 Name:GlobalList                    暂不处理 StructName:_LIST_ENTRY
+Offset:060 Length:010 Name:DebugIdTrackingList           暂不处理 StructName:_LIST_ENTRY
+Offset:070 Length:008 Name:DecodeControlList             Value:0000000000000000
+Offset:078 Length:004 Name:DecodeControlCount            Value:0
+Offset:080 Length:008 Name:BatchedBufferList             Value:0000000000000000
+Offset:080 Length:008 Name:CurrentBuffer                 暂不处理 StructName:_EX_FAST_REF
+Offset:088 Length:010 Name:LoggerName                    Value:1DSListener
+Offset:098 Length:010 Name:LogFileName                   Value:
+Offset:0a8 Length:010 Name:LogFilePattern                Value:
+Offset:0b8 Length:010 Name:NewLogFileName                Value:
+Offset:0c8 Length:004 Name:ClockType                     Value:0x1
+Offset:0cc Length:004 Name:LastFlushedBuffer             Value:0
+Offset:0d0 Length:004 Name:FlushTimer                    Value:0x5
+Offset:0d4 Length:004 Name:FlushThreshold                Value:0
+Offset:0d8 Length:008 Name:ByteOffset                    Value:0
+Offset:0e0 Length:004 Name:MinimumBuffers                Value:0x8
+Offset:0e4 Length:004 Name:BuffersAvailable              Value:0x8
+Offset:0e8 Length:004 Name:NumberOfBuffers               Value:0x8
+Offset:0ec Length:004 Name:MaximumBuffers                Value:0x40
+Offset:0f0 Length:004 Name:EventsLost                    Value:0
+Offset:0f4 Length:004 Name:PeakBuffersCount              Value:0x8
+Offset:0f8 Length:004 Name:BuffersWritten                Value:0
+Offset:0fc Length:004 Name:LogBuffersLost                Value:0
+Offset:100 Length:004 Name:RealTimeBuffersDelivered      Value:0xe
+Offset:104 Length:004 Name:RealTimeBuffersLost           Value:0
+Offset:108 Length:008 Name:SequencePtr                   Value:0
+Offset:110 Length:004 Name:LocalSequence                 Value:0
+Offset:114 Length:010 Name:InstanceGuid                  Value:{EEA6FA42-D287-44DD-AF6E-FAD63C45B661}
+Offset:124 Length:004 Name:MaximumFileSize               Value:0
+Offset:128 Length:004 Name:FileCounter                   Value:0
+Offset:12c Length:004 Name:PoolType                      Value:0x200
+Offset:130 Length:010 Name:ReferenceTime                 暂不处理 StructName:_ETW_REF_CLOCK
+Offset:140 Length:004 Name:CollectionOn                  Value:0x1
+Offset:144 Length:004 Name:ProviderInfoSize              Value:0
+Offset:148 Length:010 Name:Consumers                     暂不处理 StructName:_LIST_ENTRY
+Offset:158 Length:004 Name:NumConsumers                  Value:0x1
+Offset:160 Length:008 Name:TransitionConsumer            Value:0000000000000000
+Offset:168 Length:008 Name:RealtimeLogfileHandle         Value:FFFFFFFF800020FC
+Offset:170 Length:010 Name:RealtimeLogfileName           Value:C:\Windows\system32\Logfiles\WMI\RtBackup\EtwRT1DSListener.etl
+Offset:180 Length:008 Name:RealtimeWriteOffset           Value:48
+Offset:188 Length:008 Name:RealtimeReadOffset            Value:48
+Offset:190 Length:008 Name:RealtimeLogfileSize           Value:48
+Offset:198 Length:008 Name:RealtimeLogfileUsage          Value:0000000000000000
+Offset:1a0 Length:008 Name:RealtimeMaximumFileSize       Value:0000000000A00000
+Offset:1a8 Length:004 Name:RealtimeBuffersSaved          Value:0
+Offset:1b0 Length:010 Name:RealtimeReferenceTime         暂不处理 StructName:_ETW_REF_CLOCK
+Offset:1c0 Length:004 Name:NewRTEventsLost               Value:0
+Offset:1c8 Length:018 Name:LoggerEvent                   暂不处理 StructName:_KEVENT
+Offset:1e0 Length:018 Name:FlushEvent                    暂不处理 StructName:_KEVENT
+Offset:1f8 Length:040 Name:FlushTimeOutTimer             暂不处理 StructName:_KTIMER
+Offset:238 Length:040 Name:LoggerDpc                     暂不处理 StructName:_KDPC
+Offset:278 Length:038 Name:LoggerMutex                   暂不处理 StructName:_KMUTANT
+Offset:2b0 Length:008 Name:LoggerLock                    暂不处理 StructName:_EX_PUSH_LOCK
+Offset:2b8 Length:008 Name:BufferListSpinLock            Value:0000000000000000
+Offset:2b8 Length:008 Name:BufferListPushLock            暂不处理 StructName:_EX_PUSH_LOCK
+Offset:2c0 Length:048 Name:ClientSecurityContext         暂不处理 StructName:_SECURITY_CLIENT_CONTEXT
+Offset:308 Length:008 Name:TokenAccessInformation        Value:0000000000000000
+Offset:310 Length:008 Name:SecurityDescriptor            暂不处理 StructName:_EX_FAST_REF
+Offset:318 Length:008 Name:StartTime                     Value:1dbed7b97337cc9
+Offset:320 Length:008 Name:LogFileHandle                 Value:0000000000000000
+Offset:328 Length:008 Name:BufferSequenceNumber          Value:0000000000000016
+Offset:330 Length:004 Name:Flags                         Value:0xc
+Offset:330 Length:004 Name:Persistent                    Value:0xc
+Offset:330 Length:004 Name:AutoLogger                    Value:0xc
+Offset:330 Length:004 Name:FsReady                       Value:0xc
+Offset:330 Length:004 Name:RealTime                      Value:0xc
+Offset:330 Length:004 Name:Wow                           Value:0xc
+Offset:330 Length:004 Name:KernelTrace                   Value:0xc
+Offset:330 Length:004 Name:NoMoreEnable                  Value:0xc
+Offset:330 Length:004 Name:StackTracing                  Value:0xc
+Offset:330 Length:004 Name:ErrorLogged                   Value:0xc
+Offset:330 Length:004 Name:RealtimeLoggerContextFreed    Value:0xc
+Offset:330 Length:004 Name:PebsTracing                   Value:0xc
+Offset:330 Length:004 Name:PmcCounters                   Value:0xc
+Offset:330 Length:004 Name:PageAlignBuffers              Value:0xc
+Offset:330 Length:004 Name:StackLookasideListAllocated   Value:0xc
+Offset:330 Length:004 Name:SecurityTrace                 Value:0xc
+Offset:330 Length:004 Name:LastBranchTracing             Value:0xc
+Offset:330 Length:004 Name:SystemLoggerIndex             Value:0xc
+Offset:330 Length:004 Name:StackCaching                  Value:0xc
+Offset:330 Length:004 Name:ProviderTracking              Value:0xc
+Offset:330 Length:004 Name:ProcessorTrace                Value:0xc
+Offset:330 Length:004 Name:QpcDeltaTracking              Value:0xc
+Offset:330 Length:004 Name:MarkerBufferSaved             Value:0xc
+Offset:330 Length:004 Name:LargeMdlPages                 Value:0xc
+Offset:330 Length:004 Name:ExcludeKernelStack            Value:0xc
+Offset:330 Length:004 Name:BootLogger                    Value:0xc
+Offset:334 Length:004 Name:Flags2                        Value:0
+Offset:334 Length:004 Name:UnifiedStackCaching           Value:0
+Offset:338 Length:004 Name:RequestFlag                   Value:0
+Offset:338 Length:004 Name:DbgRequestNewFile             Value:0
+Offset:338 Length:004 Name:DbgRequestUpdateFile          Value:0
+Offset:338 Length:004 Name:DbgRequestFlush               Value:0
+Offset:338 Length:004 Name:DbgRequestDisableRealtime     Value:0
+Offset:338 Length:004 Name:DbgRequestDisconnectConsumer  Value:0
+Offset:338 Length:004 Name:DbgRequestConnectConsumer     Value:0
+Offset:338 Length:004 Name:DbgRequestNotifyConsumer      Value:0
+Offset:338 Length:004 Name:DbgRequestUpdateHeader        Value:0
+Offset:338 Length:004 Name:DbgRequestDeferredFlush       Value:0
+Offset:338 Length:004 Name:DbgRequestDeferredFlushTimer  Value:0
+Offset:338 Length:004 Name:DbgRequestFlushTimer          Value:0
+Offset:338 Length:004 Name:DbgRequestUpdateDebugger      Value:0
+Offset:338 Length:004 Name:DbgSpareRequestFlags          Value:0
+Offset:340 Length:0a0 Name:StackTraceBlock               暂不处理 StructName:_ETW_STACK_TRACE_BLOCK
+Offset:3e0 Length:010 Name:HookIdMap                     暂不处理 StructName:_RTL_BITMAP
+Offset:3f0 Length:008 Name:StackCache                    Value:0000000000000000
+Offset:3f8 Length:008 Name:PmcData                       Value:0000000000000000
+Offset:400 Length:008 Name:LbrData                       Value:0000000000000000
+Offset:408 Length:008 Name:IptData                       Value:0000000000000000
+Offset:410 Length:010 Name:BinaryTrackingList            暂不处理 StructName:_LIST_ENTRY
+Offset:420 Length:008 Name:ScratchArray                  Value:0000000000000000
+Offset:428 Length:010 Name:DisallowedGuids               暂不处理 StructName:_DISALLOWED_GUIDS
+Offset:438 Length:008 Name:PeriodicCaptureStateContext   Value:0000000000000000
+Offset:440 Length:008 Name:SoftRestartContext            Value:0000000000000000
+Offset:448 Length:008 Name:SiloState                     Value:FFFFCF813BA72000
+Offset:450 Length:020 Name:CompressionWorkItem           暂不处理 StructName:_WORK_QUEUE_ITEM
+Offset:470 Length:004 Name:CompressionWorkItemState      Value:0
+Offset:478 Length:008 Name:CompressionLock               暂不处理 StructName:_EX_PUSH_LOCK
+Offset:480 Length:008 Name:CompressionTarget             Value:0000000000000000
+Offset:488 Length:008 Name:CompressionWorkspace          Value:0000000000000000
+Offset:490 Length:004 Name:CompressionOn                 Value:0
+Offset:494 Length:004 Name:CompressionRatioGuess         Value:0
+Offset:498 Length:004 Name:PartialBufferCompressionLevel Value:0
+Offset:49c Length:004 Name:CompressionResumptionMode     Value:0
+Offset:4a0 Length:008 Name:PlaceholderList               暂不处理 StructName:_SINGLE_LIST_ENTRY
+Offset:4a8 Length:040 Name:CompressionDpc                暂不处理 StructName:_KDPC
+Offset:4e8 Length:008 Name:LastBufferSwitchTime          Value:0
+Offset:4f0 Length:008 Name:BufferWriteDuration           Value:0
+Offset:4f8 Length:008 Name:BufferCompressDuration        Value:0
+Offset:500 Length:008 Name:ReferenceQpcDelta             Value:0000000000000000
+Offset:508 Length:008 Name:CallbackContext               Value:0000000000000000
+Offset:510 Length:008 Name:LastDroppedTime               Value:0000000000000000
+Offset:518 Length:008 Name:FlushingLastDroppedTime       Value:0000000000000000
+Offset:520 Length:008 Name:FlushingSequenceNumber        Value:FFFFFFFFFFFFFFFF
+Offset:528 Length:008 Name:PartitionContext              暂不处理 StructName:_ETW_PARTITION_CONTEXT
+Offset:530 Length:008 Name:BufferMdl                     Value:0000000000000000
+
+_ETW_REALTIME_CONSUMER:
+Offset:000 Length:010 Name:Links                         暂不处理 StructName:_LIST_ENTRY
+Offset:010 Length:008 Name:ProcessHandle                 Value:FFFFFFFF800027E4
+Offset:018 Length:008 Name:ProcessObject                 Value:FFFFCF8140E440C0
+Offset:020 Length:008 Name:NextNotDelivered              Value:0000000000000000
+Offset:028 Length:008 Name:RealtimeConnectContext        Value:0000000000000000
+Offset:030 Length:008 Name:DisconnectEvent               Value:FFFFCF8140EE4960
+Offset:038 Length:008 Name:DataAvailableEvent            Value:FFFFCF8140EE4260
+Offset:040 Length:008 Name:UserBufferCount               Value:219865120
+Offset:048 Length:008 Name:UserBufferListHead            Value:0000020E0D1AE018
+Offset:050 Length:004 Name:BuffersLost                   Value:0
+Offset:054 Length:004 Name:EmptyBuffersCount             Value:0x1
+Offset:058 Length:002 Name:LoggerId                      Value:35
+Offset:05a Length:001 Name:Flags                         Value:0
+Offset:05a Length:001 Name:ShutDownRequested             Value:0
+Offset:05a Length:001 Name:NewBuffersLost                Value:0
+Offset:05a Length:001 Name:Disconnected                  Value:0
+Offset:05a Length:001 Name:Notified                      Value:0
+Offset:05a Length:001 Name:Wow                           Value:0
+Offset:060 Length:010 Name:ReservedBufferSpaceBitMap     暂不处理 StructName:_RTL_BITMAP
+Offset:070 Length:008 Name:ReservedBufferSpace           Value:0
+Offset:078 Length:004 Name:ReservedBufferSpaceSize       Value:0x80000
+Offset:07c Length:004 Name:UserPagesAllocated            Value:0
+Offset:080 Length:004 Name:UserPagesReused               Value:0x8
+Offset:088 Length:008 Name:EventsLostCount               Value:219864888
+Offset:090 Length:008 Name:BuffersLostCount              Value:219864892
+Offset:098 Length:008 Name:SiloState                     Value:FFFFCF813BA72000
+
+---------------------------------------------------------------------------------------
+
