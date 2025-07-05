@@ -1,0 +1,212 @@
+Number:3787
+ConnectionPort:487 ClientCommunicationPort:1661 ServerCommunicationPort:1639
+
+Index:1
+AlpcPortObject:FFFFCF813B98BDE0 AlpcPortName:\SleepstudyControlPort
+Offset:000 Length:010 Name:PortListEntry              暂不处理 StructName:_LIST_ENTRY
+Offset:010 Length:008 Name:CommunicationInfo          Value:FFFFE28E13ECDB30
+	Offset:000 Length:008 Name:ConnectionPort          Value:FFFFCF813B98BDE0 PortName:\SleepstudyControlPort
+	Offset:008 Length:008 Name:ServerCommunicationPort Value:0000000000000000
+	Offset:010 Length:008 Name:ClientCommunicationPort Value:0000000000000000
+	Offset:018 Length:010 Name:CommunicationList       暂不处理
+	Offset:028 Length:020 Name:HandleTable             暂不处理
+	Offset:048 Length:008 Name:CloseMessage            暂不处理
+Offset:018 Length:008 Name:OwnerProcess               Value:FFFFCF813B8E3040(Pid:4) ProcessId:4
+Offset:020 Length:008 Name:CompletionPort             Value:0000000000000000
+Offset:028 Length:008 Name:CompletionKey              Value:0000000000000000
+Offset:030 Length:008 Name:CompletionPacketLookaside  Value:0000000000000000
+Offset:038 Length:008 Name:PortContext                Value:0000000000000000
+Offset:040 Length:048 Name:StaticSecurity             暂不处理 StructName:_SECURITY_CLIENT_CONTEXT
+Offset:088 Length:008 Name:IncomingQueueLock          暂不处理 StructName:_EX_PUSH_LOCK
+Offset:090 Length:010 Name:MainQueue                  暂不处理 StructName:_LIST_ENTRY
+Offset:0a0 Length:010 Name:LargeMessageQueue          暂不处理 StructName:_LIST_ENTRY
+Offset:0b0 Length:008 Name:PendingQueueLock           暂不处理 StructName:_EX_PUSH_LOCK
+Offset:0b8 Length:010 Name:PendingQueue               暂不处理 StructName:_LIST_ENTRY
+Offset:0c8 Length:008 Name:DirectQueueLock            暂不处理 StructName:_EX_PUSH_LOCK
+Offset:0d0 Length:010 Name:DirectQueue                暂不处理 StructName:_LIST_ENTRY
+Offset:0e0 Length:008 Name:WaitQueueLock              暂不处理 StructName:_EX_PUSH_LOCK
+Offset:0e8 Length:010 Name:WaitQueue                  暂不处理 StructName:_LIST_ENTRY
+Offset:0f8 Length:008 Name:Semaphore                  Value:FFFFCF813B86A150
+Offset:0f8 Length:008 Name:DummyEvent                 Value:FFFFCF813B86A150
+Offset:100 Length:048 Name:PortAttributes             暂不处理 StructName:_ALPC_PORT_ATTRIBUTES
+Offset:148 Length:008 Name:ResourceListLock           暂不处理 StructName:_EX_PUSH_LOCK
+Offset:150 Length:010 Name:ResourceListHead           暂不处理 StructName:_LIST_ENTRY
+Offset:160 Length:008 Name:PortObjectLock             暂不处理 StructName:_EX_PUSH_LOCK
+Offset:168 Length:008 Name:CompletionList             Value:0000000000000000
+Offset:170 Length:008 Name:CallbackObject             Value:FFFFCF813B9FE340
+Offset:178 Length:008 Name:CallbackContext            Value:0000000000000000
+Offset:180 Length:010 Name:CanceledQueue              暂不处理 StructName:_LIST_ENTRY
+Offset:190 Length:004 Name:SequenceNo                 Value:0x00000001
+Offset:194 Length:004 Name:ReferenceNo                Value:0000000000
+Offset:198 Length:008 Name:ReferenceNoWait            Value:0000000000000000
+Offset:1a0 Length:004 Name:u1                        
+	State:0x00000003
+	Initialized:yes
+	Type:1(ALPC_CONNECTION_PORT)
+	ConnectionPending:no
+	ConnectionRefused:no
+	Disconnected:no
+	Closed:no
+	NoFlushOnClose:no
+	ReturnExtendedInfo:no
+	Waitable:no
+	DynamicSecurity:no
+	Wow64CompletionList:no
+	Lpc:no
+	LpcToLpc:no
+	HasCompletionList:no
+	HadCompletionList:no
+	EnableCompletionList:no
+Offset:1a8 Length:008 Name:TargetQueuePort            Value:0000000000000000
+Offset:1b0 Length:008 Name:TargetSequencePort         Value:0000000000000000
+Offset:1b8 Length:008 Name:CachedMessage              Value:0000000000000000
+Offset:1c0 Length:004 Name:MainQueueLength            Value:0000000000
+Offset:1c4 Length:004 Name:LargeMessageQueueLength    Value:0000000000
+Offset:1c8 Length:004 Name:PendingQueueLength         Value:0000000000
+Offset:1cc Length:004 Name:DirectQueueLength          Value:0000000000
+Offset:1d0 Length:004 Name:CanceledQueueLength        Value:0000000000
+Offset:1d4 Length:004 Name:WaitQueueLength            Value:0000000000
+
+---------------------------------------------------------------------------------------
+
+...
+
+---------------------------------------------------------------------------------------
+
+Index:9
+AlpcPortObject:FFFFCF813FA2D2D0
+Offset:000 Length:010 Name:PortListEntry              暂不处理 StructName:_LIST_ENTRY
+Offset:010 Length:008 Name:CommunicationInfo          Value:FFFFE28E167F7770
+	Offset:000 Length:008 Name:ConnectionPort          Value:FFFFCF813DEC6AD0 PortName:\SmApiPort
+	Offset:008 Length:008 Name:ServerCommunicationPort Value:FFFFCF813FA2D070
+	Offset:010 Length:008 Name:ClientCommunicationPort Value:FFFFCF813FA2D2D0
+	Offset:018 Length:010 Name:CommunicationList       暂不处理
+	Offset:028 Length:020 Name:HandleTable             暂不处理
+	Offset:048 Length:008 Name:CloseMessage            暂不处理
+Offset:018 Length:008 Name:OwnerProcess               Value:FFFFCF813FBD2140(Pid:648) ProcessId:500
+Offset:020 Length:008 Name:CompletionPort             Value:0000000000000000
+Offset:028 Length:008 Name:CompletionKey              Value:0000000000000000
+Offset:030 Length:008 Name:CompletionPacketLookaside  Value:0000000000000000
+Offset:038 Length:008 Name:PortContext                Value:000000000000015C
+Offset:040 Length:048 Name:StaticSecurity             暂不处理 StructName:_SECURITY_CLIENT_CONTEXT
+Offset:088 Length:008 Name:IncomingQueueLock          暂不处理 StructName:_EX_PUSH_LOCK
+Offset:090 Length:010 Name:MainQueue                  暂不处理 StructName:_LIST_ENTRY
+Offset:0a0 Length:010 Name:LargeMessageQueue          暂不处理 StructName:_LIST_ENTRY
+Offset:0b0 Length:008 Name:PendingQueueLock           暂不处理 StructName:_EX_PUSH_LOCK
+Offset:0b8 Length:010 Name:PendingQueue               暂不处理 StructName:_LIST_ENTRY
+Offset:0c8 Length:008 Name:DirectQueueLock            暂不处理 StructName:_EX_PUSH_LOCK
+Offset:0d0 Length:010 Name:DirectQueue                暂不处理 StructName:_LIST_ENTRY
+Offset:0e0 Length:008 Name:WaitQueueLock              暂不处理 StructName:_EX_PUSH_LOCK
+Offset:0e8 Length:010 Name:WaitQueue                  暂不处理 StructName:_LIST_ENTRY
+Offset:0f8 Length:008 Name:Semaphore                  Value:FFFFCF813B86A150
+Offset:0f8 Length:008 Name:DummyEvent                 Value:FFFFCF813B86A150
+Offset:100 Length:048 Name:PortAttributes             暂不处理 StructName:_ALPC_PORT_ATTRIBUTES
+Offset:148 Length:008 Name:ResourceListLock           暂不处理 StructName:_EX_PUSH_LOCK
+Offset:150 Length:010 Name:ResourceListHead           暂不处理 StructName:_LIST_ENTRY
+Offset:160 Length:008 Name:PortObjectLock             暂不处理 StructName:_EX_PUSH_LOCK
+Offset:168 Length:008 Name:CompletionList             Value:0000000000000000
+Offset:170 Length:008 Name:CallbackObject             Value:0000000000000000
+Offset:178 Length:008 Name:CallbackContext            Value:0000000000000000
+Offset:180 Length:010 Name:CanceledQueue              暂不处理 StructName:_LIST_ENTRY
+Offset:190 Length:004 Name:SequenceNo                 Value:0x00000001
+Offset:194 Length:004 Name:ReferenceNo                Value:0000000000
+Offset:198 Length:008 Name:ReferenceNoWait            Value:0000000000000000
+Offset:1a0 Length:004 Name:u1                        
+	State:0x00000405
+	Initialized:yes
+	Type:2(ALPC_CLIENT_COMMUNICATION_PORT)
+	ConnectionPending:no
+	ConnectionRefused:no
+	Disconnected:no
+	Closed:no
+	NoFlushOnClose:no
+	ReturnExtendedInfo:no
+	Waitable:no
+	DynamicSecurity:yes
+	Wow64CompletionList:no
+	Lpc:no
+	LpcToLpc:no
+	HasCompletionList:no
+	HadCompletionList:no
+	EnableCompletionList:no
+Offset:1a8 Length:008 Name:TargetQueuePort            Value:FFFFCF813DEC6AD0 PortName:\SmApiPort
+Offset:1b0 Length:008 Name:TargetSequencePort         Value:FFFFCF813FA2D070
+Offset:1b8 Length:008 Name:CachedMessage              Value:0000000000000000
+Offset:1c0 Length:004 Name:MainQueueLength            Value:0000000000
+Offset:1c4 Length:004 Name:LargeMessageQueueLength    Value:0000000000
+Offset:1c8 Length:004 Name:PendingQueueLength         Value:0000000000
+Offset:1cc Length:004 Name:DirectQueueLength          Value:0000000000
+Offset:1d0 Length:004 Name:CanceledQueueLength        Value:0000000000
+Offset:1d4 Length:004 Name:WaitQueueLength            Value:0000000000
+
+---------------------------------------------------------------------------------------
+
+Index:10
+AlpcPortObject:FFFFCF813FA2D070
+Offset:000 Length:010 Name:PortListEntry              暂不处理 StructName:_LIST_ENTRY
+Offset:010 Length:008 Name:CommunicationInfo          Value:FFFFE28E167F7770
+	Offset:000 Length:008 Name:ConnectionPort          Value:FFFFCF813DEC6AD0 PortName:\SmApiPort
+	Offset:008 Length:008 Name:ServerCommunicationPort Value:FFFFCF813FA2D070
+	Offset:010 Length:008 Name:ClientCommunicationPort Value:FFFFCF813FA2D2D0
+	Offset:018 Length:010 Name:CommunicationList       暂不处理
+	Offset:028 Length:020 Name:HandleTable             暂不处理
+	Offset:048 Length:008 Name:CloseMessage            暂不处理
+Offset:018 Length:008 Name:OwnerProcess               Value:FFFFCF813D846040(Pid:500) ProcessId:648
+Offset:020 Length:008 Name:CompletionPort             Value:0000000000000000
+Offset:028 Length:008 Name:CompletionKey              Value:0000000000000000
+Offset:030 Length:008 Name:CompletionPacketLookaside  Value:0000000000000000
+Offset:038 Length:008 Name:PortContext                Value:000001A256626620
+Offset:040 Length:048 Name:StaticSecurity             暂不处理 StructName:_SECURITY_CLIENT_CONTEXT
+Offset:088 Length:008 Name:IncomingQueueLock          暂不处理 StructName:_EX_PUSH_LOCK
+Offset:090 Length:010 Name:MainQueue                  暂不处理 StructName:_LIST_ENTRY
+Offset:0a0 Length:010 Name:LargeMessageQueue          暂不处理 StructName:_LIST_ENTRY
+Offset:0b0 Length:008 Name:PendingQueueLock           暂不处理 StructName:_EX_PUSH_LOCK
+Offset:0b8 Length:010 Name:PendingQueue               暂不处理 StructName:_LIST_ENTRY
+Offset:0c8 Length:008 Name:DirectQueueLock            暂不处理 StructName:_EX_PUSH_LOCK
+Offset:0d0 Length:010 Name:DirectQueue                暂不处理 StructName:_LIST_ENTRY
+Offset:0e0 Length:008 Name:WaitQueueLock              暂不处理 StructName:_EX_PUSH_LOCK
+Offset:0e8 Length:010 Name:WaitQueue                  暂不处理 StructName:_LIST_ENTRY
+Offset:0f8 Length:008 Name:Semaphore                  Value:FFFFCF813B86A150
+Offset:0f8 Length:008 Name:DummyEvent                 Value:FFFFCF813B86A150
+Offset:100 Length:048 Name:PortAttributes             暂不处理 StructName:_ALPC_PORT_ATTRIBUTES
+Offset:148 Length:008 Name:ResourceListLock           暂不处理 StructName:_EX_PUSH_LOCK
+Offset:150 Length:010 Name:ResourceListHead           暂不处理 StructName:_LIST_ENTRY
+Offset:160 Length:008 Name:PortObjectLock             暂不处理 StructName:_EX_PUSH_LOCK
+Offset:168 Length:008 Name:CompletionList             Value:0000000000000000
+Offset:170 Length:008 Name:CallbackObject             Value:0000000000000000
+Offset:178 Length:008 Name:CallbackContext            Value:0000000000000000
+Offset:180 Length:010 Name:CanceledQueue              暂不处理 StructName:_LIST_ENTRY
+Offset:190 Length:004 Name:SequenceNo                 Value:0000000000
+Offset:194 Length:004 Name:ReferenceNo                Value:0000000000
+Offset:198 Length:008 Name:ReferenceNoWait            Value:0000000000000000
+Offset:1a0 Length:004 Name:u1                        
+	State:0x00000007
+	Initialized:yes
+	Type:3(ALPC_SERVER_COMMUNICATION_PORT)
+	ConnectionPending:no
+	ConnectionRefused:no
+	Disconnected:no
+	Closed:no
+	NoFlushOnClose:no
+	ReturnExtendedInfo:no
+	Waitable:no
+	DynamicSecurity:no
+	Wow64CompletionList:no
+	Lpc:no
+	LpcToLpc:no
+	HasCompletionList:no
+	HadCompletionList:no
+	EnableCompletionList:no
+Offset:1a8 Length:008 Name:TargetQueuePort            Value:FFFFCF813FA2D2D0
+Offset:1b0 Length:008 Name:TargetSequencePort         Value:FFFFCF813FA2D2D0
+Offset:1b8 Length:008 Name:CachedMessage              Value:0000000000000000
+Offset:1c0 Length:004 Name:MainQueueLength            Value:0000000000
+Offset:1c4 Length:004 Name:LargeMessageQueueLength    Value:0000000000
+Offset:1c8 Length:004 Name:PendingQueueLength         Value:0000000000
+Offset:1cc Length:004 Name:DirectQueueLength          Value:0000000000
+Offset:1d0 Length:004 Name:CanceledQueueLength        Value:0000000000
+Offset:1d4 Length:004 Name:WaitQueueLength            Value:0000000000
+
+---------------------------------------------------------------------------------------
+
+...

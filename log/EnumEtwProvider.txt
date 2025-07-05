@@ -1,0 +1,63 @@
+Number:27903
+
+Index:1
+RegHandle(_ETW_REG_ENTRY/EtwpRegistrationObjectType):FFFFCF8142F104F0
+
+_ETW_GUID_ENTRY:
+Offset:000 Length:010 Name:GuidList                    暂不处理 StructName:_LIST_ENTRY
+Offset:010 Length:010 Name:SiloGuidList                暂不处理 StructName:_LIST_ENTRY
+Offset:020 Length:008 Name:RefCount                    Value:0000000000000001
+Offset:028 Length:010 Name:Guid                        Value:{45902DE3-6D95-4A35-A37E-862215252640}
+Offset:038 Length:010 Name:RegListHead                 这个已经处理，类型结构是：_ETW_REG_ENTRY
+Offset:048 Length:008 Name:SecurityDescriptor          Value:FFFFE28E13F34720
+Offset:050 Length:010 Name:LastEnable
+	EnableFlags:0
+	LoggerId:0
+	Level:0
+	Enabled:no
+	InternalFlag:0
+Offset:050 Length:008 Name:MatchId                     Value:0000000000000000
+Offset:060 Length:020 Name:ProviderEnableInfo
+	IsEnabled:no
+	Level:0
+	LoggerId:0
+	EnableProperty:0
+	InternalFlag:0
+	MatchAllKeyword:0
+Offset:080 Length:100 Name:EnableInfo                  暂不处理
+Offset:180 Length:008 Name:FilterData                  Value:0000000000000000
+Offset:188 Length:008 Name:SiloState                   Value:FFFFCF813BA72000
+Offset:190 Length:008 Name:HostEntry                   Value:0000000000000000
+Offset:198 Length:008 Name:Lock                        Value:0000000000000011
+Offset:1a0 Length:008 Name:LockOwner                   Value:0000000000000000
+
+_ETW_REG_ENTRY:
+Offset:000 Length:010 Name:RegList                     暂不处理 StructName:_LIST_ENTRY
+Offset:010 Length:010 Name:GroupRegList                暂不处理 StructName:_LIST_ENTRY
+Offset:020 Length:008 Name:GuidEntry                   Value:FFFFCF813FA19C90
+Offset:028 Length:008 Name:GroupEntry                  Value:FFFFCF813BAFEA90
+Offset:030 Length:008 Name:ReplyQueue                  Value:0000000000000000
+Offset:030 Length:020 Name:ReplySlot                   暂不处理
+Offset:030 Length:008 Name:Caller                      Value:0000000000000000
+Offset:038 Length:004 Name:SessionId                   Value:0
+Offset:050 Length:008 Name:Process                     Value:FFFFCF813CFF1080
+Offset:050 Length:008 Name:CallbackContext             Value:FFFFCF813CFF1080
+Offset:058 Length:008 Name:Callback                    Value:00007FF9576D10D0
+Offset:060 Length:002 Name:Index                       Value:96
+Offset:062 Length:002 Name:Flags                       Value:642
+Offset:062 Length:002 Name:DbgKernelRegistration       Value:642
+Offset:062 Length:002 Name:DbgUserRegistration         Value:642
+Offset:062 Length:002 Name:DbgReplyRegistration        Value:642
+Offset:062 Length:002 Name:DbgClassicRegistration      Value:642
+Offset:062 Length:002 Name:DbgSessionSpaceRegistration Value:642
+Offset:062 Length:002 Name:DbgModernRegistration       Value:642
+Offset:062 Length:002 Name:DbgClosed                   Value:642
+Offset:062 Length:002 Name:DbgInserted                 Value:642
+Offset:062 Length:002 Name:DbgWow64                    Value:642
+Offset:062 Length:002 Name:DbgUseDescriptorType        Value:642
+Offset:062 Length:002 Name:DbgDropProviderTraits       Value:642
+Offset:064 Length:001 Name:EnableMask                  Value:0
+Offset:065 Length:001 Name:GroupEnableMask             Value:1
+Offset:066 Length:001 Name:HostEnableMask              Value:0
+Offset:067 Length:001 Name:HostGroupEnableMask         Value:0
+Offset:068 Length:008 Name:Traits                      Value:FFFFE28E21D48C90
