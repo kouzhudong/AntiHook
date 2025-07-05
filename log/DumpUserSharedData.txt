@@ -1,0 +1,315 @@
+TickCountLowDeprecated:0
+TickCountMultiplier:262144000
+InterruptTime:39320979004
+SystemTime:133961773545721635
+TimeZoneBias:252000000000
+ImageNumberLow:34404
+ImageNumberHigh:34404
+NtSystemRoot:C:\Windows
+MaxStackTraceDepth:0
+CryptoExponent:0
+TimeZoneId:2
+LargePageMinimum:2097152
+AitSamplingValue:0
+AppCompatFlag:0
+RNGSeedVersion:14
+GlobalValidationRunlevel:0
+TimeZoneBiasStamp:22
+NtBuildNumber:22621
+NtProductType:1
+ProductTypeIsValid:1
+Reserved0:0
+NativeProcessorArchitecture:9
+NtMajorVersion:10
+NtMinorVersion:0
+ProcessorFeatures[0]:0
+ProcessorFeatures[1]:0
+ProcessorFeatures[2]:1
+ProcessorFeatures[3]:1
+ProcessorFeatures[4]:0
+ProcessorFeatures[5]:0
+ProcessorFeatures[6]:1
+ProcessorFeatures[7]:0
+ProcessorFeatures[8]:1
+ProcessorFeatures[9]:1
+ProcessorFeatures[10]:1
+ProcessorFeatures[11]:0
+ProcessorFeatures[12]:1
+ProcessorFeatures[13]:1
+ProcessorFeatures[14]:1
+ProcessorFeatures[15]:0
+ProcessorFeatures[16]:0
+ProcessorFeatures[17]:1
+ProcessorFeatures[18]:0
+ProcessorFeatures[19]:0
+ProcessorFeatures[20]:0
+ProcessorFeatures[21]:0
+ProcessorFeatures[22]:1
+ProcessorFeatures[23]:1
+ProcessorFeatures[24]:0
+ProcessorFeatures[25]:0
+ProcessorFeatures[26]:0
+ProcessorFeatures[27]:0
+ProcessorFeatures[28]:1
+ProcessorFeatures[29]:0
+ProcessorFeatures[30]:0
+ProcessorFeatures[31]:0
+ProcessorFeatures[32]:1
+ProcessorFeatures[33]:1
+ProcessorFeatures[34]:0
+ProcessorFeatures[35]:0
+ProcessorFeatures[36]:1
+ProcessorFeatures[37]:1
+ProcessorFeatures[38]:1
+ProcessorFeatures[39]:1
+ProcessorFeatures[40]:1
+ProcessorFeatures[41]:1
+ProcessorFeatures[42]:1
+ProcessorFeatures[43]:0
+ProcessorFeatures[44]:0
+ProcessorFeatures[45]:0
+ProcessorFeatures[46]:0
+ProcessorFeatures[47]:0
+ProcessorFeatures[48]:0
+ProcessorFeatures[49]:0
+ProcessorFeatures[50]:0
+ProcessorFeatures[51]:0
+ProcessorFeatures[52]:0
+ProcessorFeatures[53]:0
+ProcessorFeatures[54]:0
+ProcessorFeatures[55]:0
+ProcessorFeatures[56]:0
+ProcessorFeatures[57]:0
+ProcessorFeatures[58]:0
+ProcessorFeatures[59]:0
+ProcessorFeatures[60]:0
+ProcessorFeatures[61]:0
+ProcessorFeatures[62]:0
+ProcessorFeatures[63]:0
+Reserved1:2147418111
+Reserved3:2147483648
+TimeSlip:0
+AlternativeArchitecture:0
+BootId:20
+SystemExpirationDate:0
+SuiteMask:272
+KdDebuggerEnabled:3
+MitigationPolicies:10
+NXSupportPolicy:2
+SEHValidationPolicy:2
+CurDirDevicesSkippedForDlls:0
+Reserved:0
+CyclesPerYield:127
+ActiveConsoleId:5
+DismountCount:0
+ComPlusPackage:1
+LastSystemRITEventTickCount:3931906
+NumberOfPhysicalPages:785633
+SafeBootMode:0
+VirtualizationFlags:0
+Reserved12:0, 0
+SharedDataFlags:270
+DbgErrorPortPresent:0
+DbgElevationEnabled:1
+DbgVirtEnabled:1
+DbgInstallerDetectEnabled:1
+DbgLkgEnabled:0
+DbgDynProcessorEnabled:0
+DbgConsoleBrokerEnabled:0
+DbgSecureBootEnabled:0
+DbgMultiSessionSku:1
+DbgMultiUsersInSessionSku:0
+DbgStateSeparationEnabled:0
+SpareBits:0
+DataFlagsPad:0
+TestRetInstruction:195
+QpcFrequency:10000000
+SystemCall:0
+Reserved2:0
+SystemCallPad:0, 0
+TickCount:251654
+TickCountQuad:251654
+ReservedTickCountOverlay:251654, 0, 0
+TickCountPad:0
+Cookie:4044986021
+CookiePad:0
+ConsoleSessionForegroundProcessId:11792
+TimeUpdateLock:757000
+BaselineSystemTimeQpc:44952816771
+BaselineInterruptTimeQpc:44952816771
+QpcSystemTimeIncrement:18444894050836252740
+QpcInterruptTimeIncrement:9223372036854775808
+QpcSystemTimeIncrementShift:0
+QpcInterruptTimeIncrementShift:1
+UnparkedProcessorCount:4
+EnclaveFeatureMask:256, 0, 0, 0
+TelemetryCoverageRound:1
+UserModeGlobalLogger[0]:0
+UserModeGlobalLogger[1]:0
+UserModeGlobalLogger[2]:0
+UserModeGlobalLogger[3]:0
+UserModeGlobalLogger[4]:0
+UserModeGlobalLogger[5]:0
+UserModeGlobalLogger[6]:0
+UserModeGlobalLogger[7]:0
+UserModeGlobalLogger[8]:0
+UserModeGlobalLogger[9]:0
+UserModeGlobalLogger[10]:0
+UserModeGlobalLogger[11]:0
+UserModeGlobalLogger[12]:0
+UserModeGlobalLogger[13]:0
+UserModeGlobalLogger[14]:0
+UserModeGlobalLogger[15]:0
+ImageFileExecutionOptions:0
+LangGenerationCount:1
+Reserved4:0
+InterruptTimeBias:0
+QpcBias:18446744073483817409
+ActiveProcessorCount:4
+ActiveGroupCount:1
+Reserved9:0
+QpcData:131
+QpcBypassEnabled:131
+QpcShift:0
+TimeZoneBiasEffectiveStart:133961772111820457
+TimeZoneBiasEffectiveEnd:134065476000000000
+EnabledFeatures:231
+EnabledVolatileFeatures:231
+Size:2432
+ControlFlags:3
+OptimizedSave:1
+CompactionEnabled:1
+Features[0] Offset:0 Size:160
+Features[1] Offset:160 Size:256
+Features[2] Offset:576 Size:256
+Features[3] Offset:0 Size:0
+Features[4] Offset:0 Size:0
+Features[5] Offset:832 Size:64
+Features[6] Offset:896 Size:512
+Features[7] Offset:1408 Size:1024
+Features[8] Offset:0 Size:0
+Features[9] Offset:0 Size:0
+Features[10] Offset:0 Size:0
+Features[11] Offset:0 Size:0
+Features[12] Offset:0 Size:0
+Features[13] Offset:0 Size:0
+Features[14] Offset:0 Size:0
+Features[15] Offset:0 Size:0
+Features[16] Offset:0 Size:0
+Features[17] Offset:0 Size:0
+Features[18] Offset:0 Size:0
+Features[19] Offset:0 Size:0
+Features[20] Offset:0 Size:0
+Features[21] Offset:0 Size:0
+Features[22] Offset:0 Size:0
+Features[23] Offset:0 Size:0
+Features[24] Offset:0 Size:0
+Features[25] Offset:0 Size:0
+Features[26] Offset:0 Size:0
+Features[27] Offset:0 Size:0
+Features[28] Offset:0 Size:0
+Features[29] Offset:0 Size:0
+Features[30] Offset:0 Size:0
+Features[31] Offset:0 Size:0
+Features[32] Offset:0 Size:0
+Features[33] Offset:0 Size:0
+Features[34] Offset:0 Size:0
+Features[35] Offset:0 Size:0
+Features[36] Offset:0 Size:0
+Features[37] Offset:0 Size:0
+Features[38] Offset:0 Size:0
+Features[39] Offset:0 Size:0
+Features[40] Offset:0 Size:0
+Features[41] Offset:0 Size:0
+Features[42] Offset:0 Size:0
+Features[43] Offset:0 Size:0
+Features[44] Offset:0 Size:0
+Features[45] Offset:0 Size:0
+Features[46] Offset:0 Size:0
+Features[47] Offset:0 Size:0
+Features[48] Offset:0 Size:0
+Features[49] Offset:0 Size:0
+Features[50] Offset:0 Size:0
+Features[51] Offset:0 Size:0
+Features[52] Offset:0 Size:0
+Features[53] Offset:0 Size:0
+Features[54] Offset:0 Size:0
+Features[55] Offset:0 Size:0
+Features[56] Offset:0 Size:0
+Features[57] Offset:0 Size:0
+Features[58] Offset:0 Size:0
+Features[59] Offset:0 Size:0
+Features[60] Offset:0 Size:0
+Features[61] Offset:0 Size:0
+Features[62] Offset:0 Size:0
+Features[63] Offset:0 Size:0
+EnabledSupervisorFeatures:0
+AlignedFeatures:0
+AllFeatureSize:2432
+AllFeatures[0]:160
+AllFeatures[1]:256
+AllFeatures[2]:256
+AllFeatures[3]:0
+AllFeatures[4]:0
+AllFeatures[5]:64
+AllFeatures[6]:512
+AllFeatures[7]:1024
+AllFeatures[8]:0
+AllFeatures[9]:0
+AllFeatures[10]:0
+AllFeatures[11]:0
+AllFeatures[12]:0
+AllFeatures[13]:0
+AllFeatures[14]:0
+AllFeatures[15]:0
+AllFeatures[16]:0
+AllFeatures[17]:0
+AllFeatures[18]:0
+AllFeatures[19]:0
+AllFeatures[20]:0
+AllFeatures[21]:0
+AllFeatures[22]:0
+AllFeatures[23]:0
+AllFeatures[24]:0
+AllFeatures[25]:0
+AllFeatures[26]:0
+AllFeatures[27]:0
+AllFeatures[28]:0
+AllFeatures[29]:0
+AllFeatures[30]:0
+AllFeatures[31]:0
+AllFeatures[32]:0
+AllFeatures[33]:0
+AllFeatures[34]:0
+AllFeatures[35]:0
+AllFeatures[36]:0
+AllFeatures[37]:0
+AllFeatures[38]:0
+AllFeatures[39]:0
+AllFeatures[40]:0
+AllFeatures[41]:0
+AllFeatures[42]:0
+AllFeatures[43]:0
+AllFeatures[44]:0
+AllFeatures[45]:0
+AllFeatures[46]:0
+AllFeatures[47]:0
+AllFeatures[48]:0
+AllFeatures[49]:0
+AllFeatures[50]:0
+AllFeatures[51]:0
+AllFeatures[52]:0
+AllFeatures[53]:0
+AllFeatures[54]:0
+AllFeatures[55]:0
+AllFeatures[56]:0
+AllFeatures[57]:0
+AllFeatures[58]:0
+AllFeatures[59]:0
+AllFeatures[60]:0
+AllFeatures[61]:0
+AllFeatures[62]:0
+AllFeatures[63]:0
+EnabledUserVisibleSupervisorFeatures:0
+FeatureConfigurationChangeStamp:0
+Spare:0
