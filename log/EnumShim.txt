@@ -1,0 +1,434 @@
+Number:33
+
+Index:1
+Address:FFFFF8017A804770
+Size:56
+Guid:{BC04AB45-EA7E-4A11-A7BB-977615F4CAAE}
+Name:driverscope
+GetIoCallbacks:FFFFF80179F6E5C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseGetIoCallbacks
+DriverTargetedNotification:FFFFF8017A17EFD0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsHookDriverUntargeted
+DriverUntargetedNotification:FFFFF8017A17EFB0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsHookDriverTargeted
+CollectionType:Callback
+CallbackId:2
+HookFunction:FFFFF8017A17EBC0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsCallbackHookDriverStartIo
+
+---------------------------------------------------------------------------------------
+
+Index:2
+Address:FFFFF8017A804770
+Size:56
+Guid:{BC04AB45-EA7E-4A11-A7BB-977615F4CAAE}
+Name:driverscope
+GetIoCallbacks:FFFFF80179F6E5C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseGetIoCallbacks
+DriverTargetedNotification:FFFFF8017A17EFD0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsHookDriverUntargeted
+DriverUntargetedNotification:FFFFF8017A17EFB0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsHookDriverTargeted
+CollectionType:Callback
+CallbackId:3
+HookFunction:FFFFF8017A17EC20 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsCallbackHookDriverUnload
+
+---------------------------------------------------------------------------------------
+
+Index:3
+Address:FFFFF8017A804770
+Size:56
+Guid:{BC04AB45-EA7E-4A11-A7BB-977615F4CAAE}
+Name:driverscope
+GetIoCallbacks:FFFFF80179F6E5C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseGetIoCallbacks
+DriverTargetedNotification:FFFFF8017A17EFD0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsHookDriverUntargeted
+DriverUntargetedNotification:FFFFF8017A17EFB0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsHookDriverTargeted
+CollectionType:Callback
+CallbackId:4
+HookFunction:FFFFF8017A17EAD0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsCallbackHookAddDevice
+
+---------------------------------------------------------------------------------------
+
+Index:4
+Address:FFFFF8017A804770
+Size:56
+Guid:{BC04AB45-EA7E-4A11-A7BB-977615F4CAAE}
+Name:driverscope
+GetIoCallbacks:FFFFF80179F6E5C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseGetIoCallbacks
+DriverTargetedNotification:FFFFF8017A17EFD0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsHookDriverUntargeted
+DriverUntargetedNotification:FFFFF8017A17EFB0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsHookDriverTargeted
+CollectionType:Callback
+CallbackId:103
+HookFunction:FFFFF8017A17ECE0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsCallbackHookIrpFunction
+
+---------------------------------------------------------------------------------------
+
+Index:5
+Address:FFFFF8017A804770
+Size:56
+Guid:{BC04AB45-EA7E-4A11-A7BB-977615F4CAAE}
+Name:driverscope
+GetIoCallbacks:FFFFF80179F6E5C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseGetIoCallbacks
+DriverTargetedNotification:FFFFF8017A17EFD0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsHookDriverUntargeted
+DriverUntargetedNotification:FFFFF8017A17EFB0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsHookDriverTargeted
+CollectionType:Callback
+CallbackId:104
+HookFunction:FFFFF8017A17ECE0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsCallbackHookIrpFunction
+
+---------------------------------------------------------------------------------------
+
+Index:6
+Address:FFFFF8017A804770
+Size:56
+Guid:{BC04AB45-EA7E-4A11-A7BB-977615F4CAAE}
+Name:driverscope
+GetIoCallbacks:FFFFF80179F6E5C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseGetIoCallbacks
+DriverTargetedNotification:FFFFF8017A17EFD0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsHookDriverUntargeted
+DriverUntargetedNotification:FFFFF8017A17EFB0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsHookDriverTargeted
+CollectionType:Callback
+CallbackId:100
+HookFunction:FFFFF8017A17ECE0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsCallbackHookIrpFunction
+
+---------------------------------------------------------------------------------------
+
+Index:7
+Address:FFFFF8017A804770
+Size:56
+Guid:{BC04AB45-EA7E-4A11-A7BB-977615F4CAAE}
+Name:driverscope
+GetIoCallbacks:FFFFF80179F6E5C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseGetIoCallbacks
+DriverTargetedNotification:FFFFF8017A17EFD0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsHookDriverUntargeted
+DriverUntargetedNotification:FFFFF8017A17EFB0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsHookDriverTargeted
+CollectionType:Callback
+CallbackId:114
+HookFunction:FFFFF8017A17EC60 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsCallbackHookIrpDeviceControlFunction
+
+---------------------------------------------------------------------------------------
+
+Index:8
+Address:FFFFF8017A804770
+Size:56
+Guid:{BC04AB45-EA7E-4A11-A7BB-977615F4CAAE}
+Name:driverscope
+GetIoCallbacks:FFFFF80179F6E5C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseGetIoCallbacks
+DriverTargetedNotification:FFFFF8017A17EFD0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsHookDriverUntargeted
+DriverUntargetedNotification:FFFFF8017A17EFB0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsHookDriverTargeted
+CollectionType:Callback
+CallbackId:115
+HookFunction:FFFFF8017A17EC60 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsCallbackHookIrpDeviceControlFunction
+
+---------------------------------------------------------------------------------------
+
+Index:9
+Address:FFFFF8017A804770
+Size:56
+Guid:{BC04AB45-EA7E-4A11-A7BB-977615F4CAAE}
+Name:driverscope
+GetIoCallbacks:FFFFF80179F6E5C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseGetIoCallbacks
+DriverTargetedNotification:FFFFF8017A17EFD0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsHookDriverUntargeted
+DriverUntargetedNotification:FFFFF8017A17EFB0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsHookDriverTargeted
+CollectionType:Callback
+CallbackId:122
+HookFunction:FFFFF8017A17EE20 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsCallbackHookIrpPowerFunction
+
+---------------------------------------------------------------------------------------
+
+Index:10
+Address:FFFFF8017A804770
+Size:56
+Guid:{BC04AB45-EA7E-4A11-A7BB-977615F4CAAE}
+Name:driverscope
+GetIoCallbacks:FFFFF80179F6E5C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseGetIoCallbacks
+DriverTargetedNotification:FFFFF8017A17EFD0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsHookDriverUntargeted
+DriverUntargetedNotification:FFFFF8017A17EFB0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsHookDriverTargeted
+CollectionType:Callback
+CallbackId:127
+HookFunction:FFFFF8017A17ED70 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsCallbackHookIrpPnpFunction
+
+---------------------------------------------------------------------------------------
+
+Index:11
+Address:FFFFF8017A804770
+Size:56
+Guid:{BC04AB45-EA7E-4A11-A7BB-977615F4CAAE}
+Name:driverscope
+GetIoCallbacks:FFFFF80179F6E5C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseGetIoCallbacks
+DriverTargetedNotification:FFFFF8017A17EFD0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsHookDriverUntargeted
+DriverUntargetedNotification:FFFFF8017A17EFB0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsHookDriverTargeted
+CollectionType:NT Export
+FunctionName:IoCreateDevice
+HookFunction:FFFFF8017A17F140 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsHookIoCreateDevice
+
+---------------------------------------------------------------------------------------
+
+Index:12
+Address:FFFFF8017A804770
+Size:56
+Guid:{BC04AB45-EA7E-4A11-A7BB-977615F4CAAE}
+Name:driverscope
+GetIoCallbacks:FFFFF80179F6E5C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseGetIoCallbacks
+DriverTargetedNotification:FFFFF8017A17EFD0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsHookDriverUntargeted
+DriverUntargetedNotification:FFFFF8017A17EFB0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsHookDriverTargeted
+CollectionType:NT Export
+FunctionName:PoRequestPowerIrp
+HookFunction:FFFFF8017A17F1E0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsHookPoRequestPowerIrp
+
+---------------------------------------------------------------------------------------
+
+Index:13
+Address:FFFFF8017A804770
+Size:56
+Guid:{BC04AB45-EA7E-4A11-A7BB-977615F4CAAE}
+Name:driverscope
+GetIoCallbacks:FFFFF80179F6E5C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseGetIoCallbacks
+DriverTargetedNotification:FFFFF8017A17EFD0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsHookDriverUntargeted
+DriverUntargetedNotification:FFFFF8017A17EFB0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsHookDriverTargeted
+CollectionType:NT Export
+FunctionName:ExAllocatePoolWithTag
+HookFunction:FFFFF8017A17F050 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsHookExAllocatePoolWithTag
+
+---------------------------------------------------------------------------------------
+
+Index:14
+Address:FFFFF8017A804770
+Size:56
+Guid:{BC04AB45-EA7E-4A11-A7BB-977615F4CAAE}
+Name:driverscope
+GetIoCallbacks:FFFFF80179F6E5C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseGetIoCallbacks
+DriverTargetedNotification:FFFFF8017A17EFD0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsHookDriverUntargeted
+DriverUntargetedNotification:FFFFF8017A17EFB0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsHookDriverTargeted
+CollectionType:NT Export
+FunctionName:ExFreePoolWithTag
+HookFunction:FFFFF8017A17F100 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsHookExFreePoolWithTag
+
+---------------------------------------------------------------------------------------
+
+Index:15
+Address:FFFFF8017A804770
+Size:56
+Guid:{BC04AB45-EA7E-4A11-A7BB-977615F4CAAE}
+Name:driverscope
+GetIoCallbacks:FFFFF80179F6E5C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseGetIoCallbacks
+DriverTargetedNotification:FFFFF8017A17EFD0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsHookDriverUntargeted
+DriverUntargetedNotification:FFFFF8017A17EFB0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsHookDriverTargeted
+CollectionType:NT Export
+FunctionName:ExAllocatePool
+HookFunction:FFFFF8017A17EFF0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsHookExAllocatePool
+
+---------------------------------------------------------------------------------------
+
+Index:16
+Address:FFFFF8017A804770
+Size:56
+Guid:{BC04AB45-EA7E-4A11-A7BB-977615F4CAAE}
+Name:driverscope
+GetIoCallbacks:FFFFF80179F6E5C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseGetIoCallbacks
+DriverTargetedNotification:FFFFF8017A17EFD0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsHookDriverUntargeted
+DriverUntargetedNotification:FFFFF8017A17EFB0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsHookDriverTargeted
+CollectionType:NT Export
+FunctionName:ExFreePool
+HookFunction:FFFFF8017A17F0C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseDsHookExFreePool
+
+---------------------------------------------------------------------------------------
+
+Index:17
+Address:FFFFF8017A8062D0
+Size:56
+Guid:{3E28B2D1-E633-408C-8E9B-2AFA6F47FCC3}
+Name:KmWin7VersionLie
+GetIoCallbacks:FFFFF80179F6E5C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseGetIoCallbacks
+CollectionType:NT Export
+FunctionName:RtlGetVersion
+HookFunction:FFFFF8017A575830 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:Win7RtlGetVersion
+
+---------------------------------------------------------------------------------------
+
+Index:18
+Address:FFFFF8017A8062D0
+Size:56
+Guid:{3E28B2D1-E633-408C-8E9B-2AFA6F47FCC3}
+Name:KmWin7VersionLie
+GetIoCallbacks:FFFFF80179F6E5C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseGetIoCallbacks
+CollectionType:NT Export
+FunctionName:PsGetVersion
+HookFunction:FFFFF8017A5757A0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:Win7PsGetVersion
+
+---------------------------------------------------------------------------------------
+
+Index:19
+Address:FFFFF8017A806308
+Size:56
+Guid:{47712F55-BD93-43FC-9248-B9A83710066E}
+Name:KmWin8VersionLie
+GetIoCallbacks:FFFFF80179F6E5C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseGetIoCallbacks
+CollectionType:NT Export
+FunctionName:RtlGetVersion
+HookFunction:FFFFF8017A5759F0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:Win8RtlGetVersion
+
+---------------------------------------------------------------------------------------
+
+Index:20
+Address:FFFFF8017A806308
+Size:56
+Guid:{47712F55-BD93-43FC-9248-B9A83710066E}
+Name:KmWin8VersionLie
+GetIoCallbacks:FFFFF80179F6E5C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseGetIoCallbacks
+CollectionType:NT Export
+FunctionName:PsGetVersion
+HookFunction:FFFFF8017A575960 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:Win8PsGetVersion
+
+---------------------------------------------------------------------------------------
+
+Index:21
+Address:FFFFF8017A806340
+Size:56
+Guid:{21C4FB58-D477-4839-A7EA-AD6918FBC518}
+Name:KmWin81VersionLie
+GetIoCallbacks:FFFFF80179F6E5C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseGetIoCallbacks
+CollectionType:NT Export
+FunctionName:RtlGetVersion
+HookFunction:FFFFF8017A575910 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:Win81RtlGetVersion
+
+---------------------------------------------------------------------------------------
+
+Index:22
+Address:FFFFF8017A806340
+Size:56
+Guid:{21C4FB58-D477-4839-A7EA-AD6918FBC518}
+Name:KmWin81VersionLie
+GetIoCallbacks:FFFFF80179F6E5C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseGetIoCallbacks
+CollectionType:NT Export
+FunctionName:PsGetVersion
+HookFunction:FFFFF8017A575880 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:Win81PsGetVersion
+
+---------------------------------------------------------------------------------------
+
+Index:23
+Address:FFFFF8017A8047E0
+Size:56
+Guid:{3E8C2CA6-34E2-4DE6-8A1E-9692DD3E316B}
+Name:SkipDriverUnload
+GetIoCallbacks:FFFFF80179F6E5C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseGetIoCallbacks
+DriverTargetedNotification:FFFFF8017A1802F0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseSkipDriverUnloadHookDriverUntargeted
+DriverUntargetedNotification:FFFFF8017A1802D0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseSkipDriverUnloadHookDriverTargeted
+CollectionType:Callback
+CallbackId:3
+HookFunction:FFFFF8017A1802B0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseSkipDriverUnloadCallbackHookDriverUnload
+
+---------------------------------------------------------------------------------------
+
+Index:24
+Address:FFFFF8017A806298
+Size:56
+Guid:{6B847429-C430-4682-B55F-FD11A7B55465}
+Name:ZeroPool
+GetIoCallbacks:FFFFF80179F6E5C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseGetIoCallbacks
+CollectionType:NT Export
+FunctionName:ExAllocatePoolWithTag
+HookFunction:FFFFF8017A17EA80 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseHookExAllocatePoolWithTag
+
+---------------------------------------------------------------------------------------
+
+Index:25
+Address:FFFFF8017A806378
+Size:56
+Guid:{B4678DFF-BD3E-46C9-923B-B5733483B0B3}
+Name:ClearPCIDBits
+GetIoCallbacks:FFFFF80179F6E5C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseGetIoCallbacks
+CollectionType:NT Export
+FunctionName:MmGetVirtualForPhysical
+HookFunction:FFFFF8017A180100 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseHookMmGetVirtualForPhysical
+
+---------------------------------------------------------------------------------------
+
+Index:26
+Address:FFFFF8017A806378
+Size:56
+Guid:{B4678DFF-BD3E-46C9-923B-B5733483B0B3}
+Name:ClearPCIDBits
+GetIoCallbacks:FFFFF80179F6E5C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseGetIoCallbacks
+CollectionType:NT Export
+FunctionName:MmMapIoSpace
+HookFunction:FFFFF8017A180140 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseHookMmMapIoSpace
+
+---------------------------------------------------------------------------------------
+
+Index:27
+Address:FFFFF8017A8063E8
+Size:56
+Guid:{B4678DFF-CC3E-46C9-923B-B5733483B0B3}
+Name:KasperskyShim
+GetIoCallbacks:FFFFF80179F6E5C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseGetIoCallbacks
+CollectionType:NT Export
+FunctionName:ZwQueryValueKey
+HookFunction:FFFFF8017A575A40 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseHookQueryValueKey
+
+---------------------------------------------------------------------------------------
+
+Index:28
+Address:FFFFF8017A8063B0
+Size:56
+Guid:{8A2517C1-35D6-4CA8-9EC8-98A12762891B}
+Name:Memcpy
+GetIoCallbacks:FFFFF80179F6E5C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseGetIoCallbacks
+CollectionType:NT Export
+FunctionName:memcpy_s
+HookFunction:FFFFF8017A180180 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseHookMemcpy_s
+
+---------------------------------------------------------------------------------------
+
+Index:29
+Address:FFFFF8017C5245D0
+Size:56
+Guid:{49691313-1362-4E75-8C2A-2DD72928EBA5}
+Name:NdisGetVersion640Shim
+GetIoCallbacks:FFFFF80179F6E5C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseGetIoCallbacks
+CollectionType:Driver Export
+DriverName:ndis.sys
+FunctionName:NdisGetVersion
+HookFunction:FFFFF8017C4B8E20 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS SymbolName:NdisGetVersion640Shim
+
+---------------------------------------------------------------------------------------
+
+Index:30
+Address:FFFFF8017C524598
+Size:56
+Guid:{024066D1-782D-4ADF-AFDD-A35658431F74}
+Name:NdisReadConfiguration
+GetIoCallbacks:FFFFF80179F6E5C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseGetIoCallbacks
+CollectionType:Driver Export
+DriverName:ndis.sys
+FunctionName:NdisReadConfiguration
+HookFunction:FFFFF8017C4B8E70 FullPathName:\SystemRoot\System32\drivers\NDIS.SYS SymbolName:NdisReadConfigShimHook
+
+---------------------------------------------------------------------------------------
+
+Index:31
+Address:FFFFF8017CB22170
+Size:56
+Guid:{434ABAFD-08FA-4C3D-A88D-D09A88E2AB17}
+Name:Srbshim
+GetIoCallbacks:FFFFF80179F6E5C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseGetIoCallbacks
+CollectionType:Callback
+CallbackId:114
+HookFunction:FFFFF8017CA9F520 FullPathName:\SystemRoot\System32\drivers\storport.sys SymbolName:SrbShimHookDeviceControl
+
+---------------------------------------------------------------------------------------
+
+Index:32
+Address:FFFFF8017CB222F0
+Size:56
+Guid:{0332EC62-865A-4A39-B48F-CDA6E855F423}
+Name:DeviceIdshim
+GetIoCallbacks:FFFFF80179F6E5C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseGetIoCallbacks
+CollectionType:Callback
+CallbackId:114
+HookFunction:FFFFF8017CB03CE0 FullPathName:\SystemRoot\System32\drivers\storport.sys SymbolName:DeviceIdShimHookDeviceControl
+
+---------------------------------------------------------------------------------------
+
+Index:33
+Address:FFFFF8017CB22328
+Size:56
+Guid:{26665D57-2158-4E4B-A959-C917D03A0D7E}
+Name:ATADeviceIdshim
+GetIoCallbacks:FFFFF80179F6E5C0 FullPathName:\SystemRoot\system32\ntoskrnl.exe SymbolName:KseGetIoCallbacks
+CollectionType:Callback
+CallbackId:114
+HookFunction:FFFFF8017CB03A10 FullPathName:\SystemRoot\System32\drivers\storport.sys SymbolName:ATADeviceIdShimHookDeviceControl
+
+---------------------------------------------------------------------------------------
+
