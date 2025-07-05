@@ -1,19 +1,18 @@
-
 C:\Users\user\Desktop\bin>AntiHook.exe help
 made by correy
 https://github.com/kouzhudong
 Copyright (C) Correy Studio. All rights reserved.
 
-è¿™é‡Œæ˜¯å‘½ä»¤è¡Œçš„ç”¨æ³•å’Œè®¾è®¡æ€æƒ³çš„è¯¦ç»†è¯´æ˜Ž.
-ç¬¬ä¸€æ­¥ç¡®ä¿ä½ èƒ½æˆåŠŸå®‰è£…é©±åŠ¨ï¼Œå¦‚ï¼šé©±åŠ¨ç­¾åï¼ŒAVçš„æ‹¦æˆªç­‰.
-ç¬¬äºŒæ­¥ç¡®ä¿ä½ æœ‰ä¸€ä¸ªæœ‰æ•ˆçš„æœ¬ç¨‹åºçš„æŽˆæƒè®¤è¯ï¼ˆè¿™é‡Œæ˜¯ç­¾åï¼‰.
-ç¬¬ä¸‰æ­¥ç¡®ä¿ä½ æœ‰(è”ç½‘æˆ–è€…å¤åˆ¶)é€‚åˆæœ¬åœ°çš„ç¬¦å·æ–‡ä»¶.
-ç¬¬å››æ­¥æŸ¥è¯¢å„ç§ä¿¡æ¯.
-ç¬¬äº”æ­¥ä¿®æ”¹ç³»ç»Ÿçš„é…ç½®ï¼Œå¦‚ï¼šç§»é™¤å›žè°ƒå‡½æ•°ç­‰.
-ç¬¬å…­æ­¥çœ‹çœ‹æœ‰æ²¡æœ‰æ›´æ–°çš„ç‰ˆæœ¬.
-ç¬¬ä¸ƒæ­¥æ˜¯å¸è½½.
+ÕâÀïÊÇÃüÁîÐÐµÄÓÃ·¨ºÍÉè¼ÆË¼ÏëµÄÏêÏ¸ËµÃ÷.
+µÚÒ»²½È·±£ÄãÄÜ³É¹¦°²×°Çý¶¯£¬Èç£ºÇý¶¯Ç©Ãû£¬AVµÄÀ¹½ØµÈ.
+µÚ¶þ²½È·±£ÄãÓÐÒ»¸öÓÐÐ§µÄ±¾³ÌÐòµÄÊÚÈ¨ÈÏÖ¤£¨ÕâÀïÊÇÇ©Ãû£©.
+µÚÈý²½È·±£ÄãÓÐ(ÁªÍø»òÕß¸´ÖÆ)ÊÊºÏ±¾µØµÄ·ûºÅÎÄ¼þ.
+µÚËÄ²½²éÑ¯¸÷ÖÖÐÅÏ¢.
+µÚÎå²½ÐÞ¸ÄÏµÍ³µÄÅäÖÃ£¬Èç£ºÒÆ³ý»Øµ÷º¯ÊýµÈ.
+µÚÁù²½¿´¿´ÓÐÃ»ÓÐ¸üÐÂµÄ°æ±¾.
+µÚÆß²½ÊÇÐ¶ÔØ.
 
-æç¤ºï¼šè¿™é‡Œçš„æ‰€æœ‰çš„åœ°å€(åŒ…æ‹¬æ•°å­—)éƒ½æ˜¯åå…­è¿›åˆ¶çš„.
+ÌáÊ¾£ºÕâÀïµÄËùÓÐµÄµØÖ·(°üÀ¨Êý×Ö)¶¼ÊÇÊ®Áù½øÖÆµÄ.
 
 C:\Users\user\Desktop\bin>AntiHook.exe /?
 made by correy
@@ -57,6 +56,15 @@ AntiHook.exe UnRegisterPowerSettingCallback Handle
 AntiHook.exe EnumImageVerificationCallback
 AntiHook.exe UnRegisterImageVerificationCallback CallbackHandle
 
+AntiHook.exe EnumLogonSessionTerminatedRoutine
+AntiHook.exe UnRegisterLogonSessionTerminatedRoutine CallbackRoutine
+AntiHook.exe EnumLogonSessionTerminatedRoutineEx
+AntiHook.exe UnRegisterLogonSessionTerminatedRoutineEx CallbackRoutine Context
+AntiHook.exe EnumSiloMonitor
+AntiHook.exe UnRegisterSiloMonitor Monitor
+AntiHook.exe EnumShim
+AntiHook.exe UnRegisterShim Address
+
 AntiHook.exe EnumGlobalDescriptorTable
 AntiHook.exe EnumInterruptDescriptorTable
 AntiHook.exe EnumKeServiceDescriptorTable
@@ -67,9 +75,13 @@ AntiHook.exe EnumHalAcpiDispatchTable
 AntiHook.exe EnumHalSubComponents
 AntiHook.exe EnumHalIommuDispatchTable
 AntiHook.exe EnumHalPrivateDispatchTable
+AntiHook.exe EnumHalpRegisteredInterruptControllers
 
 AntiHook.exe EnumFilterDevice \Device\Name
 AntiHook.exe DetachDevice DeviceObject
+AntiHook.exe EnumFsNotifyChange
+AntiHook.exe UnRegisterFsRegistrationChange DriverObject DriverNotificationRoutine
+AntiHook.exe EnumLegacyFilter
 AntiHook.exe EnumMiniFilter
 AntiHook.exe RemoveMinifilter FilterName
 AntiHook.exe CloseServerPort ServerPortObject
@@ -80,33 +92,68 @@ AntiHook.exe UnRegisterCallout CalloutId
 AntiHook.exe EnumProtocolDriver
 AntiHook.exe EnumNdisFilterDriver
 AntiHook.exe EnumMiniPortDriver
+AntiHook.exe EnumNdisGlobalOpenList
+AntiHook.exe EnumNdisGlobalFilterList
+AntiHook.exe EnumNdisMiniporList
 
 AntiHook.exe EnumDpcTimer
 AntiHook.exe CancelDpcTimer TimerObject
 AntiHook.exe EnumIoTimer
 AntiHook.exe StopIoTimer DeviceObject
 
+AntiHook.exe EnumEtwProvider
+AntiHook.exe UnRegEtwProvider RegHandle
+AntiHook.exe EnumEtwConsumer
+AntiHook.exe DisConnectEtwConsumer EtwConsumerObject
+
+AntiHook.exe EnumAlpcPort
+AntiHook.exe DisconnectAlpcPort ConnectionPortObject
+AntiHook.exe SetAlpcPortState CommunicationPortObject State
+AntiHook.exe GetAlpcpLogEnabled
+AntiHook.exe SetAlpcpLogEnabled Value
+
 AntiHook.exe ReadKernelMemory KernelAddress Length
+AntiHook.exe ReadKernelString KernelAddress
+AntiHook.exe ReadKernelStringW KernelAddress
 AntiHook.exe WriteKernelMemory BinData KernelAddress
 AntiHook.exe PhysicalAddress2NoPageKernelVirtualAddress PhysicalAddress
 AntiHook.exe NoPageKernelVirtualAddress2PhysicalAddress VirtualAddress
 AntiHook.exe EnumPhysicalMemory
 AntiHook.exe ReadPhysicalMemory PhysicalAddress Length
 AntiHook.exe WritePhysicalMemory BinData PhysicalAddress
+AntiHook.exe EnumPoolTag
+AntiHook.exe EnumBigPool
 AntiHook.exe EnumLookasideList
 AntiHook.exe EnumResourceLite
 
 AntiHook.exe SetProcessProtectionLevel Pid Level
 AntiHook.exe SetProcessSystemToken Pid
 AntiHook.exe SetHandleAccess Pid Handle Access
+AntiHook.exe InjectDll Pid DllFullPath
+AntiHook.exe RunKernelApi Module Routine Argc ...
+AntiHook.exe RunKernelShellcode BinStr
+
+AntiHook.exe EnumKernelCallbackTable Pid
+AntiHook.exe EnumWindow
+
+AntiHook.exe EnumSymbols FileFullPath
+AntiHook.exe ReadNtGlobalFlag
+AntiHook.exe WriteNtGlobalFlag Flag
+AntiHook.exe ReadNtGlobalFlag2
+AntiHook.exe WriteNtGlobalFlag2 Flag
+AntiHook.exe ReadDebuggerDataBlock
+AntiHook.exe CreateLiveKernelDump FileFullPath Flags
 
 AntiHook.exe EnumTypeObject
 AntiHook.exe EnumDriverObject
 AntiHook.exe EnumUnloadedDrivers
 AntiHook.exe EnumPiDDBCache
+AntiHook.exe EnumNamedPipe
+AntiHook.exe DumpSharedUserData
+AntiHook.exe EnumFirmware
+AntiHook.exe EnumSMBIOS
+AntiHook.exe EnumJob
 
 AntiHook.exe Update
 AntiHook.exe Uninstall
 AntiHook.exe Help
-
-C:\Users\user\Desktop\bin>
