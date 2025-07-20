@@ -170,6 +170,7 @@ Enum and Remove Hook in Windows Kernel
     断开/删除 Consumer : EtwpRealtimeDisconnectConsumer/EtwpDeleteRealTimeConnectionObject  
 67. 枚举和反注册Shim  
     KseRegisterShim KseRegisterShimEx KseUnregisterShim  
+68. 枚举CiCallback(g_CiCallbacks/SeCiCallbacks)和读写g_CiOptions。  
 
 考虑添加的功能：
 1. 工作线程.    尽管生命周期很短。  

@@ -1,0 +1,31 @@
+struct size:248
+Callback 1 :FFFFF800524FA060 FullPathName:\SystemRoot\system32\CI.dll SymbolName:CiSetFileCache
+Callback 2 :FFFFF800524FADD0 FullPathName:\SystemRoot\system32\CI.dll SymbolName:CiGetFileCache
+Callback 3 :FFFFF800524F5440 FullPathName:\SystemRoot\system32\CI.dll SymbolName:CiQueryInformation
+Callback 4 :FFFFF800525041D0 FullPathName:\SystemRoot\system32\CI.dll SymbolName:CiValidateImageHeader
+Callback 5 :FFFFF800525053F0 FullPathName:\SystemRoot\system32\CI.dll SymbolName:CiValidateImageData
+Callback 6 :FFFFF800524F6630 FullPathName:\SystemRoot\system32\CI.dll SymbolName:CiHashMemory
+Callback 7 :FFFFF800525386F0 FullPathName:\SystemRoot\system32\CI.dll SymbolName:KappxIsPackageFile
+Callback 8 :FFFFF80052517880 FullPathName:\SystemRoot\system32\CI.dll SymbolName:CiCompareSigningLevels
+Callback 9 :FFFFF80052509590 FullPathName:\SystemRoot\system32\CI.dll SymbolName:CiValidateFileAsImageType
+Callback 10:FFFFF800525178B0 FullPathName:\SystemRoot\system32\CI.dll SymbolName:CiRegisterSigningInformation
+Callback 11:FFFFF80052517B00 FullPathName:\SystemRoot\system32\CI.dll SymbolName:CiUnregisterSigningInformation
+Callback 12:FFFFF800524F4480 FullPathName:\SystemRoot\system32\CI.dll SymbolName:CiInitializePolicy
+Callback 13:FFFFF8005250B300 FullPathName:\SystemRoot\system32\CI.dll SymbolName:CiReleaseContext
+Callback 14:0000000000000000
+Callback 15:FFFFF80052521F00 FullPathName:\SystemRoot\system32\CI.dll SymbolName:CiGetStrongImageReference
+Callback 16:FFFFF80052523150 FullPathName:\SystemRoot\system32\CI.dll SymbolName:CiHvciSetImageBaseAddress
+Callback 17:FFFFF800524F6F70 FullPathName:\SystemRoot\system32\CI.dll SymbolName:CipQueryPolicyInformation
+Callback 18:FFFFF800524F70E0 FullPathName:\SystemRoot\system32\CI.dll SymbolName:CiQuerySecurityPolicy
+Callback 19:FFFFF8005251A650 FullPathName:\SystemRoot\system32\CI.dll SymbolName:CiRevalidateImage
+Callback 20:FFFFF800524F7250 FullPathName:\SystemRoot\system32\CI.dll SymbolName:CiSetInformation
+Callback 21:FFFFF800524F7320 FullPathName:\SystemRoot\system32\CI.dll SymbolName:CiSetInformationProcess
+Callback 22:FFFFF800525030D0 FullPathName:\SystemRoot\system32\CI.dll SymbolName:CiGetBuildExpiryTime
+Callback 23:FFFFF80052502AD0 FullPathName:\SystemRoot\system32\CI.dll SymbolName:CiCheckProcessDebugAccessPolicy
+Callback 24:FFFFF8005251DE40 FullPathName:\SystemRoot\system32\CI.dll SymbolName:CiGetCodeIntegrityOriginClaimForFileObject
+Callback 25:FFFFF8005251E0A0 FullPathName:\SystemRoot\system32\CI.dll SymbolName:CiDeleteCodeIntegrityOriginClaimMembers
+Callback 26:FFFFF8005251E120 FullPathName:\SystemRoot\system32\CI.dll SymbolName:CiDeleteCodeIntegrityOriginClaimForFileObject
+Callback 27:FFFFF80052523DC0 FullPathName:\SystemRoot\system32\CI.dll SymbolName:CiHvciReportMmIncompatibility
+Callback 28:FFFFF800525054F0 FullPathName:\SystemRoot\system32\CI.dll SymbolName:CiCompareExistingSePool
+Callback 29:FFFFF8005251E840 FullPathName:\SystemRoot\system32\CI.dll SymbolName:CiSetCachedOriginClaim
+End:0xa00000c
