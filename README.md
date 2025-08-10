@@ -173,28 +173,30 @@ Enum and Remove Hook in Windows Kernel
 68. 枚举CiCallback(g_CiCallbacks/SeCiCallbacks)和读写g_CiOptions。  
 
 考虑添加的功能：
-1. 工作线程.    尽管生命周期很短。  
-2. 反汇编引擎，如：zydis。  
-3. 硬件虚拟化相关的。  
-4. 系统热键 和 消息钩子。  
-5. 本地内核调试。  
-6. ApiSet 应用层枚举 驱动修改  
-7. PsRegisterPicoProvider  
-8. PcwRegister PcwUnregister  
-9. NmrpRegisterModule == NmrRegisterClient + NmrRegisterProvider + WskRegister。  
-10. ExRegisterHost + ExRegisterExtension + ExUnregisterExtension  
-11. Boot Graphics Resource Table (BGRT)  
-    Firmware Performance Data Table (FPDT)  
-    Unified Extensible Firmware Interface (UEFI)  
-    Root System Description Table (RSDT)  
-    Fixed ACPI Description Table (FADT)  
-    Multiple APIC Description Table (MADT)  
-    Generic Timer Description Table (GTDT)  
-    Core System Resources Table (CSRT)  
-    Debug Port Table 2 (DBG2)  
-    Differentiated System Description Table (DSDT)  
-    Windows SMM Security Mitigations Table (WSMT)  
-    iSCSI Boot Firmware Table (iBFT)  
+* 工作线程.    尽管生命周期很短。  
+* 反汇编引擎，如：zydis。  
+* 反编译引擎，如：retdec。  
+* 脚本引擎：lua  
+* 硬件虚拟化相关的。  
+* 系统热键 和 消息钩子。  
+* 本地内核调试。  
+* ApiSet 应用层枚举 驱动修改（有PG/KPP保护）  
+* PsRegisterPicoProvider  
+* PcwRegister PcwUnregister  
+* NmrpRegisterModule == NmrRegisterClient + NmrRegisterProvider + WskRegister。  
+* ExRegisterHost + ExRegisterExtension + ExUnregisterExtension  
+* Boot Graphics Resource Table (BGRT)  
+  Firmware Performance Data Table (FPDT)  
+  Unified Extensible Firmware Interface (UEFI)  
+  Root System Description Table (RSDT)  
+  Fixed ACPI Description Table (FADT)  
+  Multiple APIC Description Table (MADT)  
+  Generic Timer Description Table (GTDT)  
+  Core System Resources Table (CSRT)  
+  Debug Port Table 2 (DBG2)  
+  Differentiated System Description Table (DSDT)  
+  Windows SMM Security Mitigations Table (WSMT)  
+  iSCSI Boot Firmware Table (iBFT)  
 
 确定不添加的功能：
 1. 进程
