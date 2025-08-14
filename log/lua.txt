@@ -1,0 +1,6 @@
+D:\git\gitlab\tool\src\antihook\src\bin>AntiHook.exe lua D:\test\arg.lua a b c
+1: a
+2: b
+3: c
+
+D:\git\gitlab\tool\src\antihook\src\bin>

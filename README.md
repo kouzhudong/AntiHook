@@ -171,12 +171,12 @@ Enum and Remove Hook in Windows Kernel
 67. 枚举和反注册Shim  
     KseRegisterShim KseRegisterShimEx KseUnregisterShim  
 68. 枚举CiCallback(g_CiCallbacks/SeCiCallbacks)和读写g_CiOptions。  
+69. 反汇编引擎：zydis（X86/X64）  
+70. 脚本引擎：lua（支持JIT/FFI等特性）  
 
 考虑添加的功能：
 * 工作线程.    尽管生命周期很短。  
-* 反汇编引擎，如：zydis。  
-* 反编译引擎，如：retdec。  
-* 脚本引擎：lua  
+* 反编译引擎（类C伪码），如：retdec。  
 * 硬件虚拟化相关的。  
 * 系统热键 和 消息钩子。  
 * 本地内核调试。  
