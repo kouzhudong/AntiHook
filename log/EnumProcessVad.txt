@@ -1,0 +1,167 @@
+C:\Users\Administrator\Desktop\bin>AntiHook.exe EnumProcessVad 8116
+Number:43
+
+Index:  1 Vad:FFFFD30869F9ED00 Level: 5 Start:   7ffe0 End:   7ffe0 Flags:  200088
+Index:  2 Vad:FFFFD30869F9F1B0 Level: 4 Start:   7ffeb End:   7ffeb Flags:  200088
+Index:  3 Vad:FFFFD30869FA7E00 Level: 5 Start:  a4fa00 End:  a4fbff Flags:  200208
+Index:  4 Vad:FFFFD3086992EBD0 Level: 3 Start:  a4fc00 End:  a4fcff Flags:  200200
+Index:  5 Vad:FFFFD30869105A30 Level: 4 Start:181dd6f0 End:181dd6ff Flags:     200
+Index:  6 Vad:FFFFD30869104950 Level: 5 Start:181dd700 End:181dd702 Flags:      88 FileName:\Windows\System32\l_intl.nls
+Index:  7 Vad:FFFFD30869104590 Level: 2 Start:181dd710 End:181dd72e Flags:      88
+Index:  8 Vad:FFFFD30869104310 Level: 4 Start:181dd730 End:181dd733 Flags:      88
+Index:  9 Vad:FFFFD30869104630 Level: 5 Start:181dd740 End:181dd740 Flags:      88
+Index: 10 Vad:FFFFD3086992EEA0 Level: 3 Start:181dd750 End:181dd751 Flags:  200200
+Index: 11 Vad:FFFFD30869104450 Level: 4 Start:181dd760 End:181dd770 Flags:      88 FileName:\Windows\System32\C_1252.NLS
+Index: 12 Vad:FFFFD308691046D0 Level: 1 Start:181dd780 End:181dd790 Flags:      88 FileName:\Windows\System32\C_437.NLS
+Index: 13 Vad:FFFFD30869105710 Level: 5 Start:181dd7a0 End:181dd7a2 Flags:      88 FileName:\Windows\System32\l_intl.nls
+Index: 14 Vad:FFFFD3086A2A65D0 Level: 4 Start:181dd7b0 End:181dd7c9 Flags:  200200
+Index: 15 Vad:FFFFD308691049F0 Level: 5 Start:181dd7d0 End:181dd7e0 Flags:      88 FileName:\Windows\System32\C_1252.NLS
+Index: 16 Vad:FFFFD30869104A90 Level: 3 Start:181dd7f0 End:181dd800 Flags:      88 FileName:\Windows\System32\C_437.NLS
+Index: 17 Vad:FFFFD3086911E0D0 Level: 5 Start:181dd810 End:181dd813 Flags:      80
+Index: 18 Vad:FFFFD3086911E530 Level: 4 Start:181dd820 End:181dd823 Flags:      80
+Index: 19 Vad:FFFFD3086911E170 Level: 5 Start:181dd830 End:181dd830 Flags:      80
+Index: 20 Vad:FFFFD3086A2C20A0 Level: 6 Start:181dd840 End:181dd859 Flags:  200200
+Index: 21 Vad:FFFFD3086A2A62B0 Level: 2 Start:181dd860 End:181dd95f Flags:  200200
+Index: 22 Vad:FFFFD30869105850 Level: 5 Start:181dd960 End:181dda2d Flags:      88 FileName:\Windows\System32\locale.nls
+Index: 23 Vad:FFFFD3086A2709E0 Level: 6 Start:181dda30 End:181dda50 Flags:      80 FileName:\Windows\System32\en-US\cmd.exe.mui
+Index: 24 Vad:FFFFD3086A2C2B40 Level: 4 Start:181dda60 End:181dda6f Flags:  200200
+Index: 25 Vad:FFFFD3086A2574E0 Level: 6 Start:181dda70 End:181ddda9 Flags:      80 FileName:\Windows\Globalization\Sorting\SortDefault.nls
+Index: 26 Vad:FFFFD30869105CB0 Level: 5 Start:df46bb00 End:df46bbff Flags:      88
+Index: 27 Vad:FFFFD3086A2A5310 Level: 3 Start:df46bc00 End:df56bc1f Flags:  200200
+Index: 28 Vad:FFFFD3086A2A5270 Level: 4 Start:df56bc20 End:df56dc20 Flags:  200200
+Index: 29 Vad:FFFFD308691037D0 Level: 5 Start:df56dc30 End:df56dc30 Flags:      88
+Index: 30 Vad:FFFFD30869103F50 Level: 0 Start:df56dc40 End:ff56dc3f Flags:     c08
+Index: 31 Vad:FFFFD30869104130 Level: 4 Start:ff6dbe40 End:ff6dbeb4 Flags:     3a0 FileName:\Windows\System32\cmd.exe
+Index: 32 Vad:FFFFD3086911E350 Level: 3 Start:ffb88290 End:ffb882c8 Flags:     3a0 FileName:\Windows\System32\winbrand.dll
+Index: 33 Vad:FFFFD30869105170 Level: 2 Start:ffba5db0 End:ffba6181 Flags:     3a0 FileName:\Windows\System32\KernelBase.dll
+Index: 34 Vad:FFFFD3086911EA30 Level: 4 Start:ffba64c0 End:ffba6559 Flags:     3a0 FileName:\Windows\System32\msvcp_win.dll
+Index: 35 Vad:FFFFD3086911DE50 Level: 3 Start:ffba6620 End:ffba6730 Flags:     3a0 FileName:\Windows\System32\ucrtbase.dll
+Index: 36 Vad:FFFFD3086AA401A0 Level: 5 Start:ffba67f0 End:ffba6817 Flags:     3a0 FileName:\Windows\System32\bcrypt.dll
+Index: 37 Vad:FFFFD3086911E8F0 Level: 4 Start:ffba7070 End:ffba7116 Flags:     3a0 FileName:\Windows\System32\msvcrt.dll
+Index: 38 Vad:FFFFD30869105C10 Level: 1 Start:ffba76a0 End:ffba7763 Flags:     3a0 FileName:\Windows\System32\kernel32.dll
+Index: 39 Vad:FFFFD3086911E3F0 Level: 4 Start:ffba77e0 End:ffba78ea Flags:     3a0 FileName:\Windows\System32\SHCore.dll
+Index: 40 Vad:FFFFD3086AA3FAC0 Level: 3 Start:ffba78f0 End:ffba7997 Flags:     3a0 FileName:\Windows\System32\sechost.dll
+Index: 41 Vad:FFFFD3086911E990 Level: 4 Start:ffba79a0 End:ffba7d31 Flags:     3a0 FileName:\Windows\System32\combase.dll
+Index: 42 Vad:FFFFD3086911E2B0 Level: 2 Start:ffba87d0 End:ffba88e6 Flags:     3a0 FileName:\Windows\System32\rpcrt4.dll
+Index: 43 Vad:FFFFD30869103EB0 Level: 3 Start:ffba8b90 End:ffba8da6 Flags:     3a0 FileName:\Windows\System32\ntdll.dll
+
+C:\Users\Administrator\Desktop\bin>
+
+
+上面是程序输出
+下面是windbg验证
+
+
+0: kd> vertarget
+Windows 10 Kernel Version 22621 MP (4 procs) Free x64
+Product: WinNt, suite: TerminalServer SingleUserTS
+Edition build lab: 22621.2506.amd64fre.ni_release_svc_prod3.231018-1809
+Kernel base = 0xfffff804`71400000 PsLoadedModuleList = 0xfffff804`720135f0
+Debug session time: Tue Sep  2 08:18:43.947 2025 (UTC + 8:00)
+System Uptime: 0 days 0:04:05.938
+0: kd> !process 0 0 cmd.exe
+PROCESS ffffd3086919e080
+    SessionId: 2  Cid: 1fb4    Peb: a4fb52000  ParentCid: 1608
+    DirBase: 43513000  ObjectTable: ffffac0b2417f1c0  HandleCount:  87.
+    Image: cmd.exe
+
+0: kd> !process ffffd3086919e080
+PROCESS ffffd3086919e080
+    SessionId: 2  Cid: 1fb4    Peb: a4fb52000  ParentCid: 1608
+    DirBase: 43513000  ObjectTable: ffffac0b2417f1c0  HandleCount:  87.
+    Image: cmd.exe
+    VadRoot ffffd30869103f50 Vads 43 Clone 0 Private 248. Modified 0. Locked 8.
+    DeviceMap ffffac0b245163e0
+    Token                             ffffac0b25ccc060
+    ElapsedTime                       00:03:18.432
+    UserTime                          00:00:00.000
+    KernelTime                        00:00:00.000
+    QuotaPoolUsage[PagedPool]         50272
+    QuotaPoolUsage[NonPagedPool]      6288
+    Working Set Sizes (now,min,max)  (1263, 50, 345) (5052KB, 200KB, 1380KB)
+    PeakWorkingSetSize                1298
+    VirtualSize                       2101306 Mb
+    PeakVirtualSize                   2101308 Mb
+    PageFaultCount                    2010
+    MemoryPriority                    BACKGROUND
+    BasePriority                      8
+    CommitCharge                      527
+
+        THREAD ffffd3086a348080  Cid 1fb4.1fd4  Teb: 0000000a4fb53000 Win32Thread: 0000000000000000 WAIT: (Executive) KernelMode Alertable
+            ffffd3086a745c18  NotificationEvent
+        IRP List:
+            ffffd30864c5db20: (0006,0478) Flags: 00060030  Mdl: 00000000
+        Not impersonating
+        DeviceMap                 ffffac0b245163e0
+        Owning Process            ffffd3086919e080       Image:         cmd.exe
+        Attached Process          N/A            Image:         N/A
+        Wait Start TickCount      10050          Ticks: 5690 (0:00:01:28.906)
+        Context Switch Count      348            IdealProcessor: 2             
+        UserTime                  00:00:00.031
+        KernelTime                00:00:00.000
+        Win32 Start Address 0x00007ff6dbe60650
+        Stack Init ffff9905efc27630 Current ffff9905efc269b0
+        Base ffff9905efc28000 Limit ffff9905efc21000 Call 0000000000000000
+        Priority 8  BasePriority 8  IoPriority 2  PagePriority 5
+        Child-SP          RetAddr               Call Site
+        ffff9905`efc269f0 fffff804`7163fe75     nt!KiSwapContext+0x76
+        ffff9905`efc26b30 fffff804`71642037     nt!KiSwapThread+0xaa5
+        ffff9905`efc26c80 fffff804`71643f16     nt!KiCommitThreadWait+0x137
+        ffff9905`efc26d30 fffff804`7180f25c     nt!KeWaitForSingleObject+0x256
+        ffff9905`efc270d0 fffff804`71ae4477     nt!IopWaitForSynchronousIoEvent+0x50
+        ffff9905`efc27110 fffff804`71ae5c00     nt!IopSynchronousServiceTail+0x5c7
+        ffff9905`efc271d0 fffff804`71ae54e6     nt!IopXxxControlFile+0x700
+        ffff9905`efc273c0 fffff804`71833605     nt!NtDeviceIoControlFile+0x56
+        ffff9905`efc27430 00007ffb`a8c30d34     nt!KiSystemServiceCopyEnd+0x25 (TrapFrame @ ffff9905`efc274a0)
+        0000000a`4fcff878 00000000`00000000     0x00007ffb`a8c30d34
+
+
+0: kd> !vad ffffd30869103f50
+VAD             Level         Start             End              Commit
+ffffd30869f9ed00  5           7ffe0           7ffe0               1 Private      READONLY           
+ffffd30869f9f1b0  4           7ffeb           7ffeb               1 Private      READONLY           
+ffffd30869fa7e00  5          a4fa00          a4fbff               3 Private      READWRITE          
+ffffd3086992ebd0  3          a4fc00          a4fcff             255 Private      READWRITE          
+ffffd30869105a30  4        181dd6f0        181dd6ff               0 Mapped       READWRITE          Pagefile section, shared commit 0x10
+ffffd30869104950  5        181dd700        181dd702               0 Mapped       READONLY           \Windows\System32\l_intl.nls
+ffffd30869104590  2        181dd710        181dd72e               0 Mapped       READONLY           Pagefile section, shared commit 0x1f
+ffffd30869104310  4        181dd730        181dd733               0 Mapped       READONLY           Pagefile section, shared commit 0x4
+ffffd30869104630  5        181dd740        181dd740               0 Mapped       READONLY           Pagefile section, shared commit 0x1
+ffffd3086992eea0  3        181dd750        181dd751               2 Private      READWRITE          
+ffffd30869104450  4        181dd760        181dd770               0 Mapped       READONLY           \Windows\System32\C_1252.NLS
+ffffd308691046d0  1        181dd780        181dd790               0 Mapped       READONLY           \Windows\System32\C_437.NLS
+ffffd30869105710  5        181dd7a0        181dd7a2               0 Mapped       READONLY           \Windows\System32\l_intl.nls
+ffffd3086a2a65d0  4        181dd7b0        181dd7c9               2 Private      READWRITE          
+ffffd308691049f0  5        181dd7d0        181dd7e0               0 Mapped       READONLY           \Windows\System32\C_1252.NLS
+ffffd30869104a90  3        181dd7f0        181dd800               0 Mapped       READONLY           \Windows\System32\C_437.NLS
+ffffd3086911e0d0  5        181dd810        181dd813               0 Mapped       READONLY           Pagefile section, shared commit 0x4
+ffffd3086911e530  4        181dd820        181dd823               0 Mapped       READONLY           Pagefile section, shared commit 0x4
+ffffd3086911e170  5        181dd830        181dd830               0 Mapped       READONLY           Pagefile section, shared commit 0x1
+ffffd3086a2c20a0  6        181dd840        181dd859               1 Private      READWRITE          
+ffffd3086a2a62b0  2        181dd860        181dd95f              70 Private      READWRITE          
+ffffd30869105850  5        181dd960        181dda2d               0 Mapped       READONLY           \Windows\System32\locale.nls
+ffffd3086a2709e0  6        181dda30        181dda50               0 Mapped       READONLY           \Windows\System32\en-US\cmd.exe.mui
+ffffd3086a2c2b40  4        181dda60        181dda6f               7 Private      READWRITE          
+ffffd3086a2574e0  6        181dda70        181ddda9               0 Mapped       READONLY           \Windows\Globalization\Sorting\SortDefault.nls
+ffffd30869105cb0  5       7df46bb00       7df46bbff               0 Mapped       READONLY           Pagefile section, shared commit 0x5
+ffffd3086a2a5310  3       7df46bc00       7df56bc1f               0 Private      READWRITE          
+ffffd3086a2a5270  4       7df56bc20       7df56dc20               1 Private      READWRITE          
+ffffd308691037d0  5       7df56dc30       7df56dc30               0 Mapped       READONLY           Pagefile section, shared commit 0x1
+ffffd30869103f50  0       7df56dc40       7ff56dc3f               2 Mapped       NO_ACCESS          Pagefile section, shared commit 0xdcb
+ffffd30869104130  4       7ff6dbe40       7ff6dbeb4              32 Mapped  Exe  EXECUTE_WRITECOPY  \Windows\System32\cmd.exe
+ffffd3086911e350  3       7ffb88290       7ffb882c8               3 Mapped  Exe  EXECUTE_WRITECOPY  \Windows\System32\winbrand.dll
+ffffd30869105170  2       7ffba5db0       7ffba6181              10 Mapped  Exe  EXECUTE_WRITECOPY  \Windows\System32\KernelBase.dll
+ffffd3086911ea30  4       7ffba64c0       7ffba6559               7 Mapped  Exe  EXECUTE_WRITECOPY  \Windows\System32\msvcp_win.dll
+ffffd3086911de50  3       7ffba6620       7ffba6730               4 Mapped  Exe  EXECUTE_WRITECOPY  \Windows\System32\ucrtbase.dll
+ffffd3086aa401a0  5       7ffba67f0       7ffba6817               3 Mapped  Exe  EXECUTE_WRITECOPY  \Windows\System32\bcrypt.dll
+ffffd3086911e8f0  4       7ffba7070       7ffba7116               9 Mapped  Exe  EXECUTE_WRITECOPY  \Windows\System32\msvcrt.dll
+ffffd30869105c10  1       7ffba76a0       7ffba7763               7 Mapped  Exe  EXECUTE_WRITECOPY  \Windows\System32\kernel32.dll
+ffffd3086911e3f0  4       7ffba77e0       7ffba78ea               7 Mapped  Exe  EXECUTE_WRITECOPY  \Windows\System32\SHCore.dll
+ffffd3086aa3fac0  3       7ffba78f0       7ffba7997               7 Mapped  Exe  EXECUTE_WRITECOPY  \Windows\System32\sechost.dll
+ffffd3086911e990  4       7ffba79a0       7ffba7d31              10 Mapped  Exe  EXECUTE_WRITECOPY  \Windows\System32\combase.dll
+ffffd3086911e2b0  2       7ffba87d0       7ffba88e6               5 Mapped  Exe  EXECUTE_WRITECOPY  \Windows\System32\rpcrt4.dll
+ffffd30869103eb0  3       7ffba8b90       7ffba8da6              17 Mapped  Exe  EXECUTE_WRITECOPY  \Windows\System32\ntdll.dll
+
+Total VADs: 43, average level: 4, maximum depth: 6
+Total private commit: 0x1d2 pages (1864 KB)
+Total shared commit:  0xe0a pages (14376 KB)

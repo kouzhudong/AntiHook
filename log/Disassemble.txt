@@ -1,94 +1,94 @@
-C:\Users\Administrator\Desktop\bin>AntiHook.exe Disassemble X64 fffff80655421e20 172
-FFFFF80655421E20  0x00000000: 40 53                   push rbx
-FFFFF80655421E22  0x00000002: 56                      push rsi
-FFFFF80655421E23  0x00000003: 57                      push rdi
-FFFFF80655421E24  0x00000004: 48 83 ec 30             sub rsp, 0x30
-FFFFF80655421E28  0x00000008: 8b f2                   mov esi, edx
-FFFFF80655421E2A  0x0000000a: 48 8b f9                mov rdi, rcx
-FFFFF80655421E2D  0x0000000d: 0f 0d 89 b8 04 00 00    prefetchw byte ptr ds:[rcx+0x4B8]
-FFFFF80655421E34  0x00000014: 4c 8b 81 b8 04 00 00    mov r8, qword ptr ds:[rcx+0x4B8]
-FFFFF80655421E3B  0x0000001b: 41 f6 c0 0f             test r8b, 0x0F
-FFFFF80655421E3F  0x0000001f: 74 16                   jz 0xFFFFF80655421E57
-FFFFF80655421E41  0x00000021: 49 8d 50 ff             lea rdx, qword ptr ds:[r8-0x01]
-FFFFF80655421E45  0x00000025: 49 8b c0                mov rax, r8
-FFFFF80655421E48  0x00000028: f0 48 0f b1 91 b8 04 00 00 lock cmpxchg qword ptr ds:[rcx+0x4B8], rdx
-FFFFF80655421E51  0x00000031: 0f 85 a7 00 00 00       jnz 0xFFFFF80655421EFE
-FFFFF80655421E57  0x00000037: 49 8b d8                mov rbx, r8
-FFFFF80655421E5A  0x0000003a: 41 83 e0 0f             and r8d, 0x0F
-FFFFF80655421E5E  0x0000003e: 48 83 e3 f0             and rbx, 0xFFFFFFFFFFFFFFF0
-FFFFF80655421E62  0x00000042: 41 83 f8 01             cmp r8d, 0x01
-FFFFF80655421E66  0x00000046: 76 22                   jbe 0xFFFFF80655421E8A
-FFFFF80655421E68  0x00000048: 83 3d a9 b1 af 00 00    cmp dword ptr ds:[0xFFFFF80655F1D018], 0x00
-FFFFF80655421E6F  0x0000004f: 0f 85 a8 1e 25 00       jnz 0xFFFFF80655673D1D
-FFFFF80655421E75  0x00000055: 48 85 db                test rbx, rbx
-FFFFF80655421E78  0x00000058: 0f 84 90 00 00 00       jz 0xFFFFF80655421F0E
-FFFFF80655421E7E  0x0000005e: 48 8b c3                mov rax, rbx
-FFFFF80655421E81  0x00000061: 48 83 c4 30             add rsp, 0x30
-FFFFF80655421E85  0x00000065: 5f                      pop rdi
-FFFFF80655421E86  0x00000066: 5e                      pop rsi
-FFFFF80655421E87  0x00000067: 5b                      pop rbx
-FFFFF80655421E88  0x00000068: c3                      ret
-FFFFF80655421E89  0x00000069: cc                      int3
-FFFFF80655421E8A  0x0000006a: 45 85 c0                test r8d, r8d
-FFFFF80655421E8D  0x0000006d: 74 7f                   jz 0xFFFFF80655421F0E
-FFFFF80655421E8F  0x0000006f: b8 0f 00 00 00          mov eax, 0x0F
-FFFFF80655421E94  0x00000074: f0 48 0f c1 43 d0       lock xadd qword ptr ds:[rbx-0x30], rax
-FFFFF80655421E9A  0x0000007a: 48 85 c0                test rax, rax
-FFFFF80655421E9D  0x0000007d: 0f 8e 5d 1e 25 00       jle 0xFFFFF80655673D00
-FFFFF80655421EA3  0x00000083: 0f 0d 89 b8 04 00 00    prefetchw byte ptr ds:[rcx+0x4B8]
-FFFFF80655421EAA  0x0000008a: 48 8b 81 b8 04 00 00    mov rax, qword ptr ds:[rcx+0x4B8]
-FFFFF80655421EB1  0x00000091: 48 8b c8                mov rcx, rax
-FFFFF80655421EB4  0x00000094: 83 e1 0f                and ecx, 0x0F
-FFFFF80655421EB7  0x00000097: 48 83 c1 0f             add rcx, 0x0F
-FFFFF80655421EBB  0x0000009b: 48 83 f9 0f             cmp rcx, 0x0F
-FFFFF80655421EBF  0x0000009f: 77 2b                   jnbe 0xFFFFF80655421EEC
-FFFFF80655421EC1  0x000000a1: 48 8b c8                mov rcx, rax
-FFFFF80655421EC4  0x000000a4: 48 83 e1 f0             and rcx, 0xFFFFFFFFFFFFFFF0
-FFFFF80655421EC8  0x000000a8: 48 3b d9                cmp rbx, rcx
-FFFFF80655421ECB  0x000000ab: 75 1f                   jnz 0xFFFFF80655421EEC
-FFFFF80655421ECD  0x000000ad: 48 8d 48 0f             lea rcx, qword ptr ds:[rax+0x0F]
-FFFFF80655421ED1  0x000000b1: f0 48 0f b1 8f b8 04 00 00 lock cmpxchg qword ptr ds:[rdi+0x4B8], rcx
-FFFFF80655421EDA  0x000000ba: 74 8c                   jz 0xFFFFF80655421E68
-FFFFF80655421EDC  0x000000bc: 48 8b c8                mov rcx, rax
-FFFFF80655421EDF  0x000000bf: 83 e1 0f                and ecx, 0x0F
-FFFFF80655421EE2  0x000000c2: 48 83 c1 0f             add rcx, 0x0F
-FFFFF80655421EE6  0x000000c6: 48 83 f9 0f             cmp rcx, 0x0F
-FFFFF80655421EEA  0x000000ca: 76 d5                   jbe 0xFFFFF80655421EC1
-FFFFF80655421EEC  0x000000cc: 48 c7 c0 f1 ff ff ff    mov rax, 0xFFFFFFFFFFFFFFF1
-FFFFF80655421EF3  0x000000d3: f0 48 0f c1 43 d0       lock xadd qword ptr ds:[rbx-0x30], rax
-FFFFF80655421EF9  0x000000d9: e9 6a ff ff ff          jmp 0xFFFFF80655421E68
-FFFFF80655421EFE  0x000000de: 4c 8b c0                mov r8, rax
-FFFFF80655421F01  0x000000e1: a8 0f                   test al, 0x0F
-FFFFF80655421F03  0x000000e3: 0f 85 38 ff ff ff       jnz 0xFFFFF80655421E41
-FFFFF80655421F09  0x000000e9: e9 49 ff ff ff          jmp 0xFFFFF80655421E57
-FFFFF80655421F0E  0x000000ee: 48 89 6c 24 58          mov qword ptr ss:[rsp+0x58], rbp
-FFFFF80655421F13  0x000000f3: 48 8d 8f 38 04 00 00    lea rcx, qword ptr ds:[rdi+0x438]
-FFFFF80655421F1A  0x000000fa: 4c 89 74 24 60          mov qword ptr ss:[rsp+0x60], r14
-FFFFF80655421F1F  0x000000ff: 33 d2                   xor edx, edx
-FFFFF80655421F21  0x00000101: 65 4c 8b 34 25 88 01 00 00 mov r14, qword ptr gs:[0x0000000000000188]
-FFFFF80655421F2A  0x0000010a: 66 41 ff 8e e4 01 00 00 dec word ptr ds:[r14+0x1E4]
-FFFFF80655421F32  0x00000112: 90                      nop
-FFFFF80655421F33  0x00000113: e8 c8 e5 0a 00          call 0xFFFFF806554D0500
-FFFFF80655421F38  0x00000118: 48 8b 9f b8 04 00 00    mov rbx, qword ptr ds:[rdi+0x4B8]
-FFFFF80655421F3F  0x0000011f: 48 83 e3 f0             and rbx, 0xFFFFFFFFFFFFFFF0
-FFFFF80655421F43  0x00000123: 74 0a                   jz 0xFFFFF80655421F4F
-FFFFF80655421F45  0x00000125: 8b d6                   mov edx, esi
-FFFFF80655421F47  0x00000127: 48 8b cb                mov rcx, rbx
-FFFFF80655421F4A  0x0000012a: e8 91 fb 04 00          call 0xFFFFF80655471AE0
-FFFFF80655421F4F  0x0000012f: 33 c9                   xor ecx, ecx
-FFFFF80655421F51  0x00000131: b8 11 00 00 00          mov eax, 0x11
-FFFFF80655421F56  0x00000136: f0 48 0f b1 8f 38 04 00 00 lock cmpxchg qword ptr ds:[rdi+0x438], rcx
-FFFFF80655421F5F  0x0000013f: 75 23                   jnz 0xFFFFF80655421F84
-FFFFF80655421F61  0x00000141: 48 8d 8f 38 04 00 00    lea rcx, qword ptr ds:[rdi+0x438]
-FFFFF80655421F68  0x00000148: e8 63 ea 0a 00          call 0xFFFFF806554D09D0
-FFFFF80655421F6D  0x0000014d: 49 8b ce                mov rcx, r14
-FFFFF80655421F70  0x00000150: e8 4b bd ff ff          call 0xFFFFF8065541DCC0
-FFFFF80655421F75  0x00000155: 4c 8b 74 24 60          mov r14, qword ptr ss:[rsp+0x60]
-FFFFF80655421F7A  0x0000015a: 48 8b 6c 24 58          mov rbp, qword ptr ss:[rsp+0x58]
-FFFFF80655421F7F  0x0000015f: e9 fa fe ff ff          jmp 0xFFFFF80655421E7E
-FFFFF80655421F84  0x00000164: 48 8d 8f 38 04 00 00    lea rcx, qword ptr ds:[rdi+0x438]
-FFFFF80655421F8B  0x0000016b: e8 10 99 0b 00          call 0xFFFFF806554DB8A0
-FFFFF80655421F90  0x00000170: eb cf                   jmp 0xFFFFF80655421F61
+C:\Users\Administrator\Desktop\bin>AntiHook.exe Disassemble X64 fffff804716329a0 0x172
+FFFFF804716329A0  4053                push rbx
+FFFFF804716329A2  56                  push rsi
+FFFFF804716329A3  57                  push rdi
+FFFFF804716329A4  4883ec30            sub rsp, 0x30
+FFFFF804716329A8  8bf2                mov esi, edx
+FFFFF804716329AA  488bf9              mov rdi, rcx
+FFFFF804716329AD  0f0d89b8040000      prefetchw byte ptr ds:[rcx+0x4B8]
+FFFFF804716329B4  4c8b81b8040000      mov r8, qword ptr ds:[rcx+0x4B8]
+FFFFF804716329BB  41f6c00f            test r8b, 0x0F
+FFFFF804716329BF  7416                jz 0xFFFFF804716329D7
+FFFFF804716329C1  498d50ff            lea rdx, qword ptr ds:[r8-0x01]
+FFFFF804716329C5  498bc0              mov rax, r8
+FFFFF804716329C8  f0480fb191b8040000  lock cmpxchg qword ptr ds:[rcx+0x4B8], rdx
+FFFFF804716329D1  0f85a7000000        jnz 0xFFFFF80471632A7E
+FFFFF804716329D7  498bd8              mov rbx, r8
+FFFFF804716329DA  4183e00f            and r8d, 0x0F
+FFFFF804716329DE  4883e3f0            and rbx, 0xFFFFFFFFFFFFFFF0
+FFFFF804716329E2  4183f801            cmp r8d, 0x01
+FFFFF804716329E6  7622                jbe 0xFFFFF80471632A0A
+FFFFF804716329E8  833d29a6ae0000      cmp dword ptr ds:[0xFFFFF8047211D018], 0x00
+FFFFF804716329EF  0f8592db2400        jnz 0xFFFFF80471880587
+FFFFF804716329F5  4885db              test rbx, rbx
+FFFFF804716329F8  0f8490000000        jz 0xFFFFF80471632A8E
+FFFFF804716329FE  488bc3              mov rax, rbx
+FFFFF80471632A01  4883c430            add rsp, 0x30
+FFFFF80471632A05  5f                  pop rdi
+FFFFF80471632A06  5e                  pop rsi
+FFFFF80471632A07  5b                  pop rbx
+FFFFF80471632A08  c3                  ret
+FFFFF80471632A09  cc                  int3
+FFFFF80471632A0A  4585c0              test r8d, r8d
+FFFFF80471632A0D  747f                jz 0xFFFFF80471632A8E
+FFFFF80471632A0F  b80f000000          mov eax, 0x0F
+FFFFF80471632A14  f0480fc143d0        lock xadd qword ptr ds:[rbx-0x30], rax
+FFFFF80471632A1A  4885c0              test rax, rax
+FFFFF80471632A1D  0f8e47db2400        jle 0xFFFFF8047188056A
+FFFFF80471632A23  0f0d89b8040000      prefetchw byte ptr ds:[rcx+0x4B8]
+FFFFF80471632A2A  488b81b8040000      mov rax, qword ptr ds:[rcx+0x4B8]
+FFFFF80471632A31  488bc8              mov rcx, rax
+FFFFF80471632A34  83e10f              and ecx, 0x0F
+FFFFF80471632A37  4883c10f            add rcx, 0x0F
+FFFFF80471632A3B  4883f90f            cmp rcx, 0x0F
+FFFFF80471632A3F  772b                jnbe 0xFFFFF80471632A6C
+FFFFF80471632A41  488bc8              mov rcx, rax
+FFFFF80471632A44  4883e1f0            and rcx, 0xFFFFFFFFFFFFFFF0
+FFFFF80471632A48  483bd9              cmp rbx, rcx
+FFFFF80471632A4B  751f                jnz 0xFFFFF80471632A6C
+FFFFF80471632A4D  488d480f            lea rcx, qword ptr ds:[rax+0x0F]
+FFFFF80471632A51  f0480fb18fb8040000  lock cmpxchg qword ptr ds:[rdi+0x4B8], rcx
+FFFFF80471632A5A  748c                jz 0xFFFFF804716329E8
+FFFFF80471632A5C  488bc8              mov rcx, rax
+FFFFF80471632A5F  83e10f              and ecx, 0x0F
+FFFFF80471632A62  4883c10f            add rcx, 0x0F
+FFFFF80471632A66  4883f90f            cmp rcx, 0x0F
+FFFFF80471632A6A  76d5                jbe 0xFFFFF80471632A41
+FFFFF80471632A6C  48c7c0f1ffffff      mov rax, 0xFFFFFFFFFFFFFFF1
+FFFFF80471632A73  f0480fc143d0        lock xadd qword ptr ds:[rbx-0x30], rax
+FFFFF80471632A79  e96affffff          jmp 0xFFFFF804716329E8
+FFFFF80471632A7E  4c8bc0              mov r8, rax
+FFFFF80471632A81  a80f                test al, 0x0F
+FFFFF80471632A83  0f8538ffffff        jnz 0xFFFFF804716329C1
+FFFFF80471632A89  e949ffffff          jmp 0xFFFFF804716329D7
+FFFFF80471632A8E  48896c2458          mov qword ptr ss:[rsp+0x58], rbp
+FFFFF80471632A93  488d8f38040000      lea rcx, qword ptr ds:[rdi+0x438]
+FFFFF80471632A9A  4c89742460          mov qword ptr ss:[rsp+0x60], r14
+FFFFF80471632A9F  33d2                xor edx, edx
+FFFFF80471632AA1  654c8b342588010000  mov r14, qword ptr gs:[0x0000000000000188]
+FFFFF80471632AAA  6641ff8ee4010000    dec word ptr ds:[r14+0x1E4]
+FFFFF80471632AB2  90                  nop
+FFFFF80471632AB3  e8d8e2ffff          call 0xFFFFF80471630D90
+FFFFF80471632AB8  488b9fb8040000      mov rbx, qword ptr ds:[rdi+0x4B8]
+FFFFF80471632ABF  4883e3f0            and rbx, 0xFFFFFFFFFFFFFFF0
+FFFFF80471632AC3  740a                jz 0xFFFFF80471632ACF
+FFFFF80471632AC5  8bd6                mov edx, esi
+FFFFF80471632AC7  488bcb              mov rcx, rbx
+FFFFF80471632ACA  e8d13c0800          call 0xFFFFF804716B67A0
+FFFFF80471632ACF  33c9                xor ecx, ecx
+FFFFF80471632AD1  b811000000          mov eax, 0x11
+FFFFF80471632AD6  f0480fb18f38040000  lock cmpxchg qword ptr ds:[rdi+0x438], rcx
+FFFFF80471632ADF  7523                jnz 0xFFFFF80471632B04
+FFFFF80471632AE1  488d8f38040000      lea rcx, qword ptr ds:[rdi+0x438]
+FFFFF80471632AE8  e873e7ffff          call 0xFFFFF80471631260
+FFFFF80471632AED  498bce              mov rcx, r14
+FFFFF80471632AF0  e80bccffff          call 0xFFFFF8047162F700
+FFFFF80471632AF5  4c8b742460          mov r14, qword ptr ss:[rsp+0x60]
+FFFFF80471632AFA  488b6c2458          mov rbp, qword ptr ss:[rsp+0x58]
+FFFFF80471632AFF  e9fafeffff          jmp 0xFFFFF804716329FE
+FFFFF80471632B04  488d8f38040000      lea rcx, qword ptr ds:[rdi+0x438]
+FFFFF80471632B0B  e830ac0800          call 0xFFFFF804716BD740
+FFFFF80471632B10  ebcf                jmp 0xFFFFF80471632AE1
 
 C:\Users\Administrator\Desktop\bin>
 
@@ -97,94 +97,94 @@ C:\Users\Administrator\Desktop\bin>
 
 0: kd> u nt!PsReferencePrimaryTokenWithTag L5a
 nt!PsReferencePrimaryTokenWithTag:
-fffff806`55421e20 4053            push    rbx
-fffff806`55421e22 56              push    rsi
-fffff806`55421e23 57              push    rdi
-fffff806`55421e24 4883ec30        sub     rsp,30h
-fffff806`55421e28 8bf2            mov     esi,edx
-fffff806`55421e2a 488bf9          mov     rdi,rcx
-fffff806`55421e2d 0f0d89b8040000  prefetchw [rcx+4B8h]
-fffff806`55421e34 4c8b81b8040000  mov     r8,qword ptr [rcx+4B8h]
-fffff806`55421e3b 41f6c00f        test    r8b,0Fh
-fffff806`55421e3f 7416            je      nt!PsReferencePrimaryTokenWithTag+0x37 (fffff806`55421e57)
-fffff806`55421e41 498d50ff        lea     rdx,[r8-1]
-fffff806`55421e45 498bc0          mov     rax,r8
-fffff806`55421e48 f0480fb191b8040000 lock cmpxchg qword ptr [rcx+4B8h],rdx
-fffff806`55421e51 0f85a7000000    jne     nt!PsReferencePrimaryTokenWithTag+0xde (fffff806`55421efe)
-fffff806`55421e57 498bd8          mov     rbx,r8
-fffff806`55421e5a 4183e00f        and     r8d,0Fh
-fffff806`55421e5e 4883e3f0        and     rbx,0FFFFFFFFFFFFFFF0h
-fffff806`55421e62 4183f801        cmp     r8d,1
-fffff806`55421e66 7622            jbe     nt!PsReferencePrimaryTokenWithTag+0x6a (fffff806`55421e8a)
-fffff806`55421e68 833da9b1af0000  cmp     dword ptr [nt!ObpTraceFlags (fffff806`55f1d018)],0
-fffff806`55421e6f 0f85a81e2500    jne     nt!PsReferencePrimaryTokenWithTag+0x251efd (fffff806`55673d1d)
-fffff806`55421e75 4885db          test    rbx,rbx
-fffff806`55421e78 0f8490000000    je      nt!PsReferencePrimaryTokenWithTag+0xee (fffff806`55421f0e)
-fffff806`55421e7e 488bc3          mov     rax,rbx
-fffff806`55421e81 4883c430        add     rsp,30h
-fffff806`55421e85 5f              pop     rdi
-fffff806`55421e86 5e              pop     rsi
-fffff806`55421e87 5b              pop     rbx
-fffff806`55421e88 c3              ret
-fffff806`55421e89 cc              int     3
-fffff806`55421e8a 4585c0          test    r8d,r8d
-fffff806`55421e8d 747f            je      nt!PsReferencePrimaryTokenWithTag+0xee (fffff806`55421f0e)
-fffff806`55421e8f b80f000000      mov     eax,0Fh
-fffff806`55421e94 f0480fc143d0    lock xadd qword ptr [rbx-30h],rax
-fffff806`55421e9a 4885c0          test    rax,rax
-fffff806`55421e9d 0f8e5d1e2500    jle     nt!PsReferencePrimaryTokenWithTag+0x251ee0 (fffff806`55673d00)
-fffff806`55421ea3 0f0d89b8040000  prefetchw [rcx+4B8h]
-fffff806`55421eaa 488b81b8040000  mov     rax,qword ptr [rcx+4B8h]
-fffff806`55421eb1 488bc8          mov     rcx,rax
-fffff806`55421eb4 83e10f          and     ecx,0Fh
-fffff806`55421eb7 4883c10f        add     rcx,0Fh
-fffff806`55421ebb 4883f90f        cmp     rcx,0Fh
-fffff806`55421ebf 772b            ja      nt!PsReferencePrimaryTokenWithTag+0xcc (fffff806`55421eec)
-fffff806`55421ec1 488bc8          mov     rcx,rax
-fffff806`55421ec4 4883e1f0        and     rcx,0FFFFFFFFFFFFFFF0h
-fffff806`55421ec8 483bd9          cmp     rbx,rcx
-fffff806`55421ecb 751f            jne     nt!PsReferencePrimaryTokenWithTag+0xcc (fffff806`55421eec)
-fffff806`55421ecd 488d480f        lea     rcx,[rax+0Fh]
-fffff806`55421ed1 f0480fb18fb8040000 lock cmpxchg qword ptr [rdi+4B8h],rcx
-fffff806`55421eda 748c            je      nt!PsReferencePrimaryTokenWithTag+0x48 (fffff806`55421e68)
-fffff806`55421edc 488bc8          mov     rcx,rax
-fffff806`55421edf 83e10f          and     ecx,0Fh
-fffff806`55421ee2 4883c10f        add     rcx,0Fh
-fffff806`55421ee6 4883f90f        cmp     rcx,0Fh
-fffff806`55421eea 76d5            jbe     nt!PsReferencePrimaryTokenWithTag+0xa1 (fffff806`55421ec1)
-fffff806`55421eec 48c7c0f1ffffff  mov     rax,0FFFFFFFFFFFFFFF1h
-fffff806`55421ef3 f0480fc143d0    lock xadd qword ptr [rbx-30h],rax
-fffff806`55421ef9 e96affffff      jmp     nt!PsReferencePrimaryTokenWithTag+0x48 (fffff806`55421e68)
-fffff806`55421efe 4c8bc0          mov     r8,rax
-fffff806`55421f01 a80f            test    al,0Fh
-fffff806`55421f03 0f8538ffffff    jne     nt!PsReferencePrimaryTokenWithTag+0x21 (fffff806`55421e41)
-fffff806`55421f09 e949ffffff      jmp     nt!PsReferencePrimaryTokenWithTag+0x37 (fffff806`55421e57)
-fffff806`55421f0e 48896c2458      mov     qword ptr [rsp+58h],rbp
-fffff806`55421f13 488d8f38040000  lea     rcx,[rdi+438h]
-fffff806`55421f1a 4c89742460      mov     qword ptr [rsp+60h],r14
-fffff806`55421f1f 33d2            xor     edx,edx
-fffff806`55421f21 654c8b342588010000 mov   r14,qword ptr gs:[188h]
-fffff806`55421f2a 6641ff8ee4010000 dec     word ptr [r14+1E4h]
-fffff806`55421f32 90              nop
-fffff806`55421f33 e8c8e50a00      call    nt!ExAcquirePushLockSharedEx (fffff806`554d0500)
-fffff806`55421f38 488b9fb8040000  mov     rbx,qword ptr [rdi+4B8h]
-fffff806`55421f3f 4883e3f0        and     rbx,0FFFFFFFFFFFFFFF0h
-fffff806`55421f43 740a            je      nt!PsReferencePrimaryTokenWithTag+0x12f (fffff806`55421f4f)
-fffff806`55421f45 8bd6            mov     edx,esi
-fffff806`55421f47 488bcb          mov     rcx,rbx
-fffff806`55421f4a e891fb0400      call    nt!ObfReferenceObjectWithTag (fffff806`55471ae0)
-fffff806`55421f4f 33c9            xor     ecx,ecx
-fffff806`55421f51 b811000000      mov     eax,11h
-fffff806`55421f56 f0480fb18f38040000 lock cmpxchg qword ptr [rdi+438h],rcx
-fffff806`55421f5f 7523            jne     nt!PsReferencePrimaryTokenWithTag+0x164 (fffff806`55421f84)
-fffff806`55421f61 488d8f38040000  lea     rcx,[rdi+438h]
-fffff806`55421f68 e863ea0a00      call    nt!KeAbPostRelease (fffff806`554d09d0)
-fffff806`55421f6d 498bce          mov     rcx,r14
-fffff806`55421f70 e84bbdffff      call    nt!KeLeaveCriticalRegionThread (fffff806`5541dcc0)
-fffff806`55421f75 4c8b742460      mov     r14,qword ptr [rsp+60h]
-fffff806`55421f7a 488b6c2458      mov     rbp,qword ptr [rsp+58h]
-fffff806`55421f7f e9fafeffff      jmp     nt!PsReferencePrimaryTokenWithTag+0x5e (fffff806`55421e7e)
-fffff806`55421f84 488d8f38040000  lea     rcx,[rdi+438h]
-fffff806`55421f8b e810990b00      call    nt!ExfReleasePushLockShared (fffff806`554db8a0)
-fffff806`55421f90 ebcf            jmp     nt!PsReferencePrimaryTokenWithTag+0x141 (fffff806`55421f61)
-0: kd> g
+fffff804`716329a0 4053            push    rbx
+fffff804`716329a2 56              push    rsi
+fffff804`716329a3 57              push    rdi
+fffff804`716329a4 4883ec30        sub     rsp,30h
+fffff804`716329a8 8bf2            mov     esi,edx
+fffff804`716329aa 488bf9          mov     rdi,rcx
+fffff804`716329ad 0f0d89b8040000  prefetchw [rcx+4B8h]
+fffff804`716329b4 4c8b81b8040000  mov     r8,qword ptr [rcx+4B8h]
+fffff804`716329bb 41f6c00f        test    r8b,0Fh
+fffff804`716329bf 7416            je      nt!PsReferencePrimaryTokenWithTag+0x37 (fffff804`716329d7)
+fffff804`716329c1 498d50ff        lea     rdx,[r8-1]
+fffff804`716329c5 498bc0          mov     rax,r8
+fffff804`716329c8 f0480fb191b8040000 lock cmpxchg qword ptr [rcx+4B8h],rdx
+fffff804`716329d1 0f85a7000000    jne     nt!PsReferencePrimaryTokenWithTag+0xde (fffff804`71632a7e)
+fffff804`716329d7 498bd8          mov     rbx,r8
+fffff804`716329da 4183e00f        and     r8d,0Fh
+fffff804`716329de 4883e3f0        and     rbx,0FFFFFFFFFFFFFFF0h
+fffff804`716329e2 4183f801        cmp     r8d,1
+fffff804`716329e6 7622            jbe     nt!PsReferencePrimaryTokenWithTag+0x6a (fffff804`71632a0a)
+fffff804`716329e8 833d29a6ae0000  cmp     dword ptr [nt!ObpTraceFlags (fffff804`7211d018)],0
+fffff804`716329ef 0f8592db2400    jne     nt!PsReferencePrimaryTokenWithTag+0x24dbe7 (fffff804`71880587)
+fffff804`716329f5 4885db          test    rbx,rbx
+fffff804`716329f8 0f8490000000    je      nt!PsReferencePrimaryTokenWithTag+0xee (fffff804`71632a8e)
+fffff804`716329fe 488bc3          mov     rax,rbx
+fffff804`71632a01 4883c430        add     rsp,30h
+fffff804`71632a05 5f              pop     rdi
+fffff804`71632a06 5e              pop     rsi
+fffff804`71632a07 5b              pop     rbx
+fffff804`71632a08 c3              ret
+fffff804`71632a09 cc              int     3
+fffff804`71632a0a 4585c0          test    r8d,r8d
+fffff804`71632a0d 747f            je      nt!PsReferencePrimaryTokenWithTag+0xee (fffff804`71632a8e)
+fffff804`71632a0f b80f000000      mov     eax,0Fh
+fffff804`71632a14 f0480fc143d0    lock xadd qword ptr [rbx-30h],rax
+fffff804`71632a1a 4885c0          test    rax,rax
+fffff804`71632a1d 0f8e47db2400    jle     nt!PsReferencePrimaryTokenWithTag+0x24dbca (fffff804`7188056a)
+fffff804`71632a23 0f0d89b8040000  prefetchw [rcx+4B8h]
+fffff804`71632a2a 488b81b8040000  mov     rax,qword ptr [rcx+4B8h]
+fffff804`71632a31 488bc8          mov     rcx,rax
+fffff804`71632a34 83e10f          and     ecx,0Fh
+fffff804`71632a37 4883c10f        add     rcx,0Fh
+fffff804`71632a3b 4883f90f        cmp     rcx,0Fh
+fffff804`71632a3f 772b            ja      nt!PsReferencePrimaryTokenWithTag+0xcc (fffff804`71632a6c)
+fffff804`71632a41 488bc8          mov     rcx,rax
+fffff804`71632a44 4883e1f0        and     rcx,0FFFFFFFFFFFFFFF0h
+fffff804`71632a48 483bd9          cmp     rbx,rcx
+fffff804`71632a4b 751f            jne     nt!PsReferencePrimaryTokenWithTag+0xcc (fffff804`71632a6c)
+fffff804`71632a4d 488d480f        lea     rcx,[rax+0Fh]
+fffff804`71632a51 f0480fb18fb8040000 lock cmpxchg qword ptr [rdi+4B8h],rcx
+fffff804`71632a5a 748c            je      nt!PsReferencePrimaryTokenWithTag+0x48 (fffff804`716329e8)
+fffff804`71632a5c 488bc8          mov     rcx,rax
+fffff804`71632a5f 83e10f          and     ecx,0Fh
+fffff804`71632a62 4883c10f        add     rcx,0Fh
+fffff804`71632a66 4883f90f        cmp     rcx,0Fh
+fffff804`71632a6a 76d5            jbe     nt!PsReferencePrimaryTokenWithTag+0xa1 (fffff804`71632a41)
+fffff804`71632a6c 48c7c0f1ffffff  mov     rax,0FFFFFFFFFFFFFFF1h
+fffff804`71632a73 f0480fc143d0    lock xadd qword ptr [rbx-30h],rax
+fffff804`71632a79 e96affffff      jmp     nt!PsReferencePrimaryTokenWithTag+0x48 (fffff804`716329e8)
+fffff804`71632a7e 4c8bc0          mov     r8,rax
+fffff804`71632a81 a80f            test    al,0Fh
+fffff804`71632a83 0f8538ffffff    jne     nt!PsReferencePrimaryTokenWithTag+0x21 (fffff804`716329c1)
+fffff804`71632a89 e949ffffff      jmp     nt!PsReferencePrimaryTokenWithTag+0x37 (fffff804`716329d7)
+fffff804`71632a8e 48896c2458      mov     qword ptr [rsp+58h],rbp
+fffff804`71632a93 488d8f38040000  lea     rcx,[rdi+438h]
+fffff804`71632a9a 4c89742460      mov     qword ptr [rsp+60h],r14
+fffff804`71632a9f 33d2            xor     edx,edx
+fffff804`71632aa1 654c8b342588010000 mov   r14,qword ptr gs:[188h]
+fffff804`71632aaa 6641ff8ee4010000 dec     word ptr [r14+1E4h]
+fffff804`71632ab2 90              nop
+fffff804`71632ab3 e8d8e2ffff      call    nt!ExAcquirePushLockSharedEx (fffff804`71630d90)
+fffff804`71632ab8 488b9fb8040000  mov     rbx,qword ptr [rdi+4B8h]
+fffff804`71632abf 4883e3f0        and     rbx,0FFFFFFFFFFFFFFF0h
+fffff804`71632ac3 740a            je      nt!PsReferencePrimaryTokenWithTag+0x12f (fffff804`71632acf)
+fffff804`71632ac5 8bd6            mov     edx,esi
+fffff804`71632ac7 488bcb          mov     rcx,rbx
+fffff804`71632aca e8d13c0800      call    nt!ObfReferenceObjectWithTag (fffff804`716b67a0)
+fffff804`71632acf 33c9            xor     ecx,ecx
+fffff804`71632ad1 b811000000      mov     eax,11h
+fffff804`71632ad6 f0480fb18f38040000 lock cmpxchg qword ptr [rdi+438h],rcx
+fffff804`71632adf 7523            jne     nt!PsReferencePrimaryTokenWithTag+0x164 (fffff804`71632b04)
+fffff804`71632ae1 488d8f38040000  lea     rcx,[rdi+438h]
+fffff804`71632ae8 e873e7ffff      call    nt!KeAbPostRelease (fffff804`71631260)
+fffff804`71632aed 498bce          mov     rcx,r14
+fffff804`71632af0 e80bccffff      call    nt!KeLeaveCriticalRegionThread (fffff804`7162f700)
+fffff804`71632af5 4c8b742460      mov     r14,qword ptr [rsp+60h]
+fffff804`71632afa 488b6c2458      mov     rbp,qword ptr [rsp+58h]
+fffff804`71632aff e9fafeffff      jmp     nt!PsReferencePrimaryTokenWithTag+0x5e (fffff804`716329fe)
+fffff804`71632b04 488d8f38040000  lea     rcx,[rdi+438h]
+fffff804`71632b0b e830ac0800      call    nt!ExfReleasePushLockShared (fffff804`716bd740)
+fffff804`71632b10 ebcf            jmp     nt!PsReferencePrimaryTokenWithTag+0x141 (fffff804`71632ae1)
+

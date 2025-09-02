@@ -180,7 +180,7 @@ Enum and Remove Hook in Windows Kernel
 * 硬件虚拟化相关的。  
 * 系统热键 和 消息钩子。  
 * 本地内核调试。  
-* ApiSet 应用层枚举 驱动修改（有PG/KPP保护）  
+* ApiSet 应用层枚举 驱动修改（有PG(PatchGuard)/KPP(Kernel Patch Protection)/HyperGuard(Secure Kernel Patch Guard, SKPG)保护）  
 * PsRegisterPicoProvider  
 * PcwRegister PcwUnregister  
 * NmrpRegisterModule == NmrRegisterClient + NmrRegisterProvider + WskRegister。  
