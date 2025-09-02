@@ -1,0 +1,115 @@
+C:\Users\Administrator\Desktop\bin>AntiHook.exe EnumProcessModule 8116 InLoad
+Number:13
+
+Index:001, DllBase:00007FF6DBE40000, SizeOfImage:00075000, FullDllName:C:\Windows\System32\cmd.exe
+Index:002, DllBase:00007FFBA8B90000, SizeOfImage:00217000, FullDllName:C:\Windows\System32\ntdll.dll
+Index:003, DllBase:00007FFBA76A0000, SizeOfImage:000c4000, FullDllName:C:\Windows\System32\kernel32.dll
+Index:004, DllBase:00007FFBA5DB0000, SizeOfImage:003d2000, FullDllName:C:\Windows\System32\KernelBase.dll
+Index:005, DllBase:00007FFBA6620000, SizeOfImage:00111000, FullDllName:C:\Windows\System32\ucrtbase.dll
+Index:006, DllBase:00007FFB88290000, SizeOfImage:00039000, FullDllName:C:\Windows\System32\winbrand.dll
+Index:007, DllBase:00007FFBA7070000, SizeOfImage:000a7000, FullDllName:C:\Windows\System32\msvcrt.dll
+Index:008, DllBase:00007FFBA79A0000, SizeOfImage:00392000, FullDllName:C:\Windows\System32\combase.dll
+Index:009, DllBase:00007FFBA87D0000, SizeOfImage:00117000, FullDllName:C:\Windows\System32\rpcrt4.dll
+Index:010, DllBase:00007FFBA77E0000, SizeOfImage:0010b000, FullDllName:C:\Windows\System32\SHCore.dll
+Index:011, DllBase:00007FFBA64C0000, SizeOfImage:0009a000, FullDllName:C:\Windows\System32\msvcp_win.dll
+Index:012, DllBase:00007FFBA78F0000, SizeOfImage:000a8000, FullDllName:C:\Windows\System32\sechost.dll
+Index:013, DllBase:00007FFBA67F0000, SizeOfImage:00028000, FullDllName:C:\Windows\System32\bcrypt.dll
+
+C:\Users\Administrator\Desktop\bin>AntiHook.exe EnumProcessModule 8116 InMemory
+Number:13
+
+Index:001, DllBase:00007FF6DBE40000, SizeOfImage:00075000, FullDllName:C:\Windows\System32\cmd.exe
+Index:002, DllBase:00007FFBA8B90000, SizeOfImage:00217000, FullDllName:C:\Windows\System32\ntdll.dll
+Index:003, DllBase:00007FFBA76A0000, SizeOfImage:000c4000, FullDllName:C:\Windows\System32\kernel32.dll
+Index:004, DllBase:00007FFBA5DB0000, SizeOfImage:003d2000, FullDllName:C:\Windows\System32\KernelBase.dll
+Index:005, DllBase:00007FFBA6620000, SizeOfImage:00111000, FullDllName:C:\Windows\System32\ucrtbase.dll
+Index:006, DllBase:00007FFB88290000, SizeOfImage:00039000, FullDllName:C:\Windows\System32\winbrand.dll
+Index:007, DllBase:00007FFBA7070000, SizeOfImage:000a7000, FullDllName:C:\Windows\System32\msvcrt.dll
+Index:008, DllBase:00007FFBA79A0000, SizeOfImage:00392000, FullDllName:C:\Windows\System32\combase.dll
+Index:009, DllBase:00007FFBA87D0000, SizeOfImage:00117000, FullDllName:C:\Windows\System32\rpcrt4.dll
+Index:010, DllBase:00007FFBA77E0000, SizeOfImage:0010b000, FullDllName:C:\Windows\System32\SHCore.dll
+Index:011, DllBase:00007FFBA64C0000, SizeOfImage:0009a000, FullDllName:C:\Windows\System32\msvcp_win.dll
+Index:012, DllBase:00007FFBA78F0000, SizeOfImage:000a8000, FullDllName:C:\Windows\System32\sechost.dll
+Index:013, DllBase:00007FFBA67F0000, SizeOfImage:00028000, FullDllName:C:\Windows\System32\bcrypt.dll
+
+C:\Users\Administrator\Desktop\bin>AntiHook.exe EnumProcessModule 8116 InInit
+Number:12
+
+Index:001, DllBase:00007FFBA8B90000, SizeOfImage:00217000, FullDllName:C:\Windows\System32\ntdll.dll
+Index:002, DllBase:00007FFBA5DB0000, SizeOfImage:003d2000, FullDllName:C:\Windows\System32\KernelBase.dll
+Index:003, DllBase:00007FFBA76A0000, SizeOfImage:000c4000, FullDllName:C:\Windows\System32\kernel32.dll
+Index:004, DllBase:00007FFBA6620000, SizeOfImage:00111000, FullDllName:C:\Windows\System32\ucrtbase.dll
+Index:005, DllBase:00007FFBA7070000, SizeOfImage:000a7000, FullDllName:C:\Windows\System32\msvcrt.dll
+Index:006, DllBase:00007FFBA87D0000, SizeOfImage:00117000, FullDllName:C:\Windows\System32\rpcrt4.dll
+Index:007, DllBase:00007FFBA79A0000, SizeOfImage:00392000, FullDllName:C:\Windows\System32\combase.dll
+Index:008, DllBase:00007FFBA64C0000, SizeOfImage:0009a000, FullDllName:C:\Windows\System32\msvcp_win.dll
+Index:009, DllBase:00007FFBA77E0000, SizeOfImage:0010b000, FullDllName:C:\Windows\System32\SHCore.dll
+Index:010, DllBase:00007FFB88290000, SizeOfImage:00039000, FullDllName:C:\Windows\System32\winbrand.dll
+Index:011, DllBase:00007FFBA67F0000, SizeOfImage:00028000, FullDllName:C:\Windows\System32\bcrypt.dll
+Index:012, DllBase:00007FFBA78F0000, SizeOfImage:000a8000, FullDllName:C:\Windows\System32\sechost.dll
+
+C:\Users\Administrator\Desktop\bin>AntiHook.exe EnumProcessModule 7604 InLoad
+Number:18
+
+Index:001, DllBase:0000000000040000, SizeOfImage:00063000, FullDllName:C:\Windows\SysWOW64\cmd.exe
+Index:002, DllBase:00007FFBA8B90000, SizeOfImage:00217000, FullDllName:C:\Windows\System32\ntdll.dll
+Index:003, DllBase:00007FFBA69C0000, SizeOfImage:00057000, FullDllName:C:\Windows\System32\wow64.dll
+Index:004, DllBase:00007FFBA6A90000, SizeOfImage:00009000, FullDllName:C:\Windows\System32\wow64base.dll
+Index:005, DllBase:00007FFBA8AB0000, SizeOfImage:0008b000, FullDllName:C:\Windows\System32\wow64win.dll
+Index:006, DllBase:00007FFBA6AA0000, SizeOfImage:00017000, FullDllName:C:\Windows\System32\wow64con.dll
+Index:007, DllBase:0000000077000000, SizeOfImage:0000a000, FullDllName:C:\Windows\System32\wow64cpu.dll
+Index:008, DllBase:0000000000040000, SizeOfImage:00063000, FullDllName:C:\Windows\SysWOW64\cmd.exe
+Index:009, DllBase:0000000077010000, SizeOfImage:001b2000, FullDllName:C:\Windows\SysWOW64\ntdll.dll
+Index:010, DllBase:0000000076E50000, SizeOfImage:000f0000, FullDllName:C:\Windows\SysWOW64\kernel32.dll
+Index:011, DllBase:00000000766C0000, SizeOfImage:00296000, FullDllName:C:\Windows\SysWOW64\KernelBase.dll
+Index:012, DllBase:0000000076AF0000, SizeOfImage:00112000, FullDllName:C:\Windows\SysWOW64\ucrtbase.dll
+Index:013, DllBase:0000000073D90000, SizeOfImage:00030000, FullDllName:C:\Windows\SysWOW64\winbrand.dll
+Index:014, DllBase:0000000076D80000, SizeOfImage:000c4000, FullDllName:C:\Windows\SysWOW64\msvcrt.dll
+Index:015, DllBase:0000000075530000, SizeOfImage:00283000, FullDllName:C:\Windows\SysWOW64\combase.dll
+Index:016, DllBase:0000000074C20000, SizeOfImage:000bc000, FullDllName:C:\Windows\SysWOW64\rpcrt4.dll
+Index:017, DllBase:0000000075D80000, SizeOfImage:000d3000, FullDllName:C:\Windows\SysWOW64\SHCore.dll
+Index:018, DllBase:0000000075290000, SizeOfImage:00079000, FullDllName:C:\Windows\SysWOW64\msvcp_win.dll
+
+C:\Users\Administrator\Desktop\bin>AntiHook.exe EnumProcessModule 7604 InMemory
+Number:18
+
+Index:001, DllBase:0000000000040000, SizeOfImage:00063000, FullDllName:C:\Windows\SysWOW64\cmd.exe
+Index:002, DllBase:00007FFBA8B90000, SizeOfImage:00217000, FullDllName:C:\Windows\System32\ntdll.dll
+Index:003, DllBase:00007FFBA69C0000, SizeOfImage:00057000, FullDllName:C:\Windows\System32\wow64.dll
+Index:004, DllBase:00007FFBA6A90000, SizeOfImage:00009000, FullDllName:C:\Windows\System32\wow64base.dll
+Index:005, DllBase:00007FFBA8AB0000, SizeOfImage:0008b000, FullDllName:C:\Windows\System32\wow64win.dll
+Index:006, DllBase:00007FFBA6AA0000, SizeOfImage:00017000, FullDllName:C:\Windows\System32\wow64con.dll
+Index:007, DllBase:0000000077000000, SizeOfImage:0000a000, FullDllName:C:\Windows\System32\wow64cpu.dll
+Index:008, DllBase:0000000000040000, SizeOfImage:00063000, FullDllName:C:\Windows\SysWOW64\cmd.exe
+Index:009, DllBase:0000000077010000, SizeOfImage:001b2000, FullDllName:C:\Windows\SysWOW64\ntdll.dll
+Index:010, DllBase:0000000076E50000, SizeOfImage:000f0000, FullDllName:C:\Windows\SysWOW64\kernel32.dll
+Index:011, DllBase:00000000766C0000, SizeOfImage:00296000, FullDllName:C:\Windows\SysWOW64\KernelBase.dll
+Index:012, DllBase:0000000076AF0000, SizeOfImage:00112000, FullDllName:C:\Windows\SysWOW64\ucrtbase.dll
+Index:013, DllBase:0000000073D90000, SizeOfImage:00030000, FullDllName:C:\Windows\SysWOW64\winbrand.dll
+Index:014, DllBase:0000000076D80000, SizeOfImage:000c4000, FullDllName:C:\Windows\SysWOW64\msvcrt.dll
+Index:015, DllBase:0000000075530000, SizeOfImage:00283000, FullDllName:C:\Windows\SysWOW64\combase.dll
+Index:016, DllBase:0000000074C20000, SizeOfImage:000bc000, FullDllName:C:\Windows\SysWOW64\rpcrt4.dll
+Index:017, DllBase:0000000075D80000, SizeOfImage:000d3000, FullDllName:C:\Windows\SysWOW64\SHCore.dll
+Index:018, DllBase:0000000075290000, SizeOfImage:00079000, FullDllName:C:\Windows\SysWOW64\msvcp_win.dll
+
+C:\Users\Administrator\Desktop\bin>AntiHook.exe EnumProcessModule 7604 InInit
+Number:16
+
+Index:001, DllBase:00007FFBA8B90000, SizeOfImage:00217000, FullDllName:C:\Windows\System32\ntdll.dll
+Index:002, DllBase:00007FFBA6AA0000, SizeOfImage:00017000, FullDllName:C:\Windows\System32\wow64con.dll
+Index:003, DllBase:00007FFBA8AB0000, SizeOfImage:0008b000, FullDllName:C:\Windows\System32\wow64win.dll
+Index:004, DllBase:00007FFBA6A90000, SizeOfImage:00009000, FullDllName:C:\Windows\System32\wow64base.dll
+Index:005, DllBase:00007FFBA69C0000, SizeOfImage:00057000, FullDllName:C:\Windows\System32\wow64.dll
+Index:006, DllBase:0000000077000000, SizeOfImage:0000a000, FullDllName:C:\Windows\System32\wow64cpu.dll
+Index:007, DllBase:0000000077010000, SizeOfImage:001b2000, FullDllName:C:\Windows\SysWOW64\ntdll.dll
+Index:008, DllBase:00000000766C0000, SizeOfImage:00296000, FullDllName:C:\Windows\SysWOW64\KernelBase.dll
+Index:009, DllBase:0000000076E50000, SizeOfImage:000f0000, FullDllName:C:\Windows\SysWOW64\kernel32.dll
+Index:010, DllBase:0000000076AF0000, SizeOfImage:00112000, FullDllName:C:\Windows\SysWOW64\ucrtbase.dll
+Index:011, DllBase:0000000076D80000, SizeOfImage:000c4000, FullDllName:C:\Windows\SysWOW64\msvcrt.dll
+Index:012, DllBase:0000000074C20000, SizeOfImage:000bc000, FullDllName:C:\Windows\SysWOW64\rpcrt4.dll
+Index:013, DllBase:0000000075530000, SizeOfImage:00283000, FullDllName:C:\Windows\SysWOW64\combase.dll
+Index:014, DllBase:0000000075290000, SizeOfImage:00079000, FullDllName:C:\Windows\SysWOW64\msvcp_win.dll
+Index:015, DllBase:0000000075D80000, SizeOfImage:000d3000, FullDllName:C:\Windows\SysWOW64\SHCore.dll
+Index:016, DllBase:0000000073D90000, SizeOfImage:00030000, FullDllName:C:\Windows\SysWOW64\winbrand.dll
+
+C:\Users\Administrator\Desktop\bin>
