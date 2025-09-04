@@ -11,6 +11,8 @@ Enum and Remove Hook in Windows Kernel
 7. 多使用符号文件，尽量减少硬编码。
 8. 支持Windows 7 SP1(Windows Server 2008 R2)及以后的系统。  
 9. 后期考虑支持ARM64。  
+10. 本程序没有自保护，如：进程保护，服务保护，文件保护，驱动保护，反调试等。  
+11. 本程序没有加VMP壳，没有混淆/反反编译，甚至给debug版本。  
 
 已经实现的功能：  
 1. 枚举和移除进程回调。  
@@ -84,7 +86,6 @@ Enum and Remove Hook in Windows Kernel
 29. 修改进程的句柄的权限。  
     如：0x1fffff,这个可以和ObRegisterCallbacks对抗，逃避监控。  
     验证：先切换到目标进程（.process /r /p 0xXXXXXX），然后运行!handle 0xxx。  
-    危险：谨慎使用，弄不好会卡系统。  
     有待验证是否会触发系统的保护机制（PG/KPP).  
 30. 枚举PiDDBCache  
 31. 枚举HalAcpiDispatchTable  
@@ -168,11 +169,17 @@ Enum and Remove Hook in Windows Kernel
     反注册 Provider（包括ClassicProvider）：EtwUnregister  
     枚举 Consumer : _ETW_REALTIME_CONSUMER + _WMI_LOGGER_CONTEXT  
     断开/删除 Consumer : EtwpRealtimeDisconnectConsumer/EtwpDeleteRealTimeConnectionObject  
+    win7有待分析实现  
 67. 枚举和反注册Shim  
     KseRegisterShim KseRegisterShimEx KseUnregisterShim  
 68. 枚举CiCallback(g_CiCallbacks/SeCiCallbacks)和读写g_CiOptions。  
 69. 反汇编引擎：zydis（X86/X64）  
 70. 脚本引擎：lua（支持JIT/FFI等特性）  
+71. 枚举 PsActiveProcessHead  
+72. 枚举 PspCidTable ObpKernelHandleTable PspUniqueJobIdTable  
+73. 枚举进程的句柄表/对象表。  
+74. 枚举进程的PEB 以及 PEB中的LDR(InLoad/InMemory/InInit三种顺序)  
+75. 枚举进程的VAD  
 
 考虑添加的功能：
 * 工作线程.    尽管生命周期很短。  
