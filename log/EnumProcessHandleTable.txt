@@ -1,0 +1,283 @@
+Number:89
+
+Index:       1 HandleTableEntry:FFFFE002020FF010 Object:FFFFA78DB5C2C860 Handle:       4 GrantedAccess: 2031619 TypeName:Event
+Index:       2 HandleTableEntry:FFFFE002020FF020 Object:FFFFA78DB5C2CA60 Handle:       8 GrantedAccess: 2031619 TypeName:Event
+Index:       3 HandleTableEntry:FFFFE002020FF030 Object:FFFFA78DB5C2C5E0 Handle:      12 GrantedAccess: 2031619 TypeName:Event
+Index:       4 HandleTableEntry:FFFFE002020FF040 Object:FFFFA78DB67AC680 Handle:      16 GrantedAccess:       1 TypeName:WaitCompletionPacket
+Index:       5 HandleTableEntry:FFFFE002020FF050 Object:FFFFA78DB631DC40 Handle:      20 GrantedAccess: 2031619 TypeName:IoCompletion
+Index:       6 HandleTableEntry:FFFFE002020FF060 Object:FFFFA78DB5BB5B70 Handle:      24 GrantedAccess:  983295 TypeName:TpWorkerFactory
+Index:       7 HandleTableEntry:FFFFE002020FF070 Object:FFFFA78DB6168940 Handle:      28 GrantedAccess: 1048578 TypeName:IRTimer
+Index:       8 HandleTableEntry:FFFFE002020FF080 Object:FFFFA78DB67AD2B0 Handle:      32 GrantedAccess:       1 TypeName:WaitCompletionPacket
+Index:       9 HandleTableEntry:FFFFE002020FF090 Object:FFFFA78DB6167C80 Handle:      36 GrantedAccess: 1048578 TypeName:IRTimer
+Index:      10 HandleTableEntry:FFFFE002020FF0A0 Object:FFFFA78DB67ABBF0 Handle:      40 GrantedAccess:       1 TypeName:WaitCompletionPacket
+Index:      11 HandleTableEntry:FFFFE002020FF0B0 Object:FFFFA78DB631DD10 Handle:      44 GrantedAccess:    2052 TypeName:EtwRegistration
+Index:      12 HandleTableEntry:FFFFE002020FF0C0 Object:FFFFA78DB631E4F0 Handle:      48 GrantedAccess:    2052 TypeName:EtwRegistration
+Index:      13 HandleTableEntry:FFFFE002020FF0D0 Object:FFFFA78DB631E6B0 Handle:      52 GrantedAccess:    2052 TypeName:EtwRegistration
+Index:      14 HandleTableEntry:FFFFE002020FF0E0 Object:FFFFA78DB631F130 Handle:      56 GrantedAccess:    2052 TypeName:EtwRegistration
+Index:      15 HandleTableEntry:FFFFE002020FF0F0 Object:FFFFA78DB631F750 Handle:      60 GrantedAccess:    2052 TypeName:EtwRegistration
+Index:      16 HandleTableEntry:FFFFE002020FF100 Object:FFFFE001FA9CA380 Handle:      64 GrantedAccess:       3 TypeName:Directory
+Index:      17 HandleTableEntry:FFFFE002020FF110 Object:FFFFA78DB5C2C7E0 Handle:      68 GrantedAccess: 2031619 TypeName:Event
+Index:      18 HandleTableEntry:FFFFE002020FF120 Object:FFFFA78DB5C2C760 Handle:      72 GrantedAccess: 2031619 TypeName:Event
+Index:      19 HandleTableEntry:FFFFE002020FF130 Object:FFFFA78DB678CD90 Handle:      76 GrantedAccess:    2052 TypeName:EtwRegistration
+Index:      20 HandleTableEntry:FFFFE002020FF140 Object:FFFFA78DB59856A0 Handle:      80 GrantedAccess: 1180063 TypeName:File
+Index:      21 HandleTableEntry:FFFFE002020FF150 Object:FFFFA78DB17BD0C0 Handle:      84 GrantedAccess: 2097151 TypeName:Process
+Index:      22 HandleTableEntry:FFFFE002020FF160 Object:FFFFA78DB4BE2070 Handle:      88 GrantedAccess: 2031617 TypeName:ALPC Port
+Index:      23 HandleTableEntry:FFFFE002020FF170 Object:FFFFA78DB0DD2550 Handle:      92 GrantedAccess: 1180063 TypeName:File
+Index:      24 HandleTableEntry:FFFFE002020FF180 Object:FFFFA78DB0DD1100 Handle:      96 GrantedAccess: 1180063 TypeName:File
+Index:      25 HandleTableEntry:FFFFE002020FF190 Object:FFFFA78DB5986640 Handle:     100 GrantedAccess: 1180063 TypeName:File
+Index:      26 HandleTableEntry:FFFFE002020FF1A0 Object:FFFFA78DB67892F0 Handle:     104 GrantedAccess:    2052 TypeName:EtwRegistration
+Index:      27 HandleTableEntry:FFFFE002020FF1B0 Object:FFFFA78DB6789830 Handle:     108 GrantedAccess:    2052 TypeName:EtwRegistration
+Index:      28 HandleTableEntry:FFFFE002020FF1C0 Object:FFFFA78DB3206C10 Handle:     112 GrantedAccess: 2031617 TypeName:Mutant
+Index:      29 HandleTableEntry:FFFFE002020FF1D0 Object:FFFFE001FD75CC10 Handle:     116 GrantedAccess:      15 TypeName:Directory
+Index:      30 HandleTableEntry:FFFFE002020FF1E0 Object:FFFFA78DB681E570 Handle:     120 GrantedAccess: 2031619 TypeName:Semaphore
+Index:      31 HandleTableEntry:FFFFE002020FF1F0 Object:FFFFA78DB681E610 Handle:     124 GrantedAccess: 2031619 TypeName:Semaphore
+Index:      32 HandleTableEntry:FFFFE002020FF200 Object:FFFFA78DB6789AD0 Handle:     128 GrantedAccess:    2052 TypeName:EtwRegistration
+Index:      33 HandleTableEntry:FFFFE002020FF210 Object:FFFFA78DB6084260 Handle:     132 GrantedAccess: 2031619 TypeName:Event
+Index:      34 HandleTableEntry:FFFFE002020FF220 Object:FFFFA78DB67B3360 Handle:     136 GrantedAccess:       1 TypeName:WaitCompletionPacket
+Index:      35 HandleTableEntry:FFFFE002020FF230 Object:FFFFE00202636980 Handle:     140 GrantedAccess:  131097 TypeName:Key
+Index:      36 HandleTableEntry:FFFFE002020FF240 Object:FFFFE00202636CB0 Handle:     144 GrantedAccess:  131097 TypeName:Key
+Index:      37 HandleTableEntry:FFFFE002020FF250 Object:FFFFE00202636320 Handle:     148 GrantedAccess:  983103 TypeName:Key
+Index:      38 HandleTableEntry:FFFFE002020FF260 Object:FFFFA78DB67893D0 Handle:     152 GrantedAccess:    2052 TypeName:EtwRegistration
+Index:      39 HandleTableEntry:FFFFE002020FF270 Object:FFFFA78DB6789590 Handle:     156 GrantedAccess:    2052 TypeName:EtwRegistration
+Index:      40 HandleTableEntry:FFFFE002020FF280 Object:FFFFA78DB6789740 Handle:     160 GrantedAccess: 2031619 TypeName:IoCompletion
+Index:      41 HandleTableEntry:FFFFE002020FF290 Object:FFFFA78DB5221AF0 Handle:     164 GrantedAccess:  983295 TypeName:TpWorkerFactory
+Index:      42 HandleTableEntry:FFFFE002020FF2A0 Object:FFFFA78DB616FD10 Handle:     168 GrantedAccess: 1048578 TypeName:IRTimer
+Index:      43 HandleTableEntry:FFFFE002020FF2B0 Object:FFFFA78DB67B2590 Handle:     172 GrantedAccess:       1 TypeName:WaitCompletionPacket
+Index:      44 HandleTableEntry:FFFFE002020FF2C0 Object:FFFFA78DB616FF30 Handle:     176 GrantedAccess: 1048578 TypeName:IRTimer
+Index:      45 HandleTableEntry:FFFFE002020FF2D0 Object:FFFFA78DB67B3910 Handle:     180 GrantedAccess:       1 TypeName:WaitCompletionPacket
+Index:      46 HandleTableEntry:FFFFE002020FF2E0 Object:FFFFE00202605C90 Handle:     184 GrantedAccess:  131097 TypeName:Key
+Index:      47 HandleTableEntry:FFFFE002020FF2F0 Object:FFFFA78DB33B1080 Handle:     188 GrantedAccess: 2097151 TypeName:Thread
+Index:      48 HandleTableEntry:FFFFE002020FF300 Object:FFFFE00202637200 Handle:     192 GrantedAccess:  983103 TypeName:Key
+Index:      49 HandleTableEntry:FFFFE002020FF310 Object:FFFFA78DB5C32FE0 Handle:     196 GrantedAccess: 2031619 TypeName:Event
+Index:      50 HandleTableEntry:FFFFE002020FF320 Object:FFFFE00202635550 Handle:     200 GrantedAccess:  131097 TypeName:Key
+Index:      51 HandleTableEntry:FFFFE002020FF330 Object:FFFFE00202635220 Handle:     204 GrantedAccess:  131097 TypeName:Key
+Index:      52 HandleTableEntry:FFFFE002020FF340 Object:FFFFA78DB5C32260 Handle:     208 GrantedAccess: 2031619 TypeName:Event
+Index:      53 HandleTableEntry:FFFFE002020FF350 Object:FFFFA78DB6789910 Handle:     212 GrantedAccess:    2052 TypeName:EtwRegistration
+Index:      54 HandleTableEntry:FFFFE002020FF360 Object:FFFFA78DB6789D70 Handle:     216 GrantedAccess:    2052 TypeName:EtwRegistration
+Index:      55 HandleTableEntry:FFFFE002020FF370 Object:FFFFA78DB67899F0 Handle:     220 GrantedAccess:    2052 TypeName:EtwRegistration
+Index:      56 HandleTableEntry:FFFFE002020FF380 Object:FFFFA78DB5C32C60 Handle:     224 GrantedAccess: 2031619 TypeName:Event
+Index:      57 HandleTableEntry:FFFFE002020FF390 Object:FFFFA78DB5C32AE0 Handle:     228 GrantedAccess: 2031619 TypeName:Event
+Index:      58 HandleTableEntry:FFFFE002020FF3A0 Object:FFFFA78DB5C329E0 Handle:     232 GrantedAccess: 2031619 TypeName:Event
+Index:      59 HandleTableEntry:FFFFE002020FF3B0 Object:FFFFA78DB5C322E0 Handle:     236 GrantedAccess: 2031619 TypeName:Event
+Index:      60 HandleTableEntry:FFFFE002020FF3C0 Object:FFFFA78DB5C32A60 Handle:     240 GrantedAccess: 2031619 TypeName:Event
+Index:      61 HandleTableEntry:FFFFE002020FF3D0 Object:FFFFA78DB5C32B60 Handle:     244 GrantedAccess: 2031619 TypeName:Event
+Index:      62 HandleTableEntry:FFFFE002020FF3E0 Object:FFFFA78DB6789C90 Handle:     248 GrantedAccess:    2052 TypeName:EtwRegistration
+Index:      63 HandleTableEntry:FFFFE002020FF3F0 Object:FFFFA78DB678A8D0 Handle:     252 GrantedAccess:    2052 TypeName:EtwRegistration
+Index:      64 HandleTableEntry:FFFFE002020FF400 Object:FFFFA78DB678A0F0 Handle:     256 GrantedAccess:    2052 TypeName:EtwRegistration
+Index:      65 HandleTableEntry:FFFFE002020FF410 Object:FFFFA78DB678B510 Handle:     260 GrantedAccess:    2052 TypeName:EtwRegistration
+Index:      66 HandleTableEntry:FFFFE002020FF420 Object:FFFFA78DB678A1D0 Handle:     264 GrantedAccess:    2052 TypeName:EtwRegistration
+Index:      67 HandleTableEntry:FFFFE002020FF430 Object:FFFFA78DB678B190 Handle:     268 GrantedAccess:    2052 TypeName:EtwRegistration
+Index:      68 HandleTableEntry:FFFFE002020FF440 Object:FFFFA78DB6789E50 Handle:     272 GrantedAccess:    2052 TypeName:EtwRegistration
+Index:      69 HandleTableEntry:FFFFE002020FF450 Object:FFFFA78DB678B430 Handle:     276 GrantedAccess:    2052 TypeName:EtwRegistration
+Index:      70 HandleTableEntry:FFFFE002020FF460 Object:FFFFA78DB678AE10 Handle:     280 GrantedAccess:    2052 TypeName:EtwRegistration
+Index:      71 HandleTableEntry:FFFFE002020FF470 Object:FFFFA78DB678A710 Handle:     284 GrantedAccess:    2052 TypeName:EtwRegistration
+Index:      72 HandleTableEntry:FFFFE002020FF480 Object:FFFFE00202635EE0 Handle:     288 GrantedAccess:       1 TypeName:Key
+Index:      73 HandleTableEntry:FFFFE002020FF490 Object:FFFFA78DB59883F0 Handle:     292 GrantedAccess: 1048577 TypeName:File
+Index:      74 HandleTableEntry:FFFFE002020FF4A0 Object:FFFFE00202636BA0 Handle:     296 GrantedAccess:  131097 TypeName:Key
+Index:      75 HandleTableEntry:FFFFE002020FF4C0 Object:FFFFA78DB678BDD0 Handle:     304 GrantedAccess:    2052 TypeName:EtwRegistration
+Index:      76 HandleTableEntry:FFFFE002020FF4D0 Object:FFFFA78DB5817780 Handle:     308 GrantedAccess: 1048608 TypeName:File
+Index:      77 HandleTableEntry:FFFFE002020FF4E0 Object:FFFFA78DB4E9EDE0 Handle:     312 GrantedAccess: 1048579 TypeName:Semaphore
+Index:      78 HandleTableEntry:FFFFE002020FF4F0 Object:FFFFA78DB4E9CC60 Handle:     316 GrantedAccess: 1048579 TypeName:Semaphore
+Index:      79 HandleTableEntry:FFFFE002020FF500 Object:FFFFA78DB678BF90 Handle:     320 GrantedAccess:    2052 TypeName:EtwRegistration
+Index:      80 HandleTableEntry:FFFFE002020FF510 Object:FFFFA78DB4E9E660 Handle:     324 GrantedAccess: 2031619 TypeName:Event
+Index:      81 HandleTableEntry:FFFFE002020FF520 Object:FFFFA78DB5814A30 Handle:     328 GrantedAccess: 1048579 TypeName:File
+Index:      82 HandleTableEntry:FFFFE002020FF530 Object:FFFFA78DB678CBD0 Handle:     332 GrantedAccess:    2052 TypeName:EtwRegistration
+Index:      83 HandleTableEntry:FFFFE002020FF540 Object:FFFFA78DB678CAF0 Handle:     336 GrantedAccess:    2052 TypeName:EtwRegistration
+Index:      84 HandleTableEntry:FFFFE002020FF550 Object:FFFFA78DB678BB30 Handle:     340 GrantedAccess:    2052 TypeName:EtwRegistration
+Index:      85 HandleTableEntry:FFFFE002020FF560 Object:FFFFE00202636540 Handle:     344 GrantedAccess:       9 TypeName:Key
+Index:      86 HandleTableEntry:FFFFE002020FF5A0 Object:FFFFA78DB678D2D0 Handle:     360 GrantedAccess:    2052 TypeName:EtwRegistration
+Index:      87 HandleTableEntry:FFFFE002020FF5B0 Object:FFFFE00202628510 Handle:     364 GrantedAccess:       8 TypeName:Key
+Index:      88 HandleTableEntry:FFFFE002020FF5D0 Object:FFFFA78DB68541E0 Handle:     372 GrantedAccess: 1180054 TypeName:File
+Index:      89 HandleTableEntry:FFFFE002020FF630 Object:FFFFA78DB5986640 Handle:     396 GrantedAccess: 1180063 TypeName:File
+
+
+上面是程序输出
+下面是windbg输出
+注释：这两个操作间隔几秒，相差几个句柄。
+
+
+0: kd> !handle 0 0 1af8
+
+PROCESS ffffa78db5e320c0
+    SessionId: 2  Cid: 1af8    Peb: 75ab526000  ParentCid: 13fc
+    DirBase: 3f0e1000  ObjectTable: ffffe002024debc0  HandleCount:  87.
+    Image: cmd.exe
+
+Handle table at ffffe002024debc0 with 87 entries in use
+
+0004: Object: ffffa78db5c2c860  GrantedAccess: 001f0003 (Protected) (Inherit)
+
+0008: Object: ffffa78db5c2ca60  GrantedAccess: 001f0003 (Protected) (Inherit)
+
+000c: Object: ffffa78db5c2c5e0  GrantedAccess: 001f0003 (Protected) (Inherit)
+
+0010: Object: ffffa78db67ac680  GrantedAccess: 00000001 (Protected) (Audit)
+
+0014: Object: ffffa78db631dc40  GrantedAccess: 001f0003 (Protected)
+
+0018: Object: ffffa78db5bb5b70  GrantedAccess: 000f00ff (Audit)
+
+001c: Object: ffffa78db6168940  GrantedAccess: 00100002 (Protected)
+
+0020: Object: ffffa78db67ad2b0  GrantedAccess: 00000001
+
+0024: Object: ffffa78db6167c80  GrantedAccess: 00100002 (Protected) (Audit)
+
+0028: Object: ffffa78db67abbf0  GrantedAccess: 00000001 (Audit)
+
+002c: Object: ffffa78db631dd10  GrantedAccess: 00000804 (Inherit) (Audit)
+
+0030: Object: ffffa78db631e4f0  GrantedAccess: 00000804 (Audit)
+
+0034: Object: ffffa78db631e6b0  GrantedAccess: 00000804
+
+0038: Object: ffffa78db631f130  GrantedAccess: 00000804
+
+003c: Object: ffffa78db631f750  GrantedAccess: 00000804 (Inherit)
+
+0040: Object: ffffe001fa9ca380  GrantedAccess: 00000003 (Protected) (Audit)
+
+0044: Object: ffffa78db5c2c7e0  GrantedAccess: 001f0003 (Protected) (Inherit)
+
+0048: Object: ffffa78db5c2c760  GrantedAccess: 001f0003 (Protected) (Inherit)
+
+004c: Object: ffffa78db678cd90  GrantedAccess: 00000804 (Inherit) (Audit)
+
+0050: Object: ffffa78db59856a0  GrantedAccess: 0012019f (Protected) (Inherit) (Audit)
+
+0054: Object: ffffa78db5986640  GrantedAccess: 0012019f (Protected)
+
+0058: Object: ffffa78db4be2070  GrantedAccess: 001f0001 (Audit)
+
+005c: Object: ffffa78db0dd2550  GrantedAccess: 0012019f (Inherit)
+
+0060: Object: ffffa78db0dd1100  GrantedAccess: 0012019f (Protected) (Audit)
+
+0064: Object: ffffa78db5986640  GrantedAccess: 0012019f (Protected)
+
+0068: Object: ffffa78db67892f0  GrantedAccess: 00000804 (Audit)
+
+006c: Object: ffffa78db6789830  GrantedAccess: 00000804
+
+0070: Object: ffffa78db3206c10  GrantedAccess: 001f0001 (Inherit) (Audit)
+
+0074: Object: ffffe001fd75cc10  GrantedAccess: 0000000f (Inherit) (Audit)
+
+0078: Object: ffffa78db681e570  GrantedAccess: 001f0003 (Audit)
+
+007c: Object: ffffa78db681e610  GrantedAccess: 001f0003 (Inherit) (Audit)
+
+0080: Object: ffffa78db6789ad0  GrantedAccess: 00000804 (Inherit)
+
+0084: Object: ffffa78db6084260  GrantedAccess: 001f0003 (Protected) (Inherit)
+
+0088: Object: ffffa78db67b3360  GrantedAccess: 00000001 (Protected) (Inherit)
+
+008c: Object: ffffe00202636980  GrantedAccess: 00020019 (Protected) (Audit)
+
+0090: Object: ffffe00202636cb0  GrantedAccess: 00020019
+
+0094: Object: ffffe00202636320  GrantedAccess: 000f003f (Protected) (Inherit) (Audit)
+
+0098: Object: ffffa78db67893d0  GrantedAccess: 00000804 (Inherit)
+
+009c: Object: ffffa78db6789590  GrantedAccess: 00000804 (Inherit) (Audit)
+
+00a0: Object: ffffa78db6789740  GrantedAccess: 001f0003 (Protected)
+
+00a4: Object: ffffa78db5221af0  GrantedAccess: 000f00ff (Audit)
+
+00a8: Object: ffffa78db616fd10  GrantedAccess: 00100002 (Inherit) (Audit)
+
+00ac: Object: ffffa78db67b2590  GrantedAccess: 00000001 (Inherit) (Audit)
+
+00b0: Object: ffffa78db616ff30  GrantedAccess: 00100002
+
+00b4: Object: ffffa78db67b3910  GrantedAccess: 00000001 (Inherit) (Audit)
+
+00b8: Object: ffffe00202605c90  GrantedAccess: 00020019 (Inherit) (Audit)
+
+00bc: Object: ffffa78db33b1080  GrantedAccess: 001fffff (Protected) (Audit)
+
+00c0: Object: ffffe00202637200  GrantedAccess: 000f003f (Protected) (Audit)
+
+00c4: Object: ffffa78db5c32fe0  GrantedAccess: 001f0003 (Protected) (Inherit)
+
+00c8: Object: ffffe00202635550  GrantedAccess: 00020019 (Inherit)
+
+00cc: Object: ffffe00202635220  GrantedAccess: 00020019 (Protected) (Inherit) (Audit)
+
+00d0: Object: ffffa78db5c32260  GrantedAccess: 001f0003 (Protected) (Inherit)
+
+00d4: Object: ffffa78db6789910  GrantedAccess: 00000804 (Inherit) (Audit)
+
+00d8: Object: ffffa78db6789d70  GrantedAccess: 00000804 (Audit)
+
+00dc: Object: ffffa78db67899f0  GrantedAccess: 00000804 (Audit)
+
+00e0: Object: ffffa78db5c32c60  GrantedAccess: 001f0003 (Protected) (Inherit)
+
+00e4: Object: ffffa78db5c32ae0  GrantedAccess: 001f0003 (Protected) (Inherit)
+
+00e8: Object: ffffa78db5c329e0  GrantedAccess: 001f0003 (Protected) (Inherit)
+
+00ec: Object: ffffa78db5c322e0  GrantedAccess: 001f0003 (Protected) (Inherit)
+
+00f0: Object: ffffa78db5c32a60  GrantedAccess: 001f0003 (Protected) (Inherit)
+
+00f4: Object: ffffa78db5c32b60  GrantedAccess: 001f0003 (Protected) (Inherit)
+
+00f8: Object: ffffa78db6789c90  GrantedAccess: 00000804 (Inherit) (Audit)
+
+00fc: Object: ffffa78db678a8d0  GrantedAccess: 00000804 (Inherit)
+
+0100: Object: ffffa78db678a0f0  GrantedAccess: 00000804 (Audit)
+
+0104: Object: ffffa78db678b510  GrantedAccess: 00000804 (Inherit) (Audit)
+
+0108: Object: ffffa78db678a1d0  GrantedAccess: 00000804 (Inherit)
+
+010c: Object: ffffa78db678b190  GrantedAccess: 00000804 (Inherit) (Audit)
+
+0110: Object: ffffa78db6789e50  GrantedAccess: 00000804 (Inherit)
+
+0114: Object: ffffa78db678b430  GrantedAccess: 00000804
+
+0118: Object: ffffa78db678ae10  GrantedAccess: 00000804 (Inherit) (Audit)
+
+011c: Object: ffffa78db678a710  GrantedAccess: 00000804 (Inherit) (Audit)
+
+0120: Object: ffffe00202635ee0  GrantedAccess: 00000001 (Protected) (Inherit)
+
+0124: Object: ffffa78db59883f0  GrantedAccess: 00100001 (Audit)
+
+0128: Object: ffffe00202636ba0  GrantedAccess: 00020019 (Protected) (Inherit) (Audit)
+
+0130: Object: ffffa78db678bdd0  GrantedAccess: 00000804 (Inherit)
+
+0134: Object: ffffa78db5817780  GrantedAccess: 00100020 (Protected) (Audit)
+
+0138: Object: ffffa78db4e9ede0  GrantedAccess: 00100003 (Protected) (Inherit)
+
+013c: Object: ffffa78db4e9cc60  GrantedAccess: 00100003 (Protected) (Inherit)
+
+0140: Object: ffffa78db678bf90  GrantedAccess: 00000804 (Inherit) (Audit)
+
+0144: Object: ffffa78db4e9e660  GrantedAccess: 001f0003 (Protected) (Inherit)
+
+0148: Object: ffffa78db5814a30  GrantedAccess: 00100003
+
+014c: Object: ffffa78db678cbd0  GrantedAccess: 00000804 (Inherit)
+
+0150: Object: ffffa78db678caf0  GrantedAccess: 00000804 (Audit)
+
+0154: Object: ffffa78db678bb30  GrantedAccess: 00000804
+
+0158: Object: ffffe00202636540  GrantedAccess: 00000009 (Protected)
+
+0168: Object: ffffa78db678d2d0  GrantedAccess: 00000804 (Inherit)
+
+016c: Object: ffffe00202628510  GrantedAccess: 00000008 (Inherit) (Audit)
+
+
+0: kd> g
