@@ -180,6 +180,7 @@ Enum and Remove Hook in Windows Kernel
 73. 枚举进程的句柄表/对象表。  
 74. 枚举进程的PEB 以及 PEB中的LDR(InLoad/InMemory/InInit三种顺序)  
 75. 枚举进程的VAD  
+76. 枚举 PsLoadedModuleList  
 
 考虑添加的功能：
 * 工作线程.    尽管生命周期很短。  

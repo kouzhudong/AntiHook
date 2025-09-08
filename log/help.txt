@@ -1,4 +1,4 @@
-C:\Users\user\Desktop\bin>AntiHook.exe help
+D:\>antihook help
 made by correy
 https://github.com/kouzhudong
 Copyright (C) Correy Studio. All rights reserved.
@@ -12,148 +12,173 @@ Copyright (C) Correy Studio. All rights reserved.
 第六步看看有没有更新的版本.
 第七步是卸载.
 
-提示：这里的所有的地址(包括数字)都是十六进制的.
+提示：这里的地址(包括数字)可以是十进制也可以是十六进制，十六进制建议加上0x前缀，特别是只有十进制数的十六进制数必须加0x前缀。
 
-C:\Users\user\Desktop\bin>AntiHook.exe /?
+
+D:\>antihook.exe
 made by correy
 https://github.com/kouzhudong
 Copyright (C) Correy Studio. All rights reserved.
 
 Usage:
 
-AntiHook.exe Install
-AntiHook.exe VerifySignature
-AntiHook.exe Init
+antihook.exe Install
+antihook.exe VerifySignature
+antihook.exe Init
 
-AntiHook.exe EnumProcessNotifyRoutine
-AntiHook.exe RemoveProcessNotifyRoutine Routine
-AntiHook.exe EnumThreadNotifyRoutine
-AntiHook.exe RemoveThreadNotifyRoutine Routine
-AntiHook.exe EnumLoadImageNotifyRoutine
-AntiHook.exe RemoveLoadImageNotifyRoutine Routine
-AntiHook.exe ReadPspNotifyEnableMask
-AntiHook.exe WritePspNotifyEnableMask Mask
-AntiHook.exe EnumShutdownNotification
-AntiHook.exe UnRegisterShutdownNotification DeviceObject
-AntiHook.exe EnumContainerNotification
-AntiHook.exe UnRegisterContainerNotification CallbackRegistration
-AntiHook.exe EnumPnpNotification
-AntiHook.exe UnRegisterPnpNotification NotificationEntry
+antihook.exe EnumProcessNotifyRoutine
+antihook.exe RemoveProcessNotifyRoutine Routine
+antihook.exe EnumThreadNotifyRoutine
+antihook.exe RemoveThreadNotifyRoutine Routine
+antihook.exe EnumLoadImageNotifyRoutine
+antihook.exe RemoveLoadImageNotifyRoutine Routine
+antihook.exe ReadPspNotifyEnableMask
+antihook.exe WritePspNotifyEnableMask Mask
+antihook.exe EnumShutdownNotification
+antihook.exe UnRegisterShutdownNotification DeviceObject
+antihook.exe EnumContainerNotification
+antihook.exe UnRegisterContainerNotification CallbackRegistration
+antihook.exe EnumPnpNotification
+antihook.exe UnRegisterPnpNotification NotificationEntry
 
-AntiHook.exe EnumRegistryCallback
-AntiHook.exe RemoveRegistryCallback Cookie
-AntiHook.exe EnumObjectCallback
-AntiHook.exe RemoveObjectCallback RegistrationHandle
-AntiHook.exe EnumBugCheckCallback
-AntiHook.exe DeRegisterBugCheckCallback Callback
-AntiHook.exe DeRegisterBugCheckReasonCallback Callback
-AntiHook.exe EnumExCallback
-AntiHook.exe UnRegisterExCallback CallbackRegistration
-AntiHook.exe EnumNmiCallback
-AntiHook.exe DeRegisterNmiCallback NmiCallbackObject
-AntiHook.exe EnumPowerSettingCallback
-AntiHook.exe UnRegisterPowerSettingCallback Handle
-AntiHook.exe EnumImageVerificationCallback
-AntiHook.exe UnRegisterImageVerificationCallback CallbackHandle
+antihook.exe EnumRegistryCallback
+antihook.exe RemoveRegistryCallback Cookie
+antihook.exe EnumObjectCallback
+antihook.exe RemoveObjectCallback RegistrationHandle
+antihook.exe EnumBugCheckCallback
+antihook.exe DeRegisterBugCheckCallback Callback
+antihook.exe DeRegisterBugCheckReasonCallback Callback
+antihook.exe EnumExCallback
+antihook.exe UnRegisterExCallback CallbackRegistration
+antihook.exe EnumNmiCallback
+antihook.exe DeRegisterNmiCallback NmiCallbackObject
+antihook.exe EnumPowerSettingCallback
+antihook.exe UnRegisterPowerSettingCallback Handle
+antihook.exe EnumImageVerificationCallback
+antihook.exe UnRegisterImageVerificationCallback CallbackHandle
+antihook.exe EnumCiCallback
+antihook.exe ReadCiOptions
+antihook.exe WriteCiOptions Options
 
-AntiHook.exe EnumLogonSessionTerminatedRoutine
-AntiHook.exe UnRegisterLogonSessionTerminatedRoutine CallbackRoutine
-AntiHook.exe EnumLogonSessionTerminatedRoutineEx
-AntiHook.exe UnRegisterLogonSessionTerminatedRoutineEx CallbackRoutine Context
-AntiHook.exe EnumSiloMonitor
-AntiHook.exe UnRegisterSiloMonitor Monitor
-AntiHook.exe EnumShim
-AntiHook.exe UnRegisterShim Address
+antihook.exe EnumLogonSessionTerminatedRoutine
+antihook.exe UnRegisterLogonSessionTerminatedRoutine CallbackRoutine
+antihook.exe EnumLogonSessionTerminatedRoutineEx
+antihook.exe UnRegisterLogonSessionTerminatedRoutineEx CallbackRoutine Context
+antihook.exe EnumSiloMonitor
+antihook.exe UnRegisterSiloMonitor Monitor
+antihook.exe EnumShim
+antihook.exe UnRegisterShim Address
 
-AntiHook.exe EnumGlobalDescriptorTable
-AntiHook.exe EnumInterruptDescriptorTable
-AntiHook.exe EnumKeServiceDescriptorTable
-AntiHook.exe EnumKeServiceDescriptorTableShadow
-AntiHook.exe EnumKeServiceDescriptorTableFilter
-AntiHook.exe EnumHalDispatchTable
-AntiHook.exe EnumHalAcpiDispatchTable
-AntiHook.exe EnumHalSubComponents
-AntiHook.exe EnumHalIommuDispatchTable
-AntiHook.exe EnumHalPrivateDispatchTable
-AntiHook.exe EnumHalpRegisteredInterruptControllers
+antihook.exe EnumGlobalDescriptorTable
+antihook.exe EnumInterruptDescriptorTable
+antihook.exe EnumKeServiceDescriptorTable
+antihook.exe EnumKeServiceDescriptorTableShadow
+antihook.exe EnumKeServiceDescriptorTableFilter
+antihook.exe EnumHalDispatchTable
+antihook.exe EnumHalAcpiDispatchTable
+antihook.exe EnumHalSubComponents
+antihook.exe EnumHalIommuDispatchTable
+antihook.exe EnumHalPrivateDispatchTable
+antihook.exe EnumHalpRegisteredInterruptControllers
 
-AntiHook.exe EnumFilterDevice \Device\Name
-AntiHook.exe DetachDevice DeviceObject
-AntiHook.exe EnumFsNotifyChange
-AntiHook.exe UnRegisterFsRegistrationChange DriverObject DriverNotificationRoutine
-AntiHook.exe EnumLegacyFilter
-AntiHook.exe EnumMiniFilter
-AntiHook.exe RemoveMinifilter FilterName
-AntiHook.exe CloseServerPort ServerPortObject
-AntiHook.exe CloseClientPort FilterName
-AntiHook.exe EnumWfpCallout
-AntiHook.exe UnRegisterCallout CalloutId
+antihook.exe EnumFilterDevice \Device\Name
+antihook.exe DetachDevice DeviceObject
+antihook.exe EnumFsNotifyChange
+antihook.exe UnRegisterFsRegistrationChange DriverObject DriverNotificationRoutine
+antihook.exe EnumLegacyFilter
+antihook.exe EnumMiniFilter
+antihook.exe RemoveMinifilter FilterName
+antihook.exe CloseServerPort ServerPortObject
+antihook.exe CloseClientPort FilterName
+antihook.exe EnumWfpCallout
+antihook.exe UnRegisterCallout CalloutId
 
-AntiHook.exe EnumProtocolDriver
-AntiHook.exe EnumNdisFilterDriver
-AntiHook.exe EnumMiniPortDriver
-AntiHook.exe EnumNdisGlobalOpenList
-AntiHook.exe EnumNdisGlobalFilterList
-AntiHook.exe EnumNdisMiniporList
+antihook.exe EnumProtocolDriver
+antihook.exe EnumNdisFilterDriver
+antihook.exe EnumMiniPortDriver
+antihook.exe EnumNdisGlobalOpenList
+antihook.exe EnumNdisGlobalFilterList
+antihook.exe EnumNdisMiniporList
 
-AntiHook.exe EnumDpcTimer
-AntiHook.exe CancelDpcTimer TimerObject
-AntiHook.exe EnumIoTimer
-AntiHook.exe StopIoTimer DeviceObject
+antihook.exe EnumDpcTimer
+antihook.exe CancelDpcTimer TimerObject
+antihook.exe EnumIoTimer
+antihook.exe StopIoTimer DeviceObject
 
-AntiHook.exe EnumEtwProvider
-AntiHook.exe UnRegEtwProvider RegHandle
-AntiHook.exe EnumEtwConsumer
-AntiHook.exe DisConnectEtwConsumer EtwConsumerObject
+antihook.exe EnumEtwProvider
+antihook.exe UnRegEtwProvider RegHandle
+antihook.exe EnumEtwConsumer
+antihook.exe DisConnectEtwConsumer EtwConsumerObject
 
-AntiHook.exe EnumAlpcPort
-AntiHook.exe DisconnectAlpcPort ConnectionPortObject
-AntiHook.exe SetAlpcPortState CommunicationPortObject State
-AntiHook.exe GetAlpcpLogEnabled
-AntiHook.exe SetAlpcpLogEnabled Value
+antihook.exe EnumAlpcPort
+antihook.exe DisconnectAlpcPort ConnectionPortObject
+antihook.exe SetAlpcPortState CommunicationPortObject State
+antihook.exe GetAlpcpLogEnabled
+antihook.exe SetAlpcpLogEnabled Value
 
-AntiHook.exe ReadKernelMemory KernelAddress Length
-AntiHook.exe ReadKernelString KernelAddress
-AntiHook.exe ReadKernelStringW KernelAddress
-AntiHook.exe WriteKernelMemory BinData KernelAddress
-AntiHook.exe PhysicalAddress2NoPageKernelVirtualAddress PhysicalAddress
-AntiHook.exe NoPageKernelVirtualAddress2PhysicalAddress VirtualAddress
-AntiHook.exe EnumPhysicalMemory
-AntiHook.exe ReadPhysicalMemory PhysicalAddress Length
-AntiHook.exe WritePhysicalMemory BinData PhysicalAddress
-AntiHook.exe EnumPoolTag
-AntiHook.exe EnumBigPool
-AntiHook.exe EnumLookasideList
-AntiHook.exe EnumResourceLite
+antihook.exe ReadProcessMemory Pid UserAddress Length
+antihook.exe WriteProcessMemory Pid UserAddress BinStr
+antihook.exe ReadKernelMemory KernelAddress Length
+antihook.exe ReadKernelString KernelAddress
+antihook.exe ReadKernelStringW KernelAddress
+antihook.exe WriteKernelMemory BinData KernelAddress
+antihook.exe PhysicalAddress2NoPageKernelVirtualAddress PhysicalAddress
+antihook.exe NoPageKernelVirtualAddress2PhysicalAddress VirtualAddress
+antihook.exe EnumPhysicalMemory
+antihook.exe ReadPhysicalMemory PhysicalAddress Length
+antihook.exe WritePhysicalMemory BinData PhysicalAddress
+antihook.exe EnumPoolTag
+antihook.exe EnumBigPool
+antihook.exe EnumLookasideList
+antihook.exe EnumResourceLite
 
-AntiHook.exe SetProcessProtectionLevel Pid Level
-AntiHook.exe SetProcessSystemToken Pid
-AntiHook.exe SetHandleAccess Pid Handle Access
-AntiHook.exe InjectDll Pid DllFullPath
-AntiHook.exe RunKernelApi Module Routine Argc ...
-AntiHook.exe RunKernelShellcode BinStr
+antihook.exe EnumDriverObject
+antihook.exe EnumPsLoadedModuleList
+antihook.exe EnumUnloadedDrivers
+antihook.exe EnumPiDDBCache
 
-AntiHook.exe EnumKernelCallbackTable Pid
-AntiHook.exe EnumWindow
+antihook.exe SetProcessProtectionLevel Pid Level
+antihook.exe SetProcessSystemToken Pid
+antihook.exe SetHandleAccess Pid Handle Access
+antihook.exe InjectDll Pid DllFullPath
+antihook.exe EnumPsActiveProcessHead
+antihook.exe EnumKernelHandleTable PspCidTable/ObpKernelHandleTable/PspUniqueJobIdTable
+antihook.exe EnumProcessHandleTable Pid
+antihook.exe EnumProcessPeb Pid
+antihook.exe EnumProcessVad Pid
+antihook.exe EnumProcessModule Pid InLoad/InMemory/InInit
+antihook.exe EnumJob
 
-AntiHook.exe EnumSymbols FileFullPath
-AntiHook.exe ReadNtGlobalFlag
-AntiHook.exe WriteNtGlobalFlag Flag
-AntiHook.exe ReadNtGlobalFlag2
-AntiHook.exe WriteNtGlobalFlag2 Flag
-AntiHook.exe ReadDebuggerDataBlock
-AntiHook.exe CreateLiveKernelDump FileFullPath Flags
+antihook.exe EnumKernelCallbackTable Pid
+antihook.exe DumpSharedUserData
+antihook.exe EnumWindow
 
-AntiHook.exe EnumTypeObject
-AntiHook.exe EnumDriverObject
-AntiHook.exe EnumUnloadedDrivers
-AntiHook.exe EnumPiDDBCache
-AntiHook.exe EnumNamedPipe
-AntiHook.exe DumpSharedUserData
-AntiHook.exe EnumFirmware
-AntiHook.exe EnumSMBIOS
-AntiHook.exe EnumJob
+antihook.exe EnumSymbols FileFullPath
+antihook.exe GetSymbolsAddress FileName SymName
+antihook.exe ReadNtGlobalFlag
+antihook.exe WriteNtGlobalFlag Flag
+antihook.exe ReadNtGlobalFlag2
+antihook.exe WriteNtGlobalFlag2 Flag
+antihook.exe ReadKdDebuggerNotPresent
+antihook.exe WriteKdDebuggerNotPresent Value
+antihook.exe ReadKdDebuggerEnabled
+antihook.exe WriteKdDebuggerEnabled Value
+antihook.exe ReadDebuggerDataBlock
+antihook.exe CreateLiveKernelDump FileFullPath Flags
 
-AntiHook.exe Update
-AntiHook.exe Uninstall
-AntiHook.exe Help
+antihook.exe Disassemble X86/X64 KernelMemoryAddress Length
+antihook.exe Decompile KernelMemoryAddress Length
+antihook.exe Lua FileName Argv ...
+
+antihook.exe EnumTypeObject
+antihook.exe EnumNamedPipe
+antihook.exe EnumFirmware
+antihook.exe EnumSMBIOS
+antihook.exe RunKernelApi Module Routine Argc ...
+antihook.exe RunKernelShellcode BinStr
+
+antihook.exe Update
+antihook.exe Uninstall
+antihook.exe Help
+
+D:\>
