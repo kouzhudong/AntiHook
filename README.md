@@ -7,7 +7,7 @@ Enum and Remove Hook in Windows Kernel
 3. procexp.exe和processhacker及SystemInformer.exe有的，一般不添加。
 4. 应用层能实现的一般不添加。
 5. 不支持32位。
-6. 不支持GUI。
+6. 支持CUI和GUI程序，但是CUI比GUI的功能强，考虑把CUI和GUI合二为一个程序。  
 7. 多使用符号文件，尽量减少硬编码。
 8. 支持Windows 7 SP1(Windows Server 2008 R2)及以后的系统。  
 9. 后期考虑支持ARM64。  
