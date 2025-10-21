@@ -1,14 +1,61 @@
-Number:5
+Number:9
 
 Index:1
-MemberName:Header                        Type:4, Size:488
-MemberName:NextFilterDriver              FFFF9D07D3554AE0
-MemberName:DriverObject                  FFFF9D07D3554D50
-MemberName:FilterQueue                   FFFF9D07D5D888A0
-MemberName:FilterDriverContext           FFFFF8061D1C4720
+MemberName:Header                        Type:4, Size:526
+MemberName:NextFilterDriver              FFFF9A8C9BD6CE10
+MemberName:DriverObject                  FFFF9A8C9BEBEE20
+MemberName:FilterQueue                   0000000000000000
+MemberName:FilterDriverContext           0000000000000000
 MemberName:Lock                          unsigned __int64: 0
 MemberName:Flags                         ULong:0
-MemberName:DeviceList                    FFFF9D07D3B63C58
+MemberName:DeviceList                    FFFF9A8CA4E8EE28
+MemberName:Ref                           0000000000000000
+MemberName:DefaultFilterCharacteristics 
+  MemberName:Header                               Type:139, Size:240
+  MemberName:MajorNdisVersion                     unsigned char: 6
+  MemberName:MinorNdisVersion                     unsigned char: 83
+  MemberName:MajorDriverVersion                   unsigned char: 19
+  MemberName:MinorDriverVersion                   unsigned char: 0
+  MemberName:Flags                                ULong:0
+  MemberName:FriendlyName                         Hyper-V Virtual Switch Extension Filter
+  MemberName:UniqueName                           {529B8983-9625-49A5-8284-CE944FD8E242}
+  MemberName:ServiceName                          VMSVSF
+  MemberName:SetOptionsHandler                    FunctionAddress:FFFFF8017982E800 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+  MemberName:SetFilterModuleOptionsHandler        FunctionAddress:FFFFF8017982E800 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+  MemberName:AttachHandler                        FunctionAddress:FFFFF80179794CF0 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+  MemberName:DetachHandler                        FunctionAddress:FFFFF801797FF2A0 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+  MemberName:RestartHandler                       FunctionAddress:FFFFF80179828020 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+  MemberName:PauseHandler                         FunctionAddress:FFFFF801797949F0 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+  MemberName:SendNetBufferListsHandler            FunctionAddress:FFFFF80179742600 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+  MemberName:SendNetBufferListsCompleteHandler    FunctionAddress:FFFFF8017976F210 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+  MemberName:CancelSendNetBufferListsHandler      FunctionAddress:FFFFF8017982E970 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+  MemberName:ReceiveNetBufferListsHandler         FunctionAddress:FFFFF80179763B60 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+  MemberName:ReturnNetBufferListsHandler          FunctionAddress:FFFFF8017976F470 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+  MemberName:OidRequestHandler                    FunctionAddress:0000000000000000
+  MemberName:OidRequestCompleteHandler            FunctionAddress:0000000000000000
+  MemberName:CancelOidRequestHandler              FunctionAddress:0000000000000000
+  MemberName:DevicePnPEventNotifyHandler          FunctionAddress:0000000000000000
+  MemberName:NetPnPEventHandler                   FunctionAddress:0000000000000000
+  MemberName:StatusHandler                        FunctionAddress:0000000000000000
+  MemberName:DirectOidRequestHandler              FunctionAddress:0000000000000000
+  MemberName:DirectOidRequestCompleteHandler      FunctionAddress:0000000000000000
+  MemberName:CancelDirectOidRequestHandler        FunctionAddress:0000000000000000
+  MemberName:SynchronousOidRequestHandler         FunctionAddress:0000000000000000
+  MemberName:SynchronousOidRequestCompleteHandler FunctionAddress:0000000000000000
+MemberName:Bind                          FFFF868BA7436FB0
+MemberName:ImageName                     vmswitch.sys
+
+---------------------------------------------------------------------------------------
+
+Index:2
+MemberName:Header                        Type:4, Size:488
+MemberName:NextFilterDriver              FFFF9A8C9BD54DE0
+MemberName:DriverObject                  FFFF9A8CA00D3DF0
+MemberName:FilterQueue                   FFFF9A8CA89BEC60
+MemberName:FilterDriverContext           FFFFF8016CCA4720
+MemberName:Lock                          unsigned __int64: 0
+MemberName:Flags                         ULong:0
+MemberName:DeviceList                    FFFF9A8C9BABC8D8
 MemberName:Ref                           0000000000000000
 MemberName:DefaultFilterCharacteristics 
   MemberName:Header                               Type:139, Size:224
@@ -20,42 +67,89 @@ MemberName:DefaultFilterCharacteristics
   MemberName:FriendlyName                         QoS Packet Scheduler
   MemberName:UniqueName                           {B5F4D659-7DAA-4565-8E41-BE220ED60542}
   MemberName:ServiceName                          Psched
-  MemberName:SetOptionsHandler                    FunctionAddress:FFFFF8061D1B7090 FullPathName:\SystemRoot\System32\drivers\pacer.sys
-  MemberName:SetFilterModuleOptionsHandler        FunctionAddress:FFFFF8061D1B2750 FullPathName:\SystemRoot\System32\drivers\pacer.sys
-  MemberName:AttachHandler                        FunctionAddress:FFFFF8061D1B10C0 FullPathName:\SystemRoot\System32\drivers\pacer.sys
-  MemberName:DetachHandler                        FunctionAddress:FFFFF8061D1B15C0 FullPathName:\SystemRoot\System32\drivers\pacer.sys
-  MemberName:RestartHandler                       FunctionAddress:FFFFF8061D1C8010 FullPathName:\SystemRoot\System32\drivers\pacer.sys
-  MemberName:PauseHandler                         FunctionAddress:FFFFF8061D1B2640 FullPathName:\SystemRoot\System32\drivers\pacer.sys
+  MemberName:SetOptionsHandler                    FunctionAddress:FFFFF8016CC95F40 FullPathName:\SystemRoot\System32\drivers\pacer.sys
+  MemberName:SetFilterModuleOptionsHandler        FunctionAddress:FFFFF8016CC95E70 FullPathName:\SystemRoot\System32\drivers\pacer.sys
+  MemberName:AttachHandler                        FunctionAddress:FFFFF8016CC94CD0 FullPathName:\SystemRoot\System32\drivers\pacer.sys
+  MemberName:DetachHandler                        FunctionAddress:FFFFF8016CC953A0 FullPathName:\SystemRoot\System32\drivers\pacer.sys
+  MemberName:RestartHandler                       FunctionAddress:FFFFF8016CCA8EE0 FullPathName:\SystemRoot\System32\drivers\pacer.sys
+  MemberName:PauseHandler                         FunctionAddress:FFFFF8016CC955A0 FullPathName:\SystemRoot\System32\drivers\pacer.sys
   MemberName:SendNetBufferListsHandler            FunctionAddress:0000000000000000
   MemberName:SendNetBufferListsCompleteHandler    FunctionAddress:0000000000000000
   MemberName:CancelSendNetBufferListsHandler      FunctionAddress:0000000000000000
   MemberName:ReceiveNetBufferListsHandler         FunctionAddress:0000000000000000
   MemberName:ReturnNetBufferListsHandler          FunctionAddress:0000000000000000
-  MemberName:OidRequestHandler                    FunctionAddress:FFFFF8061D1B28E0 FullPathName:\SystemRoot\System32\drivers\pacer.sys
-  MemberName:OidRequestCompleteHandler            FunctionAddress:FFFFF8061D1B27F0 FullPathName:\SystemRoot\System32\drivers\pacer.sys
+  MemberName:OidRequestHandler                    FunctionAddress:FFFFF8016CC910C0 FullPathName:\SystemRoot\System32\drivers\pacer.sys
+  MemberName:OidRequestCompleteHandler            FunctionAddress:FFFFF8016CC91010 FullPathName:\SystemRoot\System32\drivers\pacer.sys
   MemberName:CancelOidRequestHandler              FunctionAddress:0000000000000000
-  MemberName:DevicePnPEventNotifyHandler          FunctionAddress:FFFFF8061D1C9AC0 FullPathName:\SystemRoot\System32\drivers\pacer.sys
-  MemberName:NetPnPEventHandler                   FunctionAddress:FFFFF8061D1C8A30 FullPathName:\SystemRoot\System32\drivers\pacer.sys
-  MemberName:StatusHandler                        FunctionAddress:FFFFF8061D1B1010 FullPathName:\SystemRoot\System32\drivers\pacer.sys
+  MemberName:DevicePnPEventNotifyHandler          FunctionAddress:FFFFF8016CCA8EC0 FullPathName:\SystemRoot\System32\drivers\pacer.sys
+  MemberName:NetPnPEventHandler                   FunctionAddress:FFFFF8016CCA8EA0 FullPathName:\SystemRoot\System32\drivers\pacer.sys
+  MemberName:StatusHandler                        FunctionAddress:FFFFF8016CC96020 FullPathName:\SystemRoot\System32\drivers\pacer.sys
   MemberName:DirectOidRequestHandler              FunctionAddress:0000000000000000
   MemberName:DirectOidRequestCompleteHandler      FunctionAddress:0000000000000000
   MemberName:CancelDirectOidRequestHandler        FunctionAddress:0000000000000000
   MemberName:SynchronousOidRequestHandler         FunctionAddress:0000000000000000
   MemberName:SynchronousOidRequestCompleteHandler FunctionAddress:0000000000000000
-MemberName:Bind                          FFFFD2886A048D20
+MemberName:Bind                          FFFF868BA742AFB0
 MemberName:ImageName                     pacer.sys
 
 ---------------------------------------------------------------------------------------
 
-Index:2
-MemberName:Header                        Type:4, Size:504
-MemberName:NextFilterDriver              FFFF9D07D56CD8A0
-MemberName:DriverObject                  FFFF9D07D5761DD0
+Index:3
+MemberName:Header                        Type:4, Size:538
+MemberName:NextFilterDriver              FFFF9A8C9BD4CE00
+MemberName:DriverObject                  FFFF9A8CA00B1DD0
 MemberName:FilterQueue                   0000000000000000
-MemberName:FilterDriverContext           FFFF9D07D5761DD0
+MemberName:FilterDriverContext           0000000000000000
+MemberName:Lock                          unsigned __int64: 0
+MemberName:Flags                         ULong:0
+MemberName:DeviceList                    FFFF9A8CA0049618
+MemberName:Ref                           0000000000000000
+MemberName:DefaultFilterCharacteristics 
+  MemberName:Header                               Type:139, Size:240
+  MemberName:MajorNdisVersion                     unsigned char: 6
+  MemberName:MinorNdisVersion                     unsigned char: 84
+  MemberName:MajorDriverVersion                   unsigned char: 10
+  MemberName:MinorDriverVersion                   unsigned char: 0
+  MemberName:Flags                                ULong:0
+  MemberName:FriendlyName                         Virtual Filtering Platform VMSwitch Extension
+  MemberName:UniqueName                           {F74F241B-440F-4433-BB28-00F89EAD20D8}
+  MemberName:ServiceName                          VfpExt
+  MemberName:SetOptionsHandler                    FunctionAddress:FFFFF8016CB49E10 FullPathName:\SystemRoot\system32\drivers\vfpext.sys
+  MemberName:SetFilterModuleOptionsHandler        FunctionAddress:0000000000000000
+  MemberName:AttachHandler                        FunctionAddress:FFFFF8016CB465E0 FullPathName:\SystemRoot\system32\drivers\vfpext.sys
+  MemberName:DetachHandler                        FunctionAddress:FFFFF8016CB48050 FullPathName:\SystemRoot\system32\drivers\vfpext.sys
+  MemberName:RestartHandler                       FunctionAddress:FFFFF8016CB49C80 FullPathName:\SystemRoot\system32\drivers\vfpext.sys
+  MemberName:PauseHandler                         FunctionAddress:FFFFF8016CB497A0 FullPathName:\SystemRoot\system32\drivers\vfpext.sys
+  MemberName:SendNetBufferListsHandler            FunctionAddress:FFFFF8016CAFE820 FullPathName:\SystemRoot\system32\drivers\vfpext.sys
+  MemberName:SendNetBufferListsCompleteHandler    FunctionAddress:FFFFF8016CB0E060 FullPathName:\SystemRoot\system32\drivers\vfpext.sys
+  MemberName:CancelSendNetBufferListsHandler      FunctionAddress:0000000000000000
+  MemberName:ReceiveNetBufferListsHandler         FunctionAddress:FFFFF8016CAFCC60 FullPathName:\SystemRoot\system32\drivers\vfpext.sys
+  MemberName:ReturnNetBufferListsHandler          FunctionAddress:FFFFF8016CB0DF80 FullPathName:\SystemRoot\system32\drivers\vfpext.sys
+  MemberName:OidRequestHandler                    FunctionAddress:FFFFF8016CB0F600 FullPathName:\SystemRoot\system32\drivers\vfpext.sys
+  MemberName:OidRequestCompleteHandler            FunctionAddress:FFFFF8016CB0F520 FullPathName:\SystemRoot\system32\drivers\vfpext.sys
+  MemberName:CancelOidRequestHandler              FunctionAddress:0000000000000000
+  MemberName:DevicePnPEventNotifyHandler          FunctionAddress:0000000000000000
+  MemberName:NetPnPEventHandler                   FunctionAddress:FFFFF8016CB49780 FullPathName:\SystemRoot\system32\drivers\vfpext.sys
+  MemberName:StatusHandler                        FunctionAddress:FFFFF8016CB4A190 FullPathName:\SystemRoot\system32\drivers\vfpext.sys
+  MemberName:DirectOidRequestHandler              FunctionAddress:FFFFF8016CB48150 FullPathName:\SystemRoot\system32\drivers\vfpext.sys
+  MemberName:DirectOidRequestCompleteHandler      FunctionAddress:FFFFF8016CB481E0 FullPathName:\SystemRoot\system32\drivers\vfpext.sys
+  MemberName:CancelDirectOidRequestHandler        FunctionAddress:0000000000000000
+  MemberName:SynchronousOidRequestHandler         FunctionAddress:0000000000000000
+  MemberName:SynchronousOidRequestCompleteHandler FunctionAddress:0000000000000000
+MemberName:Bind                          FFFF868BA742CFB0
+MemberName:ImageName                     vfpext.sys
+
+---------------------------------------------------------------------------------------
+
+Index:4
+MemberName:Header                        Type:4, Size:504
+MemberName:NextFilterDriver              FFFF9A8C9BD44DE0
+MemberName:DriverObject                  FFFF9A8CA008FAA0
+MemberName:FilterQueue                   0000000000000000
+MemberName:FilterDriverContext           FFFF9A8CA008FAA0
 MemberName:Lock                          unsigned __int64: 0
 MemberName:Flags                         ULong:2
-MemberName:DeviceList                    FFFF9D07D3B60C58
+MemberName:DeviceList                    FFFF9A8CA00A01F8
 MemberName:Ref                           0000000000000000
 MemberName:DefaultFilterCharacteristics 
   MemberName:Header                               Type:139, Size:224
@@ -69,40 +163,134 @@ MemberName:DefaultFilterCharacteristics
   MemberName:ServiceName                          vwififlt
   MemberName:SetOptionsHandler                    FunctionAddress:0000000000000000
   MemberName:SetFilterModuleOptionsHandler        FunctionAddress:0000000000000000
-  MemberName:AttachHandler                        FunctionAddress:FFFFF8061D192920 FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
-  MemberName:DetachHandler                        FunctionAddress:FFFFF8061D193630 FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
-  MemberName:RestartHandler                       FunctionAddress:FFFFF8061D195FF0 FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
-  MemberName:PauseHandler                         FunctionAddress:FFFFF8061D1952C0 FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
-  MemberName:SendNetBufferListsHandler            FunctionAddress:FFFFF8061D1964C0 FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
-  MemberName:SendNetBufferListsCompleteHandler    FunctionAddress:FFFFF8061D196540 FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
-  MemberName:CancelSendNetBufferListsHandler      FunctionAddress:FFFFF8061D1930D0 FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
-  MemberName:ReceiveNetBufferListsHandler         FunctionAddress:FFFFF8061D195AF0 FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
-  MemberName:ReturnNetBufferListsHandler          FunctionAddress:FFFFF8061D196270 FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
-  MemberName:OidRequestHandler                    FunctionAddress:FFFFF8061D194990 FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
-  MemberName:OidRequestCompleteHandler            FunctionAddress:FFFFF8061D194EA0 FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
-  MemberName:CancelOidRequestHandler              FunctionAddress:FFFFF8061D193030 FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
-  MemberName:DevicePnPEventNotifyHandler          FunctionAddress:FFFFF8061D193810 FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
-  MemberName:NetPnPEventHandler                   FunctionAddress:FFFFF8061D1948E0 FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
-  MemberName:StatusHandler                        FunctionAddress:FFFFF8061D197600 FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
-  MemberName:DirectOidRequestHandler              FunctionAddress:FFFFF8061D193930 FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
-  MemberName:DirectOidRequestCompleteHandler      FunctionAddress:FFFFF8061D193CA0 FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
-  MemberName:CancelDirectOidRequestHandler        FunctionAddress:FFFFF8061D192F90 FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
+  MemberName:AttachHandler                        FunctionAddress:FFFFF8016CAD2CB0 FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
+  MemberName:DetachHandler                        FunctionAddress:FFFFF8016CAD39C0 FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
+  MemberName:RestartHandler                       FunctionAddress:FFFFF8016CAD6420 FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
+  MemberName:PauseHandler                         FunctionAddress:FFFFF8016CAD56F0 FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
+  MemberName:SendNetBufferListsHandler            FunctionAddress:FFFFF8016CAD68F0 FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
+  MemberName:SendNetBufferListsCompleteHandler    FunctionAddress:FFFFF8016CAD6970 FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
+  MemberName:CancelSendNetBufferListsHandler      FunctionAddress:FFFFF8016CAD3460 FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
+  MemberName:ReceiveNetBufferListsHandler         FunctionAddress:FFFFF8016CAD5F20 FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
+  MemberName:ReturnNetBufferListsHandler          FunctionAddress:FFFFF8016CAD66A0 FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
+  MemberName:OidRequestHandler                    FunctionAddress:FFFFF8016CAD4D90 FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
+  MemberName:OidRequestCompleteHandler            FunctionAddress:FFFFF8016CAD52C0 FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
+  MemberName:CancelOidRequestHandler              FunctionAddress:FFFFF8016CAD33C0 FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
+  MemberName:DevicePnPEventNotifyHandler          FunctionAddress:FFFFF8016CAD3BA0 FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
+  MemberName:NetPnPEventHandler                   FunctionAddress:FFFFF8016CAD4CE0 FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
+  MemberName:StatusHandler                        FunctionAddress:FFFFF8016CAD7A30 FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
+  MemberName:DirectOidRequestHandler              FunctionAddress:FFFFF8016CAD3CE0 FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
+  MemberName:DirectOidRequestCompleteHandler      FunctionAddress:FFFFF8016CAD4070 FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
+  MemberName:CancelDirectOidRequestHandler        FunctionAddress:FFFFF8016CAD3320 FullPathName:\SystemRoot\System32\drivers\vwififlt.sys
   MemberName:SynchronousOidRequestHandler         FunctionAddress:0000000000000000
   MemberName:SynchronousOidRequestCompleteHandler FunctionAddress:0000000000000000
-MemberName:Bind                          FFFFD2886A049140
+MemberName:Bind                          FFFF868BA741EFB0
 MemberName:ImageName                     vwififlt.sys
 
 ---------------------------------------------------------------------------------------
 
-Index:3
-MemberName:Header                        Type:4, Size:524
-MemberName:NextFilterDriver              FFFF9D07D3CC6D00
-MemberName:DriverObject                  FFFF9D07D5696E30
+Index:5
+MemberName:Header                        Type:4, Size:540
+MemberName:NextFilterDriver              FFFF9A8C9BD34E00
+MemberName:DriverObject                  FFFF9A8CA007E700
 MemberName:FilterQueue                   0000000000000000
-MemberName:FilterDriverContext           FFFF9D07D5696E30
+MemberName:FilterDriverContext           FFFF9A8CA007E8C0
 MemberName:Lock                          unsigned __int64: 0
 MemberName:Flags                         ULong:0
-MemberName:DeviceList                    FFFF9D07D56CD8D8
+MemberName:DeviceList                    FFFF9A8C9BD44E18
+MemberName:Ref                           0000000000000000
+MemberName:DefaultFilterCharacteristics 
+  MemberName:Header                               Type:139, Size:224
+  MemberName:MajorNdisVersion                     unsigned char: 6
+  MemberName:MinorNdisVersion                     unsigned char: 50
+  MemberName:MajorDriverVersion                   unsigned char: 1
+  MemberName:MinorDriverVersion                   unsigned char: 80
+  MemberName:Flags                                ULong:0
+  MemberName:FriendlyName                         Npcap Packet Driver (NPCAP) (WiFi version)
+  MemberName:UniqueName                           {7DAF2AC8-E9F6-4765-A842-F1F5D2501351}
+  MemberName:ServiceName                          npcap_wifi
+  MemberName:SetOptionsHandler                    FunctionAddress:FFFFF8016CAB3650 FullPathName:\SystemRoot\system32\DRIVERS\npcap.sys
+  MemberName:SetFilterModuleOptionsHandler        FunctionAddress:FFFFF8016CAB3650 FullPathName:\SystemRoot\system32\DRIVERS\npcap.sys
+  MemberName:AttachHandler                        FunctionAddress:FFFFF8016CAB36F0 FullPathName:\SystemRoot\system32\DRIVERS\npcap.sys
+  MemberName:DetachHandler                        FunctionAddress:FFFFF8016CAB3C00 FullPathName:\SystemRoot\system32\DRIVERS\npcap.sys
+  MemberName:RestartHandler                       FunctionAddress:FFFFF8016CAB3A60 FullPathName:\SystemRoot\system32\DRIVERS\npcap.sys
+  MemberName:PauseHandler                         FunctionAddress:FFFFF8016CAB39D0 FullPathName:\SystemRoot\system32\DRIVERS\npcap.sys
+  MemberName:SendNetBufferListsHandler            FunctionAddress:FFFFF8016CAB67B0 FullPathName:\SystemRoot\system32\DRIVERS\npcap.sys
+  MemberName:SendNetBufferListsCompleteHandler    FunctionAddress:FFFFF8016CAB7DE0 FullPathName:\SystemRoot\system32\DRIVERS\npcap.sys
+  MemberName:CancelSendNetBufferListsHandler      FunctionAddress:FFFFF8016CAB40E0 FullPathName:\SystemRoot\system32\DRIVERS\npcap.sys
+  MemberName:ReceiveNetBufferListsHandler         FunctionAddress:FFFFF8016CAB6810 FullPathName:\SystemRoot\system32\DRIVERS\npcap.sys
+  MemberName:ReturnNetBufferListsHandler          FunctionAddress:FFFFF8016CAB40C0 FullPathName:\SystemRoot\system32\DRIVERS\npcap.sys
+  MemberName:OidRequestHandler                    FunctionAddress:FFFFF8016CAB3D80 FullPathName:\SystemRoot\system32\DRIVERS\npcap.sys
+  MemberName:OidRequestCompleteHandler            FunctionAddress:FFFFF8016CAB3F40 FullPathName:\SystemRoot\system32\DRIVERS\npcap.sys
+  MemberName:CancelOidRequestHandler              FunctionAddress:FFFFF8016CAB3EC0 FullPathName:\SystemRoot\system32\DRIVERS\npcap.sys
+  MemberName:DevicePnPEventNotifyHandler          FunctionAddress:FFFFF8016CAB40A0 FullPathName:\SystemRoot\system32\DRIVERS\npcap.sys
+  MemberName:NetPnPEventHandler                   FunctionAddress:FFFFF8016CAB40B0 FullPathName:\SystemRoot\system32\DRIVERS\npcap.sys
+  MemberName:StatusHandler                        FunctionAddress:FFFFF8016CAB4050 FullPathName:\SystemRoot\system32\DRIVERS\npcap.sys
+  MemberName:DirectOidRequestHandler              FunctionAddress:0000000000000000
+  MemberName:DirectOidRequestCompleteHandler      FunctionAddress:0000000000000000
+  MemberName:CancelDirectOidRequestHandler        FunctionAddress:0000000000000000
+  MemberName:SynchronousOidRequestHandler         FunctionAddress:0000000000000000
+  MemberName:SynchronousOidRequestCompleteHandler FunctionAddress:0000000000000000
+MemberName:Bind                          FFFF868BA7428FB0
+MemberName:ImageName                     npcap.sys
+
+---------------------------------------------------------------------------------------
+
+Index:6
+MemberName:Header                        Type:4, Size:500
+MemberName:NextFilterDriver              FFFF9A8C9BD18DF0
+MemberName:DriverObject                  FFFF9A8CA007E700
+MemberName:FilterQueue                   FFFF9A8CA89A0C60
+MemberName:FilterDriverContext           FFFF9A8CA007E8C0
+MemberName:Lock                          unsigned __int64: 0
+MemberName:Flags                         ULong:0
+MemberName:DeviceList                    FFFF9A8C9BD34E38
+MemberName:Ref                           0000000000000000
+MemberName:DefaultFilterCharacteristics 
+  MemberName:Header                               Type:139, Size:224
+  MemberName:MajorNdisVersion                     unsigned char: 6
+  MemberName:MinorNdisVersion                     unsigned char: 50
+  MemberName:MajorDriverVersion                   unsigned char: 1
+  MemberName:MinorDriverVersion                   unsigned char: 80
+  MemberName:Flags                                ULong:0
+  MemberName:FriendlyName                         Npcap Packet Driver (NPCAP)
+  MemberName:UniqueName                           {7DAF2AC8-E9F6-4765-A842-F1F5D2501341}
+  MemberName:ServiceName                          npcap
+  MemberName:SetOptionsHandler                    FunctionAddress:FFFFF8016CAB3650 FullPathName:\SystemRoot\system32\DRIVERS\npcap.sys
+  MemberName:SetFilterModuleOptionsHandler        FunctionAddress:FFFFF8016CAB3650 FullPathName:\SystemRoot\system32\DRIVERS\npcap.sys
+  MemberName:AttachHandler                        FunctionAddress:FFFFF8016CAB36F0 FullPathName:\SystemRoot\system32\DRIVERS\npcap.sys
+  MemberName:DetachHandler                        FunctionAddress:FFFFF8016CAB3C00 FullPathName:\SystemRoot\system32\DRIVERS\npcap.sys
+  MemberName:RestartHandler                       FunctionAddress:FFFFF8016CAB3A60 FullPathName:\SystemRoot\system32\DRIVERS\npcap.sys
+  MemberName:PauseHandler                         FunctionAddress:FFFFF8016CAB39D0 FullPathName:\SystemRoot\system32\DRIVERS\npcap.sys
+  MemberName:SendNetBufferListsHandler            FunctionAddress:FFFFF8016CAB67B0 FullPathName:\SystemRoot\system32\DRIVERS\npcap.sys
+  MemberName:SendNetBufferListsCompleteHandler    FunctionAddress:FFFFF8016CAB7DE0 FullPathName:\SystemRoot\system32\DRIVERS\npcap.sys
+  MemberName:CancelSendNetBufferListsHandler      FunctionAddress:FFFFF8016CAB40E0 FullPathName:\SystemRoot\system32\DRIVERS\npcap.sys
+  MemberName:ReceiveNetBufferListsHandler         FunctionAddress:FFFFF8016CAB6810 FullPathName:\SystemRoot\system32\DRIVERS\npcap.sys
+  MemberName:ReturnNetBufferListsHandler          FunctionAddress:FFFFF8016CAB40C0 FullPathName:\SystemRoot\system32\DRIVERS\npcap.sys
+  MemberName:OidRequestHandler                    FunctionAddress:FFFFF8016CAB3D80 FullPathName:\SystemRoot\system32\DRIVERS\npcap.sys
+  MemberName:OidRequestCompleteHandler            FunctionAddress:FFFFF8016CAB3F40 FullPathName:\SystemRoot\system32\DRIVERS\npcap.sys
+  MemberName:CancelOidRequestHandler              FunctionAddress:FFFFF8016CAB3EC0 FullPathName:\SystemRoot\system32\DRIVERS\npcap.sys
+  MemberName:DevicePnPEventNotifyHandler          FunctionAddress:FFFFF8016CAB40A0 FullPathName:\SystemRoot\system32\DRIVERS\npcap.sys
+  MemberName:NetPnPEventHandler                   FunctionAddress:FFFFF8016CAB40B0 FullPathName:\SystemRoot\system32\DRIVERS\npcap.sys
+  MemberName:StatusHandler                        FunctionAddress:FFFFF8016CAB4050 FullPathName:\SystemRoot\system32\DRIVERS\npcap.sys
+  MemberName:DirectOidRequestHandler              FunctionAddress:0000000000000000
+  MemberName:DirectOidRequestCompleteHandler      FunctionAddress:0000000000000000
+  MemberName:CancelDirectOidRequestHandler        FunctionAddress:0000000000000000
+  MemberName:SynchronousOidRequestHandler         FunctionAddress:0000000000000000
+  MemberName:SynchronousOidRequestCompleteHandler FunctionAddress:0000000000000000
+MemberName:Bind                          FFFF868BA7414FB0
+MemberName:ImageName                     npcap.sys
+
+---------------------------------------------------------------------------------------
+
+Index:7
+MemberName:Header                        Type:4, Size:524
+MemberName:NextFilterDriver              FFFF9A8C9BD0EDF0
+MemberName:DriverObject                  FFFF9A8C9BEAFE20
+MemberName:FilterQueue                   0000000000000000
+MemberName:FilterDriverContext           FFFF9A8C9BEAFE20
+MemberName:Lock                          unsigned __int64: 0
+MemberName:Flags                         ULong:0
+MemberName:DeviceList                    FFFF9A8C9BD18E28
 MemberName:Ref                           0000000000000000
 MemberName:DefaultFilterCharacteristics 
   MemberName:Header                               Type:139, Size:224
@@ -115,41 +303,41 @@ MemberName:DefaultFilterCharacteristics
   MemberName:UniqueName                           {E7C3B2F0-F3C5-48DF-AF2B-10FED6D72E7A}
   MemberName:ServiceName                          wfplwfs
   MemberName:SetOptionsHandler                    FunctionAddress:0000000000000000
-  MemberName:SetFilterModuleOptionsHandler        FunctionAddress:FFFFF8061A443ED0 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
-  MemberName:AttachHandler                        FunctionAddress:FFFFF8061A441F20 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
-  MemberName:DetachHandler                        FunctionAddress:FFFFF8061A442630 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
-  MemberName:RestartHandler                       FunctionAddress:FFFFF8061A443880 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
-  MemberName:PauseHandler                         FunctionAddress:FFFFF8061A432370 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+  MemberName:SetFilterModuleOptionsHandler        FunctionAddress:FFFFF80668F56060 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys SymbolName:LwfvSwitchSetFilterModuleOptions
+  MemberName:AttachHandler                        FunctionAddress:FFFFF80668F54080 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys SymbolName:LwfvSwitchAttach
+  MemberName:DetachHandler                        FunctionAddress:FFFFF80668F547A0 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys SymbolName:LwfvSwitchDetach
+  MemberName:RestartHandler                       FunctionAddress:FFFFF80668F55A10 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys SymbolName:LwfvSwitchRestart
+  MemberName:PauseHandler                         FunctionAddress:FFFFF80668F42760 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys SymbolName:LwfLowerPause
   MemberName:SendNetBufferListsHandler            FunctionAddress:0000000000000000
   MemberName:SendNetBufferListsCompleteHandler    FunctionAddress:0000000000000000
   MemberName:CancelSendNetBufferListsHandler      FunctionAddress:0000000000000000
   MemberName:ReceiveNetBufferListsHandler         FunctionAddress:0000000000000000
   MemberName:ReturnNetBufferListsHandler          FunctionAddress:0000000000000000
-  MemberName:OidRequestHandler                    FunctionAddress:FFFFF8061A4430F0 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
-  MemberName:OidRequestCompleteHandler            FunctionAddress:FFFFF8061A443270 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
-  MemberName:CancelOidRequestHandler              FunctionAddress:FFFFF8061A435CB0 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+  MemberName:OidRequestHandler                    FunctionAddress:FFFFF80668F55280 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys SymbolName:LwfvSwitchOidRequest
+  MemberName:OidRequestCompleteHandler            FunctionAddress:FFFFF80668F55400 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys SymbolName:LwfvSwitchOidRequestComplete
+  MemberName:CancelOidRequestHandler              FunctionAddress:FFFFF80668F48590 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys SymbolName:LwfLowerCancelOidRequest
   MemberName:DevicePnPEventNotifyHandler          FunctionAddress:0000000000000000
-  MemberName:NetPnPEventHandler                   FunctionAddress:FFFFF8061A4430A0 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
-  MemberName:StatusHandler                        FunctionAddress:FFFFF8061A444020 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+  MemberName:NetPnPEventHandler                   FunctionAddress:FFFFF80668F55230 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys SymbolName:LwfvSwitchNetPnPEvent
+  MemberName:StatusHandler                        FunctionAddress:FFFFF80668F561B0 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys SymbolName:LwfvSwitchStatusIndication
   MemberName:DirectOidRequestHandler              FunctionAddress:0000000000000000
   MemberName:DirectOidRequestCompleteHandler      FunctionAddress:0000000000000000
   MemberName:CancelDirectOidRequestHandler        FunctionAddress:0000000000000000
   MemberName:SynchronousOidRequestHandler         FunctionAddress:0000000000000000
   MemberName:SynchronousOidRequestCompleteHandler FunctionAddress:0000000000000000
-MemberName:Bind                          FFFFD28868E7A3E0
+MemberName:Bind                          FFFF868BA7422FB0
 MemberName:ImageName                     wfplwfs.sys
 
 ---------------------------------------------------------------------------------------
 
-Index:4
+Index:8
 MemberName:Header                        Type:4, Size:528
-MemberName:NextFilterDriver              FFFF9D07D3CC7D00
-MemberName:DriverObject                  FFFF9D07D5696E30
-MemberName:FilterQueue                   FFFF9D07D5D85AB0
-MemberName:FilterDriverContext           FFFF9D07D5696E30
+MemberName:NextFilterDriver              FFFF9A8C9BD06DF0
+MemberName:DriverObject                  FFFF9A8C9BEAFE20
+MemberName:FilterQueue                   FFFF9A8CA898AC60
+MemberName:FilterDriverContext           FFFF9A8C9BEAFE20
 MemberName:Lock                          unsigned __int64: 0
 MemberName:Flags                         ULong:2
-MemberName:DeviceList                    FFFF9D07D3CC6D38
+MemberName:DeviceList                    FFFF9A8C9BD0EE28
 MemberName:Ref                           0000000000000000
 MemberName:DefaultFilterCharacteristics 
   MemberName:Header                               Type:139, Size:224
@@ -162,41 +350,41 @@ MemberName:DefaultFilterCharacteristics
   MemberName:UniqueName                           {3BFD7820-D65C-4C1B-9FEA-983A019639EA}
   MemberName:ServiceName                          wfplwfs
   MemberName:SetOptionsHandler                    FunctionAddress:0000000000000000
-  MemberName:SetFilterModuleOptionsHandler        FunctionAddress:FFFFF8061A4321B0 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
-  MemberName:AttachHandler                        FunctionAddress:FFFFF8061A431AE0 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
-  MemberName:DetachHandler                        FunctionAddress:FFFFF8061A431FC0 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
-  MemberName:RestartHandler                       FunctionAddress:FFFFF8061A432320 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
-  MemberName:PauseHandler                         FunctionAddress:FFFFF8061A432370 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
-  MemberName:SendNetBufferListsHandler            FunctionAddress:FFFFF8061A431010 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
-  MemberName:SendNetBufferListsCompleteHandler    FunctionAddress:FFFFF8061A431710 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+  MemberName:SetFilterModuleOptionsHandler        FunctionAddress:FFFFF80668F42560 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys SymbolName:LwfLowerSetFilterModuleOptions
+  MemberName:AttachHandler                        FunctionAddress:FFFFF80668F42170 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys SymbolName:LwfLowerAttach
+  MemberName:DetachHandler                        FunctionAddress:FFFFF80668F42400 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys SymbolName:LwfLowerDetach
+  MemberName:RestartHandler                       FunctionAddress:FFFFF80668F42700 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys SymbolName:LwfLowerRestart
+  MemberName:PauseHandler                         FunctionAddress:FFFFF80668F42760 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys SymbolName:LwfLowerPause
+  MemberName:SendNetBufferListsHandler            FunctionAddress:FFFFF80668F41040 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys SymbolName:LwfLowerSendNetBufferLists
+  MemberName:SendNetBufferListsCompleteHandler    FunctionAddress:FFFFF80668F41810 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys SymbolName:LwfLowerSendNetBufferListsComplete
   MemberName:CancelSendNetBufferListsHandler      FunctionAddress:0000000000000000
-  MemberName:ReceiveNetBufferListsHandler         FunctionAddress:FFFFF8061A431190 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
-  MemberName:ReturnNetBufferListsHandler          FunctionAddress:FFFFF8061A4315F0 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
-  MemberName:OidRequestHandler                    FunctionAddress:FFFFF8061A431990 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
-  MemberName:OidRequestCompleteHandler            FunctionAddress:FFFFF8061A431830 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
-  MemberName:CancelOidRequestHandler              FunctionAddress:FFFFF8061A435CB0 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+  MemberName:ReceiveNetBufferListsHandler         FunctionAddress:FFFFF80668F411C0 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys SymbolName:LwfLowerRecvNetBufferLists
+  MemberName:ReturnNetBufferListsHandler          FunctionAddress:FFFFF80668F416E0 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys SymbolName:LwfLowerReturnNetBufferLists
+  MemberName:OidRequestHandler                    FunctionAddress:FFFFF80668F41C60 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys SymbolName:LwfLowerOidRequest
+  MemberName:OidRequestCompleteHandler            FunctionAddress:FFFFF80668F41930 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys SymbolName:LwfLowerOidRequestComplete
+  MemberName:CancelOidRequestHandler              FunctionAddress:FFFFF80668F48590 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys SymbolName:LwfLowerCancelOidRequest
   MemberName:DevicePnPEventNotifyHandler          FunctionAddress:0000000000000000
   MemberName:NetPnPEventHandler                   FunctionAddress:0000000000000000
-  MemberName:StatusHandler                        FunctionAddress:FFFFF8061A4322F0 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+  MemberName:StatusHandler                        FunctionAddress:FFFFF80668F426D0 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys SymbolName:LwfLowerStatusIndication
   MemberName:DirectOidRequestHandler              FunctionAddress:0000000000000000
   MemberName:DirectOidRequestCompleteHandler      FunctionAddress:0000000000000000
   MemberName:CancelDirectOidRequestHandler        FunctionAddress:0000000000000000
   MemberName:SynchronousOidRequestHandler         FunctionAddress:0000000000000000
   MemberName:SynchronousOidRequestCompleteHandler FunctionAddress:0000000000000000
-MemberName:Bind                          FFFFD28868E7A4A0
+MemberName:Bind                          FFFF868BA7420FB0
 MemberName:ImageName                     wfplwfs.sys
 
 ---------------------------------------------------------------------------------------
 
-Index:5
+Index:9
 MemberName:Header                        Type:4, Size:526
 MemberName:NextFilterDriver              0000000000000000
-MemberName:DriverObject                  FFFF9D07D5696E30
-MemberName:FilterQueue                   FFFF9D07D5D84010
-MemberName:FilterDriverContext           FFFF9D07D5696E30
+MemberName:DriverObject                  FFFF9A8C9BEAFE20
+MemberName:FilterQueue                   FFFF9A8CA4998C60
+MemberName:FilterDriverContext           FFFF9A8C9BEAFE20
 MemberName:Lock                          unsigned __int64: 0
 MemberName:Flags                         ULong:2
-MemberName:DeviceList                    FFFF9D07D3CC7D38
+MemberName:DeviceList                    FFFF9A8C9BD06E28
 MemberName:Ref                           0000000000000000
 MemberName:DefaultFilterCharacteristics 
   MemberName:Header                               Type:139, Size:224
@@ -209,11 +397,11 @@ MemberName:DefaultFilterCharacteristics
   MemberName:UniqueName                           {B70D6460-3635-4D42-B866-B8AB1A24454C}
   MemberName:ServiceName                          wfplwfs
   MemberName:SetOptionsHandler                    FunctionAddress:0000000000000000
-  MemberName:SetFilterModuleOptionsHandler        FunctionAddress:FFFFF8061A432250 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
-  MemberName:AttachHandler                        FunctionAddress:FFFFF8061A431CC0 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
-  MemberName:DetachHandler                        FunctionAddress:FFFFF8061A4320D0 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
-  MemberName:RestartHandler                       FunctionAddress:FFFFF8061A4323F0 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
-  MemberName:PauseHandler                         FunctionAddress:FFFFF8061A432370 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+  MemberName:SetFilterModuleOptionsHandler        FunctionAddress:FFFFF80668F42600 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys SymbolName:LwfUpperSetFilterModuleOptions
+  MemberName:AttachHandler                        FunctionAddress:FFFFF80668F41E90 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys SymbolName:LwfUpperAttach
+  MemberName:DetachHandler                        FunctionAddress:FFFFF80668F42370 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys SymbolName:LwfUpperDetach
+  MemberName:RestartHandler                       FunctionAddress:FFFFF80668F427E0 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys SymbolName:LwfUpperRestart
+  MemberName:PauseHandler                         FunctionAddress:FFFFF80668F42760 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys SymbolName:LwfLowerPause
   MemberName:SendNetBufferListsHandler            FunctionAddress:0000000000000000
   MemberName:SendNetBufferListsCompleteHandler    FunctionAddress:0000000000000000
   MemberName:CancelSendNetBufferListsHandler      FunctionAddress:0000000000000000
@@ -224,13 +412,13 @@ MemberName:DefaultFilterCharacteristics
   MemberName:CancelOidRequestHandler              FunctionAddress:0000000000000000
   MemberName:DevicePnPEventNotifyHandler          FunctionAddress:0000000000000000
   MemberName:NetPnPEventHandler                   FunctionAddress:0000000000000000
-  MemberName:StatusHandler                        FunctionAddress:FFFFF8061A4322F0 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys
+  MemberName:StatusHandler                        FunctionAddress:FFFFF80668F426A0 FullPathName:\SystemRoot\System32\drivers\wfplwfs.sys SymbolName:LwfUpperStatusIndication
   MemberName:DirectOidRequestHandler              FunctionAddress:0000000000000000
   MemberName:DirectOidRequestCompleteHandler      FunctionAddress:0000000000000000
   MemberName:CancelDirectOidRequestHandler        FunctionAddress:0000000000000000
   MemberName:SynchronousOidRequestHandler         FunctionAddress:0000000000000000
   MemberName:SynchronousOidRequestCompleteHandler FunctionAddress:0000000000000000
-MemberName:Bind                          FFFFD28868E7A380
+MemberName:Bind                          FFFF868BA741CFB0
 MemberName:ImageName                     wfplwfs.sys
 
 ---------------------------------------------------------------------------------------

@@ -1,42 +1,42 @@
-Mini Port Driver Number:2
+Mini Port Driver Number:10
 
 Index:1
 MemberName:Header                                        Type:2, Size:1184
-MemberName:NextDriver                                    FFFF9D07D5973560
-MemberName:MiniportQueue                                 FFFF9D07D5E951A0
+MemberName:NextDriver                                    FFFF9A8CA75D1AB0
+MemberName:MiniportQueue                                 FFFF9A8CA01961A0
 MemberName:MajorNdisVersion                              unsigned char: 6
 MemberName:MinorNdisVersion                              unsigned char: 30
 MemberName:Flags                                         unsigned short: 0
 MemberName:NdisDriverInfo                                0000000000000000
-MemberName:DriverObject                                  FFFF9D07D5EA3760
-MemberName:ServiceRegPath                                \REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\BthPan
-MemberName:MiniportDriverContext                         0000000000000000
+MemberName:DriverObject                                  FFFF9A8CA5B6BE30
+MemberName:ServiceRegPath                                \REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\NdisWan
+MemberName:MiniportDriverContext                         FFFFF8018705B780
 MemberName:AssociatedProtocol                            0000000000000000
-MemberName:DeviceList                                    FFFF9D07D57E19A8
+MemberName:DeviceList                                    FFFF9A8CA8302D08
 MemberName:PendingDeviceList                             0000000000000000
 MemberName:UnloadHandler                                 FunctionAddress:0000000000000000
 MemberName:MiniportDriverCharacteristics                
   MemberName:Header                        Type:138, Size:152
   MemberName:MajorNdisVersion              unsigned char: 6
   MemberName:MinorNdisVersion              unsigned char: 30
-  MemberName:MajorDriverVersion            unsigned char: 0
-  MemberName:MinorDriverVersion            unsigned char: 0
-  MemberName:Flags                         ULong:2
-  MemberName:SetOptionsHandler             FunctionAddress:0000000000000000
-  MemberName:InitializeHandlerEx           FunctionAddress:FFFFF806240D1AC0 FullPathName:\SystemRoot\System32\drivers\bthpan.sys
-  MemberName:HaltHandlerEx                 FunctionAddress:FFFFF806240D1950 FullPathName:\SystemRoot\System32\drivers\bthpan.sys
-  MemberName:UnloadHandler                 FunctionAddress:FFFFF806240D1500 FullPathName:\SystemRoot\System32\drivers\bthpan.sys
-  MemberName:PauseHandler                  FunctionAddress:FFFFF806240D21C0 FullPathName:\SystemRoot\System32\drivers\bthpan.sys
-  MemberName:RestartHandler                FunctionAddress:FFFFF806240D2BC0 FullPathName:\SystemRoot\System32\drivers\bthpan.sys
-  MemberName:OidRequestHandler             FunctionAddress:FFFFF806240D1FF0 FullPathName:\SystemRoot\System32\drivers\bthpan.sys
-  MemberName:SendNetBufferListsHandler     FunctionAddress:FFFFF806240D2DB0 FullPathName:\SystemRoot\System32\drivers\bthpan.sys
-  MemberName:ReturnNetBufferListsHandler   FunctionAddress:FFFFF806240D2D10 FullPathName:\SystemRoot\System32\drivers\bthpan.sys
-  MemberName:CancelSendHandler             FunctionAddress:FFFFF806240D1890 FullPathName:\SystemRoot\System32\drivers\bthpan.sys
+  MemberName:MajorDriverVersion            unsigned char: 1
+  MemberName:MinorDriverVersion            unsigned char: 1
+  MemberName:Flags                         ULong:0
+  MemberName:SetOptionsHandler             FunctionAddress:FFFFF80187047B20 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:MPSetOptions
+  MemberName:InitializeHandlerEx           FunctionAddress:FFFFF801870726C0 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:MPInitializeEx
+  MemberName:HaltHandlerEx                 FunctionAddress:FFFFF80187047370 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:MPHaltEx
+  MemberName:UnloadHandler                 FunctionAddress:FFFFF80187064F50 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:NdisWanUnload
+  MemberName:PauseHandler                  FunctionAddress:FFFFF80187047690 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:MPPause
+  MemberName:RestartHandler                FunctionAddress:FFFFF80187047730 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:MPRestart
+  MemberName:OidRequestHandler             FunctionAddress:FFFFF801870475E0 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:MPOidRequest
+  MemberName:SendNetBufferListsHandler     FunctionAddress:FFFFF80187047940 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:MPSendNetBufferListChain
+  MemberName:ReturnNetBufferListsHandler   FunctionAddress:FFFFF801870477E0 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:MPReturnNetBufferListChain
+  MemberName:CancelSendHandler             FunctionAddress:FFFFF801870416D0 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:BwcEtwTraceFlowConformance
   MemberName:CheckForHangHandlerEx         FunctionAddress:0000000000000000
-  MemberName:ResetHandlerEx                FunctionAddress:FFFFF806240D2B30 FullPathName:\SystemRoot\System32\drivers\bthpan.sys
-  MemberName:DevicePnPEventNotifyHandler   FunctionAddress:FFFFF806240D18A0 FullPathName:\SystemRoot\System32\drivers\bthpan.sys
-  MemberName:ShutdownHandlerEx             FunctionAddress:FFFFF806240D1890 FullPathName:\SystemRoot\System32\drivers\bthpan.sys
-  MemberName:CancelOidRequestHandler       FunctionAddress:FFFFF806240D1890 FullPathName:\SystemRoot\System32\drivers\bthpan.sys
+  MemberName:ResetHandlerEx                FunctionAddress:0000000000000000
+  MemberName:DevicePnPEventNotifyHandler   FunctionAddress:FFFFF801870416D0 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:BwcEtwTraceFlowConformance
+  MemberName:ShutdownHandlerEx             FunctionAddress:FFFFF801870416D0 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:BwcEtwTraceFlowConformance
+  MemberName:CancelOidRequestHandler       FunctionAddress:FFFFF801870416D0 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:BwcEtwTraceFlowConformance
   MemberName:DirectOidRequestHandler       FunctionAddress:0000000000000000
   MemberName:CancelDirectOidRequestHandler FunctionAddress:0000000000000000
   MemberName:SynchronousOidRequestHandler  FunctionAddress:0000000000000000
@@ -45,25 +45,25 @@ MemberName:MiniportCharacteristics
   MemberName:MajorNdisVersion         unsigned char: 138
   MemberName:MinorNdisVersion         unsigned char: 2
   MemberName:Filler                   unsigned short: 152
-  MemberName:Reserved                 unsigned int: 7686
-  MemberName:CheckForHangHandler      FunctionAddress:0000000000000002
-  MemberName:DisableInterruptHandler  FunctionAddress:0000000000000000
-  MemberName:EnableInterruptHandler   FunctionAddress:FFFFF806240D1AC0 FullPathName:\SystemRoot\System32\drivers\bthpan.sys
-  MemberName:HaltHandler              FunctionAddress:FFFFF806240D1950 FullPathName:\SystemRoot\System32\drivers\bthpan.sys
-  MemberName:HandleInterruptHandler   FunctionAddress:FFFFF806240D1500 FullPathName:\SystemRoot\System32\drivers\bthpan.sys
-  MemberName:InitializeHandler        FunctionAddress:FFFFF806240D21C0 FullPathName:\SystemRoot\System32\drivers\bthpan.sys
-  MemberName:ISRHandler               FunctionAddress:FFFFF806240D2BC0 FullPathName:\SystemRoot\System32\drivers\bthpan.sys
-  MemberName:QueryInformationHandler  FunctionAddress:FFFFF806240D1FF0 FullPathName:\SystemRoot\System32\drivers\bthpan.sys
-  MemberName:ReconfigureHandler       FunctionAddress:FFFFF806240D2DB0 FullPathName:\SystemRoot\System32\drivers\bthpan.sys
-  MemberName:ResetHandler             FunctionAddress:FFFFF806240D2D10 FullPathName:\SystemRoot\System32\drivers\bthpan.sys
-  MemberName:SendHandler              FunctionAddress:FFFFF806240D1890 FullPathName:\SystemRoot\System32\drivers\bthpan.sys
-  MemberName:WanSendHandler           FunctionAddress:FFFFF806240D1890 FullPathName:\SystemRoot\System32\drivers\bthpan.sys
+  MemberName:Reserved                 unsigned int: 16850438
+  MemberName:CheckForHangHandler      FunctionAddress:0000000000000000
+  MemberName:DisableInterruptHandler  FunctionAddress:FFFFF80187047B20 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:MPSetOptions
+  MemberName:EnableInterruptHandler   FunctionAddress:FFFFF801870726C0 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:MPInitializeEx
+  MemberName:HaltHandler              FunctionAddress:FFFFF80187047370 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:MPHaltEx
+  MemberName:HandleInterruptHandler   FunctionAddress:FFFFF80187064F50 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:NdisWanUnload
+  MemberName:InitializeHandler        FunctionAddress:FFFFF80187047690 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:MPPause
+  MemberName:ISRHandler               FunctionAddress:FFFFF80187047730 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:MPRestart
+  MemberName:QueryInformationHandler  FunctionAddress:FFFFF801870475E0 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:MPOidRequest
+  MemberName:ReconfigureHandler       FunctionAddress:FFFFF80187047940 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:MPSendNetBufferListChain
+  MemberName:ResetHandler             FunctionAddress:FFFFF801870477E0 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:MPReturnNetBufferListChain
+  MemberName:SendHandler              FunctionAddress:FFFFF801870416D0 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:BwcEtwTraceFlowConformance
+  MemberName:WanSendHandler           FunctionAddress:FFFFF801870416D0 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:BwcEtwTraceFlowConformance
   MemberName:SetInformationHandler    FunctionAddress:0000000000000000
-  MemberName:TransferDataHandler      FunctionAddress:FFFFF806240D2B30 FullPathName:\SystemRoot\System32\drivers\bthpan.sys
-  MemberName:WanTransferDataHandler   FunctionAddress:FFFFF806240D2B30 FullPathName:\SystemRoot\System32\drivers\bthpan.sys
-  MemberName:ReturnPacketHandler      FunctionAddress:FFFFF806240D18A0 FullPathName:\SystemRoot\System32\drivers\bthpan.sys
-  MemberName:SendPacketsHandler       FunctionAddress:FFFFF806240D1890 FullPathName:\SystemRoot\System32\drivers\bthpan.sys
-  MemberName:AllocateCompleteHandler  FunctionAddress:FFFFF806240D1890 FullPathName:\SystemRoot\System32\drivers\bthpan.sys
+  MemberName:TransferDataHandler      FunctionAddress:0000000000000000
+  MemberName:WanTransferDataHandler   FunctionAddress:0000000000000000
+  MemberName:ReturnPacketHandler      FunctionAddress:FFFFF801870416D0 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:BwcEtwTraceFlowConformance
+  MemberName:SendPacketsHandler       FunctionAddress:FFFFF801870416D0 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:BwcEtwTraceFlowConformance
+  MemberName:AllocateCompleteHandler  FunctionAddress:FFFFF801870416D0 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:BwcEtwTraceFlowConformance
   MemberName:CoCreateVcHandler        FunctionAddress:0000000000000000
   MemberName:CoDeleteVcHandler        FunctionAddress:0000000000000000
   MemberName:CoActivateVcHandler      FunctionAddress:0000000000000000
@@ -77,21 +77,21 @@ MemberName:MiniportCharacteristics
   MemberName:Reserved2                Void:0000000000000000
   MemberName:Reserved3                Void:0000000000000000
   MemberName:Reserved4                Void:0000000000000000
-MemberName:UnhookedCharacteristics                       俺不关心这个，暂不处理
+MemberName:UnhookedCharacteristics                       暂不处理
 MemberName:CxBlock                                       0000000000000000
-MemberName:MiniportsRemovedEvent                         俺不关心这个，暂不处理
-MemberName:Ref                                           俺不关心这个，暂不处理
-MemberName:IMStartRemoveMutex                            俺不关心这个，暂不处理
+MemberName:MiniportsRemovedEvent                         暂不处理
+MemberName:Ref                                           暂不处理
+MemberName:IMStartRemoveMutex                            暂不处理
 MemberName:IMStartRemoveMutexOwnerThread                 0000000000000000
-MemberName:DriverVersion                                 ULong:0
-MemberName:ServiceName                                   BthPan
-MemberName:CoCreateVcHandler                             FunctionAddress:0000000000000000
-MemberName:CoDeleteVcHandler                             FunctionAddress:0000000000000000
-MemberName:CoActivateVcHandler                           FunctionAddress:0000000000000000
-MemberName:CoDeactivateVcHandler                         FunctionAddress:0000000000000000
-MemberName:CoSendNetBufferListsHandler                   FunctionAddress:0000000000000000
+MemberName:DriverVersion                                 ULong:65537
+MemberName:ServiceName                                   NdisWan
+MemberName:CoCreateVcHandler                             FunctionAddress:FFFFF80187046FB0 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:MPCoCreateVc
+MemberName:CoDeleteVcHandler                             FunctionAddress:FFFFF801870470B0 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:MPCoDeleteVc
+MemberName:CoActivateVcHandler                           FunctionAddress:FFFFF80187046F30 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:MPCoActivateVc
+MemberName:CoDeactivateVcHandler                         FunctionAddress:FFFFF80187047030 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:MPCoDeactivateVc
+MemberName:CoSendNetBufferListsHandler                   FunctionAddress:FFFFF80187047130 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:MPCoSendNetBufferListChain
 MemberName:CoRequestHandler                              FunctionAddress:0000000000000000
-MemberName:CoOidRequestHandler                           FunctionAddress:0000000000000000
+MemberName:CoOidRequestHandler                           FunctionAddress:FFFFF80187041010 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:MPCoOidRequest
 MemberName:InitiateOffloadHandler                        FunctionAddress:0000000000000000
 MemberName:TerminateOffloadHandler                       FunctionAddress:0000000000000000
 MemberName:UpdateOffloadHandler                          FunctionAddress:0000000000000000
@@ -102,25 +102,25 @@ MemberName:TcpOffloadReceiveHandler                      FunctionAddress:0000000
 MemberName:TcpOffloadDisconnectHandler                   FunctionAddress:0000000000000000
 MemberName:TcpOffloadForwardHandler                      FunctionAddress:0000000000000000
 MemberName:CallMgrChars                                 
-  MemberName:Header                         俺不关心这个，暂不处理
+  MemberName:Header                         暂不处理
   MemberName:Reserved                       ULong:0
-  MemberName:CmCreateVcHandler              FunctionAddress:0000000000000000
-  MemberName:CmDeleteVcHandler              FunctionAddress:0000000000000000
-  MemberName:CmOpenAfHandler                FunctionAddress:0000000000000000
-  MemberName:CmCloseAfHandler               FunctionAddress:0000000000000000
-  MemberName:CmRegisterSapHandler           FunctionAddress:0000000000000000
-  MemberName:CmDeregisterSapHandler         FunctionAddress:0000000000000000
-  MemberName:CmMakeCallHandler              FunctionAddress:0000000000000000
-  MemberName:CmCloseCallHandler             FunctionAddress:0000000000000000
-  MemberName:CmIncomingCallCompleteHandler  FunctionAddress:0000000000000000
+  MemberName:CmCreateVcHandler              FunctionAddress:FFFFF801870625C0 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:CmCreateVc
+  MemberName:CmDeleteVcHandler              FunctionAddress:FFFFF80187062700 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:CmDeleteVc
+  MemberName:CmOpenAfHandler                FunctionAddress:FFFFF80187062D80 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:CmOpenAf
+  MemberName:CmCloseAfHandler               FunctionAddress:FFFFF80187062390 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:CmCloseAf
+  MemberName:CmRegisterSapHandler           FunctionAddress:FFFFF80187062E50 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:CmRegisterSap
+  MemberName:CmDeregisterSapHandler         FunctionAddress:FFFFF801870627A0 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:CmDeregisterSap
+  MemberName:CmMakeCallHandler              FunctionAddress:FFFFF801870628A0 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:CmMakeCall
+  MemberName:CmCloseCallHandler             FunctionAddress:FFFFF80187062420 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:CmCloseCall
+  MemberName:CmIncomingCallCompleteHandler  FunctionAddress:FFFFF80187062820 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:CmIncomingCallComplete
   MemberName:CmAddPartyHandler              FunctionAddress:0000000000000000
   MemberName:CmDropPartyHandler             FunctionAddress:0000000000000000
-  MemberName:CmActivateVcCompleteHandler    FunctionAddress:0000000000000000
-  MemberName:CmDeactivateVcCompleteHandler  FunctionAddress:0000000000000000
-  MemberName:CmModifyCallQoSHandler         FunctionAddress:0000000000000000
-  MemberName:CmOidRequestHandler            FunctionAddress:0000000000000000
-  MemberName:CmOidRequestCompleteHandler    FunctionAddress:0000000000000000
-  MemberName:CmNotifyCloseAfCompleteHandler FunctionAddress:0000000000000000
+  MemberName:CmActivateVcCompleteHandler    FunctionAddress:FFFFF80187062310 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:CmActivateVcComplete
+  MemberName:CmDeactivateVcCompleteHandler  FunctionAddress:FFFFF80187062680 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:CmDeactivateVcComplete
+  MemberName:CmModifyCallQoSHandler         FunctionAddress:FFFFF80187062BA0 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:CmModifyCallQoS
+  MemberName:CmOidRequestHandler            FunctionAddress:FFFFF80187062EF0 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:CmRequest
+  MemberName:CmOidRequestCompleteHandler    FunctionAddress:FFFFF80187049BB0 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:ProtoCoRequestComplete
+  MemberName:CmNotifyCloseAfCompleteHandler FunctionAddress:FFFFF801870416D0 FullPathName:\SystemRoot\System32\drivers\ndiswan.sys SymbolName:BwcEtwTraceFlowConformance
 MemberName:AddDeviceHandler                              FunctionAddress:0000000000000000
 MemberName:RemoveDeviceHandler                           FunctionAddress:0000000000000000
 MemberName:FilterResourceRequirementsHandler             FunctionAddress:0000000000000000
@@ -133,7 +133,7 @@ MemberName:CancelIdleNotificationHandler                 FunctionAddress:0000000
 MemberName:DevicePowerNotifyHandler                      FunctionAddress:0000000000000000
 MemberName:ReenumerateFailedAdapterHandler               FunctionAddress:0000000000000000
 MemberName:LiveDumpCallback                              FunctionAddress:0000000000000000
-MemberName:ImageName                                     bthpan.sys
+MemberName:ImageName                                     ndiswan.sys
 MemberName:HookDriverHandle                              0000000000000000
 MemberName:HookType                                      0
 MemberName:HookRegistered                                bool:0
@@ -177,70 +177,70 @@ MemberName:PDBMFreeCommonBuffer                          FunctionAddress:0000000
 
 Index:2
 MemberName:Header                                        Type:2, Size:1184
-MemberName:NextDriver                                    0000000000000000
-MemberName:MiniportQueue                                 FFFF9D07D59741A0
+MemberName:NextDriver                                    FFFF9A8CA75D0AB0
+MemberName:MiniportQueue                                 FFFF9A8CA79581A0
 MemberName:MajorNdisVersion                              unsigned char: 6
-MemberName:MinorNdisVersion                              unsigned char: 50
+MemberName:MinorNdisVersion                              unsigned char: 30
 MemberName:Flags                                         unsigned short: 0
 MemberName:NdisDriverInfo                                0000000000000000
-MemberName:DriverObject                                  FFFF9D07D596DE20
-MemberName:ServiceRegPath                                \REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\e1i68x64
+MemberName:DriverObject                                  FFFF9A8CA6C7AE30
+MemberName:ServiceRegPath                                \REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\RasPppoe
 MemberName:MiniportDriverContext                         0000000000000000
 MemberName:AssociatedProtocol                            0000000000000000
-MemberName:DeviceList                                    FFFF9D07D5AB21B8
+MemberName:DeviceList                                    FFFF9A8CA75D1B00
 MemberName:PendingDeviceList                             0000000000000000
 MemberName:UnloadHandler                                 FunctionAddress:0000000000000000
 MemberName:MiniportDriverCharacteristics                
   MemberName:Header                        Type:138, Size:152
   MemberName:MajorNdisVersion              unsigned char: 6
-  MemberName:MinorNdisVersion              unsigned char: 50
-  MemberName:MajorDriverVersion            unsigned char: 12
-  MemberName:MinorDriverVersion            unsigned char: 18
+  MemberName:MinorNdisVersion              unsigned char: 30
+  MemberName:MajorDriverVersion            unsigned char: 1
+  MemberName:MinorDriverVersion            unsigned char: 0
   MemberName:Flags                         ULong:0
-  MemberName:SetOptionsHandler             FunctionAddress:FFFFF8061F661F70 FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-  MemberName:InitializeHandlerEx           FunctionAddress:FFFFF8061F643000 FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-  MemberName:HaltHandlerEx                 FunctionAddress:FFFFF8061F6441D0 FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-  MemberName:UnloadHandler                 FunctionAddress:FFFFF8061F644CD0 FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-  MemberName:PauseHandler                  FunctionAddress:FFFFF8061F644520 FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-  MemberName:RestartHandler                FunctionAddress:FFFFF8061F644880 FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-  MemberName:OidRequestHandler             FunctionAddress:FFFFF8061F64EC80 FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-  MemberName:SendNetBufferListsHandler     FunctionAddress:FFFFF8061F6547A0 FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-  MemberName:ReturnNetBufferListsHandler   FunctionAddress:FFFFF8061F6590C0 FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-  MemberName:CancelSendHandler             FunctionAddress:FFFFF8061F64EC70 FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-  MemberName:CheckForHangHandlerEx         FunctionAddress:FFFFF8061F645160 FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-  MemberName:ResetHandlerEx                FunctionAddress:FFFFF8061F645C00 FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-  MemberName:DevicePnPEventNotifyHandler   FunctionAddress:FFFFF8061F646DA0 FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-  MemberName:ShutdownHandlerEx             FunctionAddress:FFFFF8061F6449F0 FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-  MemberName:CancelOidRequestHandler       FunctionAddress:FFFFF8061F64EC70 FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-  MemberName:DirectOidRequestHandler       FunctionAddress:FFFFF8061F64EC80 FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-  MemberName:CancelDirectOidRequestHandler FunctionAddress:FFFFF8061F64EC70 FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
+  MemberName:SetOptionsHandler             FunctionAddress:FFFFF80187001B80 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+  MemberName:InitializeHandlerEx           FunctionAddress:FFFFF8018700D8C0 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+  MemberName:HaltHandlerEx                 FunctionAddress:FFFFF80187001560 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+  MemberName:UnloadHandler                 FunctionAddress:FFFFF8018700D010 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+  MemberName:PauseHandler                  FunctionAddress:FFFFF801870019C0 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+  MemberName:RestartHandler                FunctionAddress:FFFFF80187001AA0 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+  MemberName:OidRequestHandler             FunctionAddress:0000000000000000
+  MemberName:SendNetBufferListsHandler     FunctionAddress:FFFFF801870013B0 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+  MemberName:ReturnNetBufferListsHandler   FunctionAddress:FFFFF801870114E0 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+  MemberName:CancelSendHandler             FunctionAddress:FFFFF801870013B0 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+  MemberName:CheckForHangHandlerEx         FunctionAddress:0000000000000000
+  MemberName:ResetHandlerEx                FunctionAddress:0000000000000000
+  MemberName:DevicePnPEventNotifyHandler   FunctionAddress:FFFFF801870013B0 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+  MemberName:ShutdownHandlerEx             FunctionAddress:FFFFF801870013B0 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+  MemberName:CancelOidRequestHandler       FunctionAddress:FFFFF801870013B0 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+  MemberName:DirectOidRequestHandler       FunctionAddress:0000000000000000
+  MemberName:CancelDirectOidRequestHandler FunctionAddress:0000000000000000
   MemberName:SynchronousOidRequestHandler  FunctionAddress:0000000000000000
 MemberName:MiniportCharacteristics                      
   MemberName:Ndis50Chars             
   MemberName:MajorNdisVersion         unsigned char: 138
   MemberName:MinorNdisVersion         unsigned char: 2
   MemberName:Filler                   unsigned short: 152
-  MemberName:Reserved                 unsigned int: 302789126
+  MemberName:Reserved                 unsigned int: 73222
   MemberName:CheckForHangHandler      FunctionAddress:0000000000000000
-  MemberName:DisableInterruptHandler  FunctionAddress:FFFFF8061F661F70 FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-  MemberName:EnableInterruptHandler   FunctionAddress:FFFFF8061F643000 FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-  MemberName:HaltHandler              FunctionAddress:FFFFF8061F6441D0 FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-  MemberName:HandleInterruptHandler   FunctionAddress:FFFFF8061F644CD0 FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-  MemberName:InitializeHandler        FunctionAddress:FFFFF8061F644520 FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-  MemberName:ISRHandler               FunctionAddress:FFFFF8061F644880 FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-  MemberName:QueryInformationHandler  FunctionAddress:FFFFF8061F64EC80 FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-  MemberName:ReconfigureHandler       FunctionAddress:FFFFF8061F6547A0 FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-  MemberName:ResetHandler             FunctionAddress:FFFFF8061F6590C0 FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-  MemberName:SendHandler              FunctionAddress:FFFFF8061F64EC70 FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-  MemberName:WanSendHandler           FunctionAddress:FFFFF8061F64EC70 FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-  MemberName:SetInformationHandler    FunctionAddress:FFFFF8061F645160 FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-  MemberName:TransferDataHandler      FunctionAddress:FFFFF8061F645C00 FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-  MemberName:WanTransferDataHandler   FunctionAddress:FFFFF8061F645C00 FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-  MemberName:ReturnPacketHandler      FunctionAddress:FFFFF8061F646DA0 FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-  MemberName:SendPacketsHandler       FunctionAddress:FFFFF8061F6449F0 FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-  MemberName:AllocateCompleteHandler  FunctionAddress:FFFFF8061F64EC70 FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-  MemberName:CoCreateVcHandler        FunctionAddress:FFFFF8061F64EC80 FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-  MemberName:CoDeleteVcHandler        FunctionAddress:FFFFF8061F64EC70 FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
+  MemberName:DisableInterruptHandler  FunctionAddress:FFFFF80187001B80 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+  MemberName:EnableInterruptHandler   FunctionAddress:FFFFF8018700D8C0 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+  MemberName:HaltHandler              FunctionAddress:FFFFF80187001560 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+  MemberName:HandleInterruptHandler   FunctionAddress:FFFFF8018700D010 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+  MemberName:InitializeHandler        FunctionAddress:FFFFF801870019C0 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+  MemberName:ISRHandler               FunctionAddress:FFFFF80187001AA0 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+  MemberName:QueryInformationHandler  FunctionAddress:0000000000000000
+  MemberName:ReconfigureHandler       FunctionAddress:FFFFF801870013B0 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+  MemberName:ResetHandler             FunctionAddress:FFFFF801870114E0 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+  MemberName:SendHandler              FunctionAddress:FFFFF801870013B0 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+  MemberName:WanSendHandler           FunctionAddress:FFFFF801870013B0 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+  MemberName:SetInformationHandler    FunctionAddress:0000000000000000
+  MemberName:TransferDataHandler      FunctionAddress:0000000000000000
+  MemberName:WanTransferDataHandler   FunctionAddress:0000000000000000
+  MemberName:ReturnPacketHandler      FunctionAddress:FFFFF801870013B0 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+  MemberName:SendPacketsHandler       FunctionAddress:FFFFF801870013B0 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+  MemberName:AllocateCompleteHandler  FunctionAddress:FFFFF801870013B0 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+  MemberName:CoCreateVcHandler        FunctionAddress:0000000000000000
+  MemberName:CoDeleteVcHandler        FunctionAddress:0000000000000000
   MemberName:CoActivateVcHandler      FunctionAddress:0000000000000000
   MemberName:CoDeactivateVcHandler    FunctionAddress:0000000000000000
   MemberName:CoSendPacketsHandler     FunctionAddress:0000000000000000
@@ -252,14 +252,889 @@ MemberName:MiniportCharacteristics
   MemberName:Reserved2                Void:0000000000000000
   MemberName:Reserved3                Void:0000000000000000
   MemberName:Reserved4                Void:0000000000000000
-MemberName:UnhookedCharacteristics                       俺不关心这个，暂不处理
+MemberName:UnhookedCharacteristics                       暂不处理
 MemberName:CxBlock                                       0000000000000000
-MemberName:MiniportsRemovedEvent                         俺不关心这个，暂不处理
-MemberName:Ref                                           俺不关心这个，暂不处理
-MemberName:IMStartRemoveMutex                            俺不关心这个，暂不处理
+MemberName:MiniportsRemovedEvent                         暂不处理
+MemberName:Ref                                           暂不处理
+MemberName:IMStartRemoveMutex                            暂不处理
 MemberName:IMStartRemoveMutexOwnerThread                 0000000000000000
-MemberName:DriverVersion                                 ULong:786450
-MemberName:ServiceName                                   e1i68x64
+MemberName:DriverVersion                                 ULong:65536
+MemberName:ServiceName                                   RasPppoe
+MemberName:CoCreateVcHandler                             FunctionAddress:0000000000000000
+MemberName:CoDeleteVcHandler                             FunctionAddress:0000000000000000
+MemberName:CoActivateVcHandler                           FunctionAddress:0000000000000000
+MemberName:CoDeactivateVcHandler                         FunctionAddress:0000000000000000
+MemberName:CoSendNetBufferListsHandler                   FunctionAddress:FFFFF80187010150 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+MemberName:CoRequestHandler                              FunctionAddress:0000000000000000
+MemberName:CoOidRequestHandler                           FunctionAddress:FFFFF801870013C0 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+MemberName:InitiateOffloadHandler                        FunctionAddress:0000000000000000
+MemberName:TerminateOffloadHandler                       FunctionAddress:0000000000000000
+MemberName:UpdateOffloadHandler                          FunctionAddress:0000000000000000
+MemberName:InvalidateOffloadHandler                      FunctionAddress:0000000000000000
+MemberName:QueryOffloadHandler                           FunctionAddress:0000000000000000
+MemberName:TcpOffloadSendHandler                         FunctionAddress:0000000000000000
+MemberName:TcpOffloadReceiveHandler                      FunctionAddress:0000000000000000
+MemberName:TcpOffloadDisconnectHandler                   FunctionAddress:0000000000000000
+MemberName:TcpOffloadForwardHandler                      FunctionAddress:0000000000000000
+MemberName:CallMgrChars                                 
+  MemberName:Header                         暂不处理
+  MemberName:Reserved                       ULong:0
+  MemberName:CmCreateVcHandler              FunctionAddress:FFFFF80187005F60 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+  MemberName:CmDeleteVcHandler              FunctionAddress:FFFFF80187006270 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+  MemberName:CmOpenAfHandler                FunctionAddress:FFFFF80187006740 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+  MemberName:CmCloseAfHandler               FunctionAddress:FFFFF80187005DC0 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+  MemberName:CmRegisterSapHandler           FunctionAddress:FFFFF80187006370 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+  MemberName:CmDeregisterSapHandler         FunctionAddress:FFFFF80187006370 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+  MemberName:CmMakeCallHandler              FunctionAddress:FFFFF80187006380 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+  MemberName:CmCloseCallHandler             FunctionAddress:FFFFF80187005E70 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+  MemberName:CmIncomingCallCompleteHandler  FunctionAddress:FFFFF801870186D0 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+  MemberName:CmAddPartyHandler              FunctionAddress:0000000000000000
+  MemberName:CmDropPartyHandler             FunctionAddress:0000000000000000
+  MemberName:CmActivateVcCompleteHandler    FunctionAddress:FFFFF80187018090 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+  MemberName:CmDeactivateVcCompleteHandler  FunctionAddress:FFFFF80187018620 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+  MemberName:CmModifyCallQoSHandler         FunctionAddress:FFFFF801870065B0 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+  MemberName:CmOidRequestHandler            FunctionAddress:FFFFF801870065C0 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+  MemberName:CmOidRequestCompleteHandler    FunctionAddress:FFFFF801870013B0 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+  MemberName:CmNotifyCloseAfCompleteHandler FunctionAddress:FFFFF801870013B0 FullPathName:\SystemRoot\System32\DRIVERS\raspppoe.sys
+MemberName:AddDeviceHandler                              FunctionAddress:0000000000000000
+MemberName:RemoveDeviceHandler                           FunctionAddress:0000000000000000
+MemberName:FilterResourceRequirementsHandler             FunctionAddress:0000000000000000
+MemberName:StartDeviceHandler                            FunctionAddress:0000000000000000
+MemberName:OpenNDKAdapterHandler                         FunctionAddress:0000000000000000
+MemberName:CloseNDKAdapterHandler                        FunctionAddress:0000000000000000
+MemberName:SysPowerNotifyHandler                         FunctionAddress:0000000000000000
+MemberName:IdleNotificationHandler                       FunctionAddress:0000000000000000
+MemberName:CancelIdleNotificationHandler                 FunctionAddress:0000000000000000
+MemberName:DevicePowerNotifyHandler                      FunctionAddress:0000000000000000
+MemberName:ReenumerateFailedAdapterHandler               FunctionAddress:0000000000000000
+MemberName:LiveDumpCallback                              FunctionAddress:0000000000000000
+MemberName:ImageName                                     raspppoe.sys
+MemberName:HookDriverHandle                              0000000000000000
+MemberName:HookType                                      0
+MemberName:HookRegistered                                bool:0
+MemberName:AllocateNetBufferListForwardingContextHandler FunctionAddress:0000000000000000
+MemberName:FreeNetBufferListForwardingContextHandler     FunctionAddress:0000000000000000
+MemberName:AddNetBufferListDestinationHandler            FunctionAddress:0000000000000000
+MemberName:SetNetBufferListSourceHandler                 FunctionAddress:0000000000000000
+MemberName:GrowNetBufferListDestinationsHandler          FunctionAddress:0000000000000000
+MemberName:GetNetBufferListDestinationsHandler           FunctionAddress:0000000000000000
+MemberName:UpdateNetBufferListDestinationsHandler        FunctionAddress:0000000000000000
+MemberName:CopyNetBufferListInfoHandler                  FunctionAddress:0000000000000000
+MemberName:ReferenceSwitchNicHandler                     FunctionAddress:0000000000000000
+MemberName:DereferenceSwitchNicHandler                   FunctionAddress:0000000000000000
+MemberName:ReferenceSwitchPortHandler                    FunctionAddress:0000000000000000
+MemberName:DereferenceSwitchPortHandler                  FunctionAddress:0000000000000000
+MemberName:ReportFilteredNetBufferListsHandler           FunctionAddress:0000000000000000
+MemberName:SetNetBufferListSwitchContextHandler          FunctionAddress:0000000000000000
+MemberName:GetNetBufferListSwitchContextHandler          FunctionAddress:0000000000000000
+MemberName:PDExtProviderRegisterClient                   FunctionAddress:0000000000000000
+MemberName:PDExtProviderDeregisterClient                 FunctionAddress:0000000000000000
+MemberName:PDExtProviderGetFreePDBuffer                  FunctionAddress:0000000000000000
+MemberName:PDExtProviderReturnPDBuffer                   FunctionAddress:0000000000000000
+MemberName:PDExtProviderInjectPDBuffer                   FunctionAddress:0000000000000000
+MemberName:PDExtProviderCopyPDBufferInfo                 FunctionAddress:0000000000000000
+MemberName:PDExtProviderGetPDBufferClientContext         FunctionAddress:0000000000000000
+MemberName:PDExtProviderGetPDBufferDestinations          FunctionAddress:0000000000000000
+MemberName:PDExtProviderAddPDBufferDestination           FunctionAddress:0000000000000000
+MemberName:PDExtProviderUpdatePDBufferDestinations       FunctionAddress:0000000000000000
+MemberName:PDExtProviderGetPDBufferForwardingDetail      FunctionAddress:0000000000000000
+MemberName:PDExtProviderSetupBufferFromPDBuffer          FunctionAddress:0000000000000000
+MemberName:PDExtProviderGrowPDBufferDestinations         FunctionAddress:0000000000000000
+MemberName:PDExtProviderGetSwitchInfo                    FunctionAddress:0000000000000000
+MemberName:PDBMCreateDomain                              FunctionAddress:0000000000000000
+MemberName:PDBMAddMemberToDomain                         FunctionAddress:0000000000000000
+MemberName:PDBMRemoveMemberFromDomain                    FunctionAddress:0000000000000000
+MemberName:PDBMDeleteDomain                              FunctionAddress:0000000000000000
+MemberName:PDBMAllocateCommonBuffer                      FunctionAddress:0000000000000000
+MemberName:PDBMFreeCommonBuffer                          FunctionAddress:0000000000000000
+
+---------------------------------------------------------------------------------------
+
+Index:3
+MemberName:Header                                        Type:2, Size:1184
+MemberName:NextDriver                                    FFFF9A8CA75CFAB0
+MemberName:MiniportQueue                                 FFFF9A8CA77C01A0
+MemberName:MajorNdisVersion                              unsigned char: 6
+MemberName:MinorNdisVersion                              unsigned char: 30
+MemberName:Flags                                         unsigned short: 0
+MemberName:NdisDriverInfo                                0000000000000000
+MemberName:DriverObject                                  FFFF9A8CA6E24E30
+MemberName:ServiceRegPath                                \REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\PptpMiniport
+MemberName:MiniportDriverContext                         0000000000000000
+MemberName:AssociatedProtocol                            0000000000000000
+MemberName:DeviceList                                    FFFF9A8CA75D0B00
+MemberName:PendingDeviceList                             0000000000000000
+MemberName:UnloadHandler                                 FunctionAddress:0000000000000000
+MemberName:MiniportDriverCharacteristics                
+  MemberName:Header                        Type:138, Size:152
+  MemberName:MajorNdisVersion              unsigned char: 6
+  MemberName:MinorNdisVersion              unsigned char: 30
+  MemberName:MajorDriverVersion            unsigned char: 1
+  MemberName:MinorDriverVersion            unsigned char: 0
+  MemberName:Flags                         ULong:0
+  MemberName:SetOptionsHandler             FunctionAddress:FFFFF80186FD51A0 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+  MemberName:InitializeHandlerEx           FunctionAddress:FFFFF80186FE8010 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+  MemberName:HaltHandlerEx                 FunctionAddress:FFFFF80186FD4EB0 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+  MemberName:UnloadHandler                 FunctionAddress:FFFFF80186FE66B0 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+  MemberName:PauseHandler                  FunctionAddress:FFFFF80186FD5050 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+  MemberName:RestartHandler                FunctionAddress:FFFFF80186FD50B0 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+  MemberName:OidRequestHandler             FunctionAddress:0000000000000000
+  MemberName:SendNetBufferListsHandler     FunctionAddress:FFFFF80186FD12C0 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+  MemberName:ReturnNetBufferListsHandler   FunctionAddress:FFFFF80186FE6280 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+  MemberName:CancelSendHandler             FunctionAddress:FFFFF80186FD12C0 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+  MemberName:CheckForHangHandlerEx         FunctionAddress:0000000000000000
+  MemberName:ResetHandlerEx                FunctionAddress:0000000000000000
+  MemberName:DevicePnPEventNotifyHandler   FunctionAddress:FFFFF80186FD12C0 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+  MemberName:ShutdownHandlerEx             FunctionAddress:FFFFF80186FD12C0 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+  MemberName:CancelOidRequestHandler       FunctionAddress:FFFFF80186FD12C0 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+  MemberName:DirectOidRequestHandler       FunctionAddress:0000000000000000
+  MemberName:CancelDirectOidRequestHandler FunctionAddress:0000000000000000
+  MemberName:SynchronousOidRequestHandler  FunctionAddress:0000000000000000
+MemberName:MiniportCharacteristics                      
+  MemberName:Ndis50Chars             
+  MemberName:MajorNdisVersion         unsigned char: 138
+  MemberName:MinorNdisVersion         unsigned char: 2
+  MemberName:Filler                   unsigned short: 152
+  MemberName:Reserved                 unsigned int: 73222
+  MemberName:CheckForHangHandler      FunctionAddress:0000000000000000
+  MemberName:DisableInterruptHandler  FunctionAddress:FFFFF80186FD51A0 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+  MemberName:EnableInterruptHandler   FunctionAddress:FFFFF80186FE8010 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+  MemberName:HaltHandler              FunctionAddress:FFFFF80186FD4EB0 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+  MemberName:HandleInterruptHandler   FunctionAddress:FFFFF80186FE66B0 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+  MemberName:InitializeHandler        FunctionAddress:FFFFF80186FD5050 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+  MemberName:ISRHandler               FunctionAddress:FFFFF80186FD50B0 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+  MemberName:QueryInformationHandler  FunctionAddress:0000000000000000
+  MemberName:ReconfigureHandler       FunctionAddress:FFFFF80186FD12C0 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+  MemberName:ResetHandler             FunctionAddress:FFFFF80186FE6280 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+  MemberName:SendHandler              FunctionAddress:FFFFF80186FD12C0 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+  MemberName:WanSendHandler           FunctionAddress:FFFFF80186FD12C0 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+  MemberName:SetInformationHandler    FunctionAddress:0000000000000000
+  MemberName:TransferDataHandler      FunctionAddress:0000000000000000
+  MemberName:WanTransferDataHandler   FunctionAddress:0000000000000000
+  MemberName:ReturnPacketHandler      FunctionAddress:FFFFF80186FD12C0 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+  MemberName:SendPacketsHandler       FunctionAddress:FFFFF80186FD12C0 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+  MemberName:AllocateCompleteHandler  FunctionAddress:FFFFF80186FD12C0 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+  MemberName:CoCreateVcHandler        FunctionAddress:0000000000000000
+  MemberName:CoDeleteVcHandler        FunctionAddress:0000000000000000
+  MemberName:CoActivateVcHandler      FunctionAddress:0000000000000000
+  MemberName:CoDeactivateVcHandler    FunctionAddress:0000000000000000
+  MemberName:CoSendPacketsHandler     FunctionAddress:0000000000000000
+  MemberName:CoRequestHandler         FunctionAddress:0000000000000000
+  MemberName:CancelSendPacketsHandler FunctionAddress:0000000000000000
+  MemberName:PnPEventNotifyHandler    FunctionAddress:0000000000000000
+  MemberName:AdapterShutdownHandler   FunctionAddress:0000000000000000
+  MemberName:Reserved1                Void:0000000000000000
+  MemberName:Reserved2                Void:0000000000000000
+  MemberName:Reserved3                Void:0000000000000000
+  MemberName:Reserved4                Void:0000000000000000
+MemberName:UnhookedCharacteristics                       暂不处理
+MemberName:CxBlock                                       0000000000000000
+MemberName:MiniportsRemovedEvent                         暂不处理
+MemberName:Ref                                           暂不处理
+MemberName:IMStartRemoveMutex                            暂不处理
+MemberName:IMStartRemoveMutexOwnerThread                 0000000000000000
+MemberName:DriverVersion                                 ULong:65536
+MemberName:ServiceName                                   PptpMiniport
+MemberName:CoCreateVcHandler                             FunctionAddress:0000000000000000
+MemberName:CoDeleteVcHandler                             FunctionAddress:0000000000000000
+MemberName:CoActivateVcHandler                           FunctionAddress:0000000000000000
+MemberName:CoDeactivateVcHandler                         FunctionAddress:0000000000000000
+MemberName:CoSendNetBufferListsHandler                   FunctionAddress:FFFFF80186FE6300 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+MemberName:CoRequestHandler                              FunctionAddress:0000000000000000
+MemberName:CoOidRequestHandler                           FunctionAddress:FFFFF80186FD1010 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+MemberName:InitiateOffloadHandler                        FunctionAddress:0000000000000000
+MemberName:TerminateOffloadHandler                       FunctionAddress:0000000000000000
+MemberName:UpdateOffloadHandler                          FunctionAddress:0000000000000000
+MemberName:InvalidateOffloadHandler                      FunctionAddress:0000000000000000
+MemberName:QueryOffloadHandler                           FunctionAddress:0000000000000000
+MemberName:TcpOffloadSendHandler                         FunctionAddress:0000000000000000
+MemberName:TcpOffloadReceiveHandler                      FunctionAddress:0000000000000000
+MemberName:TcpOffloadDisconnectHandler                   FunctionAddress:0000000000000000
+MemberName:TcpOffloadForwardHandler                      FunctionAddress:0000000000000000
+MemberName:CallMgrChars                                 
+  MemberName:Header                         暂不处理
+  MemberName:Reserved                       ULong:0
+  MemberName:CmCreateVcHandler              FunctionAddress:FFFFF80186FD5BB0 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+  MemberName:CmDeleteVcHandler              FunctionAddress:FFFFF80186FD5E20 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+  MemberName:CmOpenAfHandler                FunctionAddress:FFFFF80186FD6BF0 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+  MemberName:CmCloseAfHandler               FunctionAddress:FFFFF80186FD5880 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+  MemberName:CmRegisterSapHandler           FunctionAddress:FFFFF80186FD6F40 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+  MemberName:CmDeregisterSapHandler         FunctionAddress:FFFFF80186FD6040 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+  MemberName:CmMakeCallHandler              FunctionAddress:FFFFF80186FD6160 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+  MemberName:CmCloseCallHandler             FunctionAddress:FFFFF80186FD5910 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+  MemberName:CmIncomingCallCompleteHandler  FunctionAddress:FFFFF80186FE6FF0 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+  MemberName:CmAddPartyHandler              FunctionAddress:FFFFF80186FD12D0 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+  MemberName:CmDropPartyHandler             FunctionAddress:FFFFF80186FD12D0 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+  MemberName:CmActivateVcCompleteHandler    FunctionAddress:FFFFF80186FE6700 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+  MemberName:CmDeactivateVcCompleteHandler  FunctionAddress:FFFFF80186FE6E80 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+  MemberName:CmModifyCallQoSHandler         FunctionAddress:FFFFF80186FE79C0 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+  MemberName:CmOidRequestHandler            FunctionAddress:FFFFF80186FD6A90 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+  MemberName:CmOidRequestCompleteHandler    FunctionAddress:FFFFF80186FD12C0 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+  MemberName:CmNotifyCloseAfCompleteHandler FunctionAddress:FFFFF80186FD12C0 FullPathName:\SystemRoot\System32\drivers\raspptp.sys
+MemberName:AddDeviceHandler                              FunctionAddress:0000000000000000
+MemberName:RemoveDeviceHandler                           FunctionAddress:0000000000000000
+MemberName:FilterResourceRequirementsHandler             FunctionAddress:0000000000000000
+MemberName:StartDeviceHandler                            FunctionAddress:0000000000000000
+MemberName:OpenNDKAdapterHandler                         FunctionAddress:0000000000000000
+MemberName:CloseNDKAdapterHandler                        FunctionAddress:0000000000000000
+MemberName:SysPowerNotifyHandler                         FunctionAddress:0000000000000000
+MemberName:IdleNotificationHandler                       FunctionAddress:0000000000000000
+MemberName:CancelIdleNotificationHandler                 FunctionAddress:0000000000000000
+MemberName:DevicePowerNotifyHandler                      FunctionAddress:0000000000000000
+MemberName:ReenumerateFailedAdapterHandler               FunctionAddress:0000000000000000
+MemberName:LiveDumpCallback                              FunctionAddress:0000000000000000
+MemberName:ImageName                                     raspptp.sys
+MemberName:HookDriverHandle                              0000000000000000
+MemberName:HookType                                      0
+MemberName:HookRegistered                                bool:0
+MemberName:AllocateNetBufferListForwardingContextHandler FunctionAddress:0000000000000000
+MemberName:FreeNetBufferListForwardingContextHandler     FunctionAddress:0000000000000000
+MemberName:AddNetBufferListDestinationHandler            FunctionAddress:0000000000000000
+MemberName:SetNetBufferListSourceHandler                 FunctionAddress:0000000000000000
+MemberName:GrowNetBufferListDestinationsHandler          FunctionAddress:0000000000000000
+MemberName:GetNetBufferListDestinationsHandler           FunctionAddress:0000000000000000
+MemberName:UpdateNetBufferListDestinationsHandler        FunctionAddress:0000000000000000
+MemberName:CopyNetBufferListInfoHandler                  FunctionAddress:0000000000000000
+MemberName:ReferenceSwitchNicHandler                     FunctionAddress:0000000000000000
+MemberName:DereferenceSwitchNicHandler                   FunctionAddress:0000000000000000
+MemberName:ReferenceSwitchPortHandler                    FunctionAddress:0000000000000000
+MemberName:DereferenceSwitchPortHandler                  FunctionAddress:0000000000000000
+MemberName:ReportFilteredNetBufferListsHandler           FunctionAddress:0000000000000000
+MemberName:SetNetBufferListSwitchContextHandler          FunctionAddress:0000000000000000
+MemberName:GetNetBufferListSwitchContextHandler          FunctionAddress:0000000000000000
+MemberName:PDExtProviderRegisterClient                   FunctionAddress:0000000000000000
+MemberName:PDExtProviderDeregisterClient                 FunctionAddress:0000000000000000
+MemberName:PDExtProviderGetFreePDBuffer                  FunctionAddress:0000000000000000
+MemberName:PDExtProviderReturnPDBuffer                   FunctionAddress:0000000000000000
+MemberName:PDExtProviderInjectPDBuffer                   FunctionAddress:0000000000000000
+MemberName:PDExtProviderCopyPDBufferInfo                 FunctionAddress:0000000000000000
+MemberName:PDExtProviderGetPDBufferClientContext         FunctionAddress:0000000000000000
+MemberName:PDExtProviderGetPDBufferDestinations          FunctionAddress:0000000000000000
+MemberName:PDExtProviderAddPDBufferDestination           FunctionAddress:0000000000000000
+MemberName:PDExtProviderUpdatePDBufferDestinations       FunctionAddress:0000000000000000
+MemberName:PDExtProviderGetPDBufferForwardingDetail      FunctionAddress:0000000000000000
+MemberName:PDExtProviderSetupBufferFromPDBuffer          FunctionAddress:0000000000000000
+MemberName:PDExtProviderGrowPDBufferDestinations         FunctionAddress:0000000000000000
+MemberName:PDExtProviderGetSwitchInfo                    FunctionAddress:0000000000000000
+MemberName:PDBMCreateDomain                              FunctionAddress:0000000000000000
+MemberName:PDBMAddMemberToDomain                         FunctionAddress:0000000000000000
+MemberName:PDBMRemoveMemberFromDomain                    FunctionAddress:0000000000000000
+MemberName:PDBMDeleteDomain                              FunctionAddress:0000000000000000
+MemberName:PDBMAllocateCommonBuffer                      FunctionAddress:0000000000000000
+MemberName:PDBMFreeCommonBuffer                          FunctionAddress:0000000000000000
+
+---------------------------------------------------------------------------------------
+
+Index:4
+MemberName:Header                                        Type:2, Size:1184
+MemberName:NextDriver                                    FFFF9A8CA75CEAB0
+MemberName:MiniportQueue                                 FFFF9A8CA758B1A0
+MemberName:MajorNdisVersion                              unsigned char: 6
+MemberName:MinorNdisVersion                              unsigned char: 30
+MemberName:Flags                                         unsigned short: 0
+MemberName:NdisDriverInfo                                0000000000000000
+MemberName:DriverObject                                  FFFF9A8CA5941E30
+MemberName:ServiceRegPath                                \REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\Rasl2tp
+MemberName:MiniportDriverContext                         0000000000000000
+MemberName:AssociatedProtocol                            0000000000000000
+MemberName:DeviceList                                    FFFF9A8CA75CFB00
+MemberName:PendingDeviceList                             0000000000000000
+MemberName:UnloadHandler                                 FunctionAddress:0000000000000000
+MemberName:MiniportDriverCharacteristics                
+  MemberName:Header                        Type:138, Size:152
+  MemberName:MajorNdisVersion              unsigned char: 6
+  MemberName:MinorNdisVersion              unsigned char: 30
+  MemberName:MajorDriverVersion            unsigned char: 1
+  MemberName:MinorDriverVersion            unsigned char: 0
+  MemberName:Flags                         ULong:0
+  MemberName:SetOptionsHandler             FunctionAddress:FFFFF80186FA40F0 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+  MemberName:InitializeHandlerEx           FunctionAddress:FFFFF80186FBA850 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+  MemberName:HaltHandlerEx                 FunctionAddress:FFFFF80186FBA750 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+  MemberName:UnloadHandler                 FunctionAddress:FFFFF80186FB9330 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+  MemberName:PauseHandler                  FunctionAddress:FFFFF80186FA3F20 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+  MemberName:RestartHandler                FunctionAddress:FFFFF80186FA4000 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+  MemberName:OidRequestHandler             FunctionAddress:0000000000000000
+  MemberName:SendNetBufferListsHandler     FunctionAddress:FFFFF80186FA1010 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+  MemberName:ReturnNetBufferListsHandler   FunctionAddress:FFFFF80186FAF8A0 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+  MemberName:CancelSendHandler             FunctionAddress:FFFFF80186FA1010 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+  MemberName:CheckForHangHandlerEx         FunctionAddress:0000000000000000
+  MemberName:ResetHandlerEx                FunctionAddress:0000000000000000
+  MemberName:DevicePnPEventNotifyHandler   FunctionAddress:FFFFF80186FA1010 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+  MemberName:ShutdownHandlerEx             FunctionAddress:FFFFF80186FA1010 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+  MemberName:CancelOidRequestHandler       FunctionAddress:FFFFF80186FA1010 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+  MemberName:DirectOidRequestHandler       FunctionAddress:0000000000000000
+  MemberName:CancelDirectOidRequestHandler FunctionAddress:0000000000000000
+  MemberName:SynchronousOidRequestHandler  FunctionAddress:0000000000000000
+MemberName:MiniportCharacteristics                      
+  MemberName:Ndis50Chars             
+  MemberName:MajorNdisVersion         unsigned char: 138
+  MemberName:MinorNdisVersion         unsigned char: 2
+  MemberName:Filler                   unsigned short: 152
+  MemberName:Reserved                 unsigned int: 73222
+  MemberName:CheckForHangHandler      FunctionAddress:0000000000000000
+  MemberName:DisableInterruptHandler  FunctionAddress:FFFFF80186FA40F0 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+  MemberName:EnableInterruptHandler   FunctionAddress:FFFFF80186FBA850 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+  MemberName:HaltHandler              FunctionAddress:FFFFF80186FBA750 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+  MemberName:HandleInterruptHandler   FunctionAddress:FFFFF80186FB9330 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+  MemberName:InitializeHandler        FunctionAddress:FFFFF80186FA3F20 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+  MemberName:ISRHandler               FunctionAddress:FFFFF80186FA4000 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+  MemberName:QueryInformationHandler  FunctionAddress:0000000000000000
+  MemberName:ReconfigureHandler       FunctionAddress:FFFFF80186FA1010 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+  MemberName:ResetHandler             FunctionAddress:FFFFF80186FAF8A0 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+  MemberName:SendHandler              FunctionAddress:FFFFF80186FA1010 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+  MemberName:WanSendHandler           FunctionAddress:FFFFF80186FA1010 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+  MemberName:SetInformationHandler    FunctionAddress:0000000000000000
+  MemberName:TransferDataHandler      FunctionAddress:0000000000000000
+  MemberName:WanTransferDataHandler   FunctionAddress:0000000000000000
+  MemberName:ReturnPacketHandler      FunctionAddress:FFFFF80186FA1010 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+  MemberName:SendPacketsHandler       FunctionAddress:FFFFF80186FA1010 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+  MemberName:AllocateCompleteHandler  FunctionAddress:FFFFF80186FA1010 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+  MemberName:CoCreateVcHandler        FunctionAddress:0000000000000000
+  MemberName:CoDeleteVcHandler        FunctionAddress:0000000000000000
+  MemberName:CoActivateVcHandler      FunctionAddress:0000000000000000
+  MemberName:CoDeactivateVcHandler    FunctionAddress:0000000000000000
+  MemberName:CoSendPacketsHandler     FunctionAddress:0000000000000000
+  MemberName:CoRequestHandler         FunctionAddress:0000000000000000
+  MemberName:CancelSendPacketsHandler FunctionAddress:0000000000000000
+  MemberName:PnPEventNotifyHandler    FunctionAddress:0000000000000000
+  MemberName:AdapterShutdownHandler   FunctionAddress:0000000000000000
+  MemberName:Reserved1                Void:0000000000000000
+  MemberName:Reserved2                Void:0000000000000000
+  MemberName:Reserved3                Void:0000000000000000
+  MemberName:Reserved4                Void:0000000000000000
+MemberName:UnhookedCharacteristics                       暂不处理
+MemberName:CxBlock                                       0000000000000000
+MemberName:MiniportsRemovedEvent                         暂不处理
+MemberName:Ref                                           暂不处理
+MemberName:IMStartRemoveMutex                            暂不处理
+MemberName:IMStartRemoveMutexOwnerThread                 0000000000000000
+MemberName:DriverVersion                                 ULong:65536
+MemberName:ServiceName                                   Rasl2tp
+MemberName:CoCreateVcHandler                             FunctionAddress:0000000000000000
+MemberName:CoDeleteVcHandler                             FunctionAddress:0000000000000000
+MemberName:CoActivateVcHandler                           FunctionAddress:0000000000000000
+MemberName:CoDeactivateVcHandler                         FunctionAddress:0000000000000000
+MemberName:CoSendNetBufferListsHandler                   FunctionAddress:FFFFF80186FAF6C0 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+MemberName:CoRequestHandler                              FunctionAddress:0000000000000000
+MemberName:CoOidRequestHandler                           FunctionAddress:FFFFF80186FA1020 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+MemberName:InitiateOffloadHandler                        FunctionAddress:0000000000000000
+MemberName:TerminateOffloadHandler                       FunctionAddress:0000000000000000
+MemberName:UpdateOffloadHandler                          FunctionAddress:0000000000000000
+MemberName:InvalidateOffloadHandler                      FunctionAddress:0000000000000000
+MemberName:QueryOffloadHandler                           FunctionAddress:0000000000000000
+MemberName:TcpOffloadSendHandler                         FunctionAddress:0000000000000000
+MemberName:TcpOffloadReceiveHandler                      FunctionAddress:0000000000000000
+MemberName:TcpOffloadDisconnectHandler                   FunctionAddress:0000000000000000
+MemberName:TcpOffloadForwardHandler                      FunctionAddress:0000000000000000
+MemberName:CallMgrChars                                 
+  MemberName:Header                         暂不处理
+  MemberName:Reserved                       ULong:0
+  MemberName:CmCreateVcHandler              FunctionAddress:FFFFF80186FA2320 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+  MemberName:CmDeleteVcHandler              FunctionAddress:FFFFF80186FA2550 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+  MemberName:CmOpenAfHandler                FunctionAddress:FFFFF80186FA30E0 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+  MemberName:CmCloseAfHandler               FunctionAddress:FFFFF80186FA2160 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+  MemberName:CmRegisterSapHandler           FunctionAddress:FFFFF80186FA3140 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+  MemberName:CmDeregisterSapHandler         FunctionAddress:FFFFF80186FA2670 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+  MemberName:CmMakeCallHandler              FunctionAddress:FFFFF80186FA2740 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+  MemberName:CmCloseCallHandler             FunctionAddress:FFFFF80186FA2190 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+  MemberName:CmIncomingCallCompleteHandler  FunctionAddress:FFFFF80186FAC3D0 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+  MemberName:CmAddPartyHandler              FunctionAddress:0000000000000000
+  MemberName:CmDropPartyHandler             FunctionAddress:0000000000000000
+  MemberName:CmActivateVcCompleteHandler    FunctionAddress:FFFFF80186FAB010 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+  MemberName:CmDeactivateVcCompleteHandler  FunctionAddress:FFFFF80186FAB010 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+  MemberName:CmModifyCallQoSHandler         FunctionAddress:FFFFF80186FAB020 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+  MemberName:CmOidRequestHandler            FunctionAddress:FFFFF80186FA3060 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+  MemberName:CmOidRequestCompleteHandler    FunctionAddress:FFFFF80186FA1010 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+  MemberName:CmNotifyCloseAfCompleteHandler FunctionAddress:FFFFF80186FA1010 FullPathName:\SystemRoot\System32\drivers\rasl2tp.sys
+MemberName:AddDeviceHandler                              FunctionAddress:0000000000000000
+MemberName:RemoveDeviceHandler                           FunctionAddress:0000000000000000
+MemberName:FilterResourceRequirementsHandler             FunctionAddress:0000000000000000
+MemberName:StartDeviceHandler                            FunctionAddress:0000000000000000
+MemberName:OpenNDKAdapterHandler                         FunctionAddress:0000000000000000
+MemberName:CloseNDKAdapterHandler                        FunctionAddress:0000000000000000
+MemberName:SysPowerNotifyHandler                         FunctionAddress:0000000000000000
+MemberName:IdleNotificationHandler                       FunctionAddress:0000000000000000
+MemberName:CancelIdleNotificationHandler                 FunctionAddress:0000000000000000
+MemberName:DevicePowerNotifyHandler                      FunctionAddress:0000000000000000
+MemberName:ReenumerateFailedAdapterHandler               FunctionAddress:0000000000000000
+MemberName:LiveDumpCallback                              FunctionAddress:0000000000000000
+MemberName:ImageName                                     rasl2tp.sys
+MemberName:HookDriverHandle                              0000000000000000
+MemberName:HookType                                      0
+MemberName:HookRegistered                                bool:0
+MemberName:AllocateNetBufferListForwardingContextHandler FunctionAddress:0000000000000000
+MemberName:FreeNetBufferListForwardingContextHandler     FunctionAddress:0000000000000000
+MemberName:AddNetBufferListDestinationHandler            FunctionAddress:0000000000000000
+MemberName:SetNetBufferListSourceHandler                 FunctionAddress:0000000000000000
+MemberName:GrowNetBufferListDestinationsHandler          FunctionAddress:0000000000000000
+MemberName:GetNetBufferListDestinationsHandler           FunctionAddress:0000000000000000
+MemberName:UpdateNetBufferListDestinationsHandler        FunctionAddress:0000000000000000
+MemberName:CopyNetBufferListInfoHandler                  FunctionAddress:0000000000000000
+MemberName:ReferenceSwitchNicHandler                     FunctionAddress:0000000000000000
+MemberName:DereferenceSwitchNicHandler                   FunctionAddress:0000000000000000
+MemberName:ReferenceSwitchPortHandler                    FunctionAddress:0000000000000000
+MemberName:DereferenceSwitchPortHandler                  FunctionAddress:0000000000000000
+MemberName:ReportFilteredNetBufferListsHandler           FunctionAddress:0000000000000000
+MemberName:SetNetBufferListSwitchContextHandler          FunctionAddress:0000000000000000
+MemberName:GetNetBufferListSwitchContextHandler          FunctionAddress:0000000000000000
+MemberName:PDExtProviderRegisterClient                   FunctionAddress:0000000000000000
+MemberName:PDExtProviderDeregisterClient                 FunctionAddress:0000000000000000
+MemberName:PDExtProviderGetFreePDBuffer                  FunctionAddress:0000000000000000
+MemberName:PDExtProviderReturnPDBuffer                   FunctionAddress:0000000000000000
+MemberName:PDExtProviderInjectPDBuffer                   FunctionAddress:0000000000000000
+MemberName:PDExtProviderCopyPDBufferInfo                 FunctionAddress:0000000000000000
+MemberName:PDExtProviderGetPDBufferClientContext         FunctionAddress:0000000000000000
+MemberName:PDExtProviderGetPDBufferDestinations          FunctionAddress:0000000000000000
+MemberName:PDExtProviderAddPDBufferDestination           FunctionAddress:0000000000000000
+MemberName:PDExtProviderUpdatePDBufferDestinations       FunctionAddress:0000000000000000
+MemberName:PDExtProviderGetPDBufferForwardingDetail      FunctionAddress:0000000000000000
+MemberName:PDExtProviderSetupBufferFromPDBuffer          FunctionAddress:0000000000000000
+MemberName:PDExtProviderGrowPDBufferDestinations         FunctionAddress:0000000000000000
+MemberName:PDExtProviderGetSwitchInfo                    FunctionAddress:0000000000000000
+MemberName:PDBMCreateDomain                              FunctionAddress:0000000000000000
+MemberName:PDBMAddMemberToDomain                         FunctionAddress:0000000000000000
+MemberName:PDBMRemoveMemberFromDomain                    FunctionAddress:0000000000000000
+MemberName:PDBMDeleteDomain                              FunctionAddress:0000000000000000
+MemberName:PDBMAllocateCommonBuffer                      FunctionAddress:0000000000000000
+MemberName:PDBMFreeCommonBuffer                          FunctionAddress:0000000000000000
+
+---------------------------------------------------------------------------------------
+
+Index:5
+MemberName:Header                                        Type:2, Size:1184
+MemberName:NextDriver                                    FFFF9A8CA69AFA50
+MemberName:MiniportQueue                                 FFFF9A8CA720F1A0
+MemberName:MajorNdisVersion                              unsigned char: 6
+MemberName:MinorNdisVersion                              unsigned char: 30
+MemberName:Flags                                         unsigned short: 0
+MemberName:NdisDriverInfo                                0000000000000000
+MemberName:DriverObject                                  FFFF9A8CA79C4E30
+MemberName:ServiceRegPath                                \REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\RasAgileVpn
+MemberName:MiniportDriverContext                         FFFFF80186F81588
+MemberName:AssociatedProtocol                            0000000000000000
+MemberName:DeviceList                                    FFFF9A8CA6D31D58
+MemberName:PendingDeviceList                             0000000000000000
+MemberName:UnloadHandler                                 FunctionAddress:0000000000000000
+MemberName:MiniportDriverCharacteristics                
+  MemberName:Header                        Type:138, Size:152
+  MemberName:MajorNdisVersion              unsigned char: 6
+  MemberName:MinorNdisVersion              unsigned char: 30
+  MemberName:MajorDriverVersion            unsigned char: 1
+  MemberName:MinorDriverVersion            unsigned char: 0
+  MemberName:Flags                         ULong:0
+  MemberName:SetOptionsHandler             FunctionAddress:FFFFF80186F8AF80 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+  MemberName:InitializeHandlerEx           FunctionAddress:FFFFF80186F8AD20 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+  MemberName:HaltHandlerEx                 FunctionAddress:FFFFF80186F729B0 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+  MemberName:UnloadHandler                 FunctionAddress:FFFFF80186F8A340 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+  MemberName:PauseHandler                  FunctionAddress:FFFFF80186F72A70 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+  MemberName:RestartHandler                FunctionAddress:FFFFF80186F72B10 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+  MemberName:OidRequestHandler             FunctionAddress:0000000000000000
+  MemberName:SendNetBufferListsHandler     FunctionAddress:FFFFF80186F8CB20 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+  MemberName:ReturnNetBufferListsHandler   FunctionAddress:FFFFF80186F8CD10 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+  MemberName:CancelSendHandler             FunctionAddress:FFFFF80186F8CB20 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+  MemberName:CheckForHangHandlerEx         FunctionAddress:0000000000000000
+  MemberName:ResetHandlerEx                FunctionAddress:0000000000000000
+  MemberName:DevicePnPEventNotifyHandler   FunctionAddress:FFFFF80186F8A330 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+  MemberName:ShutdownHandlerEx             FunctionAddress:FFFFF80186F71480 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+  MemberName:CancelOidRequestHandler       FunctionAddress:FFFFF80186F71480 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+  MemberName:DirectOidRequestHandler       FunctionAddress:0000000000000000
+  MemberName:CancelDirectOidRequestHandler FunctionAddress:0000000000000000
+  MemberName:SynchronousOidRequestHandler  FunctionAddress:0000000000000000
+MemberName:MiniportCharacteristics                      
+  MemberName:Ndis50Chars             
+  MemberName:MajorNdisVersion         unsigned char: 138
+  MemberName:MinorNdisVersion         unsigned char: 2
+  MemberName:Filler                   unsigned short: 152
+  MemberName:Reserved                 unsigned int: 73222
+  MemberName:CheckForHangHandler      FunctionAddress:0000000000000000
+  MemberName:DisableInterruptHandler  FunctionAddress:FFFFF80186F8AF80 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+  MemberName:EnableInterruptHandler   FunctionAddress:FFFFF80186F8AD20 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+  MemberName:HaltHandler              FunctionAddress:FFFFF80186F729B0 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+  MemberName:HandleInterruptHandler   FunctionAddress:FFFFF80186F8A340 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+  MemberName:InitializeHandler        FunctionAddress:FFFFF80186F72A70 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+  MemberName:ISRHandler               FunctionAddress:FFFFF80186F72B10 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+  MemberName:QueryInformationHandler  FunctionAddress:0000000000000000
+  MemberName:ReconfigureHandler       FunctionAddress:FFFFF80186F8CB20 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+  MemberName:ResetHandler             FunctionAddress:FFFFF80186F8CD10 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+  MemberName:SendHandler              FunctionAddress:FFFFF80186F8CB20 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+  MemberName:WanSendHandler           FunctionAddress:FFFFF80186F8CB20 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+  MemberName:SetInformationHandler    FunctionAddress:0000000000000000
+  MemberName:TransferDataHandler      FunctionAddress:0000000000000000
+  MemberName:WanTransferDataHandler   FunctionAddress:0000000000000000
+  MemberName:ReturnPacketHandler      FunctionAddress:FFFFF80186F8A330 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+  MemberName:SendPacketsHandler       FunctionAddress:FFFFF80186F71480 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+  MemberName:AllocateCompleteHandler  FunctionAddress:FFFFF80186F71480 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+  MemberName:CoCreateVcHandler        FunctionAddress:0000000000000000
+  MemberName:CoDeleteVcHandler        FunctionAddress:0000000000000000
+  MemberName:CoActivateVcHandler      FunctionAddress:0000000000000000
+  MemberName:CoDeactivateVcHandler    FunctionAddress:0000000000000000
+  MemberName:CoSendPacketsHandler     FunctionAddress:0000000000000000
+  MemberName:CoRequestHandler         FunctionAddress:0000000000000000
+  MemberName:CancelSendPacketsHandler FunctionAddress:0000000000000000
+  MemberName:PnPEventNotifyHandler    FunctionAddress:0000000000000000
+  MemberName:AdapterShutdownHandler   FunctionAddress:0000000000000000
+  MemberName:Reserved1                Void:0000000000000000
+  MemberName:Reserved2                Void:0000000000000000
+  MemberName:Reserved3                Void:0000000000000000
+  MemberName:Reserved4                Void:0000000000000000
+MemberName:UnhookedCharacteristics                       暂不处理
+MemberName:CxBlock                                       0000000000000000
+MemberName:MiniportsRemovedEvent                         暂不处理
+MemberName:Ref                                           暂不处理
+MemberName:IMStartRemoveMutex                            暂不处理
+MemberName:IMStartRemoveMutexOwnerThread                 0000000000000000
+MemberName:DriverVersion                                 ULong:65536
+MemberName:ServiceName                                   RasAgileVpn
+MemberName:CoCreateVcHandler                             FunctionAddress:FFFFF80186F71490 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+MemberName:CoDeleteVcHandler                             FunctionAddress:FFFFF80186F71490 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+MemberName:CoActivateVcHandler                           FunctionAddress:FFFFF80186F71490 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+MemberName:CoDeactivateVcHandler                         FunctionAddress:FFFFF80186F71490 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+MemberName:CoSendNetBufferListsHandler                   FunctionAddress:FFFFF80186F8CB40 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+MemberName:CoRequestHandler                              FunctionAddress:0000000000000000
+MemberName:CoOidRequestHandler                           FunctionAddress:FFFFF80186F71010 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+MemberName:InitiateOffloadHandler                        FunctionAddress:0000000000000000
+MemberName:TerminateOffloadHandler                       FunctionAddress:0000000000000000
+MemberName:UpdateOffloadHandler                          FunctionAddress:0000000000000000
+MemberName:InvalidateOffloadHandler                      FunctionAddress:0000000000000000
+MemberName:QueryOffloadHandler                           FunctionAddress:0000000000000000
+MemberName:TcpOffloadSendHandler                         FunctionAddress:0000000000000000
+MemberName:TcpOffloadReceiveHandler                      FunctionAddress:0000000000000000
+MemberName:TcpOffloadDisconnectHandler                   FunctionAddress:0000000000000000
+MemberName:TcpOffloadForwardHandler                      FunctionAddress:0000000000000000
+MemberName:CallMgrChars                                 
+  MemberName:Header                         暂不处理
+  MemberName:Reserved                       ULong:0
+  MemberName:CmCreateVcHandler              FunctionAddress:FFFFF80186F72EE0 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+  MemberName:CmDeleteVcHandler              FunctionAddress:FFFFF80186F73080 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+  MemberName:CmOpenAfHandler                FunctionAddress:FFFFF80186F73630 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+  MemberName:CmCloseAfHandler               FunctionAddress:FFFFF80186F72DB0 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+  MemberName:CmRegisterSapHandler           FunctionAddress:FFFFF80186F736C0 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+  MemberName:CmDeregisterSapHandler         FunctionAddress:FFFFF80186F731C0 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+  MemberName:CmMakeCallHandler              FunctionAddress:FFFFF80186F732C0 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+  MemberName:CmCloseCallHandler             FunctionAddress:FFFFF80186F72E20 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+  MemberName:CmIncomingCallCompleteHandler  FunctionAddress:FFFFF80186F8D0A0 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+  MemberName:CmAddPartyHandler              FunctionAddress:0000000000000000
+  MemberName:CmDropPartyHandler             FunctionAddress:0000000000000000
+  MemberName:CmActivateVcCompleteHandler    FunctionAddress:FFFFF80186F8CDF0 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+  MemberName:CmDeactivateVcCompleteHandler  FunctionAddress:FFFFF80186F8CFE0 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+  MemberName:CmModifyCallQoSHandler         FunctionAddress:FFFFF80186F8CB30 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+  MemberName:CmOidRequestHandler            FunctionAddress:FFFFF80186F738D0 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+  MemberName:CmOidRequestCompleteHandler    FunctionAddress:FFFFF80186F71480 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+  MemberName:CmNotifyCloseAfCompleteHandler FunctionAddress:FFFFF80186F71480 FullPathName:\SystemRoot\System32\drivers\AgileVpn.sys
+MemberName:AddDeviceHandler                              FunctionAddress:0000000000000000
+MemberName:RemoveDeviceHandler                           FunctionAddress:0000000000000000
+MemberName:FilterResourceRequirementsHandler             FunctionAddress:0000000000000000
+MemberName:StartDeviceHandler                            FunctionAddress:0000000000000000
+MemberName:OpenNDKAdapterHandler                         FunctionAddress:0000000000000000
+MemberName:CloseNDKAdapterHandler                        FunctionAddress:0000000000000000
+MemberName:SysPowerNotifyHandler                         FunctionAddress:0000000000000000
+MemberName:IdleNotificationHandler                       FunctionAddress:0000000000000000
+MemberName:CancelIdleNotificationHandler                 FunctionAddress:0000000000000000
+MemberName:DevicePowerNotifyHandler                      FunctionAddress:0000000000000000
+MemberName:ReenumerateFailedAdapterHandler               FunctionAddress:0000000000000000
+MemberName:LiveDumpCallback                              FunctionAddress:0000000000000000
+MemberName:ImageName                                     AgileVpn.sys
+MemberName:HookDriverHandle                              0000000000000000
+MemberName:HookType                                      0
+MemberName:HookRegistered                                bool:0
+MemberName:AllocateNetBufferListForwardingContextHandler FunctionAddress:0000000000000000
+MemberName:FreeNetBufferListForwardingContextHandler     FunctionAddress:0000000000000000
+MemberName:AddNetBufferListDestinationHandler            FunctionAddress:0000000000000000
+MemberName:SetNetBufferListSourceHandler                 FunctionAddress:0000000000000000
+MemberName:GrowNetBufferListDestinationsHandler          FunctionAddress:0000000000000000
+MemberName:GetNetBufferListDestinationsHandler           FunctionAddress:0000000000000000
+MemberName:UpdateNetBufferListDestinationsHandler        FunctionAddress:0000000000000000
+MemberName:CopyNetBufferListInfoHandler                  FunctionAddress:0000000000000000
+MemberName:ReferenceSwitchNicHandler                     FunctionAddress:0000000000000000
+MemberName:DereferenceSwitchNicHandler                   FunctionAddress:0000000000000000
+MemberName:ReferenceSwitchPortHandler                    FunctionAddress:0000000000000000
+MemberName:DereferenceSwitchPortHandler                  FunctionAddress:0000000000000000
+MemberName:ReportFilteredNetBufferListsHandler           FunctionAddress:0000000000000000
+MemberName:SetNetBufferListSwitchContextHandler          FunctionAddress:0000000000000000
+MemberName:GetNetBufferListSwitchContextHandler          FunctionAddress:0000000000000000
+MemberName:PDExtProviderRegisterClient                   FunctionAddress:0000000000000000
+MemberName:PDExtProviderDeregisterClient                 FunctionAddress:0000000000000000
+MemberName:PDExtProviderGetFreePDBuffer                  FunctionAddress:0000000000000000
+MemberName:PDExtProviderReturnPDBuffer                   FunctionAddress:0000000000000000
+MemberName:PDExtProviderInjectPDBuffer                   FunctionAddress:0000000000000000
+MemberName:PDExtProviderCopyPDBufferInfo                 FunctionAddress:0000000000000000
+MemberName:PDExtProviderGetPDBufferClientContext         FunctionAddress:0000000000000000
+MemberName:PDExtProviderGetPDBufferDestinations          FunctionAddress:0000000000000000
+MemberName:PDExtProviderAddPDBufferDestination           FunctionAddress:0000000000000000
+MemberName:PDExtProviderUpdatePDBufferDestinations       FunctionAddress:0000000000000000
+MemberName:PDExtProviderGetPDBufferForwardingDetail      FunctionAddress:0000000000000000
+MemberName:PDExtProviderSetupBufferFromPDBuffer          FunctionAddress:0000000000000000
+MemberName:PDExtProviderGrowPDBufferDestinations         FunctionAddress:0000000000000000
+MemberName:PDExtProviderGetSwitchInfo                    FunctionAddress:0000000000000000
+MemberName:PDBMCreateDomain                              FunctionAddress:0000000000000000
+MemberName:PDBMAddMemberToDomain                         FunctionAddress:0000000000000000
+MemberName:PDBMRemoveMemberFromDomain                    FunctionAddress:0000000000000000
+MemberName:PDBMDeleteDomain                              FunctionAddress:0000000000000000
+MemberName:PDBMAllocateCommonBuffer                      FunctionAddress:0000000000000000
+MemberName:PDBMFreeCommonBuffer                          FunctionAddress:0000000000000000
+
+---------------------------------------------------------------------------------------
+
+Index:6
+MemberName:Header                                        Type:2, Size:1184
+MemberName:NextDriver                                    FFFF9A8CA5087280
+MemberName:MiniportQueue                                 FFFF9A8CA70991A0
+MemberName:MajorNdisVersion                              unsigned char: 6
+MemberName:MinorNdisVersion                              unsigned char: 30
+MemberName:Flags                                         unsigned short: 0
+MemberName:NdisDriverInfo                                0000000000000000
+MemberName:DriverObject                                  FFFF9A8CA71F8E30
+MemberName:ServiceRegPath                                \REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\RasSstp
+MemberName:MiniportDriverContext                         FFFFF80186F392B8
+MemberName:AssociatedProtocol                            0000000000000000
+MemberName:DeviceList                                    FFFF9A8CA6FDBBD8
+MemberName:PendingDeviceList                             0000000000000000
+MemberName:UnloadHandler                                 FunctionAddress:0000000000000000
+MemberName:MiniportDriverCharacteristics                
+  MemberName:Header                        Type:138, Size:152
+  MemberName:MajorNdisVersion              unsigned char: 6
+  MemberName:MinorNdisVersion              unsigned char: 30
+  MemberName:MajorDriverVersion            unsigned char: 1
+  MemberName:MinorDriverVersion            unsigned char: 0
+  MemberName:Flags                         ULong:0
+  MemberName:SetOptionsHandler             FunctionAddress:FFFFF80186F32760 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+  MemberName:InitializeHandlerEx           FunctionAddress:FFFFF80186F3DF20 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+  MemberName:HaltHandlerEx                 FunctionAddress:FFFFF80186F3DEB0 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+  MemberName:UnloadHandler                 FunctionAddress:FFFFF80186F3D620 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+  MemberName:PauseHandler                  FunctionAddress:FFFFF80186F325D0 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+  MemberName:RestartHandler                FunctionAddress:FFFFF80186F32690 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+  MemberName:OidRequestHandler             FunctionAddress:0000000000000000
+  MemberName:SendNetBufferListsHandler     FunctionAddress:FFFFF80186F31470 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+  MemberName:ReturnNetBufferListsHandler   FunctionAddress:FFFFF80186F3F490 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+  MemberName:CancelSendHandler             FunctionAddress:FFFFF80186F31470 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+  MemberName:CheckForHangHandlerEx         FunctionAddress:0000000000000000
+  MemberName:ResetHandlerEx                FunctionAddress:0000000000000000
+  MemberName:DevicePnPEventNotifyHandler   FunctionAddress:FFFFF80186F31470 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+  MemberName:ShutdownHandlerEx             FunctionAddress:FFFFF80186F31470 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+  MemberName:CancelOidRequestHandler       FunctionAddress:FFFFF80186F31470 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+  MemberName:DirectOidRequestHandler       FunctionAddress:0000000000000000
+  MemberName:CancelDirectOidRequestHandler FunctionAddress:0000000000000000
+  MemberName:SynchronousOidRequestHandler  FunctionAddress:0000000000000000
+MemberName:MiniportCharacteristics                      
+  MemberName:Ndis50Chars             
+  MemberName:MajorNdisVersion         unsigned char: 138
+  MemberName:MinorNdisVersion         unsigned char: 2
+  MemberName:Filler                   unsigned short: 152
+  MemberName:Reserved                 unsigned int: 73222
+  MemberName:CheckForHangHandler      FunctionAddress:0000000000000000
+  MemberName:DisableInterruptHandler  FunctionAddress:FFFFF80186F32760 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+  MemberName:EnableInterruptHandler   FunctionAddress:FFFFF80186F3DF20 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+  MemberName:HaltHandler              FunctionAddress:FFFFF80186F3DEB0 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+  MemberName:HandleInterruptHandler   FunctionAddress:FFFFF80186F3D620 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+  MemberName:InitializeHandler        FunctionAddress:FFFFF80186F325D0 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+  MemberName:ISRHandler               FunctionAddress:FFFFF80186F32690 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+  MemberName:QueryInformationHandler  FunctionAddress:0000000000000000
+  MemberName:ReconfigureHandler       FunctionAddress:FFFFF80186F31470 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+  MemberName:ResetHandler             FunctionAddress:FFFFF80186F3F490 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+  MemberName:SendHandler              FunctionAddress:FFFFF80186F31470 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+  MemberName:WanSendHandler           FunctionAddress:FFFFF80186F31470 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+  MemberName:SetInformationHandler    FunctionAddress:0000000000000000
+  MemberName:TransferDataHandler      FunctionAddress:0000000000000000
+  MemberName:WanTransferDataHandler   FunctionAddress:0000000000000000
+  MemberName:ReturnPacketHandler      FunctionAddress:FFFFF80186F31470 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+  MemberName:SendPacketsHandler       FunctionAddress:FFFFF80186F31470 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+  MemberName:AllocateCompleteHandler  FunctionAddress:FFFFF80186F31470 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+  MemberName:CoCreateVcHandler        FunctionAddress:0000000000000000
+  MemberName:CoDeleteVcHandler        FunctionAddress:0000000000000000
+  MemberName:CoActivateVcHandler      FunctionAddress:0000000000000000
+  MemberName:CoDeactivateVcHandler    FunctionAddress:0000000000000000
+  MemberName:CoSendPacketsHandler     FunctionAddress:0000000000000000
+  MemberName:CoRequestHandler         FunctionAddress:0000000000000000
+  MemberName:CancelSendPacketsHandler FunctionAddress:0000000000000000
+  MemberName:PnPEventNotifyHandler    FunctionAddress:0000000000000000
+  MemberName:AdapterShutdownHandler   FunctionAddress:0000000000000000
+  MemberName:Reserved1                Void:0000000000000000
+  MemberName:Reserved2                Void:0000000000000000
+  MemberName:Reserved3                Void:0000000000000000
+  MemberName:Reserved4                Void:0000000000000000
+MemberName:UnhookedCharacteristics                       暂不处理
+MemberName:CxBlock                                       0000000000000000
+MemberName:MiniportsRemovedEvent                         暂不处理
+MemberName:Ref                                           暂不处理
+MemberName:IMStartRemoveMutex                            暂不处理
+MemberName:IMStartRemoveMutexOwnerThread                 0000000000000000
+MemberName:DriverVersion                                 ULong:65536
+MemberName:ServiceName                                   RasSstp
+MemberName:CoCreateVcHandler                             FunctionAddress:0000000000000000
+MemberName:CoDeleteVcHandler                             FunctionAddress:0000000000000000
+MemberName:CoActivateVcHandler                           FunctionAddress:0000000000000000
+MemberName:CoDeactivateVcHandler                         FunctionAddress:0000000000000000
+MemberName:CoSendNetBufferListsHandler                   FunctionAddress:FFFFF80186F3F2C0 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+MemberName:CoRequestHandler                              FunctionAddress:0000000000000000
+MemberName:CoOidRequestHandler                           FunctionAddress:FFFFF80186F312D0 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+MemberName:InitiateOffloadHandler                        FunctionAddress:0000000000000000
+MemberName:TerminateOffloadHandler                       FunctionAddress:0000000000000000
+MemberName:UpdateOffloadHandler                          FunctionAddress:0000000000000000
+MemberName:InvalidateOffloadHandler                      FunctionAddress:0000000000000000
+MemberName:QueryOffloadHandler                           FunctionAddress:0000000000000000
+MemberName:TcpOffloadSendHandler                         FunctionAddress:0000000000000000
+MemberName:TcpOffloadReceiveHandler                      FunctionAddress:0000000000000000
+MemberName:TcpOffloadDisconnectHandler                   FunctionAddress:0000000000000000
+MemberName:TcpOffloadForwardHandler                      FunctionAddress:0000000000000000
+MemberName:CallMgrChars                                 
+  MemberName:Header                         暂不处理
+  MemberName:Reserved                       ULong:0
+  MemberName:CmCreateVcHandler              FunctionAddress:FFFFF80186F34140 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+  MemberName:CmDeleteVcHandler              FunctionAddress:FFFFF80186F34440 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+  MemberName:CmOpenAfHandler                FunctionAddress:FFFFF80186F34C50 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+  MemberName:CmCloseAfHandler               FunctionAddress:FFFFF80186F33FF0 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+  MemberName:CmRegisterSapHandler           FunctionAddress:FFFFF80186F34CE0 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+  MemberName:CmDeregisterSapHandler         FunctionAddress:FFFFF80186F345F0 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+  MemberName:CmMakeCallHandler              FunctionAddress:FFFFF80186F34780 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+  MemberName:CmCloseCallHandler             FunctionAddress:FFFFF80186F34080 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+  MemberName:CmIncomingCallCompleteHandler  FunctionAddress:FFFFF80186F438B0 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+  MemberName:CmAddPartyHandler              FunctionAddress:0000000000000000
+  MemberName:CmDropPartyHandler             FunctionAddress:0000000000000000
+  MemberName:CmActivateVcCompleteHandler    FunctionAddress:FFFFF80186F434A0 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+  MemberName:CmDeactivateVcCompleteHandler  FunctionAddress:FFFFF80186F437C0 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+  MemberName:CmModifyCallQoSHandler         FunctionAddress:FFFFF80186F43AE0 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+  MemberName:CmOidRequestHandler            FunctionAddress:FFFFF80186F34FC0 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+  MemberName:CmOidRequestCompleteHandler    FunctionAddress:FFFFF80186F31470 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+  MemberName:CmNotifyCloseAfCompleteHandler FunctionAddress:FFFFF80186F31470 FullPathName:\SystemRoot\System32\drivers\rassstp.sys
+MemberName:AddDeviceHandler                              FunctionAddress:0000000000000000
+MemberName:RemoveDeviceHandler                           FunctionAddress:0000000000000000
+MemberName:FilterResourceRequirementsHandler             FunctionAddress:0000000000000000
+MemberName:StartDeviceHandler                            FunctionAddress:0000000000000000
+MemberName:OpenNDKAdapterHandler                         FunctionAddress:0000000000000000
+MemberName:CloseNDKAdapterHandler                        FunctionAddress:0000000000000000
+MemberName:SysPowerNotifyHandler                         FunctionAddress:0000000000000000
+MemberName:IdleNotificationHandler                       FunctionAddress:0000000000000000
+MemberName:CancelIdleNotificationHandler                 FunctionAddress:0000000000000000
+MemberName:DevicePowerNotifyHandler                      FunctionAddress:0000000000000000
+MemberName:ReenumerateFailedAdapterHandler               FunctionAddress:0000000000000000
+MemberName:LiveDumpCallback                              FunctionAddress:0000000000000000
+MemberName:ImageName                                     rassstp.sys
+MemberName:HookDriverHandle                              0000000000000000
+MemberName:HookType                                      0
+MemberName:HookRegistered                                bool:0
+MemberName:AllocateNetBufferListForwardingContextHandler FunctionAddress:0000000000000000
+MemberName:FreeNetBufferListForwardingContextHandler     FunctionAddress:0000000000000000
+MemberName:AddNetBufferListDestinationHandler            FunctionAddress:0000000000000000
+MemberName:SetNetBufferListSourceHandler                 FunctionAddress:0000000000000000
+MemberName:GrowNetBufferListDestinationsHandler          FunctionAddress:0000000000000000
+MemberName:GetNetBufferListDestinationsHandler           FunctionAddress:0000000000000000
+MemberName:UpdateNetBufferListDestinationsHandler        FunctionAddress:0000000000000000
+MemberName:CopyNetBufferListInfoHandler                  FunctionAddress:0000000000000000
+MemberName:ReferenceSwitchNicHandler                     FunctionAddress:0000000000000000
+MemberName:DereferenceSwitchNicHandler                   FunctionAddress:0000000000000000
+MemberName:ReferenceSwitchPortHandler                    FunctionAddress:0000000000000000
+MemberName:DereferenceSwitchPortHandler                  FunctionAddress:0000000000000000
+MemberName:ReportFilteredNetBufferListsHandler           FunctionAddress:0000000000000000
+MemberName:SetNetBufferListSwitchContextHandler          FunctionAddress:0000000000000000
+MemberName:GetNetBufferListSwitchContextHandler          FunctionAddress:0000000000000000
+MemberName:PDExtProviderRegisterClient                   FunctionAddress:0000000000000000
+MemberName:PDExtProviderDeregisterClient                 FunctionAddress:0000000000000000
+MemberName:PDExtProviderGetFreePDBuffer                  FunctionAddress:0000000000000000
+MemberName:PDExtProviderReturnPDBuffer                   FunctionAddress:0000000000000000
+MemberName:PDExtProviderInjectPDBuffer                   FunctionAddress:0000000000000000
+MemberName:PDExtProviderCopyPDBufferInfo                 FunctionAddress:0000000000000000
+MemberName:PDExtProviderGetPDBufferClientContext         FunctionAddress:0000000000000000
+MemberName:PDExtProviderGetPDBufferDestinations          FunctionAddress:0000000000000000
+MemberName:PDExtProviderAddPDBufferDestination           FunctionAddress:0000000000000000
+MemberName:PDExtProviderUpdatePDBufferDestinations       FunctionAddress:0000000000000000
+MemberName:PDExtProviderGetPDBufferForwardingDetail      FunctionAddress:0000000000000000
+MemberName:PDExtProviderSetupBufferFromPDBuffer          FunctionAddress:0000000000000000
+MemberName:PDExtProviderGrowPDBufferDestinations         FunctionAddress:0000000000000000
+MemberName:PDExtProviderGetSwitchInfo                    FunctionAddress:0000000000000000
+MemberName:PDBMCreateDomain                              FunctionAddress:0000000000000000
+MemberName:PDBMAddMemberToDomain                         FunctionAddress:0000000000000000
+MemberName:PDBMRemoveMemberFromDomain                    FunctionAddress:0000000000000000
+MemberName:PDBMDeleteDomain                              FunctionAddress:0000000000000000
+MemberName:PDBMAllocateCommonBuffer                      FunctionAddress:0000000000000000
+MemberName:PDBMFreeCommonBuffer                          FunctionAddress:0000000000000000
+
+---------------------------------------------------------------------------------------
+
+Index:7
+MemberName:Header                                        Type:2, Size:1184
+MemberName:NextDriver                                    FFFF9A8CA0681340
+MemberName:MiniportQueue                                 0000000000000000
+MemberName:MajorNdisVersion                              unsigned char: 6
+MemberName:MinorNdisVersion                              unsigned char: 83
+MemberName:Flags                                         unsigned short: 0
+MemberName:NdisDriverInfo                                0000000000000000
+MemberName:DriverObject                                  FFFF9A8C9BEBEE20
+MemberName:ServiceRegPath                                \REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\VMSP
+MemberName:MiniportDriverContext                         0000000000000000
+MemberName:AssociatedProtocol                            0000000000000000
+MemberName:DeviceList                                    FFFF9A8CA50872D0
+MemberName:PendingDeviceList                             0000000000000000
+MemberName:UnloadHandler                                 FunctionAddress:0000000000000000
+MemberName:MiniportDriverCharacteristics                
+  MemberName:Header                        Type:138, Size:160
+  MemberName:MajorNdisVersion              unsigned char: 6
+  MemberName:MinorNdisVersion              unsigned char: 83
+  MemberName:MajorDriverVersion            unsigned char: 19
+  MemberName:MinorDriverVersion            unsigned char: 0
+  MemberName:Flags                         ULong:0
+  MemberName:SetOptionsHandler             FunctionAddress:0000000000000000
+  MemberName:InitializeHandlerEx           FunctionAddress:FFFFF80179793D00 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+  MemberName:HaltHandlerEx                 FunctionAddress:FFFFF8017981CBA0 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+  MemberName:UnloadHandler                 FunctionAddress:FFFFF8017985A740 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+  MemberName:PauseHandler                  FunctionAddress:FFFFF801797946F0 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+  MemberName:RestartHandler                FunctionAddress:FFFFF8017985BBD0 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+  MemberName:OidRequestHandler             FunctionAddress:FFFFF80179799AF0 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+  MemberName:SendNetBufferListsHandler     FunctionAddress:FFFFF801797668B0 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+  MemberName:ReturnNetBufferListsHandler   FunctionAddress:FFFFF8017976F0F0 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+  MemberName:CancelSendHandler             FunctionAddress:FFFFF8017982E970 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+  MemberName:CheckForHangHandlerEx         FunctionAddress:0000000000000000
+  MemberName:ResetHandlerEx                FunctionAddress:0000000000000000
+  MemberName:DevicePnPEventNotifyHandler   FunctionAddress:FFFFF801797E8390 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+  MemberName:ShutdownHandlerEx             FunctionAddress:FFFFF8017985A490 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+  MemberName:CancelOidRequestHandler       FunctionAddress:FFFFF8017982E970 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+  MemberName:DirectOidRequestHandler       FunctionAddress:FFFFF8017985A5F0 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+  MemberName:CancelDirectOidRequestHandler FunctionAddress:FFFFF8017982E970 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+  MemberName:SynchronousOidRequestHandler  FunctionAddress:0000000000000000
+MemberName:MiniportCharacteristics                      
+  MemberName:Ndis50Chars             
+  MemberName:MajorNdisVersion         unsigned char: 138
+  MemberName:MinorNdisVersion         unsigned char: 3
+  MemberName:Filler                   unsigned short: 160
+  MemberName:Reserved                 unsigned int: 1266438
+  MemberName:CheckForHangHandler      FunctionAddress:0000000000000000
+  MemberName:DisableInterruptHandler  FunctionAddress:0000000000000000
+  MemberName:EnableInterruptHandler   FunctionAddress:FFFFF80179793D00 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+  MemberName:HaltHandler              FunctionAddress:FFFFF8017981CBA0 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+  MemberName:HandleInterruptHandler   FunctionAddress:FFFFF8017985A740 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+  MemberName:InitializeHandler        FunctionAddress:FFFFF801797946F0 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+  MemberName:ISRHandler               FunctionAddress:FFFFF8017985BBD0 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+  MemberName:QueryInformationHandler  FunctionAddress:FFFFF80179799AF0 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+  MemberName:ReconfigureHandler       FunctionAddress:FFFFF801797668B0 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+  MemberName:ResetHandler             FunctionAddress:FFFFF8017976F0F0 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+  MemberName:SendHandler              FunctionAddress:FFFFF8017982E970 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+  MemberName:WanSendHandler           FunctionAddress:FFFFF8017982E970 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+  MemberName:SetInformationHandler    FunctionAddress:0000000000000000
+  MemberName:TransferDataHandler      FunctionAddress:0000000000000000
+  MemberName:WanTransferDataHandler   FunctionAddress:0000000000000000
+  MemberName:ReturnPacketHandler      FunctionAddress:FFFFF801797E8390 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+  MemberName:SendPacketsHandler       FunctionAddress:FFFFF8017985A490 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+  MemberName:AllocateCompleteHandler  FunctionAddress:FFFFF8017982E970 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+  MemberName:CoCreateVcHandler        FunctionAddress:FFFFF8017985A5F0 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+  MemberName:CoDeleteVcHandler        FunctionAddress:FFFFF8017982E970 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+  MemberName:CoActivateVcHandler      FunctionAddress:0000000000000000
+  MemberName:CoDeactivateVcHandler    FunctionAddress:0000000000000000
+  MemberName:CoSendPacketsHandler     FunctionAddress:0000000000000000
+  MemberName:CoRequestHandler         FunctionAddress:0000000000000000
+  MemberName:CancelSendPacketsHandler FunctionAddress:0000000000000000
+  MemberName:PnPEventNotifyHandler    FunctionAddress:0000000000000000
+  MemberName:AdapterShutdownHandler   FunctionAddress:0000000000000000
+  MemberName:Reserved1                Void:0000000000000000
+  MemberName:Reserved2                Void:0000000000000000
+  MemberName:Reserved3                Void:0000000000000000
+  MemberName:Reserved4                Void:0000000000000000
+MemberName:UnhookedCharacteristics                       暂不处理
+MemberName:CxBlock                                       0000000000000000
+MemberName:MiniportsRemovedEvent                         暂不处理
+MemberName:Ref                                           暂不处理
+MemberName:IMStartRemoveMutex                            暂不处理
+MemberName:IMStartRemoveMutexOwnerThread                 0000000000000000
+MemberName:DriverVersion                                 ULong:1245184
+MemberName:ServiceName                                   VMSP
 MemberName:CoCreateVcHandler                             FunctionAddress:0000000000000000
 MemberName:CoDeleteVcHandler                             FunctionAddress:0000000000000000
 MemberName:CoActivateVcHandler                           FunctionAddress:0000000000000000
@@ -277,7 +1152,7 @@ MemberName:TcpOffloadReceiveHandler                      FunctionAddress:0000000
 MemberName:TcpOffloadDisconnectHandler                   FunctionAddress:0000000000000000
 MemberName:TcpOffloadForwardHandler                      FunctionAddress:0000000000000000
 MemberName:CallMgrChars                                 
-  MemberName:Header                         俺不关心这个，暂不处理
+  MemberName:Header                         暂不处理
   MemberName:Reserved                       ULong:0
   MemberName:CmCreateVcHandler              FunctionAddress:0000000000000000
   MemberName:CmDeleteVcHandler              FunctionAddress:0000000000000000
@@ -296,10 +1171,10 @@ MemberName:CallMgrChars
   MemberName:CmOidRequestHandler            FunctionAddress:0000000000000000
   MemberName:CmOidRequestCompleteHandler    FunctionAddress:0000000000000000
   MemberName:CmNotifyCloseAfCompleteHandler FunctionAddress:0000000000000000
-MemberName:AddDeviceHandler                              FunctionAddress:FFFFF8061F661540 FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-MemberName:RemoveDeviceHandler                           FunctionAddress:FFFFF8061F661F10 FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-MemberName:FilterResourceRequirementsHandler             FunctionAddress:FFFFF8061F6618D0 FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
-MemberName:StartDeviceHandler                            FunctionAddress:FFFFF8061F661FC0 FullPathName:\SystemRoot\System32\drivers\e1i68x64.sys
+MemberName:AddDeviceHandler                              FunctionAddress:0000000000000000
+MemberName:RemoveDeviceHandler                           FunctionAddress:0000000000000000
+MemberName:FilterResourceRequirementsHandler             FunctionAddress:0000000000000000
+MemberName:StartDeviceHandler                            FunctionAddress:0000000000000000
 MemberName:OpenNDKAdapterHandler                         FunctionAddress:0000000000000000
 MemberName:CloseNDKAdapterHandler                        FunctionAddress:0000000000000000
 MemberName:SysPowerNotifyHandler                         FunctionAddress:0000000000000000
@@ -308,7 +1183,532 @@ MemberName:CancelIdleNotificationHandler                 FunctionAddress:0000000
 MemberName:DevicePowerNotifyHandler                      FunctionAddress:0000000000000000
 MemberName:ReenumerateFailedAdapterHandler               FunctionAddress:0000000000000000
 MemberName:LiveDumpCallback                              FunctionAddress:0000000000000000
-MemberName:ImageName                                     e1i68x64.sys
+MemberName:ImageName                                     vmswitch.sys
+MemberName:HookDriverHandle                              0000000000000000
+MemberName:HookType                                      0
+MemberName:HookRegistered                                bool:0
+MemberName:AllocateNetBufferListForwardingContextHandler FunctionAddress:FFFFF80179825720 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+MemberName:FreeNetBufferListForwardingContextHandler     FunctionAddress:FFFFF80179776D20 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+MemberName:AddNetBufferListDestinationHandler            FunctionAddress:FFFFF8017976AA80 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+MemberName:SetNetBufferListSourceHandler                 FunctionAddress:FFFFF8017985AFE0 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+MemberName:GrowNetBufferListDestinationsHandler          FunctionAddress:FFFFF801797E1B60 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+MemberName:GetNetBufferListDestinationsHandler           FunctionAddress:FFFFF801797C3B90 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+MemberName:UpdateNetBufferListDestinationsHandler        FunctionAddress:FFFFF8017979C7A0 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+MemberName:CopyNetBufferListInfoHandler                  FunctionAddress:FFFFF8017985A790 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+MemberName:ReferenceSwitchNicHandler                     FunctionAddress:FFFFF8017985AD80 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+MemberName:DereferenceSwitchNicHandler                   FunctionAddress:FFFFF8017985AC30 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+MemberName:ReferenceSwitchPortHandler                    FunctionAddress:FFFFF8017982E980 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+MemberName:DereferenceSwitchPortHandler                  FunctionAddress:FFFFF80179799360 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+MemberName:ReportFilteredNetBufferListsHandler           FunctionAddress:FFFFF80179799490 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+MemberName:SetNetBufferListSwitchContextHandler          FunctionAddress:FFFFF8017985B1A0 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+MemberName:GetNetBufferListSwitchContextHandler          FunctionAddress:FFFFF8017985AD60 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+MemberName:PDExtProviderRegisterClient                   FunctionAddress:FFFFF8017985D650 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+MemberName:PDExtProviderDeregisterClient                 FunctionAddress:FFFFF8017985CF20 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+MemberName:PDExtProviderGetFreePDBuffer                  FunctionAddress:FFFFF8017985D030 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+MemberName:PDExtProviderReturnPDBuffer                   FunctionAddress:FFFFF8017985D990 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+MemberName:PDExtProviderInjectPDBuffer                   FunctionAddress:FFFFF8017985D560 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+MemberName:PDExtProviderCopyPDBufferInfo                 FunctionAddress:FFFFF8017985CC40 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+MemberName:PDExtProviderGetPDBufferClientContext         FunctionAddress:FFFFF8017985D270 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+MemberName:PDExtProviderGetPDBufferDestinations          FunctionAddress:FFFFF8017985D2A0 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+MemberName:PDExtProviderAddPDBufferDestination           FunctionAddress:FFFFF8017985CAB0 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+MemberName:PDExtProviderUpdatePDBufferDestinations       FunctionAddress:FFFFF8017985D9E0 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+MemberName:PDExtProviderGetPDBufferForwardingDetail      FunctionAddress:FFFFF8017985D320 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+MemberName:PDExtProviderSetupBufferFromPDBuffer          FunctionAddress:FFFFF8017985D9B0 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+MemberName:PDExtProviderGrowPDBufferDestinations         FunctionAddress:FFFFF8017985D440 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+MemberName:PDExtProviderGetSwitchInfo                    FunctionAddress:FFFFF8017985D330 FullPathName:\SystemRoot\System32\drivers\vmswitch.sys
+MemberName:PDBMCreateDomain                              FunctionAddress:0000000000000000
+MemberName:PDBMAddMemberToDomain                         FunctionAddress:0000000000000000
+MemberName:PDBMRemoveMemberFromDomain                    FunctionAddress:0000000000000000
+MemberName:PDBMDeleteDomain                              FunctionAddress:0000000000000000
+MemberName:PDBMAllocateCommonBuffer                      FunctionAddress:0000000000000000
+MemberName:PDBMFreeCommonBuffer                          FunctionAddress:0000000000000000
+
+---------------------------------------------------------------------------------------
+
+Index:8
+MemberName:Header                                        Type:2, Size:1184
+MemberName:NextDriver                                    FFFF9A8C9BD2AAE0
+MemberName:MiniportQueue                                 FFFF9A8CA078F1A0
+MemberName:MajorNdisVersion                              unsigned char: 6
+MemberName:MinorNdisVersion                              unsigned char: 70
+MemberName:Flags                                         unsigned short: 0
+MemberName:NdisDriverInfo                                0000000000000000
+MemberName:DriverObject                                  FFFF9A8CA0624E10
+MemberName:ServiceRegPath                                \REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\netvsc
+MemberName:MiniportDriverContext                         FFFF9A8CA0453010
+MemberName:AssociatedProtocol                            0000000000000000
+MemberName:DeviceList                                    FFFF9A8CA0681390
+MemberName:PendingDeviceList                             0000000000000000
+MemberName:UnloadHandler                                 FunctionAddress:0000000000000000
+MemberName:MiniportDriverCharacteristics                
+  MemberName:Header                        Type:138, Size:152
+  MemberName:MajorNdisVersion              unsigned char: 6
+  MemberName:MinorNdisVersion              unsigned char: 70
+  MemberName:MajorDriverVersion            unsigned char: 10
+  MemberName:MinorDriverVersion            unsigned char: 0
+  MemberName:Flags                         ULong:0
+  MemberName:SetOptionsHandler             FunctionAddress:FFFFF8016A91E320 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+  MemberName:InitializeHandlerEx           FunctionAddress:FFFFF8016A91B450 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+  MemberName:HaltHandlerEx                 FunctionAddress:FFFFF8016A91B120 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+  MemberName:UnloadHandler                 FunctionAddress:FFFFF8016A91E460 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+  MemberName:PauseHandler                  FunctionAddress:FFFFF8016A91D450 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+  MemberName:RestartHandler                FunctionAddress:FFFFF8016A91D880 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+  MemberName:OidRequestHandler             FunctionAddress:FFFFF8016A907580 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+  MemberName:SendNetBufferListsHandler     FunctionAddress:FFFFF8016A906560 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+  MemberName:ReturnNetBufferListsHandler   FunctionAddress:FFFFF8016A9056E0 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+  MemberName:CancelSendHandler             FunctionAddress:FFFFF8016A90D570 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+  MemberName:CheckForHangHandlerEx         FunctionAddress:0000000000000000
+  MemberName:ResetHandlerEx                FunctionAddress:0000000000000000
+  MemberName:DevicePnPEventNotifyHandler   FunctionAddress:FFFFF8016A91D600 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+  MemberName:ShutdownHandlerEx             FunctionAddress:FFFFF8016A91E410 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+  MemberName:CancelOidRequestHandler       FunctionAddress:FFFFF8016A90D570 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+  MemberName:DirectOidRequestHandler       FunctionAddress:FFFFF8016A9226E0 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+  MemberName:CancelDirectOidRequestHandler FunctionAddress:FFFFF8016A90D570 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+  MemberName:SynchronousOidRequestHandler  FunctionAddress:0000000000000000
+MemberName:MiniportCharacteristics                      
+  MemberName:Ndis50Chars             
+  MemberName:MajorNdisVersion         unsigned char: 138
+  MemberName:MinorNdisVersion         unsigned char: 2
+  MemberName:Filler                   unsigned short: 152
+  MemberName:Reserved                 unsigned int: 673286
+  MemberName:CheckForHangHandler      FunctionAddress:0000000000000000
+  MemberName:DisableInterruptHandler  FunctionAddress:FFFFF8016A91E320 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+  MemberName:EnableInterruptHandler   FunctionAddress:FFFFF8016A91B450 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+  MemberName:HaltHandler              FunctionAddress:FFFFF8016A91B120 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+  MemberName:HandleInterruptHandler   FunctionAddress:FFFFF8016A91E460 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+  MemberName:InitializeHandler        FunctionAddress:FFFFF8016A91D450 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+  MemberName:ISRHandler               FunctionAddress:FFFFF8016A91D880 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+  MemberName:QueryInformationHandler  FunctionAddress:FFFFF8016A907580 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+  MemberName:ReconfigureHandler       FunctionAddress:FFFFF8016A906560 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+  MemberName:ResetHandler             FunctionAddress:FFFFF8016A9056E0 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+  MemberName:SendHandler              FunctionAddress:FFFFF8016A90D570 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+  MemberName:WanSendHandler           FunctionAddress:FFFFF8016A90D570 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+  MemberName:SetInformationHandler    FunctionAddress:0000000000000000
+  MemberName:TransferDataHandler      FunctionAddress:0000000000000000
+  MemberName:WanTransferDataHandler   FunctionAddress:0000000000000000
+  MemberName:ReturnPacketHandler      FunctionAddress:FFFFF8016A91D600 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+  MemberName:SendPacketsHandler       FunctionAddress:FFFFF8016A91E410 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+  MemberName:AllocateCompleteHandler  FunctionAddress:FFFFF8016A90D570 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+  MemberName:CoCreateVcHandler        FunctionAddress:FFFFF8016A9226E0 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+  MemberName:CoDeleteVcHandler        FunctionAddress:FFFFF8016A90D570 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+  MemberName:CoActivateVcHandler      FunctionAddress:0000000000000000
+  MemberName:CoDeactivateVcHandler    FunctionAddress:0000000000000000
+  MemberName:CoSendPacketsHandler     FunctionAddress:0000000000000000
+  MemberName:CoRequestHandler         FunctionAddress:0000000000000000
+  MemberName:CancelSendPacketsHandler FunctionAddress:0000000000000000
+  MemberName:PnPEventNotifyHandler    FunctionAddress:0000000000000000
+  MemberName:AdapterShutdownHandler   FunctionAddress:0000000000000000
+  MemberName:Reserved1                Void:0000000000000000
+  MemberName:Reserved2                Void:0000000000000000
+  MemberName:Reserved3                Void:0000000000000000
+  MemberName:Reserved4                Void:0000000000000000
+MemberName:UnhookedCharacteristics                       暂不处理
+MemberName:CxBlock                                       0000000000000000
+MemberName:MiniportsRemovedEvent                         暂不处理
+MemberName:Ref                                           暂不处理
+MemberName:IMStartRemoveMutex                            暂不处理
+MemberName:IMStartRemoveMutexOwnerThread                 0000000000000000
+MemberName:DriverVersion                                 ULong:655360
+MemberName:ServiceName                                   netvsc
+MemberName:CoCreateVcHandler                             FunctionAddress:0000000000000000
+MemberName:CoDeleteVcHandler                             FunctionAddress:0000000000000000
+MemberName:CoActivateVcHandler                           FunctionAddress:0000000000000000
+MemberName:CoDeactivateVcHandler                         FunctionAddress:0000000000000000
+MemberName:CoSendNetBufferListsHandler                   FunctionAddress:0000000000000000
+MemberName:CoRequestHandler                              FunctionAddress:0000000000000000
+MemberName:CoOidRequestHandler                           FunctionAddress:0000000000000000
+MemberName:InitiateOffloadHandler                        FunctionAddress:0000000000000000
+MemberName:TerminateOffloadHandler                       FunctionAddress:0000000000000000
+MemberName:UpdateOffloadHandler                          FunctionAddress:0000000000000000
+MemberName:InvalidateOffloadHandler                      FunctionAddress:0000000000000000
+MemberName:QueryOffloadHandler                           FunctionAddress:0000000000000000
+MemberName:TcpOffloadSendHandler                         FunctionAddress:0000000000000000
+MemberName:TcpOffloadReceiveHandler                      FunctionAddress:0000000000000000
+MemberName:TcpOffloadDisconnectHandler                   FunctionAddress:0000000000000000
+MemberName:TcpOffloadForwardHandler                      FunctionAddress:0000000000000000
+MemberName:CallMgrChars                                 
+  MemberName:Header                         暂不处理
+  MemberName:Reserved                       ULong:0
+  MemberName:CmCreateVcHandler              FunctionAddress:0000000000000000
+  MemberName:CmDeleteVcHandler              FunctionAddress:0000000000000000
+  MemberName:CmOpenAfHandler                FunctionAddress:0000000000000000
+  MemberName:CmCloseAfHandler               FunctionAddress:0000000000000000
+  MemberName:CmRegisterSapHandler           FunctionAddress:0000000000000000
+  MemberName:CmDeregisterSapHandler         FunctionAddress:0000000000000000
+  MemberName:CmMakeCallHandler              FunctionAddress:0000000000000000
+  MemberName:CmCloseCallHandler             FunctionAddress:0000000000000000
+  MemberName:CmIncomingCallCompleteHandler  FunctionAddress:0000000000000000
+  MemberName:CmAddPartyHandler              FunctionAddress:0000000000000000
+  MemberName:CmDropPartyHandler             FunctionAddress:0000000000000000
+  MemberName:CmActivateVcCompleteHandler    FunctionAddress:0000000000000000
+  MemberName:CmDeactivateVcCompleteHandler  FunctionAddress:0000000000000000
+  MemberName:CmModifyCallQoSHandler         FunctionAddress:0000000000000000
+  MemberName:CmOidRequestHandler            FunctionAddress:0000000000000000
+  MemberName:CmOidRequestCompleteHandler    FunctionAddress:0000000000000000
+  MemberName:CmNotifyCloseAfCompleteHandler FunctionAddress:0000000000000000
+MemberName:AddDeviceHandler                              FunctionAddress:0000000000000000
+MemberName:RemoveDeviceHandler                           FunctionAddress:0000000000000000
+MemberName:FilterResourceRequirementsHandler             FunctionAddress:0000000000000000
+MemberName:StartDeviceHandler                            FunctionAddress:0000000000000000
+MemberName:OpenNDKAdapterHandler                         FunctionAddress:FFFFF8016A91D040 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+MemberName:CloseNDKAdapterHandler                        FunctionAddress:FFFFF8016A91AEE0 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+MemberName:SysPowerNotifyHandler                         FunctionAddress:0000000000000000
+MemberName:IdleNotificationHandler                       FunctionAddress:0000000000000000
+MemberName:CancelIdleNotificationHandler                 FunctionAddress:0000000000000000
+MemberName:DevicePowerNotifyHandler                      FunctionAddress:0000000000000000
+MemberName:ReenumerateFailedAdapterHandler               FunctionAddress:0000000000000000
+MemberName:LiveDumpCallback                              FunctionAddress:0000000000000000
+MemberName:ImageName                                     netvsc.sys
+MemberName:HookDriverHandle                              0000000000000000
+MemberName:HookType                                      0
+MemberName:HookRegistered                                bool:0
+MemberName:AllocateNetBufferListForwardingContextHandler FunctionAddress:0000000000000000
+MemberName:FreeNetBufferListForwardingContextHandler     FunctionAddress:0000000000000000
+MemberName:AddNetBufferListDestinationHandler            FunctionAddress:0000000000000000
+MemberName:SetNetBufferListSourceHandler                 FunctionAddress:0000000000000000
+MemberName:GrowNetBufferListDestinationsHandler          FunctionAddress:0000000000000000
+MemberName:GetNetBufferListDestinationsHandler           FunctionAddress:0000000000000000
+MemberName:UpdateNetBufferListDestinationsHandler        FunctionAddress:0000000000000000
+MemberName:CopyNetBufferListInfoHandler                  FunctionAddress:0000000000000000
+MemberName:ReferenceSwitchNicHandler                     FunctionAddress:0000000000000000
+MemberName:DereferenceSwitchNicHandler                   FunctionAddress:0000000000000000
+MemberName:ReferenceSwitchPortHandler                    FunctionAddress:0000000000000000
+MemberName:DereferenceSwitchPortHandler                  FunctionAddress:0000000000000000
+MemberName:ReportFilteredNetBufferListsHandler           FunctionAddress:0000000000000000
+MemberName:SetNetBufferListSwitchContextHandler          FunctionAddress:0000000000000000
+MemberName:GetNetBufferListSwitchContextHandler          FunctionAddress:0000000000000000
+MemberName:PDExtProviderRegisterClient                   FunctionAddress:0000000000000000
+MemberName:PDExtProviderDeregisterClient                 FunctionAddress:0000000000000000
+MemberName:PDExtProviderGetFreePDBuffer                  FunctionAddress:0000000000000000
+MemberName:PDExtProviderReturnPDBuffer                   FunctionAddress:0000000000000000
+MemberName:PDExtProviderInjectPDBuffer                   FunctionAddress:0000000000000000
+MemberName:PDExtProviderCopyPDBufferInfo                 FunctionAddress:0000000000000000
+MemberName:PDExtProviderGetPDBufferClientContext         FunctionAddress:0000000000000000
+MemberName:PDExtProviderGetPDBufferDestinations          FunctionAddress:0000000000000000
+MemberName:PDExtProviderAddPDBufferDestination           FunctionAddress:0000000000000000
+MemberName:PDExtProviderUpdatePDBufferDestinations       FunctionAddress:0000000000000000
+MemberName:PDExtProviderGetPDBufferForwardingDetail      FunctionAddress:0000000000000000
+MemberName:PDExtProviderSetupBufferFromPDBuffer          FunctionAddress:0000000000000000
+MemberName:PDExtProviderGrowPDBufferDestinations         FunctionAddress:0000000000000000
+MemberName:PDExtProviderGetSwitchInfo                    FunctionAddress:0000000000000000
+MemberName:PDBMCreateDomain                              FunctionAddress:FFFFF8016A941D30 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+MemberName:PDBMAddMemberToDomain                         FunctionAddress:FFFFF8016A941A60 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+MemberName:PDBMRemoveMemberFromDomain                    FunctionAddress:FFFFF8016A942010 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+MemberName:PDBMDeleteDomain                              FunctionAddress:FFFFF8016A941E30 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+MemberName:PDBMAllocateCommonBuffer                      FunctionAddress:FFFFF8016A941AD0 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+MemberName:PDBMFreeCommonBuffer                          FunctionAddress:FFFFF8016A941EB0 FullPathName:\SystemRoot\System32\drivers\netvsc.sys
+
+---------------------------------------------------------------------------------------
+
+Index:9
+MemberName:Header                                        Type:2, Size:1184
+MemberName:NextDriver                                    FFFF9A8C9BFC68D0
+MemberName:MiniportQueue                                 0000000000000000
+MemberName:MajorNdisVersion                              unsigned char: 6
+MemberName:MinorNdisVersion                              unsigned char: 81
+MemberName:Flags                                         unsigned short: 128
+MemberName:NdisDriverInfo                                0000000000000000
+MemberName:DriverObject                                  0000000000000000
+MemberName:ServiceRegPath                                \Registry\Machine\System\CurrentControlSet\Services\VMSNPXY
+MemberName:MiniportDriverContext                         0000000000000000
+MemberName:AssociatedProtocol                            0000000000000000
+MemberName:DeviceList                                    FFFF9A8C9BD2AB30
+MemberName:PendingDeviceList                             0000000000000000
+MemberName:UnloadHandler                                 FunctionAddress:0000000000000000
+MemberName:MiniportDriverCharacteristics                
+  MemberName:Header                        Type:138, Size:160
+  MemberName:MajorNdisVersion              unsigned char: 6
+  MemberName:MinorNdisVersion              unsigned char: 81
+  MemberName:MajorDriverVersion            unsigned char: 1
+  MemberName:MinorDriverVersion            unsigned char: 1
+  MemberName:Flags                         ULong:32
+  MemberName:SetOptionsHandler             FunctionAddress:FFFFF80668F92D40 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:InitializeHandlerEx           FunctionAddress:0000000000000000
+  MemberName:HaltHandlerEx                 FunctionAddress:0000000000000000
+  MemberName:UnloadHandler                 FunctionAddress:0000000000000000
+  MemberName:PauseHandler                  FunctionAddress:FFFFF80668F927E0 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:RestartHandler                FunctionAddress:FFFFF80668F92A10 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:OidRequestHandler             FunctionAddress:FFFFF80668F92660 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:SendNetBufferListsHandler     FunctionAddress:FFFFF80668F92B10 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:ReturnNetBufferListsHandler   FunctionAddress:FFFFF80668F92AE0 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:CancelSendHandler             FunctionAddress:FFFFF80668F91440 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:CheckForHangHandlerEx         FunctionAddress:0000000000000000
+  MemberName:ResetHandlerEx                FunctionAddress:0000000000000000
+  MemberName:DevicePnPEventNotifyHandler   FunctionAddress:0000000000000000
+  MemberName:ShutdownHandlerEx             FunctionAddress:0000000000000000
+  MemberName:CancelOidRequestHandler       FunctionAddress:FFFFF80668F913B0 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:DirectOidRequestHandler       FunctionAddress:FFFFF80668F918C0 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:CancelDirectOidRequestHandler FunctionAddress:FFFFF80668F91320 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:SynchronousOidRequestHandler  FunctionAddress:0000000000000000
+MemberName:MiniportCharacteristics                      
+  MemberName:Ndis50Chars             
+  MemberName:MajorNdisVersion         unsigned char: 138
+  MemberName:MinorNdisVersion         unsigned char: 3
+  MemberName:Filler                   unsigned short: 160
+  MemberName:Reserved                 unsigned int: 16863494
+  MemberName:CheckForHangHandler      FunctionAddress:0000000000000020
+  MemberName:DisableInterruptHandler  FunctionAddress:FFFFF80668F92D40 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:EnableInterruptHandler   FunctionAddress:0000000000000000
+  MemberName:HaltHandler              FunctionAddress:0000000000000000
+  MemberName:HandleInterruptHandler   FunctionAddress:0000000000000000
+  MemberName:InitializeHandler        FunctionAddress:FFFFF80668F927E0 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:ISRHandler               FunctionAddress:FFFFF80668F92A10 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:QueryInformationHandler  FunctionAddress:FFFFF80668F92660 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:ReconfigureHandler       FunctionAddress:FFFFF80668F92B10 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:ResetHandler             FunctionAddress:FFFFF80668F92AE0 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:SendHandler              FunctionAddress:FFFFF80668F91440 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:WanSendHandler           FunctionAddress:FFFFF80668F91440 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:SetInformationHandler    FunctionAddress:0000000000000000
+  MemberName:TransferDataHandler      FunctionAddress:0000000000000000
+  MemberName:WanTransferDataHandler   FunctionAddress:0000000000000000
+  MemberName:ReturnPacketHandler      FunctionAddress:0000000000000000
+  MemberName:SendPacketsHandler       FunctionAddress:0000000000000000
+  MemberName:AllocateCompleteHandler  FunctionAddress:FFFFF80668F913B0 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:CoCreateVcHandler        FunctionAddress:FFFFF80668F918C0 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:CoDeleteVcHandler        FunctionAddress:FFFFF80668F91320 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:CoActivateVcHandler      FunctionAddress:0000000000000000
+  MemberName:CoDeactivateVcHandler    FunctionAddress:0000000000000000
+  MemberName:CoSendPacketsHandler     FunctionAddress:0000000000000000
+  MemberName:CoRequestHandler         FunctionAddress:0000000000000000
+  MemberName:CancelSendPacketsHandler FunctionAddress:0000000000000000
+  MemberName:PnPEventNotifyHandler    FunctionAddress:0000000000000000
+  MemberName:AdapterShutdownHandler   FunctionAddress:0000000000000000
+  MemberName:Reserved1                Void:0000000000000000
+  MemberName:Reserved2                Void:0000000000000000
+  MemberName:Reserved3                Void:0000000000000000
+  MemberName:Reserved4                Void:0000000000000000
+MemberName:UnhookedCharacteristics                       暂不处理
+MemberName:CxBlock                                       0000000000000000
+MemberName:MiniportsRemovedEvent                         暂不处理
+MemberName:Ref                                           暂不处理
+MemberName:IMStartRemoveMutex                            暂不处理
+MemberName:IMStartRemoveMutexOwnerThread                 0000000000000000
+MemberName:DriverVersion                                 ULong:65537
+MemberName:ServiceName                                   VMSNPXY
+MemberName:CoCreateVcHandler                             FunctionAddress:0000000000000000
+MemberName:CoDeleteVcHandler                             FunctionAddress:0000000000000000
+MemberName:CoActivateVcHandler                           FunctionAddress:0000000000000000
+MemberName:CoDeactivateVcHandler                         FunctionAddress:0000000000000000
+MemberName:CoSendNetBufferListsHandler                   FunctionAddress:0000000000000000
+MemberName:CoRequestHandler                              FunctionAddress:0000000000000000
+MemberName:CoOidRequestHandler                           FunctionAddress:0000000000000000
+MemberName:InitiateOffloadHandler                        FunctionAddress:0000000000000000
+MemberName:TerminateOffloadHandler                       FunctionAddress:0000000000000000
+MemberName:UpdateOffloadHandler                          FunctionAddress:0000000000000000
+MemberName:InvalidateOffloadHandler                      FunctionAddress:0000000000000000
+MemberName:QueryOffloadHandler                           FunctionAddress:0000000000000000
+MemberName:TcpOffloadSendHandler                         FunctionAddress:0000000000000000
+MemberName:TcpOffloadReceiveHandler                      FunctionAddress:0000000000000000
+MemberName:TcpOffloadDisconnectHandler                   FunctionAddress:0000000000000000
+MemberName:TcpOffloadForwardHandler                      FunctionAddress:0000000000000000
+MemberName:CallMgrChars                                 
+  MemberName:Header                         暂不处理
+  MemberName:Reserved                       ULong:0
+  MemberName:CmCreateVcHandler              FunctionAddress:0000000000000000
+  MemberName:CmDeleteVcHandler              FunctionAddress:0000000000000000
+  MemberName:CmOpenAfHandler                FunctionAddress:0000000000000000
+  MemberName:CmCloseAfHandler               FunctionAddress:0000000000000000
+  MemberName:CmRegisterSapHandler           FunctionAddress:0000000000000000
+  MemberName:CmDeregisterSapHandler         FunctionAddress:0000000000000000
+  MemberName:CmMakeCallHandler              FunctionAddress:0000000000000000
+  MemberName:CmCloseCallHandler             FunctionAddress:0000000000000000
+  MemberName:CmIncomingCallCompleteHandler  FunctionAddress:0000000000000000
+  MemberName:CmAddPartyHandler              FunctionAddress:0000000000000000
+  MemberName:CmDropPartyHandler             FunctionAddress:0000000000000000
+  MemberName:CmActivateVcCompleteHandler    FunctionAddress:0000000000000000
+  MemberName:CmDeactivateVcCompleteHandler  FunctionAddress:0000000000000000
+  MemberName:CmModifyCallQoSHandler         FunctionAddress:0000000000000000
+  MemberName:CmOidRequestHandler            FunctionAddress:0000000000000000
+  MemberName:CmOidRequestCompleteHandler    FunctionAddress:0000000000000000
+  MemberName:CmNotifyCloseAfCompleteHandler FunctionAddress:0000000000000000
+MemberName:AddDeviceHandler                              FunctionAddress:0000000000000000
+MemberName:RemoveDeviceHandler                           FunctionAddress:0000000000000000
+MemberName:FilterResourceRequirementsHandler             FunctionAddress:0000000000000000
+MemberName:StartDeviceHandler                            FunctionAddress:0000000000000000
+MemberName:OpenNDKAdapterHandler                         FunctionAddress:FFFFF80668F92720 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+MemberName:CloseNDKAdapterHandler                        FunctionAddress:FFFFF80668F914D0 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+MemberName:SysPowerNotifyHandler                         FunctionAddress:0000000000000000
+MemberName:IdleNotificationHandler                       FunctionAddress:0000000000000000
+MemberName:CancelIdleNotificationHandler                 FunctionAddress:0000000000000000
+MemberName:DevicePowerNotifyHandler                      FunctionAddress:0000000000000000
+MemberName:ReenumerateFailedAdapterHandler               FunctionAddress:0000000000000000
+MemberName:LiveDumpCallback                              FunctionAddress:0000000000000000
+MemberName:ImageName                                     VmsProxyHNic.sys
+MemberName:HookDriverHandle                              0000000000000000
+MemberName:HookType                                      0
+MemberName:HookRegistered                                bool:0
+MemberName:AllocateNetBufferListForwardingContextHandler FunctionAddress:0000000000000000
+MemberName:FreeNetBufferListForwardingContextHandler     FunctionAddress:0000000000000000
+MemberName:AddNetBufferListDestinationHandler            FunctionAddress:0000000000000000
+MemberName:SetNetBufferListSourceHandler                 FunctionAddress:0000000000000000
+MemberName:GrowNetBufferListDestinationsHandler          FunctionAddress:0000000000000000
+MemberName:GetNetBufferListDestinationsHandler           FunctionAddress:0000000000000000
+MemberName:UpdateNetBufferListDestinationsHandler        FunctionAddress:0000000000000000
+MemberName:CopyNetBufferListInfoHandler                  FunctionAddress:0000000000000000
+MemberName:ReferenceSwitchNicHandler                     FunctionAddress:0000000000000000
+MemberName:DereferenceSwitchNicHandler                   FunctionAddress:0000000000000000
+MemberName:ReferenceSwitchPortHandler                    FunctionAddress:0000000000000000
+MemberName:DereferenceSwitchPortHandler                  FunctionAddress:0000000000000000
+MemberName:ReportFilteredNetBufferListsHandler           FunctionAddress:0000000000000000
+MemberName:SetNetBufferListSwitchContextHandler          FunctionAddress:0000000000000000
+MemberName:GetNetBufferListSwitchContextHandler          FunctionAddress:0000000000000000
+MemberName:PDExtProviderRegisterClient                   FunctionAddress:0000000000000000
+MemberName:PDExtProviderDeregisterClient                 FunctionAddress:0000000000000000
+MemberName:PDExtProviderGetFreePDBuffer                  FunctionAddress:0000000000000000
+MemberName:PDExtProviderReturnPDBuffer                   FunctionAddress:0000000000000000
+MemberName:PDExtProviderInjectPDBuffer                   FunctionAddress:0000000000000000
+MemberName:PDExtProviderCopyPDBufferInfo                 FunctionAddress:0000000000000000
+MemberName:PDExtProviderGetPDBufferClientContext         FunctionAddress:0000000000000000
+MemberName:PDExtProviderGetPDBufferDestinations          FunctionAddress:0000000000000000
+MemberName:PDExtProviderAddPDBufferDestination           FunctionAddress:0000000000000000
+MemberName:PDExtProviderUpdatePDBufferDestinations       FunctionAddress:0000000000000000
+MemberName:PDExtProviderGetPDBufferForwardingDetail      FunctionAddress:0000000000000000
+MemberName:PDExtProviderSetupBufferFromPDBuffer          FunctionAddress:0000000000000000
+MemberName:PDExtProviderGrowPDBufferDestinations         FunctionAddress:0000000000000000
+MemberName:PDExtProviderGetSwitchInfo                    FunctionAddress:0000000000000000
+MemberName:PDBMCreateDomain                              FunctionAddress:0000000000000000
+MemberName:PDBMAddMemberToDomain                         FunctionAddress:0000000000000000
+MemberName:PDBMRemoveMemberFromDomain                    FunctionAddress:0000000000000000
+MemberName:PDBMDeleteDomain                              FunctionAddress:0000000000000000
+MemberName:PDBMAllocateCommonBuffer                      FunctionAddress:0000000000000000
+MemberName:PDBMFreeCommonBuffer                          FunctionAddress:0000000000000000
+
+---------------------------------------------------------------------------------------
+
+Index:10
+MemberName:Header                                        Type:2, Size:1184
+MemberName:NextDriver                                    0000000000000000
+MemberName:MiniportQueue                                 0000000000000000
+MemberName:MajorNdisVersion                              unsigned char: 6
+MemberName:MinorNdisVersion                              unsigned char: 83
+MemberName:Flags                                         unsigned short: 1
+MemberName:NdisDriverInfo                                0000000000000000
+MemberName:DriverObject                                  FFFF9A8C9BEB3E20
+MemberName:ServiceRegPath                                \Registry\Machine\System\CurrentControlSet\Services\VMSNPXY
+MemberName:MiniportDriverContext                         0000000000000000
+MemberName:AssociatedProtocol                            FFFF9A8CA4E82C70
+MemberName:DeviceList                                    FFFF9A8C9BF46DB8
+MemberName:PendingDeviceList                             0000000000000000
+MemberName:UnloadHandler                                 FunctionAddress:0000000000000000
+MemberName:MiniportDriverCharacteristics                
+  MemberName:Header                        Type:138, Size:160
+  MemberName:MajorNdisVersion              unsigned char: 6
+  MemberName:MinorNdisVersion              unsigned char: 83
+  MemberName:MajorDriverVersion            unsigned char: 1
+  MemberName:MinorDriverVersion            unsigned char: 1
+  MemberName:Flags                         ULong:1
+  MemberName:SetOptionsHandler             FunctionAddress:FFFFF80668F92D40 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:InitializeHandlerEx           FunctionAddress:FFFFF80668F91E10 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:HaltHandlerEx                 FunctionAddress:FFFFF80668F91A40 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:UnloadHandler                 FunctionAddress:FFFFF80668F91970 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:PauseHandler                  FunctionAddress:FFFFF80668F927E0 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:RestartHandler                FunctionAddress:FFFFF80668F92A10 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:OidRequestHandler             FunctionAddress:FFFFF80668F92660 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:SendNetBufferListsHandler     FunctionAddress:FFFFF80668F92B10 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:ReturnNetBufferListsHandler   FunctionAddress:FFFFF80668F92AE0 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:CancelSendHandler             FunctionAddress:FFFFF80668F91440 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:CheckForHangHandlerEx         FunctionAddress:0000000000000000
+  MemberName:ResetHandlerEx                FunctionAddress:0000000000000000
+  MemberName:DevicePnPEventNotifyHandler   FunctionAddress:FFFFF80668F91820 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:ShutdownHandlerEx             FunctionAddress:FFFFF80668F91050 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:CancelOidRequestHandler       FunctionAddress:FFFFF80668F913B0 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:DirectOidRequestHandler       FunctionAddress:FFFFF80668F918C0 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:CancelDirectOidRequestHandler FunctionAddress:FFFFF80668F91320 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:SynchronousOidRequestHandler  FunctionAddress:0000000000000000
+MemberName:MiniportCharacteristics                      
+  MemberName:Ndis50Chars             
+  MemberName:MajorNdisVersion         unsigned char: 138
+  MemberName:MinorNdisVersion         unsigned char: 3
+  MemberName:Filler                   unsigned short: 160
+  MemberName:Reserved                 unsigned int: 16864006
+  MemberName:CheckForHangHandler      FunctionAddress:0000000000000001
+  MemberName:DisableInterruptHandler  FunctionAddress:FFFFF80668F92D40 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:EnableInterruptHandler   FunctionAddress:FFFFF80668F91E10 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:HaltHandler              FunctionAddress:FFFFF80668F91A40 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:HandleInterruptHandler   FunctionAddress:FFFFF80668F91970 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:InitializeHandler        FunctionAddress:FFFFF80668F927E0 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:ISRHandler               FunctionAddress:FFFFF80668F92A10 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:QueryInformationHandler  FunctionAddress:FFFFF80668F92660 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:ReconfigureHandler       FunctionAddress:FFFFF80668F92B10 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:ResetHandler             FunctionAddress:FFFFF80668F92AE0 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:SendHandler              FunctionAddress:FFFFF80668F91440 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:WanSendHandler           FunctionAddress:FFFFF80668F91440 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:SetInformationHandler    FunctionAddress:0000000000000000
+  MemberName:TransferDataHandler      FunctionAddress:0000000000000000
+  MemberName:WanTransferDataHandler   FunctionAddress:0000000000000000
+  MemberName:ReturnPacketHandler      FunctionAddress:FFFFF80668F91820 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:SendPacketsHandler       FunctionAddress:FFFFF80668F91050 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:AllocateCompleteHandler  FunctionAddress:FFFFF80668F913B0 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:CoCreateVcHandler        FunctionAddress:FFFFF80668F918C0 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:CoDeleteVcHandler        FunctionAddress:FFFFF80668F91320 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+  MemberName:CoActivateVcHandler      FunctionAddress:0000000000000000
+  MemberName:CoDeactivateVcHandler    FunctionAddress:0000000000000000
+  MemberName:CoSendPacketsHandler     FunctionAddress:0000000000000000
+  MemberName:CoRequestHandler         FunctionAddress:0000000000000000
+  MemberName:CancelSendPacketsHandler FunctionAddress:0000000000000000
+  MemberName:PnPEventNotifyHandler    FunctionAddress:0000000000000000
+  MemberName:AdapterShutdownHandler   FunctionAddress:0000000000000000
+  MemberName:Reserved1                Void:0000000000000000
+  MemberName:Reserved2                Void:0000000000000000
+  MemberName:Reserved3                Void:0000000000000000
+  MemberName:Reserved4                Void:0000000000000000
+MemberName:UnhookedCharacteristics                       暂不处理
+MemberName:CxBlock                                       0000000000000000
+MemberName:MiniportsRemovedEvent                         暂不处理
+MemberName:Ref                                           暂不处理
+MemberName:IMStartRemoveMutex                            暂不处理
+MemberName:IMStartRemoveMutexOwnerThread                 0000000000000000
+MemberName:DriverVersion                                 ULong:65537
+MemberName:ServiceName                                   VMSNPXY
+MemberName:CoCreateVcHandler                             FunctionAddress:0000000000000000
+MemberName:CoDeleteVcHandler                             FunctionAddress:0000000000000000
+MemberName:CoActivateVcHandler                           FunctionAddress:0000000000000000
+MemberName:CoDeactivateVcHandler                         FunctionAddress:0000000000000000
+MemberName:CoSendNetBufferListsHandler                   FunctionAddress:0000000000000000
+MemberName:CoRequestHandler                              FunctionAddress:0000000000000000
+MemberName:CoOidRequestHandler                           FunctionAddress:0000000000000000
+MemberName:InitiateOffloadHandler                        FunctionAddress:0000000000000000
+MemberName:TerminateOffloadHandler                       FunctionAddress:0000000000000000
+MemberName:UpdateOffloadHandler                          FunctionAddress:0000000000000000
+MemberName:InvalidateOffloadHandler                      FunctionAddress:0000000000000000
+MemberName:QueryOffloadHandler                           FunctionAddress:0000000000000000
+MemberName:TcpOffloadSendHandler                         FunctionAddress:0000000000000000
+MemberName:TcpOffloadReceiveHandler                      FunctionAddress:0000000000000000
+MemberName:TcpOffloadDisconnectHandler                   FunctionAddress:0000000000000000
+MemberName:TcpOffloadForwardHandler                      FunctionAddress:0000000000000000
+MemberName:CallMgrChars                                 
+  MemberName:Header                         暂不处理
+  MemberName:Reserved                       ULong:0
+  MemberName:CmCreateVcHandler              FunctionAddress:0000000000000000
+  MemberName:CmDeleteVcHandler              FunctionAddress:0000000000000000
+  MemberName:CmOpenAfHandler                FunctionAddress:0000000000000000
+  MemberName:CmCloseAfHandler               FunctionAddress:0000000000000000
+  MemberName:CmRegisterSapHandler           FunctionAddress:0000000000000000
+  MemberName:CmDeregisterSapHandler         FunctionAddress:0000000000000000
+  MemberName:CmMakeCallHandler              FunctionAddress:0000000000000000
+  MemberName:CmCloseCallHandler             FunctionAddress:0000000000000000
+  MemberName:CmIncomingCallCompleteHandler  FunctionAddress:0000000000000000
+  MemberName:CmAddPartyHandler              FunctionAddress:0000000000000000
+  MemberName:CmDropPartyHandler             FunctionAddress:0000000000000000
+  MemberName:CmActivateVcCompleteHandler    FunctionAddress:0000000000000000
+  MemberName:CmDeactivateVcCompleteHandler  FunctionAddress:0000000000000000
+  MemberName:CmModifyCallQoSHandler         FunctionAddress:0000000000000000
+  MemberName:CmOidRequestHandler            FunctionAddress:0000000000000000
+  MemberName:CmOidRequestCompleteHandler    FunctionAddress:0000000000000000
+  MemberName:CmNotifyCloseAfCompleteHandler FunctionAddress:0000000000000000
+MemberName:AddDeviceHandler                              FunctionAddress:0000000000000000
+MemberName:RemoveDeviceHandler                           FunctionAddress:0000000000000000
+MemberName:FilterResourceRequirementsHandler             FunctionAddress:0000000000000000
+MemberName:StartDeviceHandler                            FunctionAddress:0000000000000000
+MemberName:OpenNDKAdapterHandler                         FunctionAddress:FFFFF80668F92720 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+MemberName:CloseNDKAdapterHandler                        FunctionAddress:FFFFF80668F914D0 FullPathName:\SystemRoot\system32\drivers\VmsProxyHNic.sys
+MemberName:SysPowerNotifyHandler                         FunctionAddress:0000000000000000
+MemberName:IdleNotificationHandler                       FunctionAddress:0000000000000000
+MemberName:CancelIdleNotificationHandler                 FunctionAddress:0000000000000000
+MemberName:DevicePowerNotifyHandler                      FunctionAddress:0000000000000000
+MemberName:ReenumerateFailedAdapterHandler               FunctionAddress:0000000000000000
+MemberName:LiveDumpCallback                              FunctionAddress:0000000000000000
+MemberName:ImageName                                     VmsProxyHNic.sys
 MemberName:HookDriverHandle                              0000000000000000
 MemberName:HookType                                      0
 MemberName:HookRegistered                                bool:0
